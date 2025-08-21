@@ -51,6 +51,8 @@
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^5.4.0",
     "eslint-plugin-react": "^7.37.5",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.5",
     "npm-run-all2": "~8.0.1",
     "prettier": "^3.5.3",
     "typescript": "~5.8.3"
@@ -65,6 +67,16 @@
     "sitecore-tools:generate-map:watch": "sitecore-tools project component generate-map --watch",
     "sitecore-tools:build": "sitecore-tools project build",
     "dev": "cross-env NODE_ENV=development npm-run-all --serial sitecore-tools:build --parallel next:dev sitecore-tools:generate-map:watch",
-    "start": "cross-env-shell NODE_ENV=production npm-run-all --serial build next:start"
+    "start": "cross-env-shell NODE_ENV=production npm-run-all --serial build next:start",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --max-warnings=0",
+      "prettier --check"
+    ],
+    "*.{css,scss,md}": [
+      "prettier --check"
+    ]
   }
 }

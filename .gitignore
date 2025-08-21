@@ -48,3 +48,6 @@ packages/
 
 # VS Code settings
 .vscode/
+
+# Ignore all TS incremental build files
+*.tsbuildinfo
