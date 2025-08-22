@@ -11,7 +11,7 @@
   /* bordered */
   .sxa-bordered {
     > .component-content {
-      @apply p-6 border border-solid border-border rounded-2xl;
+      @apply p-6 border border-solid rounded-2xl;
     }
   }
 }

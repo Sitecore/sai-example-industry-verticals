@@ -2,7 +2,7 @@
   .level0,
   .level1 {
     > .navigation-title > a {
-      @apply px-3 border-b border-border;
+      @apply px-3 border-b;
     }
   }
   li {

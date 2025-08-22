@@ -22,13 +22,17 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
+    "@radix-ui/react-tabs": "^1.1.13",
     "@sitecore-cloudsdk/core": "^0.5.1",
     "@sitecore-cloudsdk/events": "^0.5.1",
     "@sitecore-content-sdk/nextjs": "^1.0.0",
     "@sitecore-feaas/clientside": "^0.6.0",
     "@sitecore/components": "~2.1.0",
     "@tailwindcss/postcss": "^4.1.11",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
     "font-awesome": "^4.7.0",
+    "lucide-react": "^0.540.0",
     "next": "^15.3.2",
     "next-localization": "^0.12.0",
     "postcss": "^8.5.6",
@@ -36,6 +40,7 @@
     "react-dom": "^19.1.0",
     "sharp": "0.34.1",
     "tailwind-bootstrap-grid": "^6.0.0",
+    "tailwind-merge": "^3.3.1",
     "tailwindcss": "^4.1.11"
   },
   "devDependencies": {
@@ -55,6 +60,7 @@
     "lint-staged": "^16.1.5",
     "npm-run-all2": "~8.0.1",
     "prettier": "^3.5.3",
+    "tw-animate-css": "^1.3.7",
     "typescript": "~5.8.3"
   },
   "scripts": {

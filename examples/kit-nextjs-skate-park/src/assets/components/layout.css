@@ -32,14 +32,14 @@
 .container-clean-background {
   &:not(.container),
   &.container > .component-content {
-    @apply bg-background-primary;
+    @apply bg-background;
   }
 }
 
 .container-dark-background {
   &:not(.container),
   &.container > .component-content {
-    @apply bg-accent text-background-primary;
+    @apply bg-accent text-background;
 
     * {
       @apply text-inherit;

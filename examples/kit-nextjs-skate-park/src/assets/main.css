@@ -6,6 +6,8 @@
 @import './base/index.css';
 @import './components/index.css';
 
+@import 'tw-animate-css';
+
 /* bootstrap grid to tailwind plugin */
 @plugin 'tailwind-bootstrap-grid' {
   grid_gutter_width: '2rem';

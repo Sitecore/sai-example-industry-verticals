@@ -1,6 +1,10 @@
 @layer base {
+  * {
+    @apply border-border;
+  }
+
   body {
-    @apply text-base font-body text-foreground bg-background-primary;
+    @apply text-base font-body text-foreground bg-background;
   }
 
   h1,

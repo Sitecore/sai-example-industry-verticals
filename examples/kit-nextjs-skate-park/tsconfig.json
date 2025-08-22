@@ -2,10 +2,11 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
+      "@/*": ["src/*"],
       "components/*": ["src/components/*"],
       "lib/*": ["src/lib/*"],
       "temp/*": ["src/temp/*"],
-      "assets/*": ["src/assets/*"],
+      "assets/*": ["src/assets/*"]
     },
     "target": "es5",
     "types": ["node"],
