@@ -35,7 +35,7 @@ interface ComponentContentProps {
 const ComponentContent = ({ id, styles = '', children }: ComponentContentProps): JSX.Element => (
   <div className={`component title ${styles.trim()}`} id={id}>
     <div className="component-content">
-      <div className="field-title">{children}</div>
+      <h1 className="field-title">{children}</h1>
     </div>
   </div>
 );

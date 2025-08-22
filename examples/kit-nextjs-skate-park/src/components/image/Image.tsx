@@ -7,7 +7,7 @@ import {
   Text,
   useSitecore,
 } from '@sitecore-content-sdk/nextjs';
-import React, { CSSProperties } from 'react';
+import React from 'react';
 import { ComponentProps } from 'lib/component-props';
 
 interface ImageFields {
@@ -36,31 +36,6 @@ const ImageDefault: React.FC<ImageProps> = ({ params }) => (
   </ImageWrapper>
 );
 
-export const Banner: React.FC<ImageProps> = ({ params, fields }) => {
-  const { page } = useSitecore();
-  const { styles, RenderingIdentifier: id } = params;
-
-  const backgroundStyle = fields?.Image?.value?.src
-    ? ({ backgroundImage: `url('${fields.Image.value.src}')` } as CSSProperties)
-    : {};
-
-  const imageField = fields.Image && {
-    ...fields.Image,
-    value: {
-      ...fields.Image.value,
-      style: { width: '100%', height: '100%' },
-    },
-  };
-
-  return (
-    <div className={`component hero-banner ${styles}`.trim()} id={id}>
-      <div className="component-content sc-sxa-image-hero-banner" style={backgroundStyle}>
-        {page.mode.isEditing && <ContentSdkImage field={imageField} />}
-      </div>
-    </div>
-  );
-};
-
 export const Default: React.FC<ImageProps> = (props) => {
   const { page } = useSitecore();
   const { fields, params } = props;
@@ -82,7 +57,7 @@ export const Default: React.FC<ImageProps> = (props) => {
       ) : (
         <Image />
       )}
-      <Text tag="span" className="image-caption field-imagecaption" field={fields.ImageCaption} />
+      <Text tag="span" className="image-caption" field={fields.ImageCaption} />
     </ImageWrapper>
   );
 };

@@ -1,51 +1,62 @@
-/* component-richtext-content */
-
-.content, .rich-text {
-  @apply border-transparent leading-[1.5] text-[12px] overflow-hidden;
+.content,
+.rich-text {
+  @apply overflow-hidden;
 
   * {
     @apply max-w-full;
   }
 }
+.content,
+.rich-text,
+.ck-content {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    &:not(:first-child) {
+      @apply mt-[1em];
+    }
 
-/* rich text lists */
+    &:not(:last-child) {
+      @apply mb-[0.5em];
+    }
+  }
 
-.rich-text-lists,
-.field-featurelist {
+  p,
+  ul,
+  ol {
+    &:not(:last-child) {
+      @apply mb-4;
+    }
+  }
+
   ul {
-    @apply box-border m-0 p-0;
+    @apply ps-6 space-y-1 text-foreground-light;
 
+    ul {
+      @apply my-2;
+    }
+  }
+
+  ol {
+    @apply ps-6 space-y-1 text-foreground-light;
+
+    ol {
+      @apply my-2;
+    }
+  }
+}
+
+/* custom bullet points */
+.rich-text-lists {
+  ul {
     li {
-      @apply text-[13px] relative leading-[21px] list-none m-0 p-[5px_0_5px_25px];
+      @apply relative list-none;
 
       &:before {
-        @apply inline-block align-middle text-[12px] font-[FontAwesome] absolute top-[3px] left-0 text-text-basic text-center content-['\f046'] w-[20px] my-0 ml-0 mr-[5px] p-0;
+        @apply absolute w-4 top-0.5 -left-4.5 text-sm content-['\f046'] font-[FontAwesome];
       }
     }
   }
-}
-
-.field-featurelist {
-  ul {
-    li {
-      &:before {
-        @apply inline-block align-middle text-[12px] font-[FontAwesome] absolute top-[3px] left-0 text-text-basic text-center content-['\f046'] w-[20px] my-0 ml-0 mr-[5px] p-0;
-      }
-    }
-  }
-}
-
-.media-link {
-  &.file-type-icon-media-link {
-    @apply float-left;
-    .field-filetypeicon {
-      @apply text-center;
-    }
-  }
-}
-
-/* base rich text */
-
-.rich-text {
-  @apply text-[16px] max-mobile-large:p-[0_30px_10px_30px] max-mobile-large:text-[14px] ;
 }

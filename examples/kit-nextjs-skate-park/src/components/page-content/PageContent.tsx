@@ -23,7 +23,7 @@ export const Default = ({ params, fields }: PageContentProps): JSX.Element => {
   return (
     <div className={`component content ${styles}`} id={id}>
       <div className="component-content">
-        <div className="field-content">
+        <div className="field-content ck-content">
           {field ? <ContentSdkRichText field={field} /> : '[Content]'}
         </div>
       </div>

@@ -1,8 +1,7 @@
+.column-splitter.row {
+  @apply mx-0 max-w-none;
+}
 
-.row.column-splitter {
-  @apply mx-0 px-[2.5px] max-w-none;
-
-  > div {
-    @apply px-[5px];
-  }
+.component.container .column-splitter.row {
+  @apply px-0;
 }
