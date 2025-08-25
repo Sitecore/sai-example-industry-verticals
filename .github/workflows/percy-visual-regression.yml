@@ -1,0 +1,44 @@
+name: Percy Visual Regression
+
+on:
+  pull_request:
+    branches:
+      - main
+      - develop
+    types:
+      - opened
+      - synchronize
+      - reopened
+      - ready_for_review
+
+defaults:
+  run:
+    shell: bash
+    working-directory: ./examples/kit-nextjs-skate-park
+
+jobs:
+  visual-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.12.0
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Bootstrap
+        run: npm run bootstrap
+
+      - name: Build Storybook
+        run: npm run build-storybook
+
+      - name: Run Percy on Storybook
+        env:
+          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
+        run: npm run percy-build
