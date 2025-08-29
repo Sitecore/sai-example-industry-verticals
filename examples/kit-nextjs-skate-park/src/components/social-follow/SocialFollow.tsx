@@ -23,9 +23,12 @@ interface Fields {
 
 type SocialFollowProps = ComponentProps & {
   fields: Fields;
+  params: { [key: string]: string };
 };
 
 export const Default = (props: SocialFollowProps) => {
+  const id = props.params.RenderingIdentifier;
+
   const socialLinks = [
     { icon: faFacebookF, field: props.fields.FacebookLink, key: 'facebook' },
     { icon: faTwitter, field: props.fields.TwitterLink, key: 'twitter' },
@@ -33,7 +36,7 @@ export const Default = (props: SocialFollowProps) => {
   ];
 
   return (
-    <div>
+    <div id={id ? id : undefined}>
       <div className="mb-5 text-accent font-bold text-lg">
         <Text field={props.fields.SocialTitle} />
       </div>
@@ -50,6 +53,8 @@ export const Default = (props: SocialFollowProps) => {
 };
 
 export const SocialFollowRow = (props: SocialFollowProps) => {
+  const id = props.params.RenderingIdentifier;
+
   const socialLinks = [
     { icon: FacebookIcon, field: props.fields.FacebookLink, key: 'facebook' },
     { icon: TwitterIcon, field: props.fields.TwitterLink, key: 'twitter' },
@@ -59,7 +64,7 @@ export const SocialFollowRow = (props: SocialFollowProps) => {
   ];
 
   return (
-    <div>
+    <div id={id ? id : undefined}>
       <div className="mb-5 text-foreground font-bold text-lg">
         <Text field={props.fields.SocialTitle} />
       </div>
