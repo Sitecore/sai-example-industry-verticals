@@ -44,7 +44,7 @@ export const Default: Story = {
   },
 };
 
-export const HorizontalSocialLinks: Story = {
+export const HorizontalIcons: Story = {
   render: () => {
     return <Horizontal params={baseParams} rendering={baseRendering} fields={baseFields} />;
   },
