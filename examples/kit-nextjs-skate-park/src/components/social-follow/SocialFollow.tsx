@@ -64,7 +64,7 @@ export const Default = (props: SocialFollowProps) => {
   );
 };
 
-export const SocialFollowHorizontal = (props: SocialFollowProps) => {
+export const Horizontal = (props: SocialFollowProps) => {
   const id = props.params.RenderingIdentifier;
 
   const socialLinks = [

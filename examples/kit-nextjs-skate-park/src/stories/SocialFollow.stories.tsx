@@ -1,8 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
-import {
-  Default as SocialFollow,
-  SocialFollowHorizontal,
-} from '../components/social-follow/SocialFollow';
+import { Default as SocialFollow, Horizontal } from '../components/social-follow/SocialFollow';
 import { ComponentProps } from 'react';
 import { CommonParams, CommonRendering } from './common/commonData';
 import { createLinkField, createTextField } from './helpers/createFields';
@@ -31,42 +28,24 @@ const baseRendering = {
   params: baseParams,
 };
 
+const baseFields = {
+  SocialTitle: createTextField('Follow us'),
+  FacebookLink: createLinkField('Facebook'),
+  YoutubeLink: createLinkField('Youtube'),
+  InstagramLink: createLinkField('Instagram'),
+  TwitterLink: createLinkField('Twitter'),
+  LinkedinLink: createLinkField('Linkedin'),
+  PinterestLink: createLinkField('Pinterest'),
+};
+
 export const Default: Story = {
   render: () => {
-    return (
-      <SocialFollow
-        params={baseParams}
-        rendering={baseRendering}
-        fields={{
-          SocialTitle: createTextField('Follow us'),
-          FacebookLink: createLinkField('Facebook'),
-          YoutubeLink: createLinkField('Youtube'),
-          InstagramLink: createLinkField('Instagram'),
-          TwitterLink: createLinkField('Twitter'),
-          LinkedinLink: createLinkField('Linkedin'),
-          PinterestLink: createLinkField('Pinterest'),
-        }}
-      />
-    );
+    return <SocialFollow params={baseParams} rendering={baseRendering} fields={baseFields} />;
   },
 };
 
 export const HorizontalSocialLinks: Story = {
   render: () => {
-    return (
-      <SocialFollowHorizontal
-        params={baseParams}
-        rendering={baseRendering}
-        fields={{
-          SocialTitle: createTextField('Follow us'),
-          FacebookLink: createLinkField('Facebook'),
-          YoutubeLink: createLinkField('Youtube'),
-          InstagramLink: createLinkField('Instagram'),
-          TwitterLink: createLinkField('Twitter'),
-          LinkedinLink: createLinkField('Linkedin'),
-          PinterestLink: createLinkField('Pinterest'),
-        }}
-      />
-    );
+    return <Horizontal params={baseParams} rendering={baseRendering} fields={baseFields} />;
   },
 };
