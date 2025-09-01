@@ -9,6 +9,7 @@ import {
   createRichTextField,
   createTextField,
 } from './helpers/createFields';
+import { ComponentFields } from '@sitecore-content-sdk/nextjs';
 
 type StoryProps = ComponentProps<typeof Footer>;
 
@@ -31,7 +32,7 @@ const baseRendering = {
   params: baseParams,
 };
 
-export const Default: Story = {
+export const WithPlaceholders: Story = {
   render: () => {
     return (
       <Footer
@@ -53,6 +54,225 @@ export const Default: Story = {
             ],
             [`footer-list-fifth-${baseParams.DynamicPlaceholderId}`]: [
               renderStorybookPlaceholder(),
+            ],
+          },
+        }}
+        fields={{
+          TitleOne: createTextField('Furniture'),
+          TitleTwo: createTextField('Services'),
+          TitleThree: createTextField('Support'),
+          TitleFour: createTextField('Follow Us'),
+          TitleFive: createTextField('Install App'),
+          CopyrightText: createTextField('Copyright © 2025'),
+          PolicyText: createLinkField('Privacy Policy'),
+          TermsText: createLinkField('Terms & Conditions'),
+          Description: createRichTextField(),
+          Logo: createImageField('logo'),
+        }}
+      />
+    );
+  },
+};
+
+export const WithData: Story = {
+  render: () => {
+    return (
+      <Footer
+        params={baseParams}
+        rendering={{
+          ...baseRendering,
+          placeholders: {
+            [`footer-list-first-${baseParams.DynamicPlaceholderId}`]: [
+              {
+                componentName: 'LinkList',
+                params: {
+                  Styles: 'list-vertical',
+                },
+                fields: {
+                  data: {
+                    datasource: {
+                      children: {
+                        results: [
+                          {
+                            field: {
+                              link: {
+                                value: {
+                                  href: 'http://',
+                                  linktype: 'external',
+                                  text: 'Bed',
+                                },
+                              },
+                            },
+                          },
+                          {
+                            field: {
+                              link: {
+                                value: {
+                                  href: 'http://',
+                                  linktype: 'external',
+                                  text: 'Chair',
+                                },
+                              },
+                            },
+                          },
+                          {
+                            field: {
+                              link: {
+                                value: {
+                                  href: 'http://',
+                                  linktype: 'external',
+                                  text: 'All',
+                                },
+                              },
+                            },
+                          },
+                        ],
+                      },
+                    },
+                  },
+                } as unknown as ComponentFields,
+              },
+            ],
+            [`footer-list-second-${baseParams.DynamicPlaceholderId}`]: [
+              {
+                componentName: 'LinkList',
+                params: {
+                  Styles: 'list-vertical',
+                },
+                fields: {
+                  data: {
+                    datasource: {
+                      children: {
+                        results: [
+                          {
+                            field: {
+                              link: {
+                                value: {
+                                  href: 'http://',
+                                  linktype: 'external',
+                                  text: 'Email Marketing',
+                                },
+                              },
+                            },
+                          },
+                          {
+                            field: {
+                              link: {
+                                value: {
+                                  href: 'http://',
+                                  linktype: 'external',
+                                  text: 'Campaigns',
+                                },
+                              },
+                            },
+                          },
+                          {
+                            field: {
+                              link: {
+                                value: {
+                                  href: 'http://',
+                                  linktype: 'external',
+                                  text: 'Branding',
+                                },
+                              },
+                            },
+                          },
+                        ],
+                      },
+                    },
+                  },
+                } as unknown as ComponentFields,
+              },
+            ],
+            [`footer-list-third-${baseParams.DynamicPlaceholderId}`]: [
+              {
+                componentName: 'LinkList',
+                params: {
+                  Styles: 'list-vertical',
+                },
+                fields: {
+                  data: {
+                    datasource: {
+                      children: {
+                        results: [
+                          {
+                            field: {
+                              link: {
+                                value: {
+                                  href: 'http://',
+                                  linktype: 'external',
+                                  text: 'Help Center',
+                                },
+                              },
+                            },
+                          },
+                          {
+                            field: {
+                              link: {
+                                value: {
+                                  href: 'http://',
+                                  linktype: 'external',
+                                  text: 'Safety Center',
+                                },
+                              },
+                            },
+                          },
+                          {
+                            field: {
+                              link: {
+                                value: {
+                                  href: 'http://',
+                                  linktype: 'external',
+                                  text: 'Communnity Guidelines',
+                                },
+                              },
+                            },
+                          },
+                        ],
+                      },
+                    },
+                  },
+                } as unknown as ComponentFields,
+              },
+            ],
+            [`footer-list-fourth-${baseParams.DynamicPlaceholderId}`]: [
+              renderStorybookPlaceholder(),
+            ],
+            [`footer-list-fifth-${baseParams.DynamicPlaceholderId}`]: [
+              {
+                componentName: 'Container',
+                params: {
+                  DynamicPlaceholderId: '3',
+                },
+                placeholders: {
+                  'container-{*}': [
+                    {
+                      componentName: 'RichText',
+                      params: {
+                        DynamicPlaceholderId: '4',
+                      },
+                      fields: {
+                        Text: {
+                          value:
+                            '<div class="ck-content"><p><img style="aspect-ratio:162/48;" src="-/media/9CF4D04E4FEF47FDA354DB3E96945156.ashx" alt="" width="162" height="48" /></p></div>',
+                        },
+                      },
+                    },
+                    {
+                      componentName: 'RichText',
+                      params: {
+                        DynamicPlaceholderId: '5',
+                      },
+                      fields: {
+                        Text: {
+                          value:
+                            '<div class="ck-content"><p><img style="aspect-ratio:162/48;" src="-/media/AAA800816F654646B55056DE51FEDF49.ashx" alt="" width="162" height="48" /></p></div>',
+                        },
+                      },
+                    },
+                  ],
+                },
+              },
             ],
           },
         }}
