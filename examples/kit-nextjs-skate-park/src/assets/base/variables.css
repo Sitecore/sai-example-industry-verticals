@@ -19,7 +19,7 @@
   --radius-base: 0.5rem;
 
   /*
-  This doesn not show in the theme editor
+  This does not show in the theme editor
   but is used to override the defaults based on the user's selection for radius-base
   */
   --radius-xs: calc(var(--radius-base) * 0.25);

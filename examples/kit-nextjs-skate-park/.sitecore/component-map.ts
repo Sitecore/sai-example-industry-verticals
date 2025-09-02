@@ -19,14 +19,15 @@ import * as Footer from 'src/components/footer/Footer';
 import * as ContentBlock from 'src/components/content-block/ContentBlock';
 import * as Container from 'src/components/container/Container';
 import * as ColumnSplitter from 'src/components/column-splitter/ColumnSplitter';
+import * as Breadcrumb from 'src/components/breadcrumb/Breadcrumb';
 
 // Components must be registered within the map to match the string key with component name in Sitecore
 export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['BYOCWrapper', BYOCWrapper],
   ['FEaaSWrapper', FEaaSWrapper],
-  ['SocialFollow', SocialFollow],
   ['Form', Form],
   ['Title', Title],
+  ['SocialFollow', SocialFollow],
   ['RowSplitter', RowSplitter],
   ['RichText', RichText],
   ['Promo', Promo],
@@ -40,6 +41,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['ContentBlock', ContentBlock],
   ['Container', Container],
   ['ColumnSplitter', ColumnSplitter],
+  ['Breadcrumb', Breadcrumb],
 ]);
 
 export default componentMap;
