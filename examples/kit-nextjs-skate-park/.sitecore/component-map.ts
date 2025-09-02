@@ -15,6 +15,7 @@ import * as Offers from 'src/components/offers/Offers';
 import * as Navigation from 'src/components/navigation/Navigation';
 import * as LinkList from 'src/components/link-list/LinkList';
 import * as Image from 'src/components/image/Image';
+import * as Footer from 'src/components/footer/Footer';
 import * as ContentBlock from 'src/components/content-block/ContentBlock';
 import * as Container from 'src/components/container/Container';
 import * as ColumnSplitter from 'src/components/column-splitter/ColumnSplitter';
@@ -35,6 +36,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Navigation', Navigation],
   ['LinkList', LinkList],
   ['Image', Image],
+  ['Footer', Footer],
   ['ContentBlock', ContentBlock],
   ['Container', Container],
   ['ColumnSplitter', ColumnSplitter],
