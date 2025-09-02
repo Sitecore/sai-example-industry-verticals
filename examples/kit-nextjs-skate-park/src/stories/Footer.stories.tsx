@@ -11,6 +11,7 @@ import {
 } from './helpers/createFields';
 import { createIGQLData } from './helpers/createIGQLData';
 import { createLinkItems } from './helpers/createItems';
+import { ComponentFields } from '@sitecore-content-sdk/nextjs';
 
 type StoryProps = ComponentProps<typeof Footer>;
 
@@ -57,7 +58,7 @@ const baseLinkList = {
     createItems: createLinkItems,
     count: 3,
     topLevelFields: {},
-  }),
+  }) as unknown as ComponentFields,
   placeholders: {},
 };
 
@@ -67,7 +68,7 @@ const baseRichText = {
   params: baseParams,
   fields: {
     Text: createRichTextField(1),
-  },
+  } as unknown as ComponentFields,
   placeholders: {},
 };
 
@@ -92,8 +93,7 @@ const baseSocialFollow = {
   componentName: 'SocialFollow',
   dataSource: '',
   params: baseParams,
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  fields: baseSocialFollowFields as any,
+  fields: baseSocialFollowFields as unknown as ComponentFields,
   placeholders: {},
 };
 
