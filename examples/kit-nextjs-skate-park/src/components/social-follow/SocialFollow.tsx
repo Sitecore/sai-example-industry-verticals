@@ -51,7 +51,7 @@ export const Default = (props: SocialFollowProps) => {
       <div className="flex flex-col gap-y-4">
         {socialLinks.map(({ icon, field, key }) => (
           <div key={key} className="flex items-center gap-2">
-            {field?.value?.text && (
+            {field?.value?.href && (
               <>
                 <FontAwesomeIcon icon={icon} className="text-foreground text-xl" />
                 <ContentSdkLink field={field} className="text-foreground" />
