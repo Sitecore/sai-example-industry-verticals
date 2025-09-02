@@ -56,3 +56,7 @@ body {
 body .ck.ck-editor__editable_inline {
   padding: 0;
 }
+
+.stop-transition * {
+  transition: none !important;
+}

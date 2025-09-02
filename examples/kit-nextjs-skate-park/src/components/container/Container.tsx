@@ -1,5 +1,6 @@
 import { Placeholder } from '@sitecore-content-sdk/nextjs';
 import React, { JSX } from 'react';
+import { extractMediaUrl } from '@/helpers/extractMediaUrl';
 import { ComponentProps } from 'lib/component-props';
 
 interface ContainerProps extends ComponentProps {
@@ -18,14 +19,9 @@ const Container = ({ params, rendering }: ContainerProps): JSX.Element => {
   } = params;
   const phKey = `container-${DynamicPlaceholderId}`;
 
-  // Extract the mediaurl from rendering parameters
-  const mediaUrlPattern = new RegExp(/mediaurl=\"([^"]*)\"/, 'i');
-
+  const mediaUrl = extractMediaUrl(backgroundImage);
   let backgroundStyle: { [key: string]: string } = {};
-
-  if (backgroundImage && backgroundImage.match(mediaUrlPattern)) {
-    const mediaUrl = backgroundImage.match(mediaUrlPattern)?.[1] || '';
-
+  if (mediaUrl) {
     backgroundStyle = {
       backgroundImage: `url('${mediaUrl}')`,
     };

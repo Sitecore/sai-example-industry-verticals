@@ -1,78 +1,148 @@
-import React, { useState, JSX } from 'react';
-import { Link, LinkField, Text, TextField, useSitecore } from '@sitecore-content-sdk/nextjs';
-import { ComponentProps } from 'lib/component-props';
+'use client';
 
-interface Fields {
+import React, { useState, useRef } from 'react';
+import { Link, TextField, useSitecore } from '@sitecore-content-sdk/nextjs';
+import { ComponentProps } from 'lib/component-props';
+import { ChevronDown } from 'lucide-react';
+import HamburgerIcon from '@/components/non-sitecore/HamburgerIcon';
+import { useClickAway } from '@/hooks/useClickAway';
+import { useStopResponsiveTransition } from '@/hooks/useStopResponsiveTransition';
+import { extractMediaUrl } from '@/helpers/extractMediaUrl';
+import {
+  getLinkContent,
+  getLinkField,
+  isNavLevel,
+  isNavRootItem,
+  prepareFields,
+} from '@/helpers/navHelpers';
+import clsx from 'clsx';
+import { isParamEnabled } from '@/helpers/isParamEnabled';
+
+export interface NavItemFields {
   Id: string;
   DisplayName: string;
   Title: TextField;
   NavigationTitle: TextField;
   Href: string;
   Querystring: string;
-  Children?: Array<Fields>;
+  Children?: Array<NavItemFields>;
   Styles: string[];
 }
 
 interface NavigationListItemProps {
-  fields: Fields;
+  fields: NavItemFields;
   handleClick: (event?: React.MouseEvent<HTMLElement>) => void;
-  relativeLevel: number;
+  logoSrc?: string;
+  isSimpleLayout?: boolean;
 }
 
-interface NavigationProps extends ComponentProps {
-  fields: Record<string, Fields>;
+export interface NavigationProps extends ComponentProps {
+  fields: Record<string, NavItemFields>;
 }
-
-const getTextContent = (fields: Fields): JSX.Element | string => {
-  if (fields.NavigationTitle) return <Text field={fields.NavigationTitle} />;
-  if (fields.Title) return <Text field={fields.Title} />;
-  return fields.DisplayName;
-};
-
-const getLinkField = (fields: Fields): LinkField => ({
-  value: {
-    href: fields.Href,
-    title:
-      fields.NavigationTitle?.value?.toString() ??
-      fields.Title?.value?.toString() ??
-      fields.DisplayName,
-    querystring: fields.Querystring,
-  },
-});
 
 const NavigationListItem: React.FC<NavigationListItemProps> = ({
   fields,
   handleClick,
-  relativeLevel,
+  logoSrc,
+  isSimpleLayout,
 }) => {
-  const [isActive, setIsActive] = useState(false);
   const { page } = useSitecore();
+  const [isActive, setIsActive] = useState(false);
 
-  const classNames = `${fields?.Styles?.join(' ')} rel-level${relativeLevel} ${isActive ? 'active' : ''}`;
+  const dropdownRef = useRef<HTMLLIElement>(null);
+  useClickAway(dropdownRef, () => setIsActive(false));
 
-  const hasChildren = fields.Children && fields.Children?.length > 0;
+  const isRootItem = isNavRootItem(fields);
+  const isTopLevelPage = isNavLevel(fields, 1);
+
+  const hasChildren = !!fields.Children?.length;
+  const isLogoRootItem = isRootItem && logoSrc;
+  const hasDropdownMenu = hasChildren && isTopLevelPage;
+
+  const clickHandler = (event: React.MouseEvent<HTMLElement>) => {
+    handleClick(event);
+    setIsActive(false);
+  };
+
   const children = hasChildren
-    ? fields.Children?.map((fields, index) => (
+    ? fields.Children!.map((child) => (
         <NavigationListItem
-          key={`${index}-${fields.Id}`}
-          fields={fields}
-          handleClick={handleClick}
-          relativeLevel={relativeLevel + 1}
+          key={child.Id}
+          fields={child}
+          handleClick={clickHandler}
+          isSimpleLayout={isSimpleLayout}
+          logoSrc={logoSrc}
         />
       ))
     : null;
 
   return (
-    <li className={classNames} key={fields.Id} tabIndex={0}>
-      <div
-        className={`navigation-title ${hasChildren ? 'child' : ''}`}
-        onClick={() => setIsActive(!isActive)}
-      >
-        <Link field={getLinkField(fields)} editable={page.mode.isEditing} onClick={handleClick}>
-          {getTextContent(fields)}
+    <li
+      ref={dropdownRef}
+      tabIndex={0}
+      role="menuitem"
+      className={clsx(
+        fields?.Styles?.join(' '),
+        'relative flex flex-col gap-x-8 xl:gap-x-14 gap-y-4',
+        isRootItem && 'lg:flex-row',
+        isLogoRootItem && 'shrink-0 max-lg:hidden',
+        isLogoRootItem && isSimpleLayout && 'lg:mr-auto'
+      )}
+    >
+      <div className="flex justify-center items-center gap-1">
+        <Link
+          field={getLinkField(fields)}
+          editable={page.mode.isEditing}
+          onClick={clickHandler}
+          className="whitespace-nowrap transition-colors hover:text-foreground-light"
+        >
+          {getLinkContent(fields, logoSrc)}
         </Link>
+        {hasDropdownMenu && (
+          <button
+            type="button"
+            aria-label="Toggle submenu"
+            aria-haspopup="true"
+            aria-expanded={isActive}
+            className="w-6 h-6 flex justify-center items-center cursor-pointer"
+            onClick={() => setIsActive((a) => !a)}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                setIsActive((a) => !a);
+              }
+            }}
+          >
+            <ChevronDown
+              className={clsx(
+                'size-4 transition-transform duration-300',
+                isActive && 'rotate-180',
+                'navigation-dropdown-trigger'
+              )}
+            />
+          </button>
+        )}
       </div>
-      {hasChildren && <ul className="clearfix">{children}</ul>}
+      {hasChildren && (
+        <ul
+          role="menu"
+          className={clsx(
+            'flex flex-col items-center gap-x-8 xl:gap-x-14 gap-y-4',
+            isRootItem && 'lg:flex-row',
+            hasDropdownMenu &&
+              clsx(
+                'text-base max-lg:text-sm max-lg:border-b max-lg:pb-4 z-110',
+                'lg:absolute lg:top-full lg:left-1/2 lg:-translate-x-1/2 lg:p-6 lg:transition-all lg:duration-300',
+                'lg:bg-background lg:shadow-xl lg:rounded-xl',
+                isActive
+                  ? 'max-lg:flex'
+                  : 'max-lg:hidden lg:opacity-0 lg:scale-95 lg:translate-y-2 lg:pointer-events-none'
+              )
+          )}
+        >
+          {children}
+        </ul>
+      )}
     </li>
   );
 };
@@ -80,9 +150,11 @@ const NavigationListItem: React.FC<NavigationListItemProps> = ({
 export const Default = ({ params, fields }: NavigationProps) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { page } = useSitecore();
-  const { styles, RenderingIdentifier: id } = params;
+  const { styles, RenderingIdentifier: id, Logo: logoImage, SimpleLayout: simpleLayout } = params;
 
-  if (!Object.values(fields).length) {
+  useStopResponsiveTransition();
+
+  if (!Object.values(fields).some((v) => !!v)) {
     return (
       <div className={`component navigation ${styles}`} id={id}>
         <div className="component-content">[Navigation]</div>
@@ -94,37 +166,71 @@ export const Default = ({ params, fields }: NavigationProps) => {
     if (event && page.mode.isEditing) {
       event.preventDefault();
     }
-
     setIsMenuOpen(forceState ?? !isMenuOpen);
   };
 
-  const navigationItems = Object.values(fields)
-    .filter(Boolean)
-    .map((item: Fields, index) => (
+  const isSimpleLayout = isParamEnabled(simpleLayout);
+  const preparedFields = prepareFields(fields, !isSimpleLayout);
+  const rootItem = Object.values(preparedFields).find((item) => isNavRootItem(item));
+  const logoSrc = extractMediaUrl(logoImage);
+  const hasLogoRootItem = rootItem && logoSrc;
+
+  const navigationItems = Object.values(preparedFields)
+    .filter((item): item is NavItemFields => !!item)
+    .map((item) => (
       <NavigationListItem
-        key={`${index}-${item.Id}`}
+        key={item.Id}
         fields={item}
         handleClick={(event) => handleToggleMenu(event, false)}
-        relativeLevel={1}
+        logoSrc={logoSrc}
+        isSimpleLayout={!!isSimpleLayout}
       />
     ));
 
   return (
-    <div className={`component navigation ${styles}`} id={id}>
-      <label className="menu-mobile-navigate-wrapper">
-        <input
-          type="checkbox"
-          className="menu-mobile-navigate"
-          checked={isMenuOpen}
-          onChange={() => handleToggleMenu()}
+    <div className={`component navigation bg-background ${styles}`} id={id}>
+      <div
+        className={clsx(
+          'lg:hidden relative container flex items-center py-4 z-150',
+          !isSimpleLayout ? 'flex-row-reverse' : '',
+          isSimpleLayout && !hasLogoRootItem ? 'justify-end' : 'justify-between'
+        )}
+      >
+        {hasLogoRootItem && (
+          <Link field={getLinkField(rootItem!)} editable={page.mode.isEditing}>
+            {getLinkContent(rootItem!, logoSrc)}
+          </Link>
+        )}
+        <HamburgerIcon
+          isOpen={isMenuOpen}
+          onClick={handleToggleMenu}
+          onKeyDown={(e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              handleToggleMenu();
+            }
+          }}
+          className="navigation-mobile-trigger"
         />
-        <div className="menu-humburger" />
-        <div className="component-content">
-          <nav>
-            <ul className="clearfix">{navigationItems}</ul>
-          </nav>
-        </div>
-      </label>
+      </div>
+
+      <nav
+        className={clsx(
+          'flex bg-background duration-300 z-100',
+          'max-lg:fixed max-lg:inset-0',
+          !isMenuOpen && 'max-lg:opacity-0 max-lg:-translate-y-full'
+        )}
+      >
+        <ul
+          role="menubar"
+          className={clsx(
+            'container flex flex-col items-center justify-center text-lg lg:flex-row gap-y-4 gap-x-8 xl:gap-x-16 py-6',
+            isSimpleLayout && !hasLogoRootItem && 'lg:justify-end'
+          )}
+        >
+          {navigationItems}
+        </ul>
+      </nav>
     </div>
   );
 };
