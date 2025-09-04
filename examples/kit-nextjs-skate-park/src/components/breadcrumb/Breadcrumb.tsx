@@ -31,10 +31,12 @@ const hasNavFilter = (page: BreadcrumbPage, filterName: string): boolean => {
   return page?.navigationFilter?.jsonValue?.some((filter) => filter?.name === filterName) ?? false;
 };
 
-const getNavItemTitle = (item: BreadcrumbPage): string => {
+const getNavItemTitle = (item: BreadcrumbPage, truncate: boolean = true): string => {
   const MAX_TITLE_LENGTH = 20;
   const title = item.navigationTitle?.jsonValue.value || item.title?.jsonValue.value || item.name;
-  return title.length > MAX_TITLE_LENGTH ? title.slice(0, MAX_TITLE_LENGTH) + '…' : title;
+  return truncate && title.length > MAX_TITLE_LENGTH
+    ? title.slice(0, MAX_TITLE_LENGTH) + '…'
+    : title;
 };
 
 export const Default = (props: BreadcrumbProps) => {
@@ -127,7 +129,10 @@ export const Default = (props: BreadcrumbProps) => {
           </li>
         )}
 
-        <li className="py-2 pl-4 lg:pl-8 lg:ml-4 border-l border-foreground whitespace-nowrap">
+        <li
+          className="py-2 pl-4 lg:pl-8 lg:ml-4 border-l border-foreground whitespace-nowrap"
+          title={getNavItemTitle(item, false)}
+        >
           {getNavItemTitle(item)}
         </li>
       </ol>
