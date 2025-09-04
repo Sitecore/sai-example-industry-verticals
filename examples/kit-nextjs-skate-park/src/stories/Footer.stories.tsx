@@ -43,15 +43,15 @@ const baseFields = {
   CopyrightText: createTextField('Copyright © 2025'),
   PolicyText: createLinkField('Privacy Policy'),
   TermsText: createLinkField('Terms & Conditions'),
-  Description: createRichTextField(),
+  Description: createRichTextField(1),
   Logo: createImageField('logo'),
 };
 
-const baseLinkList = {
+const LinkListRendering = {
+  ...CommonRendering,
   componentName: 'LinkList',
-  dataSource: '',
   params: {
-    ...baseParams,
+    ...CommonParams,
     Styles: 'list-vertical',
   },
   fields: createIGQLData({
@@ -59,45 +59,30 @@ const baseLinkList = {
     count: 3,
     topLevelFields: {},
   }) as unknown as ComponentFields,
-  placeholders: {},
 };
 
-const baseRichText = {
-  componentName: 'RichText',
-  dataSource: '',
-  params: baseParams,
-  fields: {
-    Text: createRichTextField(1),
-  } as unknown as ComponentFields,
-  placeholders: {},
-};
-
-const baseContainer = {
-  componentName: 'Container',
-  dataSource: '',
-  params: baseParams,
-  fields: baseFields,
-  placeholders: {
-    'container-{*}': [baseRichText, baseRichText],
-  },
-};
-
-const baseSocialFollowFields = {
-  FacebookLink: createLinkField('Facebook'),
-  InstagramLink: createLinkField('Instagram'),
-  TwitterLink: createLinkField('Twitter'),
-  PinterestLink: createLinkField('Pinterest'),
-};
-
-const baseSocialFollow = {
+const SocialFollowRendering = {
+  ...CommonRendering,
   componentName: 'SocialFollow',
-  dataSource: '',
-  params: baseParams,
-  fields: baseSocialFollowFields as unknown as ComponentFields,
-  placeholders: {},
+  params: CommonParams,
+  fields: {
+    FacebookLink: createLinkField('Facebook'),
+    InstagramLink: createLinkField('Instagram'),
+    TwitterLink: createLinkField('Twitter'),
+    PinterestLink: createLinkField('Pinterest'),
+  } as unknown as ComponentFields,
 };
 
-export const WithPlaceholders: Story = {
+const ImageRendering = {
+  ...CommonRendering,
+  componentName: 'Image',
+  params: CommonParams,
+  fields: {
+    Image: createImageField('placeholder'),
+  } as unknown as ComponentFields,
+};
+
+export const Default: Story = {
   render: () => {
     return (
       <Footer
@@ -128,7 +113,7 @@ export const WithPlaceholders: Story = {
   },
 };
 
-export const WithData: Story = {
+export const WithPlaceholderData: Story = {
   render: () => {
     return (
       <Footer
@@ -136,11 +121,11 @@ export const WithData: Story = {
         rendering={{
           ...baseRendering,
           placeholders: {
-            [`footer-list-first-${baseParams.DynamicPlaceholderId}`]: [baseLinkList],
-            [`footer-list-second-${baseParams.DynamicPlaceholderId}`]: [baseLinkList],
-            [`footer-list-third-${baseParams.DynamicPlaceholderId}`]: [baseLinkList],
-            [`footer-list-fourth-${baseParams.DynamicPlaceholderId}`]: [baseSocialFollow],
-            [`footer-list-fifth-${baseParams.DynamicPlaceholderId}`]: [baseContainer],
+            [`footer-list-first-${baseParams.DynamicPlaceholderId}`]: [LinkListRendering],
+            [`footer-list-second-${baseParams.DynamicPlaceholderId}`]: [LinkListRendering],
+            [`footer-list-third-${baseParams.DynamicPlaceholderId}`]: [LinkListRendering],
+            [`footer-list-fourth-${baseParams.DynamicPlaceholderId}`]: [SocialFollowRendering],
+            [`footer-list-fifth-${baseParams.DynamicPlaceholderId}`]: [ImageRendering],
           },
         }}
         fields={baseFields}

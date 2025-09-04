@@ -99,7 +99,7 @@ export const Default: Story = {
   },
 };
 
-export const WithText: Story = {
+export const WithPlaceholderData: Story = {
   render: (args) => {
     return (
       <Container

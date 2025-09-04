@@ -44,7 +44,7 @@ export const Default = (props: SocialFollowProps) => {
   ];
 
   return (
-    <div id={id ? id : undefined} className={`${props?.params?.styles}`}>
+    <div className={`component social-follow ${props?.params?.styles}`} id={id}>
       <div className="mb-5 text-accent font-bold text-lg">
         <Text field={props.fields.SocialTitle} />
       </div>
@@ -54,7 +54,7 @@ export const Default = (props: SocialFollowProps) => {
             {field?.value?.href && (
               <>
                 <FontAwesomeIcon icon={icon} className="text-foreground text-xl" />
-                <ContentSdkLink field={field} className="text-foreground" />
+                <ContentSdkLink field={field} className="text-foreground hover:underline" />
               </>
             )}
           </div>
@@ -76,7 +76,7 @@ export const Horizontal = (props: SocialFollowProps) => {
   ];
 
   return (
-    <div id={id ? id : undefined} className={`${props?.params?.styles}`}>
+    <div className={`component social-follow ${props?.params?.styles}`} id={id}>
       <div className="mb-5 text-foreground font-bold text-lg">
         <Text field={props.fields.SocialTitle} />
       </div>

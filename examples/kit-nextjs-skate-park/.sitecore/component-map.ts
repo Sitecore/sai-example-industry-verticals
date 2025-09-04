@@ -17,6 +17,7 @@ import * as Navigation from 'src/components/navigation/Navigation';
 import * as LinkList from 'src/components/link-list/LinkList';
 import * as LanguageSwitcher from 'src/components/language-switcher/LanguageSwitcher';
 import * as Image from 'src/components/image/Image';
+import * as Header from 'src/components/header/Header';
 import * as Footer from 'src/components/footer/Footer';
 import * as ContentBlock from 'src/components/content-block/ContentBlock';
 import * as Container from 'src/components/container/Container';
@@ -40,6 +41,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['LinkList', LinkList],
   ['LanguageSwitcher', LanguageSwitcher],
   ['Image', Image],
+  ['Header', Header],
   ['Footer', Footer],
   ['ContentBlock', ContentBlock],
   ['Container', Container],

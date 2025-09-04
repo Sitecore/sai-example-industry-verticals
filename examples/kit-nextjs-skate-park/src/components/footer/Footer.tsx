@@ -72,7 +72,7 @@ export const Default = (props: FooterProps) => {
   ];
 
   return (
-    <section className={`relative ${props.params.styles} overflow-hidden`} id={id ? id : undefined}>
+    <section className={`relative component footer ${props.params.styles} overflow-hidden`} id={id}>
       <div className="bg-background-muted">
         <div className="container grid lg:grid-cols-[1fr_3fr] gap-12 py-28.5">
           <div className="flex flex-col gap-7">
@@ -85,7 +85,7 @@ export const Default = (props: FooterProps) => {
             {sections.map(({ key, title, content }) => (
               <div key={key}>
                 <div className="mb-8 text-accent font-bold text-lg">{title}</div>
-                <div>{content}</div>
+                <div className="space-y-4">{content}</div>
               </div>
             ))}
           </div>
@@ -97,8 +97,8 @@ export const Default = (props: FooterProps) => {
             <Text field={props.fields.CopyrightText} />
           </div>
           <div className="flex items-center justify-between gap-20 max-sm:order-1 max-sm:flex-col max-sm:items-start max-lg:gap-10 max-sm:gap-5">
-            <Link field={props.fields.TermsText} />
-            <Link field={props.fields.PolicyText} />
+            <Link field={props.fields.TermsText} className="hover:underline" />
+            <Link field={props.fields.PolicyText} className="hover:underline" />
           </div>
         </div>
       </div>

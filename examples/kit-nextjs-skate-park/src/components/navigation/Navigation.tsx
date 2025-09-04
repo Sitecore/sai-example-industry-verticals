@@ -192,12 +192,21 @@ export const Default = ({ params, fields }: NavigationProps) => {
       <div
         className={clsx(
           'lg:hidden relative container flex items-center py-4 z-150',
+          !isSimpleLayout &&
+            '[.component.header_&]:px-0 [.component.header_&]:max-lg:grid [.component.header_&]:grid-cols-2',
           !isSimpleLayout ? 'flex-row-reverse' : '',
           isSimpleLayout && !hasLogoRootItem ? 'justify-end' : 'justify-between'
         )}
       >
         {hasLogoRootItem && (
-          <Link field={getLinkField(rootItem!)} editable={page.mode.isEditing}>
+          <Link
+            field={getLinkField(rootItem!)}
+            editable={page.mode.isEditing}
+            className={clsx(
+              'navigation-mobile-trigger',
+              !isSimpleLayout && '[.component.header_&]:mx-auto'
+            )}
+          >
             {getLinkContent(rootItem!, logoSrc)}
           </Link>
         )}
@@ -210,7 +219,10 @@ export const Default = ({ params, fields }: NavigationProps) => {
               handleToggleMenu();
             }
           }}
-          className="navigation-mobile-trigger"
+          className={clsx(
+            'navigation-mobile-trigger',
+            !isSimpleLayout && '[.component.header_&]:-order-1'
+          )}
         />
       </div>
 

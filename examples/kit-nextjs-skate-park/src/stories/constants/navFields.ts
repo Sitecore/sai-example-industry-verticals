@@ -1,4 +1,4 @@
-import { createTextField } from '../helpers/createFields';
+import { createPlaceholderImageSrc, createTextField } from '../helpers/createFields';
 
 export const createNavItem = (text: string) => {
   return {
@@ -107,4 +107,4 @@ export const getNavigationFields = (options?: { withRoot?: boolean; flat?: boole
   return arrayToObject(pages);
 };
 
-export const logoParam = `<image mediaid="8cc2a449-e23b-488c-bb23-3d7c7a07f6e7" mediaurl="https://placehold.co/130x40?text=LOGO" />`;
+export const logoParam = `<image mediaid="8cc2a449-e23b-488c-bb23-3d7c7a07f6e7" mediaurl="${createPlaceholderImageSrc(true)}" />`;

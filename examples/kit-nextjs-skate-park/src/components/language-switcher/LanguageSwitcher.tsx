@@ -1,6 +1,6 @@
 'use client';
 
-import type React from 'react';
+import React, { JSX } from 'react';
 import { useMemo, useState, useEffect, useCallback } from 'react';
 import { useRouter } from 'next/router';
 import {
@@ -12,6 +12,7 @@ import {
 } from '../../shadcn/components/ui/select';
 import { useI18n } from 'next-localization';
 import { Globe } from 'lucide-react';
+import { ComponentProps } from '@/lib/component-props';
 
 type AppLocale = 'en' | 'fr-FR' | 'es-ES';
 
@@ -23,7 +24,13 @@ const LANGUAGES: Language[] = [
   { code: 'es-ES', label: 'ES | EUR' },
 ];
 
-export default function LanguageSwitcher() {
+export type LanguageSwitcherProps = ComponentProps & {
+  params: { [key: string]: string };
+};
+
+export default function LanguageSwitcher(props: LanguageSwitcherProps): JSX.Element {
+  const { styles, RenderingIdentifier: id } = props.params;
+
   const router = useRouter();
   const { pathname, asPath, query } = router;
 
@@ -54,24 +61,28 @@ export default function LanguageSwitcher() {
   );
 
   return (
-    <Select value={selectedLocale} onValueChange={(value) => changeLanguage(value as AppLocale)}>
-      <SelectTrigger
-        id="language-select"
-        aria-label={`Current Language: ${selectedLocale}`}
-        className="border-0 focus-visible:ring-0 [&>svg]:hidden shadow-none"
-      >
-        <div className="flex items-center gap-2">
-          <Globe size={16} aria-hidden="true" />
-          <SelectValue placeholder="Language" />
-        </div>
-      </SelectTrigger>
-      <SelectContent align="end" className="min-w-44  border-0">
-        {LANGUAGES.map((Language) => (
-          <SelectItem key={Language.code} value={Language.code}>
-            <span className="text-sm">{Language.label}</span>
-          </SelectItem>
-        ))}
-      </SelectContent>
-    </Select>
+    <div className={`component language-switcher ${styles}`} id={id}>
+      <Select value={selectedLocale} onValueChange={(value) => changeLanguage(value as AppLocale)}>
+        <SelectTrigger
+          id="language-select"
+          aria-label={`Current Language: ${selectedLocale}`}
+          className="border-0 [&>svg]:hidden shadow-none [.component.header_&]:px-0"
+        >
+          <div className="flex items-center gap-2">
+            <Globe className="size-5" />
+            <span className="max-lg:hidden">
+              <SelectValue placeholder="Language" />
+            </span>
+          </div>
+        </SelectTrigger>
+        <SelectContent className="min-w-44  border-0">
+          {LANGUAGES.map((language) => (
+            <SelectItem key={language.code} value={language.code}>
+              <span>{language.label}</span>
+            </SelectItem>
+          ))}
+        </SelectContent>
+      </Select>
+    </div>
   );
 }

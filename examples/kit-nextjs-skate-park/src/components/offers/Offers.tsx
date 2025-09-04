@@ -1,4 +1,4 @@
-import { Field, Text } from '@sitecore-content-sdk/nextjs';
+import { Field, Text, useSitecore } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from 'lib/component-props';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -24,18 +24,29 @@ interface OfferProps extends ComponentProps {
 const autoPlayDelay = 5000;
 
 export const Default = (props: OfferProps) => {
-  const id = props.rendering.uid;
+  const { page } = useSitecore();
+
+  const id = props.params.RenderingIdentifier;
+  const uid = props.rendering.uid;
   const datasource = props.fields?.Offers || [];
   const styles = `${props.params.styles || ''}`.trim();
   const autoPlay = isParamEnabled(props.params.Autoplay);
 
+  if (!datasource.length) {
+    return page.mode.isEditing ? (
+      <div className={`component offers ${styles}`} id={id}>
+        [OFFERS]
+      </div>
+    ) : (
+      <></>
+    );
+  }
+
   return (
-    <div className={styles} id={id}>
-      <div
-        className={`mx-auto px-2 min-h-10 flex items-center justify-center gap-5 w-full max-w-3xl`}
-      >
+    <div className={`component offers ${styles}`} id={id}>
+      <div className="flex items-center justify-center gap-5 w-full max-w-3xl p-2 mx-auto">
         <button
-          className={`swiper-btn-prev-${id}`}
+          className={`swiper-btn-prev-${uid}`}
           name="previous-offer"
           aria-label="Previous offer"
         >
@@ -45,8 +56,8 @@ export const Default = (props: OfferProps) => {
         <Swiper
           modules={[Navigation, Autoplay]}
           navigation={{
-            prevEl: `.swiper-btn-prev-${id}`,
-            nextEl: `.swiper-btn-next-${id}`,
+            prevEl: `.swiper-btn-prev-${uid}`,
+            nextEl: `.swiper-btn-next-${uid}`,
             disabledClass: 'pointer-events-none opacity-50',
           }}
           slidesPerView={1}
@@ -72,7 +83,7 @@ export const Default = (props: OfferProps) => {
           ))}
         </Swiper>
 
-        <button className={`swiper-btn-next-${id}`} name="next-offer" aria-label="Next offer">
+        <button className={`swiper-btn-next-${uid}`} name="next-offer" aria-label="Next offer">
           <ChevronRight />
         </button>
       </div>

@@ -2,7 +2,7 @@ import { loremIpsum } from 'lorem-ipsum';
 import { RICH_MARKUP_INNER_HTML } from '../constants/richTextSamples';
 import { LOGO_SVG, PLACEHOLDER_SVG } from '../constants/images';
 
-const createPlaceholderImageSrc = (isLogo?: boolean): string => {
+export const createPlaceholderImageSrc = (isLogo?: boolean): string => {
   const svg = isLogo ? LOGO_SVG : PLACEHOLDER_SVG;
   return `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;
 };
@@ -12,27 +12,21 @@ export const createImageField = (type: 'logo' | 'placeholder' = 'placeholder') =
     logo: {
       width: '220',
       height: '40',
-      alt: 'Logo',
-      isLogo: true,
-      isLogoLight: false,
     },
     placeholder: {
       width: '800',
       height: '800',
-      alt: 'Placeholder',
-      isLogo: false,
-      isLogoLight: false,
     },
   };
 
-  const { width, height, alt, isLogo } = imageTypeProps[type];
+  const { width, height } = imageTypeProps[type];
 
-  const src = createPlaceholderImageSrc(isLogo);
+  const src = createPlaceholderImageSrc(type === 'logo');
 
   return {
     value: {
       src,
-      alt,
+      alt: type,
       width,
       height,
     },
