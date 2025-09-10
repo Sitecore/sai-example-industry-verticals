@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 import { ComponentProps } from 'react';
-import { Default as SubscribeBanner } from '../components/subscribe/subscribe';
+import { Default as SubscribeBanner } from '../components/subscribe/Subscribe';
 import { CommonParams, CommonRendering } from './common/commonData';
 import { createTextField } from './helpers/createFields';
 
