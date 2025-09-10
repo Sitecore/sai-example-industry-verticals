@@ -1,6 +1,7 @@
 @theme {
   --color-foreground: #1e1e1e;
   --color-foreground-light: #505050;
+  --color-foreground-muted: #9f9f9f;
 
   --color-background: #fff;
   --color-background-accent: #faf3ea;
