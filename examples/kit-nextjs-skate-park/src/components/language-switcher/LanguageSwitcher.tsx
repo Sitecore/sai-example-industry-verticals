@@ -1,7 +1,6 @@
 'use client';
 
-import React, { JSX } from 'react';
-import { useMemo, useState, useEffect, useCallback } from 'react';
+import React, { useMemo, useCallback } from 'react';
 import { useRouter } from 'next/router';
 import {
   Select,
@@ -10,12 +9,11 @@ import {
   SelectTrigger,
   SelectValue,
 } from '../../shadcn/components/ui/select';
-import { useI18n } from 'next-localization';
 import { Globe } from 'lucide-react';
 import { ComponentProps } from '@/lib/component-props';
+import { useSitecore } from '@sitecore-content-sdk/nextjs';
 
 type AppLocale = 'en' | 'fr-FR' | 'es-ES';
-
 type Language = { code: AppLocale; label: string };
 
 const LANGUAGES: Language[] = [
@@ -28,21 +26,17 @@ export type LanguageSwitcherProps = ComponentProps & {
   params: { [key: string]: string };
 };
 
-export default function LanguageSwitcher(props: LanguageSwitcherProps): JSX.Element {
+export default function LanguageSwitcher(props: LanguageSwitcherProps) {
   const { styles, RenderingIdentifier: id } = props.params;
 
   const router = useRouter();
   const { pathname, asPath, query } = router;
 
-  const { locale } = useI18n();
-  const activeLocale = useMemo<AppLocale>(() => locale() as AppLocale, [locale]);
-
-  const [selectedLocale, setSelectedLocale] = useState<AppLocale>(activeLocale);
-  useEffect(() => setSelectedLocale(activeLocale), [activeLocale]);
+  const { page } = useSitecore();
+  const activeLocale = useMemo<AppLocale>(() => page?.locale as AppLocale, [page?.locale]);
 
   const changeLanguage = useCallback(
     (langCode: AppLocale) => {
-      setSelectedLocale(langCode);
       if (pathname && asPath && query) {
         router.push(
           {
@@ -59,6 +53,10 @@ export default function LanguageSwitcher(props: LanguageSwitcherProps): JSX.Elem
     },
     [asPath, pathname, query, router]
   );
+
+  const selectedLocale: AppLocale = LANGUAGES.some((l) => l.code === activeLocale)
+    ? activeLocale
+    : 'en';
 
   return (
     <div className={`component language-switcher ${styles}`} id={id}>
