@@ -3,7 +3,7 @@
 
   h1,
   .field-title {
-    @apply pb-4 border-b no-underline cursor-pointer;
+    @apply pb-4 no-underline cursor-pointer;
 
     > a,
     > span {
