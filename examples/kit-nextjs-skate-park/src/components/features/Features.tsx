@@ -45,26 +45,6 @@ const FeatureWrapper = (wrapperProps: FeatureWrapperProps) => {
   );
 };
 
-export const ImageGrid = (props: FeaturesProps) => {
-  // results of the graphql
-  const results = props.fields.data.datasource.children.results;
-
-  return (
-    <FeatureWrapper props={props}>
-      <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 py-9">
-        {results.map((item, index) => {
-          const imageField = item?.featureImage.jsonValue;
-          return (
-            <div className="flex items-center justify-center py-9 lg:py-2" key={index}>
-              {imageField && <Image field={imageField} className="max-h-20 object-contain" />}
-            </div>
-          );
-        })}
-      </div>
-    </FeatureWrapper>
-  );
-};
-
 export const Default = (props: FeaturesProps) => {
   // results of the graphql
   const results = props.fields.data.datasource.children.results;
@@ -101,6 +81,26 @@ export const Default = (props: FeaturesProps) => {
             );
           })}
         </div>
+      </div>
+    </FeatureWrapper>
+  );
+};
+
+export const ImageGrid = (props: FeaturesProps) => {
+  // results of the graphql
+  const results = props.fields.data.datasource.children.results;
+
+  return (
+    <FeatureWrapper props={props}>
+      <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 py-9">
+        {results.map((item, index) => {
+          const imageField = item?.featureImage.jsonValue;
+          return (
+            <div className="flex items-center justify-center py-9 lg:py-2" key={index}>
+              {imageField && <Image field={imageField} className="max-h-20 object-contain" />}
+            </div>
+          );
+        })}
       </div>
     </FeatureWrapper>
   );

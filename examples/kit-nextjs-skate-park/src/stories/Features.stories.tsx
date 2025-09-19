@@ -2,7 +2,7 @@ import { CommonParams, CommonRendering } from './common/commonData';
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 import { ComponentProps } from 'react';
 import {
-  Default as Default,
+  Default,
   FourColGrid,
   ImageGrid,
   NumberedGrid,
@@ -63,88 +63,7 @@ const baseRendering = {
   params: baseParams,
 };
 
-export const FeatureBrands: Story = {
-  render: (args) => {
-    return (
-      <ImageGrid
-        rendering={baseRendering}
-        params={{
-          ...baseParams,
-          styles: `${baseParams.styles} ${args.bgOption ?? 'container-white-background'}`,
-        }}
-        fields={createIGQLData({
-          count: 5,
-          topLevelFields: {
-            title: createIGQLField(createTextField('Features Title')),
-          },
-          createItems: (count) =>
-            Array.from({ length: count }, () => ({
-              featureTitle: createIGQLField(createTextField('Title')),
-              featureDescription: createIGQLField(createTextField('Title')),
-              featureImage: createIGQLField(createImageField('placeholder')),
-              featureLink: createIGQLField(createLinkField('More Info')),
-            })),
-        })}
-      />
-    );
-  },
-};
-
-export const FeatureProcess: Story = {
-  render: (args) => {
-    return (
-      <NumberedGrid
-        rendering={baseRendering}
-        params={{
-          ...baseParams,
-          styles: `${baseParams.styles} ${args.bgOption ?? 'container-white-background'}`,
-        }}
-        fields={createIGQLData({
-          count: 3,
-          topLevelFields: {
-            title: createIGQLField(createTextField('Features Title')),
-          },
-          createItems: (count) =>
-            Array.from({ length: count }, () => ({
-              featureTitle: createIGQLField(createTextField('Title')),
-              featureDescription: createIGQLField(createTextField()),
-              featureImage: createIGQLField(createImageField('placeholder')),
-              featureLink: createIGQLField(createLinkField('More Info')),
-            })),
-        })}
-      />
-    );
-  },
-};
-
-export const FeatureContact: Story = {
-  render: (args) => {
-    return (
-      <ThreeColGridCentered
-        rendering={baseRendering}
-        params={{
-          ...baseParams,
-          styles: `${baseParams.styles} ${args.bgOption ?? 'container-white-background'}`,
-        }}
-        fields={createIGQLData({
-          count: 3,
-          topLevelFields: {
-            title: createIGQLField(createTextField('Features Title')),
-          },
-          createItems: (count) =>
-            Array.from({ length: count }, () => ({
-              featureTitle: createIGQLField(createTextField('Title')),
-              featureDescription: createIGQLField(createTextField('Description')),
-              featureImage: createIGQLField(createImageField('placeholder')),
-              featureLink: createIGQLField(createLinkField('More Info')),
-            })),
-        })}
-      />
-    );
-  },
-};
-
-export const FeatureWhyChoosingUs: Story = {
+export const FeatureDefault: Story = {
   render: (args) => {
     return (
       <Default
@@ -171,7 +90,88 @@ export const FeatureWhyChoosingUs: Story = {
   },
 };
 
-export const FeatureFeatures: Story = {
+export const FeatureImageGrid: Story = {
+  render: (args) => {
+    return (
+      <ImageGrid
+        rendering={baseRendering}
+        params={{
+          ...baseParams,
+          styles: `${baseParams.styles} ${args.bgOption ?? 'container-white-background'}`,
+        }}
+        fields={createIGQLData({
+          count: 5,
+          topLevelFields: {
+            title: createIGQLField(createTextField('Features Title')),
+          },
+          createItems: (count) =>
+            Array.from({ length: count }, () => ({
+              featureTitle: createIGQLField(createTextField('Title')),
+              featureDescription: createIGQLField(createTextField('Title')),
+              featureImage: createIGQLField(createImageField('placeholder')),
+              featureLink: createIGQLField(createLinkField('More Info')),
+            })),
+        })}
+      />
+    );
+  },
+};
+
+export const FeatureNumberedGrid: Story = {
+  render: (args) => {
+    return (
+      <NumberedGrid
+        rendering={baseRendering}
+        params={{
+          ...baseParams,
+          styles: `${baseParams.styles} ${args.bgOption ?? 'container-white-background'}`,
+        }}
+        fields={createIGQLData({
+          count: 3,
+          topLevelFields: {
+            title: createIGQLField(createTextField('Features Title')),
+          },
+          createItems: (count) =>
+            Array.from({ length: count }, () => ({
+              featureTitle: createIGQLField(createTextField('Title')),
+              featureDescription: createIGQLField(createTextField()),
+              featureImage: createIGQLField(createImageField('placeholder')),
+              featureLink: createIGQLField(createLinkField('More Info')),
+            })),
+        })}
+      />
+    );
+  },
+};
+
+export const FeatureThreeColGridCentered: Story = {
+  render: (args) => {
+    return (
+      <ThreeColGridCentered
+        rendering={baseRendering}
+        params={{
+          ...baseParams,
+          styles: `${baseParams.styles} ${args.bgOption ?? 'container-white-background'}`,
+        }}
+        fields={createIGQLData({
+          count: 3,
+          topLevelFields: {
+            title: createIGQLField(createTextField('Features Title')),
+          },
+          createItems: (count) =>
+            Array.from({ length: count }, () => ({
+              featureTitle: createIGQLField(createTextField('Title')),
+              featureDescription: createIGQLField(createTextField('Description')),
+              featureImage: createIGQLField(createImageField('placeholder')),
+              featureLink: createIGQLField(createLinkField('More Info')),
+            })),
+        })}
+      />
+    );
+  },
+};
+
+export const FeatureFourColGrid: Story = {
   render: (args) => {
     return (
       <FourColGrid
