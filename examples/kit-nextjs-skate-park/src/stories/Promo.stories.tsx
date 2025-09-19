@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
-import { Default as Promo, AboutPromo, PromoProps } from '../components/promo/Promo';
+import { Default as Promo, WithFullImage, PromoProps } from '../components/promo/Promo';
 import { CommonParams, CommonRendering } from './common/commonData';
 import {
   createImageField,
@@ -104,6 +104,6 @@ export const WideImagePromo: Story = {
       ...baseParams,
       Reversed: boolToSitecoreCheckbox(args.Reversed),
     };
-    return <AboutPromo params={params} rendering={baseRendering} fields={baseFields} />;
+    return <WithFullImage params={params} rendering={baseRendering} fields={baseFields} />;
   },
 };
