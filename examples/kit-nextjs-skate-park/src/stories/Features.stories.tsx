@@ -2,11 +2,11 @@ import { CommonParams, CommonRendering } from './common/commonData';
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 import { ComponentProps } from 'react';
 import {
-  Default as Default,
-  Process,
-  Contact,
-  WhyChoosingUs,
-  Features,
+  Default,
+  FourColGrid,
+  ImageGrid,
+  NumberedGrid,
+  ThreeColGridCentered,
 } from '@/components/features/Features';
 import { createIGQLData } from './helpers/createIGQLData';
 import {
@@ -15,10 +15,13 @@ import {
   createLinkField,
   createTextField,
 } from './helpers/createFields';
+import {
+  BackgroundColorArgs,
+  backgroundColorArgTypes,
+  defaultBackgroundColorArgs,
+} from './common/commonControls';
 
-type StoryProps = ComponentProps<typeof Default> & {
-  bgOption: string;
-};
+type StoryProps = ComponentProps<typeof Default> & BackgroundColorArgs;
 
 const meta = {
   title: 'Page Content/Features',
@@ -28,25 +31,10 @@ const meta = {
     layout: 'fullscreen',
   },
   argTypes: {
-    bgOption: {
-      name: 'Background Color',
-      control: {
-        type: 'select',
-        labels: {
-          'container-white-background': 'White',
-          'container-color-background': 'Accent',
-          'container-gray-background': 'Gray',
-        },
-      },
-      options: [
-        'container-white-background',
-        'container-color-background',
-        'container-gray-background',
-      ],
-    },
+    ...backgroundColorArgTypes,
   },
   args: {
-    bgOption: 'container-white-background',
+    ...defaultBackgroundColorArgs,
   },
 } satisfies Meta<StoryProps>;
 export default meta;
@@ -63,41 +51,16 @@ const baseRendering = {
   params: baseParams,
 };
 
-export const FeatureBrands: Story = {
+export const FeatureDefault: Story = {
   render: (args) => {
     return (
       <Default
         rendering={baseRendering}
         params={{
           ...baseParams,
-          styles: `${baseParams.styles} ${args.bgOption ?? 'container-white-background'}`,
-        }}
-        fields={createIGQLData({
-          count: 5,
-          topLevelFields: {
-            title: createIGQLField(createTextField('Features Title')),
-          },
-          createItems: (count) =>
-            Array.from({ length: count }, () => ({
-              featureTitle: createIGQLField(createTextField('Title')),
-              featureDescription: createIGQLField(createTextField('Title')),
-              featureImage: createIGQLField(createImageField('placeholder')),
-              featureLink: createIGQLField(createLinkField('More Info')),
-            })),
-        })}
-      />
-    );
-  },
-};
-
-export const FeatureProcess: Story = {
-  render: (args) => {
-    return (
-      <Process
-        rendering={baseRendering}
-        params={{
-          ...baseParams,
-          styles: `${baseParams.styles} ${args.bgOption ?? 'container-white-background'}`,
+          styles: `${baseParams.styles}
+            ${args.BackgroundColor}
+          `,
         }}
         fields={createIGQLData({
           count: 3,
@@ -117,14 +80,74 @@ export const FeatureProcess: Story = {
   },
 };
 
-export const FeatureContact: Story = {
+export const FeatureImageGrid: Story = {
   render: (args) => {
     return (
-      <Contact
+      <ImageGrid
         rendering={baseRendering}
         params={{
           ...baseParams,
-          styles: `${baseParams.styles} ${args.bgOption ?? 'container-white-background'}`,
+          styles: `${baseParams.styles}
+            ${args.BackgroundColor}
+          `,
+        }}
+        fields={createIGQLData({
+          count: 5,
+          topLevelFields: {
+            title: createIGQLField(createTextField('Features Title')),
+          },
+          createItems: (count) =>
+            Array.from({ length: count }, () => ({
+              featureTitle: createIGQLField(createTextField('Title')),
+              featureDescription: createIGQLField(createTextField('Description')),
+              featureImage: createIGQLField(createImageField('placeholder')),
+              featureLink: createIGQLField(createLinkField('More Info')),
+            })),
+        })}
+      />
+    );
+  },
+};
+
+export const FeatureNumberedGrid: Story = {
+  render: (args) => {
+    return (
+      <NumberedGrid
+        rendering={baseRendering}
+        params={{
+          ...baseParams,
+          styles: `${baseParams.styles}
+            ${args.BackgroundColor}
+          `,
+        }}
+        fields={createIGQLData({
+          count: 3,
+          topLevelFields: {
+            title: createIGQLField(createTextField('Features Title')),
+          },
+          createItems: (count) =>
+            Array.from({ length: count }, () => ({
+              featureTitle: createIGQLField(createTextField('Title')),
+              featureDescription: createIGQLField(createTextField()),
+              featureImage: createIGQLField(createImageField('placeholder')),
+              featureLink: createIGQLField(createLinkField('More Info')),
+            })),
+        })}
+      />
+    );
+  },
+};
+
+export const FeatureThreeColGridCentered: Story = {
+  render: (args) => {
+    return (
+      <ThreeColGridCentered
+        rendering={baseRendering}
+        params={{
+          ...baseParams,
+          styles: `${baseParams.styles}
+            ${args.BackgroundColor}
+          `,
         }}
         fields={createIGQLData({
           count: 3,
@@ -144,41 +167,16 @@ export const FeatureContact: Story = {
   },
 };
 
-export const FeatureWhyChoosingUs: Story = {
+export const FeatureFourColGrid: Story = {
   render: (args) => {
     return (
-      <WhyChoosingUs
+      <FourColGrid
         rendering={baseRendering}
         params={{
           ...baseParams,
-          styles: `${baseParams.styles} ${args.bgOption ?? 'container-white-background'}`,
-        }}
-        fields={createIGQLData({
-          count: 3,
-          topLevelFields: {
-            title: createIGQLField(createTextField('Features Title')),
-          },
-          createItems: (count) =>
-            Array.from({ length: count }, () => ({
-              featureTitle: createIGQLField(createTextField('Title')),
-              featureDescription: createIGQLField(createTextField()),
-              featureImage: createIGQLField(createImageField('placeholder')),
-              featureLink: createIGQLField(createLinkField('More Info')),
-            })),
-        })}
-      />
-    );
-  },
-};
-
-export const FeatureFeatures: Story = {
-  render: (args) => {
-    return (
-      <Features
-        rendering={baseRendering}
-        params={{
-          ...baseParams,
-          styles: `${baseParams.styles} ${args.bgOption ?? 'container-white-background'}`,
+          styles: `${baseParams.styles}
+            ${args.BackgroundColor}
+          `,
         }}
         fields={createIGQLData({
           count: 4,

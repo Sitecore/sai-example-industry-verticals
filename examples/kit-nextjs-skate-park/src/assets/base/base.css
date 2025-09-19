@@ -54,10 +54,10 @@
   }
 
   .eyebrow {
-    @apply uppercase text-lg text-accent font-semibold tracking-[0.175em];
+    @apply text-accent text-lg font-semibold tracking-[0.175em] uppercase;
   }
 
   .image-cover {
-    @apply w-full h-full object-cover;
+    @apply h-full w-full object-cover;
   }
 }

@@ -49,27 +49,6 @@ export const Default = (props: FeaturesProps) => {
   // results of the graphql
   const results = props.fields.data.datasource.children.results;
 
-  return (
-    <FeatureWrapper props={props}>
-      <div className="container grid grid-cols-1 gap-4 py-9 md:grid-cols-2 lg:grid-cols-5">
-        {results.map((item, index) => {
-          const imageField = item?.featureImage.jsonValue;
-          return (
-            <div className="flex items-center justify-center py-9 lg:py-2" key={index}>
-              {imageField && <Image field={imageField} className="max-h-20 object-contain" />}
-            </div>
-          );
-        })}
-      </div>
-    </FeatureWrapper>
-  );
-};
-
-export const WhyChoosingUs = (props: FeaturesProps) => {
-  // results of the graphql
-  const results = props.fields.data.datasource.children.results;
-
-  // Feature Section Title
   const featureSectionTitle = props.fields.data.datasource.title;
 
   return (
@@ -96,7 +75,7 @@ export const WhyChoosingUs = (props: FeaturesProps) => {
                 <div className="text-foreground mb-3.5 flex-auto leading-7">
                   <Text field={description} />
                 </div>
-                <ExploreLink linkText={link} />
+                {link?.value && link?.value?.href && <ExploreLink linkText={link} />}
               </div>
             );
           })}
@@ -106,7 +85,27 @@ export const WhyChoosingUs = (props: FeaturesProps) => {
   );
 };
 
-export const Contact = (props: FeaturesProps) => {
+export const ImageGrid = (props: FeaturesProps) => {
+  // results of the graphql
+  const results = props.fields.data.datasource.children.results;
+
+  return (
+    <FeatureWrapper props={props}>
+      <div className="container grid grid-cols-1 gap-4 py-9 md:grid-cols-2 lg:grid-cols-5">
+        {results.map((item, index) => {
+          const imageField = item?.featureImage.jsonValue;
+          return (
+            <div className="flex items-center justify-center py-9 lg:py-2" key={index}>
+              {imageField && <Image field={imageField} className="max-h-20 object-contain" />}
+            </div>
+          );
+        })}
+      </div>
+    </FeatureWrapper>
+  );
+};
+
+export const ThreeColGridCentered = (props: FeaturesProps) => {
   // results of the graphql
   const results = props.fields.data.datasource.children.results;
 
@@ -140,7 +139,7 @@ export const Contact = (props: FeaturesProps) => {
   );
 };
 
-export const Process = (props: FeaturesProps) => {
+export const NumberedGrid = (props: FeaturesProps) => {
   // results of the graphql
   const results = props.fields.data.datasource.children.results;
 
@@ -176,7 +175,7 @@ export const Process = (props: FeaturesProps) => {
   );
 };
 
-export const Features = (props: FeaturesProps) => {
+export const FourColGrid = (props: FeaturesProps) => {
   // results of the graphql
   const results = props.fields.data.datasource.children.results;
 
