@@ -52,4 +52,12 @@
   *::placeholder {
     @apply text-foreground-light;
   }
+
+  .eyebrow {
+    @apply uppercase text-lg text-accent font-semibold tracking-[0.175em];
+  }
+
+  .image-cover {
+    @apply w-full h-full object-cover;
+  }
 }

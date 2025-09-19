@@ -7,6 +7,7 @@ import { Form } from '@sitecore-content-sdk/nextjs';
 import * as Title from 'src/components/title/Title';
 import * as Subscribe from 'src/components/subscribe/Subscribe';
 import * as SocialFollow from 'src/components/social-follow/SocialFollow';
+import * as SocialFeed from 'src/components/social-feed/SocialFeed';
 import * as RowSplitter from 'src/components/row-splitter/RowSplitter';
 import * as RichText from 'src/components/rich-text/RichText';
 import * as Promo from 'src/components/promo/Promo';
@@ -35,6 +36,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Title', Title],
   ['Subscribe', Subscribe],
   ['SocialFollow', SocialFollow],
+  ['SocialFeed', SocialFeed],
   ['RowSplitter', RowSplitter],
   ['RichText', RichText],
   ['Promo', Promo],
