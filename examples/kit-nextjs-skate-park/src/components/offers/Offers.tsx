@@ -44,7 +44,7 @@ export const Default = (props: OfferProps) => {
 
   return (
     <div className={`component offers ${styles}`} id={id}>
-      <div className="flex items-center justify-center gap-5 w-full max-w-3xl p-2 mx-auto">
+      <div className="mx-auto flex w-full max-w-3xl items-center justify-center gap-5 p-2">
         <button
           className={`swiper-btn-prev-${uid}`}
           name="previous-offer"
@@ -74,7 +74,7 @@ export const Default = (props: OfferProps) => {
               : false
           }
           autoHeight
-          className="mx-0! transition-all w-full"
+          className="mx-0! w-full transition-all"
         >
           {datasource.map((offer) => (
             <SwiperSlide key={offer.id} className="no-swiping text-center">

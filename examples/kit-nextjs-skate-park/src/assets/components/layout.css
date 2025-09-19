@@ -1,20 +1,20 @@
 /* Background layout */
 .cover-background {
   > .component-content {
-    @apply bg-no-repeat bg-cover bg-center;
+    @apply bg-cover bg-center bg-no-repeat;
   }
 }
 
 .fix-background {
   > .component-content {
-    @apply bg-no-repeat bg-cover bg-top-left bg-fixed;
+    @apply bg-cover bg-fixed bg-top-left bg-no-repeat;
   }
 }
 
 /* This doesn't really do what it says - we may need to rework it */
 .parallax-background {
   > .component-content {
-    @apply bg-no-repeat bg-cover bg-position-[50%_0] bg-fixed max-md:bg-scroll;
+    @apply bg-cover bg-fixed bg-position-[50%_0] bg-no-repeat max-md:bg-scroll;
   }
 }
 

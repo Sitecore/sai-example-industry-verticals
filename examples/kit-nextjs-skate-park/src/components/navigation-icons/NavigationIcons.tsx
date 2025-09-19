@@ -42,7 +42,7 @@ export const Default = (props: NavigationIconsProps): JSX.Element => {
 
   return (
     <div className={`component navigation-icons ${props?.params?.styles?.trimEnd()}`} id={id}>
-      <div className="flex items-center gap-3 lg:gap-5 p-4 [.component.header_&]:px-0 [.component.header_&]:justify-end">
+      <div className="flex items-center gap-3 p-4 lg:gap-5 [.component.header_&]:justify-end [.component.header_&]:px-0">
         {showAccountIcon && (
           <IconDropdown icon={<User className="size-5" />} label="Account">
             <p className="p-4">{t('account-empty') || 'You are not logged in.'}</p>

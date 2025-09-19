@@ -32,7 +32,7 @@
   }
 
   ul {
-    @apply ps-6 space-y-1 text-foreground-light;
+    @apply text-foreground-light space-y-1 ps-6;
 
     ul {
       @apply my-2;
@@ -40,7 +40,7 @@
   }
 
   ol {
-    @apply ps-6 space-y-1 text-foreground-light;
+    @apply text-foreground-light space-y-1 ps-6;
 
     ol {
       @apply my-2;
@@ -55,7 +55,7 @@
       @apply relative list-none;
 
       &:before {
-        @apply absolute w-4 top-0.5 -left-4.5 text-sm content-['\f046'] font-[FontAwesome];
+        @apply absolute top-0.5 -left-4.5 w-4 font-[FontAwesome] text-sm content-['\f046'];
       }
     }
   }

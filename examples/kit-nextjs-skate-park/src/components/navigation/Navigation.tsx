@@ -83,18 +83,18 @@ const NavigationListItem: React.FC<NavigationListItemProps> = ({
       role="menuitem"
       className={clsx(
         fields?.Styles?.join(' '),
-        'relative flex flex-col gap-x-8 xl:gap-x-14 gap-y-4',
+        'relative flex flex-col gap-x-8 gap-y-4 xl:gap-x-14',
         isRootItem && 'lg:flex-row',
         isLogoRootItem && 'shrink-0 max-lg:hidden',
         isLogoRootItem && isSimpleLayout && 'lg:mr-auto'
       )}
     >
-      <div className="flex justify-center items-center gap-1">
+      <div className="flex items-center justify-center gap-1">
         <Link
           field={getLinkField(fields)}
           editable={page.mode.isEditing}
           onClick={clickHandler}
-          className="whitespace-nowrap transition-colors hover:text-foreground-light"
+          className="hover:text-foreground-light whitespace-nowrap transition-colors"
         >
           {getLinkContent(fields, logoSrc)}
         </Link>
@@ -104,7 +104,7 @@ const NavigationListItem: React.FC<NavigationListItemProps> = ({
             aria-label="Toggle submenu"
             aria-haspopup="true"
             aria-expanded={isActive}
-            className="w-6 h-6 flex justify-center items-center cursor-pointer"
+            className="flex h-6 w-6 cursor-pointer items-center justify-center"
             onClick={() => setIsActive((a) => !a)}
             onKeyDown={(e) => {
               if (e.key === 'Enter' || e.key === ' ') {
@@ -127,16 +127,16 @@ const NavigationListItem: React.FC<NavigationListItemProps> = ({
         <ul
           role="menu"
           className={clsx(
-            'flex flex-col items-center gap-x-8 xl:gap-x-14 gap-y-4',
+            'flex flex-col items-center gap-x-8 gap-y-4 xl:gap-x-14',
             isRootItem && 'lg:flex-row',
             hasDropdownMenu &&
               clsx(
-                'text-base max-lg:text-sm max-lg:border-b max-lg:pb-4 z-110',
+                'z-110 text-base max-lg:border-b max-lg:pb-4 max-lg:text-sm',
                 'lg:absolute lg:top-full lg:left-1/2 lg:-translate-x-1/2 lg:p-6 lg:transition-all lg:duration-300',
-                'lg:bg-background lg:shadow-md lg:rounded-xl',
+                'lg:bg-background lg:rounded-xl lg:shadow-md',
                 isActive
                   ? 'max-lg:flex'
-                  : 'max-lg:hidden lg:opacity-0 lg:scale-95 lg:translate-y-2 lg:pointer-events-none'
+                  : 'max-lg:hidden lg:pointer-events-none lg:translate-y-2 lg:scale-95 lg:opacity-0'
               )
           )}
         >
@@ -191,9 +191,9 @@ export const Default = ({ params, fields }: NavigationProps) => {
     <div className={`component navigation bg-background ${styles}`} id={id}>
       <div
         className={clsx(
-          'lg:hidden relative container flex items-center py-4 z-150',
+          'relative z-150 container flex items-center py-4 lg:hidden',
           !isSimpleLayout &&
-            '[.component.header_&]:px-0 [.component.header_&]:max-lg:grid [.component.header_&]:grid-cols-2',
+            '[.component.header_&]:grid-cols-2 [.component.header_&]:px-0 [.component.header_&]:max-lg:grid',
           !isSimpleLayout ? 'flex-row-reverse' : '',
           isSimpleLayout && !hasLogoRootItem ? 'justify-end' : 'justify-between'
         )}
@@ -228,15 +228,15 @@ export const Default = ({ params, fields }: NavigationProps) => {
 
       <nav
         className={clsx(
-          'flex bg-background duration-300 z-100',
+          'bg-background z-100 flex duration-300',
           'max-lg:fixed max-lg:inset-0',
-          !isMenuOpen && 'max-lg:opacity-0 max-lg:-translate-y-full'
+          !isMenuOpen && 'max-lg:-translate-y-full max-lg:opacity-0'
         )}
       >
         <ul
           role="menubar"
           className={clsx(
-            'container flex flex-col items-center justify-center text-lg lg:flex-row gap-y-4 gap-x-8 xl:gap-x-16 py-6',
+            'container flex flex-col items-center justify-center gap-x-8 gap-y-4 py-6 text-lg lg:flex-row xl:gap-x-16',
             isSimpleLayout && !hasLogoRootItem && 'lg:justify-end'
           )}
         >

@@ -72,19 +72,19 @@ export const Default = (props: FooterProps) => {
   ];
 
   return (
-    <section className={`relative component footer ${props.params.styles} overflow-hidden`} id={id}>
+    <section className={`component footer relative ${props.params.styles} overflow-hidden`} id={id}>
       <div className="bg-background-muted">
-        <div className="container grid lg:grid-cols-[1fr_3fr] gap-12 py-28.5">
+        <div className="container grid gap-12 py-28.5 lg:grid-cols-[1fr_3fr]">
           <div className="flex flex-col gap-7">
             <div className="sm:max-w-34">
               <Image field={props.fields.Logo} />
             </div>
             <RichText field={props.fields.Description} />
           </div>
-          <div className="grid sm:grid-cols-3 lg:grid-cols-5 gap-13 lg:gap-5 xl:gap-12">
+          <div className="grid gap-13 sm:grid-cols-3 lg:grid-cols-5 lg:gap-5 xl:gap-12">
             {sections.map(({ key, title, content }) => (
               <div key={key}>
-                <div className="mb-8 text-accent font-bold text-lg">{title}</div>
+                <div className="text-accent mb-8 text-lg font-bold">{title}</div>
                 <div className="space-y-4">{content}</div>
               </div>
             ))}
@@ -96,7 +96,7 @@ export const Default = (props: FooterProps) => {
           <div className="max-sm:order-2">
             <Text field={props.fields.CopyrightText} />
           </div>
-          <div className="flex items-center justify-between gap-20 max-sm:order-1 max-sm:flex-col max-sm:items-start max-lg:gap-10 max-sm:gap-5">
+          <div className="flex items-center justify-between gap-20 max-lg:gap-10 max-sm:order-1 max-sm:flex-col max-sm:items-start max-sm:gap-5">
             <Link field={props.fields.TermsText} className="hover:underline" />
             <Link field={props.fields.PolicyText} className="hover:underline" />
           </div>

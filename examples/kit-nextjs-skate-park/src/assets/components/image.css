@@ -1,6 +1,6 @@
 .component.image {
   img {
-    @apply w-full h-auto;
+    @apply h-auto w-full;
   }
 
   a {
@@ -8,13 +8,13 @@
   }
 
   .image-caption {
-    @apply block text-sm py-1;
+    @apply block py-1 text-sm;
   }
 }
 
 /* image default size */
 .image-default-size {
   img {
-    @apply max-w-full w-auto!;
+    @apply w-auto! max-w-full;
   }
 }

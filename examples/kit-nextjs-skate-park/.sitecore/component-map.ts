@@ -7,6 +7,7 @@ import { Form } from '@sitecore-content-sdk/nextjs';
 import * as Title from 'src/components/title/Title';
 import * as Subscribe from 'src/components/subscribe/Subscribe';
 import * as SocialFollow from 'src/components/social-follow/SocialFollow';
+import * as SocialFeed from 'src/components/social-feed/SocialFeed';
 import * as RowSplitter from 'src/components/row-splitter/RowSplitter';
 import * as RichText from 'src/components/rich-text/RichText';
 import * as Promo from 'src/components/promo/Promo';
@@ -26,6 +27,7 @@ import * as ContentBlock from 'src/components/content-block/ContentBlock';
 import * as Container from 'src/components/container/Container';
 import * as ColumnSplitter from 'src/components/column-splitter/ColumnSplitter';
 import * as Breadcrumb from 'src/components/breadcrumb/Breadcrumb';
+import * as ArticleDetails from 'src/components/article-details/ArticleDetails';
 
 // Components must be registered within the map to match the string key with component name in Sitecore
 export const componentMap = new Map<string, NextjsContentSdkComponent>([
@@ -35,6 +37,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Title', Title],
   ['Subscribe', Subscribe],
   ['SocialFollow', SocialFollow],
+  ['SocialFeed', SocialFeed],
   ['RowSplitter', RowSplitter],
   ['RichText', RichText],
   ['Promo', Promo],
@@ -54,6 +57,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Container', Container],
   ['ColumnSplitter', ColumnSplitter],
   ['Breadcrumb', Breadcrumb],
+  ['ArticleDetails', ArticleDetails],
 ]);
 
 export default componentMap;

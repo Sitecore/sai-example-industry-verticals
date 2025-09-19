@@ -208,3 +208,34 @@ export const FourColGrid = (props: FeaturesProps) => {
     </FeatureWrapper>
   );
 };
+
+export const ImageCardGrid = (props: FeaturesProps) => {
+  const results = props.fields.data.datasource.children.results;
+
+  return (
+    <FeatureWrapper props={props}>
+      <div className="outline-non container grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
+        {results.map((item, index) => {
+          const title = item.featureTitle.jsonValue;
+          const description = item.featureDescription.jsonValue;
+          const image = item.featureImage.jsonValue;
+          return (
+            <div key={index}>
+              <div className="mb-7 aspect-4/3 w-full overflow-hidden rounded-lg bg-white">
+                <Image field={image} className="h-full w-full object-cover" />
+              </div>
+
+              <h6>
+                <Text field={title} />
+              </h6>
+
+              <p className="text-foreground-muted mt-1 text-lg">
+                <Text field={description} />
+              </p>
+            </div>
+          );
+        })}
+      </div>
+    </FeatureWrapper>
+  );
+};

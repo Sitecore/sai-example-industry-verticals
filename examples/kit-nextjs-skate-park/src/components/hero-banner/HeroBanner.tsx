@@ -144,9 +144,7 @@ export const TopContent = ({ params, fields, rendering }: HeroBannerProps) => {
             {/* Title */}
             <h1 className="text-center text-5xl leading-[110%] font-bold capitalize md:text-7xl md:leading-[130%] xl:text-[80px]">
               <ContentSdkText field={fields.Title} />
-              {!hideAccentLine && (
-                <AccentLine className="mx-auto !h-5 w-[9ch] lg:mx-0 lg:ml-auto" />
-              )}
+              {!hideAccentLine && <AccentLine className="mx-auto !h-5 w-[9ch]" />}
             </h1>
 
             {/* Description */}

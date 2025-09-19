@@ -6,10 +6,10 @@ export const MockPlaceholder = ({ className = '' }: MockPlaceholderProps) => {
   return (
     <div className="sc-jss-empty-placeholder">
       <div
-        className={`bg-white/60 hover:bg-[#e9e7ff] border-2 border-[#969696] border-dashed p-5 flex items-center justify-center w-full h-25 min-w-12 cursor-pointer ${className}`}
+        className={`flex h-25 w-full min-w-12 cursor-pointer items-center justify-center border-2 border-dashed border-[#969696] bg-white/60 p-5 hover:bg-[#e9e7ff] ${className}`}
       >
-        <div className="size-10 bg-[#5548d9] rounded-full flex items-center justify-center">
-          <span className="text-white text-3xl">+</span>
+        <div className="flex size-10 items-center justify-center rounded-full bg-[#5548d9]">
+          <span className="text-3xl text-white">+</span>
         </div>
       </div>
     </div>

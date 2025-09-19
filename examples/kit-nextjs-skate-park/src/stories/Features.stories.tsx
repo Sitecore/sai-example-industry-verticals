@@ -99,7 +99,7 @@ export const FeatureImageGrid: Story = {
           createItems: (count) =>
             Array.from({ length: count }, () => ({
               featureTitle: createIGQLField(createTextField('Title')),
-              featureDescription: createIGQLField(createTextField('Title')),
+              featureDescription: createIGQLField(createTextField('Description')),
               featureImage: createIGQLField(createImageField('placeholder')),
               featureLink: createIGQLField(createLinkField('More Info')),
             })),

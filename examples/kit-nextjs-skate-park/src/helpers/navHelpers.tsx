@@ -19,7 +19,7 @@ export const getLinkContent = (fields: NavItemFields, logoSrc?: string): JSX.Ele
   if (isRootItem && logoSrc) {
     const altText =
       fields.NavigationTitle?.value || fields.Title?.value || fields.DisplayName || '';
-    return <img src={logoSrc} alt={String(altText)} className="w-36 h-auto" />;
+    return <img src={logoSrc} alt={String(altText)} className="h-auto w-36" />;
   }
 
   const textField = fields.NavigationTitle || fields.Title;
