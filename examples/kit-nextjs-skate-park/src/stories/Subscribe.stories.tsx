@@ -1,8 +1,16 @@
-import type { Meta, StoryObj } from '@storybook/nextjs-vite';
+import type { Meta, StoryObj, ArgTypes } from '@storybook/nextjs-vite';
 import { ComponentProps } from 'react';
-import { Default as SubscribeBanner } from '../components/subscribe/Subscribe';
+import {
+  Default as SubscribeBanner,
+  WithConsent as SubscribeWithConsent,
+} from '../components/subscribe/Subscribe';
 import { CommonParams, CommonRendering } from './common/commonData';
-import { createTextField } from './helpers/createFields';
+import { createTextField, createRichTextField } from './helpers/createFields';
+import {
+  BackgroundColorArgs,
+  backgroundColorArgTypes,
+  defaultBackgroundColorArgs,
+} from './common/commonControls';
 
 const baseParams = {
   ...CommonParams,
@@ -14,13 +22,7 @@ const baseRendering = {
   params: baseParams,
 } as const;
 
-type StoryProps = ComponentProps<typeof SubscribeBanner> & {
-  bgOption:
-    | 'container-white-background'
-    | 'container-color-background'
-    | 'container-gray-background';
-};
-
+type StoryProps = ComponentProps<typeof SubscribeBanner> & BackgroundColorArgs;
 const meta = {
   title: 'Forms /SubscribeBanner',
   component: SubscribeBanner,
@@ -29,27 +31,10 @@ const meta = {
     layout: 'fullscreen',
   },
   argTypes: {
-    bgOption: {
-      name: 'Background Color',
-      control: {
-        type: 'select',
-        labels: {
-          'container-white-background': 'White',
-          'container-color-background': 'Accent',
-          'container-gray-background': 'Gray',
-        },
-      },
-      options: [
-        'container-white-background',
-        'container-color-background',
-        'container-gray-background',
-      ],
-    },
-  },
+    ...backgroundColorArgTypes,
+  } as ArgTypes,
   args: {
-    bgOption: 'container-color-background',
-    params: baseParams,
-    rendering: baseRendering,
+    BackgroundColor: 'Color background',
   },
 } satisfies Meta<StoryProps>;
 
@@ -58,14 +43,14 @@ export default meta;
 type Story = StoryObj<StoryProps>;
 
 const renderWithBg: Story['render'] = (args) => {
-  const mergedStyles =
-    `${args.params?.styles ?? ''} ${args.bgOption ?? 'container-color-background'}`.trim();
+  const mergedStyles = `${args.params?.styles ?? ''} ${args.BackgroundColor}`.trim();
 
   return (
     <SubscribeBanner
       {...args}
+      rendering={baseRendering}
       params={{
-        ...args.params,
+        ...baseParams,
         styles: mergedStyles,
       }}
     />
@@ -77,7 +62,6 @@ export const Default: Story = {
   args: {
     fields: {
       Title: createTextField('Subscribe to get attractive offers on our products'),
-      ButtonText: createTextField('Subscribe'),
     },
   },
 };
@@ -89,7 +73,30 @@ export const LongTitle: Story = {
       Title: createTextField(
         'Subscribe to get the latest product updates, tutorials, and best practices delivered to your inbox — Subscribe to get attractive offers on our products'
       ),
-      ButtonText: createTextField('Join Now'),
+    },
+  },
+};
+
+export const WithConsent: Story = {
+  render: (args) => {
+    const mergedStyles = `${args.params?.styles ?? ''} ${args.BackgroundColor}`.trim();
+
+    return (
+      <SubscribeWithConsent
+        {...args}
+        rendering={baseRendering}
+        params={{
+          ...baseParams,
+          styles: mergedStyles,
+        }}
+      />
+    );
+  },
+  args: {
+    ...defaultBackgroundColorArgs,
+    fields: {
+      Title: createTextField('Subscribe to get attractive offers on our products'),
+      ConsentText: createRichTextField(1, 'paragraphs'),
     },
   },
 };
