@@ -64,4 +64,16 @@
   .reviews_carousel_btn {
     @apply bg-background absolute top-1/2 z-10 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full p-3 shadow-[0_7.031px_19.531px_0_rgba(0,0,0,0.25)];
   }
+  .reviews_carousel_btn_left {
+    left: 0;
+    @media screen and (min-width: 1550px) {
+      left: -25px;
+    }
+  }
+  .reviews_carousel_btn_right {
+    right: 0;
+    @media screen and (min-width: 1550px) {
+      right: -25px;
+    }
+  }
 }

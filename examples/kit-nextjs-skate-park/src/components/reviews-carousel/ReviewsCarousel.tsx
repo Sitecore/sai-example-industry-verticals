@@ -42,8 +42,8 @@ export const Default = (props: ReviewsProps) => {
   const id = props.params.RenderingIdentifier;
   const uid = props.rendering.uid;
   const reviews = props.fields?.Reviews || [];
-  const sectionTitle = props.fields?.Title || '';
-  const sectionEyebrow = props.fields?.Eyebrow || '';
+  // const sectionTitle = props.fields?.Title || '';
+  // const sectionEyebrow = props.fields?.Eyebrow || '';
   const styles = `${props.params.styles || ''}`.trim();
 
   return (
@@ -65,7 +65,7 @@ export const Default = (props: ReviewsProps) => {
         <div className="relative mt-11">
           {/* Slider Component */}
           <button
-            className={`reviews_carousel_btn 3xl:-left-5 left-0 z-10 swiper-btn-prev-${uid}`}
+            className={`reviews_carousel_btn reviews_carousel_btn_left swiper-btn-prev-${uid}`}
             name="previous-review"
             aria-label="Previous Review"
           >
@@ -99,7 +99,7 @@ export const Default = (props: ReviewsProps) => {
           </Swiper>
 
           <button
-            className={`reviews_carousel_btn 3xl:-right-5 right-0 swiper-btn-next-${uid}`}
+            className={`reviews_carousel_btn_right reviews_carousel_btn swiper-btn-next-${uid}`}
             name="next-review"
             aria-label="Next Review"
           >
