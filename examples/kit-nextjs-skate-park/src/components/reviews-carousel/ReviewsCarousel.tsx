@@ -188,7 +188,7 @@ export const Default = (props: ReviewsProps) => {
           >
             {reviews.map((review) => (
               <SwiperSlide key={review.id} className="">
-                <div className="aspect-square rounded-2xl bg-amber-600">
+                <div className="aspect-square min-h-96 w-full rounded-2xl bg-amber-600">
                   <Image field={review.fields.Product.fields.Image1} />
                 </div>
                 <div className="px-5">
@@ -201,6 +201,8 @@ export const Default = (props: ReviewsProps) => {
                           className="h-[50px] w-[50px] rounded-full"
                         />
                       </div>
+                      <div className="wavy-bottom-left bg-background absolute top-5 -left-7 h-[30px] w-[30px]"></div>
+                      <div className="wavy-bottom-right bg-background absolute top-5 -right-7 h-[30px] w-[30px]"></div>
                     </div>
                     <div>
                       <div className="text-bg- font-gilroy text-center text-xl leading-normal font-bold capitalize">
