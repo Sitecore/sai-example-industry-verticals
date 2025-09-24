@@ -6,6 +6,7 @@
 /* Swiper Carousel styles */
 @import 'swiper/css';
 @import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
 
 @import './base/index.css';
 @import './components/index.css';

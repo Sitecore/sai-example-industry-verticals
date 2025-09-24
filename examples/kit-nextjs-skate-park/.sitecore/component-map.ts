@@ -29,6 +29,8 @@ import * as ContactForm from 'src/components/contact-form/ContactForm';
 import * as ColumnSplitter from 'src/components/column-splitter/ColumnSplitter';
 import * as Breadcrumb from 'src/components/breadcrumb/Breadcrumb';
 import * as ArticleDetails from 'src/components/article-details/ArticleDetails';
+import * as ArticleCarousel from 'src/components/article-carousel/ArticleCarousel';
+
 
 // Components must be registered within the map to match the string key with component name in Sitecore
 export const componentMap = new Map<string, NextjsContentSdkComponent>([
@@ -60,6 +62,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['ColumnSplitter', ColumnSplitter],
   ['Breadcrumb', Breadcrumb],
   ['ArticleDetails', ArticleDetails],
+  ['ArticleCarousel', ArticleCarousel],
 ]);
 
 export default componentMap;
