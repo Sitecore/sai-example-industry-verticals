@@ -10,6 +10,7 @@ import * as SocialFollow from 'src/components/social-follow/SocialFollow';
 import * as SocialFeed from 'src/components/social-feed/SocialFeed';
 import * as RowSplitter from 'src/components/row-splitter/RowSplitter';
 import * as RichText from 'src/components/rich-text/RichText';
+import * as ReviewsCarousel from 'src/components/reviews-carousel/ReviewsCarousel';
 import * as Promo from 'src/components/promo/Promo';
 import * as PartialDesignDynamicPlaceholder from 'src/components/partial-design-dynamic-placeholder/PartialDesignDynamicPlaceholder';
 import * as PageContent from 'src/components/page-content/PageContent';
@@ -40,6 +41,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['SocialFeed', SocialFeed],
   ['RowSplitter', RowSplitter],
   ['RichText', RichText],
+  ['ReviewsCarousel', ReviewsCarousel],
   ['Promo', Promo],
   ['PartialDesignDynamicPlaceholder', PartialDesignDynamicPlaceholder],
   ['PageContent', PageContent],
