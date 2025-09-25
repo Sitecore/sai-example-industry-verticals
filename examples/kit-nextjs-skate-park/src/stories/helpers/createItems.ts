@@ -1,10 +1,11 @@
-import { Field } from '@sitecore-content-sdk/nextjs';
+import { Article, Author, Category } from '@/types/article';
 import {
   createImageField,
   createLinkField,
   createRichTextField,
   createTextField,
 } from './createFields';
+import { Field } from '@sitecore-content-sdk/nextjs';
 
 export const createLinkItems = (count: number) =>
   Array.from({ length: count }).map((_, i) => ({
@@ -39,29 +40,35 @@ export const createOfferItems = (count: number) => {
   }));
 };
 
-export const createArticles = (count: number) => {
-  return Array.from({ length: count }, (_, index) => ({
-    id: `article-${index + 1}`,
-    displayName: `Article ${index + 1}`,
-    name: `article${index + 1}`,
-    url: `/articles/article-${index + 1}`,
+export const createMockArticles = (count: number): Article[] =>
+  Array.from({ length: count }).map((_, i) => ({
+    id: `article-${i + 1}`,
+    displayName: `Article ${i + 1}`,
+    name: `article${i + 1}`,
+    url: `/articles/article-${i + 1}`,
     fields: {
-      Title: createTextField('We provide you the best experience'),
-      ShortDescription: createRichTextField(1, 'paragraphs'),
-      Content: createRichTextField(1, 'paragraphs'),
-      Image: createImageField('placeholder'),
+      Title: createTextField(`Article Title ${i + 1}`),
+      ShortDescription: createTextField(`Short description for article ${i + 1}`),
+      Content: createRichTextField(i + 1),
+      Image: createImageField(),
+      PublishedDate: { value: new Date(2025, 8, 10 - i).toISOString() },
+      Author: {
+        id: `author-${i + 1}`,
+        displayName: `Author ${i + 1}`,
+        name: `Author ${i + 1}`,
+        url: `/authors/author-${i + 1}`,
+        fields: { AuthorName: createTextField(`Author ${i + 1}`) },
+      } as Author,
+      Tags: [],
       Category: {
-        id: `category-${index + 1}`,
-        displayName: `Category ${index + 1}`,
-        name: `category${index + 1}`,
-        url: `/categories/category-${index + 1}`,
-        fields: {
-          Category: createTextField('Interior'),
-        },
-      },
+        id: `category-${i % 2}`,
+        displayName: i % 2 === 0 ? 'Tech' : 'Lifestyle',
+        name: i % 2 === 0 ? 'Tech' : 'Lifestyle',
+        url: `/categories/${i % 2 === 0 ? 'tech' : 'lifestyle'}`,
+        fields: { Category: createTextField(i % 2 === 0 ? 'Tech' : 'Lifestyle') },
+      } as Category,
     },
   }));
-};
 
 export const createReviews = (count: number) => {
   return Array.from({ length: count }, (_, index) => ({

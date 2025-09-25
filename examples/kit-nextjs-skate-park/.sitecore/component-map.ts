@@ -29,6 +29,7 @@ import * as Container from 'src/components/container/Container';
 import * as ContactForm from 'src/components/contact-form/ContactForm';
 import * as ColumnSplitter from 'src/components/column-splitter/ColumnSplitter';
 import * as Breadcrumb from 'src/components/breadcrumb/Breadcrumb';
+import * as ArticleListing from 'src/components/article-listing/ArticleListing';
 import * as ArticleDetails from 'src/components/article-details/ArticleDetails';
 import * as ArticleCarousel from 'src/components/article-carousel/ArticleCarousel';
 
@@ -62,6 +63,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['ContactForm', ContactForm],
   ['ColumnSplitter', ColumnSplitter],
   ['Breadcrumb', Breadcrumb],
+  ['ArticleListing', ArticleListing],
   ['ArticleDetails', ArticleDetails],
   ['ArticleCarousel', ArticleCarousel],
 ]);
