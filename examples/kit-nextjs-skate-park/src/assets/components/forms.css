@@ -1,0 +1,16 @@
+.form-input,
+.form-textarea {
+  @apply text-foreground placeholder:text-foreground text-sm;
+  @apply border-foreground/30 border-0 border-b;
+  @apply focus:border-accent group-[.container-dark-background]:focus:border-background-accent group-[.container-dark-background]:focus:placeholder:text-background focus:border-b-2;
+  @apply ring-0 focus:ring-0 focus-visible:outline-none;
+  @apply w-full leading-tight transition-colors;
+  @apply disabled:cursor-not-allowed disabled:opacity-60;
+}
+
+.form-input {
+  @apply h-10 px-0 md:h-12;
+}
+.form-textarea {
+  @apply min-h-10 px-0 py-3;
+}

@@ -147,7 +147,7 @@ export const Default = (props: PromoProps): JSX.Element => {
         </div>
 
         <div className={`col-span-full space-y-5 ${secondColumnSize} ${justifyContentClass}`}>
-          <div className="text-accent text-sm uppercase">
+          <div className="eyebrow">
             <Text field={props.fields.PromoSubTitle} />
           </div>
 
