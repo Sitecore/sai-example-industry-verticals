@@ -3,18 +3,16 @@ import {
   ComponentParams,
   ComponentRendering,
   Field,
-  Image,
   ImageField,
   Text,
   TextField,
-  NextImage as ContentSdkImage,
 } from '@sitecore-content-sdk/nextjs';
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
 import AccentLine from '@/assets/icons/accent-line/AccentLine';
 import ArrowIcon from '../non-sitecore/ArrowIcon';
-import StarRating from '../non-sitecore/StarRating';
+import ReviewCard from '../non-sitecore/ReviewCard';
 
 interface ProductFields {
   id: string;
@@ -104,43 +102,10 @@ export const Default = (props: ReviewsProps) => {
               1024: { slidesPerView: 3 },
               1280: { slidesPerView: 4 },
             }}
-            className=""
           >
             {reviews.map((review) => (
               <SwiperSlide key={review.id}>
-                <div className="aspect-square min-h-96 w-full rounded-2xl">
-                  <ContentSdkImage
-                    className="image-cover rounded-2xl"
-                    field={review.fields.Product.fields.Image1}
-                  />
-                </div>
-                <div className="px-5">
-                  <div className="bg-background relative -top-15 flex min-h-70 flex-col items-center justify-between gap-4 rounded-2xl p-8 text-center shadow-xl">
-                    {/* Image */}
-                    <div className="bg-background absolute -top-10 flex h-[66px] w-[66px] items-center justify-center rounded-full">
-                      <div>
-                        <Image
-                          field={review.fields.Avatar}
-                          className="h-[50px] w-[50px] rounded-full"
-                        />
-                      </div>
-                      <div className="wavy-bottom-left bg-background absolute top-5 -left-7 h-[30px] w-[30px]"></div>
-                      <div className="wavy-bottom-right bg-background absolute top-5 -right-7 h-[30px] w-[30px]"></div>
-                    </div>
-                    <div>
-                      <div className="text-bg- font-gilroy text-center text-xl leading-normal font-bold capitalize">
-                        <Text field={review.fields.ReviewerName} />
-                      </div>
-                      <div className="text-md font-gilroy text-background-muted-light text-center leading-normal font-normal">
-                        <Text field={review.fields.Caption} />
-                      </div>
-                    </div>
-                    <div className="text-bg text-center leading-[22px] font-normal">
-                      <Text field={review.fields.Description} />
-                    </div>
-                    <StarRating rating={review.fields.Rating.value} />
-                  </div>
-                </div>
+                <ReviewCard {...review} />
               </SwiperSlide>
             ))}
           </Swiper>
