@@ -5,7 +5,7 @@ import {
   CarouselProps,
 } from '../components/article-carousel/ArticleCarousel';
 import { createLinkField, createRichTextField, createTextField } from './helpers/createFields';
-import { createArticles } from './helpers/createItems';
+import { createMockArticles } from './helpers/createItems';
 import { boolToSitecoreCheckbox } from './helpers/boolToSitecoreCheckbox';
 import {
   backgroundColorArgTypes,
@@ -76,7 +76,7 @@ export const Default: Story = {
   render: (args) => {
     const fields = {
       ...baseFields,
-      Articles: createArticles(args.numberOfArticles),
+      Articles: createMockArticles(args.numberOfArticles),
     };
 
     const params = {
