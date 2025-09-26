@@ -1,43 +1,12 @@
 import { ComponentProps } from '@/lib/component-props';
-import {
-  ComponentParams,
-  ComponentRendering,
-  Field,
-  ImageField,
-  Text,
-  TextField,
-} from '@sitecore-content-sdk/nextjs';
+import { ComponentParams, ComponentRendering, Text, TextField } from '@sitecore-content-sdk/nextjs';
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
 import AccentLine from '@/assets/icons/accent-line/AccentLine';
-import ArrowIcon from '../non-sitecore/ArrowIcon';
 import ReviewCard from '../non-sitecore/ReviewCard';
-
-interface ProductFields {
-  id: string;
-  displayName: string;
-  name: string;
-  url: string;
-  fields: {
-    Image5?: ImageField;
-  };
-}
-
-interface ReviewFields {
-  id: string;
-  displayName: string;
-  name: string;
-  url: string;
-  fields: {
-    Avatar: ImageField;
-    ReviewerName: TextField;
-    Caption: TextField;
-    Description: TextField;
-    Product: ProductFields;
-    Rating: Field<number>;
-  };
-}
+import { ReviewFields } from '@/types/review';
+import CarouselButton from '../non-sitecore/CarouselButton';
 
 interface ReviewsProps extends ComponentProps {
   rendering: ComponentRendering & { params: ComponentParams };
@@ -76,15 +45,12 @@ export const Default = (props: ReviewsProps) => {
         </div>
 
         {/* Slider Section */}
-        <div className="relative mt-11">
+        <div className="relative mt-11 px-3">
           {/* Slider Component */}
-          <button
-            className={`reviews_carousel_btn reviews_carousel_btn_left swiper-btn-prev-${uid}`}
-            name="previous-review"
-            aria-label="Previous Review"
-          >
-            <ArrowIcon direction="left" />
-          </button>
+          <CarouselButton
+            direction="prev"
+            className={`swiper-btn-prev-${uid} absolute top-1/3 -left-2 -translate-y-1/2`}
+          />
 
           <Swiper
             modules={[Navigation, Pagination]}
@@ -108,13 +74,10 @@ export const Default = (props: ReviewsProps) => {
             ))}
           </Swiper>
 
-          <button
-            className={`reviews_carousel_btn_right reviews_carousel_btn swiper-btn-next-${uid}`}
-            name="next-review"
-            aria-label="Next Review"
-          >
-            <ArrowIcon direction="right" />
-          </button>
+          <CarouselButton
+            direction="next"
+            className={`swiper-btn-next-${uid} absolute top-1/3 -right-2 -translate-y-1/2`}
+          />
         </div>
       </div>
     </div>

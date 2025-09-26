@@ -6,6 +6,7 @@ import {
   createRichTextField,
   createTextField,
 } from './createFields';
+import { Field } from '@sitecore-content-sdk/nextjs';
 
 export const createLinkItems = (count: number) =>
   Array.from({ length: count }).map((_, i) => ({
@@ -109,6 +110,33 @@ export const createProductItems = (count: number) => {
           CategoryName: createTextField(`Category ${(i % 3) + 1}`),
         },
       },
+    },
+  }));
+};
+
+export const createReviews = (count: number) => {
+  return Array.from({ length: count }, (_, index) => ({
+    id: `review-${index + 1}`,
+    displayName: `review ${index + 1}`,
+    name: `review${index + 1}`,
+    url: `/review/review-${index + 1}`,
+    fields: {
+      Avatar: createImageField('placeholder'),
+      ReviewerName: createTextField(`Reviewer ${index + 1}`),
+      Caption: createTextField(`Caption for review ${index + 1}`),
+      Description: createTextField(
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      ),
+      Product: {
+        id: `product-${index + 1}`,
+        displayName: `Product ${index + 1}`,
+        name: `product${index + 1}`,
+        url: `/product/product-${index + 1}`,
+        fields: {
+          Image5: createImageField('placeholder'),
+        },
+      },
+      Rating: { value: (index % 5) + 1 } as Field<number>,
     },
   }));
 };

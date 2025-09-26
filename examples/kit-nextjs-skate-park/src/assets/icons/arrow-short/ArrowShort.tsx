@@ -12,8 +12,8 @@ const ShortArrow = ({ className = '' }: ShortArrowProps) => (
     <path
       d="M1.3042 7.43548H18.5143M18.5143 7.43548C18.5143 7.43548 13.636 4.22725 12.6448 1.56592M18.5143 7.43548C18.5143 7.43548 14.2017 10.45 12.6448 13.305"
       stroke="currentColor"
-      stroke-width="2.17391"
-      stroke-linecap="square"
+      strokeWidth="2.17391"
+      strokeLinecap="square"
     />
   </svg>
 );

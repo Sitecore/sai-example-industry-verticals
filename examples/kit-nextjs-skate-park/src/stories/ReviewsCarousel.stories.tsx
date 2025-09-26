@@ -11,7 +11,7 @@ type StoryProps = ComponentProps<typeof ReviewsCarousel> & {
 };
 
 const meta = {
-  title: 'Page Content/ReviewsCarousel',
+  title: 'Reviews/ReviewsCarousel',
   component: ReviewsCarousel,
   tags: ['autodocs'],
   parameters: {
