@@ -28,6 +28,8 @@ const ProductCarousel = ({
       <CarouselButton
         direction="prev"
         className={`product-carousel-prev-${uid} absolute top-1/2 -left-5 -translate-y-1/2`}
+        name="previous-product"
+        aria-label="Previous product"
       />
 
       <Swiper
@@ -73,6 +75,8 @@ const ProductCarousel = ({
       <CarouselButton
         direction="next"
         className={`product-carousel-next-${uid} absolute top-1/2 -right-5 -translate-y-1/2`}
+        name="next-product"
+        aria-label="Next product"
       />
     </div>
   );

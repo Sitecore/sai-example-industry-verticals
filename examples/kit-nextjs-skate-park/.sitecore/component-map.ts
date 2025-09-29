@@ -10,6 +10,7 @@ import * as SocialFollow from 'src/components/social-follow/SocialFollow';
 import * as SocialFeed from 'src/components/social-feed/SocialFeed';
 import * as RowSplitter from 'src/components/row-splitter/RowSplitter';
 import * as RichText from 'src/components/rich-text/RichText';
+import * as RelatedProducts from 'src/components/related-products/RelatedProducts';
 import * as Promo from 'src/components/promo/Promo';
 import * as ProductCarouselWrapper from 'src/components/product-carousel-wrapper/ProductCarouselWrapper';
 import * as PartialDesignDynamicPlaceholder from 'src/components/partial-design-dynamic-placeholder/PartialDesignDynamicPlaceholder';
@@ -45,6 +46,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['SocialFeed', SocialFeed],
   ['RowSplitter', RowSplitter],
   ['RichText', RichText],
+  ['RelatedProducts', RelatedProducts],
   ['Promo', Promo],
   ['ProductCarouselWrapper', ProductCarouselWrapper],
   ['PartialDesignDynamicPlaceholder', PartialDesignDynamicPlaceholder],

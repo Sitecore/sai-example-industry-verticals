@@ -67,7 +67,7 @@ export const WithConsent = (props: SubscribeBannerProps): JSX.Element => {
   return (
     <section className={`component subscribe-banner group ${styles ?? ''}`} id={id || undefined}>
       {/* Headline*/}
-      <div className="container max-w-sm">
+      <div className="max-w-sm">
         <div className="mb-6">
           <h2 className="text-foreground text-lg leading-tight font-medium xl:text-xl">
             <Text field={props.fields?.Title} />
