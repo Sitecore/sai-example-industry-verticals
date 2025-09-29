@@ -9,21 +9,16 @@ import {
 import React from 'react';
 import StarRating from './StarRating';
 import { ProductFields } from '@/types/review';
+import { SitecoreItem } from '@/types/common';
 
-interface ReviewCardProps {
-  id: string;
-  displayName: string;
-  name: string;
-  url: string;
-  fields: {
-    Avatar: ImageField;
-    ReviewerName: TextField;
-    Caption: TextField;
-    Description: TextField;
-    Product: ProductFields;
-    Rating: Field<number>;
-  };
-}
+type ReviewCardProps = SitecoreItem<{
+  Avatar: ImageField;
+  ReviewerName: TextField;
+  Caption: TextField;
+  Description: TextField;
+  Product: ProductFields;
+  Rating: Field<number>;
+}>;
 
 const ReviewCard = (props: ReviewCardProps) => {
   return (

@@ -54,12 +54,13 @@ export const Default = (props: ReviewsProps) => {
 
           <Swiper
             modules={[Navigation, Pagination]}
+            spaceBetween={20}
+            slidesPerView={4}
             navigation={{
               prevEl: `.swiper-btn-prev-${uid}`,
               nextEl: `.swiper-btn-next-${uid}`,
+              disabledClass: 'pointer-events-none opacity-50',
             }}
-            spaceBetween={20}
-            slidesPerView={4}
             breakpoints={{
               320: { slidesPerView: 1 },
               640: { slidesPerView: 2 },
