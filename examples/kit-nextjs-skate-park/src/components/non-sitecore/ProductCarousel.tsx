@@ -63,7 +63,7 @@ const ProductCarousel = ({
             <ProductCard
               image={product.fields.Image1}
               name={product.fields.Title}
-              category={product.fields.Category.fields.CategoryName}
+              category={product.fields.Category?.fields?.CategoryName}
               price={product.fields.Price}
               rating={product.fields.Rating.value || 0}
               url={product.url}

@@ -31,17 +31,18 @@ export const ProductCard = ({
   const { page } = useSitecore();
 
   const currencySymbol = localeOptions.find((l) => l.code === page.locale)?.currencySymbol;
-  const formattedPrice = !isNaN(price?.value)
-    ? price.value.toLocaleString(undefined, {
-        minimumFractionDigits: 0,
-        maximumFractionDigits: 2,
-      })
-    : price?.value;
+  const formattedPrice =
+    price?.value && !isNaN(price?.value)
+      ? price.value.toLocaleString(undefined, {
+          minimumFractionDigits: 0,
+          maximumFractionDigits: 2,
+        })
+      : price?.value;
 
   return (
     <Link href={url} passHref>
       <div
-        className={`flex h-123 w-full flex-col overflow-hidden rounded-2xl hover:drop-shadow-sm ${className}`}
+        className={`flex min-h-123 w-full flex-col overflow-hidden rounded-2xl hover:drop-shadow-sm ${className}`}
       >
         {/* Product Image */}
         <div className="bg-background-card-image flex h-72 w-full items-center justify-center p-6">
@@ -53,7 +54,7 @@ export const ProductCard = ({
         </div>
 
         {/* Product Details */}
-        <div className="bg-background flex grow-1 flex-col items-start px-5 pt-3 pb-9">
+        <div className="bg-background flex grow-1 flex-col items-start px-5 pt-3 pb-9 text-left">
           <p className="!text-foreground-light">
             <Text field={category} />
           </p>
@@ -62,7 +63,7 @@ export const ProductCard = ({
             <Text field={name} />
           </h6>
 
-          <StarRating rating={rating} showOnlyFilled className="!text-accent mt-1" />
+          <StarRating rating={rating} showOnlyFilled className="!text-accent mt-1 mb-5" />
 
           <h6 className="!text-foreground mt-auto font-semibold">
             <span className="mr-1 align-super text-sm">{currencySymbol} </span>
