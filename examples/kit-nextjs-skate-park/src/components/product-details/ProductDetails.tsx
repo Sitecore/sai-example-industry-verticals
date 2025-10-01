@@ -31,8 +31,8 @@ export const Default = (props: ProductDetailsProps) => {
   const { currency } = useLocale();
 
   const product = props?.fields;
-  const ShowCompareButton = isParamEnabled(props.params.ShowCompareButton);
-  const ShowAddtoCartButton = isParamEnabled(props.params.ShowAddtoCartButton);
+  const ShowCompareButton = isParamEnabled(props?.params?.ShowCompareButton);
+  const ShowAddtoCartButton = isParamEnabled(props?.params?.ShowAddtoCartButton);
 
   const relatedProductsPlaceholderKey = `related-products-${props?.params?.DynamicPlaceholderId}`;
 
@@ -49,8 +49,8 @@ export const Default = (props: ProductDetailsProps) => {
 
   const [currentUrl, setCurrentUrl] = useState('');
   const [mainImage, setMainImage] = useState<ImageField>(images[0]);
-  const [selectedColor, setSelectedColor] = useState(product.Color[0]);
-  const [selectedSize, setSelectedSize] = useState(product.Size[0]);
+  const [selectedColor, setSelectedColor] = useState(product?.Color?.[0]);
+  const [selectedSize, setSelectedSize] = useState(product?.Size?.[0]);
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
