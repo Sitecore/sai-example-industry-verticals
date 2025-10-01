@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
-import { Default as Promo, WithFullImage, PromoProps } from '../components/promo/Promo';
+import { Default as Promo, WithFullImage, PromoProps, WithQuote } from '../components/promo/Promo';
 import { CommonParams, CommonRendering } from './common/commonData';
 import {
   createImageField,
@@ -8,14 +8,21 @@ import {
   createTextField,
 } from './helpers/createFields';
 import { boolToSitecoreCheckbox } from './helpers/boolToSitecoreCheckbox';
+import {
+  BackgroundColorArgs,
+  backgroundColorArgTypes,
+  defaultBackgroundColorArgs,
+} from './common/commonControls';
 
-type StoryProps = PromoProps & {
-  ShowMultipleImages: boolean;
-  Reversed: boolean;
-  HideCurveLine: boolean;
-  HideShapes: boolean;
-  HideShadows: boolean;
-};
+type StoryProps = PromoProps &
+  BackgroundColorArgs & {
+    ShowMultipleImages: boolean;
+    Reversed: boolean;
+    HideCurveLine: boolean;
+    HideShapes: boolean;
+    HideShadows: boolean;
+    HideQuote: boolean;
+  };
 
 const meta = {
   title: 'Page Content/Promo',
@@ -24,6 +31,7 @@ const meta = {
     layout: 'padded',
   },
   argTypes: {
+    ...backgroundColorArgTypes,
     ShowMultipleImages: {
       control: 'boolean',
       name: 'Show Multiple Images',
@@ -44,6 +52,10 @@ const meta = {
       control: 'boolean',
       name: 'Hide Shadows',
     },
+    HideQuote: {
+      control: 'boolean',
+      name: 'Hide Quote',
+    },
   },
   args: {
     ShowMultipleImages: false,
@@ -51,6 +63,8 @@ const meta = {
     HideCurveLine: false,
     HideShapes: false,
     HideShadows: false,
+    HideQuote: false,
+    ...defaultBackgroundColorArgs,
   },
   tags: ['autodocs'],
 } satisfies Meta<StoryProps>;
@@ -79,9 +93,13 @@ const baseFields = {
 };
 
 export const Default: Story = {
+  argTypes: {
+    HideQuote: { table: { disable: true } },
+  },
   render: (args) => {
     const params = {
       ...baseParams,
+      styles: `${baseParams.styles} ${args.BackgroundColor}`,
       ShowMultipleImages: boolToSitecoreCheckbox(args.ShowMultipleImages),
       Reversed: boolToSitecoreCheckbox(args.Reversed),
       HideCurveLine: boolToSitecoreCheckbox(args.HideCurveLine),
@@ -98,12 +116,32 @@ export const WideImagePromo: Story = {
     HideCurveLine: { table: { disable: true } },
     HideShapes: { table: { disable: true } },
     HideShadows: { table: { disable: true } },
+    HideQuote: { table: { disable: true } },
   },
   render: (args) => {
     const params = {
       ...baseParams,
+      styles: `${baseParams.styles} ${args.BackgroundColor}`,
       Reversed: boolToSitecoreCheckbox(args.Reversed),
     };
     return <WithFullImage params={params} rendering={baseRendering} fields={baseFields} />;
+  },
+};
+
+export const QuotePromo: Story = {
+  argTypes: {
+    ShowMultipleImages: { table: { disable: true } },
+    HideCurveLine: { table: { disable: true } },
+    HideShapes: { table: { disable: true } },
+    HideShadows: { table: { disable: true } },
+  },
+  render: (args) => {
+    const params = {
+      ...baseParams,
+      styles: `${baseParams.styles} ${args.BackgroundColor}`,
+      HideQuote: boolToSitecoreCheckbox(args.HideQuote),
+      Reversed: boolToSitecoreCheckbox(args.Reversed),
+    };
+    return <WithQuote params={params} rendering={baseRendering} fields={baseFields} />;
   },
 };

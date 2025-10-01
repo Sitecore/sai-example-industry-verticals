@@ -4,6 +4,7 @@ import { Product } from '@/types/products';
 import ProductCarousel from '../non-sitecore/ProductCarousel';
 import { isParamEnabled } from '@/helpers/isParamEnabled';
 import { SitecoreItem } from '@/types/common';
+import { useI18n } from 'next-localization';
 
 interface ProductCarouselProps extends ComponentProps {
   fields: {
@@ -12,24 +13,28 @@ interface ProductCarouselProps extends ComponentProps {
 }
 
 export const Default = ({ params, fields }: ProductCarouselProps) => {
+  const { t } = useI18n();
   const id = params.RenderingIdentifier;
   const { items } = fields;
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
   const autoPlay = isParamEnabled(params.Autoplay);
   const loop = isParamEnabled(params.Loop);
+  const allProductsCategory = t('all_products_category') || 'All';
 
   // Get unique categories from products
   const categories = useMemo(() => {
-    const productCategories = items.map((item) => item.fields.Category.fields.CategoryName.value);
-    return ['All', ...Array.from(new Set(productCategories))];
-  }, [items]);
+    const productCategories = items
+      .map((item) => item.fields.Category?.fields?.CategoryName?.value || null)
+      .filter((category): category is string => Boolean(category));
+    return [allProductsCategory, ...Array.from(new Set(productCategories))];
+  }, [items, allProductsCategory]);
 
   const filteredProducts = useMemo(() => {
-    if (selectedCategory === 'All') return items;
+    if (selectedCategory === allProductsCategory) return items;
     return items.filter(
-      (item) => item.fields.Category.fields.CategoryName.value === selectedCategory
+      (item) => item.fields.Category?.fields?.CategoryName?.value === selectedCategory
     );
-  }, [items, selectedCategory]);
+  }, [items, selectedCategory, allProductsCategory]);
 
   return (
     <div className={`component all-products-carousel py-5 ${params.styles}`} id={id}>

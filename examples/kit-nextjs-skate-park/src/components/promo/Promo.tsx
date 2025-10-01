@@ -4,6 +4,7 @@ import {
   RichText as ContentSdkRichText,
   Field,
   ImageField,
+  Link,
   LinkField,
   RichTextField,
   Text,
@@ -13,7 +14,7 @@ import { isParamEnabled } from '@/helpers/isParamEnabled';
 
 import clsx from 'clsx';
 import AccentLine from '@/assets/icons/accent-line/AccentLine';
-import { ExploreLink } from '../non-sitecore/ExploreLink';
+import { Quote } from '@/assets/icons/quote/Quote';
 
 interface Fields {
   PromoImageOne: ImageField;
@@ -37,6 +38,27 @@ export type PromoProps = ComponentProps & {
 };
 
 const isShadowClassActive = (val: boolean) => (val ? 'shadow-2xl' : '');
+
+export const PromoContent = ({ ...props }) => {
+  const isCurveLineVisible = !isParamEnabled(props.params.HideCurveLine);
+  return (
+    <div className="space-y-5">
+      <div className="eyebrow">
+        <Text field={props.fields.PromoSubTitle} />
+      </div>
+
+      <h2 className="inline-block max-w-md">
+        <Text field={props.fields.PromoTitle} />
+        {isCurveLineVisible && <AccentLine className="w-full max-w-xs" />}
+      </h2>
+      <div className="max-w-lg text-lg">
+        <ContentSdkRichText field={props.fields.PromoDescription} />
+      </div>
+
+      <Link field={props.fields.PromoMoreInfo} className="arrow-btn" />
+    </div>
+  );
+};
 
 export const SingleImageContainer = ({
   PromoImageOne,
@@ -116,7 +138,6 @@ export const MultipleImageContainer = ({
 
 export const Default = (props: PromoProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-  const isCurveLineVisible = !isParamEnabled(props.params.HideCurveLine);
   const isPromoReversed = !isParamEnabled(props.params.Reversed) ? '' : 'order-last';
   const showSingleImage = !isParamEnabled(props.params.ShowMultipleImages);
   const withShapes = !isParamEnabled(props.params.HideShapes);
@@ -146,20 +167,8 @@ export const Default = (props: PromoProps): JSX.Element => {
           )}
         </div>
 
-        <div className={`col-span-full space-y-5 ${secondColumnSize} ${justifyContentClass}`}>
-          <div className="eyebrow">
-            <Text field={props.fields.PromoSubTitle} />
-          </div>
-
-          <h2 className="inline-block max-w-md">
-            <Text field={props.fields.PromoTitle} />
-            {isCurveLineVisible && <AccentLine className="w-full max-w-xs" />}
-          </h2>
-          <div className="max-w-lg text-lg">
-            <ContentSdkRichText field={props.fields.PromoDescription} />
-          </div>
-
-          <ExploreLink linkText={props.fields.PromoMoreInfo} />
+        <div className={`col-span-full ${secondColumnSize} ${justifyContentClass}`}>
+          <PromoContent {...props} />
         </div>
       </div>
     </section>
@@ -194,6 +203,58 @@ export const WithFullImage = (props: PromoProps): JSX.Element => {
 
             <div className="flex max-w-md items-center">
               <ContentSdkRichText className="promo-text" field={props.fields.PromoDescription} />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export const WithQuote = (props: PromoProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const withQuote = !isParamEnabled(props.params.HideQuote);
+  const isReversed = !isParamEnabled(props.params.Reversed);
+
+  const classesWhenReversed = {
+    container: isReversed ? 'container-align-left' : 'container-align-right',
+    contentOrder: isReversed ? 'order-1 lg:order-2' : 'order-2 lg:order-1',
+    imageTransform: isReversed
+      ? '-translate-x-[10%] xl:-translate-x-[20%]'
+      : 'translate-x-[10%] xl:translate-x-[15%]',
+    quoteFlip: isReversed ? '' : 'lg:-scale-x-100',
+  };
+
+  return (
+    <section
+      className={`relative ${props.params.styles} z-10 overflow-hidden pb-15 xl:pb-[4%]`}
+      id={id ? id : undefined}
+    >
+      {withQuote && (
+        <div
+          className={`absolute left-5 md:top-[10%] lg:top-[25%] lg:left-1/2 lg:-translate-x-1/2 ${classesWhenReversed.quoteFlip} } text-background-accent! z-20`}
+        >
+          <Quote className="h-10 md:h-20 lg:h-25 xl:h-30" />
+        </div>
+      )}
+      <div className="bg-background">
+        <div className={`${classesWhenReversed.container} `}>
+          <div className={`grid grid-cols-1 lg:grid-cols-3 lg:gap-0`}>
+            <div
+              className={`relative mt-10 flex items-center justify-center lg:col-span-1 ${classesWhenReversed.contentOrder}`}
+            >
+              <div className="text-foreground! mb-5 max-w-sm">
+                <PromoContent {...props} />
+              </div>
+            </div>
+
+            <div
+              className={`relative z-30 order-2 mb-2 aspect-2/1 w-full translate-y-[25%] scale-100 place-self-end lg:order-1 lg:col-span-2 lg:h-3/4 xl:scale-90 ${classesWhenReversed.imageTransform}`}
+            >
+              <ContentSdkImage
+                field={props.fields.PromoImageOne}
+                className="absolute inset-0 h-full w-full rounded-2xl object-cover"
+              />
             </div>
           </div>
         </div>
