@@ -97,8 +97,8 @@ export const Default = ({ params, fields, rendering }: ArticleDetailsProps) => {
               <Placeholder name={placeholderKey} rendering={rendering} />
             </div>
           </div>
-          <Placeholder name={fullWidthPlaceholderKey} rendering={rendering} />
         </div>
+        <Placeholder name={fullWidthPlaceholderKey} rendering={rendering} />
       </article>
     </>
   );

@@ -8,17 +8,17 @@ interface Fields {
   Link: LinkField;
 }
 
-interface ProductCarouselWrapperProps extends ComponentProps {
+interface SectionWrapperProps extends ComponentProps {
   fields: Fields;
 }
 
-export const Default = ({ params, fields, rendering }: ProductCarouselWrapperProps) => {
+export const Default = ({ params, fields, rendering }: SectionWrapperProps) => {
   const { styles, RenderingIdentifier: id } = params;
   const hideAccentLine = isParamEnabled(params.HideAccentLine);
-  const placeholderKey = `product-carousel-${params.DynamicPlaceholderId}`;
+  const placeholderKey = `section-wrapper-content-${params.DynamicPlaceholderId}`;
 
   return (
-    <section className={`component product-carousel-wrapper pt-14 pb-10 ${styles}`} id={id}>
+    <section className={`component section-wrapper pt-14 pb-10 ${styles}`} id={id}>
       <div className="container flex flex-col items-center">
         <h2>
           <Text field={fields.Title} />

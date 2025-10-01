@@ -58,18 +58,13 @@ const ProductCarousel = ({
             : false
         }
       >
-        {products.map((product) => (
-          <SwiperSlide key={product.id} className="p-1">
-            <ProductCard
-              image={product.fields.Image1}
-              name={product.fields.Title}
-              category={product.fields.Category.fields.CategoryName}
-              price={product.fields.Price}
-              rating={product.fields.Rating.value || 0}
-              url={product.url}
-            />
-          </SwiperSlide>
-        ))}
+        {products
+          .filter((product) => Object.keys(product.fields).length > 0) // Prevent mapping over the items with no fields/Data folder
+          .map((product) => (
+            <SwiperSlide key={product.id} className="p-1">
+              <ProductCard product={product.fields} url={product.url} />
+            </SwiperSlide>
+          ))}
       </Swiper>
 
       <CarouselButton

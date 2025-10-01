@@ -98,9 +98,68 @@ export const createProductItems = (count: number) => {
       Weight: createTextField(`${1 + i * 0.5}`),
       SeatHeight: createTextField(`${15 + i}`),
       LegHeight: createTextField(`${20 + i}`),
-      Tags: [],
-      Color: [],
-      Size: [],
+      Tags: [
+        {
+          id: `tag-${i}-1`,
+          displayName: 'New',
+          name: 'new',
+          url: '/tags/New',
+          fields: {
+            Tag: createTextField('New'),
+          },
+        },
+        {
+          id: `tag-${i}-2`,
+          displayName: 'Featured',
+          name: 'featured',
+          url: '/tags/Featured',
+          fields: {
+            Tag: createTextField('Featured'),
+          },
+        },
+      ],
+      Size: [
+        {
+          id: `size-${i}-1`,
+          displayName: 'Small',
+          name: 'small',
+          url: '/sizes/Small',
+          fields: {
+            ProductSize: createTextField('S'),
+          },
+        },
+        {
+          id: `size-${i}-2`,
+          displayName: 'Large',
+          name: 'large',
+          url: '/sizes/Large',
+          fields: {
+            ProductSize: createTextField('L'),
+          },
+        },
+      ],
+      Color: [
+        {
+          id: `color-${i}-1`,
+          displayName: 'Indigo',
+          name: 'indigo',
+          url: '/colors/Indigo',
+          fields: {
+            Name: createTextField('Indigo'),
+            HexCode: createTextField('#816DFA'),
+          },
+        },
+        {
+          id: `color-${i}-2`,
+          displayName: 'Black',
+          name: 'black',
+          url: '/colors/Black',
+          fields: {
+            Name: createTextField('Black'),
+            HexCode: createTextField('#000000'),
+          },
+        },
+      ],
       Category: {
         id: `category-${(i % 3) + 1}`,
         displayName: `Category ${(i % 3) + 1}`,

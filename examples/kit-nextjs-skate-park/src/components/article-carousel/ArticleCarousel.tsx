@@ -4,12 +4,12 @@ import { ComponentProps } from '@/lib/component-props';
 import {
   Field,
   LinkField,
+  Link as ContentSskLink,
   RichTextField,
   NextImage as ContentSdkImage,
   RichText as ContentSdkRichText,
   Text,
 } from '@sitecore-content-sdk/nextjs';
-import { ExploreLink } from '../non-sitecore/ExploreLink';
 import AccentLine from '@/assets/icons/accent-line/AccentLine';
 import { Swiper, SwiperClass, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
@@ -81,14 +81,15 @@ export const Default = (props: CarouselProps) => {
           className={cn('flex', 'flex-col', flexDirectionClass, 'items-center', 'w-full', 'gap-10')}
         >
           <div className="w-full space-y-5 md:w-1/3">
-            <h3 className="inline-block max-w-md">
+            <h2 className="inline-block max-w-md">
               <Text field={props.fields.CarouselTitle} />
               <AccentLine className="w-full max-w-xs" />
-            </h3>
+            </h2>
             <div className="max-w-md">
               <ContentSdkRichText field={props.fields.CarouselDescription} />
             </div>
-            <ExploreLink linkText={props.fields.CarouselExplore} />
+
+            <ContentSskLink field={props.fields.CarouselExplore} className="arrow-btn" />
           </div>
 
           <div className={cn('w-full', 'md:w-2/3', 'lg:transform', translateClass)}>
