@@ -1,8 +1,13 @@
 import { generateIndexes } from '@/helpers/generateIndexes';
 import { IGQLTextField } from '@/types/igql';
-import { ComponentParams, ComponentRendering, Image, Text } from '@sitecore-content-sdk/nextjs';
+import {
+  ComponentParams,
+  ComponentRendering,
+  Image,
+  Link,
+  Text,
+} from '@sitecore-content-sdk/nextjs';
 import React from 'react';
-import { ExploreLink } from '../non-sitecore/ExploreLink';
 import AccentLine from '@/assets/icons/accent-line/AccentLine';
 
 interface Fields {
@@ -60,7 +65,6 @@ export const Default = (props: FeaturesProps) => {
             <AccentLine className="w-full max-w-xs" />
           </h2>
         </div>
-        {/* <div className="flex flex-col md:flex-row justify-between gap-16 md:gap-8"> */}
         <div className="grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-8 lg:grid-cols-3">
           {results.map((item, index) => {
             const title = item.featureTitle.jsonValue;
@@ -75,7 +79,9 @@ export const Default = (props: FeaturesProps) => {
                 <div className="text-foreground mb-3.5 flex-auto leading-7">
                   <Text field={description} />
                 </div>
-                {link?.value && link?.value?.href && <ExploreLink linkText={link} />}
+                <div>
+                  <Link field={link} className="arrow-btn" />
+                </div>
               </div>
             );
           })}
