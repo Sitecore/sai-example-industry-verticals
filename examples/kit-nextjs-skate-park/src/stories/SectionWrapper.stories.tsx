@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 import { ComponentProps } from 'react';
-import { Default as ProductCarouselWrapper } from '../components/product-carousel-wrapper/ProductCarouselWrapper';
+import { Default as SectionWrapper } from '../components/section-wrapper/SectionWrapper';
 import { CommonParams, CommonRendering } from './common/commonData';
 import { renderStorybookPlaceholder } from './helpers/renderStorybookPlaceholder';
 import { createLinkField, createTextField } from './helpers/createFields';
@@ -13,14 +13,14 @@ import {
   defaultBackgroundColorArgs,
 } from './common/commonControls';
 
-type StoryProps = ComponentProps<typeof ProductCarouselWrapper> &
+type StoryProps = ComponentProps<typeof SectionWrapper> &
   BackgroundColorArgs & {
     hideAccentLine?: boolean;
   };
 
 const meta = {
-  title: 'Products/Product Carousel Wrapper',
-  component: ProductCarouselWrapper,
+  title: 'Page Content/Section Wrapper',
+  component: SectionWrapper,
   tags: ['autodocs'],
   argTypes: {
     ...backgroundColorArgTypes,
@@ -50,10 +50,10 @@ const baseParams = {
 
 const baseRendering = {
   ...CommonRendering,
-  componentName: 'Product Carousel Wrapper',
+  componentName: 'Section Wrapper',
   params: baseParams,
   placeholders: {
-    [`product-carousel-${baseParams.DynamicPlaceholderId}`]: [renderStorybookPlaceholder()],
+    [`section-wrapper-content-${baseParams.DynamicPlaceholderId}`]: [renderStorybookPlaceholder()],
   },
 };
 
@@ -70,7 +70,7 @@ export const Default: Story = {
       styles: `${baseParams.styles} ${args.BackgroundColor}`,
     };
 
-    return <ProductCarouselWrapper params={params} fields={baseFields} rendering={baseRendering} />;
+    return <SectionWrapper params={params} fields={baseFields} rendering={baseRendering} />;
   },
 };
 
@@ -84,7 +84,7 @@ export const WithPlaceholderData: Story = {
     const rendering = {
       ...baseRendering,
       placeholders: {
-        [`product-carousel-${baseParams.DynamicPlaceholderId}`]: [
+        [`section-wrapper-content-${baseParams.DynamicPlaceholderId}`]: [
           {
             ...CommonRendering,
             componentName: 'AllProductsCarousel',
@@ -97,6 +97,6 @@ export const WithPlaceholderData: Story = {
       },
     };
 
-    return <ProductCarouselWrapper params={params} fields={baseFields} rendering={rendering} />;
+    return <SectionWrapper params={params} fields={baseFields} rendering={rendering} />;
   },
 };

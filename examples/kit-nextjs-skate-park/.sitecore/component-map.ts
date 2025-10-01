@@ -8,12 +8,12 @@ import * as Title from 'src/components/title/Title';
 import * as Subscribe from 'src/components/subscribe/Subscribe';
 import * as SocialFollow from 'src/components/social-follow/SocialFollow';
 import * as SocialFeed from 'src/components/social-feed/SocialFeed';
+import * as SectionWrapper from 'src/components/section-wrapper/SectionWrapper';
 import * as RowSplitter from 'src/components/row-splitter/RowSplitter';
 import * as RichText from 'src/components/rich-text/RichText';
 import * as RelatedProducts from 'src/components/related-products/RelatedProducts';
 import * as Promo from 'src/components/promo/Promo';
 import * as ProductDetails from 'src/components/product-details/ProductDetails';
-import * as ProductCarouselWrapper from 'src/components/product-carousel-wrapper/ProductCarouselWrapper';
 import * as PartialDesignDynamicPlaceholder from 'src/components/partial-design-dynamic-placeholder/PartialDesignDynamicPlaceholder';
 import * as PageContent from 'src/components/page-content/PageContent';
 import * as Offers from 'src/components/offers/Offers';
@@ -45,12 +45,12 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Subscribe', Subscribe],
   ['SocialFollow', SocialFollow],
   ['SocialFeed', SocialFeed],
+  ['SectionWrapper', SectionWrapper],
   ['RowSplitter', RowSplitter],
   ['RichText', RichText],
   ['RelatedProducts', RelatedProducts],
   ['Promo', Promo],
   ['ProductDetails', ProductDetails],
-  ['ProductCarouselWrapper', ProductCarouselWrapper],
   ['PartialDesignDynamicPlaceholder', PartialDesignDynamicPlaceholder],
   ['PageContent', PageContent],
   ['Offers', Offers],
