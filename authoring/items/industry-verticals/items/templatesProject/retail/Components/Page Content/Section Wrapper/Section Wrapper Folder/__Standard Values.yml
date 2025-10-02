@@ -1,0 +1,36 @@
+﻿---
+ID: "243ee812-e068-42bd-96f7-1246e0db70ea"
+Parent: "6a9bfbd3-33e3-48cd-87b4-d50688d1e02c"
+Template: "6a9bfbd3-33e3-48cd-87b4-d50688d1e02c"
+Path: /sitecore/templates/Project/retail/Components/Page Content/Section Wrapper/Section Wrapper Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {464A7993-10A8-4E15-A56E-3DF58D050AA1}
+    {6A9BFBD3-33E3-48CD-87B4-D50688D1E02C}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "9dc1da91-cbf2-4980-ab3c-d9535b289085"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "625b110a-ac39-4b2c-9838-aabb613d49a4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250924T120840Z

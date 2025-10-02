@@ -1,0 +1,188 @@
+﻿---
+ID: "76f9b02f-adcd-4c45-a5da-5047cf157d5e"
+Parent: "b86a1b6c-c131-42ce-afcf-d7fef4a543f5"
+Template: "f6e44a9e-074a-4865-987e-0c2dc00b7af5"
+Path: "/sitecore/content/retail/forma-lux/Home/Products/Sakarias Armchair"
+SharedFields:
+- ID: "01ea8292-a476-44b5-b883-8841134989ba"
+  Hint: Image5
+  Value: |
+    <image mediaid="425126a2-6e66-41d4-9379-0c1277dd1b11" />
+- ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
+  Hint: Image1
+  Value: |
+    <image mediaid="82b66367-0640-42fa-ac54-164898c35b94" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{1FDB3CF4-7A25-4D6B-8F8E-993B8143C875}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "350eb9dc-52a6-45af-88d2-df01d56e43de"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{F637E930-4BEA-4C24-80A3-37FD4F39FA19}"
+          s:ds="381203f0-6ee1-4675-b043-c8d4ddbd6b86"
+          s:id="{E874A406-4977-443B-8AFE-690812AFB5EF}"
+          s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;HideAccentLine=0&amp;Autoplay=0&amp;DynamicPlaceholderId=1&amp;Loop=0"
+          s:ph="/headless-main/sxa-product-content/related-products-2" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "76a851db-dff3-4384-b40c-546f228c94c7"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Sakarias Armchair
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250922T091111Z
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Discover the perfect blend of comfort and style with the Sakarias Armchair. This elegant piece features a sleek design with plush cushions, offering an inviting seat for relaxation. Ideal for any living space, the Sakarias Armchair adds a touch of sophistication to your home decor.
+    - ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+      Hint: Tags
+      Value: "{EA0C996A-ABFD-4E4F-96E1-AE4DB6125B8A}"
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 392
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Chair
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+      Hint: SKU
+      Value: CH001
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
+      Hint: Color
+      Value: |
+        {4644FE16-10A7-44F1-8172-CA03C35A688D}
+        {12BF3FA0-8034-4629-814C-3E34BEE11474}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "14de017e-96a3-43cc-b80b-d448313571a9"
+    - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
+      Hint: Size
+      Value: Extra Small
+    - ID: "a2fc3c8b-3142-4642-9057-420755863749"
+      Hint: ReviewImage
+      Value: |
+        <image mediaid="{425126A2-6E66-41D4-9379-0C1277DD1B11}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Sakarias Armchair
+    - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+      Hint: Category
+      Value: "{1F4F7164-0F0C-4CAB-8F44-7B7C85AD9C1A}"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251002T110328Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>Introducing the Sakarias Armchair, a perfect blend of style and comfort that elevates any living space. Crafted with precision, this armchair features a sleek design that complements both modern and traditional decor. Its sturdy frame and plush cushioning provide exceptional support and relaxation, making it the ideal spot for unwinding after a long day.</p><p>&nbsp;Experience unparalleled luxury with the Sakarias Armchair’s premium upholstery, available in a range of colors to match your personal style. Whether you're enjoying a quiet moment with a book or entertaining guests, this armchair not only meets but exceeds expectations for durability and elegance. The Sakarias Armchair is truly an exquisite addition to any home, offering both aesthetic appeal and practical comfort.</p>
+    - ID: "f4bbb56b-ef8c-46e1-bf9b-a907515558d7"
+      Hint: Rating
+      Value: 5
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250925T124005Z
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 125
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4c0f209e-e007-40e4-8c03-7f3f42cd9c02"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Sakaris Almohada
+    - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+      Hint: Category
+      Value: "{1F4F7164-0F0C-4CAB-8F44-7B7C85AD9C1A}"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250926T105517Z
+    - ID: "f4bbb56b-ef8c-46e1-bf9b-a907515558d7"
+      Hint: Rating
+      Value: 3
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250925T123909Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c7c060d4-0f94-4cdb-8cb9-682518ce98ec"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+      Hint: Category
+      Value: "{1F4F7164-0F0C-4CAB-8F44-7B7C85AD9C1A}"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250926T081806Z

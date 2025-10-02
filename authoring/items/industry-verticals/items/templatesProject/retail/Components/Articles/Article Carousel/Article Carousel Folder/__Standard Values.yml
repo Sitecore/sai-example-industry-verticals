@@ -1,0 +1,36 @@
+﻿---
+ID: "782b1b56-9ae6-430a-88ce-badc0b1fc114"
+Parent: "f71c301c-b27e-4826-98f7-c19620e7c706"
+Template: "f71c301c-b27e-4826-98f7-c19620e7c706"
+Path: /sitecore/templates/Project/retail/Components/Articles/Article Carousel/Article Carousel Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {30A718E4-B5B1-49DF-AEA6-AD761528B5C5}
+    {F71C301C-B27E-4826-98F7-C19620E7C706}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "55461b34-31d9-420a-922e-c27e6780896b"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2356e96e-bdb0-464e-beaa-880c43706f08"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250917T105657Z

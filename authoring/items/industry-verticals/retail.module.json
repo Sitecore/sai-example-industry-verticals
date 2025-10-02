@@ -1,0 +1,95 @@
+{
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Project.retail",
+  "items": {
+    "includes": [
+      {
+        "name": "module",
+        "path": "/sitecore/system/settings/Project/retail",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "templatesProject",
+        "path": "/sitecore/templates/Project/retail",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "branchesProject",
+        "path": "/sitecore/templates/Branches/Project/retail",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "projectMediaFolders",
+        "path": "/sitecore/Media Library/Project/retail",
+        "rules": [
+          {
+            "path": "/forma-lux",
+            "scope": "ItemAndDescendants",
+            "allowedPushOperations": "CreateOnly"
+          }
+        ]
+      },
+      {
+        "name": "projectRenderings",
+        "path": "/sitecore/Layout/Renderings/Project/retail",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "projectPlaceholderSettings",
+        "path": "/sitecore/Layout/Placeholder Settings/Project/retail",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "tenantRoot",
+        "path": "/sitecore/content/retail",
+        "scope": "SingleItem",
+        "allowedPushOperations": "CreateAndUpdate"
+      },
+      {
+        "name": "site",
+        "path": "/sitecore/content/retail/forma-lux",
+        "rules": [
+          {
+            "path": "/home",
+            "scope": "ItemAndDescendants",
+            "allowedPushOperations": "CreateUpdateAndDelete"
+          },
+          {
+            "path": "/Media",
+            "scope": "ItemAndDescendants",
+            "allowedPushOperations": "CreateUpdateAndDelete"
+          },
+          {
+            "path": "/Data",
+            "scope": "ItemAndDescendants",
+            "allowedPushOperations": "CreateUpdateAndDelete"
+          },
+          {
+            "path": "/Dictionary",
+            "scope": "ItemAndDescendants",
+            "allowedPushOperations": "CreateUpdateAndDelete"
+          },
+          {
+            "path": "/Presentation",
+            "scope": "ItemAndDescendants",
+            "allowedPushOperations": "CreateUpdateAndDelete"
+          },
+          {
+            "path": "/Settings/Site Grouping",
+            "scope": "ItemAndDescendants",
+            "allowedPushOperations": "CreateUpdateAndDelete"
+          },
+          {
+            "path": "/Settings",
+            "scope": "ItemAndDescendants",
+            "allowedPushOperations": "CreateUpdateAndDelete"
+          },
+          {
+            "path": "*",
+            "scope": "Ignored"
+          }
+        ]
+      }
+    ]
+  }
+}

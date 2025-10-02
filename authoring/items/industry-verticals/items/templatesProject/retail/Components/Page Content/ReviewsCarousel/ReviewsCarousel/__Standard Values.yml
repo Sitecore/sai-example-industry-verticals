@@ -1,0 +1,36 @@
+﻿---
+ID: "17ee7474-565c-4cfb-b175-d55cd2dcab63"
+Parent: "0c1a1890-8580-4472-a87a-5d5e76c666ca"
+Template: "0c1a1890-8580-4472-a87a-5d5e76c666ca"
+Path: /sitecore/templates/Project/retail/Components/Page Content/ReviewsCarousel/ReviewsCarousel/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: 
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "040556f1-eeb1-4d35-91c0-a5129aebaff8"
+- ID: "f7b94d8c-a842-49f8-ab7a-2169d00426b0"
+  Hint: __Should Not Organize In Bucket
+  Value: 1
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20111206T092520Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "097dc5e1-941f-46b4-8d3a-8f14c223283f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250929T112158Z
