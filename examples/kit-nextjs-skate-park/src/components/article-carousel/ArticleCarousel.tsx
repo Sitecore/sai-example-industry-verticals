@@ -109,6 +109,8 @@ export const Default = (props: CarouselProps) => {
                         el: '.article-carousel-pagination',
                         clickable: false,
                       }}
+                      allowTouchMove={false}
+                      simulateTouch={false}
                       onSwiper={(swiper) => {
                         swiperFirstRef.current = swiper;
                       }}
@@ -174,6 +176,8 @@ export const Default = (props: CarouselProps) => {
                           loop={true}
                           spaceBetween={20}
                           autoplay={false}
+                          allowTouchMove={false}
+                          simulateTouch={false}
                           className="article-carousel-second"
                           onSwiper={(swiper) => {
                             swiperSecondRef.current = swiper;
