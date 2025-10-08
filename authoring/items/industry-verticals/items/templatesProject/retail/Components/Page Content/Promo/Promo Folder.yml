@@ -6,10 +6,10 @@ Path: /sitecore/templates/Project/retail/Components/Page Content/Promo/Promo Fol
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Office/32x32/folder_window.png
+  Value: office/32x32/window_star.png
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "116d17cd-4a46-4288-93e7-eeb665ba7c93"
+  Value: "a8692524-e098-4d05-8371-b4083bb0c57b"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
   Value: "{DDD50DC4-DE9F-4467-B7EF-0A8C256DC922}"
@@ -59,14 +59,14 @@ Languages:
         sitecore\admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "20697672-2ccb-4535-b16d-1c1410024309"
+      Value: "1cf29ef7-dcd1-45e9-a8bc-5a7f2387b41d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250902T131454Z
+      Value: 20251008T125408Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

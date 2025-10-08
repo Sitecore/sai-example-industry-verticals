@@ -2,14 +2,14 @@
 ID: "82ac1f90-61f1-4812-9553-e1a4c81405fe"
 Parent: "677d6a5d-817e-4aa4-8189-0d57197e9cc5"
 Template: "35e75c72-4985-4e09-88c3-0eac6cd1e64f"
-Path: /sitecore/templates/Project/retail/Components/Page Content/Features/Link List_2
+Path: /sitecore/templates/Project/retail/Components/Page Content/Features/Feature Folder
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Office/32x32/text_align_left.png
+  Value: office/32x32/object_cube.png
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "df6ecdfa-9095-48ab-a411-28638855b2f6"
+  Value: "f4011cae-ca90-43be-bac1-bfc95514e72a"
 Languages:
 - Language: "de-DE"
   Fields:
@@ -56,14 +56,14 @@ Languages:
         sitecore\admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "feb866bd-cf50-4efa-9568-aa957dbf8bce"
+      Value: "32abdbd4-b891-4e08-8cdd-90f306a623bf"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250904T100831Z
+      Value: 20251008T130833Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

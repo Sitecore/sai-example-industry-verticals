@@ -6,7 +6,7 @@ Path: /sitecore/templates/Project/retail/Components/Products/Related Products/Re
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: sxa/16x16/promo.png
+  Value: office/32x32/elements3.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: |
@@ -19,7 +19,7 @@ SharedFields:
   Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "ca20a0ea-cf5a-4563-ad1f-b26c114b6365"
+  Value: "f138b760-84bb-4461-a41a-33deab8d73f5"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
   Value: "{A435247D-AD38-46DB-9C9F-4356BE2ED5F3}"
@@ -73,14 +73,14 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "74c406cf-c16a-4b5a-8dd3-98481afc9f61"
+      Value: "d0d83af7-3b6a-4076-a183-19e3481cc6ac"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250926T155643Z
+      Value: 20251008T121414Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

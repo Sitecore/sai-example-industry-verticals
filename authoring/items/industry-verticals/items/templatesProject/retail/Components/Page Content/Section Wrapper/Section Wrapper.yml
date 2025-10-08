@@ -6,7 +6,7 @@ Path: /sitecore/templates/Project/retail/Components/Page Content/Section Wrapper
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Office/32x32/window_dialog.png
+  Value: office/32x32/gauze_bandage.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: |
@@ -17,7 +17,7 @@ SharedFields:
   Value: 100
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "844bb6e4-c8c3-4f55-a471-8aa24fd35da0"
+  Value: "2b538b67-3084-41a3-9120-e96ab8303635"
 Languages:
 - Language: "de-DE"
   Fields:
@@ -71,14 +71,14 @@ Languages:
         sitecore\admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "dd8812b0-aa79-4106-a909-7c109cd843c7"
+      Value: "3b632ea9-8940-4f45-8017-0eefae610bd9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250930T124547Z
+      Value: 20251008T121000Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

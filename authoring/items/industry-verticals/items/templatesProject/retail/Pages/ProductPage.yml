@@ -6,7 +6,7 @@ Path: /sitecore/templates/Project/retail/Pages/ProductPage
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Office/32x32/document_attachment.png
+  Value: Office/32x32/document_cup.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: |
@@ -20,7 +20,7 @@ SharedFields:
   Value: 0
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "78a4c26f-df80-4f14-ba16-0b733c63a818"
+  Value: "c24b817f-96d2-4069-a887-1e19abf1a848"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
   Value: "{BD568E58-11F9-473B-AF9A-F209EB93B082}"
@@ -42,11 +42,11 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "77e0aad3-2cf6-486d-a16d-e2802c2a8e7e"
+      Value: "094ffa83-1d8c-4e3d-a0e7-fc7b672d4644"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250922T082154Z
+      Value: 20251008T122221Z

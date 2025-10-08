@@ -6,7 +6,7 @@ Path: /sitecore/templates/Project/retail/Components/Global Elements/Header/Rende
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: sxa/16x16/promo.png
+  Value: Office/32x32/document_header.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: |
@@ -19,7 +19,7 @@ SharedFields:
   Value: 0
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "bc249156-f650-4600-8f67-662691773049"
+  Value: "79d434a2-d34f-4c4f-9316-e5a01b95bee3"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
   Value: "{98654E8C-D653-4BB9-A2F4-8CECC19F5A92}"
@@ -69,14 +69,14 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "54169f15-02af-4026-b701-c89ce28b9dff"
+      Value: "58e794b7-e527-4c18-93e4-459d3fcd5123"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250827T083512Z
+      Value: 20251008T123137Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

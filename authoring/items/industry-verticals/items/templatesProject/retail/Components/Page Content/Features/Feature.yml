@@ -6,7 +6,7 @@ Path: /sitecore/templates/Project/retail/Components/Page Content/Features/Featur
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Office/32x32/link.png
+  Value: Office/32x32/object_cube.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: |
@@ -17,7 +17,7 @@ SharedFields:
   Value: 100
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "e9610312-3950-4d9e-9cbc-2630570c902f"
+  Value: "7425fc6b-6644-403c-8ece-3c460015d3e9"
 Languages:
 - Language: "de-DE"
   Fields:
@@ -64,14 +64,14 @@ Languages:
         sitecore\admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a9bd702f-74c3-469e-90b5-be28eb528fa4"
+      Value: "552fce9f-9370-4ef2-8d08-64487ceeca42"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250916T111815Z
+      Value: 20251008T130505Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

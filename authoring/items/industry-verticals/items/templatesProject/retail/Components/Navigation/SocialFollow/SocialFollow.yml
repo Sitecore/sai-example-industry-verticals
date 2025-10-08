@@ -6,7 +6,7 @@ Path: /sitecore/templates/Project/retail/Components/Navigation/SocialFollow/Soci
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Office/32x32/window_dialog.png
+  Value: office/32x32/user_earth.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: |
@@ -17,7 +17,7 @@ SharedFields:
   Value: 100
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "d8937035-2216-47b2-a6a3-260289b966a8"
+  Value: "f5805ee8-7e3a-4984-9161-2cfc4638f04b"
 Languages:
 - Language: "de-DE"
   Fields:
@@ -71,14 +71,14 @@ Languages:
         sitecore\admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f3d4cd3b-4cbe-48fb-b1f8-58478a3defbb"
+      Value: "265243d8-b9c4-4d89-a2ac-c82a00602079"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250827T103259Z
+      Value: 20251008T122840Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

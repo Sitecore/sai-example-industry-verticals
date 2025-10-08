@@ -6,7 +6,7 @@ Path: /sitecore/templates/Project/retail/Components/Products/All Products Carous
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: sxa/16x16/container.png
+  Value: Office/32x32/playing_cards.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: |
@@ -19,7 +19,7 @@ SharedFields:
   Value: 0
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "022d2fe4-79f9-4ebe-82f9-dc9926a71b68"
+  Value: "c6bc39b0-9f28-4db9-999f-2611186e7b33"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
   Value: "{4D2F530E-4300-458A-90C8-A551EED5A865}"
@@ -69,14 +69,14 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ea5d0a99-41d4-41cb-8b93-d3ec3747e9f5"
+      Value: "e02d2e3d-1932-4c17-af1d-7e460a9db3bd"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250924T100024Z
+      Value: 20251008T131234Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

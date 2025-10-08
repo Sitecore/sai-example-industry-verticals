@@ -2,7 +2,7 @@
 ID: "0653de3b-003d-48f9-bc62-6fb3bc96d303"
 Parent: "82ac1f90-61f1-4812-9553-e1a4c81405fe"
 Template: "ad148487-7aae-4095-b602-7f9aeeb3f8b6"
-Path: /sitecore/templates/Project/retail/Components/Page Content/Features/Link List_2/$name
+Path: /sitecore/templates/Project/retail/Components/Page Content/Features/Feature Folder/$name
 Languages:
 - Language: en
   Versions:

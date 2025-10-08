@@ -3,6 +3,13 @@ ID: "0acdb23a-a610-49c5-a9ee-0345f697a3eb"
 Parent: "b86a1b6c-c131-42ce-afcf-d7fef4a543f5"
 Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
 Path: "/sitecore/content/retail/forma-lux/Home/Products/Data"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "a434a9ce-ac4b-48af-ab8b-049f302ac001"
 Languages:
 - Language: en
   Versions:
@@ -21,14 +28,14 @@ Languages:
         sitecore\jeffrey.isham@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a0e80405-add6-4c2d-be84-952365edaba9"
+      Value: "8c251bbd-1158-4194-b89d-c0cf853a0f07"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeffrey.isham@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250930T095036Z
+      Value: 20251008T122849Z
 - Language: "es-ES"
   Versions:
   - Version: 1

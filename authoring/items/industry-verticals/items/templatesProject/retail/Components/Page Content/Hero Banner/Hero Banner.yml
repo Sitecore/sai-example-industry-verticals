@@ -6,7 +6,7 @@ Path: /sitecore/templates/Project/retail/Components/Page Content/Hero Banner/Her
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Office/32x32/window_dialog.png
+  Value: office/32x32/painting_landscape.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: |
@@ -17,7 +17,7 @@ SharedFields:
   Value: 100
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "ca1d5cd7-abbe-42f7-9152-f92f73eadb0b"
+  Value: "09529cab-11b0-4ff3-a6a5-06cbdb2736e4"
 Languages:
 - Language: "de-DE"
   Fields:
@@ -71,14 +71,14 @@ Languages:
         sitecore\admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ba4c3b4c-fb6b-485f-b726-79190db9ea60"
+      Value: "9487966e-dd06-4c87-ab7c-dc688ba57ded"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250904T110629Z
+      Value: 20251008T120821Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

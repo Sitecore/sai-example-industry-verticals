@@ -6,10 +6,10 @@ Path: /sitecore/templates/Project/retail/Components/Products/Related Products/Re
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Office/32x32/folder_window.png
+  Value: Office/32x32/elements3.png
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "752dec8d-d3af-4cee-abbb-04c119eb0740"
+  Value: "5ba13e39-62c5-41d9-bb0f-03eddaa09c34"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
   Value: "{941C726D-21A6-4A7D-B3F6-6E9CA7667DCB}"
@@ -59,14 +59,14 @@ Languages:
         sitecore\admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6d063ead-b3b1-47c8-bd9d-175164621cce"
+      Value: "f5e72ef4-745e-4eab-96c8-a90f21760af2"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250925T125123Z
+      Value: 20251008T131627Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

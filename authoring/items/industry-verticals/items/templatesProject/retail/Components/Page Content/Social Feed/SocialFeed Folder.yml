@@ -6,10 +6,10 @@ Path: /sitecore/templates/Project/retail/Components/Page Content/Social Feed/Soc
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Office/32x32/folder_window.png
+  Value: Office/32x32/eye_scan.png
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "2a4b7ecb-a647-4bbc-835c-36b5f061213e"
+  Value: "b33b7a6a-3c81-4124-923a-eb0141ac82ef"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
   Value: "{B274E6B8-F45D-485D-B01E-985580A54E38}"
@@ -59,14 +59,14 @@ Languages:
         sitecore\admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a25bbce3-c6b9-4c44-9dca-3fedcdd990f2"
+      Value: "9c598909-3d8e-497d-ac16-6720ea441ff2"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250915T103601Z
+      Value: 20251008T131545Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

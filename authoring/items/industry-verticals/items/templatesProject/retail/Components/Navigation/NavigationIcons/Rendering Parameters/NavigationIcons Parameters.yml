@@ -6,7 +6,7 @@ Path: /sitecore/templates/Project/retail/Components/Navigation/NavigationIcons/R
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: sxa/16x16/container.png
+  Value: office/32x32/password_field.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: |
@@ -19,7 +19,7 @@ SharedFields:
   Value: 0
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "694c8117-ade4-47da-a96b-3f0943803822"
+  Value: "cfc199be-d582-4995-98eb-f478966959d0"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
   Value: "{7A7BBA4E-D76E-4E79-B632-A39F6C9DBACC}"
@@ -69,14 +69,14 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "36709cad-3b82-4eaa-af46-5c2ca5bd222f"
+      Value: "0a17551c-a098-4c3a-b0ba-9ab9da3f11b9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250827T073345Z
+      Value: 20251008T120950Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

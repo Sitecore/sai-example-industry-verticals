@@ -6,7 +6,7 @@ Path: /sitecore/templates/Project/retail/Components/Page Content/Offers/Offers
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Office/32x32/text_align_left.png
+  Value: office/32x32/money_coins.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: |
@@ -18,7 +18,7 @@ SharedFields:
   Value: 200
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "221c3006-15ed-44fa-9412-e4197ed6d72b"
+  Value: "e67d06ae-e7ea-4cf6-8944-01a9a3c3712c"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
   Value: "{CC754E62-6C20-4A31-BAA7-33E695BA864B}"
@@ -68,14 +68,14 @@ Languages:
         sitecore\admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a1e24930-3ab0-4301-afab-58d1df67389b"
+      Value: "7dda9469-164b-43b8-b5ba-3f89035fca45"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250828T145618Z
+      Value: 20251008T121041Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

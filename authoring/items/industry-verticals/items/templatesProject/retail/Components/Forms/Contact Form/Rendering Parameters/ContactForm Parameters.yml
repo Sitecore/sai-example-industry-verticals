@@ -6,7 +6,7 @@ Path: /sitecore/templates/Project/retail/Components/Forms/Contact Form/Rendering
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: sxa/16x16/promo.png
+  Value: office/32x32/phone_speech_bubble.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: |
@@ -19,7 +19,7 @@ SharedFields:
   Value: 0
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "719a9745-da23-4776-b8fa-75cb24adb3e8"
+  Value: "c662c944-35f8-4345-9c27-5f00e2702a1a"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
   Value: "{04CD63AE-04E9-4670-BA35-49C0A1E25ADA}"
@@ -69,14 +69,14 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e4d1c2dd-7e07-4e82-9708-95c575b883f9"
+      Value: "4ddeb361-ab0f-41ee-89ed-af85cb03350d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250911T103238Z
+      Value: 20251008T121246Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

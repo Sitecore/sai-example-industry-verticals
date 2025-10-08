@@ -6,10 +6,10 @@ Path: /sitecore/templates/Project/retail/Components/Global Elements/Footer/Foote
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Office/32x32/folder_window.png
+  Value: office/32x32/document_footer.png
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "dc4974eb-3a7a-4192-9047-be16608b49b3"
+  Value: "8248e326-54a9-4a77-8a7e-7c2bf2d78fb9"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
   Value: "{1E575482-7CB3-490C-8F85-12BF5ACC3FE6}"
@@ -59,14 +59,14 @@ Languages:
         sitecore\admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "aff9400f-9b1b-4640-83b0-c3a57f613e5c"
+      Value: "750f9a15-30b8-43b5-8305-eac68cac196f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250827T081811Z
+      Value: 20251008T131032Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

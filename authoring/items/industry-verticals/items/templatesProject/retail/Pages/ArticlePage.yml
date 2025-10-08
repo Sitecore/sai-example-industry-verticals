@@ -6,7 +6,7 @@ Path: /sitecore/templates/Project/retail/Pages/ArticlePage
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Office/32x32/document_attachment.png
+  Value: Office/32x32/note_text.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: |
@@ -20,7 +20,7 @@ SharedFields:
   Value: 0
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "c6877e07-502f-4a0f-aea6-a9516c9d2f19"
+  Value: "a2a8f50e-cf5f-4ff8-8546-1a98323becaf"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
   Value: "{52D684F2-6ED4-4B7A-8FFB-DDCFA29CA259}"
@@ -42,11 +42,11 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a48712a5-da16-4141-88c2-25ded6f14c54"
+      Value: "273c9bcf-93fd-4e61-8af0-68f39ab55d27"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250912T082236Z
+      Value: 20251008T122346Z
