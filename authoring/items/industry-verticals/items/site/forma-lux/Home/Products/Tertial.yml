@@ -18,7 +18,7 @@ SharedFields:
     <image mediaid="{900AD6A0-39D7-47A4-86AD-63A550C581B7}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "0cdb53b5-4529-423f-a0bb-b636f8b01a81"
+  Value: "1c953495-30d7-4327-b0b3-f4ac73d01fb5"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -28,10 +28,18 @@ SharedFields:
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
         <r
           uid="{63C96F37-C70C-4307-809D-45C171CB9D9F}"
+          p:before="*"
           s:ds="381203f0-6ee1-4675-b043-c8d4ddbd6b86"
           s:id="{E874A406-4977-443B-8AFE-690812AFB5EF}"
           s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;HideAccentLine=0&amp;Autoplay=0&amp;DynamicPlaceholderId=1&amp;Loop=0"
           s:ph="/headless-main/sxa-product-content/related-products-2" />
+        <r
+          uid="{10EB200D-A58D-420C-8D7B-39D438FF21BB}"
+          p:after="*[1=2]"
+          s:ds="381203f0-6ee1-4675-b043-c8d4ddbd6b86"
+          s:id="{E874A406-4977-443B-8AFE-690812AFB5EF}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;Autoplay&amp;Loop&amp;HideAccentLine&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="/headless-main/sxa-product-content-test/related-products-1" />
       </d>
     </r>
 Languages:
@@ -70,7 +78,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4725ca93-0db9-4068-8689-d4698f43b049"
+      Value: "33265df1-3616-48a5-b21e-11749c167286"
     - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
       Hint: Size
       Value: "{B8B93775-E47C-46F2-9157-293AA8904883}"
@@ -90,7 +98,7 @@ Languages:
       Value: "{2DBCDA2D-FF88-46C1-A3F2-F21A34E30661}"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251002T110347Z
+      Value: 20251008T091203Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: "<p>Illuminate your space with elegance and functionality with our exquisite wall lamp. Elegantly designed, this wall lamp embodies both style and practicality, making it a must-have addition for any modern interior. Crafted with precision, it features a sleek, minimalist look that seamlessly integrates into any decor style—from contemporary lofts to classic, cozy homes. The lamp's warm, ambient glow adds a touch of sophistication, transforming any room into a welcoming haven.&nbsp;</p><p>Whether mounted in a living room, bedroom, or hallway, it effortlessly enhances the atmosphere, creating an inviting and comfortable ambiance. Constructed with high-quality materials, this wall lamp promises durability and lasting beauty. Its user-friendly installation allows for hassle-free setup, while its energy-efficient LED technology ensures optimal lighting with minimal electricity consumption. Perfect for reading nooks or adding focused light to artwork, this versatile fixture is both eco-friendly and economical. Embrace the perfect blend of style, efficiency, and sustainability with our wall lamp, a timeless piece that elevates the aesthetic of any space while providing practical lighting solutions.</p>"

@@ -73,7 +73,16 @@ Languages:
       Value: <r />
     - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
       Hint: __Final Renderings
-      Value: 
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{A9996047-2673-4617-826A-609BB7F0EA99}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;Reversed&amp;ShowMultipleImages&amp;HideCurveLine&amp;HideShapes&amp;HideShadows&amp;FieldNames&amp;Styles=%7C%7B8562F7F8-721A-4C82-B884-AAF58B44C6B6%7D%7C%7B833C53AA-A11A-4F7C-972C-A859505FBAC4%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1" />
+          </d>
+        </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250828T111343Z
@@ -89,14 +98,14 @@ Languages:
         <p style="text-align:center;"><meta charset="utf-8" /><span style="white-space:pre-wrap;">Contact us to publish your content and show ads </span></p><p style="text-align:center;"><span style="white-space:pre-wrap;">to our website and get a good reach.</span></p><p style="text-align:center;">&nbsp;</p>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "40b1d940-83a5-4052-abcd-fe58db4e2bc1"
+      Value: "1461d222-e1eb-47df-b40c-3611576dfcdb"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250930T131207Z
+      Value: 20251008T083441Z
 - Language: "es-ES"
   Versions:
   - Version: 1

@@ -1,36 +1,42 @@
 ﻿---
-ID: "32e7fd88-4e5d-4aab-a15f-61dceba1ee6f"
-Parent: "0a4aab66-9f40-43ae-9265-17acfd4c205e"
+ID: "5d600884-3a99-4fbf-ae15-d8e84ff7ffe3"
+Parent: "c8dc4bb6-bf94-4157-8ee6-c19cbfcb8a8a"
 Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
-Path: /sitecore/layout/Renderings/Project/retail/Navigation/SocialFollow
+Path: /sitecore/layout/Renderings/Project/retail/Page Content/Reviews Carousel
 SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
-  Value: SocialFollow
+  Value: ReviewsCarousel
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Office/32x32/user_earth.png
+  Value: Office/32x32/medal2.png
+- ID: "17bb046a-a32a-41b3-8315-81217947611b"
+  Hint: ComponentQuery
+  Value: 
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Project/retail/Components/Navigation/SocialFollow/SocialFollow
+  Value: /sitecore/templates/Project/retail/Components/Page Content/ReviewsCarousel/ReviewsCarousel
 - ID: "7d8ae35f-9ed1-43b5-96a2-0a5f040d4e4e"
   Hint: Open Properties after Add
   Value: 0
 - ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
   Hint: __Read Only
-  Value: 0
+  Value: 
+- ID: "a2f5d9df-8cba-4a1d-99eb-51acb94cb057"
+  Hint: Page Editor Buttons
+  Value: "{31A3A929-C599-4DD3-91A6-F4A9487CC8B7}"
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
-  Value: "{B67BEF9A-EC18-4CEC-9334-5BA4218A541B}"
+  Value: "{4B177F0E-431C-4F2B-8B48-3561E781EB08}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: "query:$site/*[@@name='Data']/*[@@templatename='SocialFollow Folder']|query:$sharedSites/*[@@name='Data']/*[@@templatename='SocialFollow Folder']"
+  Value: "query:$site/*[@@name='Data']/*[@@templatename='ReviewsCarousel Folder']|query:$sharedSites/*[@@name='Data']/*[@@templatename='ReviewsCarousel Folder']"
 - ID: "c39a90ce-0035-41bb-90f6-3c8a6ea87797"
   Hint: AddFieldEditorButton
-  Value: 0
+  Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "f899c3d0-ec3f-4922-8236-5c7861897002"
+  Value: "eeed93fe-32f5-412c-a012-d3113b32edec"
 - ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
   Hint: OtherProperties
   Value: IsRenderingsWithDynamicPlaceholders=true
@@ -39,16 +45,16 @@ Languages:
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "b8f06bc4-acd2-438f-9f9f-b96bdc298b75"
+    Value: "cf74c64c-4495-4da9-a218-1e3b7edde940"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Promo
+    Value: Link Liste
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250827T100900Z
+      Value: 20250919T120254Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -59,53 +65,56 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d2055e24-69a9-41b3-b042-029075f882e4"
+      Value: "49eda216-7078-4335-a820-735ed8e5d9dc"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250827T100900Z
+      Value: 20250919T120254Z
 - Language: en
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "e71a4404-90ac-4b5f-9e10-214892731a19"
+    Value: "b34bf458-f0f0-4414-a451-609f43d5d077"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20211012T120931Z
+      Value: 20211125T141804Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\JssImport
+        sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5d5b6caa-ca5a-4e2e-abac-40ccc055c865"
+      Value: "351a6fd0-14ea-4b79-a590-3f107178d196"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250901T105917Z
+      Value: 20250929T111637Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "b8f06bc4-acd2-438f-9f9f-b96bdc298b75"
+    Value: "cf74c64c-4495-4da9-a218-1e3b7edde940"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: プロモ
+    Value: リンク リスト
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250827T100900Z
+      Value: 20250919T120254Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -116,28 +125,28 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d2055e24-69a9-41b3-b042-029075f882e4"
+      Value: "49eda216-7078-4335-a820-735ed8e5d9dc"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250827T100900Z
+      Value: 20250919T120254Z
 - Language: "zh-CN"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "b8f06bc4-acd2-438f-9f9f-b96bdc298b75"
+    Value: "cf74c64c-4495-4da9-a218-1e3b7edde940"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: 促销
+    Value: 链接列表
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250827T100900Z
+      Value: 20250919T120254Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -148,11 +157,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d2055e24-69a9-41b3-b042-029075f882e4"
+      Value: "49eda216-7078-4335-a820-735ed8e5d9dc"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250827T100900Z
+      Value: 20250919T120254Z

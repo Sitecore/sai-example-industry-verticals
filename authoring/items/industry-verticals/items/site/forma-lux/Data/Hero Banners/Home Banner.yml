@@ -2,7 +2,7 @@
 ID: "9776580a-c13e-403f-928a-1d15c2d5e13c"
 Parent: "e79d8586-d4b5-42f5-aec1-ae82c4f47f0f"
 Template: "ac18eef2-f134-4985-8b74-6ad16cca6577"
-Path: "/sitecore/content/retail/forma-lux/Data/Hero Banners/Banner 1"
+Path: "/sitecore/content/retail/forma-lux/Data/Hero Banners/Home Banner"
 SharedFields:
 - ID: "00b71f70-411d-4ea1-a423-74ed20b60157"
   Hint: Image

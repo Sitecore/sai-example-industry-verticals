@@ -30,7 +30,7 @@ SharedFields:
     <image mediaid="2fa486fb-5a39-485f-b5a3-2f950e03e94d" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "171358cc-b111-407d-acd9-6d1b822f3756"
+  Value: "7a31f3a5-b5f9-46a4-bf08-0c892485bc44"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -40,10 +40,18 @@ SharedFields:
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
         <r
           uid="{4A85CC5E-0551-4F8A-BE75-902E0A8BF0CE}"
+          p:before="*"
           s:ds="381203f0-6ee1-4675-b043-c8d4ddbd6b86"
           s:id="{E874A406-4977-443B-8AFE-690812AFB5EF}"
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;Autoplay&amp;Loop&amp;HideAccentLine&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
           s:ph="/headless-main/sxa-product-content/related-products-2" />
+        <r
+          uid="{D79A2166-FD58-4371-83F5-1D7F04B77CD9}"
+          p:after="*[1=2]"
+          s:ds="381203f0-6ee1-4675-b043-c8d4ddbd6b86"
+          s:id="{E874A406-4977-443B-8AFE-690812AFB5EF}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;Autoplay&amp;Loop&amp;HideAccentLine&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="/headless-main/sxa-product-content-test/related-products-1" />
       </d>
     </r>
 Languages:
@@ -107,7 +115,7 @@ Languages:
       Value: 167 cm
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ab57e74e-185d-4202-b314-2cd1c8de591c"
+      Value: "7d3f62a1-f968-4da4-a33e-72ac9b7d05cb"
     - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
       Hint: Size
       Value: |
@@ -139,7 +147,7 @@ Languages:
       Value: "{53DA2329-23E7-459F-A810-A057A8AD646B}"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251002T110241Z
+      Value: 20251008T085611Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: |

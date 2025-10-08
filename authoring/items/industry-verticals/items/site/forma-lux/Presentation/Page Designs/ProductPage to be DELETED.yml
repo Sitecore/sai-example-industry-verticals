@@ -2,7 +2,7 @@
 ID: "9335d934-7c0c-4c16-b604-e7b337ec8b09"
 Parent: "75c9c1cc-ee00-4bc3-9786-35ec7e74f88f"
 Template: "1105b8f8-1e00-426b-bf1f-c840742d827b"
-Path: "/sitecore/content/retail/forma-lux/Presentation/Page Designs/ProductPage"
+Path: "/sitecore/content/retail/forma-lux/Presentation/Page Designs/ProductPage to be DELETED"
 SharedFields:
 - ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
   Hint: PartialDesigns
@@ -13,7 +13,7 @@ SharedFields:
     <image mediaid="{A218D0B2-3EBF-40BD-9AB7-0C0EC5B509DA}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "1cebde94-aea5-4bc5-8de7-3aa966f1c922"
+  Value: "fac49c88-548d-4652-8e2c-023951ade097"
 Languages:
 - Language: en
   Versions:
@@ -32,11 +32,11 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fd58038a-3135-4ce6-a95d-768178a11faa"
+      Value: "50117776-d08a-41fa-a954-24932112b907"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250928T032648Z
+      Value: 20251008T090752Z

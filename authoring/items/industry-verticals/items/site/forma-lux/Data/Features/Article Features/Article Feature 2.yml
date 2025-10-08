@@ -2,7 +2,7 @@
 ID: "90569439-a396-4bcb-947b-3f54f30d9510"
 Parent: "259d76b9-f347-447c-bd4b-a051222fe4b3"
 Template: "0a39f168-834c-46c5-8866-65a60764c0a4"
-Path: "/sitecore/content/retail/forma-lux/Data/Features/Article 1/Article Feature 2"
+Path: "/sitecore/content/retail/forma-lux/Data/Features/Article Features/Article Feature 2"
 SharedFields:
 - ID: "83bc80ee-e97a-474b-8c05-a2559394eebe"
   Hint: FeatureImage
