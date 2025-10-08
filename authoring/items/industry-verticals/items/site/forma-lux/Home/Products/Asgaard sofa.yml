@@ -30,7 +30,7 @@ SharedFields:
     <image mediaid="2fa486fb-5a39-485f-b5a3-2f950e03e94d" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "7a31f3a5-b5f9-46a4-bf08-0c892485bc44"
+  Value: "a08cb739-5448-4334-9144-92f122952261"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -47,11 +47,18 @@ SharedFields:
           s:ph="/headless-main/sxa-product-content/related-products-2" />
         <r
           uid="{D79A2166-FD58-4371-83F5-1D7F04B77CD9}"
-          p:after="*[1=2]"
+          p:after="r[@uid='{4A85CC5E-0551-4F8A-BE75-902E0A8BF0CE}']"
           s:ds="381203f0-6ee1-4675-b043-c8d4ddbd6b86"
           s:id="{E874A406-4977-443B-8AFE-690812AFB5EF}"
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;Autoplay&amp;Loop&amp;HideAccentLine&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
           s:ph="/headless-main/sxa-product-content-test/related-products-1" />
+        <r
+          uid="{1F2320BE-FCCE-487C-9618-9EA0A4D32976}"
+          p:after="*[1=2]"
+          s:ds="381203f0-6ee1-4675-b043-c8d4ddbd6b86"
+          s:id="{E874A406-4977-443B-8AFE-690812AFB5EF}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;Autoplay&amp;Loop&amp;HideAccentLine&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="/headless-main/sxa-productcontent/related-products-1" />
       </d>
     </r>
 Languages:
@@ -115,7 +122,7 @@ Languages:
       Value: 167 cm
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7d3f62a1-f968-4da4-a33e-72ac9b7d05cb"
+      Value: "7316edd6-c2e0-462b-a869-c5782a02fb98"
     - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
       Hint: Size
       Value: |
@@ -138,7 +145,7 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Asgaard sofa
@@ -147,7 +154,7 @@ Languages:
       Value: "{53DA2329-23E7-459F-A810-A057A8AD646B}"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251008T085611Z
+      Value: 20251008T110655Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: |
