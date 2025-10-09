@@ -6,13 +6,13 @@ Path: /sitecore/templates/Project/retail/Custom Templates/Products/Product Revie
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Office/32x32/folder_window.png
+  Value: Office/32x32/quotation_marks.png
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 162
+  Value: 200
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "1f77cce1-6984-49e7-8619-b46539ec6c2f"
+  Value: "78ef3138-9056-4c7b-b5eb-2b78abbf2621"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
   Value: "{D020FB5E-C3D6-4174-8F0A-1F17C449F053}"
@@ -62,14 +62,14 @@ Languages:
         sitecore\admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "cc9e0506-8485-4a19-a075-5f37f147545b"
+      Value: "6bc0e6a3-69ca-4806-893f-8f2c909c67b2"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250923T114100Z
+      Value: 20251008T145854Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

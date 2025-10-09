@@ -13,7 +13,7 @@ SharedFields:
     <image mediaid="{FE9288F0-C03F-4408-A671-65629A8B7866}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "12ba97c7-0d9b-4b34-bbb0-db68c08782dd"
+  Value: "a55ea56b-95d8-4e52-9ebc-c967a14c8504"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -41,15 +41,15 @@ SharedFields:
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BB1EA08AF-08CE-4EDF-A37F-AB306D34E2FB%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles"
           s:ph="headless-main" />
         <r
-          uid="{9B0E770D-D90E-42CC-A1D1-8B9C3D93B9B7}"
+          uid="{2E425D25-27BE-4D6D-B678-BDB8D3D7028B}"
           p:after="r[@uid='{4EEB27E8-0D38-4DC4-9379-10A8617B9FB5}']"
-          s:ds="local:/Data/Text 6"
+          s:ds="local:/Data/description"
           s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BA201C5FD-C17D-4A33-AAC6-E9EA4C973F3D%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=11"
           s:ph="headless-main" />
         <r
           uid="{A9996047-2673-4617-826A-609BB7F0EA99}"
-          p:after="r[@uid='{9B0E770D-D90E-42CC-A1D1-8B9C3D93B9B7}']"
+          p:after="r[@uid='{2E425D25-27BE-4D6D-B678-BDB8D3D7028B}']"
           s:ds="local:/Data/Contact Form"
           s:id="{44DCC929-7EE5-4430-81BF-D7F041420CBF}"
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;Reversed&amp;ShowMultipleImages&amp;HideCurveLine&amp;HideShapes&amp;HideShadows&amp;FieldNames&amp;Styles=%7C%7B8562F7F8-721A-4C82-B884-AAF58B44C6B6%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
@@ -98,14 +98,14 @@ Languages:
         <p style="text-align:center;"><meta charset="utf-8" /><span style="white-space:pre-wrap;">Contact us to publish your content and show ads </span></p><p style="text-align:center;"><span style="white-space:pre-wrap;">to our website and get a good reach.</span></p><p style="text-align:center;">&nbsp;</p>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1461d222-e1eb-47df-b40c-3611576dfcdb"
+      Value: "e5697668-b9ff-4a26-94cb-fb9866bbd120"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251008T083441Z
+      Value: 20251009T063822Z
 - Language: "es-ES"
   Versions:
   - Version: 1

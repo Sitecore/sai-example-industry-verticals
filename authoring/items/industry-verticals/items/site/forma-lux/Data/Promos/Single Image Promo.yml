@@ -15,10 +15,10 @@ SharedFields:
 - ID: "b441a09f-ddb2-41a8-84cc-2533686541f4"
   Hint: PromoImageOne
   Value: |
-    <image mediaid="f042434f-637a-4470-957d-9caa7dcc9b30" />
+    <image mediaid="739167c7-ee49-4543-a1de-001246c32ee2" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "437e3e02-d3eb-4f37-b88e-f0d1a1cacc1c"
+  Value: "ec6c8590-24c5-4d9b-9c01-0c4352d9066a"
 Languages:
 - Language: en
   Versions:
@@ -51,14 +51,14 @@ Languages:
       Value: 
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7baa1ba3-2162-4ea8-80a0-a60fccf4721d"
+      Value: "a3f5a0c8-0894-4448-abf5-b99826874b99"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250919T121157Z
+      Value: 20251008T153557Z
     - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
       Hint: PromoTitle
       Value: We provide you  the best experience

@@ -6,13 +6,13 @@ Path: /sitecore/templates/Project/retail/Custom Templates/Article/Categories/Cat
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Office/32x32/folder_window.png
+  Value: Office/32x32/elements_hierarchy.png
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 225
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "904a2723-5cf7-4386-b641-f21289519072"
+  Value: "a8fdfa41-1f95-4286-bf66-704350088015"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
   Value: "{5DCBE600-D399-4E78-A32F-96A95731C588}"
@@ -62,14 +62,14 @@ Languages:
         sitecore\admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6ca67bf7-5ab7-40d0-a546-2c6afe036b49"
+      Value: "48dd0e37-3524-4113-811f-6c89410c86c6"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250912T080941Z
+      Value: 20251008T145954Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

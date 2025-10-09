@@ -15,10 +15,10 @@ SharedFields:
 - ID: "b441a09f-ddb2-41a8-84cc-2533686541f4"
   Hint: PromoImageOne
   Value: |
-    <image mediaid="f4a0e7f3-23ed-43a2-8d27-8c0b4f9ad4cb" />
+    <image mediaid="36b5664c-9e04-43bb-aeed-a25b83d329bd" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "e38401c0-7368-4de9-ae8c-3d60b5566879"
+  Value: "e7321cb5-a309-44b4-9b84-940561486311"
 Languages:
 - Language: en
   Versions:
@@ -51,14 +51,14 @@ Languages:
       Value: Materials
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8c1dd1a1-9777-4ae9-adae-22150eb9c30b"
+      Value: "693cb5ba-4785-4931-bfe4-05eef98c5114"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250924T143856Z
+      Value: 20251008T153541Z
     - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
       Hint: PromoTitle
       Value: Our Promise  to furniture 

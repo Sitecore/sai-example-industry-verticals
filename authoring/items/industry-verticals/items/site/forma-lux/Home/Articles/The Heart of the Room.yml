@@ -64,7 +64,7 @@ Languages:
       Value: 20250911T094732Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Test Article Page
+      Value: "The Heart of the Room: Fireplace"
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -89,17 +89,17 @@ Languages:
         
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ff182fac-2ac8-4713-92f9-10abdb15be25"
+      Value: "d39a8d1c-b887-428f-8e15-ca09f6e6c7da"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "The Heart of the Room: Fireplace"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251001T115814Z
+      Value: 20251008T155309Z
     - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
       Hint: Category
       Value: "{53E47824-D8CD-4263-AAC6-A4358F7E5DB4}"

@@ -64,7 +64,7 @@ Languages:
       Value: 20250917T090300Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Article 1
+      Value: Handmade pieces that took time to make
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -87,17 +87,17 @@ Languages:
         
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "47a92b28-c3a5-4164-83f9-ccc757546a6f"
+      Value: "818d20d6-dd09-4c11-8513-79d0af1919a3"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: Handmade pieces that took time to make
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251001T115853Z
+      Value: 20251008T155322Z
     - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
       Hint: Category
       Value: "{53E47824-D8CD-4263-AAC6-A4358F7E5DB4}"
