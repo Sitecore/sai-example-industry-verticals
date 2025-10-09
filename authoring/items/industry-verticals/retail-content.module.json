@@ -1,0 +1,20 @@
+{
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Project.Retail-Content",
+  "references": ["Project.retail"],
+  "items": {
+    "includes": [
+      {
+        "name": "retail-content",
+        "path": "/sitecore/content",
+        "scope": "DescendantsOnly",
+        "rules": [
+          {
+            "path": "/Home",
+            "scope": "ignored"
+          }
+        ]
+      }
+    ]
+  }
+}
