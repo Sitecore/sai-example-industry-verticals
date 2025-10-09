@@ -45,10 +45,9 @@
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
-        "name": "tenantRoot",
-        "path": "/sitecore/content/retail",
-        "scope": "SingleItem",
-        "allowedPushOperations": "CreateAndUpdate"
+        "name": "ContentItems",
+        "path": "/sitecore/content",
+        "scope": "SingleItem"
       }
     ]
   }
