@@ -151,14 +151,14 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b0fe7419-8684-46a5-bae4-541c714d844a"
+      Value: "90819eef-b13c-453f-9475-6288c6a51196"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251003T120831Z
+      Value: 20251008T144421Z
 - Language: "es-ES"
   Versions:
   - Version: 1
@@ -176,14 +176,14 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fb199030-e25a-4f68-acd1-439f1d720a29"
+      Value: "3df21a87-d033-427d-9923-943467eb58bb"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250910T130431Z
+      Value: 20251008T144422Z
 - Language: "fr-FR"
   Versions:
   - Version: 1
@@ -201,11 +201,11 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "66813675-b70b-4d22-b08a-c3684e35035f"
+      Value: "94e837e8-4425-4a14-bb2c-9beb1736e886"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250910T131235Z
+      Value: 20251008T144422Z

@@ -51,23 +51,23 @@
         "rules": [
           {
             "path": "/home",
-            "scope": "ItemAndDescendants",
-            "allowedPushOperations": "CreateUpdateAndDelete"
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
           },
           {
             "path": "/Media",
-            "scope": "ItemAndDescendants",
-            "allowedPushOperations": "CreateUpdateAndDelete"
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateAndUpdate"
           },
           {
             "path": "/Data",
-            "scope": "ItemAndDescendants",
-            "allowedPushOperations": "CreateUpdateAndDelete"
+            "scope": "ItemAndChildren",
+            "allowedPushOperations": "CreateAndUpdate"
           },
           {
             "path": "/Dictionary",
             "scope": "ItemAndDescendants",
-            "allowedPushOperations": "CreateUpdateAndDelete"
+            "allowedPushOperations": "CreateOnly"
           },
           {
             "path": "/Presentation",
@@ -77,12 +77,12 @@
           {
             "path": "/Settings/Site Grouping",
             "scope": "ItemAndDescendants",
-            "allowedPushOperations": "CreateUpdateAndDelete"
+            "allowedPushOperations": "CreateOnly"
           },
           {
             "path": "/Settings",
-            "scope": "ItemAndDescendants",
-            "allowedPushOperations": "CreateUpdateAndDelete"
+            "scope": "ItemAndChildren",
+            "allowedPushOperations": "CreateAndUpdate"
           },
           {
             "path": "*",
