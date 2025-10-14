@@ -1,0 +1,36 @@
+﻿---
+ID: "d0516ba0-bb79-4265-b1fd-3f5afb6397ed"
+Parent: "3f50a856-76b6-409d-8cc0-f7ce6eb2d11a"
+Template: "3f50a856-76b6-409d-8cc0-f7ce6eb2d11a"
+Path: /sitecore/templates/Project/retail/Components/Navigation/NavigationIcons/NavigationIcons Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {9F495D8D-B3DF-44AB-BBD4-4B5147CD81DA}
+    {3F50A856-76B6-409D-8CC0-F7CE6EB2D11A}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "fd83b406-17c7-4549-a35d-e3da50347f7a"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ddcb4809-ac34-4f31-a413-b06d1f7b489e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251014T064301Z

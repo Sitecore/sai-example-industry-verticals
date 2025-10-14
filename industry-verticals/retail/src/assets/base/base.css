@@ -60,4 +60,12 @@
   .image-cover {
     @apply h-full w-full object-cover;
   }
+
+  .image-contain {
+    @apply h-full w-full object-cover;
+  }
+
+  .custom-scrollbar {
+    @apply [&::-webkit-scrollbar-thumb]:bg-foreground-muted [&::-webkit-scrollbar-track]:bg-background-surface [&::-webkit-scrollbar]:w-1 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:rounded-full;
+  }
 }

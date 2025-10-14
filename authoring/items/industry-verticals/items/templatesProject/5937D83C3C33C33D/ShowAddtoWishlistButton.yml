@@ -1,51 +1,51 @@
 ﻿---
-ID: "ca843bbf-1cdc-4a42-98a4-2fbbd214b399"
+ID: "6b044417-8d66-42ef-84a4-eb2bde9dcd9c"
 Parent: "f9955ac9-6156-41b0-8399-08d5f08aecfd"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Project/retail/Components/Products/Product Details/Rendering Parameters/Product Details Parameters/Params/ShowCompareButton
+Path: /sitecore/templates/Project/retail/Components/Products/Product Details/Rendering Parameters/Product Details Parameters/Params/ShowAddtoWishlistButton
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: Checkbox
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 100
+  Value: 300
 - ID: "be351a73-fcb0-4213-93fa-c302d8ab4f51"
   Hint: Shared
   Value: 1
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "48d00c07-5d0f-4442-94b3-268c2fe58122"
+  Value: "3d9082f0-13d7-499d-ad26-dce963c07342"
 Languages:
 - Language: en
   Fields:
   - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
     Hint: Title
-    Value: Show Compare Button
+    Value: Show Add to Wishlist Button
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "255089e2-7c4b-439d-99c5-dbd5b8e79fab"
+    Value: "63b44ce9-12d6-454c-ac4c-ec4dd0e72985"
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250925T112526Z
+      Value: 20251013T135134Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\neli.kostadinova@sitecore.com
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2078c376-987b-47d2-9d9a-ee1ac1fc6049"
+      Value: "8f7e756e-737c-4ec7-b317-ed281efa8928"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\neli.kostadinova@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251013T135154Z
+      Value: 20251013T135255Z

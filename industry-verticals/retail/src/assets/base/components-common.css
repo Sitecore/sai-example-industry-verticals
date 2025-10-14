@@ -41,3 +41,27 @@
 .carousel-btn {
   @apply !text-foreground bg-background z-10 size-12 content-center rounded-full shadow-md;
 }
+
+.surface-btn {
+  @apply bg-background-surface text-accent flex size-6 items-center justify-center rounded font-bold transition-shadow hover:shadow-md;
+
+  &[disabled] {
+    @apply pointer-events-none opacity-60;
+  }
+
+  &.surface-btn-lg {
+    @apply size-8 text-lg;
+  }
+}
+
+.action-btn {
+  @apply text-accent hover:text-accent/80 hover:border-accent/80 border-accent flex h-10 items-center gap-3 border-b bg-transparent text-lg font-semibold;
+}
+
+.main-btn {
+  @apply bg-accent text-background hover:bg-accent/95 flex w-full items-center justify-center rounded-md p-3 text-center text-lg font-semibold transition-all hover:shadow-md;
+
+  &[disabled] {
+    @apply pointer-events-none opacity-60;
+  }
+}

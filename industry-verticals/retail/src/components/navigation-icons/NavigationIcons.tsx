@@ -1,15 +1,19 @@
 import React, { JSX } from 'react';
-import { User, Heart, ShoppingCart } from 'lucide-react';
+import { User, Heart, ShoppingCart, X } from 'lucide-react';
 import { ComponentProps } from '@/lib/component-props';
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuTrigger,
-} from '@/shadcn/components/ui/dropdown-menu';
 import { isParamEnabled } from '@/helpers/isParamEnabled';
 import { useI18n } from 'next-localization';
+import { Popover, PopoverContent, PopoverTrigger } from '@/shadcn/components/ui/popover';
+import { PopoverClose } from '@radix-ui/react-popover';
+import { MiniCart } from '../non-sitecore/MiniCart';
+import { LinkField } from '@sitecore-content-sdk/nextjs';
 
 export type NavigationIconsProps = ComponentProps & {
+  fields: {
+    CheckoutPage: LinkField;
+    AccountPage: LinkField;
+    WishlistPage: LinkField;
+  };
   params: { [key: string]: string };
 };
 
@@ -21,15 +25,20 @@ const IconDropdown = ({
   icon: JSX.Element;
   label: string;
 } & React.PropsWithChildren) => (
-  <DropdownMenu>
-    <DropdownMenuTrigger
-      className="text-foreground hover:text-accent focus:text-accent transition-colors"
+  <Popover>
+    <PopoverTrigger
+      className="text-foreground hover:text-accent data-[state=open]:text-accent transition-colors"
       aria-label={label}
     >
       {icon}
-    </DropdownMenuTrigger>
-    <DropdownMenuContent>{children}</DropdownMenuContent>
-  </DropdownMenu>
+    </PopoverTrigger>
+    <PopoverContent className="flex w-xl flex-col">
+      <PopoverClose className="surface-btn !text-foreground shrink-0 self-end">
+        <X className="size-4" />
+      </PopoverClose>
+      <div className="">{children}</div>
+    </PopoverContent>
+  </Popover>
 );
 
 export const Default = (props: NavigationIconsProps): JSX.Element => {
@@ -45,19 +54,19 @@ export const Default = (props: NavigationIconsProps): JSX.Element => {
       <div className="flex items-center gap-3 p-4 lg:gap-5 [.component.header_&]:justify-end [.component.header_&]:px-0">
         {showAccountIcon && (
           <IconDropdown icon={<User className="size-5" />} label="Account">
-            <p className="p-4">{t('account-empty') || 'You are not logged in.'}</p>
+            <p>{t('account-empty') || 'You are not logged in.'}</p>
           </IconDropdown>
         )}
 
         {showWishlistIcon && (
           <IconDropdown icon={<Heart className="size-5" />} label="Wishlist">
-            <p className="p-4">{t('wishlist-empty') || 'Your wishlist is empty.'}</p>
+            <p>{t('wishlist-empty') || 'Your wishlist is empty.'}</p>
           </IconDropdown>
         )}
 
         {showCartIcon && (
           <IconDropdown icon={<ShoppingCart className="size-5" />} label="Cart">
-            <p className="p-4">{t('cart-empty') || 'Your cart is empty.'}</p>
+            <MiniCart showWishlist={showWishlistIcon} checkoutPage={props.fields?.CheckoutPage} />
           </IconDropdown>
         )}
       </div>

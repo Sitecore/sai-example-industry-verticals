@@ -1,0 +1,42 @@
+﻿---
+ID: "be88eb4a-3151-40d8-bdb3-f58868fbba88"
+Parent: "a9bd8f3e-89c3-4173-9bd3-f4b0fea27018"
+Template: "9f495d8d-b3df-44ab-bbd4-4b5147cd81da"
+Path: "/sitecore/content/retail/forma-lux/Data/Navigation Icons/Header Nav Icons"
+SharedFields:
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "c6c664e3-c440-476a-a884-01eefb5f5b35"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1c4332f3-4975-49be-9091-8eab1583da74"
+      Hint: CheckoutPage
+      Value: |
+        <link linktype="internal" id="8bdc5310-d5d3-4bcc-b316-29f3b862b690" anchor="" querystring="" target="" class="" text="Go to Checkout" title=""/>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251014T064850Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b56373f8-ebba-4a7a-9fe5-e20249f35605"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251014T113145Z
