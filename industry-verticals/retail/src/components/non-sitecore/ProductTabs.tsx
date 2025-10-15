@@ -58,7 +58,7 @@ export const ProductTabs = ({
         </div>
 
         {/* Tab content */}
-        <div className="w-full max-w-4xl px-2 py-2 text-center text-sm sm:px-6 sm:text-base">
+        <div className="w-full max-w-6xl px-2 py-2 text-center text-sm sm:px-6 sm:text-base">
           <div className={activeTab === 'description' ? '' : 'hidden'}>
             {product?.LongDescription?.value || isPageEditing ? (
               <ContentSdkRichText
@@ -150,9 +150,7 @@ export const ProductTabs = ({
           </div>
 
           <div className={activeTab === 'reviews' ? '' : 'hidden'}>
-            <div className="py-2">
-              <Placeholder name={reviewsPlaceholderKey} rendering={rendering} />
-            </div>
+            <Placeholder name={reviewsPlaceholderKey} rendering={rendering} />
           </div>
         </div>
       </div>

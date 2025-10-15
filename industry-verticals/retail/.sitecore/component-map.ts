@@ -14,6 +14,7 @@ import * as RichText from 'src/components/rich-text/RichText';
 import * as ReviewsCarousel from 'src/components/reviews-carousel/ReviewsCarousel';
 import * as RelatedProducts from 'src/components/related-products/RelatedProducts';
 import * as Promo from 'src/components/promo/Promo';
+import * as ProductReviews from 'src/components/product-reviews/ProductReviews';
 import * as ProductDetails from 'src/components/product-details/ProductDetails';
 import * as PartialDesignDynamicPlaceholder from 'src/components/partial-design-dynamic-placeholder/PartialDesignDynamicPlaceholder';
 import * as PageContent from 'src/components/page-content/PageContent';
@@ -52,6 +53,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['ReviewsCarousel', ReviewsCarousel],
   ['RelatedProducts', RelatedProducts],
   ['Promo', Promo],
+  ['ProductReviews', ProductReviews],
   ['ProductDetails', ProductDetails],
   ['PartialDesignDynamicPlaceholder', PartialDesignDynamicPlaceholder],
   ['PageContent', PageContent],
