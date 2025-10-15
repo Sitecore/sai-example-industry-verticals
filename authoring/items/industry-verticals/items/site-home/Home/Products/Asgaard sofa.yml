@@ -1,0 +1,244 @@
+﻿---
+ID: "683a4c94-17a8-4c36-93ae-cdd2c60b1fb2"
+Parent: "b86a1b6c-c131-42ce-afcf-d7fef4a543f5"
+Template: "f6e44a9e-074a-4865-987e-0c2dc00b7af5"
+Path: "/sitecore/content/retail/forma-lux/Home/Products/Asgaard sofa"
+SharedFields:
+- ID: "01ea8292-a476-44b5-b883-8841134989ba"
+  Hint: Image5
+  Value: |
+    <image mediaid="d6114837-c32b-42c4-b574-a3b3ecafc459" />
+- ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
+  Hint: Image2
+  Value: |
+    <image mediaid="57a2a95a-f25e-4b8c-ab46-49573cc74455" />
+- ID: "9a62ea92-04df-49e2-ab37-00d251d0cc22"
+  Hint: Image4
+  Value: |
+    <image mediaid="6ed4dd19-54bd-4c9d-9347-87c000cbe4d4" />
+- ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
+  Hint: Image1
+  Value: |
+    <image mediaid="34259610-0d61-4e86-8f34-5e5c1a3ff065" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{B23ED343-53C9-430D-987C-D635900038E0}" />
+- ID: "d9c8ae87-80fc-460b-9140-3db7358b1c8e"
+  Hint: Image3
+  Value: |
+    <image mediaid="2fa486fb-5a39-485f-b5a3-2f950e03e94d" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "e128fffb-52d9-446f-a745-c4e88ce5e6e9"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{4A85CC5E-0551-4F8A-BE75-902E0A8BF0CE}"
+          p:before="*"
+          s:ds="381203f0-6ee1-4675-b043-c8d4ddbd6b86"
+          s:id="{E874A406-4977-443B-8AFE-690812AFB5EF}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;Autoplay&amp;Loop&amp;HideAccentLine&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="/headless-main/sxa-product-content/related-products-2" />
+        <r
+          uid="{D79A2166-FD58-4371-83F5-1D7F04B77CD9}"
+          p:after="r[@uid='{4A85CC5E-0551-4F8A-BE75-902E0A8BF0CE}']"
+          s:ds="381203f0-6ee1-4675-b043-c8d4ddbd6b86"
+          s:id="{E874A406-4977-443B-8AFE-690812AFB5EF}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;Autoplay&amp;Loop&amp;HideAccentLine&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="/headless-main/sxa-product-content-test/related-products-1" />
+        <r
+          uid="{1F2320BE-FCCE-487C-9618-9EA0A4D32976}"
+          p:after="r[@uid='{D79A2166-FD58-4371-83F5-1D7F04B77CD9}']"
+          s:ds="381203f0-6ee1-4675-b043-c8d4ddbd6b86"
+          s:id="{E874A406-4977-443B-8AFE-690812AFB5EF}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;Autoplay&amp;Loop&amp;HideAccentLine&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="/headless-main/sxa-productcontent/related-products-1" />
+        <r
+          uid="{B7C1703E-E3DE-4D96-8195-3E08830A8360}"
+          p:after="*[1=2]"
+          s:id="{397051DF-897E-4D6B-89FE-9EF7F1A57A4F}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
+          s:ph="/headless-main/sxa-productcontent/product-reviews-1" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "16d9e544-da50-4b11-9dc2-c160ef78e6d7"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Asgaard sofa
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250923T122113Z
+    - ID: "29f7d409-6f68-447d-8d7a-ce16df1761f3"
+      Hint: Height
+      Value: 76 cm
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound."
+    - ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+      Hint: Tags
+      Value: |
+        {AA1D2DC7-47CB-41BE-952D-F19B07B47154}
+        {831305F5-99B0-4746-B09A-42C67FE37EC5}
+        {AC473CFD-491E-4EB1-9D3D-AF5A1F63F10B}
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 2499.56
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Asgaard sofa
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+      Hint: SKU
+      Value: SKU0001
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "67259fe9-9fcd-46f4-b330-5865618a3b8c"
+      Hint: Width
+      Value: 265.32 cm
+    - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
+      Hint: Color
+      Value: |
+        {4644FE16-10A7-44F1-8172-CA03C35A688D}
+        {D5D801B9-21CD-426C-8573-0FFF36FE3317}
+        {75E874D3-C7B4-466B-B9F1-F305D5B67E85}
+    - ID: "7d125aa9-e5f4-4163-a68c-31686d582866"
+      Hint: Depth
+      Value: 167 cm
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "51ac6674-7fc6-476d-9732-3801bcbe537e"
+    - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
+      Hint: Size
+      Value: |
+        {1B4E7409-FAF1-4CFF-B06D-BE77ED1A74A1}
+        {B214C2E5-3E1A-42B6-A0EE-CAB3CBC055E0}
+        {B8B93775-E47C-46F2-9157-293AA8904883}
+    - ID: "a2fc3c8b-3142-4642-9057-420755863749"
+      Hint: ReviewImage
+      Value: |
+        <image mediaid="{D6114837-C32B-42C4-B574-A3B3ECAFC459}" />
+    - ID: "acbcb630-e684-43ae-bb85-9fc89052c8a9"
+      Hint: Weight
+      Value: 45 KG
+    - ID: "b5f6bc28-f8db-489f-b95e-43638b3d3ddc"
+      Hint: LegHeight
+      Value: 5.46 cm
+    - ID: "b98a779c-b7a3-4617-96a8-85f21897d0d0"
+      Hint: SeatHeight
+      Value: 41.52 cm
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Asgaard sofa
+    - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+      Hint: Category
+      Value: "{53DA2329-23E7-459F-A810-A057A8AD646B}"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251015T093248Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: |
+        <div class="ck-content"><p>Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and takes the show on the road.</p><p>Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.</p></div>
+    - ID: "f4bbb56b-ef8c-46e1-bf9b-a907515558d7"
+      Hint: Rating
+      Value: 5
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250925T123942Z
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 1500
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6dbd778f-0654-4154-a7f2-02d0314e53b2"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Asgaard Sofá
+    - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+      Hint: Category
+      Value: "{53DA2329-23E7-459F-A810-A057A8AD646B}"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250926T105448Z
+    - ID: "f4bbb56b-ef8c-46e1-bf9b-a907515558d7"
+      Hint: Rating
+      Value: 5
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250925T123846Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dcfb2049-5374-4e45-8d74-f382f56927ab"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250929T091731Z
