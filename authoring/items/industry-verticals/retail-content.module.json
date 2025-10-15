@@ -5,15 +5,29 @@
   "items": {
     "includes": [
       {
-        "name": "retail-content",
-        "path": "/sitecore/content",
-        "scope": "DescendantsOnly",
-        "rules": [
-          {
-            "path": "/Home",
-            "scope": "ignored"
-          }
-        ]
+        "name": "site-home",
+        "path": "/sitecore/content/retail/forma-lux/home",
+        "scope": "DescendantsOnly"
+      },
+      {
+        "name": "site-media",
+        "path": "/sitecore/content/retail/forma-lux/Media",
+        "scope": "DescendantsOnly"
+      },
+      {
+        "name": "site-data",
+        "path": "/sitecore/content/retail/forma-lux/Data",
+        "scope": "DescendantsOnly"
+      },
+      {
+        "name": "site-dictionary",
+        "path": "/sitecore/content/retail/forma-lux/Dictionary",
+        "scope": "DescendantsOnly"
+      },
+      {
+        "name": "site-presentation",
+        "path": "/sitecore/content/retail/forma-lux/Presentation",
+        "scope": "DescendantsOnly"
       }
     ]
   }
