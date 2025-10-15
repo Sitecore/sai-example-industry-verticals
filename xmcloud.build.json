@@ -10,8 +10,14 @@
       "runCommand": "next:start"
     }
   },
+  "deployItems": {
+    "modules": ["Project.retail"]
+  },
   "postActions": {
     "actions": {
+      "scsModules": {
+        "modules": ["Project.Retail-Media", "Project.Retail-Content"]
+      },
       "warmUpCm": {
         "urls": [
           "/sitecore/shell",
