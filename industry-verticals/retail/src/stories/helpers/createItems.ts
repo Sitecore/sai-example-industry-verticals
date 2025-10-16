@@ -169,6 +169,18 @@ export const createProductItems = (count: number) => {
           CategoryName: createTextField(`Category ${(i % 3) + 1}`),
         },
       },
+      Highlight:
+        (i + 1) % 3 === 0
+          ? createTextField('New', 0)
+          : {
+              value: '',
+            },
+      Discount:
+        (i + 1) % 4 === 0
+          ? createTextField('-20%', 0)
+          : {
+              value: '',
+            },
     },
   }));
 };

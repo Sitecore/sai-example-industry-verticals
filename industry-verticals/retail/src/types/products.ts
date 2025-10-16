@@ -23,6 +23,8 @@ export interface Product {
   Weight: Field<string>;
   SeatHeight: Field<string>;
   LegHeight: Field<string>;
+  Discount: Field<string>;
+  Highlight: Field<string>;
 }
 
 export interface CategoryFields {
