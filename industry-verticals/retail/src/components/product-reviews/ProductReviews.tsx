@@ -58,8 +58,6 @@ export const Default = (props: ProductReviewsProps) => {
     ? getFilteredReviewsById(reviews, currentProductName)
     : reviews;
 
-  console.log(props);
-
   if (!filteredReviews || filteredReviews.length === 0) {
     return (
       <div className={`${styles}`} id={id}>
