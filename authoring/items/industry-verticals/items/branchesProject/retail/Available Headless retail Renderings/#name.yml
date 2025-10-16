@@ -28,9 +28,11 @@ SharedFields:
     {7EEEB709-7AAA-4B2F-8FBA-88EF74B3D2FE}
     {442E3EA4-DE9A-41B5-A917-0F589F79B1A0}
     {E874A406-4977-443B-8AFE-690812AFB5EF}
+    {397051DF-897E-4D6B-89FE-9EF7F1A57A4F}
+    {613A3675-953D-4AD1-877A-48D24A28977D}
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "4c6d4016-d0ca-4d6e-90a0-727f9a495c8c"
+  Value: "8cdf1223-ace2-4c83-92d2-ed96ef045982"
 Languages:
 - Language: en
   Versions:
@@ -45,11 +47,11 @@ Languages:
         sitecore\admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "58d2b509-23b1-46b9-b133-4d840dd9ea27"
+      Value: "bf8d14f8-029b-4920-a6f2-fd404a37e300"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250925T124917Z
+      Value: 20251015T113112Z

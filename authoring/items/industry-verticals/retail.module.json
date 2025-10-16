@@ -23,8 +23,13 @@
         "path": "/sitecore/Media Library/Project/retail",
         "rules": [
           {
+            "path": "/shared",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
             "path": "/forma-lux",
-            "scope": "ItemAndDescendants",
+            "scope": "SingleItem",
             "allowedPushOperations": "CreateOnly"
           }
         ]
@@ -46,43 +51,43 @@
         "allowedPushOperations": "CreateAndUpdate"
       },
       {
-        "name": "site",
+        "name": "sites",
         "path": "/sitecore/content/retail/forma-lux",
         "rules": [
           {
             "path": "/home",
-            "scope": "ItemAndDescendants",
-            "allowedPushOperations": "CreateUpdateAndDelete"
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
           },
           {
             "path": "/Media",
-            "scope": "ItemAndDescendants",
-            "allowedPushOperations": "CreateUpdateAndDelete"
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateAndUpdate"
           },
           {
             "path": "/Data",
-            "scope": "ItemAndDescendants",
-            "allowedPushOperations": "CreateUpdateAndDelete"
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
           },
           {
             "path": "/Dictionary",
-            "scope": "ItemAndDescendants",
-            "allowedPushOperations": "CreateUpdateAndDelete"
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
           },
           {
             "path": "/Presentation",
-            "scope": "ItemAndDescendants",
-            "allowedPushOperations": "CreateUpdateAndDelete"
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
           },
           {
             "path": "/Settings/Site Grouping",
             "scope": "ItemAndDescendants",
-            "allowedPushOperations": "CreateUpdateAndDelete"
+            "allowedPushOperations": "CreateOnly"
           },
           {
             "path": "/Settings",
-            "scope": "ItemAndDescendants",
-            "allowedPushOperations": "CreateUpdateAndDelete"
+            "scope": "ItemAndChildren",
+            "allowedPushOperations": "CreateAndUpdate"
           },
           {
             "path": "*",
