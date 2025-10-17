@@ -6,7 +6,7 @@ import { ProductCard } from '@/components/non-sitecore/ProductCard';
 import { Pagination } from '../non-sitecore/Pagination';
 import { ChevronDown } from 'lucide-react';
 import { IGQLField } from '@/stories/helpers/createIGQLData';
-import { Field, ImageField } from '@sitecore-content-sdk/nextjs';
+import { Field, ImageField, useSitecore } from '@sitecore-content-sdk/nextjs';
 import { Category } from '@/types/products';
 
 interface Product {
@@ -23,16 +23,6 @@ interface Product {
   };
 }
 
-interface Review {
-  id: string;
-  product: {
-    targetItem: {
-      id: string;
-    };
-  };
-  rating: IGQLField<Field<number>>;
-}
-
 interface ProductListingProps extends ComponentProps {
   params: { [key: string]: string };
   fields: {
@@ -40,27 +30,20 @@ interface ProductListingProps extends ComponentProps {
       products: {
         results: Product[];
       };
-      reviews: {
-        results: Review[];
-      };
     };
   };
 }
 
 export const Default = (props: ProductListingProps) => {
   const { t } = useI18n();
+  const { page } = useSitecore();
   const id = props.params.RenderingIdentifier;
+
+  console.log(page);
 
   const products = props.fields.data.products.results
     .filter((product) => product.name !== '__Standard Values')
     .map((product) => {
-      const productReviews = props.fields.data.reviews.results.filter(
-        (review) => review.product.targetItem.id === product.id
-      );
-      const averageRating =
-        productReviews.reduce((sum, review) => sum + (review.rating.jsonValue.value || 0), 0) /
-        (productReviews.length || 1);
-
       return {
         Title: product.title.jsonValue,
         Price: product.price.jsonValue,
@@ -68,7 +51,6 @@ export const Default = (props: ProductListingProps) => {
         Category: product.category.jsonValue,
         Highlight: product.highlight.jsonValue,
         Discount: product.discount.jsonValue,
-        Rating: { value: Math.round(averageRating * 10) / 10 },
         id: product.id,
         url: product.url.url,
       };
