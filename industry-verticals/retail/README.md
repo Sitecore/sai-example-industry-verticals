@@ -1,8 +1,8 @@
-# Skate Park - Demo Site (NextJS) - nextjsstarter
+# Retail - Demo Site (NextJS) - nextjsstarter
 
 ## Overview
 
-Skate Park is a simple website with sample Component implementation showcasing data source handling and other essentials. This demo site is built to showcase XM Cloud capabilities using the Content SDK.
+Retail is a simple website with sample Component implementation showcasing data source handling and other essentials. This demo site is built to showcase XM Cloud capabilities using the Content SDK.
 
 ## Developer Expectations:
 
@@ -18,15 +18,15 @@ Skate Park is a simple website with sample Component implementation showcasing d
 ## Build and run site locally
 
 1. Clone the repository (if not yet done)
-   `git clone https://github.com/Sitecore/xmcloud-starter-js`
+   `git clone https://github.com/Sitecore/Sitecore.Demo.XMCloud.IndustryVerticals.SiteTemplates`
 2. Starting from the root of the repository navigate to site app folder
-   `cd examples\kit-nextjs-skate-park\`
+   `cd industry-verticals\retail`
 3. Copy the environment file `.env.remote.example`
 4. Rename the copied file to `.env.local`
 5. Edit `.env.local` and provide a value for `SITECORE_EDGE_CONTEXT_ID`, `NEXT_PUBLIC_DEFAULT_SITE_NAME`, `NEXT_PUBLIC_SITECORE_EDGE_CONTEXT_ID`, `SITECORE_EDITING_SECRET`. (More info: [Environment variables in XM Cloud](https://doc.sitecore.com/xmc/en/developers/xm-cloud/get-the-environment-variables-for-a-site.html))
 
 6. Install dependencies:
-   from `kit-nextjs-skate-park` run `npm install`
+   from `industry-verticals\retail` run `npm install`
 7. Run the site locally:
    `npm run dev`
 8. Access the site:
@@ -55,3 +55,53 @@ If you have not enabled the split deployment feature your edting hosts are autom
 Additional Info: You do not have to create rendering host items in XM Cloud as those are created automatically for you when creating a rendering host. Mapping of sites using site templates to editing hosts is also done automatically.
 
 [Documentation](https://doc.sitecore.com/xmc/en/developers/content-sdk/sitecore-content-sdk-for-xm-cloud.html)
+
+## Serialization Structure
+
+### Overview
+
+This section explains how Sitecore items are serialized and deployed for the Retail Site Collection.
+It distinguishes between IAR (Item-As-Resources) modules and SCS (Sitecore Content Serialization) post-action modules.
+
+#### Serialization & Deployment Strategy
+
+| Category                             | Description                                                                                                         |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------- |
+| IAR (Item-As-Resources)              | Items packaged and deployed with the rendering host build (`Project.retail`).                                       |
+| SCS (Sitecore Content Serialization) | Items pushed to Sitecore after deployment using post-actions (`Project.Retail-Content` and `Project.Retail-Media`). |
+| Excluded                             | OOB XM Cloud items.                                                                                                 |
+
+---
+
+#### Serialized Item Summary
+
+| Category                                    | Path                                               | Serialized | Deployment Type |
+| ------------------------------------------- | -------------------------------------------------- | ---------- | --------------- |
+| Project Settings                            | `/sitecore/system/Settings/Project/retail`         | Yes        | IAR             |
+| Templates                                   | `/sitecore/templates/Project/retail`               | Yes        | IAR             |
+| Branch Templates                            | `/sitecore/templates/Branches/Project/retail`      | Yes        | IAR             |
+| Layouts / Renderings / Placeholder Settings | `/sitecore/layout/.../Project/retail`              | Yes        | IAR             |
+| Tenant Root                                 | `/sitecore/content/retail`                         | Yes        | IAR             |
+| Site Root                                   | `/sitecore/content/retail/forma-lux`               | Yes        | SCS             |
+| Home, Data, Dictionary, Presentation        | `/sitecore/content/retail/forma-lux/...`           | Yes        | SCS             |
+| Media Library Folder (structure)            | `/sitecore/media library/Project/retail/forma-lux` | Yes        | SCS             |
+| Media Assets                                | `/sitecore/media library/.../*`                    | Yes        | IAR             |
+
+---
+
+### Common CLI Commands for Serialized Items
+
+Use the following Sitecore CLI commands to manage serialization and deployment:
+
+```bash
+# Pull the latest items from Sitecore to your local project
+sitecore ser pull
+
+# Push local serialized items to your Sitecore environment
+sitecore ser push
+
+# Connect your local project to a specific XM Cloud environment and allow write operations:
+dotnet sitecore cloud environment connect --environment-id <envId> --allow-write true
+```
+
+[Documentation](https://doc.sitecore.com/xmc/en/developers/xm-cloud/serialization-in-sitecore.html)
