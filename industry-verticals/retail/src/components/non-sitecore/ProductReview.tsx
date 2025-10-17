@@ -13,8 +13,6 @@ const ProductReview = (props: ReviewProps) => {
   const descriptionField = props.review.description;
   const ratingValue = props.review.rating?.jsonValue?.value || 0;
 
-  console.log(props);
-
   return (
     <div className="bg-background relative z-20 flex min-h-70 flex-col items-center justify-between rounded-2xl p-8 text-center shadow-xl">
       {/* Avatar */}
