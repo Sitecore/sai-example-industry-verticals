@@ -6,7 +6,7 @@ Path: "/sitecore/content/retail/forma-lux/Home/Products"
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
-  Value: "{F6E44A9E-074A-4865-987E-0C2DC00B7AF5}"
+  Value: "{4D2B49E6-1130-444A-B22C-5C7E25D01B56}"
 - ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
   Hint: NavigationFilter
   Value: "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
@@ -16,10 +16,21 @@ SharedFields:
     <image mediaid="{072CD27A-6AC9-457E-9649-37051EFC336C}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "8c604aac-185b-4ced-913f-51ac6c0c04f0"
+  Value: "fab2380a-c203-4037-888f-1f375d9dcab7"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
-  Value: 
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{3447123F-7CA9-4350-9085-20C4F632B7EE}"
+          s:id="{613A3675-953D-4AD1-877A-48D24A28977D}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+      </d>
+    </r>
 Languages:
 - Language: en
   Versions:
@@ -47,14 +58,14 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2abf4bef-0ac3-4139-b505-4a001c287097"
+      Value: "21a0f5df-e67f-49a7-bafa-37b5aa56612a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeffrey.isham@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250930T095238Z
+      Value: 20251016T155322Z
 - Language: "es-ES"
   Versions:
   - Version: 1

@@ -110,7 +110,7 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251008T153901Z
-- Language: "es-ES"
+- Language: "es-es"
   Versions:
   - Version: 1
     Fields:
@@ -144,7 +144,7 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20250918T062316Z
-- Language: "fr-FR"
+- Language: "fr-fr"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision

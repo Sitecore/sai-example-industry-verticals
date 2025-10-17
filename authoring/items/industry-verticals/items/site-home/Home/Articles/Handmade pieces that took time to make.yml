@@ -101,7 +101,7 @@ Languages:
     - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
       Hint: Category
       Value: "{53E47824-D8CD-4263-AAC6-A4358F7E5DB4}"
-- Language: "es-ES"
+- Language: "es-es"
   Versions:
   - Version: 1
     Fields:

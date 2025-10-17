@@ -15,7 +15,7 @@ SharedFields:
   Value: Office/32x32/playing_cards.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Project/retail/Page
+  Value: /sitecore/templates/Project/retail/Pages/ProductPage
 - ID: "7d8ae35f-9ed1-43b5-96a2-0a5f040d4e4e"
   Hint: Open Properties after Add
   Value: 0
@@ -24,10 +24,10 @@ SharedFields:
   Value: "{165F9C88-A72A-417E-B8B9-12B1DF70A1E8}"
 - ID: "b0b15510-b138-470e-8f33-8da2e228aafe"
   Hint: Rendering Contents Resolver
-  Value: "{2F5C334E-5615-423C-8281-9FC180191302}"
+  Value: "{5F8249B6-9290-4061-BD92-8DD72C7C6F7C}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "230245c8-4d38-45a7-8a16-5e3fb7227c68"
+  Value: "f1f656e9-c6f5-457c-82f1-ce8732bbf0de"
 - ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
   Hint: OtherProperties
   Value: IsRenderingsWithDynamicPlaceholders=true&UsePlaceholderDatasourceContext=true
@@ -77,14 +77,14 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b22b81a6-d1bb-4baf-b053-5a9c384bf0bd"
+      Value: "f59d5971-c73f-463b-aadb-c5a1cefbe236"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250924T100101Z
+      Value: 20251016T160948Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
