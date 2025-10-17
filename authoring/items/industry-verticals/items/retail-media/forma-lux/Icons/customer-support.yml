@@ -1,0 +1,63 @@
+﻿---
+ID: "601b579f-415e-41ee-9f1f-128cfd7af0c6"
+Parent: "2255da02-7a2c-4d3e-a41f-0f9ddf9b08a9"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/retail/forma-lux/Icons/customer-support"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/601B579F415E41EE9F1F128CFD7AF0C6.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 60
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "601b579f-415e-41ee-9f1f-128cfd7af0c6"
+  Value: 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
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 1872
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 60 x 60
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "994a2f39-8ca4-4610-a19b-00f9d8909e82"
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 60
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250904T195019Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: "customer-support"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9eac224e-68c5-4d06-bfae-e3ddebb14b8b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251008T151038Z

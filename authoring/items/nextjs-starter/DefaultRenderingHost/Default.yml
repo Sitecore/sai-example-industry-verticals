@@ -9,7 +9,7 @@ SharedFields:
   Value: Default
 - ID: "94470b31-e282-4d8d-bc54-85689efb294c"
   Hint: ServerSideRenderingEngineConfigUrl
-  Value: "https://xmc-7asknwhktmxoyibumogi71-eh.sitecorecloud.io:443/api/editing/config"
+  Value: "https://xmc-7cttatozr75ivgedmbv9lm-eh.sitecorecloud.io:443/api/editing/config"
 - ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
   Hint: __Read Only
   Value: 1
@@ -18,16 +18,16 @@ SharedFields:
   Value: "0e643015-324d-441e-8bb4-2d533502b0ce"
 - ID: "e32c1801-79b3-4fc1-a9c4-3c6e6c2968ae"
   Hint: ServerSideRenderingEngineApplicationUrl
-  Value: "https://xmc-7asknwhktmxoyibumogi71-eh.sitecorecloud.io/"
+  Value: "https://xmc-7cttatozr75ivgedmbv9lm-eh.sitecorecloud.io/"
 - ID: "fc76919b-0d7c-4732-865d-2af795fb38a4"
   Hint: ServerSideRenderingEngineEndpointUrl
-  Value: "https://xmc-7asknwhktmxoyibumogi71-eh.sitecorecloud.io:443/api/editing/render"
+  Value: "https://xmc-7cttatozr75ivgedmbv9lm-eh.sitecorecloud.io:443/api/editing/render"
 Languages:
 - Language: "de-DE"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "f2f73df7-c2a4-4401-bee8-af4f6e25c6b1"
+    Value: "149d2a89-9d9d-415e-80c3-2dde8e627acc"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
     Value: Default
@@ -61,7 +61,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20251002T082405Z
+      Value: 20251014T154916Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -73,7 +73,7 @@ Languages:
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "f2f73df7-c2a4-4401-bee8-af4f6e25c6b1"
+    Value: "149d2a89-9d9d-415e-80c3-2dde8e627acc"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
     Value: デフォルト
@@ -105,7 +105,7 @@ Languages:
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "f2f73df7-c2a4-4401-bee8-af4f6e25c6b1"
+    Value: "149d2a89-9d9d-415e-80c3-2dde8e627acc"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
     Value: 默认
