@@ -6,7 +6,7 @@ Path: /sitecore/templates/Project/retail/Pages/ProductPage/Content/Category
 SharedFields:
 - ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
   Hint: Source
-  Value: "query:$site/*[@@name='Data']/*[@@templatename='Product Category Folder']/*"
+  Value: "query:$site/*[@@name='Home']/*/*[@@templatename='ProductCategoryPage']"
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: Droplink
@@ -15,7 +15,7 @@ SharedFields:
   Value: 8
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "c7ee917c-cb81-4d1c-bf81-52e7c31b1117"
+  Value: "1f63b5d5-5bd4-47e5-9c63-8c65f2651e29"
 Languages:
 - Language: en
   Versions:
@@ -34,11 +34,11 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a4af5f99-527f-4d0a-a36d-a6e878d1b2e1"
+      Value: "0fcb591b-437f-4f92-a2b6-cd6a927f8775"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251001T072435Z
+      Value: 20251020T085622Z

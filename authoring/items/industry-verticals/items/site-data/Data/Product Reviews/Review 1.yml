@@ -1,30 +1,31 @@
 ﻿---
-ID: "492b29f1-40a1-491c-995d-1244e6bc941e"
-Parent: "c17e3e95-793d-451a-a304-7480cf30dff4"
+ID: "22a3c639-09ba-4161-8ea9-83446b471dca"
+Parent: "4781f893-d471-4ab0-9948-32b2ba77f858"
 Template: "744d807c-58ee-4148-b56c-2a4d721ef30f"
 Path: "/sitecore/content/retail/forma-lux/Data/Product Reviews/Review 1"
 SharedFields:
+- ID: "80c830cd-6bce-475c-a33a-7ae4681fc436"
+  Hint: ReviewImage
+  Value: |
+    <image mediaid="{425126A2-6E66-41D4-9379-0C1277DD1B11}" />
 - ID: "84f017a3-d38b-4b59-b533-be5cf9ef126a"
   Hint: Avatar
   Value: |
     <image mediaid="{D380E9E7-8BE4-4809-B7EC-4E30B6289EAB}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "926fcb21-2f78-4a87-89a3-ae47db3c65a8"
+  Value: "935cc915-53d6-4a79-b8c8-8a5180ff8a9d"
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
-    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
-      Hint: __Lock
-      Value: <r />
     - ID: "1ba67762-5101-42b3-a0f4-96c75eef92dd"
       Hint: Rating
       Value: 4
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250923T114452Z
+      Value: 20251020T100615Z
     - ID: "4cfe9e5a-e13c-480a-bfb5-13ab4d5076e3"
       Hint: Caption
       Value: Creative Director, Paris
@@ -38,22 +39,17 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "626e48c4-0b10-44a8-9014-b2d9776e5cd6"
       Hint: Description
-      Value: |
-        “Forma Lux transformed my apartment into a gallery-worthy space. Every piece feels like functional art — clean, bold, and timeless.”
-        
+      Value: "“Forma Lux transformed my apartment into a gallery-worthy space. Every piece feels like functional art — clean, bold, and timeless.”"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c28365c0-13a6-434d-a4bf-f21fa2f81b69"
+      Value: "85c23cc2-4189-4953-9ff9-0fa10c2fa1fe"
     - ID: "b6ff157a-68e6-4d19-a9fa-72835a99d93d"
       Hint: ReviewerName
       Value: Julien M.
-    - ID: "b79a5d9d-c842-49c5-801e-cc659f743538"
-      Hint: Product
-      Value: "{683A4C94-17A8-4C36-93AE-CDD2C60B1FB2}"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250924T183016Z
+      Value: 20251020T100843Z

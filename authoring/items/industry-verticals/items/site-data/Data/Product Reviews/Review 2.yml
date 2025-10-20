@@ -1,16 +1,20 @@
 ﻿---
-ID: "f5f39d87-dd9c-4cb4-8e26-91bc632e80b8"
-Parent: "c17e3e95-793d-451a-a304-7480cf30dff4"
+ID: "f3760f5f-6cf6-4028-8ffa-f79479e36258"
+Parent: "4781f893-d471-4ab0-9948-32b2ba77f858"
 Template: "744d807c-58ee-4148-b56c-2a4d721ef30f"
 Path: "/sitecore/content/retail/forma-lux/Data/Product Reviews/Review 2"
 SharedFields:
+- ID: "80c830cd-6bce-475c-a33a-7ae4681fc436"
+  Hint: ReviewImage
+  Value: |
+    <image mediaid="{D6114837-C32B-42C4-B574-A3B3ECAFC459}" />
 - ID: "84f017a3-d38b-4b59-b533-be5cf9ef126a"
   Hint: Avatar
   Value: |
     <image mediaid="{EB918E1B-4A73-439D-9E1F-F820DDA124CD}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "c7a774ce-4fb8-48ee-9cc8-f3ac5dfb8bf2"
+  Value: "c29e11ca-3029-41ff-8fe4-d4ca305bd7a2"
 Languages:
 - Language: en
   Versions:
@@ -21,7 +25,7 @@ Languages:
       Value: 4
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250923T114452Z
+      Value: 20251020T100852Z
     - ID: "4cfe9e5a-e13c-480a-bfb5-13ab4d5076e3"
       Hint: Caption
       Value: Interior Stylist, New York
@@ -38,17 +42,14 @@ Languages:
       Value: “There’s a quiet confidence in Forma Lux design. It’s minimalism with personality — understated, but impossible to ignore.”
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6dcaa73e-4257-4003-8d93-39aa16a46fcf"
+      Value: "8a00cfaf-f8da-4abb-938c-1039fc3adb94"
     - ID: "b6ff157a-68e6-4d19-a9fa-72835a99d93d"
       Hint: ReviewerName
       Value: Sophia R.
-    - ID: "b79a5d9d-c842-49c5-801e-cc659f743538"
-      Hint: Product
-      Value: "{DC635359-2002-438A-81C9-605141AA1CE3}"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250924T161604Z
+      Value: 20251020T100948Z
