@@ -1,6 +1,7 @@
 import { Field, ImageField, RichTextField } from '@sitecore-content-sdk/nextjs';
 import { SitecoreItem } from './common';
 import { IGQLField } from './igql';
+import { ReviewFields } from './review';
 
 export interface Product {
   Title: Field<string>;
@@ -17,13 +18,13 @@ export interface Product {
   Image3: ImageField;
   Image4: ImageField;
   Image5: ImageField;
-  Rating: Field<number>;
   Width: Field<string>;
   Height: Field<string>;
   Depth: Field<string>;
   Weight: Field<string>;
   SeatHeight: Field<string>;
   LegHeight: Field<string>;
+  Reviews: ReviewFields[];
 }
 
 export interface ProductIGQL {
@@ -35,6 +36,11 @@ export interface ProductIGQL {
   category: IGQLField<Category>;
   url: {
     path: string;
+  };
+  reviews: {
+    targetItems: Array<{
+      rating: IGQLField<Field<number>>;
+    }>;
   };
 }
 

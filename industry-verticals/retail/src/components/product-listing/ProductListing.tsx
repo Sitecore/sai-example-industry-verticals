@@ -6,6 +6,7 @@ import { ProductCard } from '@/components/non-sitecore/ProductCard';
 import { Pagination } from '../non-sitecore/Pagination';
 import { ChevronDown } from 'lucide-react';
 import { ProductIGQL } from '@/types/products';
+import { calculateAverageRatingFromIGQL } from '@/helpers/productUtils';
 
 interface ProductCategory {
   id: string;
@@ -50,6 +51,7 @@ export const Default = (props: ProductListingProps) => {
       Price: product.price.jsonValue,
       Image1: product.image1.jsonValue,
       Category: product.category.jsonValue,
+      Rating: calculateAverageRatingFromIGQL(product.reviews?.targetItems || []),
       id: product.id,
       url: product.url.path,
     };

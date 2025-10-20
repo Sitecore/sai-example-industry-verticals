@@ -5,7 +5,9 @@ import { Product } from '@/types/products';
 import { useLocale } from '@/hooks/useLocaleOptions';
 
 interface ProductCardProps {
-  product: Partial<Product>;
+  product: Partial<Product> & {
+    Rating: number;
+  };
   url: string;
   className?: string;
 }
@@ -45,7 +47,7 @@ export const ProductCard = ({ product, url, className }: ProductCardProps) => {
           </h6>
 
           <StarRating
-            rating={product.Rating?.value || 0}
+            rating={product.Rating || 0}
             showOnlyFilled
             className="!text-accent mt-1 mb-5"
           />

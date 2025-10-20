@@ -88,7 +88,6 @@ export const createProductItems = (count: number) => {
       ),
       Price: createNumberField(1.99 + i * 10),
       SKU: createTextField(`SKU${1000 + i + 1}`),
-      Rating: createNumberField((i % 5) + 1),
       Image1: createImageField(),
       Image2: createImageField(),
       Image3: createImageField(),
@@ -171,18 +170,7 @@ export const createProductItems = (count: number) => {
           CategoryName: createTextField(`Category ${(i % 3) + 1}`),
         },
       },
-      Highlight:
-        (i + 1) % 3 === 0
-          ? createTextField('New', 0)
-          : {
-              value: '',
-            },
-      Discount:
-        (i + 1) % 4 === 0
-          ? createTextField('-20%', 0)
-          : {
-              value: '',
-            },
+      Reviews: [],
     },
   }));
 };
@@ -205,6 +193,11 @@ export const createIGQLProductItems = (count: number): ProductIGQL[] => {
     }),
     url: {
       path: `/products/product-${index + 1}`,
+    },
+    reviews: {
+      targetItems: Array.from({ length: (index % 5) + 1 }, () => ({
+        rating: createIGQLField(createNumberField(Math.round((Math.random() * 4 + 1) * 100) / 100)),
+      })),
     },
   }));
 };
