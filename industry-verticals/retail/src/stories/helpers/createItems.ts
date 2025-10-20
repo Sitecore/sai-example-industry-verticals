@@ -1,5 +1,6 @@
 import { Article, Author, Category } from '@/types/article';
 import {
+  createIGQLField,
   createImageField,
   createLinkField,
   createNumberField,
@@ -7,6 +8,7 @@ import {
   createTextField,
 } from './createFields';
 import { Field } from '@sitecore-content-sdk/nextjs';
+import { ProductIGQL } from '@/types/products';
 
 export const createLinkItems = (count: number) =>
   Array.from({ length: count }).map((_, i) => ({
@@ -181,6 +183,28 @@ export const createProductItems = (count: number) => {
           : {
               value: '',
             },
+    },
+  }));
+};
+
+export const createIGQLProductItems = (count: number): ProductIGQL[] => {
+  return Array.from({ length: count }, (_, index) => ({
+    id: `product-${index + 1}`,
+    name: `Product ${index + 1}`,
+    title: createIGQLField(createTextField(`Product ${index + 1}`)),
+    price: createIGQLField(createNumberField(1.99 + index * 10)),
+    image1: createIGQLField(createImageField()),
+    category: createIGQLField({
+      id: `category-${(index % 3) + 1}`,
+      displayName: `Category ${(index % 3) + 1}`,
+      name: `category${(index % 3) + 1}`,
+      url: `/categories/category-${(index % 3) + 1}`,
+      fields: {
+        CategoryName: createTextField(`Category ${(index % 3) + 1}`),
+      },
+    }),
+    url: {
+      path: `/products/product-${index + 1}`,
     },
   }));
 };

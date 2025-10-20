@@ -5,21 +5,13 @@ import { useState } from 'react';
 import { ProductCard } from '@/components/non-sitecore/ProductCard';
 import { Pagination } from '../non-sitecore/Pagination';
 import { ChevronDown } from 'lucide-react';
-import { IGQLField } from '@/stories/helpers/createIGQLData';
-import { Field, ImageField, useSitecore } from '@sitecore-content-sdk/nextjs';
-import { Category } from '@/types/products';
+import { ProductIGQL } from '@/types/products';
 
-interface Product {
+interface ProductCategory {
   id: string;
   name: string;
-  title: IGQLField<Field<string>>;
-  price: IGQLField<Field<number>>;
-  image1: IGQLField<ImageField>;
-  category: IGQLField<Category>;
-  highlight: IGQLField<Field<string>>;
-  discount: IGQLField<Field<string>>;
-  url: {
-    url: string;
+  children: {
+    results: ProductIGQL[];
   };
 }
 
@@ -27,8 +19,10 @@ interface ProductListingProps extends ComponentProps {
   params: { [key: string]: string };
   fields: {
     data: {
-      products: {
-        results: Product[];
+      contextItem: {
+        children: {
+          results: ProductCategory[] | ProductIGQL[];
+        };
       };
     };
   };
@@ -36,25 +30,30 @@ interface ProductListingProps extends ComponentProps {
 
 export const Default = (props: ProductListingProps) => {
   const { t } = useI18n();
-  const { page } = useSitecore();
   const id = props.params.RenderingIdentifier;
+  const items = props.fields.data.contextItem.children.results;
 
-  console.log(page);
-
-  const products = props.fields.data.products.results
-    .filter((product) => product.name !== '__Standard Values')
-    .map((product) => {
-      return {
-        Title: product.title.jsonValue,
-        Price: product.price.jsonValue,
-        Image1: product.image1.jsonValue,
-        Category: product.category.jsonValue,
-        Highlight: product.highlight.jsonValue,
-        Discount: product.discount.jsonValue,
-        id: product.id,
-        url: product.url.url,
-      };
+  const unformattedProducts = items
+    .filter((item) => Object.keys(item).length !== 0)
+    .flatMap((item) => {
+      // Check if the item has children property (ProductCategory)
+      if ('children' in item && item.children?.results) {
+        return item.children.results;
+      }
+      // Otherwise, it's a Product itself
+      return [item as ProductIGQL];
     });
+
+  const products = unformattedProducts.map((product) => {
+    return {
+      Title: product.title.jsonValue,
+      Price: product.price.jsonValue,
+      Image1: product.image1.jsonValue,
+      Category: product.category.jsonValue,
+      id: product.id,
+      url: product.url.path,
+    };
+  });
 
   const sortOptions = [
     { value: 'default', label: t('product-listing-sort-default') || 'Default' },
@@ -64,7 +63,7 @@ export const Default = (props: ProductListingProps) => {
     { value: 'name-desc', label: t('product-listing-sort-name-desc') || 'Name: Z to A' },
   ];
 
-  const [displayCount, setDisplayCount] = useState(16);
+  const [displayCount, setDisplayCount] = useState(12);
   const [sortOption, setSortOptions] = useState(sortOptions[0].value);
   const [currentPage, setCurrentPage] = useState(1);
 
@@ -108,8 +107,8 @@ export const Default = (props: ProductListingProps) => {
       <div className="bg-background-accent">
         <div className="container flex flex-col justify-between gap-5 py-5 sm:flex-row sm:items-center">
           <div>
-            {t('product-listing-showing') || 'Showing'} {startIndex + 1} -{' '}
-            {Math.min(endIndex, products.length)} {t('product-listing-of') || 'of'}{' '}
+            {t('product-listing-showing') || 'Showing'} {Math.min(products.length, startIndex + 1)}{' '}
+            - {Math.min(endIndex, products.length)} {t('product-listing-of') || 'of'}{' '}
             {products.length} {t('product-listing-results') || 'results'}
           </div>
 
@@ -155,9 +154,9 @@ export const Default = (props: ProductListingProps) => {
       {/* Products */}
       <div className="container mt-14 mb-20">
         {/* Product Grid */}
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 xl:gap-10 2xl:grid-cols-6">
           {currentPageProducts.map(({ id, url, ...rest }) => (
-            <ProductCard key={id} product={rest} url={url} showBadges />
+            <ProductCard key={id} product={rest} url={url} />
           ))}
         </div>
 
