@@ -5,6 +5,7 @@ import {
 } from '../components/navigation-icons/NavigationIcons';
 import { CommonParams, CommonRendering } from './common/commonData';
 import { boolToSitecoreCheckbox } from './helpers/boolToSitecoreCheckbox';
+import { createLinkField } from './helpers/createFields';
 
 type StoryProps = NavigationIconsProps & {
   hideAccount: boolean;
@@ -53,6 +54,12 @@ const baseRendering = {
   params: baseParams,
 };
 
+const baseFields = {
+  AccountPage: createLinkField('Go to Account'),
+  WishlistPage: createLinkField('Go to Wishlist'),
+  CheckoutPage: createLinkField('Go to Checkout'),
+};
+
 export const Default: Story = {
   render: (args) => {
     const params = {
@@ -61,6 +68,6 @@ export const Default: Story = {
       HideWishlistIcon: boolToSitecoreCheckbox(args.hideWishlist),
       HideCartIcon: boolToSitecoreCheckbox(args.hideCart),
     };
-    return <NavigationIcons params={params} rendering={baseRendering} />;
+    return <NavigationIcons params={params} rendering={baseRendering} fields={baseFields} />;
   },
 };

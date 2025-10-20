@@ -28,7 +28,7 @@ export const ProductCard = ({ product, url, className }: ProductCardProps) => {
         className={`flex min-h-123 w-full flex-col overflow-hidden rounded-2xl hover:drop-shadow-sm ${className}`}
       >
         {/* Product Image */}
-        <div className="bg-background-card-image flex h-72 w-full items-center justify-center p-6">
+        <div className="bg-background-surface flex h-72 w-full items-center justify-center p-6">
           <ContentSdkImage
             field={product.Image1}
             className="max-h-full max-w-full object-contain"
