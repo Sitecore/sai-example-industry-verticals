@@ -7,13 +7,17 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 425
+- ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
+  Hint: Image1
+  Value: |
+    <image mediaid="7143ce2d-5fa6-4c30-bcd3-ac5375185602" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{77493FA8-0C77-45E8-AB03-165FE4833B21}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "a621d3f9-c1e2-478d-9ac1-7cc9d88c7105"
+  Value: "c1e546e5-a0db-4aad-952c-caea8d8d2c5d"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -61,17 +65,17 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
       Hint: SKU
-      Value: SOF0004
+      Value: SOF0002
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
       Hint: Color
-      Value: "{4644FE16-10A7-44F1-8172-CA03C35A688D}"
+      Value: "{75E874D3-C7B4-466B-B9F1-F305D5B67E85}"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c394b851-49a4-4e29-82ba-b94db729b4ef"
+      Value: "8cdde3e1-8970-443d-956f-1c5ed2784068"
     - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
       Hint: Size
       Value: "{C593AA0B-B143-4FD4-B8F6-C8950FB744B0}"
@@ -84,10 +88,10 @@ Languages:
       Value: Brooklyn Sleeper Sofa
     - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
       Hint: Category
-      Value: "{53DA2329-23E7-459F-A810-A057A8AD646B}"
+      Value: "{078D4751-D125-408A-9FF2-F5417844B877}"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251016T154953Z
+      Value: 20251017T153556Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: "<p>The Brooklyn Sleeper Sofa is perfect for small spaces. With a simple pull-out mechanism, it transforms into a comfortable bed. Upholstered in durable fabric, it’s ideal for overnight guests.</p>"

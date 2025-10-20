@@ -14,6 +14,10 @@ SharedFields:
 - ID: "9a62ea92-04df-49e2-ab37-00d251d0cc22"
   Hint: Image4
   Value: 
+- ID: "a2fc3c8b-3142-4642-9057-420755863749"
+  Hint: ReviewImage
+  Value: |
+    <image mediaid="{425126A2-6E66-41D4-9379-0C1277DD1B11}" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 775
@@ -30,7 +34,7 @@ SharedFields:
   Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "0ffa8721-dadf-4c68-adde-e897e1ca0e3b"
+  Value: "cb839114-d2ad-495e-a392-b36908299bc5"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -63,7 +67,7 @@ SharedFields:
           uid="{26CE41F6-A517-4A1F-A18E-13DE75EB9F77}"
           p:after="*[1=2]"
           s:id="{397051DF-897E-4D6B-89FE-9EF7F1A57A4F}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B5FCAA594-F971-4E61-AA4E-3A3053AF8B9E%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=5"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B96F689EC-CEF2-445F-82CB-D196A107829E%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=5"
           s:ph="/headless-main/sxa-productcontent/product-reviews-1" />
       </d>
     </r>
@@ -118,7 +122,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
       Hint: SKU
-      Value: CH002
+      Value: CHR0001
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -133,30 +137,26 @@ Languages:
       Value: "-50%"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "51faa9c4-4737-4b3c-87a1-2baea8ea43fd"
+      Value: "2ed395a3-766e-49c6-8351-5273ff6dc6cc"
     - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
       Hint: Size
       Value: |
         {C593AA0B-B143-4FD4-B8F6-C8950FB744B0}
         {978D9183-8AD5-4000-8A7E-312A50B1E1B1}
         {1B4E7409-FAF1-4CFF-B06D-BE77ED1A74A1}
-    - ID: "a2fc3c8b-3142-4642-9057-420755863749"
-      Hint: ReviewImage
-      Value: |
-        <image mediaid="{425126A2-6E66-41D4-9379-0C1277DD1B11}" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Baltsar Chair
     - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
       Hint: Category
-      Value: "{1F4F7164-0F0C-4CAB-8F44-7B7C85AD9C1A}"
+      Value: "{8DD59D14-31A7-4B85-A547-77B03C68AC32}"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251017T082743Z
+      Value: 20251017T143721Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: "<p>Exuding modern sophistication, the Baltsar Chair effortlessly combines sleek design with unparalleled comfort. Its ergonomic structure ensures superior support, making it a perfect addition to both contemporary and classic interiors. </p><p>Crafted with precision, the Baltsar Chair features a durable frame and high-quality upholstery that promise long-lasting use. Its elegant contours not only add a touch of luxury but also provide a welcoming embrace that invites you to sit and unwind. Ideal for any setting, the Baltsar Chair is more than just a seat; it's an invitation to experience style and relaxation like never before.</p>"

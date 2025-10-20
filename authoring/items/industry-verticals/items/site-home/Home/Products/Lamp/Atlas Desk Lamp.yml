@@ -7,13 +7,17 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 1200
+- ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
+  Hint: Image1
+  Value: |
+    <image mediaid="23514398-863e-49cf-b575-b0d58ed73ff7" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{3C67AD00-FC99-4238-9FDD-050702FC7943}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "170fb18c-eb9a-48c8-b2a6-71aba9d26c17"
+  Value: "c38f4782-ebfe-4d4e-9de9-53a849a9a3e1"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -60,7 +64,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
       Hint: SKU
-      Value: LMP0004
+      Value: LMP0002
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -72,7 +76,7 @@ Languages:
         {4644FE16-10A7-44F1-8172-CA03C35A688D}
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "dde69da8-0231-48d3-8f02-dd5f7587620e"
+      Value: "e31f0c6d-848f-42ec-8c03-aaf60b8fde5d"
     - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
       Hint: Size
       Value: |
@@ -87,10 +91,10 @@ Languages:
       Value: Atlas Desk Lamp
     - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
       Hint: Category
-      Value: "{2DBCDA2D-FF88-46C1-A3F2-F21A34E30661}"
+      Value: "{260CF295-7D6B-4E12-805C-2596FFD1C3D7}"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251016T155238Z
+      Value: 20251017T152859Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: <p>The Atlas Desk Lamp is designed for productivity. With adjustable arms and a pivoting head, it provides focused task lighting. Its industrial design adds character to workspaces.</p>

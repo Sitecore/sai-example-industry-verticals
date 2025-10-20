@@ -9,95 +9,94 @@ SharedFields:
   Value: ProductListing
 - ID: "069a8361-b1cd-437c-8c32-a3be78941446"
   Hint: Placeholders
-  Value: "{97CBC3BC-B376-47AA-9238-240672E912A5}"
+  Value: 
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
   Value: office/32x32/market_stand.png
 - ID: "17bb046a-a32a-41b3-8315-81217947611b"
   Hint: ComponentQuery
   Value: |
-    query GetProductsAndReviews($language: String!) {
-      products: search(
-        where: {
-          AND: [
-            { name: "_templates", value: "{F6E44A9E-074A-4865-987E-0C2DC00B7AF5}", operator: EQ },
-            { name: "_language", value: $language, operator: EQ }
-          ]
-        }
-        first:25
-      ) {
-        results {
-          id
-          name
-          url {
-            url
-          }
-          ... on ProductPage {
-            title {
-              jsonValue
+    query GetProducts($language: String!, $contextItem: String!) {
+      contextItem: item(path: $contextItem, language: $language) {
+        children(first: 50) {
+          results {
+            ... on ProductCategoryPage {
+              id
+              name
+              children(first: 200) {
+                results {
+                  ... on ProductPage {
+                    id
+                    url {
+                      path
+                    }
+                    title {
+                      jsonValue
+                    }
+                    price {
+                      jsonValue
+                    }
+                    image1 {
+                      jsonValue
+                    }
+                    category {
+                      jsonValue
+                    }
+                  }
+                }
+              }
             }
-            price {
-              jsonValue
-            }
-            category {
-              jsonValue
-            }
-            image1 {
-              jsonValue
-            }
-            discount {
-              jsonValue
-            }
-            highlight {
-              jsonValue
-            }
-          }
-        }
-      }
     
-      reviews: search(
-        where: {
-          AND: [
-            { name: "_templates", value: "{744D807C-58EE-4148-B56C-2A4D721EF30F}", operator: EQ },
-            { name: "_language", value: $language, operator: EQ }
-          ]
-        }
-        first:20
-      ) {
-        results {
-          id
-          ... on Review {
-            product {
-              targetId
-            }
-            rating {
-              jsonValue
+            ... on ProductPage {
+              id
+              url {
+                path
+              }
+              title {
+                jsonValue
+              }
+              price {
+                jsonValue
+              }
+              image1 {
+                jsonValue
+              }
+              category {
+                jsonValue
+              }
             }
           }
         }
       }
     }
+    
 - ID: "308e88f5-cd6e-4f8f-bafe-95a47dedefdc"
   Hint: Editable
-  Value: 
+  Value: 1
 - ID: "7d8ae35f-9ed1-43b5-96a2-0a5f040d4e4e"
   Hint: Open Properties after Add
   Value: 0
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
   Value: "{22480751-012D-45DB-AE90-6D21CFEE488F}"
+- ID: "b0b15510-b138-470e-8f33-8da2e228aafe"
+  Hint: Rendering Contents Resolver
+  Value: 
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 350
 - ID: "c39a90ce-0035-41bb-90f6-3c8a6ea87797"
   Hint: AddFieldEditorButton
   Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "76d59fe7-d5da-4440-b7eb-aeb96a91b836"
+  Value: "6d529929-aa52-464b-88ba-290997951d52"
 - ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
   Hint: OtherProperties
   Value: IsRenderingsWithDynamicPlaceholders=true&UsePlaceholderDatasourceContext=true
 - ID: "f172b787-7b88-4bd5-ae4d-6308e102ef11"
   Hint: Enable Datasource Query
-  Value: 
+  Value: 1
 Languages:
 - Language: "de-DE"
   Fields:
@@ -144,14 +143,14 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "28d85236-b770-4667-a905-10cf0b5b97d5"
+      Value: "d65ec93c-2839-4112-87c2-deb16ade537c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251016T145931Z
+      Value: 20251020T083724Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

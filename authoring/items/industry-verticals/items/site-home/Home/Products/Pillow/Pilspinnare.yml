@@ -8,6 +8,10 @@ SharedFields:
   Hint: Image5
   Value: |
     <image mediaid="e6b176e0-831b-40e5-8825-98584f41209a" />
+- ID: "a2fc3c8b-3142-4642-9057-420755863749"
+  Hint: ReviewImage
+  Value: |
+    <image mediaid="{E6B176E0-831B-40E5-8825-98584F41209A}" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 150
@@ -88,7 +92,7 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
       Hint: SKU
-      Value: PL001
+      Value: PLW0001
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -98,17 +102,13 @@ Languages:
       Value: "{12BF3FA0-8034-4629-814C-3E34BEE11474}"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d0127b60-a476-455f-90e8-42072624adfe"
+      Value: "d8717302-07b6-4415-9071-2a8fa26f4ecb"
     - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
       Hint: Size
       Value: |
         {C593AA0B-B143-4FD4-B8F6-C8950FB744B0}
         {B8B93775-E47C-46F2-9157-293AA8904883}
         {B214C2E5-3E1A-42B6-A0EE-CAB3CBC055E0}
-    - ID: "a2fc3c8b-3142-4642-9057-420755863749"
-      Hint: ReviewImage
-      Value: |
-        <image mediaid="{E6B176E0-831B-40E5-8825-98584F41209A}" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -118,10 +118,10 @@ Languages:
       Value: Pilspinnare
     - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
       Hint: Category
-      Value: "{D9A471B6-E783-4DEE-B48B-06B57A6735E1}"
+      Value: "{95692043-DF4D-4E60-9271-511BE5096297}"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251016T155402Z
+      Value: 20251017T141849Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: "<p>Discover unparalleled comfort with our premium soft cotton pillow. Each pillow is meticulously crafted with a generous filling composed of 90% high-quality feathers, designed to gently contour to the unique shape of your head and neck. This ensures that you achieve a genuinely restful and uninterrupted sleep.&nbsp;</p><p>The use of breathable materials in its design guarantees exceptional air circulation, keeping the pillow cool and offering a refreshing sleep environment all night long. Tailored with a low loft, this pillow provides ideal support, particularly for stomach sleepers who seek maximum comfort without any added strain on their neck or spine.</p>"

@@ -27,22 +27,17 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "8ac9398a-b09c-47df-b939-e13937d8cbcb"
       Hint: Reviews
-      Value: |
-        {492B29F1-40A1-491C-995D-1244E6BC941E}
-        {F5F39D87-DD9C-4CB4-8E26-91BC632E80B8}
-        {C4FFA5F6-7584-4030-A479-B21138F3F9CE}
-        {660093F4-AD28-4A57-A16D-4EC79CFA4A8E}
-        {E9B95C59-8BD7-49DB-9AE1-C75DA0589966}
+      Value: 
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "553e447c-f70c-4e4c-94f2-af526ec7256d"
+      Value: "db7b84d5-7c48-4ca4-9a72-672f0623a279"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250929T112157Z
+      Value: 20251020T085328Z
     - ID: "ea808311-f9b0-47ef-954e-9f01aa9b0445"
       Hint: Title
       Value: Our client reviews
