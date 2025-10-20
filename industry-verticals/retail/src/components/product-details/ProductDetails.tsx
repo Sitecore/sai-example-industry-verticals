@@ -12,9 +12,10 @@ import { Plus, ShoppingCart } from 'lucide-react';
 import { isParamEnabled } from '@/helpers/isParamEnabled';
 import { useI18n } from 'next-localization';
 import { Product } from '@/types/products';
-// import StarRating from '../non-sitecore/StarRating';
+import StarRating from '../non-sitecore/StarRating';
 import { ProductTabs } from '../non-sitecore/ProductTabs';
 import { useLocale } from '@/hooks/useLocaleOptions';
+import { calculateAverageRating } from '@/helpers/productUtils';
 
 interface ProductDetailsProps extends ComponentProps {
   params: { [key: string]: string };
@@ -116,9 +117,12 @@ export const Default = (props: ProductDetailsProps) => {
             )}
 
             {/* Rating */}
-            {/* {(product?.Rating?.value || isPageEditing) && (
-              <StarRating rating={product.Rating.value} className="!text-accent mt-1" />
-            )} */}
+            {(product?.Reviews || isPageEditing) && (
+              <StarRating
+                rating={calculateAverageRating(product.Reviews || [])}
+                className="!text-accent mt-1"
+              />
+            )}
 
             {/* Short Description */}
             {(product?.ShortDescription?.value || isPageEditing) && (
