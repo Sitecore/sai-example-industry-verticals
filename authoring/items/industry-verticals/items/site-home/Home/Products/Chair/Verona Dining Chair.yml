@@ -7,13 +7,17 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 2084
+- ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
+  Hint: Image1
+  Value: |
+    <image mediaid="be737685-4430-452f-8895-4706ee42a2b8" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{78DC9F6D-26C8-43EF-990A-37937E884ABC}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "fedba20c-e8d2-42cf-8501-df28dd66c960"
+  Value: "378cf2c9-0b04-401e-b053-ea8a0f4aaa70"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -43,6 +47,12 @@ Languages:
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
       Value: Elegant dining chair with a curved backrest and upholstered seat.
+    - ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+      Hint: Tags
+      Value: |
+        {AA1D2DC7-47CB-41BE-952D-F19B07B47154}
+        {831305F5-99B0-4746-B09A-42C67FE37EC5}
+        {AC473CFD-491E-4EB1-9D3D-AF5A1F63F10B}
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
       Value: 179.5
@@ -55,7 +65,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
       Hint: SKU
-      Value: CHR0002
+      Value: CHR0005
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -67,7 +77,7 @@ Languages:
         {12BF3FA0-8034-4629-814C-3E34BEE11474}
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "24257b94-e8db-4469-b474-1786c2138bde"
+      Value: "fed65a62-1784-4a38-a536-baa6dda55760"
     - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
       Hint: Size
       Value: "{B8B93775-E47C-46F2-9157-293AA8904883}"
@@ -80,10 +90,10 @@ Languages:
       Value: Verona Dining Chair
     - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
       Hint: Category
-      Value: "{1F4F7164-0F0C-4CAB-8F44-7B7C85AD9C1A}"
+      Value: "{8DD59D14-31A7-4B85-A547-77B03C68AC32}"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251016T154740Z
+      Value: 20251017T154855Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: "<p>The Verona Dining Chair is designed for both comfort and sophistication. Its curved backrest provides excellent lumbar support, while the cushioned seat ensures long-lasting comfort during meals. The walnut finish adds warmth to any dining room.</p>"

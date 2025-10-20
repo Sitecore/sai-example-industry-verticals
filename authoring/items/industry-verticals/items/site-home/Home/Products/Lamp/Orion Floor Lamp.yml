@@ -7,13 +7,17 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 1400
+- ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
+  Hint: Image1
+  Value: |
+    <image mediaid="28d22a05-db68-4315-a155-ef51922ef528" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{D664D15E-63BC-4318-8A37-4B0B55D45D9A}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "0ccce290-fcb6-43c8-a82b-c31da11a2b79"
+  Value: "742558be-a3d9-4b59-89dd-267592a275ed"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -60,7 +64,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
       Hint: SKU
-      Value: LMP0001
+      Value: LMP0004
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -73,7 +77,7 @@ Languages:
         {12BF3FA0-8034-4629-814C-3E34BEE11474}
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e6f3b9ba-52c5-4dc4-b45b-9bde59ef2c88"
+      Value: "bdacb8ce-1abe-4aba-835a-9d198a64bd45"
     - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
       Hint: Size
       Value: |
@@ -88,10 +92,10 @@ Languages:
       Value: Orion Floor Lamp
     - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
       Hint: Category
-      Value: "{2DBCDA2D-FF88-46C1-A3F2-F21A34E30661}"
+      Value: "{260CF295-7D6B-4E12-805C-2596FFD1C3D7}"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251016T155257Z
+      Value: 20251017T153344Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: <p>The Orion Floor Lamp features a slim, minimalist design with an adjustable head for directional lighting. Perfect for reading corners or modern living rooms.</p>

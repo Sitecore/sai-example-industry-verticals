@@ -27,7 +27,7 @@ SharedFields:
   Value: "{5F8249B6-9290-4061-BD92-8DD72C7C6F7C}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "f1f656e9-c6f5-457c-82f1-ce8732bbf0de"
+  Value: "4f152d7f-6e39-4663-a00f-3449531896a3"
 - ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
   Hint: OtherProperties
   Value: IsRenderingsWithDynamicPlaceholders=true&UsePlaceholderDatasourceContext=true
@@ -77,14 +77,14 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f59d5971-c73f-463b-aadb-c5a1cefbe236"
+      Value: "7dd4eb41-08f5-49e9-977e-8c2b7e2eeec3"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251016T160948Z
+      Value: 20251017T094252Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

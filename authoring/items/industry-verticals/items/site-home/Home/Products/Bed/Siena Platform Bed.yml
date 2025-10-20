@@ -7,13 +7,17 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 671
+- ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
+  Hint: Image1
+  Value: |
+    <image mediaid="a22a8bae-f510-47b6-9a55-24f9b6d7bb2f" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{57EA9BFC-48F7-47CF-B0B2-435F589DAE9B}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "8203f12d-066f-4728-89c9-6fc0cc3ec220"
+  Value: "138a121e-6883-4ce5-80de-d9a739224934"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -60,7 +64,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
       Hint: SKU
-      Value: BED0002
+      Value: BED0004
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -70,7 +74,7 @@ Languages:
       Value: "{4644FE16-10A7-44F1-8172-CA03C35A688D}"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7c6d1e55-c25a-44fe-88c0-d4f381e5b928"
+      Value: "9adc3dc6-ba7d-493a-a842-144a0c3f914d"
     - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
       Hint: Size
       Value: |
@@ -86,10 +90,10 @@ Languages:
       Value: Siena Platform Bed
     - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
       Hint: Category
-      Value: "{346ABC46-A729-4499-93C4-1888B4F54507}"
+      Value: "{16807766-6013-4944-9550-EBC3216AD248}"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251016T155158Z
+      Value: 20251017T151748Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: "<p>The Siena Platform Bed features clean lines and a solid wood frame, making it ideal for modern interiors. Its low-profile design eliminates the need for a box spring, while the slatted base provides excellent mattress support.</p>"

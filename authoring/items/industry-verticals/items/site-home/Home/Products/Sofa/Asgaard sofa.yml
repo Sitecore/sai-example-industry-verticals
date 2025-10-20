@@ -16,6 +16,10 @@ SharedFields:
   Hint: Image4
   Value: |
     <image mediaid="6ed4dd19-54bd-4c9d-9347-87c000cbe4d4" />
+- ID: "a2fc3c8b-3142-4642-9057-420755863749"
+  Hint: ReviewImage
+  Value: |
+    <image mediaid="{D6114837-C32B-42C4-B574-A3B3ECAFC459}" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 100
@@ -124,7 +128,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
       Hint: SKU
-      Value: SKU0001
+      Value: SOF0001
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -143,17 +147,13 @@ Languages:
       Value: 167 cm
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "553970d0-b8c8-4875-a202-805bf4f55a6b"
+      Value: "15422f01-cdb1-4311-9823-353878820b97"
     - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
       Hint: Size
       Value: |
         {1B4E7409-FAF1-4CFF-B06D-BE77ED1A74A1}
         {B214C2E5-3E1A-42B6-A0EE-CAB3CBC055E0}
         {B8B93775-E47C-46F2-9157-293AA8904883}
-    - ID: "a2fc3c8b-3142-4642-9057-420755863749"
-      Hint: ReviewImage
-      Value: |
-        <image mediaid="{D6114837-C32B-42C4-B574-A3B3ECAFC459}" />
     - ID: "acbcb630-e684-43ae-bb85-9fc89052c8a9"
       Hint: Weight
       Value: 45 KG
@@ -172,10 +172,10 @@ Languages:
       Value: Asgaard sofa
     - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
       Hint: Category
-      Value: "{53DA2329-23E7-459F-A810-A057A8AD646B}"
+      Value: "{078D4751-D125-408A-9FF2-F5417844B877}"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251016T154948Z
+      Value: 20251017T141914Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: |

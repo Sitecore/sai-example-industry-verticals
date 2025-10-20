@@ -9,10 +9,10 @@ SharedFields:
   Value: office/32x32/hand_thumb_up.png
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "3ec2c42f-69fc-455c-a2cd-5ea9e5564d0d"
+  Value: "4baa1605-a72a-43b7-9086-2dcaf2d1cd3d"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
-  Value: "{0061557B-662A-401B-B6C6-C04BEADC359D}"
+  Value: 
 Languages:
 - Language: "de-DE"
   Fields:
@@ -59,14 +59,14 @@ Languages:
         sitecore\admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f48a89b6-6452-4f5d-ae19-e7b7b5327277"
+      Value: "afe59483-8a4d-4b2c-b7ba-79d7a51126b8"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251015T092653Z
+      Value: 20251020T085215Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

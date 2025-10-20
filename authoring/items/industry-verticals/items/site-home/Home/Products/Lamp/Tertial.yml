@@ -4,6 +4,10 @@ Parent: "260cf295-7d6b-4e12-805c-2596ffd1c3d7"
 Template: "f6e44a9e-074a-4865-987e-0c2dc00b7af5"
 Path: "/sitecore/content/retail/forma-lux/Home/Products/Lamp/Tertial"
 SharedFields:
+- ID: "a2fc3c8b-3142-4642-9057-420755863749"
+  Hint: ReviewImage
+  Value: |
+    <image mediaid="e6b176e0-831b-40e5-8825-98584f41209a" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 1450
@@ -62,7 +66,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
       Hint: SKU
-      Value: LM001
+      Value: LMP0005
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -74,11 +78,7 @@ Languages:
         {12BF3FA0-8034-4629-814C-3E34BEE11474}
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "76b6ad81-79e6-4a6d-b6e8-ca46ba53e457"
-    - ID: "a2fc3c8b-3142-4642-9057-420755863749"
-      Hint: ReviewImage
-      Value: |
-        <image mediaid="e6b176e0-831b-40e5-8825-98584f41209a" />
+      Value: "82969591-7126-4a1b-9c4b-5c7ea6f1c12e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -88,10 +88,10 @@ Languages:
       Value: Tertial
     - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
       Hint: Category
-      Value: "{2DBCDA2D-FF88-46C1-A3F2-F21A34E30661}"
+      Value: "{260CF295-7D6B-4E12-805C-2596FFD1C3D7}"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251016T155303Z
+      Value: 20251017T141803Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: |

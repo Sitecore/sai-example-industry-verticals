@@ -7,13 +7,17 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 562
+- ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
+  Hint: Image1
+  Value: |
+    <image mediaid="ffe1936f-1433-4ed5-9fa5-dfecaea76c52" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{02661BA8-95B0-4735-AE82-E622EC19A63C}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "91f477bd-d25f-4cdf-b64e-1add2d605004"
+  Value: "e1bb15e8-daa6-4124-a788-d89bd5266169"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -60,7 +64,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
       Hint: SKU
-      Value: BED01203
+      Value: BED0003
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -72,7 +76,7 @@ Languages:
         {12BF3FA0-8034-4629-814C-3E34BEE11474}
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5c95972a-596f-44dc-8bfe-ff813877223e"
+      Value: "7c16b7b9-9372-4072-a7b5-f2d58985fc56"
     - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
       Hint: Size
       Value: |
@@ -87,10 +91,10 @@ Languages:
       Value: Hudson Storage Bed
     - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
       Hint: Category
-      Value: "{346ABC46-A729-4499-93C4-1888B4F54507}"
+      Value: "{16807766-6013-4944-9550-EBC3216AD248}"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251016T155126Z
+      Value: 20251017T151427Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: "<p>The Hudson Storage Bed maximizes space with its four under-bed drawers. Crafted from engineered wood with a walnut veneer, it combines practicality with style. Ideal for apartments and compact bedrooms.</p>"

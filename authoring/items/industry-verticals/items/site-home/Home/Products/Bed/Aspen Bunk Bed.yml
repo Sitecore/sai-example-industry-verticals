@@ -7,13 +7,17 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 150
+- ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
+  Hint: Image1
+  Value: |
+    <image mediaid="b1e0c368-b796-498c-9ced-4cbb32939f67" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{B1BCFFB9-E5D8-4F66-ACC6-8A12CBACDE6A}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "8a7e8e9d-c919-49f6-aed6-c118b3a108cf"
+  Value: "549daf4e-ca45-4f59-bdc4-63e1a9cea1a5"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -58,6 +62,9 @@ Languages:
       Hint: __Owner
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
+    - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+      Hint: SKU
+      Value: BED0001
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -71,7 +78,7 @@ Languages:
         {D5D801B9-21CD-426C-8573-0FFF36FE3317}
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "dc31915f-39ee-45ee-8c0b-05f8f84ab4a2"
+      Value: "85c324f1-b4b7-4791-b6ba-a5e4ecce19f2"
     - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
       Hint: Size
       Value: |
@@ -86,10 +93,10 @@ Languages:
       Value: Aspen Bunk Bed
     - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
       Hint: Category
-      Value: "{346ABC46-A729-4499-93C4-1888B4F54507}"
+      Value: "{16807766-6013-4944-9550-EBC3216AD248}"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251016T155117Z
+      Value: 20251017T145847Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: "<p>The Aspen Bunk Bed is crafted from durable pine wood and finished in a natural tone. With safety rails and a built-in ladder, it’s designed for both safety and style. Ideal for shared bedrooms or sleepovers.</p>"

@@ -7,13 +7,17 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 831
+- ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
+  Hint: Image1
+  Value: |
+    <image mediaid="1c61dd7f-3f6b-4aef-b89d-a1f26c77e446" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{D3DFD2A1-4721-4167-B3AA-4737B6E1EC9A}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "7c5ae04b-bf46-4d7d-bbdf-4b3cf1e63de1"
+  Value: "d91ca0b7-9c47-4b50-b4d9-95f83c3da00a"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -43,6 +47,12 @@ Languages:
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
       Value: A luxurious velvet sofa with deep button tufting.
+    - ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+      Hint: Tags
+      Value: |
+        {831305F5-99B0-4746-B09A-42C67FE37EC5}
+        {AC473CFD-491E-4EB1-9D3D-AF5A1F63F10B}
+        {FD74A159-FC1F-48F8-88C8-5703D830E00D}
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
       Value: 1299
@@ -55,7 +65,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
       Hint: SKU
-      Value: SOF0003
+      Value: SOF0004
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -65,7 +75,7 @@ Languages:
       Value: "{75E874D3-C7B4-466B-B9F1-F305D5B67E85}"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a117501a-b115-43b6-b824-280a4a8c6019"
+      Value: "3c66bb5e-2864-4773-b250-730bdbdcb806"
     - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
       Hint: Size
       Value: |
@@ -80,10 +90,10 @@ Languages:
       Value: Florence Velvet Sofa
     - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
       Hint: Category
-      Value: "{53DA2329-23E7-459F-A810-A057A8AD646B}"
+      Value: "{078D4751-D125-408A-9FF2-F5417844B877}"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251016T155001Z
+      Value: 20251017T153905Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: "<p>The Florence Velvet Sofa exudes sophistication with its Chesterfield-inspired design. Upholstered in rich velvet, it features rolled arms, deep tufting, and a sturdy hardwood frame.</p>"
