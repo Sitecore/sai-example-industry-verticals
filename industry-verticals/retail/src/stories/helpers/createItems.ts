@@ -170,7 +170,7 @@ export const createProductItems = (count: number) => {
           CategoryName: createTextField(`Category ${(i % 3) + 1}`),
         },
       },
-      Reviews: [],
+      Reviews: createReviews(3),
     },
   }));
 };
