@@ -170,7 +170,7 @@ export const createProductItems = (count: number) => {
           CategoryName: createTextField(`Category ${(i % 3) + 1}`),
         },
       },
-      Reviews: [],
+      Reviews: createReviews(3),
     },
   }));
 };
@@ -215,15 +215,7 @@ export const createReviews = (count: number) => {
       Description: createTextField(
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       ),
-      Product: {
-        id: `product-${index + 1}`,
-        displayName: `Product ${index + 1}`,
-        name: `product${index + 1}`,
-        url: `/product/product-${index + 1}`,
-        fields: {
-          ReviewImage: createImageField('placeholder'),
-        },
-      },
+      ReviewImage: createImageField('placeholder'),
       Rating: { value: (index % 5) + 1 } as Field<number>,
     },
   }));
