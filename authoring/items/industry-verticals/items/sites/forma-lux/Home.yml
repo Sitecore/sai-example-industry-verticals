@@ -17,7 +17,7 @@ SharedFields:
     <image mediaid="{1265691C-6EE9-49B3-8131-FDEA5E9EE0F7}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "02f193c5-4359-4cbf-83a1-933064e9534e"
+  Value: "30e419e9-ac73-4416-98c6-a4fc2a1f2f94"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -86,7 +86,7 @@ SharedFields:
           p:after="r[@uid='{1B086346-531C-4C41-BC73-5CF1F0CFF9D0}']"
           s:ds="11a265bc-7d86-4d4b-b153-0678cebbe4ae"
           s:id="{5D600884-3A99-4FBF-AE15-D8E84FF7FFE3}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles=%7C%7B8CD18CE9-CDDC-4FD0-988D-DC9E41EF026F%7D&amp;RenderingIdentifier&amp;CSSStyles"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles"
           s:ph="headless-main" />
         <r
           uid="{F827819F-D3D3-4FBD-8BAF-87D769468B06}"
@@ -161,14 +161,14 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4628e3c7-b135-484b-a73c-3204441af288"
+      Value: "c41332a5-9a22-47aa-a486-aca3a0adfa18"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251021T092151Z
+      Value: 20251021T114217Z
 - Language: "es-ES"
   Versions:
   - Version: 1

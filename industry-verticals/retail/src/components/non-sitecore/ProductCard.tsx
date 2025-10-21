@@ -42,7 +42,7 @@ export const ProductCard = ({ product, url, className }: ProductCardProps) => {
             <Text field={product.Category?.fields?.CategoryName} />
           </p>
 
-          <h6 className="!text-foreground mt-1 font-semibold">
+          <h6 className="!text-foreground mt-1 line-clamp-2 font-semibold">
             <Text field={product.Title} />
           </h6>
 

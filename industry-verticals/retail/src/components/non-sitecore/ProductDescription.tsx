@@ -2,6 +2,7 @@ import { Text as ContentSdkText, useSitecore } from '@sitecore-content-sdk/nextj
 import { Product } from '@/types/products';
 import StarRating from '../non-sitecore/StarRating';
 import { useLocale } from '@/hooks/useLocaleOptions';
+import { calculateAverageRating } from '@/helpers/productUtils';
 
 interface ProductDescriptionProps {
   product: Product;
@@ -14,8 +15,7 @@ export const ProductDescription = ({ product }: ProductDescriptionProps) => {
 
   const reviews = product?.Reviews || [];
   const reviewCount = reviews.length;
-  const averageRating =
-    reviewCount > 0 ? reviews.reduce((sum, r) => sum + r.fields.Rating.value, 0) / reviewCount : 0;
+  const averageRating = calculateAverageRating(reviews);
 
   return (
     <>
@@ -31,7 +31,7 @@ export const ProductDescription = ({ product }: ProductDescriptionProps) => {
 
       {!!product?.Reviews?.length && (
         <div className="flex items-center space-x-3">
-          <span className="text-foreground text-lg">{averageRating.toFixed(1)}</span>
+          <span className="text-foreground text-lg">{averageRating}</span>
           <StarRating rating={averageRating} className="!text-accent" />
           <div className="bg-foreground-muted h-7 w-px" />
           <span className="text-foreground-muted text-sm">

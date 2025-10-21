@@ -97,7 +97,7 @@ export const Default = (props: ProductListingProps) => {
 
   const handleDisplayCountChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = Number(e.target.value);
-    if (value > 0) {
+    if (value >= 1 && value <= 100) {
       setDisplayCount(value);
       setCurrentPage(1);
     }
