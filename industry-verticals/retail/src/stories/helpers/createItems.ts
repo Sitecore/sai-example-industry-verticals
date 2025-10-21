@@ -86,7 +86,6 @@ export const createProductItems = (count: number) => {
       ),
       Price: createNumberField(1.99 + i * 10),
       SKU: createTextField(`SKU${1000 + i + 1}`),
-      Rating: createNumberField((i % 5) + 1),
       Image1: createImageField(),
       Image2: createImageField(),
       Image3: createImageField(),
@@ -169,6 +168,7 @@ export const createProductItems = (count: number) => {
           CategoryName: createTextField(`Category ${(i % 3) + 1}`),
         },
       },
+      Reviews: createReviews(3),
     },
   }));
 };
@@ -186,15 +186,7 @@ export const createReviews = (count: number) => {
       Description: createTextField(
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       ),
-      Product: {
-        id: `product-${index + 1}`,
-        displayName: `Product ${index + 1}`,
-        name: `product${index + 1}`,
-        url: `/product/product-${index + 1}`,
-        fields: {
-          ReviewImage: createImageField('placeholder'),
-        },
-      },
+      ReviewImage: createImageField('placeholder'),
       Rating: { value: (index % 5) + 1 } as Field<number>,
     },
   }));

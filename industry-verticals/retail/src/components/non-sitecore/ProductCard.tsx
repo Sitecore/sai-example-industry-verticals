@@ -1,5 +1,5 @@
 import { NextImage as ContentSdkImage, Text } from '@sitecore-content-sdk/nextjs';
-import StarRating from './StarRating';
+// import StarRating from './StarRating';
 import Link from 'next/link';
 import { Product } from '@/types/products';
 import { useLocale } from '@/hooks/useLocaleOptions';
@@ -44,11 +44,11 @@ export const ProductCard = ({ product, url, className }: ProductCardProps) => {
             <Text field={product.Title} />
           </h6>
 
-          <StarRating
+          {/* <StarRating
             rating={product.Rating.value || 0}
             showOnlyFilled
             className="!text-accent mt-1 mb-5"
-          />
+          /> */}
 
           <h6 className="!text-foreground mt-auto font-semibold">
             <span className="mr-1 align-super text-sm">{currencySymbol} </span>

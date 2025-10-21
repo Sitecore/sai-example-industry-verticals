@@ -4,9 +4,9 @@ import { Product } from '@/types/products';
 import {
   Text as ContentSdkText,
   RichText as ContentSdkRichText,
-  Placeholder,
   ComponentRendering,
 } from '@sitecore-content-sdk/nextjs';
+import { ProductReviews } from './ProductReviews';
 
 interface ProductTabsProps {
   product: Product;
@@ -15,18 +15,11 @@ interface ProductTabsProps {
   rendering: ComponentRendering;
 }
 
-export const ProductTabs = ({
-  product,
-  isPageEditing,
-  dynamicPlaceholderId,
-  rendering,
-}: ProductTabsProps) => {
+export const ProductTabs = ({ product, isPageEditing, rendering }: ProductTabsProps) => {
   const { t } = useI18n();
   const [activeTab, setActiveTab] = useState<'description' | 'dimension' | 'reviews'>(
     'description'
   );
-
-  const reviewsPlaceholderKey = `product-reviews-${dynamicPlaceholderId}`;
 
   const tabBase = 'border-b-2 pb-2 transition text-md sm:text-xl';
   const tabActive = 'border-accent text-accent';
@@ -58,7 +51,7 @@ export const ProductTabs = ({
         </div>
 
         {/* Tab content */}
-        <div className="w-full max-w-4xl px-2 py-2 text-center text-sm sm:px-6 sm:text-base">
+        <div className="w-full max-w-6xl px-2 py-2 text-center text-sm sm:px-6 sm:text-base">
           <div className={activeTab === 'description' ? '' : 'hidden'}>
             {product?.LongDescription?.value || isPageEditing ? (
               <ContentSdkRichText
@@ -150,9 +143,7 @@ export const ProductTabs = ({
           </div>
 
           <div className={activeTab === 'reviews' ? '' : 'hidden'}>
-            <div className="py-2">
-              <Placeholder name={reviewsPlaceholderKey} rendering={rendering} />
-            </div>
+            <ProductReviews reviews={product.Reviews} rendering={rendering} />
           </div>
         </div>
       </div>

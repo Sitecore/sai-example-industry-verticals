@@ -1,12 +1,18 @@
 import { ComponentProps } from '@/lib/component-props';
-import { ComponentParams, ComponentRendering, Text, TextField } from '@sitecore-content-sdk/nextjs';
+import {
+  ComponentParams,
+  ComponentRendering,
+  Text,
+  TextField,
+  useSitecore,
+} from '@sitecore-content-sdk/nextjs';
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
 import AccentLine from '@/assets/icons/accent-line/AccentLine';
-import ReviewCard from '../non-sitecore/ReviewCard';
 import { ReviewFields } from '@/types/review';
 import CarouselButton from '../non-sitecore/CarouselButton';
+import ReviewCard from '../non-sitecore/ReviewCard';
 
 interface ReviewsProps extends ComponentProps {
   rendering: ComponentRendering & { params: ComponentParams };
@@ -19,12 +25,15 @@ interface ReviewsProps extends ComponentProps {
 }
 
 export const Default = (props: ReviewsProps) => {
+  const { page } = useSitecore();
+
   const id = props.params.RenderingIdentifier;
   const uid = props.rendering.uid;
   const reviews = props.fields?.Reviews || [];
   const sectionTitle = props.fields?.Title || '';
   const sectionEyebrow = props.fields?.Eyebrow || '';
   const styles = `${props.params.styles || ''}`.trim();
+  const isPageEditing = page.mode.isEditing;
 
   return (
     <div className={`${styles}`} id={id}>
@@ -72,7 +81,7 @@ export const Default = (props: ReviewsProps) => {
           >
             {reviews.map((review) => (
               <SwiperSlide key={review.id}>
-                <ReviewCard {...review} />
+                <ReviewCard isPageEditing={isPageEditing} {...review} />
               </SwiperSlide>
             ))}
           </Swiper>

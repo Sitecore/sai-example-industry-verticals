@@ -12,6 +12,11 @@ export const ProductDescription = ({ product }: ProductDescriptionProps) => {
   const isPageEditing = page.mode.isEditing;
   const { currency } = useLocale();
 
+  const reviews = product?.Reviews || [];
+  const reviewCount = reviews.length;
+  const averageRating =
+    reviewCount > 0 ? reviews.reduce((sum, r) => sum + r.fields.Rating.value, 0) / reviewCount : 0;
+
   return (
     <>
       <h1 className="pt-3 text-4xl font-bold lg:pt-0">
@@ -24,8 +29,15 @@ export const ProductDescription = ({ product }: ProductDescriptionProps) => {
         </p>
       )}
 
-      {(product?.Rating?.value || isPageEditing) && (
-        <StarRating rating={product.Rating.value} className="!text-accent mt-1" />
+      {!!product?.Reviews?.length && (
+        <div className="flex items-center space-x-3">
+          <span className="text-foreground text-lg">{averageRating.toFixed(1)}</span>
+          <StarRating rating={averageRating} className="!text-accent" />
+          <div className="bg-foreground-muted h-7 w-px" />
+          <span className="text-foreground-muted text-sm">
+            {reviewCount} Customer Review{reviewCount !== 1 ? 's' : ''}
+          </span>
+        </div>
       )}
 
       {(product?.ShortDescription?.value || isPageEditing) && (
