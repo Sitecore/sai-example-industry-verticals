@@ -1,10 +1,12 @@
 # XM Cloud Front End Application Industry Verticals Starter Kits
 
+## Table of Contents
+
 - [Introduction](#introduction)
 - [GitHub Template](#gitHub-template)
-  - [Prerequisites](#prerequisites)
-  - [Getting Started Guide](#getting-started-guide)
-  - [Running the Next.js Starter Kit](#running-the-next.js-starter-kit)
+- [Prerequisites](#prerequisites)
+- [Getting Started Guide](#getting-started-guide)
+- [Running the Industry Vertical Starter Kit](#running-the-next.js-starter-kit)
 
 ## Introduction
 
@@ -54,16 +56,16 @@ Here's a quick overview of the major folders and their purpose:
 
 This Github repository is a template that can be used to create your own repository. To get started, click the `Use this template` button at the top of the repository.
 
-### Prerequisites
+## Prerequisites
 
 - Access to an Sitecore XM Cloud Environment
 - [Node.js LTS](https://nodejs.org/en/)
 
-### Getting Started Guide
+## Getting Started Guide
 
 For developers new to XM Cloud you can follow the Getting Started Guide on the [Sitecore Documentation Site](https://doc.sitecore.com/xmc) to get up and running with XM Cloud. This will walk you through the process of creating a new XM Cloud Project, provisioning an Environment, deploying the NextJs Starter Kit, and finally creating your first Component.
 
-### Running the Industry Vertical Starter Kit
+## Running the Industry Vertical Starter Kit
 
 > **Note:** Please refer to the `README.md` of the specific industry vertical you’re working with for detailed setup instructions.
 > The following outlines the general steps to run the app locally:
