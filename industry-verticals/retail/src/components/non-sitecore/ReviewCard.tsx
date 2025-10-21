@@ -1,6 +1,5 @@
 import {
   Field,
-  Image,
   ImageField,
   Text,
   TextField,
@@ -9,6 +8,7 @@ import {
 import React from 'react';
 import StarRating from './StarRating';
 import { SitecoreItem } from '@/types/common';
+import { User } from 'lucide-react';
 
 type ReviewCardProps = SitecoreItem<{
   Avatar: ImageField;
@@ -17,7 +17,7 @@ type ReviewCardProps = SitecoreItem<{
   Description: TextField;
   ReviewImage: ImageField;
   Rating: Field<number>;
-}>;
+}> & { isPageEditing?: boolean };
 
 const ReviewCard = (props: ReviewCardProps) => {
   return (
@@ -29,9 +29,18 @@ const ReviewCard = (props: ReviewCardProps) => {
         <div className="bg-background relative -top-15 flex min-h-70 flex-col items-center justify-between rounded-2xl p-8 text-center shadow-xl">
           {/* Image */}
           <div className="bg-background absolute -top-10 flex h-[66px] w-[66px] items-center justify-center rounded-full">
-            <div>
-              <Image field={props.fields.Avatar} className="h-[50px] w-[50px] rounded-full" />
-            </div>
+            {props.fields.Avatar.value?.src || props.isPageEditing ? (
+              <ContentSdkImage
+                width={50}
+                height={50}
+                field={props.fields.Avatar}
+                className="h-[50px] w-[50px] rounded-full"
+              />
+            ) : (
+              <div className="!text-foreground bg-background-muted flex h-[50px] w-[50px] items-center justify-center rounded-full">
+                <User className="size-8" />
+              </div>
+            )}
             <div className="wavy-bottom-left bg-background absolute top-5 -left-7 h-[30px] w-[30px]"></div>
             <div className="wavy-bottom-right bg-background absolute top-5 -right-7 h-[30px] w-[30px]"></div>
           </div>

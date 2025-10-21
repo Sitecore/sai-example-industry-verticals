@@ -2,9 +2,9 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
 import CarouselButton from './CarouselButton';
-import ProductReview from './ProductReview';
 import { ReviewFields } from '@/types/review';
 import { ComponentRendering, useSitecore } from '@sitecore-content-sdk/nextjs';
+import ReviewCard from './ReviewCard';
 
 type ProductReviewsProps = {
   reviews: ReviewFields[];
@@ -58,7 +58,7 @@ export const ProductReviews = (props: ProductReviewsProps) => {
         >
           {props.reviews.map((review, index) => (
             <SwiperSlide key={index} className="pb-10">
-              <ProductReview isPageEditing={isPageEditing} key={review.id} review={review} />
+              <ReviewCard isPageEditing={isPageEditing} {...review} />
             </SwiperSlide>
           ))}
         </Swiper>
