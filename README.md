@@ -1,6 +1,14 @@
-# XM Cloud Front End Application Industry Verticals
+# XM Cloud Front End Application Industry Verticals Starter Kits
 
-This repository contains multiple Next.js Starter Kits, and the SPA Starters monorepo (which includes a Node Proxy Application and and SPA starter apps) for Sitecore XM Cloud Development. It is intended to get developers up and running quickly with a new front end project that is integrated with Sitecore XM Cloud.
+- [Introduction](#introduction)
+- [GitHub Template](#gitHub-template)
+  - [Prerequisites](#prerequisites)
+  - [Getting Started Guide](#getting-started-guide)
+  - [Running the Next.js Starter Kit](#running-the-next.js-starter-kit)
+
+## Introduction
+
+This repository contains multiple industry verticals, and the SPA Starters monorepo (which includes a Node Proxy Application and and SPA starter apps) for Sitecore XM Cloud Development. It is intended to get developers up and running quickly with a new front end project that is integrated with Sitecore XM Cloud.
 
 [Deploying XM Cloud](https://doc.sitecore.com/xmc/en/developers/xm-cloud/deploying-xm-cloud.html)
 
@@ -55,9 +63,9 @@ This Github repository is a template that can be used to create your own reposit
 
 For developers new to XM Cloud you can follow the Getting Started Guide on the [Sitecore Documentation Site](https://doc.sitecore.com/xmc) to get up and running with XM Cloud. This will walk you through the process of creating a new XM Cloud Project, provisioning an Environment, deploying the NextJs Starter Kit, and finally creating your first Component.
 
-### Running the Next.js Starter Kit
+### Running the Industry Vertical Starter Kit
 
-> **Note:** Please refer to the `README.md` of the specific industry-vertical you’re working with for detailed setup instructions.
+> **Note:** Please refer to the `README.md` of the specific industry vertical you’re working with for detailed setup instructions.
 > The following outlines the general steps to run the app locally:
 
 - Log into the Sitecore XM Cloud Deploy Portal, locate your Environment and select the `Developer Settings` tab.
