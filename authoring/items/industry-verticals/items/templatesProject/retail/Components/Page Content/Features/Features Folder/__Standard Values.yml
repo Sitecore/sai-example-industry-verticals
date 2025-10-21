@@ -1,0 +1,36 @@
+﻿---
+ID: "b1c0f8e2-4565-4416-848c-c49b0c3c3cd4"
+Parent: "f055ed82-a30e-4ec9-9ca7-2e4ea50f4e82"
+Template: "f055ed82-a30e-4ec9-9ca7-2e4ea50f4e82"
+Path: /sitecore/templates/Project/retail/Components/Page Content/Features/Features Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {82AC1F90-61F1-4812-9553-E1A4C81405FE}
+    {F055ED82-A30E-4EC9-9CA7-2E4EA50F4E82}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "83bcdab1-64d1-4e8e-b113-e684d51f49af"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T061559Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e1370b8a-fb83-4d8d-b5be-0bf4f1405732"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250904T100431Z

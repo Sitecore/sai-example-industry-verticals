@@ -1,0 +1,36 @@
+﻿---
+ID: "8d24e048-a206-4852-9b8e-d93acb575cc0"
+Parent: "e2f0642e-737c-414f-9cd7-8d241e5878f9"
+Template: "e2f0642e-737c-414f-9cd7-8d241e5878f9"
+Path: /sitecore/templates/Project/retail/Custom Templates/Products/Product Color/Product Color Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {E2F0642E-737C-414F-9CD7-8D241E5878F9}
+    {55F6C4E8-2C19-4A56-8FD3-66B60F1B281A}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "61b704fa-7568-4b0a-91ec-ab4cedba1a20"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "121b25cf-3a1d-44b0-ae25-54de50ef9a0a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250922T104658Z

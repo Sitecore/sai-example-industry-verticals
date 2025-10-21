@@ -1,0 +1,27 @@
+﻿---
+ID: "514e3b38-448d-4829-9bf6-aa9c421694fa"
+Parent: "22480751-012d-45db-ae90-6d21cfee488f"
+Template: "22480751-012d-45db-ae90-6d21cfee488f"
+Path: /sitecore/templates/Project/retail/Components/Products/Product Listing/Rendering Parameters/Product Listing Parameters/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211012T120926Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JssImport
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5be4f0c4-ddf5-4f70-a285-2a51e03c2850"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251015T113112Z

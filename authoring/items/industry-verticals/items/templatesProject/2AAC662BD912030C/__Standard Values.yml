@@ -1,0 +1,27 @@
+﻿---
+ID: "eac03b3f-d65e-4270-9b47-e144b6736e6e"
+Parent: "e34eca29-a20d-498c-a429-d548a7110fe3"
+Template: "e34eca29-a20d-498c-a429-d548a7110fe3"
+Path: /sitecore/templates/Project/retail/Components/Page Content/Section Wrapper/Rendering Parameters/Section Wrapper Parameters/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211012T120926Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JssImport
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3cc1d5ef-61ca-4f79-ab9c-80531b64f9f4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250924T120810Z

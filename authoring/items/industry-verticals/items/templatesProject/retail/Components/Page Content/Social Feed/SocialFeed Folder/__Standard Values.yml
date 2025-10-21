@@ -1,0 +1,36 @@
+﻿---
+ID: "b274e6b8-f45d-485d-b01e-985580a54e38"
+Parent: "2abc9f24-f927-4f31-bc41-2b6f0212885f"
+Template: "2abc9f24-f927-4f31-bc41-2b6f0212885f"
+Path: /sitecore/templates/Project/retail/Components/Page Content/Social Feed/SocialFeed Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {C130AD19-8CF2-48AE-BC03-19C4D91C2629}
+    {2ABC9F24-F927-4F31-BC41-2B6F0212885F}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "fc3e5708-7619-4afc-8a07-55e7b3cca2be"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "268ae6fd-431e-4c8c-89b0-d8c89b0f669a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250915T093801Z

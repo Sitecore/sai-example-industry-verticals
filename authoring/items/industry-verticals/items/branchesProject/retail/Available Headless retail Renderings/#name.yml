@@ -1,0 +1,56 @@
+﻿---
+ID: "30212909-cac0-49a1-ac29-260c353639f7"
+Parent: "c4ed5843-f404-4978-9745-e4a495428300"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: /sitecore/templates/Branches/Project/retail/Available Headless retail Renderings/$name
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Value: |
+    {C56EFAE9-39E8-45EB-8B59-D4BF2B71914E}
+    {02654BA0-74AE-42A4-B384-BCA9B96ADF4B}
+    {32138D34-7434-4CD1-BF7F-64DA1CEB8F33}
+    {32E7FD88-4E5D-4AAB-A15F-61DCEBA1EE6F}
+    {330F59E3-329C-4E5D-8A00-CF144B1E1A87}
+    {6C0D91D1-A92F-41BD-949B-423811202101}
+    {7E5035BD-533A-4E84-A67B-9AA2BF964F21}
+    {CCD11802-22A3-462F-92FC-821515E2AEC8}
+    {C7FDF764-5C05-4544-BB1F-A0E11F37E222}
+    {E3CCF1D0-7855-4898-8BDE-77F83C6A487C}
+    {B49CF2D7-7CB2-4918-8F38-2607D956D995}
+    {44DCC929-7EE5-4430-81BF-D7F041420CBF}
+    {3EF239BA-A9CC-4BEC-B343-B9ABB9A9C94A}
+    {3275D21A-F7AC-4682-9EBF-BEF6FEBBDDA8}
+    {96E7CF65-48A4-47BE-9BB7-DCE50CF7AEA1}
+    {66B804D4-B6B6-4342-987F-AC4987D6F900}
+    {5D600884-3A99-4FBF-AE15-D8E84FF7FFE3}
+    {C29D8AEC-AD95-44E5-BCF9-B0D98C933345}
+    {7EEEB709-7AAA-4B2F-8FBA-88EF74B3D2FE}
+    {442E3EA4-DE9A-41B5-A917-0F589F79B1A0}
+    {E874A406-4977-443B-8AFE-690812AFB5EF}
+    {613A3675-953D-4AD1-877A-48D24A28977D}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "9deda637-b700-4f57-bde6-80bccbda7f15"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171113T104335Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "eb6d33d7-f4b3-41a7-9d3c-62f05d0fc793"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251021T081723Z
