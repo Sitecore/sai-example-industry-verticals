@@ -4,7 +4,7 @@ import { Navigation, Pagination } from 'swiper/modules';
 import CarouselButton from './CarouselButton';
 import ProductReview from './ProductReview';
 import { ReviewFields } from '@/types/review';
-import { ComponentRendering } from '@sitecore-content-sdk/nextjs';
+import { ComponentRendering, useSitecore } from '@sitecore-content-sdk/nextjs';
 
 type ProductReviewsProps = {
   reviews: ReviewFields[];
@@ -12,7 +12,10 @@ type ProductReviewsProps = {
 };
 
 export const ProductReviews = (props: ProductReviewsProps) => {
+  const { page } = useSitecore();
+
   const uid = props.rendering.uid;
+  const isPageEditing = page.mode.isEditing;
 
   if (!props.reviews || props.reviews.length === 0) {
     return (
@@ -55,7 +58,7 @@ export const ProductReviews = (props: ProductReviewsProps) => {
         >
           {props.reviews.map((review, index) => (
             <SwiperSlide key={index} className="pb-10">
-              <ProductReview key={review.id} review={review} />
+              <ProductReview isPageEditing={isPageEditing} key={review.id} review={review} />
             </SwiperSlide>
           ))}
         </Swiper>

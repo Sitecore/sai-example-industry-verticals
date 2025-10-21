@@ -35,15 +35,15 @@ const ReviewCard = (props: ReviewCardProps) => {
             <div className="wavy-bottom-left bg-background absolute top-5 -left-7 h-[30px] w-[30px]"></div>
             <div className="wavy-bottom-right bg-background absolute top-5 -right-7 h-[30px] w-[30px]"></div>
           </div>
-          <div>
+          <div className="!text-background-muted-light">
             <div className="text-center text-xl leading-normal font-bold capitalize">
               <Text field={props.fields.ReviewerName} />
             </div>
-            <div className="text-background-muted-light text-center text-sm leading-normal font-normal">
+            <div className="text-center text-sm leading-normal font-normal">
               <Text field={props.fields.Caption} />
             </div>
           </div>
-          <div className="text-center text-sm leading-5 font-normal">
+          <div className="!text-background-muted-light text-center text-sm leading-5 font-normal">
             <Text field={props.fields.Description} />
           </div>
           <StarRating rating={props.fields.Rating.value} />

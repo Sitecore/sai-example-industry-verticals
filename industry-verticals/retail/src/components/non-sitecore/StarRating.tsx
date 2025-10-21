@@ -62,7 +62,7 @@ export const StarRating = ({
     }
   }
 
-  return <div className={`text-accent flex gap-1 ${className}`}>{stars}</div>;
+  return <div className={`!text-accent flex gap-1 ${className}`}>{stars}</div>;
 };
 
 export default StarRating;
