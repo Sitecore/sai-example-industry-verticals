@@ -5,6 +5,7 @@ import { ProductCard } from '../non-sitecore/ProductCard';
 import { Product } from '@/types/products';
 import { SitecoreItem } from '@/types/common';
 import CarouselButton from './CarouselButton';
+import { calculateAverageRating } from '@/helpers/productUtils';
 
 interface ProductCarouselProps {
   products: SitecoreItem<Product>[];
@@ -62,7 +63,13 @@ const ProductCarousel = ({
           .filter((product) => Object.keys(product.fields).length > 0) // Prevent mapping over the items with no fields/Data folder
           .map((product) => (
             <SwiperSlide key={product.id} className="p-1">
-              <ProductCard product={product.fields} url={product.url} />
+              <ProductCard
+                product={{
+                  ...product.fields,
+                  Rating: calculateAverageRating(product.fields.Reviews || []),
+                }}
+                url={product.url}
+              />
             </SwiperSlide>
           ))}
       </Swiper>

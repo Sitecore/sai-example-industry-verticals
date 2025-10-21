@@ -1,6 +1,6 @@
 import { ComponentProps } from '@/lib/component-props';
 import { useMemo, useState } from 'react';
-import { Product } from '@/types/products';
+import { CategoryFields, Product } from '@/types/products';
 import ProductCarousel from '../non-sitecore/ProductCarousel';
 import { isParamEnabled } from '@/helpers/isParamEnabled';
 import { SitecoreItem } from '@/types/common';
@@ -8,7 +8,7 @@ import { useI18n } from 'next-localization';
 
 interface ProductCarouselProps extends ComponentProps {
   fields: {
-    items: SitecoreItem<Product>[];
+    items: SitecoreItem<Product | CategoryFields>[];
   };
 }
 
@@ -21,20 +21,27 @@ export const Default = ({ params, fields }: ProductCarouselProps) => {
   const loop = isParamEnabled(params.Loop);
   const allProductsCategory = t('all_products_category') || 'All';
 
+  // Filter out category items and only keep product items
+  const productItems = useMemo(() => {
+    return items.filter((item): item is SitecoreItem<Product> => {
+      return 'Title' in item.fields && 'Price' in item.fields;
+    });
+  }, [items]);
+
   // Get unique categories from products
   const categories = useMemo(() => {
-    const productCategories = items
+    const productCategories = productItems
       .map((item) => item.fields.Category?.fields?.CategoryName?.value || null)
       .filter((category): category is string => Boolean(category));
     return [allProductsCategory, ...Array.from(new Set(productCategories))];
-  }, [items, allProductsCategory]);
+  }, [productItems, allProductsCategory]);
 
   const filteredProducts = useMemo(() => {
-    if (selectedCategory === allProductsCategory) return items;
-    return items.filter(
+    if (selectedCategory === allProductsCategory) return productItems;
+    return productItems.filter(
       (item) => item.fields.Category?.fields?.CategoryName?.value === selectedCategory
     );
-  }, [items, selectedCategory, allProductsCategory]);
+  }, [productItems, selectedCategory, allProductsCategory]);
 
   return (
     <div className={`component all-products-carousel py-5 ${params.styles}`} id={id}>
