@@ -34,6 +34,7 @@ type PromoImageGroupProps = Partial<
 };
 
 export type PromoProps = ComponentProps & {
+  params: { [key: string]: string };
   fields: Fields;
 };
 
@@ -139,10 +140,11 @@ export const MultipleImageContainer = ({
 
 export const Default = (props: PromoProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-  const isPromoReversed = !isParamEnabled(props.params.Reversed) ? '' : 'order-last';
-  const showSingleImage = !isParamEnabled(props.params.ShowMultipleImages);
-  const withShapes = !isParamEnabled(props.params.HideShapes);
-  const withShadows = !isParamEnabled(props.params.HideShadows);
+  const isPromoReversed = !props?.params?.styles?.includes('promo-reversed') ? '' : 'order-last';
+  const showSingleImage = !props?.params?.styles?.includes('show-multiple-images');
+  const withShapes = !props?.params?.styles?.includes('hide-promo-shapes');
+  const withShadows = !props?.params?.styles?.includes('hide-shadows');
+
   const justifyContentClass = !showSingleImage ? 'justify-self-start' : '';
   const firstColumnSize = showSingleImage ? 'lg:col-span-6' : 'lg:col-span-7';
   const secondColumnSize = showSingleImage ? 'lg:col-span-6' : 'lg:col-span-5';
@@ -178,7 +180,9 @@ export const Default = (props: PromoProps): JSX.Element => {
 
 export const WithFullImage = (props: PromoProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-  const isPromoReversed = !isParamEnabled(props.params.Reversed) ? ' flex-col' : 'flex-col-reverse';
+  const isPromoReversed = !props?.params?.styles?.includes('promo-reversed')
+    ? ' flex-col'
+    : 'flex-col-reverse';
 
   return (
     <section className={`${props.params.styles} py-20`} id={id ? id : undefined}>
@@ -214,8 +218,8 @@ export const WithFullImage = (props: PromoProps): JSX.Element => {
 
 export const WithQuote = (props: PromoProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-  const withQuote = !isParamEnabled(props.params.HideQuote);
-  const isReversed = !isParamEnabled(props.params.Reversed);
+  const withQuote = !props?.params?.styles?.includes('hide-quote');
+  const isReversed = !props?.params?.styles?.includes('promo-reversed');
 
   const classesWhenReversed = {
     container: isReversed ? 'container-align-left' : 'container-align-right',

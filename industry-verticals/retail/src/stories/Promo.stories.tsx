@@ -13,6 +13,7 @@ import {
   backgroundColorArgTypes,
   defaultBackgroundColorArgs,
 } from './common/commonControls';
+import clsx from 'clsx';
 
 type StoryProps = PromoProps &
   BackgroundColorArgs & {
@@ -97,14 +98,19 @@ export const Default: Story = {
     HideQuote: { table: { disable: true } },
   },
   render: (args) => {
+    const promoStyles = clsx(
+      baseParams.styles,
+      args.BackgroundColor,
+      args.Reversed && 'promo-reversed',
+      args.ShowMultipleImages && 'show-multiple-images',
+      args.HideShapes && 'hide-promo-shapes',
+      args.HideShadows && 'hide-shadows'
+    );
+
     const params = {
       ...baseParams,
-      styles: `${baseParams.styles} ${args.BackgroundColor}`,
-      ShowMultipleImages: boolToSitecoreCheckbox(args.ShowMultipleImages),
-      Reversed: boolToSitecoreCheckbox(args.Reversed),
+      styles: promoStyles,
       HideCurveLine: boolToSitecoreCheckbox(args.HideCurveLine),
-      HideShapes: boolToSitecoreCheckbox(args.HideShapes),
-      HideShadows: boolToSitecoreCheckbox(args.HideShadows),
     };
     return <Promo params={params} rendering={baseRendering} fields={baseFields} />;
   },
@@ -119,10 +125,14 @@ export const WideImagePromo: Story = {
     HideQuote: { table: { disable: true } },
   },
   render: (args) => {
+    const promoStyles = clsx(
+      baseParams.styles,
+      args.BackgroundColor,
+      args.Reversed && 'promo-reversed'
+    );
     const params = {
       ...baseParams,
-      styles: `${baseParams.styles} ${args.BackgroundColor}`,
-      Reversed: boolToSitecoreCheckbox(args.Reversed),
+      styles: promoStyles,
     };
     return <WithFullImage params={params} rendering={baseRendering} fields={baseFields} />;
   },
@@ -136,11 +146,15 @@ export const QuotePromo: Story = {
     HideShadows: { table: { disable: true } },
   },
   render: (args) => {
+    const promoStyles = clsx(
+      baseParams.styles,
+      args.BackgroundColor,
+      args.Reversed && 'promo-reversed',
+      args.HideQuote && 'hide-quote'
+    );
     const params = {
       ...baseParams,
-      styles: `${baseParams.styles} ${args.BackgroundColor}`,
-      HideQuote: boolToSitecoreCheckbox(args.HideQuote),
-      Reversed: boolToSitecoreCheckbox(args.Reversed),
+      styles: promoStyles,
     };
     return <WithQuote params={params} rendering={baseRendering} fields={baseFields} />;
   },
