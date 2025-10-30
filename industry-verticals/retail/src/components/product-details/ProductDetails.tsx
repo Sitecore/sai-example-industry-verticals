@@ -2,7 +2,6 @@ import { Placeholder, useSitecore } from '@sitecore-content-sdk/nextjs';
 import { useEffect, useState } from 'react';
 import { ComponentProps } from '@/lib/component-props';
 import { Heart, Plus } from 'lucide-react';
-import { checkStyleFlag } from '@/helpers/checkStyleFlag';
 import { StyleFlag } from '@/types/styleFlags';
 import { useI18n } from 'next-localization';
 import { Product } from '@/types/products';
@@ -31,9 +30,11 @@ export const Default = (props: ProductDetailsProps) => {
   const product = props?.fields;
   const productId = page.layout.sitecore.route?.itemId;
 
-  const ShowCompareButton = checkStyleFlag(styles, StyleFlag.ShowCompareButton);
-  const ShowAddtoCartButton = checkStyleFlag(styles, StyleFlag.ShowAddtoCartButton);
-  const ShowAddtoWishlistButton = checkStyleFlag(styles, StyleFlag.ShowAddtoWishlistButton);
+  const ShowCompareButton = styles?.includes(StyleFlag.ShowCompareButton);
+  const ShowAddtoCartButton = styles?.includes(StyleFlag.ShowAddtoCartButton);
+  const ShowAddtoWishlistButton = styles?.includes(StyleFlag.ShowAddtoWishlistButton);
+
+  console.log('ShowCompareButton', ShowCompareButton, 'ShowAddtoCartButton', ShowAddtoCartButton);
 
   const relatedProductsPlaceholderKey = `related-products-${props?.params?.DynamicPlaceholderId}`;
 
