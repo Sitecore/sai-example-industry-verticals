@@ -7,7 +7,6 @@ import {
   createRichTextField,
   createTextField,
 } from './helpers/createFields';
-import { boolToSitecoreCheckbox } from './helpers/boolToSitecoreCheckbox';
 import {
   BackgroundColorArgs,
   backgroundColorArgTypes,
@@ -102,15 +101,15 @@ export const Default: Story = {
       baseParams.styles,
       args.BackgroundColor,
       args.Reversed && 'promo-reversed',
-      args.ShowMultipleImages && 'show-multiple-images',
-      args.HideShapes && 'hide-promo-shapes',
-      args.HideShadows && 'hide-shadows'
+      args.ShowMultipleImages && 'multiple-images',
+      args.HideShapes && 'promo-shapes',
+      args.HideShadows && 'promo-shadows',
+      args.HideCurveLine && 'curve-line'
     );
 
     const params = {
       ...baseParams,
       styles: promoStyles,
-      HideCurveLine: boolToSitecoreCheckbox(args.HideCurveLine),
     };
     return <Promo params={params} rendering={baseRendering} fields={baseFields} />;
   },
@@ -150,7 +149,7 @@ export const QuotePromo: Story = {
       baseParams.styles,
       args.BackgroundColor,
       args.Reversed && 'promo-reversed',
-      args.HideQuote && 'hide-quote'
+      args.HideQuote && 'promo-quotes'
     );
     const params = {
       ...baseParams,
