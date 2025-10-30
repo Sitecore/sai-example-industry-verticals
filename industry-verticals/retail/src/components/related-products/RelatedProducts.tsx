@@ -19,7 +19,7 @@ interface RelatedProductsProps extends ComponentProps {
 
 export const Default = (props: RelatedProductsProps): JSX.Element => {
   const { styles, RenderingIdentifier: id } = props.params;
-  const hideAccentLine = isParamEnabled(props.params.HideAccentLine);
+  const hideAccentLine = props?.params?.styles?.includes('hideAccentLine');
   const autoPlay = isParamEnabled(props.params.Autoplay);
   const loop = isParamEnabled(props.params.Loop);
 

@@ -80,7 +80,9 @@ export const Default: Story = {
           Autoplay: boolToSitecoreCheckbox(args.autoPlay),
           Loop: boolToSitecoreCheckbox(args.loop),
           HideAccentLine: boolToSitecoreCheckbox(args.hideAccentLine),
-          styles: `${baseParams.styles} ${args.BackgroundColor}`,
+          styles: `${baseParams.styles} ${args.BackgroundColor}${
+            args.hideAccentLine ? ' hideAccentLine' : ''
+          }`,
         }}
         rendering={{ ...baseRendering, uid }}
         fields={{
