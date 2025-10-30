@@ -6,13 +6,13 @@ Path: "/sitecore/content/retail/forma-lux/Presentation/Styles/Promo/Hide Promo Q
 SharedFields:
 - ID: "09147fb2-ebfb-4949-8c8e-26a424409d5e"
   Hint: Value
-  Value: "promo-quotes"
+  Value: "hide-promo-quotes"
 - ID: "69bb49f3-da64-4b0e-abd6-184b832ff6ab"
   Hint: Allowed Renderings
   Value: "{CCD11802-22A3-462F-92FC-821515E2AEC8}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "d56480f7-8481-4766-af26-8c9dcf8d2e97"
+  Value: "91711659-a43f-43da-8120-184456a450be"
 Languages:
 - Language: en
   Versions:
@@ -31,11 +31,11 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "01319767-15bb-4852-ba04-bd84db7dbc56"
+      Value: "536bd009-d800-42de-8efb-7229bf5580d4"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251030T075058Z
+      Value: 20251030T084059Z

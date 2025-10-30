@@ -101,10 +101,10 @@ export const Default: Story = {
       baseParams.styles,
       args.BackgroundColor,
       args.Reversed && 'promo-reversed',
-      args.ShowMultipleImages && 'multiple-images',
-      args.HideShapes && 'promo-shapes',
-      args.HideShadows && 'promo-shadows',
-      args.HideCurveLine && 'curve-line'
+      args.ShowMultipleImages && 'show-multiple-images',
+      args.HideShapes && 'hide-promo-shapes',
+      args.HideShadows && 'hide-promo-shadows',
+      args.HideCurveLine && 'hide-curve-line'
     );
 
     const params = {
@@ -149,7 +149,7 @@ export const QuotePromo: Story = {
       baseParams.styles,
       args.BackgroundColor,
       args.Reversed && 'promo-reversed',
-      args.HideQuote && 'promo-quotes'
+      args.HideQuote && 'hide-promo-quotes'
     );
     const params = {
       ...baseParams,
