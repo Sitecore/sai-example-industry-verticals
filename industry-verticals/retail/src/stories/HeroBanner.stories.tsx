@@ -1,10 +1,14 @@
 import { ComponentProps } from 'react';
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
-import { Default as HeroBanner, TopContent } from '../components/hero-banner/HeroBanner';
+import {
+  Default as HeroBanner,
+  HeroBannerStyles,
+  TopContent,
+} from '../components/hero-banner/HeroBanner';
 import { CommonParams, CommonRendering } from './common/commonData';
-import { boolToSitecoreCheckbox } from './helpers/boolToSitecoreCheckbox';
 import { renderStorybookPlaceholder } from './helpers/renderStorybookPlaceholder';
 import { createLinkField, createRichTextField, createTextField } from './helpers/createFields';
+import clsx from 'clsx';
 
 type StoryProps = ComponentProps<typeof HeroBanner> & {
   hideAccentLine?: boolean;
@@ -96,10 +100,13 @@ export const Default: Story = {
   render: (args) => {
     const params = {
       ...baseParams,
-      HideAccentLine: boolToSitecoreCheckbox(args.hideAccentLine),
-      WithPlaceholder: boolToSitecoreCheckbox(args.withPlaceholder),
-      ReverseLayout: boolToSitecoreCheckbox(args.reverseLayout),
-      WithoutGradientOverlay: boolToSitecoreCheckbox(args.withoutGradientOverlay),
+      styles: clsx(
+        baseParams.styles,
+        args.hideAccentLine && HeroBannerStyles.HideAccentLine,
+        args.withoutGradientOverlay && HeroBannerStyles.HideGradientOverlay,
+        args.reverseLayout && HeroBannerStyles.ReverseLayout,
+        args.withPlaceholder && HeroBannerStyles.WithPlaceholder
+      ),
     };
 
     const fields = createHeroBannerFields();
@@ -112,10 +119,13 @@ export const WithTopContent: Story = {
   render: (args) => {
     const params = {
       ...baseParams,
-      HideAccentLine: boolToSitecoreCheckbox(args.hideAccentLine),
-      WithPlaceholder: boolToSitecoreCheckbox(args.withPlaceholder),
-      ReverseLayout: boolToSitecoreCheckbox(args.reverseLayout),
-      WithoutGradientOverlay: boolToSitecoreCheckbox(args.withoutGradientOverlay),
+      styles: clsx(
+        baseParams.styles,
+        args.hideAccentLine && HeroBannerStyles.HideAccentLine,
+        args.withoutGradientOverlay && HeroBannerStyles.HideGradientOverlay,
+        args.reverseLayout && HeroBannerStyles.ReverseLayout,
+        args.withPlaceholder && HeroBannerStyles.WithPlaceholder
+      ),
     };
 
     const fields = createHeroBannerFields();
