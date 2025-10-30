@@ -5,12 +5,15 @@ Template: "c6dc7393-15bb-4cd7-b798-ab63e77ebac4"
 Path: "/sitecore/content/retail/forma-lux/Presentation/Styles/Promo"
 BranchID: "75653e9d-3c5c-45d4-823d-1bb04474400b"
 SharedFields:
+- ID: "62ca1c9e-71a4-465f-835e-55bda7bb270b"
+  Hint: Type
+  Value: "checkbox-folder"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 2400
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "0a7af4b6-5207-4a85-a19c-8254f3bcfd57"
+  Value: "491810bd-ebb7-4347-8c92-4c50a124a20d"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{0580FC94-24D1-4226-908A-9632DE3FD787}"
@@ -32,11 +35,11 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "75da18ff-12d2-404f-977c-ef8c21916196"
+      Value: "6ebf1daa-35d2-49bc-a55f-c2b484cb0f9f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250820T091643Z
+      Value: 20251029T104950Z
