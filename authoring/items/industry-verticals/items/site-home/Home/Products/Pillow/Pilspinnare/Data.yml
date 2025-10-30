@@ -29,7 +29,7 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251001T085225Z
-- Language: "es-ES"
+- Language: "es-es"
   Versions:
   - Version: 1
     Fields:
@@ -54,7 +54,7 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251001T085225Z
-- Language: "fr-FR"
+- Language: "fr-fr"
   Versions:
   - Version: 1
     Fields:
