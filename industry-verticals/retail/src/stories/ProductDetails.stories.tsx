@@ -9,13 +9,14 @@ import {
   backgroundColorArgTypes,
   defaultBackgroundColorArgs,
 } from './common/commonControls';
-import { StyleFlag } from '@/types/styleFlags';
+import { ProductDetailFlags } from '@/types/styleFlags';
+import clsx from 'clsx';
 
 type StoryProps = ComponentProps<typeof ProductDetails> &
   BackgroundColorArgs & {
     showCompareButton?: boolean;
     showAddToCartButton?: boolean;
-    ShowAddtoWishlistButton?: boolean;
+    showAddtoWishlistButton?: boolean;
   };
 
 const meta = {
@@ -32,7 +33,7 @@ const meta = {
       control: { type: 'boolean' },
       defaultValue: true,
     },
-    ShowAddtoWishlistButton: {
+    showAddtoWishlistButton: {
       control: { type: 'boolean' },
       defaultValue: true,
     },
@@ -41,7 +42,7 @@ const meta = {
     ...defaultBackgroundColorArgs,
     showCompareButton: true,
     showAddToCartButton: true,
-    ShowAddtoWishlistButton: true,
+    showAddtoWishlistButton: true,
   },
   parameters: {},
 } satisfies Meta<StoryProps>;
@@ -67,15 +68,15 @@ const [mockProduct] = createProductItems(1);
 
 export const Default: Story = {
   render: (args) => {
-    const activeButtons: string[] = [];
-
-    if (args.showCompareButton) activeButtons.push(StyleFlag.ShowCompareButton);
-    if (args.showAddToCartButton) activeButtons.push(StyleFlag.ShowAddtoCartButton);
-    if (args.ShowAddtoWishlistButton) activeButtons.push(StyleFlag.ShowAddtoWishlistButton);
+    const activeButtons = clsx({
+      [ProductDetailFlags.ShowCompareButton]: args.showCompareButton,
+      [ProductDetailFlags.ShowAddtoCartButton]: args.showAddToCartButton,
+      [ProductDetailFlags.ShowAddtoWishlistButton]: args.showAddtoWishlistButton,
+    });
 
     const params = {
       ...baseParams,
-      styles: `${baseParams.styles} ${args.BackgroundColor} ${activeButtons.join(' ')}`.trim(),
+      styles: clsx(baseParams.styles, args.BackgroundColor, activeButtons),
     };
 
     return <ProductDetails params={params} rendering={baseRendering} fields={mockProduct.fields} />;
