@@ -68,11 +68,11 @@ const [mockProduct] = createProductItems(1);
 
 export const Default: Story = {
   render: (args) => {
-    const activeButtons = clsx({
-      [ProductDetailFlags.ShowCompareButton]: args.showCompareButton,
-      [ProductDetailFlags.ShowAddtoCartButton]: args.showAddToCartButton,
-      [ProductDetailFlags.ShowAddtoWishlistButton]: args.showAddtoWishlistButton,
-    });
+    const activeButtons = clsx(
+    args.showCompareButton && ProductDetailFlags.ShowCompareButton,
+    args.showAddToCartButton && ProductDetailFlags.ShowAddtoCartButton,
+    args.showAddtoWishlistButton && ProductDetailFlags.ShowAddtoWishlistButton
+);
 
     const params = {
       ...baseParams,
