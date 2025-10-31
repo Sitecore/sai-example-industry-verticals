@@ -25,7 +25,7 @@ interface HeroBannerProps extends ComponentProps {
 }
 
 export enum HeroBannerStyles {
-  HideAccentLine = 'hide-curve-line',
+  HideAccentLine = 'hide-accent-line',
   HideGradientOverlay = 'hide-gradient-overlay',
   ReverseLayout = 'reverse-layout',
   WithPlaceholder = 'with-placeholder',
