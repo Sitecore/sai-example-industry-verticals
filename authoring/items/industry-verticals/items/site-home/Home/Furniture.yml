@@ -16,10 +16,7 @@ SharedFields:
     <image mediaid="{964961D6-A1B4-45F0-9F67-E5B420BE896A}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "3cd5a89e-ab67-4d4e-998e-5bc9e0ac6344"
-- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
-  Hint: __Renderings
-  Value: 
+  Value: "c4655ebb-7b77-4ecd-8ec1-6b831dc24e1f"
 Languages:
 - Language: en
   Versions:
@@ -45,14 +42,14 @@ Languages:
       Value: 
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e7cdc99f-6541-4bac-a7dd-22b570fbd216"
+      Value: "cead031f-fd6f-4b8f-bc89-b1ace0934154"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251028T150632Z
+      Value: 20250919T111546Z
 - Language: "es-ES"
   Versions:
   - Version: 1
