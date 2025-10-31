@@ -11,6 +11,7 @@ import {
 import { ComponentProps } from '@/lib/component-props';
 import AccentLine from '@/assets/icons/accent-line/AccentLine';
 import { ExploreLink } from '../non-sitecore/ExploreLink';
+import { CommonStyles, HeroBannerStyles } from '@/types/styleFlags';
 
 interface Fields {
   Image: ImageField;
@@ -22,13 +23,6 @@ interface Fields {
 
 interface HeroBannerProps extends ComponentProps {
   fields: Fields;
-}
-
-export enum HeroBannerStyles {
-  HideAccentLine = 'hide-accent-line',
-  HideGradientOverlay = 'hide-gradient-overlay',
-  ReverseLayout = 'reverse-layout',
-  WithPlaceholder = 'with-placeholder',
 }
 
 const HeroBannerCommon = ({
@@ -90,7 +84,7 @@ const HeroBannerCommon = ({
 
 export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
   const styles = params.styles || '';
-  const hideAccentLine = styles.includes(HeroBannerStyles.HideAccentLine);
+  const hideAccentLine = styles.includes(CommonStyles.HideAccentLine);
   const withPlaceholder = styles.includes(HeroBannerStyles.WithPlaceholder);
   const reverseLayout = styles.includes(HeroBannerStyles.ReverseLayout);
   const searchBarPlaceholderKey = `hero-banner-search-bar-${params.DynamicPlaceholderId}`;
@@ -136,7 +130,7 @@ export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
 
 export const TopContent = ({ params, fields, rendering }: HeroBannerProps) => {
   const styles = params.styles || '';
-  const hideAccentLine = styles.includes(HeroBannerStyles.HideAccentLine);
+  const hideAccentLine = styles.includes(CommonStyles.HideAccentLine);
   const withPlaceholder = styles.includes(HeroBannerStyles.WithPlaceholder);
   const reverseLayout = styles.includes(HeroBannerStyles.ReverseLayout);
   const searchBarPlaceholderKey = `hero-banner-search-bar-${params.DynamicPlaceholderId}`;
