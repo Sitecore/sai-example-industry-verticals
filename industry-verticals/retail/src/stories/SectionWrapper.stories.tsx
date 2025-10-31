@@ -1,6 +1,9 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 import { ComponentProps } from 'react';
-import { Default as SectionWrapper } from '../components/section-wrapper/SectionWrapper';
+import {
+  Default as SectionWrapper,
+  SectionWrapperStyles,
+} from '../components/section-wrapper/SectionWrapper';
 import { CommonParams, CommonRendering } from './common/commonData';
 import { renderStorybookPlaceholder } from './helpers/renderStorybookPlaceholder';
 import { createLinkField, createTextField } from './helpers/createFields';
@@ -12,6 +15,7 @@ import {
   backgroundColorArgTypes,
   defaultBackgroundColorArgs,
 } from './common/commonControls';
+import clsx from 'clsx';
 
 type StoryProps = ComponentProps<typeof SectionWrapper> &
   BackgroundColorArgs & {
@@ -67,7 +71,11 @@ export const Default: Story = {
     const params = {
       ...baseParams,
       HideAccentLine: boolToSitecoreCheckbox(args.hideAccentLine),
-      styles: `${baseParams.styles} ${args.BackgroundColor}`,
+      styles: clsx(
+        baseParams.styles,
+        args.BackgroundColor,
+        args.hideAccentLine && SectionWrapperStyles.HideAccentLine
+      ),
     };
 
     return <SectionWrapper params={params} fields={baseFields} rendering={baseRendering} />;
@@ -79,7 +87,11 @@ export const WithPlaceholderData: Story = {
     const params = {
       ...baseParams,
       HideAccentLine: boolToSitecoreCheckbox(args.hideAccentLine),
-      styles: `${baseParams.styles} ${args.BackgroundColor}`,
+      styles: clsx(
+        baseParams.styles,
+        args.BackgroundColor,
+        args.hideAccentLine && SectionWrapperStyles.HideAccentLine
+      ),
     };
     const rendering = {
       ...baseRendering,
