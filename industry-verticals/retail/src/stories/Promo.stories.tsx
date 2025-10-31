@@ -104,7 +104,7 @@ export const Default: Story = {
       args.ShowMultipleImages && 'show-multiple-images',
       args.HideShapes && 'hide-promo-shapes',
       args.HideShadows && 'hide-promo-shadows',
-      args.HideCurveLine && 'hide-curve-line'
+      args.HideCurveLine && 'hide-accent-line'
     );
 
     const params = {

@@ -39,7 +39,7 @@ export type PromoProps = ComponentProps & {
 const isShadowClassActive = (val: boolean) => (val ? 'shadow-2xl' : '');
 
 export const PromoContent = ({ ...props }) => {
-  const isCurveLineVisible = !props?.params?.styles?.includes('hide-curve-line');
+  const isAccentLineVisible = !props?.params?.styles?.includes('hide-accent-line');
 
   return (
     <div className="space-y-5">
@@ -49,7 +49,7 @@ export const PromoContent = ({ ...props }) => {
 
       <h2 className="inline-block max-w-md">
         <Text field={props.fields.PromoTitle} />
-        {isCurveLineVisible && <AccentLine className="w-full max-w-xs" />}
+        {isAccentLineVisible && <AccentLine className="w-full max-w-xs" />}
       </h2>
 
       <div className="max-w-lg text-lg">
