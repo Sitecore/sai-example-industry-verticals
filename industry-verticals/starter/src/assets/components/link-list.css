@@ -1,0 +1,25 @@
+.link-list {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-accent mb-4.5 text-lg;
+  }
+
+  ul {
+    @apply flex flex-row flex-wrap gap-4;
+  }
+
+  a:hover {
+    @apply underline;
+  }
+}
+
+/* list vertical */
+.link-list.list-vertical {
+  ul {
+    @apply flex-col;
+  }
+}
