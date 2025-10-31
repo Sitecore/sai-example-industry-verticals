@@ -1,0 +1,13 @@
+#!/usr/bin/env sh
+set -e
+set -o pipefail
+
+# ensure we run from the app folder
+cd -- "$(dirname -- "$0")/.."
+
+# (optional) trace
+echo ">> pre-commit running in $(pwd)"
+
+# run your checks
+npx tsc -p tsconfig.json --noEmit
+npx lint-staged
