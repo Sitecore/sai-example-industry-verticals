@@ -1,0 +1,28 @@
+@utility container {
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+@layer components {
+  .container-wrapper {
+    @apply w-full;
+  }
+
+  /* bordered */
+  .sxa-bordered {
+    @apply rounded-xl;
+    > .component-content {
+      @apply rounded-xl border p-6;
+    }
+  }
+}
+
+@layer utilities {
+  .container-align-right {
+    @apply mx-4 lg:mr-0 lg:ml-[calc((100vw-1024px)/2+1rem)] xl:ml-[calc((100vw-1280px)/2+1rem)] 2xl:ml-[calc((100vw-1536px)/2+1rem)];
+  }
+
+  .container-align-left {
+    @apply mx-4 lg:mr-[calc((100vw-1024px)/2+1rem)] lg:ml-0 xl:mr-[calc((100vw-1280px)/2+1rem)] 2xl:mr-[calc((100vw-1536px)/2+1rem)];
+  }
+}

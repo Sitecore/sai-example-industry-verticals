@@ -1,0 +1,20 @@
+.component.image {
+  img {
+    @apply h-auto w-full;
+  }
+
+  a {
+    @apply inline-block max-w-full;
+  }
+
+  .image-caption {
+    @apply block py-1 text-sm;
+  }
+}
+
+/* image default size */
+.image-default-size {
+  img {
+    @apply w-auto! max-w-full;
+  }
+}

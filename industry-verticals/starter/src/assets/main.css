@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Manrope:wght@200..800&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+@import 'tailwindcss';
+
+/* Swiper Carousel styles */
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+
+@import './base/index.css';
+@import './components/index.css';
+
+@import 'tw-animate-css';
+
+/* bootstrap grid to tailwind plugin */
+@plugin 'tailwind-bootstrap-grid' {
+  grid_gutter_width: '2rem';
+  generate_container: false;
+}
+
+/* preload tailwind-bootstrap-grid utility classes; */
+/* responsive classes are in base/tailwind-bootstrap-grid */
+@source inline("col-{1..12}");
+@source inline("offset-{1..12}");
