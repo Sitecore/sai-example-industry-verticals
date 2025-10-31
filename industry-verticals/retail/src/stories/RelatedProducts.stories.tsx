@@ -11,6 +11,8 @@ import {
   defaultBackgroundColorArgs,
 } from './common/commonControls';
 import { createLinkField, createTextField } from './helpers/createFields';
+import { CommonStyles } from '@/types/styleFlags';
+import clsx from 'clsx';
 
 type StoryProps = ComponentProps<typeof RelatedProducts> &
   BackgroundColorArgs & {
@@ -80,9 +82,11 @@ export const Default: Story = {
           Autoplay: boolToSitecoreCheckbox(args.autoPlay),
           Loop: boolToSitecoreCheckbox(args.loop),
           HideAccentLine: boolToSitecoreCheckbox(args.hideAccentLine),
-          styles: `${baseParams.styles} ${args.BackgroundColor}${
-            args.hideAccentLine ? ' hideAccentLine' : ''
-          }`,
+          styles: clsx(
+            baseParams.styles,
+            args.BackgroundColor,
+            args.hideAccentLine && CommonStyles.HideAccentLine
+          ),
         }}
         rendering={{ ...baseRendering, uid }}
         fields={{
