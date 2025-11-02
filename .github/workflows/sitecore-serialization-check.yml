@@ -57,7 +57,7 @@ jobs:
               "> dotnet sitecore ser push",
               "> ```",
               "> Then commit the generated YAML files under:",
-              "> `industry-verticals/retail/src/serialization/`",
+              "> `xmc-retail-demo/authoring/items/`",
               "",
               "---",
               "_This is an automated reminder to ensure all Sitecore item changes are properly serialized before merging._"
