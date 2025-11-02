@@ -55,7 +55,7 @@ jobs:
 
             // Identify and delete any previous "No serialized YAML" warning comments
             const warningComments = comments.filter(c =>
-              c.body.includes('dotnet sitecore ser push')
+              c.body.includes('dotnet sitecore ser pull')
             );
 
             for (const comment of warningComments) {
@@ -74,7 +74,7 @@ jobs:
               ">",
               "> **Run the following command:**",
               "> ```bash",
-              "> dotnet sitecore ser push",
+              "> dotnet sitecore ser pull",
               "> ```",
               "> Then commit the generated YAML files under:",
               "> `xmc-retail-demo/authoring/items/`",
