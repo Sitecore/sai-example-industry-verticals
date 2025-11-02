@@ -1,0 +1,70 @@
+name: Sitecore Serialization Check
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  check-serialization:
+    name: Check for serialized YAML changes
+    runs-on: ubuntu-latest
+
+    # This lets the job read repo contents and post a comment on the PR when needed
+    permissions:
+      contents: read
+      pull-requests: write
+
+    env:
+      SERIALIZATION_REGEX: '^industry-verticals/retail/src/serialization/.*\.ya?ml$'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # fetch full history so we can diff base vs head
+          fetch-depth: 0
+
+      - name: Fetch base branch
+        run: |
+          # Ensure base ref exists locally (e.g., develop or main)
+          git fetch origin "${{ github.base_ref }}:${{ github.base_ref }}"
+
+      - name: List changed files
+        id: diff
+        run: |
+          echo "Base: ${{ github.base_ref }}"
+          echo "Head: ${{ github.head_ref }}"
+          git diff --name-only origin/${{ github.base_ref }}...HEAD | tee changed_files.txt
+
+      - name: Check for serialized YAML changes
+        id: check
+        run: |
+          if grep -qE "${SERIALIZATION_REGEX}" changed_files.txt; then
+            echo "found=true" >> $GITHUB_OUTPUT
+            echo " Serialized YAML changes detected."
+          else
+            echo "found=false" >> $GITHUB_OUTPUT
+            echo " No serialized YAML changes detected."
+          fi
+
+      - name: Comment warning if none found
+        if: steps.check.outputs.found == 'false'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const body = [
+              " **No serialized YAML changes detected in this PR.**",
+              "",
+              "If your changes affect Sitecore items, please run:",
+              "```bash",
+              "dotnet sitecore ser push",
+              "```",
+              "and commit the generated files under:",
+              "`industry-verticals/retail/src/serialization/`"
+            ].join("\n");
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.pull_request.number,
+              body
+            });
