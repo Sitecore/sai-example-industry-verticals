@@ -48,7 +48,7 @@ jobs:
         with:
           script: |
             const body = [
-              "> ⚠️ **⚠️  **Warning:** No serialized YAML changes detected in this PR.",
+              ">  **⚠️  **Warning:** No serialized YAML changes detected in this PR.",
               ">",
               "> If your PR modifies Sitecore items (templates, renderings, placeholders, or content definitions), you must serialize them before merging.",
               ">",
