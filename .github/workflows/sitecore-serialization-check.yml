@@ -9,7 +9,6 @@ jobs:
     name: Check for serialized YAML changes
     runs-on: ubuntu-latest
 
-    # This lets the job read repo contents and post a comment on the PR when needed
     permissions:
       contents: read
       pull-requests: write
@@ -21,7 +20,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          # fetch full history so we can diff base vs head
           fetch-depth: 0
 
       - name: Fetch base branch
