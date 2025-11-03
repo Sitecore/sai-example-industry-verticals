@@ -8,14 +8,13 @@ import {
   LinkField,
   RichTextField,
   Text,
+  useSitecore,
 } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from 'lib/component-props';
 import { isParamEnabled } from '@/helpers/isParamEnabled';
 
 interface Fields {
   PromoImageOne: ImageField;
-  PromoImageTwo: ImageField;
-  PromoImageThree: ImageField;
   PromoTitle: Field<string>;
   PromoDescription: RichTextField;
   PromoSubTitle: Field<string>;
@@ -28,36 +27,48 @@ export type PromoProps = ComponentProps & {
 
 export const Default = (props: PromoProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-  const isPromoReversed = !isParamEnabled(props.params.Reversed) ? '' : 'order-last';
+  const isPromoReversed = isParamEnabled(props.params.Reversed) ? 'order-last' : '';
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
 
   return (
-    <section className={`${props.params.styles} py-20`} id={id ? id : undefined}>
-      <div className="container grid grid-cols-1 place-items-center gap-10 lg:grid-cols-2">
-        <div className={`${isPromoReversed} relative w-full`}>
-          <div
-            className={`relative z-10 aspect-4/3 w-full max-w-4xl overflow-hidden rounded-2xl shadow-2xl`}
-          >
-            <ContentSdkImage
-              field={props.fields.PromoImageOne}
-              className="h-full w-full object-cover"
-            />
-          </div>
+    <section
+      className={`${props.params.styles || ''} min-h-screen p-6 lg:p-10`}
+      id={id ? id : undefined}
+    >
+      <div className="container grid grid-cols-1 items-stretch gap-0 lg:h-screen lg:grid-cols-2 lg:gap-10">
+        {/* Image Section */}
+        <div className={`${isPromoReversed} relative h-full w-full lg:h-screen`}>
+          <ContentSdkImage
+            field={props.fields.PromoImageOne}
+            className="h-full w-full object-cover"
+          />
         </div>
 
-        <div className="space-y-5">
-          <div className="eyebrow">
-            <Text field={props.fields.PromoSubTitle} />
+        {/* Text Section */}
+        <div className="font-body relative flex flex-col py-10 lg:flex lg:h-screen lg:py-0">
+          <div className="lg:sticky lg:top-0 lg:h-fit">
+            <div className="space-y-6">
+              {(props.fields.PromoSubTitle?.value || isPageEditing) && (
+                <div className="text-foreground-light text-sm tracking-wide uppercase">
+                  <Text field={props.fields.PromoSubTitle} />
+                </div>
+              )}
+
+              <Text field={props.fields.PromoTitle} tag="h3" />
+
+              <div className="text-foreground text-base lg:text-lg">
+                <ContentSdkRichText field={props.fields.PromoDescription} />
+              </div>
+
+              {(props.fields.PromoMoreInfo?.value?.href || isPageEditing) && (
+                <Link
+                  field={props.fields.PromoMoreInfo}
+                  className="border-foreground font-body text-foreground hover:bg-foreground-light inline-flex items-center border-[0.5px] px-6 py-3 text-sm transition hover:text-white"
+                />
+              )}
+            </div>
           </div>
-
-          <h2 className="inline-block max-w-md">
-            <Text field={props.fields.PromoTitle} />
-          </h2>
-
-          <div className="max-w-lg text-lg">
-            <ContentSdkRichText field={props.fields.PromoDescription} />
-          </div>
-
-          <Link field={props.fields.PromoMoreInfo} className="main-btn" />
         </div>
       </div>
     </section>

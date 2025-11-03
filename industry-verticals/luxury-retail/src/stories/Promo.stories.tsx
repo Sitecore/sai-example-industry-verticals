@@ -56,12 +56,10 @@ const baseRendering = {
 
 const baseFields = {
   PromoImageOne: createImageField('placeholder'),
-  PromoImageTwo: createImageField('placeholder'),
-  PromoImageThree: createImageField('placeholder'),
-  PromoTitle: createTextField('We provide you the best experience'),
+  PromoTitle: createTextField('Introducing the essence of nordic comfort'),
   PromoDescription: createRichTextField(1, 'paragraphs'),
   PromoSubTitle: createTextField('Materials'),
-  PromoMoreInfo: createLinkField('Read More'),
+  PromoMoreInfo: createLinkField('+ Add to Cart'),
 };
 
 export const Default: Story = {
