@@ -5,7 +5,7 @@ import { CommonParams, CommonRendering } from './common/commonData';
 import { renderStorybookPlaceholder } from './helpers/renderStorybookPlaceholder';
 import { createLinkField, createRichTextField, createTextField } from './helpers/createFields';
 import clsx from 'clsx';
-import { CommonStyles, HeroBannerStyles } from '@/types/styleFlags';
+import { CommonStyles, HeroBannerStyles, LayoutStyles } from '@/types/styleFlags';
 
 type StoryProps = ComponentProps<typeof HeroBanner> & {
   hideAccentLine?: boolean;
@@ -101,7 +101,7 @@ export const Default: Story = {
         baseParams.styles,
         args.hideAccentLine && CommonStyles.HideAccentLine,
         args.withoutGradientOverlay && HeroBannerStyles.HideGradientOverlay,
-        args.reverseLayout && HeroBannerStyles.ReverseLayout,
+        args.reverseLayout && LayoutStyles.Reversed,
         args.withPlaceholder && HeroBannerStyles.WithPlaceholder
       ),
     };
@@ -120,7 +120,7 @@ export const WithTopContent: Story = {
         baseParams.styles,
         args.hideAccentLine && CommonStyles.HideAccentLine,
         args.withoutGradientOverlay && HeroBannerStyles.HideGradientOverlay,
-        args.reverseLayout && HeroBannerStyles.ReverseLayout,
+        args.reverseLayout && LayoutStyles.Reversed,
         args.withPlaceholder && HeroBannerStyles.WithPlaceholder
       ),
     };

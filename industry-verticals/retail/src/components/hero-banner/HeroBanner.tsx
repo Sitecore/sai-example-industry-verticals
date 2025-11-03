@@ -11,7 +11,7 @@ import {
 import { ComponentProps } from '@/lib/component-props';
 import AccentLine from '@/assets/icons/accent-line/AccentLine';
 import { ExploreLink } from '../non-sitecore/ExploreLink';
-import { CommonStyles, HeroBannerStyles } from '@/types/styleFlags';
+import { CommonStyles, HeroBannerStyles, LayoutStyles } from '@/types/styleFlags';
 
 interface Fields {
   Image: ImageField;
@@ -86,7 +86,7 @@ export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
   const styles = params.styles || '';
   const hideAccentLine = styles.includes(CommonStyles.HideAccentLine);
   const withPlaceholder = styles.includes(HeroBannerStyles.WithPlaceholder);
-  const reverseLayout = styles.includes(HeroBannerStyles.ReverseLayout);
+  const reverseLayout = styles.includes(LayoutStyles.Reversed);
   const searchBarPlaceholderKey = `hero-banner-search-bar-${params.DynamicPlaceholderId}`;
 
   return (
@@ -132,7 +132,7 @@ export const TopContent = ({ params, fields, rendering }: HeroBannerProps) => {
   const styles = params.styles || '';
   const hideAccentLine = styles.includes(CommonStyles.HideAccentLine);
   const withPlaceholder = styles.includes(HeroBannerStyles.WithPlaceholder);
-  const reverseLayout = styles.includes(HeroBannerStyles.ReverseLayout);
+  const reverseLayout = styles.includes(LayoutStyles.Reversed);
   const searchBarPlaceholderKey = `hero-banner-search-bar-${params.DynamicPlaceholderId}`;
 
   return (

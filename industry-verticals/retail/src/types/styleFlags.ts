@@ -1,6 +1,11 @@
 export enum CommonStyles {
   HideAccentLine = 'hide-accent-line',
 }
+
+export enum LayoutStyles {
+  Reversed = 'reversed',
+}
+
 export enum ProductDetailFlags {
   ShowCompareButton = 'show-compare-button',
   ShowAddtoCartButton = 'show-add-to-cart-button',
@@ -17,6 +22,5 @@ export enum PromoFlags {
 
 export enum HeroBannerStyles {
   HideGradientOverlay = 'hide-gradient-overlay',
-  ReverseLayout = 'reverse-layout',
   WithPlaceholder = 'with-placeholder',
 }
