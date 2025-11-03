@@ -17,7 +17,7 @@ SharedFields:
     <image mediaid="{1265691C-6EE9-49B3-8131-FDEA5E9EE0F7}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "81869d7a-2350-434c-b040-a703c48fc66f"
+  Value: "54e687b3-f155-4214-b62e-0a6bab5d9a9c"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -72,7 +72,7 @@ SharedFields:
           p:after="r[@uid='{D362D8F7-42C9-488A-BE41-4E79A8C3868A}']"
           s:ds="d2a7eac1-c7a1-43ad-987f-5a1dc935504d"
           s:id="{CCD11802-22A3-462F-92FC-821515E2AEC8}"
-          s:par="FieldNames=%7B4091EF1F-FB38-4E84-8776-076441E040BF%7D&amp;HideShapes=0&amp;Reversed=1&amp;RenderingIdentifier&amp;ShowMultipleImages&amp;Styles=%7C%7BCDEF037E-24A1-4E7F-A5E0-F939845C4D49%7D%7C%7BD5807736-D408-4D25-8431-14DD69680829%7D%7C%7BDB71A4F4-4E6E-465A-B110-E26F47627B7E%7D%7C%7B1A14DA58-B830-4DFF-A9B7-8CAD4A0BC6FB%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;HideQuote&amp;DynamicPlaceholderId=3&amp;HideCurveLine=0&amp;HideShadows=0"
+          s:par="FieldNames=%7B4091EF1F-FB38-4E84-8776-076441E040BF%7D&amp;HideShapes=0&amp;Reversed=1&amp;RenderingIdentifier&amp;ShowMultipleImages&amp;Styles=%7C%7BCDEF037E-24A1-4E7F-A5E0-F939845C4D49%7D%7C%7BD5807736-D408-4D25-8431-14DD69680829%7D%7C%7BDB71A4F4-4E6E-465A-B110-E26F47627B7E%7D%7C%7B1A14DA58-B830-4DFF-A9B7-8CAD4A0BC6FB%7D%7C%7B1D7E4033-FFD2-40D3-99EB-E0BE364BB74F%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;HideQuote&amp;DynamicPlaceholderId=3&amp;HideCurveLine=0&amp;HideShadows=0"
           s:ph="headless-main" />
         <r
           uid="{1B086346-531C-4C41-BC73-5CF1F0CFF9D0}"
@@ -209,14 +209,14 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "40201647-5a59-49c7-9c63-862d64958578"
+      Value: "a5c4aa05-bb31-4f88-8b51-2f3652df577f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251103T100007Z
+      Value: 20251103T102755Z
 - Language: "es-ES"
   Versions:
   - Version: 1
