@@ -13,7 +13,7 @@ import { ComponentProps } from 'lib/component-props';
 import clsx from 'clsx';
 import AccentLine from '@/assets/icons/accent-line/AccentLine';
 import { Quote } from '@/assets/icons/quote/Quote';
-import { CommonStyles, PromoFlags } from '@/types/styleFlags';
+import { CommonStyles, LayoutStyles, PromoFlags } from '@/types/styleFlags';
 
 interface Fields {
   PromoImageOne: ImageField;
@@ -140,7 +140,7 @@ export const MultipleImageContainer = ({
 
 export const Default = (props: PromoProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-  const isPromoReversed = !props?.params?.styles?.includes(PromoFlags.PromoReversed)
+  const isPromoReversed = !props?.params?.styles?.includes(LayoutStyles.Reversed)
     ? ''
     : 'order-last';
   const showSingleImage = !props?.params?.styles?.includes(PromoFlags.ShowMultipleImages);
@@ -182,7 +182,7 @@ export const Default = (props: PromoProps): JSX.Element => {
 
 export const WithFullImage = (props: PromoProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-  const isPromoReversed = !props?.params?.styles?.includes(PromoFlags.PromoReversed)
+  const isPromoReversed = !props?.params?.styles?.includes(LayoutStyles.Reversed)
     ? ' flex-col'
     : 'flex-col-reverse';
 
@@ -221,7 +221,7 @@ export const WithFullImage = (props: PromoProps): JSX.Element => {
 export const WithQuote = (props: PromoProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
   const withQuote = !props?.params?.styles?.includes(PromoFlags.HidePromoQuotes);
-  const isReversed = !props?.params?.styles?.includes(PromoFlags.PromoReversed);
+  const isReversed = !props?.params?.styles?.includes(LayoutStyles.Reversed);
 
   const classesWhenReversed = {
     container: isReversed ? 'container-align-left' : 'container-align-right',
