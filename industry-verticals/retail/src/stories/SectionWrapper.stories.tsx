@@ -1,9 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 import { ComponentProps } from 'react';
-import {
-  Default as SectionWrapper,
-  SectionWrapperStyles,
-} from '../components/section-wrapper/SectionWrapper';
+import { Default as SectionWrapper } from '../components/section-wrapper/SectionWrapper';
 import { CommonParams, CommonRendering } from './common/commonData';
 import { renderStorybookPlaceholder } from './helpers/renderStorybookPlaceholder';
 import { createLinkField, createTextField } from './helpers/createFields';
@@ -16,6 +13,7 @@ import {
   defaultBackgroundColorArgs,
 } from './common/commonControls';
 import clsx from 'clsx';
+import { CommonStyles } from '@/types/styleFlags';
 
 type StoryProps = ComponentProps<typeof SectionWrapper> &
   BackgroundColorArgs & {
@@ -74,7 +72,7 @@ export const Default: Story = {
       styles: clsx(
         baseParams.styles,
         args.BackgroundColor,
-        args.hideAccentLine && SectionWrapperStyles.HideAccentLine
+        args.hideAccentLine && CommonStyles.HideAccentLine
       ),
     };
 
@@ -90,7 +88,7 @@ export const WithPlaceholderData: Story = {
       styles: clsx(
         baseParams.styles,
         args.BackgroundColor,
-        args.hideAccentLine && SectionWrapperStyles.HideAccentLine
+        args.hideAccentLine && CommonStyles.HideAccentLine
       ),
     };
     const rendering = {
