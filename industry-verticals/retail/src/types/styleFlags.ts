@@ -7,6 +7,14 @@ export enum ProductDetailFlags {
   ShowAddtoWishlistButton = 'show-add-to-wishlist-button',
 }
 
+export enum PromoFlags {
+  PromoReversed = 'promo-reversed',
+  ShowMultipleImages = 'show-multiple-images',
+  HidePromoShapes = 'hide-promo-shapes',
+  HidePromoShadows = 'hide-promo-shadows',
+  HidePromoQuotes = 'hide-promo-quotes',
+}
+
 export enum HeroBannerStyles {
   HideGradientOverlay = 'hide-gradient-overlay',
   ReverseLayout = 'reverse-layout',
