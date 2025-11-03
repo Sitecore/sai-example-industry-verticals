@@ -17,8 +17,8 @@ import { ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useRef, useState } from 'react';
 import { Article } from '@/types/article';
 import Link from 'next/link';
-import { isParamEnabled } from '@/helpers/isParamEnabled';
 import { cn } from '@/shadcn/lib/utils';
+import { LayoutStyles } from '@/types/styleFlags';
 
 interface Fields {
   CarouselTitle: Field<string>;
@@ -38,8 +38,7 @@ export const Default = (props: CarouselProps) => {
   const articles = props.fields?.Articles || [];
   const slidesPerViewByArticleSize = articles.length <= 2 ? 1 : 2;
   const multipleArticles = articles.length > 1;
-  const isReversed = isParamEnabled(props.params.Reversed);
-
+  const isReversed = props?.params?.styles?.includes(LayoutStyles.Reversed);
   const swiperFirstRef = useRef<SwiperClass | null>(null);
   const swiperSecondRef = useRef<SwiperClass | null>(null);
 
