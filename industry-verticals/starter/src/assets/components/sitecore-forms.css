@@ -1,0 +1,25 @@
+.global-input-wrapper.global-input-wrapper.global-input-wrapper {
+  @apply border-border focus-within:border-accent rounded-none border-0 border-b-2 focus-within:!outline-none;
+}
+
+.global-checkbox-element.global-checkbox-element.global-checkbox-element {
+  @apply bg-background border-foreground/40 checked:bg-accent checked:border-accent h-4 w-4 rounded-sm border-2 shadow-none focus-within:!outline-none;
+}
+
+.global-radio-element.global-radio-element.global-radio-element {
+  @apply border-foreground/10 bg-background focus-within:outline-accent checked:outline-accent before:bg-accent border-2 checked:outline-1;
+}
+
+.form-select-option-container.form-select-option-container.form-select-option-container {
+  @apply border-border;
+}
+
+.form-select-option.form-select-option.form-select-option {
+  @apply text-foreground hover:bg-accent aria-selected:bg-foreground/9 cursor-pointer text-sm hover:border-0;
+}
+
+.submit-button.submit-button.submit-button {
+  @apply rounded-none border-0 bg-transparent px-0 py-0 shadow-none;
+  @apply text-accent inline-flex items-center gap-2 text-base font-medium;
+  @apply cursor-pointer;
+}

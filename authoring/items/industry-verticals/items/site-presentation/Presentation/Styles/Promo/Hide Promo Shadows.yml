@@ -1,25 +1,18 @@
 ﻿---
-ID: "fb20ec64-d1eb-4ff5-b73d-b2e3ce4cde52"
+ID: "6d4f66c4-8ba6-4733-8019-b4914c5643ff"
 Parent: "381f3873-f6fa-49b9-835b-869fa92c5f8a"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
-Path: "/sitecore/content/retail/forma-lux/Presentation/Styles/Promo/Promo shadow"
-BranchID: "75653e9d-3c5c-45d4-823d-1bb04474400b"
+Path: "/sitecore/content/retail/forma-lux/Presentation/Styles/Promo/Hide Promo Shadows"
 SharedFields:
 - ID: "09147fb2-ebfb-4949-8c8e-26a424409d5e"
   Hint: Value
-  Value: "promo-shadow"
+  Value: "hide-promo-shadows"
 - ID: "69bb49f3-da64-4b0e-abd6-184b832ff6ab"
   Hint: Allowed Renderings
-  Value: "{2492BAC4-DA07-4C86-87F0-9873D40E2276}"
-- ID: "95579875-484e-41f0-b9c2-804eafaf3ccc"
-  Hint: IsVerifiedStyle
-  Value: 1
+  Value: "{CCD11802-22A3-462F-92FC-821515E2AEC8}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "abc4c88a-fba3-4490-91b8-8df71b7e5596"
-- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
-  Hint: __Originator
-  Value: "{206239A9-BAEB-4E5A-914B-D63E47FDF58C}"
+  Value: "071cd7c4-7305-45e5-84c7-42bc6089cf5a"
 Languages:
 - Language: en
   Versions:
@@ -27,22 +20,22 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250820T091644Z
+      Value: 20251103T090923Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "be789adc-c491-46de-b998-8b315c010126"
+      Value: "9b4340b9-a8b1-43b7-9381-f22e1fcb6b3c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250820T091644Z
+      Value: 20251103T090951Z

@@ -3,18 +3,20 @@ import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 import { Default as ProductDetails } from '../components/product-details/ProductDetails';
 import { CommonParams, CommonRendering } from './common/commonData';
 import { renderStorybookPlaceholder } from './helpers/renderStorybookPlaceholder';
-import { boolToSitecoreCheckbox } from './helpers/boolToSitecoreCheckbox';
 import { createProductItems } from './helpers/createItems';
 import {
   BackgroundColorArgs,
   backgroundColorArgTypes,
   defaultBackgroundColorArgs,
 } from './common/commonControls';
+import { ProductDetailFlags } from '@/types/styleFlags';
+import clsx from 'clsx';
 
 type StoryProps = ComponentProps<typeof ProductDetails> &
   BackgroundColorArgs & {
     showCompareButton?: boolean;
     showAddToCartButton?: boolean;
+    showAddtoWishlistButton?: boolean;
   };
 
 const meta = {
@@ -31,11 +33,16 @@ const meta = {
       control: { type: 'boolean' },
       defaultValue: true,
     },
+    showAddtoWishlistButton: {
+      control: { type: 'boolean' },
+      defaultValue: true,
+    },
   },
   args: {
     ...defaultBackgroundColorArgs,
     showCompareButton: true,
     showAddToCartButton: true,
+    showAddtoWishlistButton: true,
   },
   parameters: {},
 } satisfies Meta<StoryProps>;
@@ -61,11 +68,15 @@ const [mockProduct] = createProductItems(1);
 
 export const Default: Story = {
   render: (args) => {
+    const activeButtons = clsx(
+      args.showCompareButton && ProductDetailFlags.ShowCompareButton,
+      args.showAddToCartButton && ProductDetailFlags.ShowAddtoCartButton,
+      args.showAddtoWishlistButton && ProductDetailFlags.ShowAddtoWishlistButton
+    );
+
     const params = {
       ...baseParams,
-      ShowCompareButton: boolToSitecoreCheckbox(args.showCompareButton),
-      ShowAddtoCartButton: boolToSitecoreCheckbox(args.showAddToCartButton),
-      styles: `${baseParams.styles} ${args.BackgroundColor}`,
+      styles: clsx(baseParams.styles, args.BackgroundColor, activeButtons),
     };
 
     return <ProductDetails params={params} rendering={baseRendering} fields={mockProduct.fields} />;
