@@ -13,6 +13,7 @@ import {
   defaultBackgroundColorArgs,
 } from './common/commonControls';
 import clsx from 'clsx';
+import { CommonStyles, PromoFlags } from '@/types/styleFlags';
 
 type StoryProps = PromoProps &
   BackgroundColorArgs & {
@@ -100,11 +101,11 @@ export const Default: Story = {
     const promoStyles = clsx(
       baseParams.styles,
       args.BackgroundColor,
-      args.Reversed && 'promo-reversed',
-      args.ShowMultipleImages && 'show-multiple-images',
-      args.HideShapes && 'hide-promo-shapes',
-      args.HideShadows && 'hide-promo-shadows',
-      args.HideCurveLine && 'hide-accent-line'
+      args.Reversed && PromoFlags.PromoReversed,
+      args.ShowMultipleImages && PromoFlags.ShowMultipleImages,
+      args.HideShapes && PromoFlags.HidePromoShapes,
+      args.HideShadows && PromoFlags.HidePromoShadows,
+      args.HideCurveLine && CommonStyles.HideAccentLine
     );
 
     const params = {
@@ -127,7 +128,7 @@ export const WideImagePromo: Story = {
     const promoStyles = clsx(
       baseParams.styles,
       args.BackgroundColor,
-      args.Reversed && 'promo-reversed'
+      args.Reversed && PromoFlags.PromoReversed
     );
     const params = {
       ...baseParams,
@@ -140,7 +141,6 @@ export const WideImagePromo: Story = {
 export const QuotePromo: Story = {
   argTypes: {
     ShowMultipleImages: { table: { disable: true } },
-    HideCurveLine: { table: { disable: true } },
     HideShapes: { table: { disable: true } },
     HideShadows: { table: { disable: true } },
   },
@@ -148,8 +148,9 @@ export const QuotePromo: Story = {
     const promoStyles = clsx(
       baseParams.styles,
       args.BackgroundColor,
-      args.Reversed && 'promo-reversed',
-      args.HideQuote && 'hide-promo-quotes'
+      args.Reversed && PromoFlags.PromoReversed,
+      args.HideQuote && PromoFlags.HidePromoQuotes,
+      args.HideCurveLine && CommonStyles.HideAccentLine
     );
     const params = {
       ...baseParams,

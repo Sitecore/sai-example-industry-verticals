@@ -13,6 +13,7 @@ import { ComponentProps } from 'lib/component-props';
 import clsx from 'clsx';
 import AccentLine from '@/assets/icons/accent-line/AccentLine';
 import { Quote } from '@/assets/icons/quote/Quote';
+import { CommonStyles, PromoFlags } from '@/types/styleFlags';
 
 interface Fields {
   PromoImageOne: ImageField;
@@ -39,7 +40,7 @@ export type PromoProps = ComponentProps & {
 const isShadowClassActive = (val: boolean) => (val ? 'shadow-2xl' : '');
 
 export const PromoContent = ({ ...props }) => {
-  const isAccentLineVisible = !props?.params?.styles?.includes('hide-accent-line');
+  const isAccentLineVisible = !props?.params?.styles?.includes(CommonStyles.HideAccentLine);
 
   return (
     <div className="space-y-5">
@@ -139,10 +140,12 @@ export const MultipleImageContainer = ({
 
 export const Default = (props: PromoProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-  const isPromoReversed = !props?.params?.styles?.includes('promo-reversed') ? '' : 'order-last';
-  const showSingleImage = !props?.params?.styles?.includes('show-multiple-images');
-  const withShapes = !props?.params?.styles?.includes('hide-promo-shapes');
-  const withShadows = !props?.params?.styles?.includes('hide-promo-shadows');
+  const isPromoReversed = !props?.params?.styles?.includes(PromoFlags.PromoReversed)
+    ? ''
+    : 'order-last';
+  const showSingleImage = !props?.params?.styles?.includes(PromoFlags.ShowMultipleImages);
+  const withShapes = !props?.params?.styles?.includes(PromoFlags.HidePromoShapes);
+  const withShadows = !props?.params?.styles?.includes(PromoFlags.HidePromoShadows);
 
   const justifyContentClass = !showSingleImage ? 'justify-self-start' : '';
   const firstColumnSize = showSingleImage ? 'lg:col-span-6' : 'lg:col-span-7';
@@ -179,7 +182,7 @@ export const Default = (props: PromoProps): JSX.Element => {
 
 export const WithFullImage = (props: PromoProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-  const isPromoReversed = !props?.params?.styles?.includes('promo-reversed')
+  const isPromoReversed = !props?.params?.styles?.includes(PromoFlags.PromoReversed)
     ? ' flex-col'
     : 'flex-col-reverse';
 
@@ -217,8 +220,8 @@ export const WithFullImage = (props: PromoProps): JSX.Element => {
 
 export const WithQuote = (props: PromoProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-  const withQuote = !props?.params?.styles?.includes('hide-promo-quotes');
-  const isReversed = !props?.params?.styles?.includes('promo-reversed');
+  const withQuote = !props?.params?.styles?.includes(PromoFlags.HidePromoQuotes);
+  const isReversed = !props?.params?.styles?.includes(PromoFlags.PromoReversed);
 
   const classesWhenReversed = {
     container: isReversed ? 'container-align-left' : 'container-align-right',

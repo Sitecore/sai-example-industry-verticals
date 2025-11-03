@@ -99,7 +99,7 @@ Languages:
     - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
       Hint: Category
       Value: "{FA4802D9-66CA-4087-AC8A-59CE0283D1C5}"
-- Language: "es-es"
+- Language: "es-ES"
   Versions:
   - Version: 1
     Fields:

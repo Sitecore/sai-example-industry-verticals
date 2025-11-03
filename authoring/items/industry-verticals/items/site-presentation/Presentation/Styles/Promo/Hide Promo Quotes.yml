@@ -1,5 +1,5 @@
 ﻿---
-ID: "d3f3d256-103a-495f-a4dd-ee95b307fd2b"
+ID: "2dc49e07-d910-4aa0-abdc-6b8ff7a46358"
 Parent: "381f3873-f6fa-49b9-835b-869fa92c5f8a"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: "/sitecore/content/retail/forma-lux/Presentation/Styles/Promo/Hide Promo Quotes"
@@ -12,7 +12,7 @@ SharedFields:
   Value: "{CCD11802-22A3-462F-92FC-821515E2AEC8}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "91711659-a43f-43da-8120-184456a450be"
+  Value: "bd5b9656-8e02-4e40-8508-4b197040dea8"
 Languages:
 - Language: en
   Versions:
@@ -20,7 +20,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20251029T110224Z
+      Value: 20251103T091016Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -31,11 +31,11 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "536bd009-d800-42de-8efb-7229bf5580d4"
+      Value: "d6bcfda3-baba-408f-911e-56527fd5afaf"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251030T084059Z
+      Value: 20251103T091038Z

@@ -16,7 +16,7 @@ SharedFields:
     <image mediaid="{0B081450-C058-43DA-9F4C-A6083D93066D}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "82adebfe-4ef9-4ab2-80e3-c6397fd08c15"
+  Value: "c7f60469-eb97-4361-9de9-02262549cbc6"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -102,14 +102,14 @@ Languages:
       Value: "<p>At Forma Lux, we blend timeless design with modern expression to create interiors that reflect individuality and elegance. Guided by a passion for curated living, we design furnishings that go beyond trend — crafted for those who live boldly and style deeply. Our philosophy is rooted in balance: between form and function, subtlety and statement, simplicity and richness.</p>"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "56b28f89-6c23-48fb-8761-513f51c4cd3c"
+      Value: "030111d0-e246-4362-9bef-77ad8b60beeb"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251029T122727Z
+      Value: 20251008T153901Z
 - Language: "es-ES"
   Versions:
   - Version: 1
