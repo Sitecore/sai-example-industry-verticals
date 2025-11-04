@@ -6,6 +6,7 @@ import AccentLine from '@/assets/icons/accent-line/AccentLine';
 import ProductCarousel from '../non-sitecore/ProductCarousel';
 import { SitecoreItem } from '@/types/common';
 import { Product } from '@/types/products';
+import { CommonStyles } from '@/types/styleFlags';
 
 interface Fields {
   Title: Field<string>;
@@ -19,7 +20,7 @@ interface RelatedProductsProps extends ComponentProps {
 
 export const Default = (props: RelatedProductsProps): JSX.Element => {
   const { styles, RenderingIdentifier: id } = props.params;
-  const hideAccentLine = isParamEnabled(props.params.HideAccentLine);
+  const hideAccentLine = props?.params?.styles?.includes(CommonStyles.HideAccentLine);
   const autoPlay = isParamEnabled(props.params.Autoplay);
   const loop = isParamEnabled(props.params.Loop);
 
