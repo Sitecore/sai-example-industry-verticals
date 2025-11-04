@@ -1,0 +1,71 @@
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-body text-foreground bg-background text-base;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading text-foreground leading-[1.3] font-bold;
+  }
+
+  h1 {
+    @apply text-5xl lg:text-6xl;
+  }
+
+  h2 {
+    @apply text-4xl lg:text-5xl;
+  }
+
+  h3 {
+    @apply text-3xl lg:text-4xl;
+  }
+
+  h4 {
+    @apply text-2xl lg:text-3xl;
+  }
+
+  h5 {
+    @apply text-xl lg:text-2xl;
+  }
+
+  h6 {
+    @apply text-lg lg:text-xl;
+  }
+
+  p {
+    @apply font-body text-foreground-light;
+  }
+
+  button:not(:disabled),
+  [role='button']:not(:disabled) {
+    @apply cursor-pointer;
+  }
+
+  *::placeholder {
+    @apply text-foreground-light;
+  }
+
+  .eyebrow {
+    @apply text-accent text-lg font-semibold tracking-[0.175em] uppercase;
+  }
+
+  .image-cover {
+    @apply h-full w-full object-cover;
+  }
+
+  .image-contain {
+    @apply h-full w-full object-cover;
+  }
+
+  .custom-scrollbar {
+    @apply [&::-webkit-scrollbar-thumb]:bg-foreground-muted [&::-webkit-scrollbar-track]:bg-background-surface [&::-webkit-scrollbar]:w-1 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:rounded-full;
+  }
+}

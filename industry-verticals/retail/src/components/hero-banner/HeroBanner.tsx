@@ -9,9 +9,9 @@ import {
   Placeholder,
 } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from '@/lib/component-props';
-import { isParamEnabled } from '@/helpers/isParamEnabled';
 import AccentLine from '@/assets/icons/accent-line/AccentLine';
 import { ExploreLink } from '../non-sitecore/ExploreLink';
+import { CommonStyles, HeroBannerStyles, LayoutStyles } from '@/types/styleFlags';
 
 interface Fields {
   Image: ImageField;
@@ -35,7 +35,7 @@ const HeroBannerCommon = ({
   const { page } = useSitecore();
   const { styles, RenderingIdentifier: id } = params;
   const isPageEditing = page.mode.isEditing;
-  const hideGradientOverlay = isParamEnabled(params.HideGradientOverlay);
+  const hideGradientOverlay = styles?.includes(HeroBannerStyles.HideGradientOverlay);
 
   if (!fields) {
     return isPageEditing ? (
@@ -83,9 +83,10 @@ const HeroBannerCommon = ({
 };
 
 export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
-  const hideAccentLine = isParamEnabled(params.HideAccentLine);
-  const withPlaceholder = isParamEnabled(params.WithPlaceholder);
-  const reverseLayout = isParamEnabled(params.ReverseLayout);
+  const styles = params.styles || '';
+  const hideAccentLine = styles.includes(CommonStyles.HideAccentLine);
+  const withPlaceholder = styles.includes(HeroBannerStyles.WithPlaceholder);
+  const reverseLayout = styles.includes(LayoutStyles.Reversed);
   const searchBarPlaceholderKey = `hero-banner-search-bar-${params.DynamicPlaceholderId}`;
 
   return (
@@ -128,9 +129,10 @@ export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
 };
 
 export const TopContent = ({ params, fields, rendering }: HeroBannerProps) => {
-  const hideAccentLine = isParamEnabled(params.HideAccentLine);
-  const withPlaceholder = isParamEnabled(params.WithPlaceholder);
-  const reverseLayout = isParamEnabled(params.ReverseLayout);
+  const styles = params.styles || '';
+  const hideAccentLine = styles.includes(CommonStyles.HideAccentLine);
+  const withPlaceholder = styles.includes(HeroBannerStyles.WithPlaceholder);
+  const reverseLayout = styles.includes(LayoutStyles.Reversed);
   const searchBarPlaceholderKey = `hero-banner-search-bar-${params.DynamicPlaceholderId}`;
 
   return (

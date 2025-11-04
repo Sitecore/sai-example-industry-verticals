@@ -10,11 +10,10 @@ import {
   Text,
 } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from 'lib/component-props';
-import { isParamEnabled } from '@/helpers/isParamEnabled';
-
 import clsx from 'clsx';
 import AccentLine from '@/assets/icons/accent-line/AccentLine';
 import { Quote } from '@/assets/icons/quote/Quote';
+import { CommonStyles, LayoutStyles, PromoFlags } from '@/types/styleFlags';
 
 interface Fields {
   PromoImageOne: ImageField;
@@ -34,13 +33,15 @@ type PromoImageGroupProps = Partial<
 };
 
 export type PromoProps = ComponentProps & {
+  params: { [key: string]: string };
   fields: Fields;
 };
 
 const isShadowClassActive = (val: boolean) => (val ? 'shadow-2xl' : '');
 
 export const PromoContent = ({ ...props }) => {
-  const isCurveLineVisible = !isParamEnabled(props.params.HideCurveLine);
+  const isAccentLineVisible = !props?.params?.styles?.includes(CommonStyles.HideAccentLine);
+
   return (
     <div className="space-y-5">
       <div className="eyebrow">
@@ -49,7 +50,7 @@ export const PromoContent = ({ ...props }) => {
 
       <h2 className="inline-block max-w-md">
         <Text field={props.fields.PromoTitle} />
-        {isCurveLineVisible && <AccentLine className="w-full max-w-xs" />}
+        {isAccentLineVisible && <AccentLine className="w-full max-w-xs" />}
       </h2>
 
       <div className="max-w-lg text-lg">
@@ -139,10 +140,13 @@ export const MultipleImageContainer = ({
 
 export const Default = (props: PromoProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-  const isPromoReversed = !isParamEnabled(props.params.Reversed) ? '' : 'order-last';
-  const showSingleImage = !isParamEnabled(props.params.ShowMultipleImages);
-  const withShapes = !isParamEnabled(props.params.HideShapes);
-  const withShadows = !isParamEnabled(props.params.HideShadows);
+  const isPromoReversed = !props?.params?.styles?.includes(LayoutStyles.Reversed)
+    ? ''
+    : 'order-last';
+  const showSingleImage = !props?.params?.styles?.includes(PromoFlags.ShowMultipleImages);
+  const withShapes = !props?.params?.styles?.includes(PromoFlags.HidePromoShapes);
+  const withShadows = !props?.params?.styles?.includes(PromoFlags.HidePromoShadows);
+
   const justifyContentClass = !showSingleImage ? 'justify-self-start' : '';
   const firstColumnSize = showSingleImage ? 'lg:col-span-6' : 'lg:col-span-7';
   const secondColumnSize = showSingleImage ? 'lg:col-span-6' : 'lg:col-span-5';
@@ -178,7 +182,9 @@ export const Default = (props: PromoProps): JSX.Element => {
 
 export const WithFullImage = (props: PromoProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-  const isPromoReversed = !isParamEnabled(props.params.Reversed) ? ' flex-col' : 'flex-col-reverse';
+  const isPromoReversed = !props?.params?.styles?.includes(LayoutStyles.Reversed)
+    ? ' flex-col'
+    : 'flex-col-reverse';
 
   return (
     <section className={`${props.params.styles} py-20`} id={id ? id : undefined}>
@@ -214,8 +220,8 @@ export const WithFullImage = (props: PromoProps): JSX.Element => {
 
 export const WithQuote = (props: PromoProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-  const withQuote = !isParamEnabled(props.params.HideQuote);
-  const isReversed = !isParamEnabled(props.params.Reversed);
+  const withQuote = !props?.params?.styles?.includes(PromoFlags.HidePromoQuotes);
+  const isReversed = !props?.params?.styles?.includes(LayoutStyles.Reversed);
 
   const classesWhenReversed = {
     container: isReversed ? 'container-align-left' : 'container-align-right',

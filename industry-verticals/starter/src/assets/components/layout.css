@@ -1,0 +1,109 @@
+/* Background layout */
+.cover-background {
+  > .component-content {
+    @apply bg-cover bg-center bg-no-repeat;
+  }
+}
+
+.fix-background {
+  > .component-content {
+    @apply bg-cover bg-fixed bg-top-left bg-no-repeat;
+  }
+}
+
+/* This doesn't really do what it says - we may need to rework it */
+.parallax-background {
+  > .component-content {
+    @apply bg-cover bg-fixed bg-position-[50%_0] bg-no-repeat max-md:bg-scroll;
+  }
+}
+
+/* Background color  */
+/* &:not(.container) - full width container and other full width components - color from edge to edge */
+/* &.container > .component-content - centered container - color only the content to align with grid */
+
+.container-clean-background {
+  &:not(.container),
+  &.container > .component-content {
+    @apply bg-background;
+  }
+}
+
+.container-color-background {
+  > .component-content {
+    @apply border-background-accent;
+  }
+
+  &:not(.container),
+  &.container > .component-content {
+    @apply bg-background-accent border-background-accent;
+  }
+}
+
+.container-dark-background {
+  > .component-content {
+    @apply border-accent;
+  }
+
+  &:not(.container),
+  &.container > .component-content {
+    @apply bg-accent border-accent text-background;
+
+    * {
+      @apply text-inherit;
+    }
+  }
+}
+
+.container-gray-background {
+  > .component-content {
+    @apply border-background-muted;
+  }
+
+  &:not(.container),
+  &.container > .component-content {
+    @apply bg-background-muted border-background-muted;
+  }
+}
+
+/* Spacing */
+/* Using padding for the sides so it doesn't break the grid widths */
+.indent {
+  @apply px-12;
+}
+
+.indent-top {
+  @apply mt-6;
+}
+
+.indent-bottom {
+  @apply mb-6;
+}
+
+/* Content alignment */
+.position-left,
+.position-left * {
+  text-align: left !important;
+}
+
+.position-right,
+.position-right * {
+  text-align: right !important;
+}
+
+.position-center,
+.position-center * {
+  text-align: center !important;
+}
+
+.position-left select {
+  direction: ltr !important;
+}
+
+.position-right select {
+  direction: rtl !important;
+}
+
+.position-center select {
+  text-align-last: center !important;
+}

@@ -1,6 +1,6 @@
 import AccentLine from '@/assets/icons/accent-line/AccentLine';
-import { isParamEnabled } from '@/helpers/isParamEnabled';
 import { ComponentProps } from '@/lib/component-props';
+import { CommonStyles } from '@/types/styleFlags';
 import { Field, Link, LinkField, Placeholder, Text } from '@sitecore-content-sdk/nextjs';
 
 interface Fields {
@@ -14,7 +14,7 @@ interface SectionWrapperProps extends ComponentProps {
 
 export const Default = ({ params, fields, rendering }: SectionWrapperProps) => {
   const { styles, RenderingIdentifier: id } = params;
-  const hideAccentLine = isParamEnabled(params.HideAccentLine);
+  const hideAccentLine = styles?.includes(CommonStyles.HideAccentLine);
   const placeholderKey = `section-wrapper-content-${params.DynamicPlaceholderId}`;
 
   return (

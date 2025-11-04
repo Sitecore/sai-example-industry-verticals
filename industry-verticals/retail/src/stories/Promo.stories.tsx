@@ -7,12 +7,13 @@ import {
   createRichTextField,
   createTextField,
 } from './helpers/createFields';
-import { boolToSitecoreCheckbox } from './helpers/boolToSitecoreCheckbox';
 import {
   BackgroundColorArgs,
   backgroundColorArgTypes,
   defaultBackgroundColorArgs,
 } from './common/commonControls';
+import clsx from 'clsx';
+import { CommonStyles, LayoutStyles, PromoFlags } from '@/types/styleFlags';
 
 type StoryProps = PromoProps &
   BackgroundColorArgs & {
@@ -97,14 +98,19 @@ export const Default: Story = {
     HideQuote: { table: { disable: true } },
   },
   render: (args) => {
+    const promoStyles = clsx(
+      baseParams.styles,
+      args.BackgroundColor,
+      args.Reversed && LayoutStyles.Reversed,
+      args.ShowMultipleImages && PromoFlags.ShowMultipleImages,
+      args.HideShapes && PromoFlags.HidePromoShapes,
+      args.HideShadows && PromoFlags.HidePromoShadows,
+      args.HideCurveLine && CommonStyles.HideAccentLine
+    );
+
     const params = {
       ...baseParams,
-      styles: `${baseParams.styles} ${args.BackgroundColor}`,
-      ShowMultipleImages: boolToSitecoreCheckbox(args.ShowMultipleImages),
-      Reversed: boolToSitecoreCheckbox(args.Reversed),
-      HideCurveLine: boolToSitecoreCheckbox(args.HideCurveLine),
-      HideShapes: boolToSitecoreCheckbox(args.HideShapes),
-      HideShadows: boolToSitecoreCheckbox(args.HideShadows),
+      styles: promoStyles,
     };
     return <Promo params={params} rendering={baseRendering} fields={baseFields} />;
   },
@@ -119,10 +125,14 @@ export const WideImagePromo: Story = {
     HideQuote: { table: { disable: true } },
   },
   render: (args) => {
+    const promoStyles = clsx(
+      baseParams.styles,
+      args.BackgroundColor,
+      args.Reversed && LayoutStyles.Reversed
+    );
     const params = {
       ...baseParams,
-      styles: `${baseParams.styles} ${args.BackgroundColor}`,
-      Reversed: boolToSitecoreCheckbox(args.Reversed),
+      styles: promoStyles,
     };
     return <WithFullImage params={params} rendering={baseRendering} fields={baseFields} />;
   },
@@ -131,16 +141,20 @@ export const WideImagePromo: Story = {
 export const QuotePromo: Story = {
   argTypes: {
     ShowMultipleImages: { table: { disable: true } },
-    HideCurveLine: { table: { disable: true } },
     HideShapes: { table: { disable: true } },
     HideShadows: { table: { disable: true } },
   },
   render: (args) => {
+    const promoStyles = clsx(
+      baseParams.styles,
+      args.BackgroundColor,
+      args.Reversed && LayoutStyles.Reversed,
+      args.HideQuote && PromoFlags.HidePromoQuotes,
+      args.HideCurveLine && CommonStyles.HideAccentLine
+    );
     const params = {
       ...baseParams,
-      styles: `${baseParams.styles} ${args.BackgroundColor}`,
-      HideQuote: boolToSitecoreCheckbox(args.HideQuote),
-      Reversed: boolToSitecoreCheckbox(args.Reversed),
+      styles: promoStyles,
     };
     return <WithQuote params={params} rendering={baseRendering} fields={baseFields} />;
   },

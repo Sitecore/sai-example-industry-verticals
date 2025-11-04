@@ -12,6 +12,8 @@ import {
   backgroundColorArgTypes,
   defaultBackgroundColorArgs,
 } from './common/commonControls';
+import clsx from 'clsx';
+import { CommonStyles } from '@/types/styleFlags';
 
 type StoryProps = ComponentProps<typeof SectionWrapper> &
   BackgroundColorArgs & {
@@ -67,7 +69,11 @@ export const Default: Story = {
     const params = {
       ...baseParams,
       HideAccentLine: boolToSitecoreCheckbox(args.hideAccentLine),
-      styles: `${baseParams.styles} ${args.BackgroundColor}`,
+      styles: clsx(
+        baseParams.styles,
+        args.BackgroundColor,
+        args.hideAccentLine && CommonStyles.HideAccentLine
+      ),
     };
 
     return <SectionWrapper params={params} fields={baseFields} rendering={baseRendering} />;
@@ -79,7 +85,11 @@ export const WithPlaceholderData: Story = {
     const params = {
       ...baseParams,
       HideAccentLine: boolToSitecoreCheckbox(args.hideAccentLine),
-      styles: `${baseParams.styles} ${args.BackgroundColor}`,
+      styles: clsx(
+        baseParams.styles,
+        args.BackgroundColor,
+        args.hideAccentLine && CommonStyles.HideAccentLine
+      ),
     };
     const rendering = {
       ...baseRendering,

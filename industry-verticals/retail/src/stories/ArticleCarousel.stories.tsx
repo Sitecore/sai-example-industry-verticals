@@ -6,13 +6,14 @@ import {
 } from '../components/article-carousel/ArticleCarousel';
 import { createLinkField, createRichTextField, createTextField } from './helpers/createFields';
 import { createMockArticles } from './helpers/createItems';
-import { boolToSitecoreCheckbox } from './helpers/boolToSitecoreCheckbox';
 import {
   backgroundColorArgTypes,
   BackgroundColorArgs,
   defaultBackgroundColorArgs,
 } from './common/commonControls';
 import { expect, userEvent, within } from 'storybook/test';
+import clsx from 'clsx';
+import { LayoutStyles } from '@/types/styleFlags';
 
 type StoryProps = CarouselProps &
   BackgroundColorArgs & {
@@ -79,10 +80,15 @@ export const Default: Story = {
       Articles: createMockArticles(args.numberOfArticles),
     };
 
+    const articleCarouselStyles = clsx(
+      baseParams.styles,
+      args.BackgroundColor,
+      args.reversed && LayoutStyles.Reversed
+    );
+
     const params = {
       ...baseParams,
-      styles: `${baseParams.styles} ${args.BackgroundColor}`,
-      Reversed: boolToSitecoreCheckbox(args.reversed),
+      styles: articleCarouselStyles,
     };
 
     return <ArticleCarousel params={params} rendering={baseRendering} fields={fields} />;
