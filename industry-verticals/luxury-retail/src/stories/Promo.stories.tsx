@@ -59,7 +59,7 @@ const baseFields = {
   PromoTitle: createTextField('Introducing the essence of nordic comfort'),
   PromoDescription: createRichTextField(1, 'paragraphs'),
   PromoSubTitle: createTextField('Materials'),
-  PromoMoreInfo: createLinkField('+ Add to Cart'),
+  PromoMoreInfo: createLinkField('Explore More'),
 };
 
 export const Default: Story = {
