@@ -53,7 +53,7 @@ export const topLevelPages = [
     Styles: ['level1', 'item1', 'even'],
     Children: [
       {
-        ...createNavItem('Seasonal Picks Long Long Title Like This'),
+        ...createNavItem('Seasonal Picks'),
         Styles: ['level2', 'item0', 'odd', 'first'],
       },
       {
