@@ -11,7 +11,6 @@ import {
   useSitecore,
 } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from 'lib/component-props';
-import { isParamEnabled } from '@/helpers/isParamEnabled';
 
 interface Fields {
   PromoImageOne: ImageField;
@@ -27,7 +26,7 @@ export type PromoProps = ComponentProps & {
 
 export const Default = (props: PromoProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-  const isPromoReversed = isParamEnabled(props.params.Reversed) ? 'order-last' : '';
+  const isPromoReversed = props?.params?.styles?.includes('reversed') ? 'order-last' : '';
   const { page } = useSitecore();
   const isPageEditing = page.mode.isEditing;
 
