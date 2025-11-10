@@ -6,12 +6,6 @@ export enum LayoutStyles {
   Reversed = 'reversed',
 }
 
-export enum ProductDetailFlags {
-  ShowCompareButton = 'show-compare-button',
-  ShowAddtoCartButton = 'show-add-to-cart-button',
-  ShowAddtoWishlistButton = 'show-add-to-wishlist-button',
-}
-
 export enum PromoFlags {
   PromoReversed = 'promo-reversed',
   ShowMultipleImages = 'show-multiple-images',
