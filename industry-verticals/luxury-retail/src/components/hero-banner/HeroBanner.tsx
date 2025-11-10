@@ -41,7 +41,7 @@ const HeroBannerCommon = ({
 
   return (
     <div
-      className={`component hero-banner ${styles} relative flex min-h-screen items-center`}
+      className={`component hero-banner ${styles} relative flex min-h-screen flex-col items-center`}
       id={id}
     >
       {/* Background Media */}
@@ -82,7 +82,7 @@ export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
 
   return (
     <HeroBannerCommon params={params} fields={fields} rendering={rendering}>
-      <div className="relative flex h-full w-full items-end">
+      <div className="relative flex h-full w-full flex-grow items-end">
         <div className="container mx-auto flex h-full items-end px-4 py-6">
           <div
             className={`flex w-full ${
@@ -90,19 +90,11 @@ export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
             }`}
           >
             <div>
-              <h1
-                className={`font-heading text-background-muted text-4xl tracking-tight capitalize lg:text-7xl ${
-                  reverseLayout ? 'text-right' : 'text-left'
-                }`}
-              >
+              <h1 className="font-heading text-background-muted text-4xl tracking-tight capitalize lg:text-7xl">
                 <ContentSdkText field={fields.Title} />
               </h1>
 
-              <div
-                className={`text-background-muted text-md lg:text-xl ${
-                  reverseLayout ? 'text-right' : 'text-left'
-                }`}
-              >
+              <div className="text-background-muted text-md lg:text-xl">
                 <ContentSdkRichText field={fields.Description} />
               </div>
             </div>
@@ -120,7 +112,7 @@ export const TopContent = ({ params, fields, rendering }: HeroBannerProps) => {
 
   return (
     <HeroBannerCommon params={params} fields={fields} rendering={rendering}>
-      <div className="relative flex h-full w-full items-start">
+      <div className="relative flex h-full w-full flex-grow items-start">
         <div className="container mx-auto flex h-full items-start">
           <div
             className={`flex w-full ${
@@ -128,19 +120,11 @@ export const TopContent = ({ params, fields, rendering }: HeroBannerProps) => {
             }`}
           >
             <div className="">
-              <h1
-                className={`font-heading text-background-muted text-4xl tracking-tight capitalize lg:text-7xl ${
-                  reverseLayout ? 'text-left' : 'text-right'
-                }`}
-              >
+              <h1 className="font-heading text-background-muted text-4xl tracking-tight capitalize lg:text-7xl">
                 <ContentSdkText field={fields.Title} />
               </h1>
 
-              <div
-                className={`text-background-muted text-md lg:text-xl ${
-                  reverseLayout ? 'text-left' : 'text-right'
-                }`}
-              >
+              <div className="text-background-muted text-md lg:text-xl">
                 <ContentSdkRichText field={fields.Description} />
               </div>
             </div>
