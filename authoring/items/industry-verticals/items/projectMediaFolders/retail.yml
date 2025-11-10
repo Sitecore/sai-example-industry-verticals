@@ -3,13 +3,6 @@ ID: "14e8f1a9-6efb-48da-950c-66f6e3d204f0"
 Parent: "90ae357f-6171-4ea9-808c-5600b678f726"
 Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
 Path: /sitecore/media library/Project/retail
-SharedFields:
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 200
-- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
-  Hint: __Shared revision
-  Value: "984f80b1-2640-4933-bd85-d62bf3c15b0d"
 Languages:
 - Language: en
   Versions:
@@ -28,11 +21,11 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "aaa6e8e9-1ad8-4728-97d8-8a2caf0daf68"
+      Value: "ddfb8f49-1c2e-4805-befd-8e700ccd4036"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\neli.kostadinova@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251106T095118Z
+      Value: 20250820T091615Z

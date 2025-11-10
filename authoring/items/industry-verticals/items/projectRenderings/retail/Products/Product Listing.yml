@@ -39,9 +39,6 @@ SharedFields:
                     image1 {
                       jsonValue
                     }
-                    image2 {
-                      jsonValue
-                    }
                     category {
                       jsonValue
                     }
@@ -71,9 +68,6 @@ SharedFields:
                 jsonValue
               }
               image1 {
-                jsonValue
-              }
-              image2 {
                 jsonValue
               }
               category {
@@ -114,7 +108,7 @@ SharedFields:
   Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "6090ab7c-c86f-4bb7-84f0-76efc6d1db36"
+  Value: "ce5d8332-cdd9-4453-b01e-ab2a887e5690"
 - ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
   Hint: OtherProperties
   Value: IsRenderingsWithDynamicPlaceholders=true&UsePlaceholderDatasourceContext=true
@@ -167,14 +161,14 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e039f54e-e14f-451f-afde-a0b43de5ae22"
+      Value: "1a9424c3-6527-45cc-9e8f-13e5cbf067a1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251107T110751Z
+      Value: 20251020T123856Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
