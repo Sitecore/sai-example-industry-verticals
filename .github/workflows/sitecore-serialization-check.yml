@@ -1,0 +1,93 @@
+name: Sitecore Serialization Check
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  check-serialization:
+    name: Check for serialized YAML changes
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      pull-requests: write
+
+    env:
+      SERIALIZATION_REGEX: '^xmc-retail-demo/authoring/items/.*\.ya?ml$'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fetch base branch
+        run: |
+          git fetch origin "${{ github.base_ref }}:${{ github.base_ref }}"
+
+      - name: List changed files
+        id: diff
+        run: |
+          echo "Base: ${{ github.base_ref }}"
+          echo "Head: ${{ github.head_ref }}"
+          git diff --name-only origin/${{ github.base_ref }}...HEAD | tee changed_files.txt
+
+      - name: Check for serialized YAML changes
+        id: check
+        run: |
+          if grep -qE "${SERIALIZATION_REGEX}" changed_files.txt; then
+            echo "found=true" >> $GITHUB_OUTPUT
+          else
+            echo "found=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Comment warning if none found
+        if: steps.check.outputs.found == 'false'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.pull_request.number,
+            });
+
+            // Identify and delete any previous "No serialized YAML" warning comments
+            const warningComments = comments.filter(c =>
+              c.body.includes('dotnet sitecore ser pull')
+            );
+
+            for (const comment of warningComments) {
+              await github.rest.issues.deleteComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: comment.id,
+              });
+              console.log(`Deleted old warning comment ID: ${comment.id}`);
+            }
+
+            const body = [
+              ">  **WARNING:** No serialized YAML changes detected in this PR.",
+              ">",
+              "> If your PR modifies Sitecore items (templates, renderings, placeholders, or content definitions), you must serialize them before merging.",
+              ">",
+              "> **Run the following command:**",
+              "> ```bash",
+              "> dotnet sitecore ser pull",
+              "> ```",
+              "> Then commit the generated YAML files under:",
+              "> `Sitecore.Demo.XMCloud.IndustryVerticals.SiteTemplates/authoring/items/`",
+              "",
+              "---",
+              `_Commit ID: ${context.payload.pull_request.head.sha}_`,
+              "",
+              "_This is an automated reminder to ensure all Sitecore item changes are properly serialized before merging._"
+            ].join("\n");
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.pull_request.number,
+              body
+            });
