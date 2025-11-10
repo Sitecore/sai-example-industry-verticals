@@ -33,6 +33,7 @@ export interface ProductIGQL {
   title: IGQLField<Field<string>>;
   price: IGQLField<Field<number>>;
   image1: IGQLField<ImageField>;
+  image2: IGQLField<ImageField>;
   category: IGQLField<Category>;
   url: {
     path: string;
