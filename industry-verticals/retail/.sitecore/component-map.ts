@@ -1,9 +1,9 @@
 // Below are built-in components that are available in the app, it's recommended to keep them as is
+
 import { BYOCWrapper, NextjsContentSdkComponent, FEaaSWrapper } from '@sitecore-content-sdk/nextjs';
 import { Form } from '@sitecore-content-sdk/nextjs';
-// end of built-in components
 
-// Components imported from the app itself
+// end of built-in components
 import * as Title from 'src/components/title/Title';
 import * as Subscribe from 'src/components/subscribe/Subscribe';
 import * as SocialFollow from 'src/components/social-follow/SocialFollow';
@@ -38,44 +38,43 @@ import * as ArticleDetails from 'src/components/article-details/ArticleDetails';
 import * as ArticleCarousel from 'src/components/article-carousel/ArticleCarousel';
 import * as AllProductsCarousel from 'src/components/all-products-carousel/AllProductsCarousel';
 
-// Components must be registered within the map to match the string key with component name in Sitecore
 export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['BYOCWrapper', BYOCWrapper],
   ['FEaaSWrapper', FEaaSWrapper],
   ['Form', Form],
-  ['Title', Title],
-  ['Subscribe', Subscribe],
-  ['SocialFollow', SocialFollow],
-  ['SocialFeed', SocialFeed],
-  ['SectionWrapper', SectionWrapper],
-  ['RowSplitter', RowSplitter],
-  ['RichText', RichText],
-  ['ReviewsCarousel', ReviewsCarousel],
-  ['RelatedProducts', RelatedProducts],
-  ['Promo', Promo],
-  ['ProductListing', ProductListing],
-  ['ProductDetails', ProductDetails],
-  ['PartialDesignDynamicPlaceholder', PartialDesignDynamicPlaceholder],
-  ['PageContent', PageContent],
-  ['Offers', Offers],
-  ['NavigationIcons', NavigationIcons],
-  ['Navigation', Navigation],
-  ['LinkList', LinkList],
-  ['LanguageSwitcher', LanguageSwitcher],
-  ['Image', Image],
-  ['HeroBanner', HeroBanner],
-  ['Header', Header],
-  ['Footer', Footer],
-  ['Features', Features],
-  ['ContentBlock', ContentBlock],
-  ['Container', Container],
-  ['ContactForm', ContactForm],
-  ['ColumnSplitter', ColumnSplitter],
-  ['Breadcrumb', Breadcrumb],
-  ['ArticleListing', ArticleListing],
-  ['ArticleDetails', ArticleDetails],
-  ['ArticleCarousel', ArticleCarousel],
-  ['AllProductsCarousel', AllProductsCarousel],
+  ['Title', { ...Title }],
+  ['Subscribe', { ...Subscribe }],
+  ['SocialFollow', { ...SocialFollow }],
+  ['SocialFeed', { ...SocialFeed }],
+  ['SectionWrapper', { ...SectionWrapper }],
+  ['RowSplitter', { ...RowSplitter }],
+  ['RichText', { ...RichText }],
+  ['ReviewsCarousel', { ...ReviewsCarousel }],
+  ['RelatedProducts', { ...RelatedProducts }],
+  ['Promo', { ...Promo }],
+  ['ProductListing', { ...ProductListing }],
+  ['ProductDetails', { ...ProductDetails }],
+  ['PartialDesignDynamicPlaceholder', { ...PartialDesignDynamicPlaceholder }],
+  ['PageContent', { ...PageContent }],
+  ['Offers', { ...Offers }],
+  ['NavigationIcons', { ...NavigationIcons }],
+  ['Navigation', { ...Navigation, componentType: 'client' }],
+  ['LinkList', { ...LinkList }],
+  ['LanguageSwitcher', { ...LanguageSwitcher, componentType: 'client' }],
+  ['Image', { ...Image }],
+  ['HeroBanner', { ...HeroBanner }],
+  ['Header', { ...Header }],
+  ['Footer', { ...Footer }],
+  ['Features', { ...Features }],
+  ['ContentBlock', { ...ContentBlock }],
+  ['Container', { ...Container }],
+  ['ContactForm', { ...ContactForm, componentType: 'client' }],
+  ['ColumnSplitter', { ...ColumnSplitter }],
+  ['Breadcrumb', { ...Breadcrumb }],
+  ['ArticleListing', { ...ArticleListing }],
+  ['ArticleDetails', { ...ArticleDetails }],
+  ['ArticleCarousel', { ...ArticleCarousel, componentType: 'client' }],
+  ['AllProductsCarousel', { ...AllProductsCarousel }],
 ]);
 
 export default componentMap;
