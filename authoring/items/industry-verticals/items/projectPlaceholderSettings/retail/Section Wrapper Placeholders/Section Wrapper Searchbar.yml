@@ -1,15 +1,15 @@
 ﻿---
-ID: "14e8f1a9-6efb-48da-950c-66f6e3d204f0"
-Parent: "90ae357f-6171-4ea9-808c-5600b678f726"
-Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
-Path: /sitecore/media library/Project/retail
+ID: "0b08f5e4-d809-4b6e-b1ab-0df6488dae67"
+Parent: "3c331428-4068-4700-84c0-8793abf09b3b"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/Project/retail/Section Wrapper Placeholders/Section Wrapper Searchbar
 SharedFields:
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 200
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "section-wrapper-searchbar-{*}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "984f80b1-2640-4933-bd85-d62bf3c15b0d"
+  Value: "7b657cfb-1123-4759-b107-d36ba723492b"
 Languages:
 - Language: en
   Versions:
@@ -17,7 +17,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250820T091615Z
+      Value: 20251110T102654Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -28,11 +28,11 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "aaa6e8e9-1ad8-4728-97d8-8a2caf0daf68"
+      Value: "1c07731a-08a6-40fa-a758-580210443f1b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\neli.kostadinova@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251106T095118Z
+      Value: 20251110T102714Z

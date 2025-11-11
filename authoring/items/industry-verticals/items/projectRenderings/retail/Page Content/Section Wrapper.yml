@@ -9,7 +9,9 @@ SharedFields:
   Value: SectionWrapper
 - ID: "069a8361-b1cd-437c-8c32-a3be78941446"
   Hint: Placeholders
-  Value: "{AC1010A0-934B-4A42-803C-CD9139C99AC1}"
+  Value: |
+    {AC1010A0-934B-4A42-803C-CD9139C99AC1}
+    {0B08F5E4-D809-4B6E-B1AB-0DF6488DAE67}
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
   Value: Office/32x32/gauze_bandage.png
@@ -21,7 +23,7 @@ SharedFields:
   Value: 0
 - ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
   Hint: __Read Only
-  Value: 0
+  Value: 
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
   Value: "{E34ECA29-A20D-498C-A429-D548A7110FE3}"
@@ -33,7 +35,7 @@ SharedFields:
   Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "74f0e924-c859-45fe-bcdb-240bdd7848e5"
+  Value: "4ad10fac-264c-4cd4-b947-473ac50b2bd6"
 - ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
   Hint: OtherProperties
   Value: IsRenderingsWithDynamicPlaceholders=true
@@ -74,7 +76,7 @@ Languages:
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "64c616d7-79d8-44e3-b673-1b93bdbf5f88"
+    Value: "d954ed41-5470-464c-baaa-3711a31e95dc"
   Versions:
   - Version: 1
     Fields:
@@ -87,14 +89,14 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "61dad9d0-bbfd-43c1-97f2-d7aa3a61ed89"
+      Value: "c63ad926-eb69-409d-9b33-da1d55864865"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\neli.kostadinova@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250930T125254Z
+      Value: 20251110T111023Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
