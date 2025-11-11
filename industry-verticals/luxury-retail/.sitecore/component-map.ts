@@ -17,6 +17,7 @@ import * as LanguageSwitcher from 'src/components/language-switcher/LanguageSwit
 import * as Image from 'src/components/image/Image';
 import * as HeroBanner from 'src/components/hero-banner/HeroBanner';
 import * as Header from 'src/components/header/Header';
+import * as Features from 'src/components/features/Features';
 import * as ContentBlock from 'src/components/content-block/ContentBlock';
 import * as Container from 'src/components/container/Container';
 import * as ColumnSplitter from 'src/components/column-splitter/ColumnSplitter';
@@ -40,6 +41,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Image', Image],
   ['HeroBanner', HeroBanner],
   ['Header', Header],
+  ['Features', Features],
   ['ContentBlock', ContentBlock],
   ['Container', Container],
   ['ColumnSplitter', ColumnSplitter],
