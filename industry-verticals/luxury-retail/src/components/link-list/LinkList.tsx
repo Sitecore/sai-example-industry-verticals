@@ -28,10 +28,12 @@ const LinkListItem = ({
   index,
   total,
   field,
+  className,
 }: {
   index: number;
   total: number;
   field: LinkField;
+  className?: string;
 }) => {
   const classNames = [
     `item${index}`,
@@ -44,8 +46,8 @@ const LinkListItem = ({
 
   return (
     <li className={classNames}>
-      <div className="field-link">
-        <ContentSdkLink field={field} />
+      <div className={`field-link`}>
+        <ContentSdkLink field={field} className={className} />
       </div>
     </li>
   );
@@ -78,6 +80,38 @@ export const Default = ({ params, fields }: LinkListProps) => {
         <ul>{links}</ul>
       </>
     );
+  };
+
+  return (
+    <div className={styles} id={id}>
+      <div className="component-content">{renderContent()}</div>
+    </div>
+  );
+};
+
+export const SecondaryNavigation = ({ params, fields }: LinkListProps) => {
+  const datasource = fields?.data?.datasource;
+  const styles = `component link-list ${params.styles || ''}`.trim();
+  const id = params.RenderingIdentifier;
+
+  const renderContent = () => {
+    if (!datasource) {
+      return <h3>Link List</h3>;
+    }
+
+    const links = datasource.children.results
+      .filter((element) => element?.field?.link)
+      .map((element, index) => (
+        <LinkListItem
+          key={`${index}-${element.field?.link}`}
+          index={index}
+          total={datasource.children.results.length}
+          field={element.field.link}
+          className="navigation-item"
+        />
+      ));
+
+    return <ul className="flex gap-x-6 gap-y-4 text-xs [.drawer-content_&]:!flex-col">{links}</ul>;
   };
 
   return (
