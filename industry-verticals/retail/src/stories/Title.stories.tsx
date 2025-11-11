@@ -17,6 +17,8 @@ export default meta;
 
 type Story = StoryObj<StoryProps>;
 
+// type Story = StoryObj<StoryProps>;
+
 const baseParams = { ...CommonParams };
 
 const baseRendering = {
