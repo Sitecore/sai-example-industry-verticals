@@ -1,24 +1,27 @@
 @theme {
-  --color-foreground: #1e1e1e;
-  --color-foreground-light: #505050;
-  --color-foreground-muted: #9f9f9f;
+  --color-background: #ffffff;
+  --color-background-secondary: #f4fdfd;
+  --color-background-tertiary: #b8eff2;
+  --color-foreground: #023859;
 
-  --color-background: #fff;
-  --color-background-accent: #faf3ea;
-  --color-background-muted: #f7f7f7;
-  --color-background-muted-light: #7a7a7a;
-  --color-background-muted-dark: #666;
-  --color-background-surface: #fafafa;
+  --color-background-dark: #011119;
+  --color-background-secondary-dark: #047294;
+  --color-background-tertiary-dark: #023859;
+  --color-foreground-dark: #ffffff;
+  --color-foreground-secondary-dark: #b8eff2;
 
-  --color-accent: #c1a25f;
+  --color-accent: #6cd8c9;
+  --color-accent-muted: #a3ddcf;
 
-  --color-success: #2ec1ac;
-  --color-danger: #e97171;
+  --color-background-input: #e7f7f4;
+  --color-disabled: #dcdcdc;
+  --color-disabled-dark: #70a7b8;
 
-  --color-border: #e8e8e8;
+  --font-heading: 'Mulish', sans-serif;
+  --font-body: 'Noto Sans', sans-serif;
 
-  --font-heading: 'Manrope', sans-serif;
-  --font-body: 'Manrope', sans-serif;
+  --shadow-soft: 0px 3px 45px rgba(0, 0, 0, 0.16);
+  --background-image-hero-clip: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1601.7 992.77' preserveAspectRatio='none'%3E%3Cg fill='black'%3E%3Cpath d='M.83,636.38s121.41,339.4,484.75,353.09,578.3-16.53,644.58-66.01,469.84-402.66,469.84-402.66l1.7-520.8L0,.05l.83,636.33Z'/%3E%3C/g%3E%3C/svg%3E");
 
   --radius-base: 0.5rem;
 
