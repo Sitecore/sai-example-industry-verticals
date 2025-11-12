@@ -119,7 +119,7 @@ export const FourColGrid = (props: FeaturesProps) => {
 
           return (
             <div key={index} className="flex flex-col justify-center">
-              <h3 className="font-heading text-xl font-bold">
+              <h3 className="font-heading text-xl">
                 <Text field={title} />
               </h3>
 
