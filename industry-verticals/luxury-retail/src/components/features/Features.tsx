@@ -61,7 +61,7 @@ export const Default = (props: FeaturesProps) => {
         {/* Section Heading */}
         <div className="mb-10">
           {(title?.jsonValue || isPageEditing) && (
-            <h2 className="font-heading text-4xl md:text-5xl">
+            <h2 className="text-4xl md:text-5xl">
               <Text field={title.jsonValue} />
             </h2>
           )}
@@ -85,7 +85,7 @@ export const Default = (props: FeaturesProps) => {
                   <Image field={image} className="h-full w-full object-cover" />
                 </div>
 
-                <h3 className="font-heading text-2xl md:text-3xl">
+                <h3 className="text-2xl md:text-3xl">
                   <Text field={title} />
                 </h3>
 
@@ -119,7 +119,7 @@ export const FourColGrid = (props: FeaturesProps) => {
 
           return (
             <div key={index} className="flex flex-col justify-center">
-              <h3 className="font-heading text-xl">
+              <h3 className="text-xl font-bold">
                 <Text field={title} />
               </h3>
 
