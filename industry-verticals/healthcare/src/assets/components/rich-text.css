@@ -1,0 +1,62 @@
+.content,
+.rich-text {
+  @apply overflow-hidden;
+
+  * {
+    @apply max-w-full;
+  }
+}
+.content,
+.rich-text,
+.ck-content {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    &:not(:first-child) {
+      @apply mt-[1em];
+    }
+
+    &:not(:last-child) {
+      @apply mb-[0.5em];
+    }
+  }
+
+  p,
+  ul,
+  ol {
+    &:not(:last-child) {
+      @apply mb-4;
+    }
+  }
+
+  ul {
+    @apply text-foreground-light space-y-1 ps-6;
+
+    ul {
+      @apply my-2;
+    }
+  }
+
+  ol {
+    @apply text-foreground-light space-y-1 ps-6;
+
+    ol {
+      @apply my-2;
+    }
+  }
+}
+
+/* custom bullet points */
+.rich-text-lists {
+  ul {
+    li {
+      @apply relative list-none;
+
+      &:before {
+        @apply absolute top-0.5 -left-4.5 w-4 font-[FontAwesome] text-sm content-['\f046'];
+      }
+    }
+  }
+}

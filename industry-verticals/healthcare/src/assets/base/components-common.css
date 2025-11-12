@@ -1,0 +1,39 @@
+/* boxed */
+.boxed {
+  > div {
+    @apply mx-auto! max-w-5xl;
+  }
+}
+
+/* Add highlight */
+.highlighted-top,
+.highlighted-bottom,
+.highlighted-left,
+.highlighted-right {
+  > div {
+    @apply border-accent! my-6 p-6;
+  }
+}
+.highlighted-top > div {
+  @apply border-t;
+}
+
+.highlighted-bottom > div {
+  @apply border-b;
+}
+
+.highlighted-left > div {
+  @apply border-l;
+}
+
+.highlighted-right > div {
+  @apply border-r;
+}
+
+.main-btn {
+  @apply bg-accent text-background hover:bg-accent/95 flex items-center justify-center rounded-md p-3 text-center text-lg font-semibold transition-all hover:shadow-md;
+
+  &[disabled] {
+    @apply pointer-events-none opacity-60;
+  }
+}
