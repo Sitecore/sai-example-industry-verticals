@@ -70,3 +70,30 @@ export const Default = (props: PromoProps): JSX.Element => {
     </section>
   );
 };
+
+export const WithQuote = (props: PromoProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const isPromoReversed = props?.params?.styles?.includes('reversed');
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
+
+  return (
+    <section className={`${props.params.styles || ''} py-10 lg:py-30`} id={id ? id : undefined}>
+      <div className="container">
+        <div
+          className={`flex flex-col space-y-5 ${
+            isPromoReversed ? 'items-end text-right' : 'items-start text-left'
+          } `}
+        >
+          <div className="font-heading text-foreground text-4xl tracking-tight lg:text-7xl">
+            <ContentSdkRichText field={props.fields.PromoDescription} />
+          </div>
+
+          {(props.fields.PromoMoreInfo?.value?.href || isPageEditing) && (
+            <Link field={props.fields.PromoMoreInfo} className="outline-btn !inline-flex" />
+          )}
+        </div>
+      </div>
+    </section>
+  );
+};
