@@ -66,7 +66,7 @@ export const Default = (props: FeaturesProps) => {
             </h2>
           )}
           {(description?.jsonValue || isPageEditing) && (
-            <p className="text-foreground-muted mt-2 text-base">
+            <p className="mt-2 text-base">
               <Text field={description.jsonValue} />
             </p>
           )}
@@ -89,7 +89,7 @@ export const Default = (props: FeaturesProps) => {
                   <Text field={title} />
                 </h3>
 
-                <p className="text-foreground-muted mt-2 text-base md:text-lg">
+                <p className="mt-2 text-base md:text-lg">
                   <Text field={description} />
                 </p>
               </>
@@ -123,7 +123,7 @@ export const FourColGrid = (props: FeaturesProps) => {
                 <Text field={title} />
               </h3>
 
-              <p className="text-foreground-muted mt-2 text-base">
+              <p className="mt-2 text-base">
                 <Text field={description} />
               </p>
             </div>
