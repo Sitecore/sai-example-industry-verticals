@@ -37,6 +37,9 @@ SharedFields:
         title: field(name: "Title") {
           jsonValue
         }
+        description: field(name: "Description") {
+          jsonValue
+        }
       }
     }
     
@@ -66,7 +69,7 @@ SharedFields:
   Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "7f7a4003-51e1-4776-9421-0ad6d3180bc8"
+  Value: "3be2a775-9596-4451-8984-d2581216e5b3"
 - ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
   Hint: OtherProperties
   Value: IsRenderingsWithDynamicPlaceholders=true
@@ -123,14 +126,14 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d359d57c-4af6-4662-9ebe-b2b6690b5276"
+      Value: "62543952-0ff4-431e-aa63-d8ae5abc86e7"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251008T130833Z
+      Value: 20251111T122214Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
