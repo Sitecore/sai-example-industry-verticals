@@ -9,12 +9,13 @@ SharedFields:
   Value: "header-left-{*}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "89bfd8ec-14d8-440d-9ecf-7e142bcc0ea1"
+  Value: "bab09fc5-9f63-4d9b-8536-9a811ca2cbb5"
 - ID: "e391b526-d0c5-439d-803e-17512eae6222"
   Hint: Allowed Controls
   Value: |
     {C56EFAE9-39E8-45EB-8B59-D4BF2B71914E}
     {6C0D91D1-A92F-41BD-949B-423811202101}
+    {AB2EDBA0-3960-4F12-B765-579DC231894A}
 Languages:
 - Language: en
   Versions:
@@ -33,11 +34,11 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0ab2b7d6-458a-44d4-b8d1-f046f3789af6"
+      Value: "95ba404e-f7d6-4f1e-9c21-3e025566ff26"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\neli.kostadinova@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250903T132622Z
+      Value: 20251113T095303Z
