@@ -42,7 +42,7 @@ export const Default = (props: OfferProps) => {
 
   return (
     <div className={`component offers ${styles}`} id={id}>
-      <div className="flex justify-center px-4 py-2 md:justify-end md:px-0">
+      <div className="container flex justify-center px-4 py-2 md:justify-end md:px-0">
         <div className="text-accent flex w-full max-w-md items-center gap-3 text-sm lg:max-w-2xl lg:text-base">
           <button
             className={`swiper-btn-prev-${uid}`}
