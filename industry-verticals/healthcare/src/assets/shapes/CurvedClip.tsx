@@ -6,7 +6,7 @@ type CurvedClipProps = {
 
 const CurvedClip = ({ pos = 'top', className }: CurvedClipProps) => (
   <div
-    className={`absolute -${pos}-px left-0 right-0 !m-0 text-background dark:text-background-dark pointer-events-none z-0 ${className}`}
+    className={`absolute -${pos}-px text-background dark:text-background-dark pointer-events-none right-0 left-0 z-0 !m-0 ${className}`}
   >
     <svg
       xmlns="http://www.w3.org/2000/svg"
