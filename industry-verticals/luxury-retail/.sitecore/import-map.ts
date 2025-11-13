@@ -6,14 +6,16 @@ import { combineImportEntries, defaultImportEntries } from '@sitecore-content-sd
 import { Link, Text, useSitecore, Placeholder, RichText, NextImage, Image, CdpHelper, withDatasourceCheck } from '@sitecore-content-sdk/nextjs';
 import { useEffect, useState, useRef, useMemo, useCallback } from 'react';
 import React from 'react';
+import { ChevronLeft, ChevronRight, User, Heart, ShoppingCart, X, ArrowLeft, Check, Globe, Menu } from 'lucide-react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Navigation } from 'swiper/modules';
+import { isParamEnabled } from '@/helpers/isParamEnabled';
 import { useI18n } from 'next-localization';
 import QuantityControl from 'src/components/non-sitecore/QuantityControl';
 import { useLocale } from '@/hooks/useLocaleOptions';
 import { useCartAction } from '@/hooks/useCartAction';
 import { getCart } from '@/lib/cart';
 import { DrawerClose, Drawer, DrawerContent, DrawerTrigger } from '@/shadcn/components/ui/drawer';
-import { User, Heart, ShoppingCart, X, ArrowLeft, Check, Globe, Menu } from 'lucide-react';
-import { isParamEnabled } from '@/helpers/isParamEnabled';
 import { MiniCart } from 'src/components/non-sitecore/MiniCart';
 import { useClickAway } from '@/hooks/useClickAway';
 import { useStopResponsiveTransition } from '@/hooks/useStopResponsiveTransition';
@@ -57,6 +59,41 @@ const importMap = [
     ]
   },
   {
+    module: 'lucide-react',
+    exports: [
+      { name: 'ChevronLeft', value: ChevronLeft },
+      { name: 'ChevronRight', value: ChevronRight },
+      { name: 'User', value: User },
+      { name: 'Heart', value: Heart },
+      { name: 'ShoppingCart', value: ShoppingCart },
+      { name: 'X', value: X },
+      { name: 'ArrowLeft', value: ArrowLeft },
+      { name: 'Check', value: Check },
+      { name: 'Globe', value: Globe },
+      { name: 'Menu', value: Menu },
+    ]
+  },
+  {
+    module: 'swiper/react',
+    exports: [
+      { name: 'Swiper', value: Swiper },
+      { name: 'SwiperSlide', value: SwiperSlide },
+    ]
+  },
+  {
+    module: 'swiper/modules',
+    exports: [
+      { name: 'Autoplay', value: Autoplay },
+      { name: 'Navigation', value: Navigation },
+    ]
+  },
+  {
+    module: '@/helpers/isParamEnabled',
+    exports: [
+      { name: 'isParamEnabled', value: isParamEnabled },
+    ]
+  },
+  {
     module: 'next-localization',
     exports: [
       { name: 'useI18n', value: useI18n },
@@ -93,25 +130,6 @@ const importMap = [
       { name: 'Drawer', value: Drawer },
       { name: 'DrawerContent', value: DrawerContent },
       { name: 'DrawerTrigger', value: DrawerTrigger },
-    ]
-  },
-  {
-    module: 'lucide-react',
-    exports: [
-      { name: 'User', value: User },
-      { name: 'Heart', value: Heart },
-      { name: 'ShoppingCart', value: ShoppingCart },
-      { name: 'X', value: X },
-      { name: 'ArrowLeft', value: ArrowLeft },
-      { name: 'Check', value: Check },
-      { name: 'Globe', value: Globe },
-      { name: 'Menu', value: Menu },
-    ]
-  },
-  {
-    module: '@/helpers/isParamEnabled',
-    exports: [
-      { name: 'isParamEnabled', value: isParamEnabled },
     ]
   },
   {
