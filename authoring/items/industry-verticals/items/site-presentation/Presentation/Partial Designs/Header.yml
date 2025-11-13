@@ -13,7 +13,7 @@ SharedFields:
     <image mediaid="{1C2BA88C-07EA-4753-9123-23AAD9527B7D}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "04550abb-4a7f-4baf-8c8f-2259c4f9150d"
+  Value: "0cb612bf-8ffc-4d8a-a706-a1f6bc9b6f6d"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -43,8 +43,9 @@ SharedFields:
         <r
           uid="{7B29F928-62B7-4C22-82B6-9B81488A5990}"
           p:after="r[@uid='{7848AF20-533F-462E-95F7-7D9BF2CD3C5A}']"
-          s:id="{1DEB067F-0BB1-405E-94F5-2ABB537A6160}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BCFF73B2F-EC37-4A98-A032-154A8741FA50%7D&amp;Styles&amp;NavigationRoot&amp;LevelFrom=%7B1BB88840-5FB3-4353-AD8D-81136F6FF75A%7D&amp;LevelTo=%7B1BB88840-5FB3-4353-AD8D-81136F6FF75A%7D&amp;Filter=%7BD063E9D1-C7B5-4B1E-B31E-69886C9C59F5%7D&amp;Flattened&amp;AddRoot=1&amp;SerializerFieldNames&amp;Logo=%3Cimage%20mediaid%3D%228cc2a449-e23b-488c-bb23-3d7c7a07f6e7%22%20%2F%3E&amp;SimpleLayout&amp;RenderingIdentifier&amp;CSSStyles"
+          s:ds="48bf1c48-f030-47b5-9951-5501da088d34"
+          s:id="{9F65621E-1102-461C-BBEE-3FADCE8E0509}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BCFF73B2F-EC37-4A98-A032-154A8741FA50%7D&amp;Styles&amp;NavigationRoot&amp;LevelFrom=%7B1BB88840-5FB3-4353-AD8D-81136F6FF75A%7D&amp;LevelTo=%7BA59325BB-5A27-46F9-8110-9D499715F3BE%7D&amp;Filter=%7BD063E9D1-C7B5-4B1E-B31E-69886C9C59F5%7D&amp;Flattened&amp;AddRoot=1&amp;SerializerFieldNames&amp;SimpleLayout&amp;Logo=%3Cimage%20mediaid%3D%228cc2a449-e23b-488c-bb23-3d7c7a07f6e7%22%20%2F%3E&amp;RenderingIdentifier&amp;CSSStyles"
           s:ph="/headless-header/header-nav-1" />
         <r
           uid="{AF7D44CF-5B1F-4D08-B346-A0BB3E08D156}"
@@ -85,14 +86,14 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "19efa2b2-9cb6-49d2-b315-b5a44af398e0"
+      Value: "7f5c4872-dc77-46f9-857f-4b3c2e9c1cb3"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\neli.kostadinova@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251016T104515Z
+      Value: 20251113T100201Z
 - Language: "es-ES"
   Versions:
   - Version: 1
