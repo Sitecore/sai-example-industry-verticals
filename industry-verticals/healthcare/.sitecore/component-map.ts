@@ -14,6 +14,7 @@ import * as Navigation from 'src/components/navigation/Navigation';
 import * as LinkList from 'src/components/link-list/LinkList';
 import * as Image from 'src/components/image/Image';
 import * as HeroBanner from 'src/components/hero-banner/HeroBanner';
+import * as ContentSection from 'src/components/content-section/ContentSection';
 import * as ContentBlock from 'src/components/content-block/ContentBlock';
 import * as Container from 'src/components/container/Container';
 import * as ColumnSplitter from 'src/components/column-splitter/ColumnSplitter';
@@ -32,6 +33,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['LinkList', { ...LinkList }],
   ['Image', { ...Image }],
   ['HeroBanner', { ...HeroBanner, componentType: 'client' }],
+  ['ContentSection', { ...ContentSection, componentType: 'client' }],
   ['ContentBlock', { ...ContentBlock }],
   ['Container', { ...Container }],
   ['ColumnSplitter', { ...ColumnSplitter }],
