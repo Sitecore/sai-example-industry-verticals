@@ -58,6 +58,7 @@ export const Default: Story = {
 };
 
 export const SliderStory: Story = {
+  name: 'Slider',
   args: {
     numberOfItems: 5,
   },
