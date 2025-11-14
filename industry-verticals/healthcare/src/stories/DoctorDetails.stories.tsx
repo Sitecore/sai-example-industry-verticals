@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 import { Default } from '../components/doctor-details/DoctorDetails';
 import { ComponentProps } from 'react';
-import { CommonParams } from './common/commonData';
+import { CommonParams, CommonRendering } from './common/commonData';
 import {
   BackgroundColorArgs,
   backgroundColorArgTypes,
@@ -35,11 +35,18 @@ const baseFields = {
 
 const baseParams = CommonParams;
 
+const baseRendering = {
+  ...CommonRendering,
+  componentName: 'Doctor Details',
+  params: baseParams,
+};
+
 export const DoctorDetails: Story = {
   render: (args) => {
     return (
       <Default
         fields={baseFields}
+        rendering={baseRendering}
         params={{
           ...baseParams,
           styles: `${baseParams.styles} ${args.BackgroundColor}`,
