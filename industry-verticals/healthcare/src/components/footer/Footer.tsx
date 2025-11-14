@@ -2,10 +2,10 @@
 
 import React from 'react';
 import {
-  NextImage as JssImage,
-  Link as JssLink,
-  Text as JssText,
-  RichText as JssRichText,
+  NextImage as ContentSdkImage,
+  Link as ContentSdkLink,
+  Text as ContentSdkText,
+  RichText as ContentSdkRichText,
   ImageField,
   LinkField,
   ComponentRendering,
@@ -67,14 +67,14 @@ const DefaultFooter = (props: FooterProps) => {
           <div className="relative container z-20">
             {/* logo section */}
             <Link href={'/'} className="inline-block max-w-50 lg:max-w-full mb-12">
-              <JssImage
+              <ContentSdkImage
                 field={props.fields.LogoLight}
                 width={345}
                 height={45}
                 className="dark:hidden"
                 priority
               />
-              <JssImage
+              <ContentSdkImage
                 field={props.fields.LogoDark}
                 width={345}
                 height={45}
@@ -85,7 +85,7 @@ const DefaultFooter = (props: FooterProps) => {
             {/* content section */}
             <div className="grid gap-x-4 gap-y-12 lg:grid-cols-4">
               <div>
-                <JssRichText field={props.fields.AddressInfo} />
+                <ContentSdkRichText field={props.fields.AddressInfo} />
               </div>
               <div>
                 <Placeholder
@@ -100,7 +100,7 @@ const DefaultFooter = (props: FooterProps) => {
                 />
               </div>
               <div>
-                <JssRichText field={props.fields.WorkingHours} />
+                <ContentSdkRichText field={props.fields.WorkingHours} />
               </div>
             </div>
           </div>
@@ -113,27 +113,27 @@ const DefaultFooter = (props: FooterProps) => {
             {/* copyright section */}
             <div className="mr-auto">
               <p>
-                <JssText field={props.fields.Copyright} />
+                <ContentSdkText field={props.fields.Copyright} />
               </p>
             </div>
 
             {/* policy and terms section */}
             <div className="flex flex-wrap gap-4 lg:mx-8">
-              <JssLink field={props.fields.TermsOfUse} />
-              <JssLink field={props.fields.PrivacyPolicy} />
+              <ContentSdkLink field={props.fields.TermsOfUse} />
+              <ContentSdkLink field={props.fields.PrivacyPolicy} />
             </div>
 
             {/* social icons section */}
             <div className="flex gap-2">
-              <JssLink field={props.fields.FbLink} className="social-icon">
+              <ContentSdkLink field={props.fields.FbLink} className="social-icon">
                 <FontAwesomeIcon icon={faFacebook} width={16} height={16} />
-              </JssLink>
-              <JssLink field={props.fields.TwitterLink} className="social-icon">
+              </ContentSdkLink>
+              <ContentSdkLink field={props.fields.TwitterLink} className="social-icon">
                 <FontAwesomeIcon icon={faTwitter} width={14} height={14} />
-              </JssLink>
-              <JssLink field={props.fields.InstagramLink} className="social-icon">
+              </ContentSdkLink>
+              <ContentSdkLink field={props.fields.InstagramLink} className="social-icon">
                 <FontAwesomeIcon icon={faInstagram} width={14} height={14} />
-              </JssLink>
+              </ContentSdkLink>
             </div>
           </div>
         </div>
