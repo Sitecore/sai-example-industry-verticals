@@ -41,13 +41,15 @@ type FooterProps = {
 const DefaultFooter = (props: FooterProps) => {
   const id = props.params.RenderingIdentifier;
 
-  const isTopSectionVisible = props.params?.DisplayOptions !== 'Hide Top Section';
-  const isBottomSectionVisible = props.params?.DisplayOptions !== 'Hide Bottom Section';
+  const isTopSectionVisible = props.params?.Styles?.includes('hide-top-section') || undefined;
+  const isBottomSectionVisible = props.params?.Styles?.includes('hide-bottom-section') || undefined;
 
   return (
     <section className={`relative ${props.params.styles} overflow-hidden`} id={id ? id : undefined}>
-      {isTopSectionVisible && (
+      {/* footer top section */}
+      {!isTopSectionVisible && (
         <div className="bg-background-secondary dark:bg-background-secondary-dark pt-24 pb-16">
+          {/* svg accent background */}
           <div className="absolute -top-px left-0 -right-px leading-none text-background dark:text-background-dark pointer-events-none">
             <svg
               viewBox="0 0 1613.26 511.77"
@@ -61,7 +63,9 @@ const DefaultFooter = (props: FooterProps) => {
               />
             </svg>
           </div>
+          {/* footer top section */}
           <div className="relative container z-20">
+            {/* logo section */}
             <Link href={'/'} className="inline-block max-w-50 lg:max-w-full mb-12">
               <JssImage
                 field={props.fields.LogoLight}
@@ -78,6 +82,7 @@ const DefaultFooter = (props: FooterProps) => {
                 priority
               />
             </Link>
+            {/* content section */}
             <div className="grid gap-x-4 gap-y-12 lg:grid-cols-4">
               <div>
                 <JssRichText field={props.fields.AddressInfo} />
@@ -101,20 +106,24 @@ const DefaultFooter = (props: FooterProps) => {
           </div>
         </div>
       )}
-      {isBottomSectionVisible && (
+      {/* footer bottom section */}
+      {!isBottomSectionVisible && (
         <div className="container py-4">
           <div className="flex flex-col lg:flex-row lg:items-center gap-4">
+            {/* copyright section */}
             <div className="mr-auto">
               <p>
                 <JssText field={props.fields.Copyright} />
               </p>
             </div>
 
+            {/* policy and terms section */}
             <div className="flex flex-wrap gap-4 lg:mx-8">
               <JssLink field={props.fields.TermsOfUse} />
               <JssLink field={props.fields.PrivacyPolicy} />
             </div>
 
+            {/* social icons section */}
             <div className="flex gap-2">
               <JssLink field={props.fields.FbLink} className="social-icon">
                 <FontAwesomeIcon icon={faFacebook} width={16} height={16} />

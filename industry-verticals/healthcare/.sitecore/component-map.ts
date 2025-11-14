@@ -34,7 +34,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['LinkList', { ...LinkList }],
   ['Image', { ...Image }],
   ['HeroBanner', { ...HeroBanner, componentType: 'client' }],
-  ['Footer', { ...Footer }],
+  ['Footer', { ...Footer, componentType: 'client' }],
   ['ContentSection', { ...ContentSection, componentType: 'client' }],
   ['ContentBlock', { ...ContentBlock }],
   ['Container', { ...Container }],

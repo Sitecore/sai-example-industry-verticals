@@ -17,6 +17,9 @@ import clsx from 'clsx';
 import { useI18n } from 'next-localization';
 import BlobAccent from '@/assets/shapes/BlobAccent';
 import HeroClip from '@/assets/shapes/HeroClip';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
+import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import BlobAccent_2e4ecd85952329c540c505e64c2c0c7c0394fc8b from 'src/assets/shapes/BlobAccent';
 import CurvedClip from 'src/assets/shapes/CurvedClip';
 import Head from 'next/head';
@@ -118,6 +121,26 @@ const importMap = [
     module: '@/assets/shapes/HeroClip',
     exports: [
       { name: 'default', value: HeroClip },
+    ]
+  },
+  {
+    module: '@fortawesome/react-fontawesome',
+    exports: [
+      { name: 'FontAwesomeIcon', value: FontAwesomeIcon },
+    ]
+  },
+  {
+    module: 'next/link',
+    exports: [
+      { name: 'default', value: Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 },
+    ]
+  },
+  {
+    module: '@fortawesome/free-brands-svg-icons',
+    exports: [
+      { name: 'faFacebook', value: faFacebook },
+      { name: 'faInstagram', value: faInstagram },
+      { name: 'faTwitter', value: faTwitter },
     ]
   },
   {
