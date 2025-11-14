@@ -1,38 +1,15 @@
 ﻿---
-ID: "c6f7e044-b3a2-4510-ae50-5f546e30ccd1"
-Parent: "31b1344e-1776-4b6f-930a-0e21a05ce3d8"
-Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
-Path: /sitecore/layout/Renderings/Project/retail/Doctors/Doctor Details
+ID: "6f5c3120-2e99-41bf-bc01-e14a620006f6"
+Parent: "89591c1f-3d49-42d5-a470-698963fc6873"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/retail/Components/Doctors/Doctor Details/Doctor Details/Data
 SharedFields:
-- ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
-  Hint: componentName
-  Value: DoctorDetails
-- ID: "069a8361-b1cd-437c-8c32-a3be78941446"
-  Hint: Placeholders
-  Value: |
-    {86CC61FF-F4E7-4A58-8AFE-E51C07A40FD3}
-    {313E68A8-8072-4A02-AC89-E5828ACC1C54}
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Office/32x32/notebook.png
-- ID: "7d8ae35f-9ed1-43b5-96a2-0a5f040d4e4e"
-  Hint: Open Properties after Add
-  Value: 0
-- ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
-  Hint: Parameters Template
-  Value: "{458CAF7E-8F04-4696-9BC5-B725BB2E0211}"
-- ID: "b0b15510-b138-470e-8f33-8da2e228aafe"
-  Hint: Rendering Contents Resolver
-  Value: "{6CCCBCDE-5E95-44E4-AE66-CFE7D3A0589E}"
-- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
-  Hint: Datasource Location
-  Value: "query:$site/*[@@name='Data']/*[@@templatename='Product Details Folder']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Product Details Folder']"
+  Value: Office/32x32/window_dialog.png
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "fe21a531-c783-48ec-bbca-9e612cb11e01"
-- ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
-  Hint: OtherProperties
-  Value: IsRenderingsWithDynamicPlaceholders=true
+  Value: "cf1687af-db64-46e2-9f75-64e0b840ddc1"
 Languages:
 - Language: "de-DE"
   Fields:
@@ -67,30 +44,26 @@ Languages:
       Hint: __Updated
       Value: 20250902T113633Z
 - Language: en
-  Fields:
-  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
-    Hint: __Unversioned revision
-    Value: "f013b056-3c84-4606-b2d6-5237cd76d095"
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20211012T120931Z
+      Value: 20111213T143500
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\JssImport
+        sitecore\admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a744ab93-3e93-44a1-a400-17538a1b6943"
+      Value: "2bc19dc3-ebf0-45c4-a6c5-7649afac5139"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251114T125931Z
+      Value: 20251114T130947Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

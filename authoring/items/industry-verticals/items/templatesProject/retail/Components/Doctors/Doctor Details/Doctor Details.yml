@@ -1,38 +1,23 @@
 ﻿---
-ID: "c6f7e044-b3a2-4510-ae50-5f546e30ccd1"
-Parent: "31b1344e-1776-4b6f-930a-0e21a05ce3d8"
-Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
-Path: /sitecore/layout/Renderings/Project/retail/Doctors/Doctor Details
+ID: "89591c1f-3d49-42d5-a470-698963fc6873"
+Parent: "b50348e7-39a3-48ae-9790-90a3b509bf4d"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/retail/Components/Doctors/Doctor Details/Doctor Details
 SharedFields:
-- ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
-  Hint: componentName
-  Value: DoctorDetails
-- ID: "069a8361-b1cd-437c-8c32-a3be78941446"
-  Hint: Placeholders
-  Value: |
-    {86CC61FF-F4E7-4A58-8AFE-E51C07A40FD3}
-    {313E68A8-8072-4A02-AC89-E5828ACC1C54}
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Office/32x32/notebook.png
-- ID: "7d8ae35f-9ed1-43b5-96a2-0a5f040d4e4e"
-  Hint: Open Properties after Add
-  Value: 0
-- ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
-  Hint: Parameters Template
-  Value: "{458CAF7E-8F04-4696-9BC5-B725BB2E0211}"
-- ID: "b0b15510-b138-470e-8f33-8da2e228aafe"
-  Hint: Rendering Contents Resolver
-  Value: "{6CCCBCDE-5E95-44E4-AE66-CFE7D3A0589E}"
-- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
-  Hint: Datasource Location
-  Value: "query:$site/*[@@name='Data']/*[@@templatename='Product Details Folder']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Product Details Folder']"
+  Value: Office/32x32/elements3.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {44A022DB-56D3-419A-B43B-E27E4D8E9C41}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "fe21a531-c783-48ec-bbca-9e612cb11e01"
-- ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
-  Hint: OtherProperties
-  Value: IsRenderingsWithDynamicPlaceholders=true
+  Value: "b43f31f5-306f-48f5-bc84-c9f1fbe1f2b4"
 Languages:
 - Language: "de-DE"
   Fields:
@@ -70,27 +55,27 @@ Languages:
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "f013b056-3c84-4606-b2d6-5237cd76d095"
+    Value: "d31ee136-1b05-4296-9dc9-e42d8f8d4cdd"
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20211012T120931Z
+      Value: 20111213T133000Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\JssImport
+        sitecore\admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a744ab93-3e93-44a1-a400-17538a1b6943"
+      Value: "d051b497-b389-45a2-9910-94e28eae1095"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251114T125931Z
+      Value: 20251114T130843Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
