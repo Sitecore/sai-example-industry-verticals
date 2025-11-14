@@ -5,6 +5,13 @@ Template: "98e60957-0783-4a9a-85cc-77dad30e9711"
 Path: "/sitecore/content/retail/forma-lux/Home"
 BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
 SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {98E60957-0783-4A9A-85CC-77DAD30E9711}
+    {F6E44A9E-074A-4865-987E-0C2DC00B7AF5}
+    {4D2B49E6-1130-444A-B22C-5C7E25D01B56}
+    {412BF445-B1A6-4AFF-8054-0B21A1FEBC47}
 - ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
   Hint: Page Design
   Value: "{41E4B543-B8BC-42E6-82F0-1715DC47A6BA}"
@@ -17,7 +24,7 @@ SharedFields:
     <image mediaid="{1265691C-6EE9-49B3-8131-FDEA5E9EE0F7}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "9a057fcd-5b7b-424f-af09-784c2f7917c6"
+  Value: "3fa03c8e-c245-4b27-aaf4-9b46f0efef8a"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -178,14 +185,14 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "76005f1f-6c60-4ddd-b58d-bc4c56f88e61"
+      Value: "79bbacd6-8594-4e83-a895-c0a434f62c8b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeffrey.isham@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251112T134909Z
+      Value: 20251114T110824Z
 - Language: "es-ES"
   Versions:
   - Version: 1
