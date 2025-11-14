@@ -6,6 +6,7 @@ import { combineImportEntries, defaultImportEntries } from '@sitecore-content-sd
 import { Link, Text, useSitecore, Placeholder, RichText, NextImage, withDatasourceCheck, CdpHelper } from '@sitecore-content-sdk/nextjs';
 import { useState, useRef, useEffect } from 'react';
 import React from 'react';
+import { useTheme } from 'next-themes';
 import { isParamEnabled } from '@/helpers/isParamEnabled';
 import { ChevronDown } from 'lucide-react';
 import HamburgerIcon from '@/components/non-sitecore/HamburgerIcon';
@@ -53,6 +54,12 @@ const importMap = [
       { name: 'useRef', value: useRef },
       { name: 'useEffect', value: useEffect },
       { name: 'default', value: React },
+    ]
+  },
+  {
+    module: 'next-themes',
+    exports: [
+      { name: 'useTheme', value: useTheme },
     ]
   },
   {

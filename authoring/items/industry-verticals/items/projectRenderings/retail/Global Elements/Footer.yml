@@ -15,6 +15,8 @@ SharedFields:
     {1FDE3108-445B-4C31-B7B0-FC947DFBEA58}
     {CE13B296-A1C1-4FE9-9780-9F4EE6538E80}
     {D1BF343B-381C-421B-AEB0-FAF7AB2AD04A}
+    {22F93408-0789-4210-8550-F4B8384D24C1}
+    {6E67C2C2-C036-4B05-BD33-DBBC78382C82}
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
   Value: Office/32x32/document_footer.png
@@ -38,7 +40,7 @@ SharedFields:
   Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "37c25102-985b-4ddd-8248-f08c2b8df5bf"
+  Value: "e36738fe-fd4b-4825-b4d3-f72869793d3e"
 - ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
   Hint: OtherProperties
   Value: IsRenderingsWithDynamicPlaceholders=true
@@ -92,14 +94,14 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0e96afec-5c60-4d81-86c9-a0c437371c81"
+      Value: "100316bc-a5b2-4b43-92c0-33196dec8615"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250901T105752Z
+      Value: 20251114T095857Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
