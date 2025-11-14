@@ -6,7 +6,6 @@ import {
   ImageField,
   Field,
   RichTextField,
-  withDatasourceCheck,
 } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from '@/lib/component-props';
 
@@ -21,7 +20,7 @@ interface DoctorDetailsProps extends ComponentProps {
   fields: DoctorFields;
 }
 
-const DefaultDoctorDetails = (props: DoctorDetailsProps) => {
+export const Default = (props: DoctorDetailsProps) => {
   const id = props.params.RenderingIdentifier;
 
   return (
@@ -45,5 +44,3 @@ const DefaultDoctorDetails = (props: DoctorDetailsProps) => {
     </section>
   );
 };
-
-export const Default = withDatasourceCheck()<DoctorDetailsProps>(DefaultDoctorDetails);
