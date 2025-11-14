@@ -6,10 +6,12 @@ import {
   ImageField,
   Field,
   RichTextField,
+  useSitecore,
 } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from '@/lib/component-props';
 
 export interface DoctorFields {
+  Title: Field<string>;
   FullName: Field<string>;
   JobTitle: Field<string>;
   Photo: ImageField;
@@ -21,10 +23,24 @@ interface DoctorDetailsProps extends ComponentProps {
 }
 
 export const Default = (props: DoctorDetailsProps) => {
+  const { page } = useSitecore();
+
   const id = props.params.RenderingIdentifier;
+  const styles = `${props?.params?.styles || ''}`.trim();
+  const isPageEditing = page.mode.isEditing;
+
+  if (!props.fields?.Title) {
+    return isPageEditing ? (
+      <div className={`component article-listing py-6 ${styles}`} id={id}>
+        [Doctor Details]
+      </div>
+    ) : (
+      <></>
+    );
+  }
 
   return (
-    <section className={`relative py-16 ${props.params.styles}`} id={id || undefined}>
+    <section className={`relative py-16 ${styles}`} id={id || undefined}>
       <div className="container grid gap-8 lg:grid-cols-3">
         <div className="placeholder-pattern-background shadow-soft relative aspect-square overflow-hidden rounded-lg">
           <ContentSdkImage field={props.fields?.Photo} className="h-full w-full object-cover" />

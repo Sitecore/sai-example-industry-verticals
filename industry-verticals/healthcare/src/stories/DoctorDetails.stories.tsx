@@ -27,6 +27,7 @@ export default meta;
 type Story = StoryObj<StoryProps>;
 
 const baseFields = {
+  Title: createTextField('Doctor Details'),
   FullName: createTextField('Jane Doe'),
   JobTitle: createTextField('Cardiologist'),
   Photo: createImageField(),
