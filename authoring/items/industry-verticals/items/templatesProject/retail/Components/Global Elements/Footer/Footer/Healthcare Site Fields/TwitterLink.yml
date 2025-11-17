@@ -21,10 +21,10 @@ Languages:
   Fields:
   - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
     Hint: Title
-    Value: TwitterLink
+    Value: Twitter Link
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "77504276-4da5-48b4-8188-bd86a412a580"
+    Value: "c21183fe-7bb3-4f88-b7c3-ccf2820796a7"
   Versions:
   - Version: 1
     Fields:
@@ -41,11 +41,11 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f8ed6214-f558-4d37-8c53-4d2cafd2649b"
+      Value: "1f6e6a64-4cb3-4b5f-b5ed-24b7b9614be1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251114T091142Z
+      Value: 20251114T151821Z
