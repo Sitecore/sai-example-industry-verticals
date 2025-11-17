@@ -50,11 +50,11 @@ const DefaultFooter = (props: FooterProps) => {
       {!isTopSectionVisible && (
         <div className="bg-background-secondary dark:bg-background-secondary-dark pt-24 pb-16">
           {/* svg accent background */}
-          <div className="absolute -top-px left-0 -right-px leading-none text-background dark:text-background-dark pointer-events-none">
+          <div className="text-background dark:text-background-dark pointer-events-none absolute -top-px -right-px left-0 leading-none">
             <svg
               viewBox="0 0 1613.26 511.77"
               xmlns="http://www.w3.org/2000/svg"
-              className="w-full h-auto"
+              className="h-auto w-full"
               preserveAspectRatio="none"
             >
               <path
@@ -64,9 +64,9 @@ const DefaultFooter = (props: FooterProps) => {
             </svg>
           </div>
           {/* footer top section */}
-          <div className="relative container z-20">
+          <div className="relative z-20 container">
             {/* logo section */}
-            <Link href={'/'} className="inline-block max-w-50 lg:max-w-full mb-12">
+            <Link href={'/'} className="mb-12 inline-block max-w-50 lg:max-w-full">
               <ContentSdkImage
                 field={props.fields.LogoLight}
                 width={345}
@@ -109,7 +109,7 @@ const DefaultFooter = (props: FooterProps) => {
       {/* footer bottom section */}
       {!isBottomSectionVisible && (
         <div className="container py-4">
-          <div className="flex flex-col lg:flex-row lg:items-center gap-4">
+          <div className="flex flex-col gap-4 lg:flex-row lg:items-center">
             {/* copyright section */}
             <div className="mr-auto">
               <p>

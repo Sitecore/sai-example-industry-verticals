@@ -48,6 +48,6 @@
 
 @layer components {
   .social-icon {
-    @apply flex justify-center items-center w-8 h-8 border border-foreground dark:border-foreground-dark rounded-full;
+    @apply border-foreground dark:border-foreground-dark flex h-8 w-8 items-center justify-center rounded-full border;
   }
 }

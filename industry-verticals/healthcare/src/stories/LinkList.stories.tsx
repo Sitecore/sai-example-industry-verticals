@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 import { Default as LinkList } from '../components/link-list/LinkList';
 import { ComponentProps } from 'react';
-import { CommonParams, CommonRendering } from './common/commonData';
+import { CommonParams } from './common/commonData';
 import { createTextField } from './helpers/createFields';
 import { createIGQLData } from './helpers/createIGQLData';
 import { createLinkItems } from './helpers/createItems';
@@ -47,12 +47,6 @@ const baseParams = {
   ...CommonParams,
 };
 
-const baseRendering = {
-  ...CommonRendering,
-  componentName: 'LinkList',
-  params: baseParams,
-};
-
 export const Default: Story = {
   args: {
     vertical: false,
@@ -64,7 +58,6 @@ export const Default: Story = {
           ...baseParams,
           styles: `${baseParams.styles} ${args.vertical ? 'list-vertical' : ''}`,
         }}
-        rendering={baseRendering}
         fields={createIGQLData({
           createItems: createLinkItems,
           count: args.numberOfItems,
@@ -90,7 +83,6 @@ export const Vertical: Story = {
           ...baseParams,
           styles: `${baseParams.styles} ${args.vertical ? 'list-vertical' : ''}`,
         }}
-        rendering={baseRendering}
         fields={createIGQLData({
           createItems: createLinkItems,
           count: args.numberOfItems,
