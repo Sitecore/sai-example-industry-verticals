@@ -1,8 +1,8 @@
 'use client';
 
 import {
-  Text as JssText,
-  RichText as JssRichText,
+  Text as ContentSdkText,
+  RichText as ContentSdkRichText,
   withDatasourceCheck,
   ComponentRendering,
   ComponentParams,
@@ -41,9 +41,9 @@ const DefaultContentSection = ({ fields, params, rendering }: ContentSectionProp
       <div className="relative z-10 container">
         <div className="max-w-4xl">
           <h2>
-            <JssText field={fields.Heading} />
+            <ContentSdkText field={fields.Heading} />
           </h2>
-          <JssRichText className="text-lg" field={fields.Description} />
+          <ContentSdkRichText className="text-lg" field={fields.Description} />
         </div>
       </div>
       <Placeholder
