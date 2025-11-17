@@ -22,7 +22,7 @@ interface HeaderProps extends ComponentProps {
   fields: Fields;
 }
 
-export const DefaultHeader = (props: HeaderProps) => {
+export const DefaultHeaderExtended = (props: HeaderProps) => {
   const id = props.params.RenderingIdentifier;
 
   return (
@@ -80,4 +80,4 @@ export const DefaultHeader = (props: HeaderProps) => {
   );
 };
 
-export const Default = withDatasourceCheck()<HeaderProps>(DefaultHeader);
+export const Default = withDatasourceCheck()<HeaderProps>(DefaultHeaderExtended);

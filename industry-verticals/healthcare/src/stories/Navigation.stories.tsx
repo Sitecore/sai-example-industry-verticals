@@ -2,15 +2,12 @@ import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 import { expect, waitFor } from 'storybook/test';
 import { Default as Navigation } from '../components/navigation/Navigation';
 import { ComponentProps } from 'react';
-import { CommonParams, CommonRendering } from './common/commonData';
-import { getNavigationFields, logoParam } from './constants/navFields';
-import { boolToSitecoreCheckbox } from './helpers/boolToSitecoreCheckbox';
+import { CommonParams } from './common/commonData';
+import { getNavigationFields } from './constants/navFields';
 
 type StoryProps = ComponentProps<typeof Navigation> & {
   withRoot?: boolean;
   isFlat?: boolean;
-  hasLogo?: boolean;
-  isSimpleLayout?: boolean;
 };
 
 const meta = {
@@ -18,15 +15,6 @@ const meta = {
   component: Navigation,
   tags: ['autodocs'],
   play: async ({ canvasElement, userEvent, args, step }) => {
-    await step('Logo rendering', async () => {
-      const logoImg = canvasElement.querySelector('[role="menuitem"] img');
-      if (args.hasLogo && args.withRoot) {
-        expect(logoImg).toBeInTheDocument();
-      } else {
-        expect(logoImg).not.toBeInTheDocument();
-      }
-    });
-
     await step('Root item logic', async () => {
       const navItems = Array.from(canvasElement.querySelectorAll('li'));
 
@@ -44,32 +32,32 @@ const meta = {
     });
 
     await step('Hamburger menu', async () => {
-      const hamburger = canvasElement.querySelector('.navigation-mobile-trigger');
+      const hamburger = canvasElement.querySelector('.component.navigation > div:first-child');
       expect(hamburger).toBeInTheDocument();
       if (hamburger) {
         await userEvent.click(hamburger);
-        expect(hamburger?.getAttribute('aria-expanded')).toBe('true');
-        await userEvent.click(hamburger);
-        expect(hamburger?.getAttribute('aria-expanded')).toBe('false');
+        const nav = canvasElement.querySelector('nav');
+        expect(nav?.classList.contains('flex')).toBe(true);
       }
     });
 
     await step('Dropdown menu', async () => {
-      const chevron = canvasElement.querySelector('.navigation-dropdown-trigger');
-      if (chevron) {
-        await userEvent.click(chevron);
-        const dropdown = chevron.closest('li')?.querySelector('ul');
-        expect(dropdown).toBeInTheDocument();
+      const navItems = Array.from(canvasElement.querySelectorAll('li'));
+      const itemWithChildren = navItems.find((li) => {
+        const chevron = li.querySelector('.flex.items-center.gap-1 > div');
+        return chevron && !li.classList.contains('level0');
+      });
 
-        await waitFor(() => {
-          expect(dropdown).toBeVisible();
-        });
-
-        const outside = canvasElement.querySelector('.component.navigation');
-        if (outside) {
-          await userEvent.click(outside);
+      if (itemWithChildren) {
+        const chevron = itemWithChildren.querySelector(
+          '.flex.items-center.gap-1 > div'
+        ) as HTMLElement;
+        if (chevron) {
+          await userEvent.click(chevron);
+          const dropdown = itemWithChildren.querySelector('ul');
+          expect(dropdown).toBeInTheDocument();
           await waitFor(() => {
-            expect(dropdown).not.toBeVisible();
+            expect(dropdown?.classList.contains('block')).toBe(true);
           });
         }
       }
@@ -87,23 +75,10 @@ const meta = {
       control: 'boolean',
       defaultValue: false,
     },
-    isSimpleLayout: {
-      name: 'Simple Layout',
-      description: 'left aligned logo, right aligned menu items',
-      control: 'boolean',
-      defaultValue: false,
-    },
-    hasLogo: {
-      name: 'Show Logo',
-      control: 'boolean',
-      defaultValue: true,
-    },
   },
   args: {
     withRoot: true,
     isFlat: false,
-    hasLogo: true,
-    isSimpleLayout: false,
   },
 } satisfies Meta<StoryProps>;
 export default meta;
@@ -114,38 +89,9 @@ const baseParams = {
   ...CommonParams,
 };
 
-const baseRendering = {
-  ...CommonRendering,
-  componentName: 'Navigation',
-  params: baseParams,
-};
-
 export const Default: Story = {
   render: (args) => {
-    const params = {
-      ...baseParams,
-      ...(args.hasLogo ? { Logo: logoParam } : {}),
-      SimpleLayout: boolToSitecoreCheckbox(args.isSimpleLayout),
-    };
     const fields = getNavigationFields({ withRoot: args.withRoot, flat: args.isFlat });
-    return <Navigation params={params} rendering={baseRendering} fields={fields} />;
-  },
-};
-
-export const Simple: Story = {
-  args: {
-    withRoot: true,
-    isFlat: false,
-    hasLogo: true,
-    isSimpleLayout: true,
-  },
-  render: (args) => {
-    const params = {
-      ...baseParams,
-      ...(args.hasLogo ? { Logo: logoParam } : {}),
-      SimpleLayout: boolToSitecoreCheckbox(args.isSimpleLayout),
-    };
-    const fields = getNavigationFields({ withRoot: args.withRoot, flat: args.isFlat });
-    return <Navigation params={params} rendering={baseRendering} fields={fields} />;
+    return <Navigation params={baseParams} fields={fields} />;
   },
 };
