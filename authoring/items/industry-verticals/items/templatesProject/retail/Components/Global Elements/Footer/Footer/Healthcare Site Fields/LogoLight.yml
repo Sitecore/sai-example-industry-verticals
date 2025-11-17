@@ -21,10 +21,10 @@ Languages:
   Fields:
   - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
     Hint: Title
-    Value: LogoLight
+    Value: Logo Light
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "5578e588-8b0b-4a44-8b8a-d9552ea8797d"
+    Value: "75fe49f4-7c4a-407a-b07c-2582bb97b18b"
   Versions:
   - Version: 1
     Fields:
@@ -41,11 +41,11 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "986a1c80-ebdc-4b20-b060-ec29ba75424c"
+      Value: "f4cc7ead-af89-432f-811d-6d7365c02bcb"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251114T091142Z
+      Value: 20251114T151415Z

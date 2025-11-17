@@ -21,10 +21,10 @@ Languages:
   Fields:
   - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
     Hint: Title
-    Value: TermsOfUse
+    Value: Terms Of Use
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "ba951a7f-a34b-4bec-8cb5-e3f294df7c4e"
+    Value: "1a5024e8-71ab-4d89-ac94-31e4299c690c"
   Versions:
   - Version: 1
     Fields:
@@ -41,11 +41,11 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b7be8bbc-f1ce-4408-9dc9-0681b42f2123"
+      Value: "10512abd-858a-4f7b-9795-84060ccebecc"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251114T091142Z
+      Value: 20251114T151746Z
