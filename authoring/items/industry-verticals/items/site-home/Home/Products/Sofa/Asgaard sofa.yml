@@ -8,10 +8,37 @@ SharedFields:
   Hint: Image5
   Value: |
     <image mediaid="d6114837-c32b-42c4-b574-a3b3ecafc459" />
+- ID: "2cfb917c-9876-4edb-82c0-1c9acd6965d4"
+  Hint: Reviews
+  Value: |
+    {22A3C639-09BA-4161-8EA9-83446B471DCA}
+    {F3760F5F-6CF6-4028-8FFA-F79479E36258}
+    {76FC7D80-E52E-40F9-A1B6-EE2846964085}
+- ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+  Hint: Tags
+  Value: |
+    {AA1D2DC7-47CB-41BE-952D-F19B07B47154}
+    {831305F5-99B0-4746-B09A-42C67FE37EC5}
+    {AC473CFD-491E-4EB1-9D3D-AF5A1F63F10B}
+- ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+  Hint: SKU
+  Value: SOF0001
+- ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
+  Hint: Color
+  Value: |
+    {4644FE16-10A7-44F1-8172-CA03C35A688D}
+    {D5D801B9-21CD-426C-8573-0FFF36FE3317}
+    {75E874D3-C7B4-466B-B9F1-F305D5B67E85}
 - ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
   Hint: Image2
   Value: |
     <image mediaid="57a2a95a-f25e-4b8c-ab46-49573cc74455" />
+- ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
+  Hint: Size
+  Value: |
+    {1B4E7409-FAF1-4CFF-B06D-BE77ED1A74A1}
+    {B214C2E5-3E1A-42B6-A0EE-CAB3CBC055E0}
+    {B8B93775-E47C-46F2-9157-293AA8904883}
 - ID: "9a62ea92-04df-49e2-ab37-00d251d0cc22"
   Hint: Image4
   Value: |
@@ -27,6 +54,9 @@ SharedFields:
   Hint: __Thumbnail
   Value: |
     <image mediaid="{B23ED343-53C9-430D-987C-D635900038E0}" />
+- ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+  Hint: Category
+  Value: "{078D4751-D125-408A-9FF2-F5417844B877}"
 - ID: "d9c8ae87-80fc-460b-9140-3db7358b1c8e"
   Hint: Image3
   Value: |
@@ -107,21 +137,9 @@ Languages:
     - ID: "29f7d409-6f68-447d-8d7a-ce16df1761f3"
       Hint: Height
       Value: 76 cm
-    - ID: "2cfb917c-9876-4edb-82c0-1c9acd6965d4"
-      Hint: Reviews
-      Value: |
-        {22A3C639-09BA-4161-8EA9-83446B471DCA}
-        {F3760F5F-6CF6-4028-8FFA-F79479E36258}
-        {76FC7D80-E52E-40F9-A1B6-EE2846964085}
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
       Value: "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound."
-    - ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
-      Hint: Tags
-      Value: |
-        {AA1D2DC7-47CB-41BE-952D-F19B07B47154}
-        {831305F5-99B0-4746-B09A-42C67FE37EC5}
-        {AC473CFD-491E-4EB1-9D3D-AF5A1F63F10B}
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
       Value: 2499.56
@@ -132,9 +150,6 @@ Languages:
       Hint: __Owner
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
-    - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
-      Hint: SKU
-      Value: SOF0001
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -142,24 +157,12 @@ Languages:
     - ID: "67259fe9-9fcd-46f4-b330-5865618a3b8c"
       Hint: Width
       Value: 265.32 cm
-    - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
-      Hint: Color
-      Value: |
-        {4644FE16-10A7-44F1-8172-CA03C35A688D}
-        {D5D801B9-21CD-426C-8573-0FFF36FE3317}
-        {75E874D3-C7B4-466B-B9F1-F305D5B67E85}
     - ID: "7d125aa9-e5f4-4163-a68c-31686d582866"
       Hint: Depth
       Value: 167 cm
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "931bc571-54c6-4ee4-89ec-b8747939d8d5"
-    - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
-      Hint: Size
-      Value: |
-        {1B4E7409-FAF1-4CFF-B06D-BE77ED1A74A1}
-        {B214C2E5-3E1A-42B6-A0EE-CAB3CBC055E0}
-        {B8B93775-E47C-46F2-9157-293AA8904883}
     - ID: "acbcb630-e684-43ae-bb85-9fc89052c8a9"
       Hint: Weight
       Value: 45 KG
@@ -176,9 +179,6 @@ Languages:
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Asgaard sofa
-    - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
-      Hint: Category
-      Value: "{078D4751-D125-408A-9FF2-F5417844B877}"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251021T081723Z
@@ -220,9 +220,6 @@ Languages:
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Asgaard Sofá
-    - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
-      Hint: Category
-      Value: "{53DA2329-23E7-459F-A810-A057A8AD646B}"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20250926T105448Z
