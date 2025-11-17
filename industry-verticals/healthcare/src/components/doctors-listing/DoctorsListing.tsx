@@ -1,10 +1,7 @@
 import { useId } from 'react';
 import React from 'react';
 import Link from 'next/link';
-import {
-  Text as ContentSdkText,
-  NextImage as ContentSdkRichText,
-} from '@sitecore-content-sdk/nextjs';
+import { Text as ContentSdkText, NextImage as ContentSdkImage } from '@sitecore-content-sdk/nextjs';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Keyboard, Navigation, Pagination } from 'swiper/modules';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -26,10 +23,7 @@ const DoctorCard = ({ url, fields }: { url: string; fields: Doctor }) => {
       className="bg-background-secondary dark:bg-background-secondary-dark shadow-soft block overflow-hidden rounded-lg"
     >
       <div className="placeholder-pattern-background aspect-square">
-        <ContentSdkRichText
-          field={fields.Photo}
-          className="h-full w-full rounded-t-lg object-cover"
-        />
+        <ContentSdkImage field={fields.Photo} className="h-full w-full rounded-t-lg object-cover" />
       </div>
       <div className="p-7 text-center">
         <h5>
