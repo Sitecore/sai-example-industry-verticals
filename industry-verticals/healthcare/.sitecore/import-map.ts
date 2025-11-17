@@ -19,6 +19,7 @@ import { useI18n } from 'next-localization';
 import BlobAccent from '@/assets/shapes/BlobAccent';
 import HeroClip from '@/assets/shapes/HeroClip';
 import BlobAccent_2e4ecd85952329c540c505e64c2c0c7c0394fc8b from 'src/assets/shapes/BlobAccent';
+import { FeatureStyles } from '@/types/styleFlags';
 import CurvedClip from 'src/assets/shapes/CurvedClip';
 import Head from 'next/head';
 import client from 'lib/sitecore-client';
@@ -131,6 +132,12 @@ const importMap = [
     module: 'src/assets/shapes/BlobAccent',
     exports: [
       { name: 'default', value: BlobAccent_2e4ecd85952329c540c505e64c2c0c7c0394fc8b },
+    ]
+  },
+  {
+    module: '@/types/styleFlags',
+    exports: [
+      { name: 'FeatureStyles', value: FeatureStyles },
     ]
   },
   {

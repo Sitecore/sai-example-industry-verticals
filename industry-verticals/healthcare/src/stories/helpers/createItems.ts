@@ -3,6 +3,7 @@ import {
   createRichTextField,
   createTextField,
   createLinkField,
+  createIGQLField,
 } from './createFields';
 
 export const createLinkItems = (count: number) =>
@@ -24,4 +25,13 @@ export const createDoctorItems = (count: number) =>
       Photo: createImageField(),
       Bio: createRichTextField(3),
     },
+  }));
+
+export const createFeatureItems = (count: number) =>
+  Array.from({ length: count }).map((_, i) => ({
+    id: String(i + 1),
+    featureHeading: createIGQLField(createTextField(`Feature ${i + 1}`)),
+    featureDescription: createIGQLField(createTextField('', 2)),
+    featureIcon: createIGQLField(createImageField()),
+    featureIconDark: createIGQLField(createImageField()),
   }));
