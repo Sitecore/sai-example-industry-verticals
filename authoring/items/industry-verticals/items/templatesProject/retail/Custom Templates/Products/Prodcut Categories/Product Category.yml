@@ -12,7 +12,10 @@ SharedFields:
   Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "3114a558-80f1-4f7a-a554-fb8c29f18d1d"
+  Value: "f79f43f3-65f6-4d1b-bf90-adcbbe110ca6"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{6C951601-D172-4BB2-BBCE-824374C8BBB4}"
 Languages:
 - Language: en
   Versions:
@@ -31,11 +34,11 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bb6cfbbd-347e-4db1-be16-a01e772602c1"
+      Value: "ef3e59d7-820a-4c44-96bb-6317fb2d459f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\neli.kostadinova@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251003T131915Z
+      Value: 20251117T104816Z

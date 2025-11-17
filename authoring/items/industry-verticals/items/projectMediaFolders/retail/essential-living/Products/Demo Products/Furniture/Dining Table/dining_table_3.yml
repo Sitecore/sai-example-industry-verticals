@@ -48,13 +48,16 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\neli.kostadinova@sitecore.com
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: Dining Table
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7656b72d-d643-4f3e-82f4-df44d547a884"
+      Value: "69adf9d4-defa-4a95-aa66-2976a3c75099"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\neli.kostadinova@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251117T073053Z
+      Value: 20251117T111233Z
