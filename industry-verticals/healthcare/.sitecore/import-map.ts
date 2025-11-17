@@ -4,7 +4,7 @@ import { combineImportEntries, defaultImportEntries } from '@sitecore-content-sd
 // end of built-in imports
 
 import { Link, Text, useSitecore, Placeholder, RichText, NextImage, withDatasourceCheck, CdpHelper } from '@sitecore-content-sdk/nextjs';
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useId, useEffect } from 'react';
 import React from 'react';
 import { useTheme } from 'next-themes';
 import { isParamEnabled } from '@/helpers/isParamEnabled';
@@ -21,6 +21,9 @@ import HeroClip from '@/assets/shapes/HeroClip';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
 import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Keyboard, Navigation, Pagination } from 'swiper/modules';
+import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import BlobAccent_2e4ecd85952329c540c505e64c2c0c7c0394fc8b from 'src/assets/shapes/BlobAccent';
 import CurvedClip from 'src/assets/shapes/CurvedClip';
 import Head from 'next/head';
@@ -50,6 +53,7 @@ const importMap = [
     exports: [
       { name: 'useState', value: useState },
       { name: 'useRef', value: useRef },
+      { name: 'useId', value: useId },
       { name: 'useEffect', value: useEffect },
       { name: 'default', value: React },
     ]
@@ -148,6 +152,28 @@ const importMap = [
       { name: 'faFacebook', value: faFacebook },
       { name: 'faInstagram', value: faInstagram },
       { name: 'faTwitter', value: faTwitter },
+    ]
+  },
+  {
+    module: 'swiper/react',
+    exports: [
+      { name: 'Swiper', value: Swiper },
+      { name: 'SwiperSlide', value: SwiperSlide },
+    ]
+  },
+  {
+    module: 'swiper/modules',
+    exports: [
+      { name: 'Keyboard', value: Keyboard },
+      { name: 'Navigation', value: Navigation },
+      { name: 'Pagination', value: Pagination },
+    ]
+  },
+  {
+    module: '@fortawesome/free-solid-svg-icons',
+    exports: [
+      { name: 'faArrowLeft', value: faArrowLeft },
+      { name: 'faArrowRight', value: faArrowRight },
     ]
   },
   {

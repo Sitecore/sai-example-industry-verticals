@@ -16,6 +16,7 @@ export const createLinkItems = (count: number) =>
 export const createDoctorItems = (count: number) =>
   Array.from({ length: count }).map((_, i) => ({
     id: String(i + 1),
+    displayName: `Doctor ${i + 1}`,
     url: '#',
     name: `Jane Doe ${i + 1}`,
     fields: {

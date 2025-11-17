@@ -8,6 +8,21 @@ SharedFields:
   Hint: Image5
   Value: |
     <image mediaid="e6b176e0-831b-40e5-8825-98584f41209a" />
+- ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+  Hint: Tags
+  Value: "{7AFDCBA4-D6AA-4AF4-9CE8-C404256E7702}"
+- ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+  Hint: SKU
+  Value: PLW0001
+- ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
+  Hint: Color
+  Value: "{12BF3FA0-8034-4629-814C-3E34BEE11474}"
+- ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
+  Hint: Size
+  Value: |
+    {C593AA0B-B143-4FD4-B8F6-C8950FB744B0}
+    {B8B93775-E47C-46F2-9157-293AA8904883}
+    {B214C2E5-3E1A-42B6-A0EE-CAB3CBC055E0}
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 150
@@ -19,6 +34,9 @@ SharedFields:
   Hint: __Thumbnail
   Value: |
     <image mediaid="{3F07D1A5-6CDB-45F0-9123-6DF10EF40846}" />
+- ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+  Hint: Category
+  Value: "{95692043-DF4D-4E60-9271-511BE5096297}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
   Value: "de7dd8bf-2aea-43f2-8f72-efd182cc7437"
@@ -73,9 +91,6 @@ Languages:
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
       Value: A soft cotton pillow with a perfectly plump 90% feather filling. The materials allow air to circulate, so you get a comfortable sleeping environment. The low loft is comfiest for stomach sleepers.
-    - ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
-      Hint: Tags
-      Value: "{7AFDCBA4-D6AA-4AF4-9CE8-C404256E7702}"
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
       Value: 15
@@ -86,25 +101,13 @@ Languages:
       Hint: __Owner
       Value: |
         sitecore\ranula.gamage@sitecore.com
-    - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
-      Hint: SKU
-      Value: PLW0001
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\ranula.gamage@sitecore.com
-    - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
-      Hint: Color
-      Value: "{12BF3FA0-8034-4629-814C-3E34BEE11474}"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "74457c49-c65e-4b19-bcc0-b7a9186f1fbd"
-    - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
-      Hint: Size
-      Value: |
-        {C593AA0B-B143-4FD4-B8F6-C8950FB744B0}
-        {B8B93775-E47C-46F2-9157-293AA8904883}
-        {B214C2E5-3E1A-42B6-A0EE-CAB3CBC055E0}
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -112,9 +115,6 @@ Languages:
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Pilspinnare
-    - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
-      Hint: Category
-      Value: "{95692043-DF4D-4E60-9271-511BE5096297}"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251020T101946Z
@@ -155,9 +155,6 @@ Languages:
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Pilspinnare
-    - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
-      Hint: Category
-      Value: "{D9A471B6-E783-4DEE-B48B-06B57A6735E1}"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20250926T105505Z
@@ -189,9 +186,6 @@ Languages:
       Hint: __Updated by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
-    - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
-      Hint: Category
-      Value: "{D9A471B6-E783-4DEE-B48B-06B57A6735E1}"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20250926T081756Z

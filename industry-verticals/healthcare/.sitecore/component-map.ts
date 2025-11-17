@@ -16,6 +16,7 @@ import * as LinkList from 'src/components/link-list/LinkList';
 import * as Image from 'src/components/image/Image';
 import * as HeroBanner from 'src/components/hero-banner/HeroBanner';
 import * as Footer from 'src/components/footer/Footer';
+import * as DoctorsListing from 'src/components/doctors-listing/DoctorsListing';
 import * as DoctorDetails from 'src/components/doctor-details/DoctorDetails';
 import * as ContentSection from 'src/components/content-section/ContentSection';
 import * as ContentBlock from 'src/components/content-block/ContentBlock';
@@ -38,6 +39,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Image', { ...Image }],
   ['HeroBanner', { ...HeroBanner, componentType: 'client' }],
   ['Footer', { ...Footer, componentType: 'client' }],
+  ['DoctorsListing', { ...DoctorsListing }],
   ['DoctorDetails', { ...DoctorDetails }],
   ['ContentSection', { ...ContentSection, componentType: 'client' }],
   ['ContentBlock', { ...ContentBlock }],
