@@ -3,20 +3,43 @@
 import { combineImportEntries, defaultImportEntries } from '@sitecore-content-sdk/nextjs/codegen';
 // end of built-in imports
 
-import { Link, Text, useSitecore, Placeholder, RichText, NextImage, withDatasourceCheck, CdpHelper } from '@sitecore-content-sdk/nextjs';
-import { useState, useRef, useEffect } from 'react';
+import {
+  Link,
+  Text,
+  useSitecore,
+  Placeholder,
+  RichText,
+  NextImage,
+  withDatasourceCheck,
+  CdpHelper,
+} from '@sitecore-content-sdk/nextjs';
+import { useState, useRef, useId, useEffect } from 'react';
 import React from 'react';
+import { useTheme } from 'next-themes';
 import { isParamEnabled } from '@/helpers/isParamEnabled';
 import { ChevronDown } from 'lucide-react';
 import HamburgerIcon from '@/components/non-sitecore/HamburgerIcon';
 import { useClickAway } from '@/hooks/useClickAway';
 import { useStopResponsiveTransition } from '@/hooks/useStopResponsiveTransition';
 import { extractMediaUrl } from '@/helpers/extractMediaUrl';
-import { getLinkContent, getLinkField, isNavLevel, isNavRootItem, prepareFields } from '@/helpers/navHelpers';
+import {
+  getLinkContent,
+  getLinkField,
+  isNavLevel,
+  isNavRootItem,
+  prepareFields,
+} from '@/helpers/navHelpers';
 import clsx from 'clsx';
+import { useI18n } from 'next-localization';
+import BlobAccent from '@/assets/shapes/BlobAccent';
+import HeroClip from '@/assets/shapes/HeroClip';
 import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Keyboard, Navigation, Pagination } from 'swiper/modules';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import BlobAccent_2e4ecd85952329c540c505e64c2c0c7c0394fc8b from 'src/assets/shapes/BlobAccent';
+import CurvedClip from 'src/assets/shapes/CurvedClip';
 import Head from 'next/head';
 import client from 'lib/sitecore-client';
 import Image from 'next/image';
@@ -37,52 +60,45 @@ const importMap = [
       { name: 'NextImage', value: NextImage },
       { name: 'withDatasourceCheck', value: withDatasourceCheck },
       { name: 'CdpHelper', value: CdpHelper },
-    ]
+    ],
   },
   {
     module: 'react',
     exports: [
       { name: 'useState', value: useState },
       { name: 'useRef', value: useRef },
+      { name: 'useId', value: useId },
       { name: 'useEffect', value: useEffect },
       { name: 'default', value: React },
-    ]
+    ],
+  },
+  {
+    module: 'next-themes',
+    exports: [{ name: 'useTheme', value: useTheme }],
   },
   {
     module: '@/helpers/isParamEnabled',
-    exports: [
-      { name: 'isParamEnabled', value: isParamEnabled },
-    ]
+    exports: [{ name: 'isParamEnabled', value: isParamEnabled }],
   },
   {
     module: 'lucide-react',
-    exports: [
-      { name: 'ChevronDown', value: ChevronDown },
-    ]
+    exports: [{ name: 'ChevronDown', value: ChevronDown }],
   },
   {
     module: '@/components/non-sitecore/HamburgerIcon',
-    exports: [
-      { name: 'default', value: HamburgerIcon },
-    ]
+    exports: [{ name: 'default', value: HamburgerIcon }],
   },
   {
     module: '@/hooks/useClickAway',
-    exports: [
-      { name: 'useClickAway', value: useClickAway },
-    ]
+    exports: [{ name: 'useClickAway', value: useClickAway }],
   },
   {
     module: '@/hooks/useStopResponsiveTransition',
-    exports: [
-      { name: 'useStopResponsiveTransition', value: useStopResponsiveTransition },
-    ]
+    exports: [{ name: 'useStopResponsiveTransition', value: useStopResponsiveTransition }],
   },
   {
     module: '@/helpers/extractMediaUrl',
-    exports: [
-      { name: 'extractMediaUrl', value: extractMediaUrl },
-    ]
+    exports: [{ name: 'extractMediaUrl', value: extractMediaUrl }],
   },
   {
     module: '@/helpers/navHelpers',
@@ -92,75 +108,90 @@ const importMap = [
       { name: 'isNavLevel', value: isNavLevel },
       { name: 'isNavRootItem', value: isNavRootItem },
       { name: 'prepareFields', value: prepareFields },
-    ]
+    ],
   },
   {
     module: 'clsx',
-    exports: [
-      { name: 'default', value: clsx },
-    ]
+    exports: [{ name: 'default', value: clsx }],
+  },
+  {
+    module: 'next-localization',
+    exports: [{ name: 'useI18n', value: useI18n }],
+  },
+  {
+    module: '@/assets/shapes/BlobAccent',
+    exports: [{ name: 'default', value: BlobAccent }],
+  },
+  {
+    module: '@/assets/shapes/HeroClip',
+    exports: [{ name: 'default', value: HeroClip }],
   },
   {
     module: 'next/link',
+    exports: [{ name: 'default', value: Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 }],
+  },
+  {
+    module: 'swiper/react',
     exports: [
-      { name: 'default', value: Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 },
-    ]
+      { name: 'Swiper', value: Swiper },
+      { name: 'SwiperSlide', value: SwiperSlide },
+    ],
+  },
+  {
+    module: 'swiper/modules',
+    exports: [
+      { name: 'Keyboard', value: Keyboard },
+      { name: 'Navigation', value: Navigation },
+      { name: 'Pagination', value: Pagination },
+    ],
   },
   {
     module: '@fortawesome/react-fontawesome',
-    exports: [
-      { name: 'FontAwesomeIcon', value: FontAwesomeIcon },
-    ]
+    exports: [{ name: 'FontAwesomeIcon', value: FontAwesomeIcon }],
   },
   {
     module: '@fortawesome/free-solid-svg-icons',
     exports: [
-      { name: 'faEnvelope', value: faEnvelope },
-      { name: 'faPhone', value: faPhone },
-    ]
+      { name: 'faArrowLeft', value: faArrowLeft },
+      { name: 'faArrowRight', value: faArrowRight },
+    ],
+  },
+  {
+    module: 'src/assets/shapes/BlobAccent',
+    exports: [{ name: 'default', value: BlobAccent_2e4ecd85952329c540c505e64c2c0c7c0394fc8b }],
+  },
+  {
+    module: 'src/assets/shapes/CurvedClip',
+    exports: [{ name: 'default', value: CurvedClip }],
   },
   {
     module: 'next/head',
-    exports: [
-      { name: 'default', value: Head },
-    ]
+    exports: [{ name: 'default', value: Head }],
   },
   {
     module: 'lib/sitecore-client',
-    exports: [
-      { name: 'default', value: client },
-    ]
+    exports: [{ name: 'default', value: client }],
   },
   {
     module: 'next/image',
-    exports: [
-      { name: 'default', value: Image },
-    ]
+    exports: [{ name: 'default', value: Image }],
   },
   {
     module: '@sitecore-feaas/clientside/react',
-    exports: [
-      { name: '*', value: FEAAS },
-    ]
+    exports: [{ name: '*', value: FEAAS }],
   },
   {
     module: 'next.config',
-    exports: [
-      { name: 'default', value: nextConfig },
-    ]
+    exports: [{ name: 'default', value: nextConfig }],
   },
   {
     module: '@sitecore-cloudsdk/events/browser',
-    exports: [
-      { name: 'pageView', value: pageView },
-    ]
+    exports: [{ name: 'pageView', value: pageView }],
   },
   {
     module: 'sitecore.config',
-    exports: [
-      { name: 'default', value: config },
-    ]
-  }
+    exports: [{ name: 'default', value: config }],
+  },
 ];
 
 export default combineImportEntries(defaultImportEntries, importMap);

@@ -18,54 +18,6 @@
   }
 }
 
-/* Background color  */
-/* &:not(.container) - full width container and other full width components - color from edge to edge */
-/* &.container > .component-content - centered container - color only the content to align with grid */
-
-.container-clean-background {
-  &:not(.container),
-  &.container > .component-content {
-    @apply bg-background;
-  }
-}
-
-.container-color-background {
-  > .component-content {
-    @apply border-background-accent;
-  }
-
-  &:not(.container),
-  &.container > .component-content {
-    @apply bg-background-accent border-background-accent;
-  }
-}
-
-.container-dark-background {
-  > .component-content {
-    @apply border-accent;
-  }
-
-  &:not(.container),
-  &.container > .component-content {
-    @apply bg-accent border-accent text-background;
-
-    * {
-      @apply text-inherit;
-    }
-  }
-}
-
-.container-gray-background {
-  > .component-content {
-    @apply border-background-muted;
-  }
-
-  &:not(.container),
-  &.container > .component-content {
-    @apply bg-background-muted border-background-muted;
-  }
-}
-
 /* Spacing */
 /* Using padding for the sides so it doesn't break the grid widths */
 .indent {
@@ -106,4 +58,65 @@
 
 .position-center select {
   text-align-last: center !important;
+}
+
+.container-clean-background > .component-content,
+.component-clean-background {
+  @apply !bg-background dark:!bg-background-dark;
+}
+
+.container-color-background > .component-content,
+.component-color-background {
+  @apply !bg-background-secondary dark:!bg-background-secondary-dark;
+}
+
+.container-dark-background > .component-content,
+.component-dark-background {
+  @apply !bg-background-tertiary dark:!bg-background-tertiary-dark;
+}
+
+.container-gray-background > .component-content,
+.component-gray-background {
+  @apply !bg-disabled dark:!bg-disabled-dark;
+}
+
+.placeholder-pattern-background {
+  --color-pattern-background: var(--color-background-secondary);
+  --color-pattern-foreground: var(--color-background-secondary-dark);
+
+  .dark & {
+    --color-pattern-background: var(--color-background-secondary-dark);
+    --color-pattern-foreground: var(--color-accent);
+  }
+
+  background:
+    radial-gradient(
+      circle,
+      transparent 20%,
+      var(--color-pattern-background) 20%,
+      var(--color-pattern-background) 80%,
+      transparent 80%,
+      transparent
+    ),
+    radial-gradient(
+        circle,
+        transparent 20%,
+        var(--color-pattern-background) 20%,
+        var(--color-pattern-background) 80%,
+        transparent 80%,
+        transparent
+      )
+      25px 25px,
+    linear-gradient(var(--color-pattern-foreground) 2px, transparent 2px) 0 -1px,
+    linear-gradient(
+        90deg,
+        var(--color-pattern-foreground) 2px,
+        var(--color-pattern-background) 2px
+      ) -1px
+      0;
+  background-size:
+    50px 50px,
+    50px 50px,
+    25px 25px,
+    25px 25px;
 }

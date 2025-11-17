@@ -7,6 +7,7 @@
 @import 'swiper/css';
 @import 'swiper/css/navigation';
 @import 'swiper/css/pagination';
+@import 'swiper/css/scrollbar';
 
 @import './base/index.css';
 @import './components/index.css';
@@ -23,3 +24,5 @@
 /* responsive classes are in base/tailwind-bootstrap-grid */
 @source inline("col-{1..12}");
 @source inline("offset-{1..12}");
+
+@custom-variant dark (&:where(.dark, .dark *));

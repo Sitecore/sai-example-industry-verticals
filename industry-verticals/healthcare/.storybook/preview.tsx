@@ -4,6 +4,8 @@ import { mockPageData } from './mockData/mockPageData';
 import { mockApiData } from './mockData/mockApiData';
 import mockComponentMap from './mockData/mockComponentMap';
 import { I18nProvider } from 'next-localization';
+import { ThemeProvider } from 'next-themes';
+import { withThemeByClassName } from '@storybook/addon-themes';
 
 import '../src/assets/main.css';
 
@@ -26,12 +28,21 @@ const preview: Preview = {
   },
 
   decorators: [
+    withThemeByClassName({
+      themes: {
+        light: '',
+        dark: 'dark',
+      },
+      defaultTheme: 'light',
+    }),
     (Story) => (
-      <SitecoreProvider componentMap={mockComponentMap} page={mockPageData} api={mockApiData}>
-        <I18nProvider locale="en" lngDict={{}}>
-          <Story />
-        </I18nProvider>
-      </SitecoreProvider>
+      <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
+        <SitecoreProvider componentMap={mockComponentMap} page={mockPageData} api={mockApiData}>
+          <I18nProvider locale="en" lngDict={{}}>
+            <Story />
+          </I18nProvider>
+        </SitecoreProvider>
+      </ThemeProvider>
     ),
   ],
 

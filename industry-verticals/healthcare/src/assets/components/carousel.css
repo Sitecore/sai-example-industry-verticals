@@ -1,0 +1,27 @@
+.slider-btn-wrapper {
+  @apply flex justify-end gap-4;
+}
+
+.slider-btn {
+  @apply bg-background-tertiary text-background-secondary-dark flex h-10 w-28 items-center justify-center rounded-lg px-6 py-2;
+
+  &:disabled {
+    @apply text-disabled bg-transparent;
+  }
+
+  svg {
+    @apply h-full w-full object-contain;
+  }
+}
+
+.slider-pagination-wrapper {
+  @apply flex justify-center gap-4;
+}
+
+.slider-pagination-btn {
+  @apply bg-accent aspect-square w-5 cursor-pointer rounded-full;
+
+  &.active {
+    @apply aspect-auto w-12;
+  }
+}

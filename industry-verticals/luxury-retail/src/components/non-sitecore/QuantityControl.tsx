@@ -5,6 +5,7 @@ interface QuantityControlProps {
   onChange: (value: number) => void;
   min?: number;
   max?: number;
+  isLarge?: boolean;
 }
 
 const QuantityControl: React.FC<QuantityControlProps> = ({
@@ -12,6 +13,7 @@ const QuantityControl: React.FC<QuantityControlProps> = ({
   onChange,
   min = 1,
   max = 99,
+  isLarge = false,
 }) => {
   const handleChange = (newQuantity: number) => {
     if (newQuantity < min || newQuantity > max) return;
@@ -19,7 +21,9 @@ const QuantityControl: React.FC<QuantityControlProps> = ({
   };
 
   return (
-    <div className="flex items-center gap-2">
+    <div
+      className={`flex items-center gap-2 ${isLarge ? 'justify-between border px-8 py-1 text-lg' : ''}`}
+    >
       <button
         type="button"
         onClick={() => handleChange(quantity - 1)}

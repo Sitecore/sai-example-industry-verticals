@@ -4,6 +4,17 @@ Parent: "260cf295-7d6b-4e12-805c-2596ffd1c3d7"
 Template: "f6e44a9e-074a-4865-987e-0c2dc00b7af5"
 Path: "/sitecore/content/retail/forma-lux/Home/Products/Lamp/Tertial"
 SharedFields:
+- ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+  Hint: Tags
+  Value: "{831305F5-99B0-4746-B09A-42C67FE37EC5}"
+- ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+  Hint: SKU
+  Value: LMP0005
+- ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
+  Hint: Color
+  Value: |
+    {4644FE16-10A7-44F1-8172-CA03C35A688D}
+    {12BF3FA0-8034-4629-814C-3E34BEE11474}
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 1450
@@ -15,6 +26,9 @@ SharedFields:
   Hint: __Thumbnail
   Value: |
     <image mediaid="{B120A8ED-D198-42E7-ADFC-D7A3EC089073}" />
+- ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+  Hint: Category
+  Value: "{260CF295-7D6B-4E12-805C-2596FFD1C3D7}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
   Value: "91db82f3-81a0-4363-80ed-0c3f24695cde"
@@ -47,9 +61,6 @@ Languages:
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
       Value: Illuminate your space with Tertial, the versatile and stylish lamp designed for modern living. Perfect for any room, Tertial provides adjustable lighting to suit your needs and enhance your home's ambiance.
-    - ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
-      Hint: Tags
-      Value: "{831305F5-99B0-4746-B09A-42C67FE37EC5}"
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
       Value: 29
@@ -60,18 +71,10 @@ Languages:
       Hint: __Owner
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
-    - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
-      Hint: SKU
-      Value: LMP0005
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
-    - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
-      Hint: Color
-      Value: |
-        {4644FE16-10A7-44F1-8172-CA03C35A688D}
-        {12BF3FA0-8034-4629-814C-3E34BEE11474}
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "bf6e706e-8e63-40d1-ab21-47018c5d4f18"
@@ -82,9 +85,6 @@ Languages:
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Tertial
-    - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
-      Hint: Category
-      Value: "{260CF295-7D6B-4E12-805C-2596FFD1C3D7}"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251020T101924Z

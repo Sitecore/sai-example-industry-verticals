@@ -14,7 +14,7 @@ SharedFields:
     {412BF445-B1A6-4AFF-8054-0B21A1FEBC47}
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "61c57861-760f-4c71-b2e2-2a24276a1651"
+  Value: "437c4d97-310e-433e-8c6b-175f426811be"
 - ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
   Hint: __Enable item fallback
   Value: 
@@ -39,11 +39,11 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "716050b5-8b37-4667-876e-42597505683b"
+      Value: "bc37cf98-8ddf-43d2-a726-b7a09ca3c988"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251111T121722Z
+      Value: 20251114T111451Z

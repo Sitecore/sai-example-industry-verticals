@@ -9,9 +9,7 @@ SharedFields:
   Value: SectionWrapper
 - ID: "069a8361-b1cd-437c-8c32-a3be78941446"
   Hint: Placeholders
-  Value: |
-    {AC1010A0-934B-4A42-803C-CD9139C99AC1}
-    {0B08F5E4-D809-4B6E-B1AB-0DF6488DAE67}
+  Value: "{AC1010A0-934B-4A42-803C-CD9139C99AC1}"
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
   Value: Office/32x32/gauze_bandage.png
@@ -35,7 +33,7 @@ SharedFields:
   Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "4ad10fac-264c-4cd4-b947-473ac50b2bd6"
+  Value: "135fb62f-11c7-423a-84f1-c15a9d499079"
 - ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
   Hint: OtherProperties
   Value: IsRenderingsWithDynamicPlaceholders=true
@@ -89,14 +87,14 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c63ad926-eb69-409d-9b33-da1d55864865"
+      Value: "c9aea1f4-45ae-49f7-a7e5-18b2d8a4ba59"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251110T111023Z
+      Value: 20251117T095249Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

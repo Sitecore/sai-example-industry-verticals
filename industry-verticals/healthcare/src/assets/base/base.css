@@ -41,7 +41,7 @@
   }
 
   p {
-    @apply font-body text-foreground-light;
+    @apply font-body text-foreground;
   }
 
   button:not(:disabled),
@@ -50,7 +50,7 @@
   }
 
   *::placeholder {
-    @apply text-foreground-light;
+    @apply text-foreground;
   }
 
   .eyebrow {
@@ -66,6 +66,6 @@
   }
 
   .custom-scrollbar {
-    @apply [&::-webkit-scrollbar-thumb]:bg-foreground-muted [&::-webkit-scrollbar-track]:bg-background-surface [&::-webkit-scrollbar]:w-1 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:rounded-full;
+    @apply [&::-webkit-scrollbar-thumb]:bg-accent-muted [&::-webkit-scrollbar-track]:bg-background [&::-webkit-scrollbar]:w-1 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:rounded-full;
   }
 }

@@ -3,17 +3,36 @@
 import { combineImportEntries, defaultImportEntries } from '@sitecore-content-sdk/nextjs/codegen';
 // end of built-in imports
 
-import { Link, Text, useSitecore, Placeholder, RichText, NextImage, Image, CdpHelper, withDatasourceCheck } from '@sitecore-content-sdk/nextjs';
-import { useEffect, useState, useRef, useMemo, useCallback } from 'react';
+import { Link, Text, useSitecore, NextImage, Placeholder, RichText, Image, CdpHelper, withDatasourceCheck } from '@sitecore-content-sdk/nextjs';
+import { useId, useEffect, useState, useMemo, useRef, useCallback } from 'react';
 import React from 'react';
+import * as React_7214d18997ee864dd178de7b3a8430f6783e8b89 from 'react';
+import { faFacebookF, faInstagram, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { A11y, Keyboard, Navigation, Pagination, Autoplay } from 'swiper/modules';
+import { ChevronLeft, ChevronRight, Loader2, Check, Heart, Plus, Star, X, User, ShoppingCart, ArrowLeft, Globe, Menu } from 'lucide-react';
+import { ProductCard } from 'src/components/non-sitecore/ProductCard';
+import InfiniteScroll from '@/shadcn/components/ui/infiniteScroll';
+import { ProductCard as ProductCard_f5c29266c91cfe4f66c8f4e91c1fad0bbbe159f9 } from '@/components/non-sitecore/ProductCard';
+import { isParamEnabled } from '@/helpers/isParamEnabled';
 import { useI18n } from 'next-localization';
 import QuantityControl from 'src/components/non-sitecore/QuantityControl';
+import { ProductGallery } from 'src/components/non-sitecore/ProductGallery';
+import { ProductMetaDetals } from 'src/components/non-sitecore/ProductMetaDetails';
+import { ProductSizeControl } from 'src/components/non-sitecore/ProductSizeControl';
+import { ProductColorControl } from 'src/components/non-sitecore/ProductColorControl';
+import { AddToCartButton } from 'src/components/non-sitecore/AddToCartButton';
 import { useLocale } from '@/hooks/useLocaleOptions';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/shadcn/components/ui/accordion';
+import { ParentPathLink } from 'src/components/non-sitecore/ParentPathLink';
+import { ProductReviews } from 'src/components/non-sitecore/ProductReviews';
+import StarRating from 'src/components/non-sitecore/StarRating';
+import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
+import { usePathname } from 'next/navigation';
 import { useCartAction } from '@/hooks/useCartAction';
 import { getCart } from '@/lib/cart';
 import { DrawerClose, Drawer, DrawerContent, DrawerTrigger } from '@/shadcn/components/ui/drawer';
-import { User, Heart, ShoppingCart, X, ArrowLeft, Check, Globe, Menu } from 'lucide-react';
-import { isParamEnabled } from '@/helpers/isParamEnabled';
 import { MiniCart } from 'src/components/non-sitecore/MiniCart';
 import { useClickAway } from '@/hooks/useClickAway';
 import { useStopResponsiveTransition } from '@/hooks/useStopResponsiveTransition';
@@ -37,9 +56,9 @@ const importMap = [
       { name: 'Link', value: Link },
       { name: 'Text', value: Text },
       { name: 'useSitecore', value: useSitecore },
+      { name: 'NextImage', value: NextImage },
       { name: 'Placeholder', value: Placeholder },
       { name: 'RichText', value: RichText },
-      { name: 'NextImage', value: NextImage },
       { name: 'Image', value: Image },
       { name: 'CdpHelper', value: CdpHelper },
       { name: 'withDatasourceCheck', value: withDatasourceCheck },
@@ -48,12 +67,89 @@ const importMap = [
   {
     module: 'react',
     exports: [
+      { name: 'useId', value: useId },
       { name: 'useEffect', value: useEffect },
       { name: 'useState', value: useState },
-      { name: 'useRef', value: useRef },
       { name: 'useMemo', value: useMemo },
+      { name: 'useRef', value: useRef },
       { name: 'useCallback', value: useCallback },
       { name: 'default', value: React },
+      { name: '*', value: React_7214d18997ee864dd178de7b3a8430f6783e8b89 },
+    ]
+  },
+  {
+    module: '@fortawesome/free-brands-svg-icons',
+    exports: [
+      { name: 'faFacebookF', value: faFacebookF },
+      { name: 'faInstagram', value: faInstagram },
+      { name: 'faLinkedin', value: faLinkedin },
+      { name: 'faTwitter', value: faTwitter },
+      { name: 'faYoutube', value: faYoutube },
+    ]
+  },
+  {
+    module: '@fortawesome/react-fontawesome',
+    exports: [
+      { name: 'FontAwesomeIcon', value: FontAwesomeIcon },
+    ]
+  },
+  {
+    module: 'swiper/react',
+    exports: [
+      { name: 'Swiper', value: Swiper },
+      { name: 'SwiperSlide', value: SwiperSlide },
+    ]
+  },
+  {
+    module: 'swiper/modules',
+    exports: [
+      { name: 'A11y', value: A11y },
+      { name: 'Keyboard', value: Keyboard },
+      { name: 'Navigation', value: Navigation },
+      { name: 'Pagination', value: Pagination },
+      { name: 'Autoplay', value: Autoplay },
+    ]
+  },
+  {
+    module: 'lucide-react',
+    exports: [
+      { name: 'ChevronLeft', value: ChevronLeft },
+      { name: 'ChevronRight', value: ChevronRight },
+      { name: 'Loader2', value: Loader2 },
+      { name: 'Check', value: Check },
+      { name: 'Heart', value: Heart },
+      { name: 'Plus', value: Plus },
+      { name: 'Star', value: Star },
+      { name: 'X', value: X },
+      { name: 'User', value: User },
+      { name: 'ShoppingCart', value: ShoppingCart },
+      { name: 'ArrowLeft', value: ArrowLeft },
+      { name: 'Globe', value: Globe },
+      { name: 'Menu', value: Menu },
+    ]
+  },
+  {
+    module: 'src/components/non-sitecore/ProductCard',
+    exports: [
+      { name: 'ProductCard', value: ProductCard },
+    ]
+  },
+  {
+    module: '@/shadcn/components/ui/infiniteScroll',
+    exports: [
+      { name: 'default', value: InfiniteScroll },
+    ]
+  },
+  {
+    module: '@/components/non-sitecore/ProductCard',
+    exports: [
+      { name: 'ProductCard', value: ProductCard_f5c29266c91cfe4f66c8f4e91c1fad0bbbe159f9 },
+    ]
+  },
+  {
+    module: '@/helpers/isParamEnabled',
+    exports: [
+      { name: 'isParamEnabled', value: isParamEnabled },
     ]
   },
   {
@@ -69,9 +165,78 @@ const importMap = [
     ]
   },
   {
+    module: 'src/components/non-sitecore/ProductGallery',
+    exports: [
+      { name: 'ProductGallery', value: ProductGallery },
+    ]
+  },
+  {
+    module: 'src/components/non-sitecore/ProductMetaDetails',
+    exports: [
+      { name: 'ProductMetaDetals', value: ProductMetaDetals },
+    ]
+  },
+  {
+    module: 'src/components/non-sitecore/ProductSizeControl',
+    exports: [
+      { name: 'ProductSizeControl', value: ProductSizeControl },
+    ]
+  },
+  {
+    module: 'src/components/non-sitecore/ProductColorControl',
+    exports: [
+      { name: 'ProductColorControl', value: ProductColorControl },
+    ]
+  },
+  {
+    module: 'src/components/non-sitecore/AddToCartButton',
+    exports: [
+      { name: 'AddToCartButton', value: AddToCartButton },
+    ]
+  },
+  {
     module: '@/hooks/useLocaleOptions',
     exports: [
       { name: 'useLocale', value: useLocale },
+    ]
+  },
+  {
+    module: '@/shadcn/components/ui/accordion',
+    exports: [
+      { name: 'Accordion', value: Accordion },
+      { name: 'AccordionContent', value: AccordionContent },
+      { name: 'AccordionItem', value: AccordionItem },
+      { name: 'AccordionTrigger', value: AccordionTrigger },
+    ]
+  },
+  {
+    module: 'src/components/non-sitecore/ParentPathLink',
+    exports: [
+      { name: 'ParentPathLink', value: ParentPathLink },
+    ]
+  },
+  {
+    module: 'src/components/non-sitecore/ProductReviews',
+    exports: [
+      { name: 'ProductReviews', value: ProductReviews },
+    ]
+  },
+  {
+    module: 'src/components/non-sitecore/StarRating',
+    exports: [
+      { name: 'default', value: StarRating },
+    ]
+  },
+  {
+    module: 'next/link',
+    exports: [
+      { name: 'default', value: Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 },
+    ]
+  },
+  {
+    module: 'next/navigation',
+    exports: [
+      { name: 'usePathname', value: usePathname },
     ]
   },
   {
@@ -93,25 +258,6 @@ const importMap = [
       { name: 'Drawer', value: Drawer },
       { name: 'DrawerContent', value: DrawerContent },
       { name: 'DrawerTrigger', value: DrawerTrigger },
-    ]
-  },
-  {
-    module: 'lucide-react',
-    exports: [
-      { name: 'User', value: User },
-      { name: 'Heart', value: Heart },
-      { name: 'ShoppingCart', value: ShoppingCart },
-      { name: 'X', value: X },
-      { name: 'ArrowLeft', value: ArrowLeft },
-      { name: 'Check', value: Check },
-      { name: 'Globe', value: Globe },
-      { name: 'Menu', value: Menu },
-    ]
-  },
-  {
-    module: '@/helpers/isParamEnabled',
-    exports: [
-      { name: 'isParamEnabled', value: isParamEnabled },
     ]
   },
   {
