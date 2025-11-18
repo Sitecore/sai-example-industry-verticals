@@ -30,7 +30,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['ThemeSwitcher', { ...ThemeSwitcher }],
   ['RowSplitter', { ...RowSplitter }],
   ['RichText', { ...RichText }],
-  ['Promo', { ...Promo }],
+  ['Promo', { ...Promo, componentType: 'client' }],
   ['PartialDesignDynamicPlaceholder', { ...PartialDesignDynamicPlaceholder }],
   ['PageContent', { ...PageContent }],
   ['Navigation', { ...Navigation, componentType: 'client' }],

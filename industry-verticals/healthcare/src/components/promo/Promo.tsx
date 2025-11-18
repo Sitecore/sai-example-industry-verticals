@@ -1,65 +1,104 @@
-import React, { JSX } from 'react';
+'use client';
+
+import React from 'react';
 import {
   NextImage as ContentSdkImage,
+  Link as ContentSdkLink,
+  Text as ContentSdkText,
   RichText as ContentSdkRichText,
-  Field,
   ImageField,
-  Link,
+  Field,
   LinkField,
   RichTextField,
-  Text,
+  ComponentRendering,
+  ComponentParams,
+  Placeholder,
+  withDatasourceCheck,
 } from '@sitecore-content-sdk/nextjs';
-import { ComponentProps } from 'lib/component-props';
-import { isParamEnabled } from '@/helpers/isParamEnabled';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import BlobAccent from '../non-sitecore/BlobAccent';
+import CurvedClip from '../non-sitecore/CurvedClip';
+import { isParamEnabled } from 'src/helpers/isParamEnabled';
 
 interface Fields {
-  PromoImageOne: ImageField;
-  PromoImageTwo: ImageField;
-  PromoImageThree: ImageField;
+  PromoImage: ImageField;
   PromoTitle: Field<string>;
-  PromoDescription: RichTextField;
-  PromoSubTitle: Field<string>;
-  PromoMoreInfo: LinkField;
+  PromoText: RichTextField;
+  PromoLink: LinkField;
 }
 
-export type PromoProps = ComponentProps & {
+type PromoProps = {
+  rendering: ComponentRendering & { params: ComponentParams };
+  params: { [key: string]: string };
   fields: Fields;
 };
 
-export const Default = (props: PromoProps): JSX.Element => {
+const PromoWrapper = ({
+  children,
+  props,
+}: {
+  children: React.ReactNode;
+  props: PromoProps;
+}) => {
   const id = props.params.RenderingIdentifier;
-  const isPromoReversed = !isParamEnabled(props.params.Reversed) ? '' : 'order-last';
+  const isAccentLine = props.params.Styles?.includes('accent-line');
 
   return (
-    <section className={`${props.params.styles} py-20`} id={id ? id : undefined}>
-      <div className="container grid grid-cols-1 place-items-center gap-10 lg:grid-cols-2">
-        <div className={`${isPromoReversed} relative w-full`}>
-          <div
-            className={`relative z-10 aspect-4/3 w-full max-w-4xl overflow-hidden rounded-2xl shadow-2xl`}
-          >
-            <ContentSdkImage
-              field={props.fields.PromoImageOne}
-              className="h-full w-full object-cover"
-            />
+    <section
+      className={`component promo relative bg-background-secondary dark:bg-background-secondary-dark py-12 sm:py-20 lg:py-32 ${props?.params?.styles}`}
+      id={id ? id : undefined}
+    >
+      {isParamEnabled(props.params.CurvedTop) && <CurvedClip className='top-0' pos="top" />}
+      {isParamEnabled(props.params.CurvedBottom) && <CurvedClip className='bottom-0' pos="bottom" />}
+      {isAccentLine && (
+        <BlobAccent
+          size="lg"
+          className="absolute top-0 left-0 lg:left-4 lg:[.promo-reversed_&]:left-auto lg:[.promo-reversed_&]:right-4 z-0"
+        />
+      )}
+      <div className="container relative z-10">
+        <div className="grid gap-x-24 gap-y-12 items-center lg:grid-cols-2">
+          <div className="aspect-square rounded-lg shadow-soft overflow-hidden">
+            <ContentSdkImage field={props.fields.PromoImage} className="w-full h-full object-cover" />
           </div>
-        </div>
-
-        <div className="space-y-5">
-          <div className="eyebrow">
-            <Text field={props.fields.PromoSubTitle} />
-          </div>
-
-          <h2 className="inline-block max-w-md">
-            <Text field={props.fields.PromoTitle} />
-          </h2>
-
-          <div className="max-w-lg text-lg">
-            <ContentSdkRichText field={props.fields.PromoDescription} />
-          </div>
-
-          <Link field={props.fields.PromoMoreInfo} className="main-btn" />
+          <div className="lg:[.promo-reversed_&]:order-first">{children}</div>
         </div>
       </div>
     </section>
   );
 };
+
+const DefaultPromo = (props: PromoProps) => {
+  console.log(props);
+  return (
+    <PromoWrapper props={props}>
+      <h2>
+        <ContentSdkText field={props.fields.PromoTitle} />
+      </h2>
+      <ContentSdkRichText className="text-lg mb-10" field={props.fields.PromoText} />
+
+      <ContentSdkLink field={props.fields.PromoLink} className="btn btn-icon">
+        {props.fields?.PromoLink?.value?.text}
+        <FontAwesomeIcon icon={faArrowRight} />
+      </ContentSdkLink>
+    </PromoWrapper>
+  );
+};
+
+const WithPlaceholderPromo = (props: PromoProps) => {
+  return (
+    <PromoWrapper props={props}>
+      <h2>
+        <ContentSdkText field={props.fields.PromoTitle} />
+      </h2>
+      <Placeholder
+        name={`promo-content-${props?.params?.DynamicPlaceholderId}`}
+        rendering={props.rendering}
+      />
+    </PromoWrapper>
+  );
+};
+
+export const Default = withDatasourceCheck()<PromoProps>(DefaultPromo);
+export const WithPlaceholder = withDatasourceCheck()<PromoProps>(WithPlaceholderPromo);
