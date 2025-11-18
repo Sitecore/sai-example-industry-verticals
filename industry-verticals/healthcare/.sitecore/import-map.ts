@@ -4,26 +4,20 @@ import { combineImportEntries, defaultImportEntries } from '@sitecore-content-sd
 // end of built-in imports
 
 import { Link, Text, useSitecore, Placeholder, RichText, NextImage, withDatasourceCheck, CdpHelper } from '@sitecore-content-sdk/nextjs';
-import { useState, useRef, useId, useEffect } from 'react';
+import { useState, useId, useEffect } from 'react';
 import React from 'react';
 import { useTheme } from 'next-themes';
 import { isParamEnabled } from '@/helpers/isParamEnabled';
-import { ChevronDown } from 'lucide-react';
-import HamburgerIcon from '@/components/non-sitecore/HamburgerIcon';
-import { useClickAway } from '@/hooks/useClickAway';
-import { useStopResponsiveTransition } from '@/hooks/useStopResponsiveTransition';
-import { extractMediaUrl } from '@/helpers/extractMediaUrl';
-import { getLinkContent, getLinkField, isNavLevel, isNavRootItem, prepareFields } from '@/helpers/navHelpers';
-import clsx from 'clsx';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars, faChevronDown, faChevronUp, faTimes, faEnvelope, faPhone, faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { getLinkField, getNavigationText } from '@/helpers/navHelpers';
 import { useI18n } from 'next-localization';
 import BlobAccent from '@/assets/shapes/BlobAccent';
 import HeroClip from '@/assets/shapes/HeroClip';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
 import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Keyboard, Navigation, Pagination } from 'swiper/modules';
-import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import BlobAccent_2e4ecd85952329c540c505e64c2c0c7c0394fc8b from 'src/assets/shapes/BlobAccent';
 import CurvedClip from 'src/assets/shapes/CurvedClip';
 import Head from 'next/head';
@@ -33,6 +27,7 @@ import * as FEAAS from '@sitecore-feaas/clientside/react';
 import nextConfig from 'next.config';
 import { pageView } from '@sitecore-cloudsdk/events/browser';
 import config from 'sitecore.config';
+import { extractMediaUrl } from '@/helpers/extractMediaUrl';
 
 const importMap = [
   {
@@ -52,7 +47,6 @@ const importMap = [
     module: 'react',
     exports: [
       { name: 'useState', value: useState },
-      { name: 'useRef', value: useRef },
       { name: 'useId', value: useId },
       { name: 'useEffect', value: useEffect },
       { name: 'default', value: React },
@@ -71,49 +65,29 @@ const importMap = [
     ]
   },
   {
-    module: 'lucide-react',
+    module: '@fortawesome/react-fontawesome',
     exports: [
-      { name: 'ChevronDown', value: ChevronDown },
+      { name: 'FontAwesomeIcon', value: FontAwesomeIcon },
     ]
   },
   {
-    module: '@/components/non-sitecore/HamburgerIcon',
+    module: '@fortawesome/free-solid-svg-icons',
     exports: [
-      { name: 'default', value: HamburgerIcon },
-    ]
-  },
-  {
-    module: '@/hooks/useClickAway',
-    exports: [
-      { name: 'useClickAway', value: useClickAway },
-    ]
-  },
-  {
-    module: '@/hooks/useStopResponsiveTransition',
-    exports: [
-      { name: 'useStopResponsiveTransition', value: useStopResponsiveTransition },
-    ]
-  },
-  {
-    module: '@/helpers/extractMediaUrl',
-    exports: [
-      { name: 'extractMediaUrl', value: extractMediaUrl },
+      { name: 'faBars', value: faBars },
+      { name: 'faChevronDown', value: faChevronDown },
+      { name: 'faChevronUp', value: faChevronUp },
+      { name: 'faTimes', value: faTimes },
+      { name: 'faEnvelope', value: faEnvelope },
+      { name: 'faPhone', value: faPhone },
+      { name: 'faArrowLeft', value: faArrowLeft },
+      { name: 'faArrowRight', value: faArrowRight },
     ]
   },
   {
     module: '@/helpers/navHelpers',
     exports: [
-      { name: 'getLinkContent', value: getLinkContent },
       { name: 'getLinkField', value: getLinkField },
-      { name: 'isNavLevel', value: isNavLevel },
-      { name: 'isNavRootItem', value: isNavRootItem },
-      { name: 'prepareFields', value: prepareFields },
-    ]
-  },
-  {
-    module: 'clsx',
-    exports: [
-      { name: 'default', value: clsx },
+      { name: 'getNavigationText', value: getNavigationText },
     ]
   },
   {
@@ -170,13 +144,6 @@ const importMap = [
     ]
   },
   {
-    module: '@fortawesome/free-solid-svg-icons',
-    exports: [
-      { name: 'faArrowLeft', value: faArrowLeft },
-      { name: 'faArrowRight', value: faArrowRight },
-    ]
-  },
-  {
     module: 'src/assets/shapes/BlobAccent',
     exports: [
       { name: 'default', value: BlobAccent_2e4ecd85952329c540c505e64c2c0c7c0394fc8b },
@@ -228,6 +195,12 @@ const importMap = [
     module: 'sitecore.config',
     exports: [
       { name: 'default', value: config },
+    ]
+  },
+  {
+    module: '@/helpers/extractMediaUrl',
+    exports: [
+      { name: 'extractMediaUrl', value: extractMediaUrl },
     ]
   }
 ];

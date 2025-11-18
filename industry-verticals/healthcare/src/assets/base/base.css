@@ -4,7 +4,7 @@
   }
 
   body {
-    @apply font-body text-foreground bg-background text-base;
+    @apply font-body text-foreground bg-background dark:text-foreground-dark text-base;
   }
 
   h1,
@@ -50,7 +50,7 @@
   }
 
   *::placeholder {
-    @apply text-foreground;
+    @apply text-foreground dark:text-foreground-dark;
   }
 
   .eyebrow {
