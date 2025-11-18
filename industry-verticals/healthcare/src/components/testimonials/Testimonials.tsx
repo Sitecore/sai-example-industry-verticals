@@ -40,17 +40,17 @@ export const Default = (props: TestimonialProps) => {
               <div className="relative z-2 mx-4 aspect-square max-w-sm overflow-hidden rounded-lg lg:mx-10">
                 <ContentSdkImage
                   className="h-full w-full object-cover"
-                  field={review.fields.Avatar}
+                  field={review?.fields?.Avatar}
                 />
               </div>
               <div className="bg-background-secondary dark:bg-background-secondary-dark shadow-soft relative z-1 -mt-10 flex grow flex-col gap-6 rounded-lg p-10 pt-20">
                 <blockquote className="text-lg">
-                  <Text field={review.fields.Description} />
+                  <Text field={review?.fields?.Description} />
                 </blockquote>
                 <p className="mt-auto flex items-center gap-2">
                   <span className="bg-accent h-0.5 w-7 rounded-full"></span>
                   <span className="font-heading text-sm font-bold">
-                    <Text field={review.fields.ReviewerName} />
+                    <Text field={review?.fields?.ReviewerName} />
                   </span>
                 </p>
               </div>
