@@ -1,0 +1,98 @@
+/* boxed */
+.boxed {
+  > div {
+    @apply mx-auto! max-w-5xl;
+  }
+}
+
+/* Add highlight */
+.highlighted-top,
+.highlighted-bottom,
+.highlighted-left,
+.highlighted-right {
+  > div {
+    @apply border-accent! my-6 p-6;
+  }
+}
+.highlighted-top > div {
+  @apply border-t;
+}
+
+.highlighted-bottom > div {
+  @apply border-b;
+}
+
+.highlighted-left > div {
+  @apply border-l;
+}
+
+.highlighted-right > div {
+  @apply border-r;
+}
+
+.main-btn {
+  @apply bg-accent text-background hover:bg-accent/95 flex items-center justify-center rounded-md p-3 text-center text-lg font-semibold transition-all hover:shadow-md;
+
+  &[disabled] {
+    @apply pointer-events-none opacity-60;
+  }
+}
+
+.btn {
+  @apply text-background font-heading bg-foreground inline-flex items-center gap-4 rounded-lg px-6 py-2 text-lg font-bold lg:text-xl;
+}
+
+.btn-icon {
+  svg {
+    @apply h-4 w-4;
+  }
+}
+
+.social-icon {
+  @apply border-foreground dark:border-foreground-dark flex h-8 w-8 items-center justify-center rounded-full border;
+}
+
+.form-input {
+  @apply bg-background w-full rounded-lg px-6 py-4 shadow-md;
+}
+
+.placeholder-pattern-background {
+  --color-pattern-background: var(--color-background-secondary);
+  --color-pattern-foreground: var(--color-background-secondary-dark);
+
+  .dark & {
+    --color-pattern-background: var(--color-background-secondary-dark);
+    --color-pattern-foreground: var(--color-accent);
+  }
+
+  background:
+    radial-gradient(
+      circle,
+      transparent 20%,
+      var(--color-pattern-background) 20%,
+      var(--color-pattern-background) 80%,
+      transparent 80%,
+      transparent
+    ),
+    radial-gradient(
+        circle,
+        transparent 20%,
+        var(--color-pattern-background) 20%,
+        var(--color-pattern-background) 80%,
+        transparent 80%,
+        transparent
+      )
+      25px 25px,
+    linear-gradient(var(--color-pattern-foreground) 2px, transparent 2px) 0 -1px,
+    linear-gradient(
+        90deg,
+        var(--color-pattern-foreground) 2px,
+        var(--color-pattern-background) 2px
+      ) -1px
+      0;
+  background-size:
+    50px 50px,
+    50px 50px,
+    25px 25px,
+    25px 25px;
+}

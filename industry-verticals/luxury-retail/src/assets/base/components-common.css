@@ -31,9 +31,41 @@
 }
 
 .main-btn {
-  @apply bg-accent text-background hover:bg-accent/95 flex items-center justify-center rounded-md p-3 text-center text-lg font-semibold transition-all hover:shadow-md;
+  @apply bg-accent text-background hover:bg-accent/95 flex items-center justify-center gap-3 rounded-md p-3 text-center font-light transition-all hover:shadow-md;
 
   &[disabled] {
     @apply pointer-events-none opacity-60;
   }
+}
+
+.outline-btn {
+  @apply border-foreground text-foreground flex items-center justify-center gap-3 rounded-md border px-9 py-1 font-light transition-all hover:shadow-md;
+
+  &[disabled] {
+    @apply pointer-events-none opacity-60;
+  }
+}
+
+.action-btn {
+  @apply text-foreground hover:border-foreground inline-flex items-center justify-center gap-3 border-b border-transparent font-light transition-all;
+
+  &[disabled] {
+    @apply pointer-events-none opacity-60;
+  }
+}
+
+.navigation-item {
+  @apply text-foreground hover:text-foreground-light font-light transition-colors hover:!no-underline lg:whitespace-nowrap;
+}
+
+.navigation-item-primary {
+  @apply [.drawer-content_&]:text-xl;
+}
+
+.header-block {
+  @apply flex items-center justify-items-start gap-x-6 *:w-auto *:basis-auto;
+}
+
+.drawer-heading {
+  @apply mt-7 mb-18 text-2xl;
 }

@@ -1,0 +1,7 @@
+.form-input,
+.form-textarea {
+  @apply text-foreground placeholder:text-foreground-light border-foreground-light w-full border px-4 py-2 text-sm;
+  @apply group-[.container-dark-background]:focus:placeholder:text-background;
+  @apply ring-0 focus:ring-0 focus-visible:outline-none;
+  @apply disabled:cursor-not-allowed disabled:opacity-60;
+}

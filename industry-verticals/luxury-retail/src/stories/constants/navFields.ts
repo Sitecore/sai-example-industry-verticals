@@ -27,66 +27,71 @@ export const navRoot = {
 
 export const topLevelPages = [
   {
-    ...createNavItem('Furniture'),
+    ...createNavItem('Shop'),
     Styles: ['level1', 'item0', 'odd', 'first'],
-  },
-  {
-    ...createNavItem('Decor'),
-    Styles: ['level1', 'item1', 'even'],
-  },
-  {
-    ...createNavItem('About us'),
-    Styles: ['level1', 'item1', 'even'],
     Children: [
       {
-        ...createNavItem('Our story'),
+        ...createNavItem('Furniture'),
         Styles: ['level2', 'item0', 'odd', 'first'],
       },
       {
-        ...createNavItem('Our team'),
+        ...createNavItem('Lighting'),
         Styles: ['level2', 'item1', 'even'],
       },
       {
-        ...createNavItem('Careers'),
+        ...createNavItem('Accessories'),
         Styles: ['level2', 'item2', 'odd', 'last'],
       },
     ],
   },
   {
-    ...createNavItem('Contact'),
-    Styles: ['level1', 'submenu', 'item2', 'odd', 'last'],
+    ...createNavItem('Inspiration'),
+    Styles: ['level1', 'item1', 'even'],
+  },
+  {
+    ...createNavItem('Offers'),
+    Styles: ['level1', 'item1', 'even'],
+    Children: [
+      {
+        ...createNavItem('Seasonal Picks'),
+        Styles: ['level2', 'item0', 'odd', 'first'],
+      },
+      {
+        ...createNavItem('Bundles'),
+        Styles: ['level2', 'item1', 'even'],
+      },
+      {
+        ...createNavItem('Outlet'),
+        Styles: ['level2', 'item2', 'odd', 'last'],
+      },
+    ],
   },
 ];
 
 export const flatTopLevelPages = [
   {
-    ...createNavItem('Furniture'),
+    ...createNavItem('Shop'),
     Styles: ['level0', 'item0', 'odd', 'first', 'flat-level1'],
   },
   {
-    ...createNavItem('Decor'),
+    ...createNavItem('Inspiration'),
     Styles: ['level0', 'item1', 'even', 'flat-level1'],
   },
   {
-    ...createNavItem('About us'),
+    ...createNavItem('Offers'),
     Styles: ['level0', 'item1', 'even', 'flat-level1'],
   },
   {
-    ...createNavItem('Our story'),
+    ...createNavItem('Seasonal Picks'),
     Styles: ['level0', 'item0', 'odd', 'first', 'flat-level2'],
   },
   {
-    ...createNavItem('Our team'),
+    ...createNavItem('Bundles'),
     Styles: ['level0', 'item1', 'even', 'flat-level2'],
   },
   {
-    ...createNavItem('Careers'),
+    ...createNavItem('Outlet'),
     Styles: ['level0', 'item2', 'odd', 'last', 'flat-level2'],
-  },
-
-  {
-    ...createNavItem('Contact'),
-    Styles: ['level0', 'submenu', 'item2', 'odd', 'last', 'flat-level1'],
   },
 ];
 

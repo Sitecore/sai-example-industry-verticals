@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
-import { Default as Promo, PromoProps } from '../components/promo/Promo';
+import { Default as Promo, PromoProps, WithQuote } from '../components/promo/Promo';
 import { CommonParams, CommonRendering } from './common/commonData';
 import {
   createImageField,
@@ -70,5 +70,21 @@ export const Default: Story = {
       Reversed: boolToSitecoreCheckbox(args.Reversed),
     };
     return <Promo params={params} rendering={baseRendering} fields={baseFields} />;
+  },
+};
+
+export const QuotePromo: Story = {
+  argTypes: {
+    ShowMultipleImages: { table: { disable: true } },
+    HideShapes: { table: { disable: true } },
+    HideShadows: { table: { disable: true } },
+  },
+  render: (args) => {
+    const params = {
+      ...baseParams,
+      styles: `${baseParams.styles} ${args.BackgroundColor}`,
+      Reversed: boolToSitecoreCheckbox(args.Reversed),
+    };
+    return <WithQuote params={params} rendering={baseRendering} fields={baseFields} />;
   },
 };

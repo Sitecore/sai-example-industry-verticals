@@ -29,9 +29,15 @@ SharedFields:
     {442E3EA4-DE9A-41B5-A917-0F589F79B1A0}
     {E874A406-4977-443B-8AFE-690812AFB5EF}
     {613A3675-953D-4AD1-877A-48D24A28977D}
+    {6B69C658-CE00-476C-8A97-FA59F2DEF73B}
+    {5CEFF7C3-95EE-4EF8-A08C-7A6DBE5613CD}
+    {75A72FA7-693E-4ABF-8A24-D3B74D48EA20}
+    {810E5B86-932A-4160-8672-C126B545F034}
+    {89252C77-218A-4B21-8A74-BC8A4BF11D93}
+    {0D60B2A1-9BF8-420A-8EEA-BC98FE425EB7}
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "9deda637-b700-4f57-bde6-80bccbda7f15"
+  Value: "6ec026b7-088f-4376-84d6-028ad5560975"
 Languages:
 - Language: en
   Versions:
@@ -46,11 +52,11 @@ Languages:
         sitecore\admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "eb6d33d7-f4b3-41a7-9d3c-62f05d0fc793"
+      Value: "f7b07a22-7716-48d4-ac3a-7907708e91e3"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251021T081723Z
+      Value: 20251117T110425Z

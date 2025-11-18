@@ -1,0 +1,122 @@
+/* Background layout */
+.cover-background {
+  > .component-content {
+    @apply bg-cover bg-center bg-no-repeat;
+  }
+}
+
+.fix-background {
+  > .component-content {
+    @apply bg-cover bg-fixed bg-top-left bg-no-repeat;
+  }
+}
+
+/* This doesn't really do what it says - we may need to rework it */
+.parallax-background {
+  > .component-content {
+    @apply bg-cover bg-fixed bg-position-[50%_0] bg-no-repeat max-md:bg-scroll;
+  }
+}
+
+/* Spacing */
+/* Using padding for the sides so it doesn't break the grid widths */
+.indent {
+  @apply px-12;
+}
+
+.indent-top {
+  @apply mt-6;
+}
+
+.indent-bottom {
+  @apply mb-6;
+}
+
+/* Content alignment */
+.position-left,
+.position-left * {
+  text-align: left !important;
+}
+
+.position-right,
+.position-right * {
+  text-align: right !important;
+}
+
+.position-center,
+.position-center * {
+  text-align: center !important;
+}
+
+.position-left select {
+  direction: ltr !important;
+}
+
+.position-right select {
+  direction: rtl !important;
+}
+
+.position-center select {
+  text-align-last: center !important;
+}
+
+.container-clean-background > .component-content,
+.component-clean-background {
+  @apply !bg-background dark:!bg-background-dark;
+}
+
+.container-color-background > .component-content,
+.component-color-background {
+  @apply !bg-background-secondary dark:!bg-background-secondary-dark;
+}
+
+.container-dark-background > .component-content,
+.component-dark-background {
+  @apply !bg-background-tertiary dark:!bg-background-tertiary-dark;
+}
+
+.container-gray-background > .component-content,
+.component-gray-background {
+  @apply !bg-disabled dark:!bg-disabled-dark;
+}
+
+.placeholder-pattern-background {
+  --color-pattern-background: var(--color-background-secondary);
+  --color-pattern-foreground: var(--color-background-secondary-dark);
+
+  .dark & {
+    --color-pattern-background: var(--color-background-secondary-dark);
+    --color-pattern-foreground: var(--color-accent);
+  }
+
+  background:
+    radial-gradient(
+      circle,
+      transparent 20%,
+      var(--color-pattern-background) 20%,
+      var(--color-pattern-background) 80%,
+      transparent 80%,
+      transparent
+    ),
+    radial-gradient(
+        circle,
+        transparent 20%,
+        var(--color-pattern-background) 20%,
+        var(--color-pattern-background) 80%,
+        transparent 80%,
+        transparent
+      )
+      25px 25px,
+    linear-gradient(var(--color-pattern-foreground) 2px, transparent 2px) 0 -1px,
+    linear-gradient(
+        90deg,
+        var(--color-pattern-foreground) 2px,
+        var(--color-pattern-background) 2px
+      ) -1px
+      0;
+  background-size:
+    50px 50px,
+    50px 50px,
+    25px 25px,
+    25px 25px;
+}

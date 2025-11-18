@@ -4,6 +4,24 @@ Parent: "16807766-6013-4944-9550-ebc3216ad248"
 Template: "f6e44a9e-074a-4865-987e-0c2dc00b7af5"
 Path: "/sitecore/content/retail/forma-lux/Home/Products/Bed/Aurora King Bed"
 SharedFields:
+- ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+  Hint: Tags
+  Value: |
+    {AC473CFD-491E-4EB1-9D3D-AF5A1F63F10B}
+    {831305F5-99B0-4746-B09A-42C67FE37EC5}
+- ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+  Hint: SKU
+  Value: BED0002
+- ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
+  Hint: Color
+  Value: |
+    {D5D801B9-21CD-426C-8573-0FFF36FE3317}
+    {4644FE16-10A7-44F1-8172-CA03C35A688D}
+- ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
+  Hint: Size
+  Value: |
+    {978D9183-8AD5-4000-8A7E-312A50B1E1B1}
+    {C593AA0B-B143-4FD4-B8F6-C8950FB744B0}
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 325
@@ -15,6 +33,9 @@ SharedFields:
   Hint: __Thumbnail
   Value: |
     <image mediaid="{67DE6597-4F49-4B9F-8CCE-9C3DBEA47D1D}" />
+- ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+  Hint: Category
+  Value: "{16807766-6013-4944-9550-EBC3216AD248}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
   Value: "c967d2f6-75be-41d4-a20b-bd28d0d4a0c8"
@@ -50,11 +71,6 @@ Languages:
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
       Value: "A luxurious king-size bed with a tufted headboard."
-    - ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
-      Hint: Tags
-      Value: |
-        {AC473CFD-491E-4EB1-9D3D-AF5A1F63F10B}
-        {831305F5-99B0-4746-B09A-42C67FE37EC5}
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
       Value: 1299
@@ -65,26 +81,13 @@ Languages:
       Hint: __Owner
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
-    - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
-      Hint: SKU
-      Value: BED0002
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
-    - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
-      Hint: Color
-      Value: |
-        {D5D801B9-21CD-426C-8573-0FFF36FE3317}
-        {4644FE16-10A7-44F1-8172-CA03C35A688D}
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "c12720ee-0868-4ba1-b0f7-d2acf429b4e4"
-    - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
-      Hint: Size
-      Value: |
-        {978D9183-8AD5-4000-8A7E-312A50B1E1B1}
-        {C593AA0B-B143-4FD4-B8F6-C8950FB744B0}
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -92,9 +95,6 @@ Languages:
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Aurora King Bed
-    - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
-      Hint: Category
-      Value: "{16807766-6013-4944-9550-EBC3216AD248}"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251017T150639Z

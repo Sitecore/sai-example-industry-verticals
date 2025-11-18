@@ -1,0 +1,42 @@
+@theme {
+  --color-background: #ffffff;
+  --color-background-secondary: #f4fdfd;
+  --color-background-tertiary: #b8eff2;
+  --color-foreground: #023859;
+
+  --color-background-dark: #011119;
+  --color-background-secondary-dark: #047294;
+  --color-background-tertiary-dark: #023859;
+  --color-foreground-dark: #ffffff;
+  --color-foreground-secondary-dark: #b8eff2;
+
+  --color-accent: #6cd8c9;
+  --color-accent-muted: #a3ddcf;
+
+  --color-background-input: #e7f7f4;
+  --color-disabled: #dcdcdc;
+  --color-disabled-dark: #70a7b8;
+
+  --color-border: #e8e8e8;
+
+  --font-heading: 'Mulish', sans-serif;
+  --font-body: 'Noto Sans', sans-serif;
+
+  --shadow-soft: 0px 3px 45px rgba(0, 0, 0, 0.16);
+  --background-image-hero-clip: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1601.7 992.77' preserveAspectRatio='none'%3E%3Cg fill='black'%3E%3Cpath d='M.83,636.38s121.41,339.4,484.75,353.09,578.3-16.53,644.58-66.01,469.84-402.66,469.84-402.66l1.7-520.8L0,.05l.83,636.33Z'/%3E%3C/g%3E%3C/svg%3E");
+
+  --radius-base: 0.5rem;
+
+  /*
+  This does not show in the theme editor
+  but is used to override the defaults based on the user's selection for radius-base
+  */
+  --radius-xs: calc(var(--radius-base) * 0.25);
+  --radius-sm: calc(var(--radius-base) * 0.5);
+  --radius-md: var(--radius-base);
+  --radius-lg: calc(var(--radius-base) * 1.5);
+  --radius-xl: calc(var(--radius-base) * 2);
+  --radius-2xl: calc(var(--radius-base) * 3);
+  --radius-3xl: calc(var(--radius-base) * 4);
+  --radius-4xl: calc(var(--radius-base) * 5);
+}

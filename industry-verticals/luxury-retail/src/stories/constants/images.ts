@@ -1,4 +1,4 @@
-const ACCENT_COLOR = '#c1a25f';
+const ACCENT_COLOR = '#846854';
 const FOREGROUND_COLOR = '#1e1e1e';
 
 export const LOGO_SVG = `
