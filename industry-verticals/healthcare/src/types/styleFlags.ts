@@ -1,4 +1,7 @@
 export enum FeatureStyles {
-  BlobAccent = 'blob-accent',
   UseAccentColor = 'use-accent-color',
+}
+
+export enum CommonStyles {
+  HideBlobAccent = 'hide-blob-accent',
 }

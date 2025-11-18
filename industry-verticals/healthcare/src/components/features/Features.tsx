@@ -26,9 +26,9 @@ interface Fields {
 
 interface FeatureFields {
   id: string;
-  FeatureTitle: IGQLTextField;
+  featureTitle: IGQLTextField;
   featureDescription: IGQLTextField;
-  FeatureImage: IGQLImageField;
+  featureImage: IGQLImageField;
   featureImageDark: IGQLImageField;
 }
 
@@ -62,7 +62,7 @@ const FeatureItem = ({
         className={`flex h-20 w-20 shrink-0 items-center justify-center p-3 lg:h-26 lg:w-26 ${borderStyles}`}
       >
         <ContentSdkImage
-          field={feature?.FeatureImage?.jsonValue}
+          field={feature?.featureImage?.jsonValue}
           className={`h-full w-full object-contain ${!useAccentColor ? 'dark:hidden' : ''}`}
         />
         {!useAccentColor && (
@@ -74,7 +74,7 @@ const FeatureItem = ({
       </div>
       <div>
         <h5>
-          <ContentSdkText field={feature?.FeatureTitle?.jsonValue} />
+          <ContentSdkText field={feature?.featureTitle?.jsonValue} />
         </h5>
         <p className="text-lg">
           <ContentSdkText field={feature?.featureDescription?.jsonValue} />

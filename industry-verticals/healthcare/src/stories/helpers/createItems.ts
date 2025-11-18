@@ -36,3 +36,18 @@ export const createFeatureItems = (count: number) =>
     FeatureImage: createIGQLField(createImageField()),
     featureImageDark: createIGQLField(createImageField()),
   }));
+export const createReviews = (count: number) => {
+  return Array.from({ length: count }, (_, index) => ({
+    id: `review-${index + 1}`,
+    displayName: `review ${index + 1}`,
+    name: `review${index + 1}`,
+    url: `/review/review-${index + 1}`,
+    fields: {
+      Avatar: createImageField('placeholder'),
+      ReviewerName: createTextField(`Reviewer ${index + 1}`),
+      Description: createTextField(
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      ),
+    },
+  }));
+};
