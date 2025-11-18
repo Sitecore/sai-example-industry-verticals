@@ -32,11 +32,11 @@ import { getLinkField, getNavigationText } from '@/helpers/navHelpers';
 import { useI18n } from 'next-localization';
 import BlobAccent from '@/assets/shapes/BlobAccent';
 import HeroClip from '@/assets/shapes/HeroClip';
-import { FeatureStyles } from '@/types/styleFlags';
 import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
+import BlobAccent_2e4ecd85952329c540c505e64c2c0c7c0394fc8b from 'src/assets/shapes/BlobAccent';
+import { FeatureStyles } from '@/types/styleFlags';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Keyboard, Navigation, Pagination } from 'swiper/modules';
-import BlobAccent_2e4ecd85952329c540c505e64c2c0c7c0394fc8b from 'src/assets/shapes/BlobAccent';
 import CurvedClip from 'src/assets/shapes/CurvedClip';
 import Head from 'next/head';
 import client from 'lib/sitecore-client';
@@ -115,16 +115,16 @@ const importMap = [
     exports: [{ name: 'default', value: HeroClip }],
   },
   {
+    module: 'next/link',
+    exports: [{ name: 'default', value: Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 }],
+  },
+  {
     module: 'src/assets/shapes/BlobAccent',
     exports: [{ name: 'default', value: BlobAccent_2e4ecd85952329c540c505e64c2c0c7c0394fc8b }],
   },
   {
     module: '@/types/styleFlags',
     exports: [{ name: 'FeatureStyles', value: FeatureStyles }],
-  },
-  {
-    module: 'next/link',
-    exports: [{ name: 'default', value: Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 }],
   },
   {
     module: 'swiper/react',
@@ -140,10 +140,6 @@ const importMap = [
       { name: 'Navigation', value: Navigation },
       { name: 'Pagination', value: Pagination },
     ],
-  },
-  {
-    module: 'src/assets/shapes/BlobAccent',
-    exports: [{ name: 'default', value: BlobAccent_2e4ecd85952329c540c505e64c2c0c7c0394fc8b }],
   },
   {
     module: 'src/assets/shapes/CurvedClip',
@@ -184,3 +180,4 @@ const importMap = [
 ];
 
 export default combineImportEntries(defaultImportEntries, importMap);
+
