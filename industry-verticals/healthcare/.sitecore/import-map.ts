@@ -3,31 +3,13 @@
 import { combineImportEntries, defaultImportEntries } from '@sitecore-content-sdk/nextjs/codegen';
 // end of built-in imports
 
-import {
-  Link,
-  Text,
-  useSitecore,
-  Placeholder,
-  RichText,
-  NextImage,
-  withDatasourceCheck,
-  CdpHelper,
-} from '@sitecore-content-sdk/nextjs';
+import { Link, Text, useSitecore, Placeholder, RichText, NextImage, withDatasourceCheck, CdpHelper } from '@sitecore-content-sdk/nextjs';
 import { useState, useId, useEffect } from 'react';
 import React from 'react';
 import { useTheme } from 'next-themes';
 import { isParamEnabled } from '@/helpers/isParamEnabled';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faBars,
-  faChevronDown,
-  faChevronUp,
-  faTimes,
-  faEnvelope,
-  faPhone,
-  faArrowLeft,
-  faArrowRight,
-} from '@fortawesome/free-solid-svg-icons';
+import { faBars, faChevronDown, faChevronUp, faTimes, faEnvelope, faPhone, faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { getLinkField, getNavigationText } from '@/helpers/navHelpers';
 import { useI18n } from 'next-localization';
 import BlobAccent from '@/assets/shapes/BlobAccent';
@@ -59,7 +41,7 @@ const importMap = [
       { name: 'NextImage', value: NextImage },
       { name: 'withDatasourceCheck', value: withDatasourceCheck },
       { name: 'CdpHelper', value: CdpHelper },
-    ],
+    ]
   },
   {
     module: 'react',
@@ -68,19 +50,25 @@ const importMap = [
       { name: 'useId', value: useId },
       { name: 'useEffect', value: useEffect },
       { name: 'default', value: React },
-    ],
+    ]
   },
   {
     module: 'next-themes',
-    exports: [{ name: 'useTheme', value: useTheme }],
+    exports: [
+      { name: 'useTheme', value: useTheme },
+    ]
   },
   {
     module: '@/helpers/isParamEnabled',
-    exports: [{ name: 'isParamEnabled', value: isParamEnabled }],
+    exports: [
+      { name: 'isParamEnabled', value: isParamEnabled },
+    ]
   },
   {
     module: '@fortawesome/react-fontawesome',
-    exports: [{ name: 'FontAwesomeIcon', value: FontAwesomeIcon }],
+    exports: [
+      { name: 'FontAwesomeIcon', value: FontAwesomeIcon },
+    ]
   },
   {
     module: '@fortawesome/free-solid-svg-icons',
@@ -93,45 +81,57 @@ const importMap = [
       { name: 'faPhone', value: faPhone },
       { name: 'faArrowLeft', value: faArrowLeft },
       { name: 'faArrowRight', value: faArrowRight },
-    ],
+    ]
   },
   {
     module: '@/helpers/navHelpers',
     exports: [
       { name: 'getLinkField', value: getLinkField },
       { name: 'getNavigationText', value: getNavigationText },
-    ],
+    ]
   },
   {
     module: 'next-localization',
-    exports: [{ name: 'useI18n', value: useI18n }],
+    exports: [
+      { name: 'useI18n', value: useI18n },
+    ]
   },
   {
     module: '@/assets/shapes/BlobAccent',
-    exports: [{ name: 'default', value: BlobAccent }],
+    exports: [
+      { name: 'default', value: BlobAccent },
+    ]
   },
   {
     module: '@/assets/shapes/HeroClip',
-    exports: [{ name: 'default', value: HeroClip }],
+    exports: [
+      { name: 'default', value: HeroClip },
+    ]
   },
   {
     module: 'next/link',
-    exports: [{ name: 'default', value: Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 }],
+    exports: [
+      { name: 'default', value: Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 },
+    ]
   },
   {
     module: 'src/assets/shapes/BlobAccent',
-    exports: [{ name: 'default', value: BlobAccent_2e4ecd85952329c540c505e64c2c0c7c0394fc8b }],
+    exports: [
+      { name: 'default', value: BlobAccent_2e4ecd85952329c540c505e64c2c0c7c0394fc8b },
+    ]
   },
   {
     module: '@/types/styleFlags',
-    exports: [{ name: 'FeatureStyles', value: FeatureStyles }],
+    exports: [
+      { name: 'FeatureStyles', value: FeatureStyles },
+    ]
   },
   {
     module: 'swiper/react',
     exports: [
       { name: 'Swiper', value: Swiper },
       { name: 'SwiperSlide', value: SwiperSlide },
-    ],
+    ]
   },
   {
     module: 'swiper/modules',
@@ -139,45 +139,62 @@ const importMap = [
       { name: 'Keyboard', value: Keyboard },
       { name: 'Navigation', value: Navigation },
       { name: 'Pagination', value: Pagination },
-    ],
+    ]
   },
   {
     module: 'src/assets/shapes/CurvedClip',
-    exports: [{ name: 'default', value: CurvedClip }],
+    exports: [
+      { name: 'default', value: CurvedClip },
+    ]
   },
   {
     module: 'next/head',
-    exports: [{ name: 'default', value: Head }],
+    exports: [
+      { name: 'default', value: Head },
+    ]
   },
   {
     module: 'lib/sitecore-client',
-    exports: [{ name: 'default', value: client }],
+    exports: [
+      { name: 'default', value: client },
+    ]
   },
   {
     module: 'next/image',
-    exports: [{ name: 'default', value: Image }],
+    exports: [
+      { name: 'default', value: Image },
+    ]
   },
   {
     module: '@sitecore-feaas/clientside/react',
-    exports: [{ name: '*', value: FEAAS }],
+    exports: [
+      { name: '*', value: FEAAS },
+    ]
   },
   {
     module: 'next.config',
-    exports: [{ name: 'default', value: nextConfig }],
+    exports: [
+      { name: 'default', value: nextConfig },
+    ]
   },
   {
     module: '@sitecore-cloudsdk/events/browser',
-    exports: [{ name: 'pageView', value: pageView }],
+    exports: [
+      { name: 'pageView', value: pageView },
+    ]
   },
   {
     module: 'sitecore.config',
-    exports: [{ name: 'default', value: config }],
+    exports: [
+      { name: 'default', value: config },
+    ]
   },
   {
     module: '@/helpers/extractMediaUrl',
-    exports: [{ name: 'extractMediaUrl', value: extractMediaUrl }],
-  },
+    exports: [
+      { name: 'extractMediaUrl', value: extractMediaUrl },
+    ]
+  }
 ];
 
 export default combineImportEntries(defaultImportEntries, importMap);
-

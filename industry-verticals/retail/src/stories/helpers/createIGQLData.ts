@@ -4,10 +4,10 @@ export type IGQLField<T> = { jsonValue: T };
 
 export interface FeatureFields {
   id: string;
-  featureHeading: IGQLField<Field<string>>;
+  FeatureTitle: IGQLField<Field<string>>;
   featureDescription: IGQLField<RichTextField>;
-  featureIcon: IGQLField<ImageField>;
-  featureIconDark: IGQLField<ImageField>;
+  FeatureImage: IGQLField<ImageField>;
+  featureImageDark: IGQLField<ImageField>;
 }
 
 interface CreateIGQLDataType<ResultsType, TopLevelFields extends Record<string, unknown>> {
