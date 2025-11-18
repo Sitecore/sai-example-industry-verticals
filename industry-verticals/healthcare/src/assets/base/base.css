@@ -4,7 +4,7 @@
   }
 
   body {
-    @apply font-body text-foreground bg-background dark:text-foreground-dark text-base;
+    @apply font-body text-foreground bg-background dark:text-foreground-dark text-base dark:bg-background-dark;
   }
 
   h1,
@@ -41,7 +41,7 @@
   }
 
   p {
-    @apply font-body text-foreground;
+    @apply font-body text-foreground dark:text-foreground-dark;
   }
 
   button:not(:disabled),

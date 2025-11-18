@@ -41,13 +41,13 @@ type FooterProps = {
 const DefaultFooter = (props: FooterProps) => {
   const id = props.params.RenderingIdentifier;
 
-  const isTopSectionVisible = props.params?.Styles?.includes('hide-top-section') || undefined;
-  const isBottomSectionVisible = props.params?.Styles?.includes('hide-bottom-section') || undefined;
+  const hideTopSection = props.params?.Styles?.includes('hide-top-section') || undefined;
+  const hideBottomSection = props.params?.Styles?.includes('hide-bottom-section') || undefined;
 
   return (
     <section className={`relative ${props.params.styles} overflow-hidden`} id={id ? id : undefined}>
       {/* footer top section */}
-      {!isTopSectionVisible && (
+      {!hideTopSection && (
         <div className="bg-background-secondary dark:bg-background-secondary-dark pt-24 pb-16">
           {/* svg accent background */}
           <div className="text-background dark:text-background-dark pointer-events-none absolute -top-px -right-px left-0 leading-none">
@@ -107,7 +107,7 @@ const DefaultFooter = (props: FooterProps) => {
         </div>
       )}
       {/* footer bottom section */}
-      {!isBottomSectionVisible && (
+      {!hideBottomSection && (
         <div className="container py-4">
           <div className="flex flex-col gap-4 lg:flex-row lg:items-center">
             {/* copyright section */}
