@@ -3,9 +3,11 @@
 import { combineImportEntries, defaultImportEntries } from '@sitecore-content-sdk/nextjs/codegen';
 // end of built-in imports
 
-import { Link, Text, useSitecore, Placeholder, RichText, NextImage, withDatasourceCheck, CdpHelper } from '@sitecore-content-sdk/nextjs';
+import { Link, Text, useSitecore, NextImage, Placeholder, RichText, withDatasourceCheck, CdpHelper } from '@sitecore-content-sdk/nextjs';
 import { useState, useRef, useEffect } from 'react';
 import React from 'react';
+import BlobAccent from '@/assets/shapes/BlobAccent';
+import { CommonStyles } from '@/types/styleFlags';
 import { isParamEnabled } from '@/helpers/isParamEnabled';
 import { ChevronDown } from 'lucide-react';
 import HamburgerIcon from '@/components/non-sitecore/HamburgerIcon';
@@ -15,7 +17,6 @@ import { extractMediaUrl } from '@/helpers/extractMediaUrl';
 import { getLinkContent, getLinkField, isNavLevel, isNavRootItem, prepareFields } from '@/helpers/navHelpers';
 import clsx from 'clsx';
 import { useI18n } from 'next-localization';
-import BlobAccent from '@/assets/shapes/BlobAccent';
 import HeroClip from '@/assets/shapes/HeroClip';
 import BlobAccent_2e4ecd85952329c540c505e64c2c0c7c0394fc8b from 'src/assets/shapes/BlobAccent';
 import CurvedClip from 'src/assets/shapes/CurvedClip';
@@ -34,9 +35,9 @@ const importMap = [
       { name: 'Link', value: Link },
       { name: 'Text', value: Text },
       { name: 'useSitecore', value: useSitecore },
+      { name: 'NextImage', value: NextImage },
       { name: 'Placeholder', value: Placeholder },
       { name: 'RichText', value: RichText },
-      { name: 'NextImage', value: NextImage },
       { name: 'withDatasourceCheck', value: withDatasourceCheck },
       { name: 'CdpHelper', value: CdpHelper },
     ]
@@ -48,6 +49,18 @@ const importMap = [
       { name: 'useRef', value: useRef },
       { name: 'useEffect', value: useEffect },
       { name: 'default', value: React },
+    ]
+  },
+  {
+    module: '@/assets/shapes/BlobAccent',
+    exports: [
+      { name: 'default', value: BlobAccent },
+    ]
+  },
+  {
+    module: '@/types/styleFlags',
+    exports: [
+      { name: 'CommonStyles', value: CommonStyles },
     ]
   },
   {
@@ -106,12 +119,6 @@ const importMap = [
     module: 'next-localization',
     exports: [
       { name: 'useI18n', value: useI18n },
-    ]
-  },
-  {
-    module: '@/assets/shapes/BlobAccent',
-    exports: [
-      { name: 'default', value: BlobAccent },
     ]
   },
   {
