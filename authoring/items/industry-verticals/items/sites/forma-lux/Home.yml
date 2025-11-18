@@ -5,6 +5,13 @@ Template: "98e60957-0783-4a9a-85cc-77dad30e9711"
 Path: "/sitecore/content/retail/forma-lux/Home"
 BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
 SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {98E60957-0783-4A9A-85CC-77DAD30E9711}
+    {F6E44A9E-074A-4865-987E-0C2DC00B7AF5}
+    {4D2B49E6-1130-444A-B22C-5C7E25D01B56}
+    {412BF445-B1A6-4AFF-8054-0B21A1FEBC47}
 - ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
   Hint: Page Design
   Value: "{41E4B543-B8BC-42E6-82F0-1715DC47A6BA}"
@@ -17,7 +24,7 @@ SharedFields:
     <image mediaid="{1265691C-6EE9-49B3-8131-FDEA5E9EE0F7}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "9a057fcd-5b7b-424f-af09-784c2f7917c6"
+  Value: "b95c88e2-ad5c-4443-b829-a1878df8849f"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -54,15 +61,15 @@ SharedFields:
           s:par="FieldNames=%7BE7FB2EE2-33B4-4536-8453-6ACC1CDEBE72%7D&amp;RenderingIdentifier&amp;Styles=%7C%7B8562F7F8-721A-4C82-B884-AAF58B44C6B6%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D"
           s:ph="headless-main" />
         <r
-          uid="{057FBBA5-8AA0-4F72-8B50-DEEF266C2E07}"
+          uid="{9E9A7694-8CBD-488D-90F8-C88AE51B223A}"
           p:after="r[@uid='{3322063A-EBC7-4FE5-B3B2-0E084039FC58}']"
           s:ds="7a1b9916-a4aa-43ec-a3e6-f56e56382341"
           s:id="{442E3EA4-DE9A-41B5-A917-0F589F79B1A0}"
-          s:par="FieldNames&amp;RenderingIdentifier&amp;Styles=%7C%7BF0287895-D69D-4A5F-9EA4-4238A54C05FF%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=13&amp;HideAccentLine=0"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=17"
           s:ph="headless-main" />
         <r
           uid="{D362D8F7-42C9-488A-BE41-4E79A8C3868A}"
-          p:after="r[@uid='{057FBBA5-8AA0-4F72-8B50-DEEF266C2E07}']"
+          p:after="r[@uid='{9E9A7694-8CBD-488D-90F8-C88AE51B223A}']"
           s:ds="f97a29f7-2028-46d6-ae45-703eef07f0d1"
           s:id="{CCD11802-22A3-462F-92FC-821515E2AEC8}"
           s:par="FieldNames=%7B4091EF1F-FB38-4E84-8776-076441E040BF%7D&amp;HideShapes=0&amp;Reversed=0&amp;RenderingIdentifier&amp;ShowMultipleImages=0&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;HideQuote=0&amp;DynamicPlaceholderId=2&amp;HideCurveLine=0&amp;HideShadows=0"
@@ -118,11 +125,18 @@ SharedFields:
           s:ph="headless-main" />
         <r
           uid="{954AADCA-FC91-45B3-BB1D-21D3462F0236}"
-          p:after="*[1=2]"
+          p:after="r[@uid='{F57656C8-E3F9-4BFC-87A9-EA4FF7627A02}']"
           s:ds="b86a1b6c-c131-42ce-afcf-d7fef4a543f5"
           s:id="{C29D8AEC-AD95-44E5-BCF9-B0D98C933345}"
           s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;Loop=1&amp;DynamicPlaceholderId=14&amp;Autoplay=1"
           s:ph="/headless-main/section-wrapper-content-13" />
+        <r
+          uid="{ED5725EF-03DF-4D4F-BE30-78265C5A7D4F}"
+          p:after="*[1=2]"
+          s:ds="b86a1b6c-c131-42ce-afcf-d7fef4a543f5"
+          s:id="{C29D8AEC-AD95-44E5-BCF9-B0D98C933345}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;Autoplay=1&amp;Loop=1&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=18"
+          s:ph="/headless-main/section-wrapper-content-17" />
       </d>
     </r>
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
@@ -178,14 +192,14 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "76005f1f-6c60-4ddd-b58d-bc4c56f88e61"
+      Value: "7896e186-fc6e-41ab-9955-5963e7f99b5a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeffrey.isham@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251112T134909Z
+      Value: 20251117T095328Z
 - Language: "es-ES"
   Versions:
   - Version: 1

@@ -1,0 +1,23 @@
+﻿---
+ID: "e03c6aa7-be0b-4ffc-8ebb-6db8fa58b5b4"
+Parent: "091e6e59-b7e5-4eda-b742-ad432a30a34d"
+Template: "9f7eb765-4566-4dd5-b74f-8bba6a27ba17"
+Path: "/sitecore/content/retail/forma-lux/Settings/Retail Site Settings"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251117T220631Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e29d061a-8eda-4cb6-8cd8-8982038ed905"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jeffrey.isham@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251117T220631Z
