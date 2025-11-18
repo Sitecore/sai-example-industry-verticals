@@ -1,22 +1,10 @@
 'use client';
 
-import React, { useState, useRef } from 'react';
+import React, { useState } from 'react';
 import { Link, TextField, useSitecore } from '@sitecore-content-sdk/nextjs';
-import { ComponentProps } from 'lib/component-props';
-import { ChevronDown } from 'lucide-react';
-import HamburgerIcon from '@/components/non-sitecore/HamburgerIcon';
-import { useClickAway } from '@/hooks/useClickAway';
-import { useStopResponsiveTransition } from '@/hooks/useStopResponsiveTransition';
-import { extractMediaUrl } from '@/helpers/extractMediaUrl';
-import {
-  getLinkContent,
-  getLinkField,
-  isNavLevel,
-  isNavRootItem,
-  prepareFields,
-} from '@/helpers/navHelpers';
-import clsx from 'clsx';
-import { isParamEnabled } from '@/helpers/isParamEnabled';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars, faChevronDown, faChevronUp, faTimes } from '@fortawesome/free-solid-svg-icons';
+import { getLinkField, getNavigationText } from '@/helpers/navHelpers';
 
 export interface NavItemFields {
   Id: string;
@@ -29,220 +17,146 @@ export interface NavItemFields {
   Styles: string[];
 }
 
-interface NavigationListItemProps {
+export type NavigationListProps = {
   fields: NavItemFields;
   handleClick: (event?: React.MouseEvent<HTMLElement>) => void;
-  logoSrc?: string;
-  isSimpleLayout?: boolean;
-}
-
-export interface NavigationProps extends ComponentProps {
-  fields: Record<string, NavItemFields>;
-}
-
-const NavigationListItem: React.FC<NavigationListItemProps> = ({
-  fields,
-  handleClick,
-  logoSrc,
-  isSimpleLayout,
-}) => {
-  const { page } = useSitecore();
-  const [isActive, setIsActive] = useState(false);
-
-  const dropdownRef = useRef<HTMLLIElement>(null);
-  useClickAway(dropdownRef, () => setIsActive(false));
-
-  const isRootItem = isNavRootItem(fields);
-  const isTopLevelPage = isNavLevel(fields, 1);
-
-  const hasChildren = !!fields.Children?.length;
-  const isLogoRootItem = isRootItem && logoSrc;
-  const hasDropdownMenu = hasChildren && isTopLevelPage;
-
-  const clickHandler = (event: React.MouseEvent<HTMLElement>) => {
-    handleClick(event);
-    setIsActive(false);
-  };
-
-  const children = hasChildren
-    ? fields.Children!.map((child) => (
-        <NavigationListItem
-          key={child.Id}
-          fields={child}
-          handleClick={clickHandler}
-          isSimpleLayout={isSimpleLayout}
-          logoSrc={logoSrc}
-        />
-      ))
-    : null;
-
-  return (
-    <li
-      ref={dropdownRef}
-      tabIndex={0}
-      role="menuitem"
-      className={clsx(
-        fields?.Styles?.join(' '),
-        'relative flex flex-col gap-x-8 gap-y-4 xl:gap-x-14',
-        isRootItem && 'lg:flex-row',
-        isLogoRootItem && 'shrink-0 max-lg:hidden',
-        isLogoRootItem && isSimpleLayout && 'lg:mr-auto'
-      )}
-    >
-      <div className="flex items-center justify-center gap-1">
-        <Link
-          field={getLinkField(fields)}
-          editable={page.mode.isEditing}
-          onClick={clickHandler}
-          className="hover:text-foreground whitespace-nowrap transition-colors"
-        >
-          {getLinkContent(fields, logoSrc)}
-        </Link>
-        {hasDropdownMenu && (
-          <button
-            type="button"
-            aria-label="Toggle submenu"
-            aria-haspopup="true"
-            aria-expanded={isActive}
-            className="flex h-6 w-6 cursor-pointer items-center justify-center"
-            onClick={() => setIsActive((a) => !a)}
-            onKeyDown={(e) => {
-              if (e.key === 'Enter' || e.key === ' ') {
-                e.preventDefault();
-                setIsActive((a) => !a);
-              }
-            }}
-          >
-            <ChevronDown
-              className={clsx(
-                'size-4 transition-transform duration-300',
-                isActive && 'rotate-180',
-                'navigation-dropdown-trigger'
-              )}
-            />
-          </button>
-        )}
-      </div>
-      {hasChildren && (
-        <ul
-          role="menu"
-          className={clsx(
-            'flex flex-col items-center gap-x-8 gap-y-4 xl:gap-x-14',
-            isRootItem && 'lg:flex-row',
-            hasDropdownMenu &&
-              clsx(
-                'z-110 text-base max-lg:border-b max-lg:pb-4 max-lg:text-sm',
-                'lg:absolute lg:top-full lg:left-1/2 lg:-translate-x-1/2 lg:p-6 lg:transition-all lg:duration-300',
-                'lg:bg-background lg:rounded-xl lg:shadow-md',
-                isActive
-                  ? 'max-lg:flex'
-                  : 'max-lg:hidden lg:pointer-events-none lg:translate-y-2 lg:scale-95 lg:opacity-0'
-              )
-          )}
-        >
-          {children}
-        </ul>
-      )}
-    </li>
-  );
+  relativeLevel: number;
 };
 
-export const Default = ({ params, fields }: NavigationProps) => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+type NavigationProps = {
+  params?: { [key: string]: string };
+  fields: Record<string, NavItemFields>;
+};
+
+export const Default = (props: NavigationProps) => {
+  const [isOpenMenu, openMenu] = useState(false);
   const { page } = useSitecore();
-  const { styles, RenderingIdentifier: id, Logo: logoImage, SimpleLayout: simpleLayout } = params;
+  const styles =
+    props.params != null
+      ? `${props.params.GridParameters ?? ''} ${props?.params?.Styles ?? ''}`.trimEnd()
+      : '';
+  const id = props.params != null ? props.params.RenderingIdentifier : null;
 
-  useStopResponsiveTransition();
-
-  if (!Object.values(fields).some((v) => !!v)) {
+  if (!Object.values(props.fields).length) {
     return (
-      <div className={`component navigation ${styles}`} id={id}>
+      <div className={`component navigation ${styles}`} id={id ? id : undefined}>
         <div className="component-content">[Navigation]</div>
       </div>
     );
   }
 
-  const handleToggleMenu = (event?: React.MouseEvent<HTMLElement>, forceState?: boolean) => {
+  const handleToggleMenu = (event?: React.MouseEvent<HTMLElement>, flag?: boolean): void => {
     if (event && page.mode.isEditing) {
       event.preventDefault();
     }
-    setIsMenuOpen(forceState ?? !isMenuOpen);
+
+    if (flag !== undefined) {
+      return openMenu(flag);
+    }
+
+    openMenu(!isOpenMenu);
   };
 
-  const isSimpleLayout = isParamEnabled(simpleLayout);
-  const preparedFields = prepareFields(fields, !isSimpleLayout);
-  const rootItem = Object.values(preparedFields).find((item) => isNavRootItem(item));
-  const logoSrc = extractMediaUrl(logoImage);
-  const hasLogoRootItem = rootItem && logoSrc;
-
-  const navigationItems = Object.values(preparedFields)
-    .filter((item): item is NavItemFields => !!item)
-    .map((item) => (
-      <NavigationListItem
-        key={item.Id}
-        fields={item}
-        handleClick={(event) => handleToggleMenu(event, false)}
-        logoSrc={logoSrc}
-        isSimpleLayout={!!isSimpleLayout}
+  const list = Object.values(props.fields)
+    .filter((element) => element)
+    .map((element: NavItemFields, key: number) => (
+      <NavigationList
+        key={`${key}${element.Id}`}
+        fields={element}
+        handleClick={(event: React.MouseEvent<HTMLElement>) => handleToggleMenu(event, false)}
+        relativeLevel={1}
       />
     ));
 
   return (
-    <div className={`component navigation bg-background ${styles}`} id={id}>
+    <div className={`component navigation font-heading text-lg ${styles}`} id={id ? id : undefined}>
       <div
-        className={clsx(
-          'relative z-150 container flex items-center py-4 lg:hidden',
-          !isSimpleLayout &&
-            '[.component.header_&]:grid-cols-2 [.component.header_&]:px-0 [.component.header_&]:max-lg:grid',
-          !isSimpleLayout ? 'flex-row-reverse' : '',
-          isSimpleLayout && !hasLogoRootItem ? 'justify-end' : 'justify-between'
-        )}
+        className="z-50 flex h-6 w-6 cursor-pointer items-center justify-center lg:hidden"
+        onClick={() => handleToggleMenu()}
       >
-        {hasLogoRootItem && (
-          <Link
-            field={getLinkField(rootItem!)}
-            editable={page.mode.isEditing}
-            className={clsx(
-              'navigation-mobile-trigger',
-              !isSimpleLayout && '[.component.header_&]:mx-auto'
-            )}
-          >
-            {getLinkContent(rootItem!, logoSrc)}
-          </Link>
-        )}
-        <HamburgerIcon
-          isOpen={isMenuOpen}
-          onClick={handleToggleMenu}
-          onKeyDown={(e) => {
-            if (e.key === 'Enter' || e.key === ' ') {
-              e.preventDefault();
-              handleToggleMenu();
-            }
-          }}
-          className={clsx(
-            'navigation-mobile-trigger',
-            !isSimpleLayout && '[.component.header_&]:-order-1'
-          )}
-        />
+        <FontAwesomeIcon icon={isOpenMenu ? faTimes : faBars} width={16} height={16} />
       </div>
 
-      <nav
-        className={clsx(
-          'bg-background z-100 flex duration-300',
-          'max-lg:fixed max-lg:inset-0',
-          !isMenuOpen && 'max-lg:-translate-y-full max-lg:opacity-0'
-        )}
-      >
-        <ul
-          role="menubar"
-          className={clsx(
-            'container flex flex-col items-center justify-center gap-x-8 gap-y-4 py-6 text-lg lg:flex-row xl:gap-x-16',
-            isSimpleLayout && !hasLogoRootItem && 'lg:justify-end'
-          )}
+      <div className="component-content">
+        <nav
+          className={`${
+            isOpenMenu ? 'flex' : 'hidden'
+          } bg-background dark:bg-background-dark absolute top-full right-0 left-0 z-100 lg:static lg:flex`}
         >
-          {navigationItems}
-        </ul>
-      </nav>
+          <ul className={`container flex flex-col gap-x-8 pb-8 lg:flex-row lg:pb-0 xl:gap-x-14`}>
+            {list}
+          </ul>
+        </nav>
+      </div>
     </div>
+  );
+};
+
+const NavigationList = (props: NavigationListProps) => {
+  const { page } = useSitecore();
+  const [active, setActive] = useState(false);
+  const classNameList = `${props?.fields?.Styles.concat('rel-level' + props.relativeLevel).join(
+    ' '
+  )}`;
+
+  const isRootItem = props.fields.Styles.includes('level0');
+
+  let children: React.JSX.Element[] = [];
+  if (props.fields.Children && props.fields.Children.length) {
+    children = props.fields.Children.map((element: NavItemFields, index: number) => (
+      <NavigationList
+        key={`${index}${element.Id}`}
+        fields={element}
+        handleClick={props.handleClick}
+        relativeLevel={props.relativeLevel + 1}
+      />
+    ));
+  }
+
+  return (
+    <li
+      className={`${classNameList} relative flex flex-col ${isRootItem ? 'lg:flex-row' : ''} gap-x-8 gap-y-4 xl:gap-x-14 ${active ? 'active' : ''} uppercase`}
+      key={props.fields.Id}
+      tabIndex={0}
+    >
+      <div className="flex items-center gap-1">
+        <Link
+          field={getLinkField(props)}
+          editable={page.mode.isEditing}
+          onClick={props.handleClick}
+          className="whitespace-nowrap"
+        >
+          {getNavigationText(props)}
+        </Link>
+        {children.length > 0 && !isRootItem ? (
+          <div
+            className="flex h-6 w-6 items-center justify-center"
+            onClick={() => setActive((a) => !a)}
+          >
+            <FontAwesomeIcon
+              icon={active ? faChevronUp : faChevronDown}
+              width={16}
+              height={16}
+              className="cursor-pointer"
+            />
+          </div>
+        ) : (
+          <></>
+        )}
+      </div>
+      {children.length > 0 ? (
+        <ul
+          className={`flex flex-col gap-x-8 gap-y-4 xl:gap-x-14 ${
+            isRootItem
+              ? 'lg:flex-row'
+              : `bg-background dark:bg-background-dark top-full -left-4 pl-4 lg:absolute lg:p-4 ${
+                  active ? 'block' : 'hidden'
+                } z-100`
+          }`}
+        >
+          {children}
+        </ul>
+      ) : null}
+    </li>
   );
 };
