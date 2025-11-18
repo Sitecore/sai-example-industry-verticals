@@ -1,0 +1,15 @@
+{
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Project.Healthcare-Media",
+  "references": ["Project.Healthcare"],
+  "items": {
+    "includes": [
+      {
+        "name": "retail-media",
+        "path": "/sitecore/Media Library/Project/retail/nova-medical",
+        "scope": "DescendantsOnly",
+        "allowedPushOperations": "CreateOnly"
+      }
+    ]
+  }
+}

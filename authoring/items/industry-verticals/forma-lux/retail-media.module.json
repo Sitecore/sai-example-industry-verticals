@@ -8,7 +8,7 @@
         "name": "retail-media",
         "path": "/sitecore/Media Library/Project/retail/forma-lux",
         "scope": "DescendantsOnly",
-        "allowedPushOperations": "CreateUpdateAndDelete"
+        "allowedPushOperations": "CreateOnly"
       }
     ]
   }
