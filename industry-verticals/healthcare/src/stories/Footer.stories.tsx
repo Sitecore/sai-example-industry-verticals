@@ -16,7 +16,7 @@ import { ComponentFields } from '@sitecore-content-sdk/nextjs';
 type StoryProps = ComponentProps<typeof Footer>;
 
 const meta = {
-  title: 'Global Elements/Footer',
+  title: 'Global Components/Footer',
   component: Footer,
   tags: ['autodocs'],
 } satisfies Meta<StoryProps>;
@@ -35,16 +35,16 @@ const baseRendering = {
 };
 
 const baseFields = {
-  LogoLight: createImageField('placeholder'),
-  LogoDark: createImageField('placeholder'),
-  AddressInfo: createRichTextField(),
-  WorkingHours: createRichTextField(),
-  Copyright: createTextField('Copyright © 2024. All Rights Reserved.'),
-  TermsOfUse: createLinkField('Terms of Use'),
-  PrivacyPolicy: createLinkField('Privacy Policy'),
-  FbLink: createLinkField('logo'),
-  TwitterLink: createLinkField('logo'),
-  InstagramLink: createLinkField('logo'),
+  TitleOne: createTextField('Contact'),
+  TitleTwo: createTextField('About us'),
+  TitleThree: createTextField('Our Services'),
+  TitleFour: createTextField('Hospital Time'),
+  CopyrightText: createTextField('Copyright © 2024. All Rights Reserved.'),
+  PolicyText: createLinkField('Privacy Policy'),
+  TermsText: createLinkField('Terms of Use'),
+  Description: createRichTextField(1),
+  Logo: createImageField('logo'),
+  LogoDark: createImageField('logo'),
 };
 
 const LinkListRendering = {
@@ -56,9 +56,29 @@ const LinkListRendering = {
   },
   fields: createIGQLData({
     createItems: createLinkItems,
-    count: 4,
+    count: 3,
     topLevelFields: {},
   }) as unknown as ComponentFields,
+};
+
+const SocialFollowRendering = {
+  ...CommonRendering,
+  componentName: 'SocialFollow',
+  params: CommonParams,
+  fields: {
+    FacebookLink: createLinkField('Facebook'),
+    InstagramLink: createLinkField('Instagram'),
+    TwitterLink: createLinkField('Twitter'),
+  } as unknown as ComponentFields,
+};
+
+const RichTextRendering = {
+  ...CommonRendering,
+  componentName: 'RichText',
+  params: CommonParams,
+  fields: {
+    Text: createRichTextField(),
+  } as unknown as ComponentFields,
 };
 
 export const Default: Story = {
@@ -69,10 +89,19 @@ export const Default: Story = {
         rendering={{
           ...baseRendering,
           placeholders: {
-            [`footer-column-one-${baseParams.DynamicPlaceholderId}`]: [
+            [`footer-list-first-${baseParams.DynamicPlaceholderId}`]: [
               renderStorybookPlaceholder(),
             ],
-            [`footer-column-two-${baseParams.DynamicPlaceholderId}`]: [
+            [`footer-list-second-${baseParams.DynamicPlaceholderId}`]: [
+              renderStorybookPlaceholder(),
+            ],
+            [`footer-list-third-${baseParams.DynamicPlaceholderId}`]: [
+              renderStorybookPlaceholder(),
+            ],
+            [`footer-list-fourth-${baseParams.DynamicPlaceholderId}`]: [
+              renderStorybookPlaceholder(),
+            ],
+            [`footer-list-fifth-${baseParams.DynamicPlaceholderId}`]: [
               renderStorybookPlaceholder(),
             ],
           },
@@ -91,8 +120,11 @@ export const WithPlaceholderData: Story = {
         rendering={{
           ...baseRendering,
           placeholders: {
-            [`footer-column-one-${baseParams.DynamicPlaceholderId}`]: [LinkListRendering],
-            [`footer-column-two-${baseParams.DynamicPlaceholderId}`]: [LinkListRendering],
+            [`footer-list-first-${baseParams.DynamicPlaceholderId}`]: [RichTextRendering],
+            [`footer-list-second-${baseParams.DynamicPlaceholderId}`]: [LinkListRendering],
+            [`footer-list-third-${baseParams.DynamicPlaceholderId}`]: [LinkListRendering],
+            [`footer-list-fourth-${baseParams.DynamicPlaceholderId}`]: [RichTextRendering],
+            [`footer-list-fifth-${baseParams.DynamicPlaceholderId}`]: [SocialFollowRendering],
           },
         }}
         fields={baseFields}

@@ -5,31 +5,28 @@ import {
   NextImage as ContentSdkImage,
   Link as ContentSdkLink,
   Text as ContentSdkText,
-  RichText as ContentSdkRichText,
   ImageField,
   LinkField,
   ComponentRendering,
   ComponentParams,
   Placeholder,
-  Field,
   RichTextField,
   withDatasourceCheck,
+  TextField,
+  Text,
 } from '@sitecore-content-sdk/nextjs';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link from 'next/link';
-import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 interface Fields {
-  LogoLight: ImageField;
+  Logo: ImageField;
   LogoDark: ImageField;
-  AddressInfo: RichTextField;
-  WorkingHours: RichTextField;
-  Copyright: Field<string>;
-  TermsOfUse: LinkField;
-  PrivacyPolicy: LinkField;
-  FbLink: LinkField;
-  TwitterLink: LinkField;
-  InstagramLink: LinkField;
+  CopyrightText: RichTextField;
+  PolicyText: LinkField;
+  TermsText: LinkField;
+  TitleOne: TextField;
+  TitleTwo: TextField;
+  TitleThree: TextField;
+  TitleFour: TextField;
 }
 
 type FooterProps = {
@@ -41,6 +38,40 @@ type FooterProps = {
 const DefaultFooter = (props: FooterProps) => {
   const id = props.params.RenderingIdentifier;
 
+  console.log(props);
+
+  // placeholders keys
+  const phKeyOne = `footer-list-first-${props?.params?.DynamicPlaceholderId}`;
+  const phKeyTwo = `footer-list-second-${props?.params?.DynamicPlaceholderId}`;
+  const phKeyThree = `footer-list-third-${props?.params?.DynamicPlaceholderId}`;
+  const phKeyFour = `footer-list-fourth-${props?.params?.DynamicPlaceholderId}`;
+  const phKeyFive = `footer-list-fifth-${props?.params?.DynamicPlaceholderId}`;
+
+  // footer sections data
+  const sections = [
+    {
+      key: 'first_nav',
+      title: <Text field={props.fields.TitleOne} />,
+      content: <Placeholder name={phKeyOne} rendering={props.rendering} />,
+    },
+    {
+      key: 'second_nav',
+      title: <Text field={props.fields.TitleTwo} />,
+      content: <Placeholder name={phKeyTwo} rendering={props.rendering} />,
+    },
+    {
+      key: 'third_nav',
+      title: <Text field={props.fields.TitleThree} />,
+      content: <Placeholder name={phKeyThree} rendering={props.rendering} />,
+    },
+    {
+      key: 'fourth_nav',
+      title: <Text field={props.fields.TitleFour} />,
+      content: <Placeholder name={phKeyFour} rendering={props.rendering} />,
+    },
+  ];
+
+  // styles to hide and show sections
   const hideTopSection = props.params?.Styles?.includes('hide-top-section') || undefined;
   const hideBottomSection = props.params?.Styles?.includes('hide-bottom-section') || undefined;
 
@@ -68,7 +99,7 @@ const DefaultFooter = (props: FooterProps) => {
             {/* logo section */}
             <Link href={'/'} className="mb-12 inline-block max-w-50 lg:max-w-full">
               <ContentSdkImage
-                field={props.fields.LogoLight}
+                field={props.fields.Logo}
                 width={345}
                 height={45}
                 className="dark:hidden"
@@ -84,24 +115,12 @@ const DefaultFooter = (props: FooterProps) => {
             </Link>
             {/* content section */}
             <div className="grid gap-x-4 gap-y-12 lg:grid-cols-4">
-              <div>
-                <ContentSdkRichText field={props.fields.AddressInfo} />
-              </div>
-              <div>
-                <Placeholder
-                  name={`footer-column-one-${props?.params?.DynamicPlaceholderId}`}
-                  rendering={props.rendering}
-                />
-              </div>
-              <div>
-                <Placeholder
-                  name={`footer-column-two-${props?.params?.DynamicPlaceholderId}`}
-                  rendering={props.rendering}
-                />
-              </div>
-              <div>
-                <ContentSdkRichText field={props.fields.WorkingHours} />
-              </div>
+              {sections.map(({ key, title, content }) => (
+                <div key={key}>
+                  <div className="mb-8 text-lg font-bold">{title}</div>
+                  <div>{content}</div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
@@ -113,27 +132,19 @@ const DefaultFooter = (props: FooterProps) => {
             {/* copyright section */}
             <div className="mr-auto">
               <p>
-                <ContentSdkText field={props.fields.Copyright} />
+                <ContentSdkText field={props.fields.CopyrightText} />
               </p>
             </div>
 
             {/* policy and terms section */}
             <div className="flex flex-wrap gap-4 lg:mx-8">
-              <ContentSdkLink field={props.fields.TermsOfUse} />
-              <ContentSdkLink field={props.fields.PrivacyPolicy} />
+              <ContentSdkLink field={props.fields.TermsText} />
+              <ContentSdkLink field={props.fields.PolicyText} />
             </div>
 
             {/* social icons section */}
-            <div className="flex gap-2">
-              <ContentSdkLink field={props.fields.FbLink} className="social-icon">
-                <FontAwesomeIcon icon={faFacebook} width={16} height={16} />
-              </ContentSdkLink>
-              <ContentSdkLink field={props.fields.TwitterLink} className="social-icon">
-                <FontAwesomeIcon icon={faTwitter} width={14} height={14} />
-              </ContentSdkLink>
-              <ContentSdkLink field={props.fields.InstagramLink} className="social-icon">
-                <FontAwesomeIcon icon={faInstagram} width={14} height={14} />
-              </ContentSdkLink>
+            <div>
+              <Placeholder name={phKeyFive} rendering={props.rendering} />
             </div>
           </div>
         </div>
