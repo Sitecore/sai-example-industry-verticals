@@ -1,17 +1,10 @@
 import { ComponentProps } from '@/lib/component-props';
-import {
-  ComponentParams,
-  ComponentRendering,
-  Text,
-  NextImage as ContentSdkImage,
-} from '@sitecore-content-sdk/nextjs';
+import { Text, NextImage as ContentSdkImage } from '@sitecore-content-sdk/nextjs';
 import BlobAccent from '@/assets/shapes/BlobAccent';
 import { ReviewFields } from '@/types/review';
 import { CommonStyles } from '@/types/styleFlags';
 
 export interface TestimonialProps extends ComponentProps {
-  rendering: ComponentRendering & { params: ComponentParams };
-  params: { [key: string]: string };
   fields: {
     Reviews: ReviewFields[];
   };
