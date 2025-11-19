@@ -85,9 +85,9 @@ export const WithQuote = (props: PromoProps): JSX.Element => {
             isPromoReversed ? 'items-end text-right' : 'items-start text-left'
           } `}
         >
-          <div className="font-heading text-foreground text-4xl tracking-tight lg:text-7xl">
-            <ContentSdkRichText field={props.fields.PromoDescription} />
-          </div>
+          <h2 className="font-heading text-foreground max-w-4xl text-4xl tracking-tight lg:text-7xl">
+            <ContentSdkRichText field={props.fields.PromoTitle} />
+          </h2>
 
           {(props.fields.PromoMoreInfo?.value?.href || isPageEditing) && (
             <Link field={props.fields.PromoMoreInfo} className="outline-btn !inline-flex" />

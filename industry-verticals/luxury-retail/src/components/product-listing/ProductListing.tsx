@@ -4,6 +4,7 @@ import InfiniteScroll from '@/shadcn/components/ui/infiniteScroll';
 import { ComponentProps } from '@/lib/component-props';
 import { ProductCard } from '@/components/non-sitecore/ProductCard';
 import { Category, Product, ProductIGQL } from '@/types/products';
+import { useI18n } from 'next-localization';
 
 interface ProductCategoryPage {
   id: string;
@@ -30,6 +31,8 @@ export const Default = (props: ProductListingProps) => {
   const id = props.params.RenderingIdentifier;
   const items = props.fields.data.contextItem.children.results;
 
+  const { t } = useI18n();
+
   const unformattedProducts = items
     .filter((item) => Object.keys(item).length !== 0)
     .flatMap((item) => {
@@ -37,26 +40,30 @@ export const Default = (props: ProductListingProps) => {
       if ('children' in item && item.children?.results) {
         return item.children.results;
       } else {
+        // Otherwise, it's a Product itself
+        return [item as ProductIGQL];
       }
-      // Otherwise, it's a Product itself
-      return [item as ProductIGQL];
     });
 
-  const products = unformattedProducts.map((product) => ({
-    Title: product.title.jsonValue,
-    Price: product.price.jsonValue,
-    Image1: product.image1.jsonValue,
-    Image2: product.image2.jsonValue,
-    Category: product.category.jsonValue,
-    id: product.id,
-    url: product.url.path,
-  }));
+  const products = unformattedProducts
+    .map((product) => {
+      return {
+        Title: product?.title?.jsonValue,
+        Price: product?.price?.jsonValue,
+        Image1: product?.image1?.jsonValue,
+        Image2: product?.image2?.jsonValue,
+        Category: product?.category?.jsonValue,
+        id: product?.id,
+        url: product?.url?.path,
+      };
+    })
+    .filter((product) => product.id);
 
   // Filtering logic
   const categories: Category[] = [];
   products.forEach((product) => {
-    const category = product.Category.name;
-    if (!categories.find((cat) => cat.name === category)) {
+    const category = product.Category?.fields.CategoryName.value;
+    if (!categories.find((cat) => cat?.fields.CategoryName.value === category)) {
       categories.push(product.Category);
     }
   });
@@ -65,7 +72,7 @@ export const Default = (props: ProductListingProps) => {
 
   const filteredProducts = React.useMemo(() => {
     if (!selectedCategory) return products;
-    return products.filter((p) => p.Category.name === selectedCategory);
+    return products.filter((p) => p.Category?.fields.CategoryName.value === selectedCategory);
   }, [selectedCategory, products]);
 
   // Infinite scroll state
@@ -103,18 +110,20 @@ export const Default = (props: ProductListingProps) => {
                 !selectedCategory ? 'text-accent underline' : 'text-foreground'
               }`}
             >
-              All
+              {t('all_label') || 'All'}
             </button>
 
             {categories.map((cat) => (
               <button
-                key={cat.id}
-                onClick={() => setSelectedCategory(cat.name)}
+                key={cat?.id}
+                onClick={() => setSelectedCategory(cat?.fields.CategoryName.value)}
                 className={`hover:text-accent transition-colors ${
-                  selectedCategory === cat.name ? 'text-accent underline' : 'text-foreground'
+                  selectedCategory === cat?.fields.CategoryName.value
+                    ? 'text-accent underline'
+                    : 'text-foreground'
                 }`}
               >
-                {cat.name}
+                {cat?.fields.CategoryName.value}
               </button>
             ))}
           </div>

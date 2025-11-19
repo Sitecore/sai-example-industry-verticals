@@ -63,13 +63,16 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\neli.kostadinova@sitecore.com
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: vase
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2da722c6-8c11-4883-b2eb-5edef65dfc63"
+      Value: "ccae00fa-fc5d-43f1-84e3-4a86c10cab46"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\neli.kostadinova@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251114T135508Z
+      Value: 20251117T123126Z

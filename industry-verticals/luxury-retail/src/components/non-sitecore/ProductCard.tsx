@@ -22,16 +22,12 @@ export const ProductCard = ({ product, url, className }: ProductCardProps) => {
 
   return (
     <div className={`flex flex-col gap-8 ${className}`}>
-      <Link href={url} className="mb-auto">
-        <div className="group relative aspect-3/4">
-          <ContentSdkImage
-            field={product.Image1}
-            className="bg-background-accent size-full object-cover"
-            priority
-          />
+      <Link href={url || '#'} className="mb-auto">
+        <div className="group bg-background-accent relative aspect-3/4">
+          <ContentSdkImage field={product.Image1} className="size-full object-cover" priority />
           <ContentSdkImage
             field={product.Image2}
-            className="bg-background-accent absolute inset-0 z-5 size-full object-cover opacity-0 transition-opacity group-hover:opacity-100"
+            className="absolute inset-0 z-5 size-full object-cover opacity-0 transition-opacity group-hover:opacity-100"
             priority
           />
         </div>
@@ -47,7 +43,7 @@ export const ProductCard = ({ product, url, className }: ProductCardProps) => {
       </Link>
       {/* Add to cart button TBD */}
       {/* <AddToCartButton productId={productId} product={product} /> */}
-      <Link href={url} className="outline-btn self-start">
+      <Link href={url || '#'} className="outline-btn self-start">
         View
       </Link>
     </div>
