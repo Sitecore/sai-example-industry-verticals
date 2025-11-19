@@ -31,9 +31,9 @@ export const createDoctorItems = (count: number) =>
 export const createFeatureItems = (count: number) =>
   Array.from({ length: count }).map((_, i) => ({
     id: String(i + 1),
-    FeatureTitle: createIGQLField(createTextField(`Feature ${i + 1}`)),
+    featureTitle: createIGQLField(createTextField(`Feature ${i + 1}`)),
     featureDescription: createIGQLField(createTextField('', 2)),
-    FeatureImage: createIGQLField(createImageField()),
+    featureImage: createIGQLField(createImageField()),
     featureImageDark: createIGQLField(createImageField()),
   }));
 export const createReviews = (count: number) => {

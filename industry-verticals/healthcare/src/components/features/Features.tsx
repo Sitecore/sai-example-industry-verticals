@@ -10,7 +10,7 @@ import {
   ComponentParams,
 } from '@sitecore-content-sdk/nextjs';
 import BlobAccent from '../../assets/shapes/BlobAccent';
-import { FeatureStyles } from '@/types/styleFlags';
+import { FeatureStyles, CommonStyles } from '@/types/styleFlags';
 
 interface Fields {
   data: {
@@ -87,7 +87,7 @@ const FeatureItem = ({
 const DefaultFeatures = ({ fields, params }: FeaturesProps) => {
   const id = params?.RenderingIdentifier;
   const features = fields?.data?.datasource?.children?.results;
-  const hideBlobAccent = params?.styles.includes(FeatureStyles.BlobAccent);
+  const hideBlobAccent = params?.styles.includes(CommonStyles.HideBlobAccent);
   const useAccentColor = params?.styles.includes(FeatureStyles.UseAccentColor);
 
   return (

@@ -5,20 +5,18 @@ import { CommonParams, CommonRendering } from './common/commonData';
 import {
   BackgroundColorArgs,
   backgroundColorArgTypes,
-  BlobAccentArgs,
-  blobAccentArgTypes,
   defaultBackgroundColorArgs,
-  defaultBlobAccentArgs,
 } from './common/commonControls';
 import { createFeatureItems } from './helpers/createItems';
-import { boolToSitecoreCheckbox } from './helpers/boolToSitecoreCheckbox';
 import { createIGQLData } from './helpers/createIGQLData';
 import { createIGQLField, createRichTextField, createTextField } from './helpers/createFields';
+import clsx from 'clsx';
+import { CommonStyles } from '@/types/styleFlags';
 
 type StoryProps = ComponentProps<typeof Default> &
-  BackgroundColorArgs &
-  BlobAccentArgs & {
+  BackgroundColorArgs & {
     numberOfItems: number;
+    HideBlobAccent: boolean;
   };
 
 const meta = {
@@ -27,7 +25,6 @@ const meta = {
   tags: ['autodocs'],
   argTypes: {
     ...backgroundColorArgTypes,
-    ...blobAccentArgTypes,
     numberOfItems: {
       name: 'Number of features',
       control: {
@@ -41,7 +38,7 @@ const meta = {
   args: {
     numberOfItems: 3,
     ...defaultBackgroundColorArgs,
-    ...defaultBlobAccentArgs,
+    HideBlobAccent: false,
   },
 } satisfies Meta<StoryProps>;
 export default meta;
@@ -58,6 +55,12 @@ const baseRendering = {
 
 export const DefaultFeatures: Story = {
   render: (args) => {
+    const promoStyles = clsx(baseParams.styles, args.HideBlobAccent && CommonStyles.HideBlobAccent);
+    const params = {
+      ...baseParams,
+      styles: promoStyles,
+    };
+
     return (
       <Default
         fields={createIGQLData({
@@ -68,11 +71,7 @@ export const DefaultFeatures: Story = {
             body: createIGQLField(createRichTextField(1)),
           },
         })}
-        params={{
-          ...baseParams,
-          BlobAccent: boolToSitecoreCheckbox(args.BlobAccent),
-          styles: `${baseParams.styles} ${args.BackgroundColor}`,
-        }}
+        params={params}
         rendering={baseRendering}
       />
     );
@@ -84,6 +83,12 @@ export const SimpleFeatures: Story = {
     layout: 'padded',
   },
   render: (args) => {
+    const promoStyles = clsx(baseParams.styles, args.HideBlobAccent && CommonStyles.HideBlobAccent);
+    const params = {
+      ...baseParams,
+      styles: promoStyles,
+    };
+
     return (
       <Simple
         fields={createIGQLData({
@@ -94,11 +99,7 @@ export const SimpleFeatures: Story = {
             body: createIGQLField(createRichTextField(1)),
           },
         })}
-        params={{
-          ...baseParams,
-          BlobAccent: boolToSitecoreCheckbox(args.BlobAccent),
-          styles: `${baseParams.styles} ${args.BackgroundColor}`,
-        }}
+        params={params}
         rendering={baseRendering}
       />
     );
