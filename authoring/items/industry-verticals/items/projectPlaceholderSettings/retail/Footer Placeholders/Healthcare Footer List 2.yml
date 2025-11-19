@@ -9,12 +9,10 @@ SharedFields:
   Value: "footer-column-two-{*}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "4392f0df-ea68-4c84-a4e9-829b5dff82cd"
+  Value: "fbe764ff-c9dd-4813-a699-72bb747884d1"
 - ID: "e391b526-d0c5-439d-803e-17512eae6222"
   Hint: Allowed Controls
-  Value: |
-    {9C6D53E3-FE57-4638-AF7B-6D68304C7A94}
-    {4956263D-1195-4D6E-931B-800EA625FF6F}
+  Value: "{4956263D-1195-4D6E-931B-800EA625FF6F}"
 Languages:
 - Language: en
   Versions:
@@ -33,11 +31,11 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f9387dbf-919f-4f8a-9214-2b6e8c19afc4"
+      Value: "997afdf2-175a-4ac7-b8c3-dc25e1b8ec2a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251114T095802Z
+      Value: 20251119T080336Z

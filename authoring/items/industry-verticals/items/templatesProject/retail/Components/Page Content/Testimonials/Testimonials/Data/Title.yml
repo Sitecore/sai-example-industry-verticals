@@ -2,7 +2,7 @@
 ID: "db8ea901-ced9-4d54-81c0-5e3cb48863c2"
 Parent: "c7521f69-c5a6-4918-b087-c1d747a69242"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Project/retail/Components/Page Content/Testimonials/Testimonials/Data/Title tbd
+Path: /sitecore/templates/Project/retail/Components/Page Content/Testimonials/Testimonials/Data/Title
 SharedFields:
 - ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
   Hint: Source
@@ -59,10 +59,10 @@ Languages:
   Fields:
   - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
     Hint: Title
-    Value: to be deleted
+    Value: Title
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "f76041d6-105d-481d-bc18-4ab1a85b8cc0"
+    Value: "c1a269d6-d660-4064-9737-9e0163041939"
   Versions:
   - Version: 1
     Fields:
@@ -71,14 +71,14 @@ Languages:
       Value: 20111213T133500Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "36a23ba7-e3b4-4986-bc9c-68b7cca59563"
+      Value: "e9cdf1d9-99dd-4f34-ab32-56d40f265f05"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251118T101253Z
+      Value: 20251119T103408Z
     - ID: "fa622538-0c13-4130-a001-45984241aa00"
       Hint: Enable Language Fallback
       Value: 1

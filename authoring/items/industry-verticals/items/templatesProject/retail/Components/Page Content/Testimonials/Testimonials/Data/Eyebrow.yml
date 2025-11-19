@@ -2,7 +2,7 @@
 ID: "42ae28c2-1616-415c-bb0d-e79d7690f6f6"
 Parent: "c7521f69-c5a6-4918-b087-c1d747a69242"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Project/retail/Components/Page Content/Testimonials/Testimonials/Data/Eyebrow tbd
+Path: /sitecore/templates/Project/retail/Components/Page Content/Testimonials/Testimonials/Data/Eyebrow
 SharedFields:
 - ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
   Hint: Source
@@ -59,10 +59,10 @@ Languages:
   Fields:
   - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
     Hint: Title
-    Value: to be deleted
+    Value: Eyebrow
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "6f94ebd8-814a-4122-a988-39a7e8cd1f00"
+    Value: "4731addd-c94f-4279-a5c3-24b2331a00ba"
   Versions:
   - Version: 1
     Fields:
@@ -71,14 +71,14 @@ Languages:
       Value: 20111213T143500
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7cf7fa3b-f06d-4270-ad45-b88df46089ed"
+      Value: "0d1f8b0d-c1a8-4658-a86c-fb1cd8e0cdc9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251118T101232Z
+      Value: 20251119T103417Z
     - ID: "fa622538-0c13-4130-a001-45984241aa00"
       Hint: Enable Language Fallback
       Value: 1
