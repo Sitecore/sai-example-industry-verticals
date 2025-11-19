@@ -13,13 +13,32 @@ import { createIGQLData } from './helpers/createIGQLData';
 import { createLinkItems } from './helpers/createItems';
 import { ComponentFields } from '@sitecore-content-sdk/nextjs';
 
-type StoryProps = ComponentProps<typeof Footer>;
+type StoryProps = ComponentProps<typeof Footer> & {
+    hideTopSection?: boolean;
+    hideBottomSection?: boolean;
+  };
 
 const meta = {
   title: 'Global Components/Footer',
   component: Footer,
   tags: ['autodocs'],
-} satisfies Meta<StoryProps>;
+  argTypes: {
+    hideTopSection: {
+      control: 'boolean',
+      description: 'Hide the top section of the footer',
+      defaultValue: false,
+    },
+    hideBottomSection: {
+      control: 'boolean',
+      description: 'Hide the bottom section of the footer',
+      defaultValue: false,
+    },
+  },
+} satisfies Meta<StoryProps & {
+  hideTopSection: boolean;
+  hideBottomSection: boolean;
+}>;
+
 export default meta;
 
 type Story = StoryObj<StoryProps>;
@@ -82,12 +101,31 @@ const RichTextRendering = {
 };
 
 export const Default: Story = {
-  render: () => {
+  args: {
+    hideTopSection: false,
+    hideBottomSection: false,
+  },
+
+  render: ({ hideTopSection = false, hideBottomSection = false }) => {
+
+    const styles = [
+      hideTopSection ? 'hide-top-section' : '',
+      hideBottomSection ? 'hide-bottom-section' : '',
+    ]
+      .filter(Boolean)
+      .join(' ');
+
+    const params = {
+      ...baseParams,
+      Styles: styles,
+    };
+
     return (
       <Footer
-        params={baseParams}
+        params={params}
         rendering={{
           ...baseRendering,
+          params,
           placeholders: {
             [`footer-list-first-${baseParams.DynamicPlaceholderId}`]: [
               renderStorybookPlaceholder(),
