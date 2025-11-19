@@ -24,13 +24,13 @@ SharedFields:
   Value: "{769D0C03-CDBF-48A5-AB08-54EB76B1D837}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: "query:$site/*[@@name='Data']/*[@@templatename='Reviews Folder']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Reviews Folder']"
+  Value: "query:$site/*[@@name='Data']/*[@@templatename='Testimonials Folder']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Testimonials Folder']"
 - ID: "c39a90ce-0035-41bb-90f6-3c8a6ea87797"
   Hint: AddFieldEditorButton
   Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "8fcd5c23-3ef0-4eb2-8132-5e6e3e8d78ae"
+  Value: "ee361661-a1d6-4c90-a08a-e29fe351b956"
 - ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
   Hint: OtherProperties
   Value: IsRenderingsWithDynamicPlaceholders=true
@@ -71,7 +71,7 @@ Languages:
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "4be58e33-bd06-4448-9f54-8a645d2d9815"
+    Value: "158086d0-61bd-4c77-90df-da91700672d8"
   Versions:
   - Version: 1
     Fields:
@@ -84,14 +84,14 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "41d4c566-da31-4407-9b32-1e00fa0877b7"
+      Value: "1cc8e4ab-18ec-4672-9196-3c36508d4c6f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251118T111013Z
+      Value: 20251119T120906Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

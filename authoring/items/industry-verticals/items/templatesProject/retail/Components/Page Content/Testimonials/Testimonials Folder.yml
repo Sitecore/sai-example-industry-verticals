@@ -6,10 +6,10 @@ Path: /sitecore/templates/Project/retail/Components/Page Content/Testimonials/Te
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Office/32x32/folder_window.png
+  Value: office/32x32/speech_balloon.png
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "9accb83f-1308-477e-8ddd-22c8e2124862"
+  Value: "8eb6b52d-6c0b-44d7-a8fe-ac463c687bb8"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
   Value: "{EF9A6E5E-8C5E-40A3-AF61-22DDB205E337}"
@@ -59,14 +59,14 @@ Languages:
         sitecore\admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7c0aa129-b6f2-4934-9952-2127b902de6a"
+      Value: "5b09984c-2295-4fee-8809-0cf18c6ab367"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251118T101008Z
+      Value: 20251119T120350Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
