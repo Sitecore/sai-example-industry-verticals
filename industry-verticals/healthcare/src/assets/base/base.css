@@ -4,7 +4,7 @@
   }
 
   body {
-    @apply font-body text-foreground bg-background dark:text-foreground-dark text-base dark:bg-background-dark;
+    @apply font-body text-foreground bg-background dark:text-foreground-dark dark:bg-background-dark text-base;
   }
 
   h1,
@@ -66,6 +66,6 @@
   }
 
   .custom-scrollbar {
-    @apply [&::-webkit-scrollbar-thumb]:bg-accent-muted [&::-webkit-scrollbar-track]:bg-background [&::-webkit-scrollbar]:w-1 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:rounded-full;
+    @apply [&::-webkit-scrollbar-thumb]:bg-accent-muted [&::-webkit-scrollbar-track]:bg-background [&::-webkit-scrollbar-track]:dark:bg-background-dark [&::-webkit-scrollbar]:w-1 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:rounded-full;
   }
 }
