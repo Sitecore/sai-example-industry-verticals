@@ -25,6 +25,10 @@ const meta = {
   tags: ['autodocs'],
   argTypes: {
     ...backgroundColorArgTypes,
+    HideBlobAccent: {
+      control: 'boolean',
+      name: 'Hide Blob Accent',
+    },
     numberOfItems: {
       name: 'Number of features',
       control: {
