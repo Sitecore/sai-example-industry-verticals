@@ -7,9 +7,9 @@ SharedFields:
 - ID: "bd13b584-36a1-4c4e-aa1c-b4689ee2fae8"
   Hint: Custom CSS
   Value: |
-    --color-foreground: #ff0000;
-    --color-foreground-light: #505050;
-    --color-foreground-muted: #9f9f9f;
+    --color-foreground: #f90101;
+    --color-foreground-light: #fa0505;
+    --color-foreground-muted: #f90101;
     --color-background: #fff;
     --color-background-accent: #faf3ea;
     --color-background-muted: #f7f7f7;
@@ -25,7 +25,7 @@ SharedFields:
     --radius-base: 0.5rem;
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "79ea56a0-b6c3-4f74-a90b-158cfcbaab16"
+  Value: "5f1b27b5-0ed0-4024-aaea-99262329834d"
 Languages:
 - Language: en
   Versions:
@@ -36,11 +36,11 @@ Languages:
       Value: 20251117T220631Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d3ee7533-ea44-4f7d-b0c8-c6e8ef456a50"
+      Value: "7402f3fb-66f7-41d7-b19e-b9d79a21d422"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\INIwVuCCf0fzziGGBdz0UepKJ8K6him7
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251119T201019Z
+      Value: 20251120T142436Z

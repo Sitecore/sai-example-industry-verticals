@@ -24,7 +24,7 @@ SharedFields:
     <image mediaid="{1265691C-6EE9-49B3-8131-FDEA5E9EE0F7}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "b95c88e2-ad5c-4443-b829-a1878df8849f"
+  Value: "729c436f-b2a8-49a1-b92e-5951e4f8f85b"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -89,8 +89,15 @@ SharedFields:
           s:par="FieldNames&amp;Reversed=0&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=15"
           s:ph="headless-main" />
         <r
-          uid="{992CC2E9-6AEB-47DB-B026-D34EFC1B70FE}"
+          uid="{8ABC8A08-490F-45DC-831B-27150008D7B7}"
           p:after="r[@uid='{1B086346-531C-4C41-BC73-5CF1F0CFF9D0}']"
+          s:ds="dbd47473-f2be-4360-9311-e5a2bf70924e"
+          s:id="{89252C77-218A-4B21-8A74-BC8A4BF11D93}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=19"
+          s:ph="headless-main" />
+        <r
+          uid="{992CC2E9-6AEB-47DB-B026-D34EFC1B70FE}"
+          p:after="r[@uid='{8ABC8A08-490F-45DC-831B-27150008D7B7}']"
           s:ds="11a265bc-7d86-4d4b-b153-0678cebbe4ae"
           s:id="{5D600884-3A99-4FBF-AE15-D8E84FF7FFE3}"
           s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D"
@@ -192,14 +199,14 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7896e186-fc6e-41ab-9955-5963e7f99b5a"
+      Value: "1e8ebe43-2ad1-40e2-b713-48b193b7b136"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251117T095328Z
+      Value: 20251120T122559Z
 - Language: "es-ES"
   Versions:
   - Version: 1
