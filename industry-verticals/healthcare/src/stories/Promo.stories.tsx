@@ -15,9 +15,12 @@ import {
 import { createIGQLData } from './helpers/createIGQLData';
 import { createFeatureItems } from './helpers/createItems';
 import { ComponentFields } from '@sitecore-content-sdk/nextjs';
+import clsx from 'clsx';
+import { CommonStyles } from '@/types/styleFlags';
 
 type StoryProps = ComponentProps<typeof Default> &
   AppearanceArgs & {
+    HideBlobAccent: boolean;
     Layout: string;
   };
 
@@ -34,9 +37,14 @@ const meta = {
         Reversed: 'promo-reversed',
       },
     },
+    HideBlobAccent: {
+      control: 'boolean',
+      name: 'Hide Blob Accent',
+    },
   },
   args: {
     Layout: '',
+    HideBlobAccent: false,
     ...defaultAppearanceArgs,
   },
 } satisfies Meta<StoryProps>;
@@ -46,9 +54,9 @@ type Story = StoryObj<StoryProps>;
 
 const baseFields = {
   PromoTitle: createTextField('About us'),
-  PromoImage: createImageField(),
-  PromoLink: createLinkField('Get Started'),
-  PromoText: createRichTextField(2),
+  PromoImageOne: createImageField(),
+  PromoMoreInfo: createLinkField('Get Started'),
+  PromoDescription: createRichTextField(2),
 };
 
 const baseParams = CommonParams;
@@ -65,17 +73,21 @@ export const DefaultPromo: Story = {
     CurvedTop: true,
   },
   render: (args) => {
+    console.log(args);
+    const promoStyles = clsx(baseParams.styles,args.Layout, args.BackgroundColor, args.HideBlobAccent && CommonStyles.HideBlobAccent);
+    
+    console.log(promoStyles);
+    const params = {
+      ...baseParams,
+      styles: promoStyles,
+      CurvedTop: boolToSitecoreCheckbox(args.CurvedTop),
+      CurvedBottom: boolToSitecoreCheckbox(args.CurvedBottom),
+    };
     return (
       <Default
         fields={baseFields}
         rendering={baseRendering}
-        params={{
-          ...baseParams,
-          CurvedTop: boolToSitecoreCheckbox(args.CurvedTop),
-          CurvedBottom: boolToSitecoreCheckbox(args.CurvedBottom),
-          BlobAccent: boolToSitecoreCheckbox(args.BlobAccent),
-          styles: `${baseParams.styles} ${args.Layout} ${args.BackgroundColor}`,
-        }}
+        params={params}
       />
     );
   },
@@ -87,6 +99,14 @@ export const WithPlaceholderPromo: Story = {
     BlobAccent: true,
   },
   render: (args) => {
+     const promoStyles = clsx(baseParams.styles,args.Layout, args.BackgroundColor, args.HideBlobAccent && CommonStyles.HideBlobAccent);
+    
+    const params = {
+      ...baseParams,
+      styles: promoStyles,
+      CurvedTop: boolToSitecoreCheckbox(args.CurvedTop),
+      CurvedBottom: boolToSitecoreCheckbox(args.CurvedBottom),
+    };
     return (
       <WithPlaceholder
         fields={baseFields}
@@ -96,13 +116,7 @@ export const WithPlaceholderPromo: Story = {
             [`promo-content-${baseParams.DynamicPlaceholderId}`]: [renderStorybookPlaceholder()],
           },
         }}
-        params={{
-          ...baseParams,
-          CurvedTop: boolToSitecoreCheckbox(args.CurvedTop),
-          CurvedBottom: boolToSitecoreCheckbox(args.CurvedBottom),
-          BlobAccent: boolToSitecoreCheckbox(args.BlobAccent),
-          styles: `${baseParams.styles} ${args.Layout} ${args.BackgroundColor}`,
-        }}
+        params={params}
       />
     );
   },
@@ -114,6 +128,14 @@ export const WithPlaceholderContent: Story = {
     BlobAccent: true,
   },
   render: (args) => {
+    const promoStyles = clsx(baseParams.styles,args.Layout, args.BackgroundColor, args.HideBlobAccent && CommonStyles.HideBlobAccent);
+    
+    const params = {
+      ...baseParams,
+      styles: promoStyles,
+      CurvedTop: boolToSitecoreCheckbox(args.CurvedTop),
+      CurvedBottom: boolToSitecoreCheckbox(args.CurvedBottom),
+    };
     return (
       <WithPlaceholder
         fields={baseFields}
@@ -140,13 +162,7 @@ export const WithPlaceholderContent: Story = {
             ],
           },
         }}
-        params={{
-          ...baseParams,
-          CurvedTop: boolToSitecoreCheckbox(args.CurvedTop),
-          CurvedBottom: boolToSitecoreCheckbox(args.CurvedBottom),
-          BlobAccent: boolToSitecoreCheckbox(args.BlobAccent),
-          styles: `${baseParams.styles} ${args.Layout} ${args.BackgroundColor}`,
-        }}
+        params={params}
       />
     );
   },

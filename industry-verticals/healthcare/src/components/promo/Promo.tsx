@@ -20,12 +20,13 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import BlobAccent from '../non-sitecore/BlobAccent';
 import CurvedClip from '../non-sitecore/CurvedClip';
 import { isParamEnabled } from 'src/helpers/isParamEnabled';
+import { CommonStyles } from '@/types/styleFlags';
 
 interface Fields {
-  PromoImage: ImageField;
+  PromoImageOne: ImageField;
   PromoTitle: Field<string>;
-  PromoText: RichTextField;
-  PromoLink: LinkField;
+  PromoDescription: RichTextField;
+  PromoMoreInfo: LinkField;
 }
 
 type PromoProps = {
@@ -42,7 +43,7 @@ const PromoWrapper = ({
   props: PromoProps;
 }) => {
   const id = props.params.RenderingIdentifier;
-  const isAccentLine = props.params.Styles?.includes('accent-line');
+  const hideBlobAccent = props.params.styles?.includes(CommonStyles.HideBlobAccent);
 
   return (
     <section
@@ -51,7 +52,7 @@ const PromoWrapper = ({
     >
       {isParamEnabled(props.params.CurvedTop) && <CurvedClip className='top-0' pos="top" />}
       {isParamEnabled(props.params.CurvedBottom) && <CurvedClip className='bottom-0' pos="bottom" />}
-      {isAccentLine && (
+      {!hideBlobAccent && (
         <BlobAccent
           size="lg"
           className="absolute top-0 left-0 lg:left-4 lg:[.promo-reversed_&]:left-auto lg:[.promo-reversed_&]:right-4 z-0"
@@ -60,7 +61,7 @@ const PromoWrapper = ({
       <div className="container relative z-10">
         <div className="grid gap-x-24 gap-y-12 items-center lg:grid-cols-2">
           <div className="aspect-square rounded-lg shadow-soft overflow-hidden">
-            <ContentSdkImage field={props.fields.PromoImage} className="w-full h-full object-cover" />
+            <ContentSdkImage field={props.fields.PromoImageOne} className="w-full h-full object-cover" />
           </div>
           <div className="lg:[.promo-reversed_&]:order-first">{children}</div>
         </div>
@@ -70,16 +71,15 @@ const PromoWrapper = ({
 };
 
 const DefaultPromo = (props: PromoProps) => {
-  console.log(props);
   return (
     <PromoWrapper props={props}>
       <h2>
         <ContentSdkText field={props.fields.PromoTitle} />
       </h2>
-      <ContentSdkRichText className="text-lg mb-10" field={props.fields.PromoText} />
+      <ContentSdkRichText className="text-lg mb-10" field={props.fields.PromoDescription} />
 
-      <ContentSdkLink field={props.fields.PromoLink} className="btn btn-icon">
-        {props.fields?.PromoLink?.value?.text}
+      <ContentSdkLink field={props.fields.PromoMoreInfo} className="btn btn-icon">
+        {props.fields?.PromoMoreInfo?.value?.text}
         <FontAwesomeIcon icon={faArrowRight} />
       </ContentSdkLink>
     </PromoWrapper>
