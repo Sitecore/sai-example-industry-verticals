@@ -8,7 +8,7 @@ import { useState, useId, useEffect } from 'react';
 import React from 'react';
 import { useTheme } from 'next-themes';
 import BlobAccent from '@/assets/shapes/BlobAccent';
-import { CommonStyles } from '@/types/styleFlags';
+import { CommonStyles, FeatureStyles } from '@/types/styleFlags';
 import { isParamEnabled } from '@/helpers/isParamEnabled';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faChevronDown, faChevronUp, faTimes, faEnvelope, faPhone, faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
@@ -16,9 +16,9 @@ import { getLinkField, getNavigationText } from '@/helpers/navHelpers';
 import { useI18n } from 'next-localization';
 import HeroClip from '@/assets/shapes/HeroClip';
 import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
+import BlobAccent_2e4ecd85952329c540c505e64c2c0c7c0394fc8b from 'src/assets/shapes/BlobAccent';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Keyboard, Navigation, Pagination } from 'swiper/modules';
-import BlobAccent_2e4ecd85952329c540c505e64c2c0c7c0394fc8b from 'src/assets/shapes/BlobAccent';
 import CurvedClip from 'src/assets/shapes/CurvedClip';
 import Head from 'next/head';
 import client from 'lib/sitecore-client';
@@ -68,6 +68,7 @@ const importMap = [
     module: '@/types/styleFlags',
     exports: [
       { name: 'CommonStyles', value: CommonStyles },
+      { name: 'FeatureStyles', value: FeatureStyles },
     ]
   },
   {
@@ -121,6 +122,12 @@ const importMap = [
     ]
   },
   {
+    module: 'src/assets/shapes/BlobAccent',
+    exports: [
+      { name: 'default', value: BlobAccent_2e4ecd85952329c540c505e64c2c0c7c0394fc8b },
+    ]
+  },
+  {
     module: 'swiper/react',
     exports: [
       { name: 'Swiper', value: Swiper },
@@ -133,12 +140,6 @@ const importMap = [
       { name: 'Keyboard', value: Keyboard },
       { name: 'Navigation', value: Navigation },
       { name: 'Pagination', value: Pagination },
-    ]
-  },
-  {
-    module: 'src/assets/shapes/BlobAccent',
-    exports: [
-      { name: 'default', value: BlobAccent_2e4ecd85952329c540c505e64c2c0c7c0394fc8b },
     ]
   },
   {
