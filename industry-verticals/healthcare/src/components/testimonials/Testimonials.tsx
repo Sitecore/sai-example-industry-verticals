@@ -17,7 +17,7 @@ export const Default = (props: TestimonialProps) => {
   const styles = `${props.params.styles || ''}`.trim();
 
   return (
-    <section className={`dark:bg-background-dark relative py-16 ${styles}`} id={id || undefined}>
+    <section className={`relative py-16 ${styles}`} id={id || undefined}>
       {isBlobAccent && (
         <>
           <BlobAccent size="lg" className="absolute top-0 left-0 z-0 lg:left-4" />
