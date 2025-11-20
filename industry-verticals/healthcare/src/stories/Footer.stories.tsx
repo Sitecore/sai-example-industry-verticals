@@ -12,11 +12,13 @@ import {
 import { createIGQLData } from './helpers/createIGQLData';
 import { createLinkItems } from './helpers/createItems';
 import { ComponentFields } from '@sitecore-content-sdk/nextjs';
+import clsx from 'clsx';
+import { CommonStyles } from '@/types/styleFlags';
 
 type StoryProps = ComponentProps<typeof Footer> & {
-    hideTopSection?: boolean;
-    hideBottomSection?: boolean;
-  };
+  hideTopSection?: boolean;
+  hideBottomSection?: boolean;
+};
 
 const meta = {
   title: 'Global Components/Footer',
@@ -24,20 +26,24 @@ const meta = {
   tags: ['autodocs'],
   argTypes: {
     hideTopSection: {
+      name: 'Hide Top Section',
       control: 'boolean',
-      description: 'Hide the top section of the footer',
+      description: 'Hide the top section',
       defaultValue: false,
     },
     hideBottomSection: {
+      name: 'Hide Bottom Section',
       control: 'boolean',
-      description: 'Hide the bottom section of the footer',
+      description: 'Hide the bottom section',
       defaultValue: false,
     },
   },
-} satisfies Meta<StoryProps & {
-  hideTopSection: boolean;
-  hideBottomSection: boolean;
-}>;
+} satisfies Meta<
+  StoryProps & {
+    hideTopSection: boolean;
+    hideBottomSection: boolean;
+  }
+>;
 
 export default meta;
 
@@ -106,14 +112,12 @@ export const Default: Story = {
     hideBottomSection: false,
   },
 
-  render: ({ hideTopSection = false, hideBottomSection = false }) => {
-
-    const styles = [
-      hideTopSection ? 'hide-top-section' : '',
-      hideBottomSection ? 'hide-bottom-section' : '',
-    ]
-      .filter(Boolean)
-      .join(' ');
+  render: ({ hideTopSection, hideBottomSection }) => {
+    const styles = clsx(
+      baseParams.Styles,
+      hideTopSection && CommonStyles.HideTopSection,
+      hideBottomSection && CommonStyles.HideBottomSection
+    );
 
     const params = {
       ...baseParams,
@@ -151,12 +155,30 @@ export const Default: Story = {
 };
 
 export const WithPlaceholderData: Story = {
-  render: () => {
+  args: {
+    hideTopSection: false,
+    hideBottomSection: false,
+  },
+
+  render: ({ hideTopSection, hideBottomSection }) => {
+
+    const styles = clsx(
+      baseParams.Styles,
+      hideTopSection && CommonStyles.HideTopSection,
+      hideBottomSection && CommonStyles.HideBottomSection
+    );
+
+    const params = {
+      ...baseParams,
+      Styles: styles,
+    };
+
     return (
       <Footer
-        params={baseParams}
+        params={params}
         rendering={{
           ...baseRendering,
+          params,
           placeholders: {
             [`footer-list-first-${baseParams.DynamicPlaceholderId}`]: [RichTextRendering],
             [`footer-list-second-${baseParams.DynamicPlaceholderId}`]: [LinkListRendering],

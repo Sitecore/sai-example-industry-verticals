@@ -9,14 +9,14 @@ import React from 'react';
 import { useTheme } from 'next-themes';
 import BlobAccent from '@/assets/shapes/BlobAccent';
 import { CommonStyles } from '@/types/styleFlags';
-import { isParamEnabled } from '@/helpers/isParamEnabled';
+import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { isParamEnabled } from '@/helpers/isParamEnabled';
 import { faBars, faChevronDown, faChevronUp, faTimes, faEnvelope, faPhone, faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { getLinkField, getNavigationText } from '@/helpers/navHelpers';
 import { useI18n } from 'next-localization';
 import HeroClip from '@/assets/shapes/HeroClip';
 import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
-import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Keyboard, Navigation, Pagination } from 'swiper/modules';
 import BlobAccent_2e4ecd85952329c540c505e64c2c0c7c0394fc8b from 'src/assets/shapes/BlobAccent';
@@ -72,15 +72,23 @@ const importMap = [
     ]
   },
   {
-    module: '@/helpers/isParamEnabled',
+    module: '@fortawesome/free-brands-svg-icons',
     exports: [
-      { name: 'isParamEnabled', value: isParamEnabled },
+      { name: 'faFacebook', value: faFacebook },
+      { name: 'faInstagram', value: faInstagram },
+      { name: 'faTwitter', value: faTwitter },
     ]
   },
   {
     module: '@fortawesome/react-fontawesome',
     exports: [
       { name: 'FontAwesomeIcon', value: FontAwesomeIcon },
+    ]
+  },
+  {
+    module: '@/helpers/isParamEnabled',
+    exports: [
+      { name: 'isParamEnabled', value: isParamEnabled },
     ]
   },
   {
@@ -119,14 +127,6 @@ const importMap = [
     module: 'next/link',
     exports: [
       { name: 'default', value: Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 },
-    ]
-  },
-  {
-    module: '@fortawesome/free-brands-svg-icons',
-    exports: [
-      { name: 'faFacebook', value: faFacebook },
-      { name: 'faInstagram', value: faInstagram },
-      { name: 'faTwitter', value: faTwitter },
     ]
   },
   {

@@ -16,6 +16,7 @@ import {
   Text,
 } from '@sitecore-content-sdk/nextjs';
 import Link from 'next/link';
+import { CommonStyles } from '@/types/styleFlags';
 
 interface Fields {
   Logo: ImageField;
@@ -37,8 +38,6 @@ type FooterProps = {
 
 const DefaultFooter = (props: FooterProps) => {
   const id = props.params.RenderingIdentifier;
-
-  console.log(props);
 
   // placeholders keys
   const phKeyOne = `footer-list-first-${props?.params?.DynamicPlaceholderId}`;
@@ -72,8 +71,8 @@ const DefaultFooter = (props: FooterProps) => {
   ];
 
   // styles to hide and show sections
-  const hideTopSection = props.params?.Styles?.includes('hide-top-section') || undefined;
-  const hideBottomSection = props.params?.Styles?.includes('hide-bottom-section') || undefined;
+  const hideTopSection = props.params?.Styles?.includes(CommonStyles.HideTopSection) || undefined;
+  const hideBottomSection = props.params?.Styles?.includes(CommonStyles.HideBottomSection) || undefined;
 
   return (
     <section className={`relative ${props.params.styles} overflow-hidden`} id={id ? id : undefined}>
@@ -97,7 +96,7 @@ const DefaultFooter = (props: FooterProps) => {
           {/* footer top section */}
           <div className="relative z-20 container">
             {/* logo section */}
-            <Link href={'/'} className="mb-12 inline-block max-w-50 lg:max-w-full">
+            <Link href={'/'} className="mb-12 inline-block max-w-50">
               <ContentSdkImage
                 field={props.fields.Logo}
                 width={345}
