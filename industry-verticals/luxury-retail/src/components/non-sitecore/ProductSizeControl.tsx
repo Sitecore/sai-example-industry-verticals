@@ -20,7 +20,7 @@ export const ProductSizeControl = ({
           <button
             key={size.id}
             onClick={() => onSelect(size)}
-            className={`size-8 rounded text-sm transition-colors ${
+            className={`h-8 min-w-8 rounded px-2 text-sm transition-colors ${
               selectedSize?.id === size.id
                 ? 'bg-accent text-background'
                 : 'bg-background-accent hover:bg-accent/20'

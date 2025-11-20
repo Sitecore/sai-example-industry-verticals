@@ -31,7 +31,7 @@ export const DefaultHeaderExtended = (props: HeaderProps) => {
       id={id ? id : undefined}
     >
       <div className="container flex items-center gap-2 lg:gap-4">
-        <div className="mr-auto max-w-50 lg:max-w-full">
+        <div className="mr-auto max-w-50">
           <Link href={'/'}>
             <ContentSdkImage
               field={props.fields.LogoLight}

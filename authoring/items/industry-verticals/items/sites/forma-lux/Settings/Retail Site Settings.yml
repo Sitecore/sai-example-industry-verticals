@@ -3,6 +3,29 @@ ID: "e03c6aa7-be0b-4ffc-8ebb-6db8fa58b5b4"
 Parent: "091e6e59-b7e5-4eda-b742-ad432a30a34d"
 Template: "9f7eb765-4566-4dd5-b74f-8bba6a27ba17"
 Path: "/sitecore/content/retail/forma-lux/Settings/Retail Site Settings"
+SharedFields:
+- ID: "bd13b584-36a1-4c4e-aa1c-b4689ee2fae8"
+  Hint: Custom CSS
+  Value: |
+    --color-foreground: #ff0000;
+    --color-foreground-light: #505050;
+    --color-foreground-muted: #9f9f9f;
+    --color-background: #fff;
+    --color-background-accent: #faf3ea;
+    --color-background-muted: #f7f7f7;
+    --color-background-muted-light: #7a7a7a;
+    --color-background-muted-dark: #666;
+    --color-background-surface: #fafafa;
+    --color-accent: #c1a25f;
+    --color-success: #2ec1ac;
+    --color-danger: #e97171;
+    --color-border: #e8e8e8;
+    --font-heading: 'Manrope', sans-serif;
+    --font-body: 'Manrope', sans-serif;
+    --radius-base: 0.5rem;
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "79ea56a0-b6c3-4f74-a90b-158cfcbaab16"
 Languages:
 - Language: en
   Versions:
@@ -13,11 +36,11 @@ Languages:
       Value: 20251117T220631Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e29d061a-8eda-4cb6-8cd8-8982038ed905"
+      Value: "d3ee7533-ea44-4f7d-b0c8-c6e8ef456a50"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeffrey.isham@sitecore.com
+        sitecore\INIwVuCCf0fzziGGBdz0UepKJ8K6him7
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251117T220631Z
+      Value: 20251119T201019Z

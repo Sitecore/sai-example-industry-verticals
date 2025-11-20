@@ -15,8 +15,8 @@ import { ChevronLeft, ChevronRight, Loader2, Check, Heart, Plus, Star, X, User, 
 import { ProductCard } from 'src/components/non-sitecore/ProductCard';
 import InfiniteScroll from '@/shadcn/components/ui/infiniteScroll';
 import { ProductCard as ProductCard_f5c29266c91cfe4f66c8f4e91c1fad0bbbe159f9 } from '@/components/non-sitecore/ProductCard';
-import { isParamEnabled } from '@/helpers/isParamEnabled';
 import { useI18n } from 'next-localization';
+import { isParamEnabled } from '@/helpers/isParamEnabled';
 import QuantityControl from 'src/components/non-sitecore/QuantityControl';
 import { ProductGallery } from 'src/components/non-sitecore/ProductGallery';
 import { ProductMetaDetals } from 'src/components/non-sitecore/ProductMetaDetails';
@@ -147,15 +147,15 @@ const importMap = [
     ]
   },
   {
-    module: '@/helpers/isParamEnabled',
-    exports: [
-      { name: 'isParamEnabled', value: isParamEnabled },
-    ]
-  },
-  {
     module: 'next-localization',
     exports: [
       { name: 'useI18n', value: useI18n },
+    ]
+  },
+  {
+    module: '@/helpers/isParamEnabled',
+    exports: [
+      { name: 'isParamEnabled', value: isParamEnabled },
     ]
   },
   {
