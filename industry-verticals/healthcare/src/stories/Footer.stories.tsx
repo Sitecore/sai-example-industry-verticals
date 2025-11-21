@@ -161,7 +161,6 @@ export const WithPlaceholderData: Story = {
   },
 
   render: ({ hideTopSection, hideBottomSection }) => {
-
     const styles = clsx(
       baseParams.Styles,
       hideTopSection && CommonStyles.HideTopSection,
