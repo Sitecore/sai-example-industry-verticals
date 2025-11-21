@@ -10,10 +10,7 @@ SharedFields:
     <image mediaid="d6114837-c32b-42c4-b574-a3b3ecafc459" />
 - ID: "2cfb917c-9876-4edb-82c0-1c9acd6965d4"
   Hint: Reviews
-  Value: |
-    {22A3C639-09BA-4161-8EA9-83446B471DCA}
-    {F3760F5F-6CF6-4028-8FFA-F79479E36258}
-    {76FC7D80-E52E-40F9-A1B6-EE2846964085}
+  Value: 
 - ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
   Hint: Tags
   Value: |
@@ -63,7 +60,7 @@ SharedFields:
     <image mediaid="2fa486fb-5a39-485f-b5a3-2f950e03e94d" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "55b25bd1-474c-4b78-8e76-20e11ff5905e"
+  Value: "3f6a1aad-f9ff-4dbc-8208-950d9f9eabc0"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -162,7 +159,7 @@ Languages:
       Value: 167 cm
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "931bc571-54c6-4ee4-89ec-b8747939d8d5"
+      Value: "fed665f5-d59a-46a9-bdd1-d9aca531ed3e"
     - ID: "acbcb630-e684-43ae-bb85-9fc89052c8a9"
       Hint: Weight
       Value: 45 KG
@@ -175,13 +172,13 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Asgaard sofa
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251021T081723Z
+      Value: 20251121T073811Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: |
