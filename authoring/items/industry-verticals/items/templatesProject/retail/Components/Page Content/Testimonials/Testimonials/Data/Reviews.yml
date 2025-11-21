@@ -6,7 +6,7 @@ Path: /sitecore/templates/Project/retail/Components/Page Content/Testimonials/Te
 SharedFields:
 - ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
   Hint: Source
-  Value: "query:$site/*[@@name='Data']/*[@@templateid='{E4992B10-8A1B-452F-AAD4-54785467CBCE}']"
+  Value: "query:$site/*[@@name='Data']/*[@@templatename='Review']"
 - ID: "24cb32f0-e364-4f37-b400-0f2899097b5b"
   Hint: Enable Shared Language Fallback
   Value: 1
@@ -18,7 +18,7 @@ SharedFields:
   Value: 100
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "be5a631a-1348-498d-aac1-11d93a8e8dc8"
+  Value: "5d1746f5-88ee-4982-a5fc-527b31e768d1"
 Languages:
 - Language: "de-DE"
   Fields:
@@ -71,14 +71,14 @@ Languages:
       Value: 20111213T143500
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7bb9b49e-5e33-4517-9118-2274218fae43"
+      Value: "f3defb01-be8a-40f7-a18e-02d2da716a85"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251118T101318Z
+      Value: 20251121T100450Z
     - ID: "fa622538-0c13-4130-a001-45984241aa00"
       Hint: Enable Language Fallback
       Value: 1

@@ -136,6 +136,12 @@ const importMap = [
     ]
   },
   {
+    module: 'src/assets/shapes/BlobAccent',
+    exports: [
+      { name: 'default', value: BlobAccent_2e4ecd85952329c540c505e64c2c0c7c0394fc8b },
+    ]
+  },
+  {
     module: 'swiper/react',
     exports: [
       { name: 'Swiper', value: Swiper },

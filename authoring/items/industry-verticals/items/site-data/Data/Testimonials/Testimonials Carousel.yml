@@ -19,13 +19,7 @@ Languages:
       Value: Testimonials
     - ID: "4952a853-becb-4896-95db-c32559e99f99"
       Hint: Reviews
-      Value: |
-        {742B02F5-4D82-4481-B162-107A2064CA12}
-        {FDF4FF18-06CA-445C-A723-808FAE0F1F93}
-        {2BDB67C1-1F90-4A78-9C80-1EE5F468CC01}
-        {471DF511-0FC0-4111-A578-C2A354821E86}
-        {0B093127-93A0-477E-85BE-A77F44A805D3}
-        {82AB31BD-B393-41C9-9AF6-1EA1CA634080}
+      Value: 
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -36,14 +30,14 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9f0ba4f1-d864-414a-be5e-8a434d53d33f"
+      Value: "40490734-7797-47a6-8d3d-96a3ad465462"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\jeral.sandeeptha@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251120T142540Z
+      Value: 20251121T100551Z
     - ID: "db8ea901-ced9-4d54-81c0-5e3cb48863c2"
       Hint: Title
       Value: Our client reviews
