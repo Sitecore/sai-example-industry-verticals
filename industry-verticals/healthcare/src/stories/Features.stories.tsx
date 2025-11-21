@@ -71,8 +71,8 @@ export const DefaultFeatures: Story = {
           createItems: createFeatureItems,
           count: args.numberOfItems,
           topLevelFields: {
-            heading: createIGQLField(createTextField('Our Special Services')),
-            body: createIGQLField(createRichTextField(1)),
+            title: createIGQLField(createTextField('Our Special Services')),
+            description: createIGQLField(createRichTextField(1)),
           },
         })}
         params={params}
@@ -99,8 +99,8 @@ export const SimpleFeatures: Story = {
           createItems: createFeatureItems,
           count: args.numberOfItems,
           topLevelFields: {
-            heading: createIGQLField(createTextField('Our Special Services')),
-            body: createIGQLField(createRichTextField(1)),
+            title: createIGQLField(createTextField('Our Special Services')),
+            description: createIGQLField(createRichTextField(1)),
           },
         })}
         params={params}

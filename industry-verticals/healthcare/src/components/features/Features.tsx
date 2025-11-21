@@ -18,8 +18,8 @@ interface Fields {
       children: {
         results: FeatureFields[];
       };
-      heading: IGQLTextField;
-      body: IGQLRichTextField;
+      title: IGQLTextField;
+      description: IGQLRichTextField;
     };
   };
 }
@@ -96,11 +96,11 @@ const DefaultFeatures = ({ fields, params }: FeaturesProps) => {
       <div className="relative z-10 container">
         <div className="max-w-4xl">
           <h2>
-            <ContentSdkText field={fields?.data?.datasource?.heading?.jsonValue} />
+            <ContentSdkText field={fields?.data?.datasource?.title?.jsonValue} />
           </h2>
           <ContentSdkRichText
             className="text-lg"
-            field={fields?.data?.datasource?.body?.jsonValue}
+            field={fields?.data?.datasource?.description?.jsonValue}
           />
         </div>
         <ul className="mt-16 grid gap-12 lg:grid-cols-3">
