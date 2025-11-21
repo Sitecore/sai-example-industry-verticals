@@ -33,8 +33,8 @@ const DefaultContentSection = ({ fields, params, rendering }: ContentSectionProp
       className={`bg-background-secondary dark:bg-background-secondary-dark relative space-y-8 py-16 ${params?.styles}`}
       id={id || undefined}
     >
-      {isParamEnabled(params.CurvedTop) && <CurvedClip pos="top" />}
-      {isParamEnabled(params.CurvedBottom) && <CurvedClip pos="bottom" />}
+      {isParamEnabled(params.CurvedTop) && <CurvedClip className="top-0" pos="top" />}
+      {isParamEnabled(params.CurvedBottom) && <CurvedClip className="bottom-0" pos="bottom" />}
       {isParamEnabled(params.BlobAccent) && (
         <BlobAccent size="lg" className="absolute top-0 right-0 z-0 lg:right-4" />
       )}
