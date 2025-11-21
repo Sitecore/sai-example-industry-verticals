@@ -1,55 +1,55 @@
 ﻿---
-ID: "76fc7d80-e52e-40f9-a1b6-ee2846964085"
-Parent: "4781f893-d471-4ab0-9948-32b2ba77f858"
-Template: "744d807c-58ee-4148-b56c-2a4d721ef30f"
+ID: "69c2c14f-7c2b-4870-9d13-3beca6e6d143"
+Parent: "5e91146f-47cf-441c-afa3-2524d1b1bdd2"
+Template: "58a32680-fc59-49bc-890c-fd69f7a9cf1a"
 Path: "/sitecore/content/retail/forma-lux/Data/Product Reviews/Review 3"
 SharedFields:
-- ID: "80c830cd-6bce-475c-a33a-7ae4681fc436"
+- ID: "63ff7a9b-580a-4df9-8135-6cc1fc25a489"
   Hint: ReviewImage
   Value: |
     <image mediaid="{D6114837-C32B-42C4-B574-A3B3ECAFC459}" />
-- ID: "84f017a3-d38b-4b59-b533-be5cf9ef126a"
+- ID: "9f389762-fc1e-4bb1-9fc9-5ae25a3e1f38"
   Hint: Avatar
   Value: |
     <image mediaid="{108D5DB0-2042-4411-9883-50B9DDF378AF}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "4b9900e9-fc90-4c5f-81f2-a62be35777bf"
+  Value: "c37ccbc5-f757-415a-b110-b6f2d3adbae6"
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
-    - ID: "1ba67762-5101-42b3-a0f4-96c75eef92dd"
-      Hint: Rating
-      Value: 5
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20251020T100956Z
-    - ID: "4cfe9e5a-e13c-480a-bfb5-13ab4d5076e3"
-      Hint: Caption
-      Value: Art Consultant, Milan
+      Value: 20251121T110144Z
+    - ID: "43cdbc7e-aa68-4d04-a13b-2d027ef29368"
+      Hint: Rating
+      Value: 5
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "52f7ed6b-3e64-453f-9499-1a7281a05dc9"
+      Hint: Description
+      Value: “I never imagined my home could look this refined without a full renovation. Forma Lux made luxury feel accessible and effortless.”
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
-    - ID: "626e48c4-0b10-44a8-9014-b2d9776e5cd6"
-      Hint: Description
-      Value: “I never imagined my home could look this refined without a full renovation. Forma Lux made luxury feel accessible and effortless.”
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "8bb0daa9-d77b-4c79-99c1-4d12e8d8a623"
+      Hint: Caption
+      Value: Art Consultant, Milan
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "81a09d91-ca4a-4475-9ff1-f76eb31008ba"
-    - ID: "b6ff157a-68e6-4d19-a9fa-72835a99d93d"
+      Value: "97051366-3c3e-4239-9721-96e8c250e078"
+    - ID: "997e5f9c-d7b6-4704-9add-8e2ffcd15c2c"
       Hint: ReviewerName
       Value: Elena D.
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251020T101051Z
+      Value: 20251121T111154Z

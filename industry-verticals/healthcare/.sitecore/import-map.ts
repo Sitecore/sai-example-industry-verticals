@@ -17,10 +17,10 @@ import { getLinkField, getNavigationText } from '@/helpers/navHelpers';
 import { useI18n } from 'next-localization';
 import HeroClip from '@/assets/shapes/HeroClip';
 import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
+import BlobAccent_2e4ecd85952329c540c505e64c2c0c7c0394fc8b from 'src/assets/shapes/BlobAccent';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Keyboard, Navigation, Pagination } from 'swiper/modules';
-import BlobAccent_2e4ecd85952329c540c505e64c2c0c7c0394fc8b from 'src/assets/shapes/BlobAccent';
-import CurvedClip from 'src/assets/shapes/CurvedClip';
+import CurvedClip_a87a03c0e7ca8cbf6425a5f9fe21d118e0f2a53f from 'src/assets/shapes/CurvedClip';
 import Head from 'next/head';
 import client from 'lib/sitecore-client';
 import Image from 'next/image';
@@ -94,6 +94,7 @@ const importMap = [
   {
     module: '@fortawesome/free-solid-svg-icons',
     exports: [
+      { name: 'faArrowRight', value: faArrowRight },
       { name: 'faBars', value: faBars },
       { name: 'faChevronDown', value: faChevronDown },
       { name: 'faChevronUp', value: faChevronUp },
@@ -101,7 +102,6 @@ const importMap = [
       { name: 'faEnvelope', value: faEnvelope },
       { name: 'faPhone', value: faPhone },
       { name: 'faArrowLeft', value: faArrowLeft },
-      { name: 'faArrowRight', value: faArrowRight },
     ]
   },
   {
@@ -130,6 +130,12 @@ const importMap = [
     ]
   },
   {
+    module: 'src/assets/shapes/BlobAccent',
+    exports: [
+      { name: 'default', value: BlobAccent_2e4ecd85952329c540c505e64c2c0c7c0394fc8b },
+    ]
+  },
+  {
     module: 'swiper/react',
     exports: [
       { name: 'Swiper', value: Swiper },
@@ -145,15 +151,15 @@ const importMap = [
     ]
   },
   {
-    module: 'src/assets/shapes/BlobAccent',
+    module: '@/helpers/isParamEnabled',
     exports: [
-      { name: 'default', value: BlobAccent_2e4ecd85952329c540c505e64c2c0c7c0394fc8b },
+      { name: 'isParamEnabled', value: isParamEnabled },
     ]
   },
   {
     module: 'src/assets/shapes/CurvedClip',
     exports: [
-      { name: 'default', value: CurvedClip },
+      { name: 'default', value: CurvedClip_a87a03c0e7ca8cbf6425a5f9fe21d118e0f2a53f },
     ]
   },
   {

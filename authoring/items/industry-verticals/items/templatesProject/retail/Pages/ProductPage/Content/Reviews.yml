@@ -6,7 +6,7 @@ Path: /sitecore/templates/Project/retail/Pages/ProductPage/Content/Reviews
 SharedFields:
 - ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
   Hint: Source
-  Value: "query:$site/*[@@name='Data']/*[@@templatename='Review Folder']/*"
+  Value: "query:$site/*[@@name='Data']/*[@@templateid='{E4992B10-8A1B-452F-AAD4-54785467CBCE}']"
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: Treelist
@@ -18,7 +18,7 @@ SharedFields:
   Value: 1
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "094caf58-65c4-4dcd-abfe-613674b89f54"
+  Value: "61595e70-66dc-4589-9326-aedf44ae96d3"
 Languages:
 - Language: en
   Versions:
@@ -37,11 +37,11 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "73fdcf3e-57b1-4bd9-bbd1-0b9095ddab07"
+      Value: "0ebda664-00d1-4922-bea7-959f07f7896c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251117T100058Z
+      Value: 20251121T073211Z

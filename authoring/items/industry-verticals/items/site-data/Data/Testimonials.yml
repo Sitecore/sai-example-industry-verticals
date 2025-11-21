@@ -1,8 +1,8 @@
 ﻿---
-ID: "5e91146f-47cf-441c-afa3-2524d1b1bdd2"
+ID: "7eeba072-1ce2-455c-bc4e-da7fca977c6d"
 Parent: "dcc7de24-6385-4653-9875-0d5be089f705"
-Template: "e4992b10-8a1b-452f-aad4-54785467cbce"
-Path: "/sitecore/content/retail/forma-lux/Data/Product Reviews"
+Template: "b024a2d8-cdde-4338-bd97-fe25248aa3be"
+Path: "/sitecore/content/retail/forma-lux/Data/Testimonials"
 Languages:
 - Language: en
   Versions:
@@ -10,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20251120T122944Z
+      Value: 20251120T122329Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,11 +21,11 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1e0a65c7-73fc-4b6e-8518-7aa522993c7f"
+      Value: "55fd3436-9c33-4508-a9fb-6032e01e48e9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251121T105957Z
+      Value: 20251120T122346Z

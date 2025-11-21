@@ -5,13 +5,13 @@ import { Form } from '@sitecore-content-sdk/nextjs';
 
 // end of built-in components
 import * as Title from 'src/components/title/Title';
+import * as Testimonials from 'src/components/testimonials/Testimonials';
 import * as Subscribe from 'src/components/subscribe/Subscribe';
 import * as SocialFollow from 'src/components/social-follow/SocialFollow';
 import * as SocialFeed from 'src/components/social-feed/SocialFeed';
 import * as SectionWrapper from 'src/components/section-wrapper/SectionWrapper';
 import * as RowSplitter from 'src/components/row-splitter/RowSplitter';
 import * as RichText from 'src/components/rich-text/RichText';
-import * as ReviewsCarousel from 'src/components/reviews-carousel/ReviewsCarousel';
 import * as RelatedProducts from 'src/components/related-products/RelatedProducts';
 import * as Promo from 'src/components/promo/Promo';
 import * as ProductListing from 'src/components/product-listing/ProductListing';
@@ -43,13 +43,13 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['FEaaSWrapper', FEaaSWrapper],
   ['Form', Form],
   ['Title', { ...Title }],
+  ['Testimonials', { ...Testimonials }],
   ['Subscribe', { ...Subscribe }],
   ['SocialFollow', { ...SocialFollow }],
   ['SocialFeed', { ...SocialFeed }],
   ['SectionWrapper', { ...SectionWrapper }],
   ['RowSplitter', { ...RowSplitter }],
   ['RichText', { ...RichText }],
-  ['ReviewsCarousel', { ...ReviewsCarousel }],
   ['RelatedProducts', { ...RelatedProducts }],
   ['Promo', { ...Promo }],
   ['ProductListing', { ...ProductListing }],

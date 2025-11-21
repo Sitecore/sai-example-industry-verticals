@@ -19,6 +19,7 @@ import * as Image from 'src/components/image/Image';
 import * as HeroBanner from 'src/components/hero-banner/HeroBanner';
 import * as HeaderExtended from 'src/components/header-extended/HeaderExtended';
 import * as Footer from 'src/components/footer/Footer';
+import * as Features from 'src/components/features/Features';
 import * as DoctorsListing from 'src/components/doctors-listing/DoctorsListing';
 import * as DoctorDetails from 'src/components/doctor-details/DoctorDetails';
 import * as ContentSection from 'src/components/content-section/ContentSection';
@@ -36,7 +37,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['SocialFollow', { ...SocialFollow }],
   ['RowSplitter', { ...RowSplitter }],
   ['RichText', { ...RichText }],
-  ['Promo', { ...Promo }],
+  ['Promo', { ...Promo, componentType: 'client' }],
   ['PartialDesignDynamicPlaceholder', { ...PartialDesignDynamicPlaceholder }],
   ['PageContent', { ...PageContent }],
   ['Navigation', { ...Navigation, componentType: 'client' }],
@@ -45,6 +46,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['HeroBanner', { ...HeroBanner, componentType: 'client' }],
   ['HeaderExtended', { ...HeaderExtended }],
   ['Footer', { ...Footer, componentType: 'client' }],
+  ['Features', { ...Features, componentType: 'client' }],
   ['DoctorsListing', { ...DoctorsListing }],
   ['DoctorDetails', { ...DoctorDetails }],
   ['ContentSection', { ...ContentSection, componentType: 'client' }],
