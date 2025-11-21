@@ -1,7 +1,7 @@
 export enum CommonStyles {
   HideBlobAccent = 'hide-blob-accent',
-  CurvedTop = 'curved-top',
-  CurvedBottom = 'curved-bottom',
+  HideTopSection = 'hide-top-section',
+  HideBottomSection = 'hide-bottom-section',
 }
 
 export enum FeatureStyles {

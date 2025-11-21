@@ -9,6 +9,7 @@ import React from 'react';
 import { useTheme } from 'next-themes';
 import BlobAccent from '@/assets/shapes/BlobAccent';
 import { CommonStyles, FeatureStyles } from '@/types/styleFlags';
+import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight, faBars, faChevronDown, faChevronUp, faTimes, faEnvelope, faPhone, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import BlobAccent_c450f25c63b00a2e370305e155038c473dbb9c49 from 'src/components/non-sitecore/BlobAccent';
@@ -71,6 +72,14 @@ const importMap = [
     exports: [
       { name: 'CommonStyles', value: CommonStyles },
       { name: 'FeatureStyles', value: FeatureStyles },
+    ]
+  },
+  {
+    module: '@fortawesome/free-brands-svg-icons',
+    exports: [
+      { name: 'faFacebook', value: faFacebook },
+      { name: 'faInstagram', value: faInstagram },
+      { name: 'faTwitter', value: faTwitter },
     ]
   },
   {

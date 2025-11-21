@@ -7,6 +7,7 @@ import { Form } from '@sitecore-content-sdk/nextjs';
 import * as Title from 'src/components/title/Title';
 import * as ThemeSwitcher from 'src/components/theme-switcher/ThemeSwitcher';
 import * as Testimonials from 'src/components/testimonials/Testimonials';
+import * as SocialFollow from 'src/components/social-follow/SocialFollow';
 import * as RowSplitter from 'src/components/row-splitter/RowSplitter';
 import * as RichText from 'src/components/rich-text/RichText';
 import * as Promo from 'src/components/promo/Promo';
@@ -17,6 +18,7 @@ import * as LinkList from 'src/components/link-list/LinkList';
 import * as Image from 'src/components/image/Image';
 import * as HeroBanner from 'src/components/hero-banner/HeroBanner';
 import * as HeaderExtended from 'src/components/header-extended/HeaderExtended';
+import * as Footer from 'src/components/footer/Footer';
 import * as Features from 'src/components/features/Features';
 import * as DoctorsListing from 'src/components/doctors-listing/DoctorsListing';
 import * as DoctorDetails from 'src/components/doctor-details/DoctorDetails';
@@ -32,6 +34,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Title', { ...Title }],
   ['ThemeSwitcher', { ...ThemeSwitcher }],
   ['Testimonials', { ...Testimonials }],
+  ['SocialFollow', { ...SocialFollow }],
   ['RowSplitter', { ...RowSplitter }],
   ['RichText', { ...RichText }],
   ['Promo', { ...Promo, componentType: 'client' }],
@@ -42,6 +45,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Image', { ...Image }],
   ['HeroBanner', { ...HeroBanner, componentType: 'client' }],
   ['HeaderExtended', { ...HeaderExtended }],
+  ['Footer', { ...Footer, componentType: 'client' }],
   ['Features', { ...Features, componentType: 'client' }],
   ['DoctorsListing', { ...DoctorsListing }],
   ['DoctorDetails', { ...DoctorDetails }],
