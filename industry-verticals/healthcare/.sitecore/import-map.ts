@@ -9,9 +9,10 @@ import React from 'react';
 import { useTheme } from 'next-themes';
 import BlobAccent from '@/assets/shapes/BlobAccent';
 import { CommonStyles, FeatureStyles } from '@/types/styleFlags';
-import { isParamEnabled } from '@/helpers/isParamEnabled';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faChevronDown, faChevronUp, faTimes, faEnvelope, faPhone, faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight, faBars, faChevronDown, faChevronUp, faTimes, faEnvelope, faPhone, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
+import BlobAccent_c450f25c63b00a2e370305e155038c473dbb9c49 from 'src/components/non-sitecore/BlobAccent';
+import CurvedClip from 'src/components/non-sitecore/CurvedClip';
 import { getLinkField, getNavigationText } from '@/helpers/navHelpers';
 import { useI18n } from 'next-localization';
 import HeroClip from '@/assets/shapes/HeroClip';
@@ -19,7 +20,8 @@ import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
 import BlobAccent_2e4ecd85952329c540c505e64c2c0c7c0394fc8b from 'src/assets/shapes/BlobAccent';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Keyboard, Navigation, Pagination } from 'swiper/modules';
-import CurvedClip from 'src/assets/shapes/CurvedClip';
+import { isParamEnabled } from '@/helpers/isParamEnabled';
+import CurvedClip_a87a03c0e7ca8cbf6425a5f9fe21d118e0f2a53f from 'src/assets/shapes/CurvedClip';
 import Head from 'next/head';
 import client from 'lib/sitecore-client';
 import Image from 'next/image';
@@ -72,12 +74,6 @@ const importMap = [
     ]
   },
   {
-    module: '@/helpers/isParamEnabled',
-    exports: [
-      { name: 'isParamEnabled', value: isParamEnabled },
-    ]
-  },
-  {
     module: '@fortawesome/react-fontawesome',
     exports: [
       { name: 'FontAwesomeIcon', value: FontAwesomeIcon },
@@ -86,6 +82,7 @@ const importMap = [
   {
     module: '@fortawesome/free-solid-svg-icons',
     exports: [
+      { name: 'faArrowRight', value: faArrowRight },
       { name: 'faBars', value: faBars },
       { name: 'faChevronDown', value: faChevronDown },
       { name: 'faChevronUp', value: faChevronUp },
@@ -93,7 +90,18 @@ const importMap = [
       { name: 'faEnvelope', value: faEnvelope },
       { name: 'faPhone', value: faPhone },
       { name: 'faArrowLeft', value: faArrowLeft },
-      { name: 'faArrowRight', value: faArrowRight },
+    ]
+  },
+  {
+    module: 'src/components/non-sitecore/BlobAccent',
+    exports: [
+      { name: 'default', value: BlobAccent_c450f25c63b00a2e370305e155038c473dbb9c49 },
+    ]
+  },
+  {
+    module: 'src/components/non-sitecore/CurvedClip',
+    exports: [
+      { name: 'default', value: CurvedClip },
     ]
   },
   {
@@ -143,9 +151,15 @@ const importMap = [
     ]
   },
   {
+    module: '@/helpers/isParamEnabled',
+    exports: [
+      { name: 'isParamEnabled', value: isParamEnabled },
+    ]
+  },
+  {
     module: 'src/assets/shapes/CurvedClip',
     exports: [
-      { name: 'default', value: CurvedClip },
+      { name: 'default', value: CurvedClip_a87a03c0e7ca8cbf6425a5f9fe21d118e0f2a53f },
     ]
   },
   {

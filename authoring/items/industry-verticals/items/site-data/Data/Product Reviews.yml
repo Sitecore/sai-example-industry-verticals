@@ -1,5 +1,5 @@
 ﻿---
-ID: "b8eabd09-9e2f-4552-8c6c-79dd8fa63783"
+ID: "5e91146f-47cf-441c-afa3-2524d1b1bdd2"
 Parent: "dcc7de24-6385-4653-9875-0d5be089f705"
 Template: "e4992b10-8a1b-452f-aad4-54785467cbce"
 Path: "/sitecore/content/retail/forma-lux/Data/Product Reviews"
@@ -10,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20251121T100910Z
+      Value: 20251120T122944Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,11 +21,11 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ead12747-53ae-4669-8517-924aa7653baa"
+      Value: "1e0a65c7-73fc-4b6e-8518-7aa522993c7f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251121T100910Z
+      Value: 20251121T105957Z
