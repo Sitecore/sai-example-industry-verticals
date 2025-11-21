@@ -73,19 +73,20 @@ export const DefaultPromo: Story = {
     CurvedTop: true,
   },
   render: (args) => {
-    const promoStyles = clsx(baseParams.styles,args.Layout, args.BackgroundColor, args.HideBlobAccent && CommonStyles.HideBlobAccent, args.CurvedBottom && CommonStyles.CurvedBottom, args.CurvedTop && CommonStyles.CurvedTop);
-    
+    const promoStyles = clsx(
+      baseParams.styles,
+      args.Layout,
+      args.BackgroundColor,
+      args.HideBlobAccent && CommonStyles.HideBlobAccent,
+      args.CurvedBottom && CommonStyles.CurvedBottom,
+      args.CurvedTop && CommonStyles.CurvedTop
+    );
+
     const params = {
       ...baseParams,
       styles: promoStyles,
     };
-    return (
-      <Default
-        fields={baseFields}
-        rendering={baseRendering}
-        params={params}
-      />
-    );
+    return <Default fields={baseFields} rendering={baseRendering} params={params} />;
   },
 };
 
@@ -95,8 +96,15 @@ export const WithPlaceholderPromo: Story = {
     BlobAccent: true,
   },
   render: (args) => {
-     const promoStyles = clsx(baseParams.styles,args.Layout, args.BackgroundColor, args.HideBlobAccent && CommonStyles.HideBlobAccent, args.CurvedBottom && CommonStyles.CurvedBottom, args.CurvedTop && CommonStyles.CurvedTop);
-    
+    const promoStyles = clsx(
+      baseParams.styles,
+      args.Layout,
+      args.BackgroundColor,
+      args.HideBlobAccent && CommonStyles.HideBlobAccent,
+      args.CurvedBottom && CommonStyles.CurvedBottom,
+      args.CurvedTop && CommonStyles.CurvedTop
+    );
+
     const params = {
       ...baseParams,
       styles: promoStyles,
@@ -124,8 +132,15 @@ export const WithPlaceholderContent: Story = {
     BlobAccent: true,
   },
   render: (args) => {
-    const promoStyles = clsx(baseParams.styles,args.Layout, args.BackgroundColor, args.HideBlobAccent && CommonStyles.HideBlobAccent, args.CurvedBottom && CommonStyles.CurvedBottom, args.CurvedTop && CommonStyles.CurvedTop);
-    
+    const promoStyles = clsx(
+      baseParams.styles,
+      args.Layout,
+      args.BackgroundColor,
+      args.HideBlobAccent && CommonStyles.HideBlobAccent,
+      args.CurvedBottom && CommonStyles.CurvedBottom,
+      args.CurvedTop && CommonStyles.CurvedTop
+    );
+
     const params = {
       ...baseParams,
       styles: promoStyles,

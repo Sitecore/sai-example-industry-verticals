@@ -1,12 +1,12 @@
 import React from 'react';
 
 const HeroClip = () => (
-  <div className="absolute inset-0 w-full h-full text-background dark:text-background-dark -z-1">
+  <div className="text-background dark:text-background-dark absolute inset-0 -z-1 h-full w-full">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 1601.7 992.77"
       preserveAspectRatio="none"
-      className="w-full h-full object-cover"
+      className="h-full w-full object-cover"
       overflow={'visible'}
     >
       <g fill="currentColor">
