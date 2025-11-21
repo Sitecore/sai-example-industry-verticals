@@ -59,7 +59,11 @@ const baseRendering = {
 
 export const DefaultFeatures: Story = {
   render: (args) => {
-    const promoStyles = clsx(baseParams.styles, args.HideBlobAccent && CommonStyles.HideBlobAccent);
+    const promoStyles = clsx(
+      baseParams.styles,
+      args.BackgroundColor,
+      args.HideBlobAccent && CommonStyles.HideBlobAccent
+    );
     const params = {
       ...baseParams,
       styles: promoStyles,
@@ -87,10 +91,14 @@ export const SimpleFeatures: Story = {
     layout: 'padded',
   },
   render: (args) => {
-    const promoStyles = clsx(baseParams.styles, args.HideBlobAccent && CommonStyles.HideBlobAccent);
+    const featureStyles = clsx(
+      baseParams.styles,
+      args.BackgroundColor,
+      args.HideBlobAccent && CommonStyles.HideBlobAccent
+    );
     const params = {
       ...baseParams,
-      styles: promoStyles,
+      styles: featureStyles,
     };
 
     return (
