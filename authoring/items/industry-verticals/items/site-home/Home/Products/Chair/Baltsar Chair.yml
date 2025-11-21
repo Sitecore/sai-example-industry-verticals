@@ -10,11 +10,7 @@ SharedFields:
     <image mediaid="425126a2-6e66-41d4-9379-0c1277dd1b11" />
 - ID: "2cfb917c-9876-4edb-82c0-1c9acd6965d4"
   Hint: Reviews
-  Value: |
-    {22A3C639-09BA-4161-8EA9-83446B471DCA}
-    {F3760F5F-6CF6-4028-8FFA-F79479E36258}
-    {76FC7D80-E52E-40F9-A1B6-EE2846964085}
-    {46265D04-81ED-4416-B76D-CAEA274A9A2A}
+  Value: 
 - ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
   Hint: Tags
   Value: "{EA0C996A-ABFD-4E4F-96E1-AE4DB6125B8A}"
@@ -57,7 +53,7 @@ SharedFields:
   Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "ec5ee83f-4bf2-4de2-b4e0-5f85cdd48059"
+  Value: "af38f6ee-016a-486b-87cd-6860cd73c640"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -147,17 +143,17 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3c159c69-af7e-482d-ad6a-1fcbbc2cd0b1"
+      Value: "a6a0518f-0eae-403e-8595-905edd1ab290"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Baltsar Chair
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251021T085730Z
+      Value: 20251121T073811Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: "<p>Exuding modern sophistication, the Baltsar Chair effortlessly combines sleek design with unparalleled comfort. Its ergonomic structure ensures superior support, making it a perfect addition to both contemporary and classic interiors. </p><p>Crafted with precision, the Baltsar Chair features a durable frame and high-quality upholstery that promise long-lasting use. Its elegant contours not only add a touch of luxury but also provide a welcoming embrace that invites you to sit and unwind. Ideal for any setting, the Baltsar Chair is more than just a seat; it's an invitation to experience style and relaxation like never before.</p>"
