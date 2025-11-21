@@ -72,8 +72,7 @@ const DefaultFooter = (props: FooterProps) => {
 
   // styles to hide and show sections
   const hideTopSection = props.params?.Styles?.includes(CommonStyles.HideTopSection) || undefined;
-  const hideBottomSection =
-    props.params?.Styles?.includes(CommonStyles.HideBottomSection) || undefined;
+  const hideBottomSection = props.params?.Styles?.includes(CommonStyles.HideBottomSection) || undefined;
 
   return (
     <section className={`relative ${props.params.styles} overflow-hidden`} id={id ? id : undefined}>
