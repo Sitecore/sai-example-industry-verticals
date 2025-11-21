@@ -1,8 +1,18 @@
 ﻿---
-ID: "4781f893-d471-4ab0-9948-32b2ba77f858"
-Parent: "dcc7de24-6385-4653-9875-0d5be089f705"
-Template: "cb4d7d8a-963d-47ab-9c34-f7e5e0501058"
-Path: "/sitecore/content/retail/forma-lux/Data/Product Reviews"
+ID: "1058c302-7a38-42f1-81bc-07488541e34e"
+Parent: "eb8a8dd3-c0d7-4dd9-9cb5-82355c282d61"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/retail/Components/Page Content/Promo/Rendering Parameters/Promo Parameters/Visual Accents/CurvedTop
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Checkbox
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "e8f7caf7-2b7c-4181-bd12-a7cbf5147c6b"
 Languages:
 - Language: en
   Versions:
@@ -10,7 +20,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20251020T100529Z
+      Value: 20251120T131131Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,11 +31,11 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7d65860f-94c9-46b4-b190-c5be4cf8da31"
+      Value: "0def69cd-0b63-4082-8bc1-c90c09d077a5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251020T100606Z
+      Value: 20251120T131302Z

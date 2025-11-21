@@ -1,20 +1,20 @@
 ﻿---
-ID: "ba6b2439-97e4-4eb6-9a39-a57efa5956e0"
-Parent: "4781f893-d471-4ab0-9948-32b2ba77f858"
+ID: "471df511-0fc0-4111-a578-c2a354821e86"
+Parent: "5e91146f-47cf-441c-afa3-2524d1b1bdd2"
 Template: "744d807c-58ee-4148-b56c-2a4d721ef30f"
-Path: "/sitecore/content/retail/forma-lux/Data/Product Reviews/Review 5"
+Path: "/sitecore/content/retail/forma-lux/Data/New Review Folder/Review 4"
 SharedFields:
 - ID: "80c830cd-6bce-475c-a33a-7ae4681fc436"
   Hint: ReviewImage
   Value: |
-    <image mediaid="{D6114837-C32B-42C4-B574-A3B3ECAFC459}" />
+    <image mediaid="{E6B176E0-831B-40E5-8825-98584F41209A}" />
 - ID: "84f017a3-d38b-4b59-b533-be5cf9ef126a"
   Hint: Avatar
   Value: |
-    <image mediaid="{EB918E1B-4A73-439D-9E1F-F820DDA124CD}" />
+    <image mediaid="{9B5D4CA0-573C-4081-AC20-EB5F24E8E6D4}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "c29e11ca-3029-41ff-8fe4-d4ca305bd7a2"
+  Value: "a9446fc6-b0fa-4c06-922e-2995aeed21ae"
 Languages:
 - Language: en
   Versions:
@@ -22,34 +22,34 @@ Languages:
     Fields:
     - ID: "1ba67762-5101-42b3-a0f4-96c75eef92dd"
       Hint: Rating
-      Value: 2
+      Value: 3
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20251020T100852Z
+      Value: 20251120T141546Z
     - ID: "4cfe9e5a-e13c-480a-bfb5-13ab4d5076e3"
       Hint: Caption
-      Value: Art Director, Paris
+      Value: Entrepreneur, London
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "626e48c4-0b10-44a8-9014-b2d9776e5cd6"
       Hint: Description
-      Value: “Every corner of my apartment now tells a story of sophistication and design. Forma Lux brought art, light, and balance into my everyday life.”
+      Value: “Forma Lux helped me express myself through my space. It’s not just furniture — it’s a lifestyle, curated with care and bold taste.”
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fa872c27-c7e4-4649-83a4-11d29d74f247"
+      Value: "491b1a8b-5e1c-47d8-9e5a-aa4427419e2a"
     - ID: "b6ff157a-68e6-4d19-a9fa-72835a99d93d"
       Hint: ReviewerName
-      Value: Marc Delacroix
+      Value: Ava L.
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251021T080905Z
+      Value: 20251120T142035Z
