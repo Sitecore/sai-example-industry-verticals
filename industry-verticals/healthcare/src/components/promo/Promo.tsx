@@ -45,8 +45,8 @@ const PromoWrapper = ({ children, props }: { children: React.ReactNode; props: P
       className={`component promo bg-background-secondary dark:bg-background-secondary-dark relative py-12 sm:py-20 lg:py-32 ${props?.params?.styles}`}
       id={id ? id : undefined}
     >
-      {!curvedTop && <CurvedClip className="top-0" pos="top" />}
-      {!curvedBottom && <CurvedClip className="bottom-0" pos="bottom" />}
+      {curvedTop && <CurvedClip className="top-0" pos="top" />}
+      {curvedBottom && <CurvedClip className="bottom-0" pos="bottom" />}
       {!hideBlobAccent && (
         <BlobAccent
           size="lg"
