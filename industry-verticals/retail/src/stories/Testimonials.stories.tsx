@@ -1,18 +1,18 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 import { ComponentProps } from 'react';
-import { Default as ReviewsCarousel } from '../components/reviews-carousel/ReviewsCarousel';
+import { Default as Testimonials } from '../components/testimonials/Testimonials';
 import { CommonParams, CommonRendering } from './common/commonData';
 import { createReviews } from './helpers/createItems';
 import { createTextField } from './helpers/createFields';
 import { expect, userEvent, within } from 'storybook/internal/test';
 
-type StoryProps = ComponentProps<typeof ReviewsCarousel> & {
+type StoryProps = ComponentProps<typeof Testimonials> & {
   numberOfReviews: number;
 };
 
 const meta = {
-  title: 'Reviews/ReviewsCarousel',
-  component: ReviewsCarousel,
+  title: 'Page/ReviewsCarousel',
+  component: Testimonials,
   tags: ['autodocs'],
   parameters: {
     layout: 'fullscreen',
@@ -49,7 +49,7 @@ export const Default: Story = {
   },
   render: (args) => {
     return (
-      <ReviewsCarousel
+      <Testimonials
         params={baseParams}
         rendering={baseRendering}
         fields={{
@@ -68,7 +68,7 @@ export const FourItems: Story = {
   },
   render: (args) => {
     return (
-      <ReviewsCarousel
+      <Testimonials
         params={baseParams}
         rendering={baseRendering}
         fields={{
@@ -88,7 +88,7 @@ export const NavigationButtonsInteractionTest: Story = {
   },
   render: (args) => {
     return (
-      <ReviewsCarousel
+      <Testimonials
         params={baseParams}
         rendering={baseRendering}
         fields={{
