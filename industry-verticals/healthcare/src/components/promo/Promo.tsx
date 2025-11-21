@@ -19,7 +19,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import BlobAccent from '../non-sitecore/BlobAccent';
 import CurvedClip from '../non-sitecore/CurvedClip';
-import { isParamEnabled } from 'src/helpers/isParamEnabled';
 import { CommonStyles } from '@/types/styleFlags';
 
 interface Fields {
@@ -35,33 +34,32 @@ type PromoProps = {
   fields: Fields;
 };
 
-const PromoWrapper = ({
-  children,
-  props,
-}: {
-  children: React.ReactNode;
-  props: PromoProps;
-}) => {
+const PromoWrapper = ({ children, props }: { children: React.ReactNode; props: PromoProps }) => {
   const id = props.params.RenderingIdentifier;
   const hideBlobAccent = props.params.styles?.includes(CommonStyles.HideBlobAccent);
+  const curvedTop = props.params.styles?.includes(CommonStyles.CurvedTop);
+  const curvedBottom = props.params.styles?.includes(CommonStyles.CurvedBottom);
 
   return (
     <section
-      className={`component promo relative bg-background-secondary dark:bg-background-secondary-dark py-12 sm:py-20 lg:py-32 ${props?.params?.styles}`}
+      className={`component promo bg-background-secondary dark:bg-background-secondary-dark relative py-12 sm:py-20 lg:py-32 ${props?.params?.styles}`}
       id={id ? id : undefined}
     >
-      {isParamEnabled(props.params.CurvedTop) && <CurvedClip className='top-0' pos="top" />}
-      {isParamEnabled(props.params.CurvedBottom) && <CurvedClip className='bottom-0' pos="bottom" />}
+      {!curvedTop && <CurvedClip className="top-0" pos="top" />}
+      {!curvedBottom && <CurvedClip className="bottom-0" pos="bottom" />}
       {!hideBlobAccent && (
         <BlobAccent
           size="lg"
-          className="absolute top-0 left-0 lg:left-4 lg:[.promo-reversed_&]:left-auto lg:[.promo-reversed_&]:right-4 z-0"
+          className="absolute top-0 left-0 z-0 lg:left-4 lg:[.promo-reversed_&]:right-4 lg:[.promo-reversed_&]:left-auto"
         />
       )}
-      <div className="container relative z-10">
-        <div className="grid gap-x-24 gap-y-12 items-center lg:grid-cols-2">
-          <div className="aspect-square rounded-lg shadow-soft overflow-hidden">
-            <ContentSdkImage field={props.fields.PromoImageOne} className="w-full h-full object-cover" />
+      <div className="relative z-10 container">
+        <div className="grid items-center gap-x-24 gap-y-12 lg:grid-cols-2">
+          <div className="shadow-soft aspect-square overflow-hidden rounded-lg">
+            <ContentSdkImage
+              field={props.fields.PromoImageOne}
+              className="h-full w-full object-cover"
+            />
           </div>
           <div className="lg:[.promo-reversed_&]:order-first">{children}</div>
         </div>
@@ -76,7 +74,7 @@ const DefaultPromo = (props: PromoProps) => {
       <h2>
         <ContentSdkText field={props.fields.PromoTitle} />
       </h2>
-      <ContentSdkRichText className="text-lg mb-10" field={props.fields.PromoDescription} />
+      <ContentSdkRichText className="mb-10 text-lg" field={props.fields.PromoDescription} />
 
       <ContentSdkLink field={props.fields.PromoMoreInfo} className="btn btn-icon">
         {props.fields?.PromoMoreInfo?.value?.text}

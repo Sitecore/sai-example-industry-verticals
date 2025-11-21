@@ -73,15 +73,11 @@ export const DefaultPromo: Story = {
     CurvedTop: true,
   },
   render: (args) => {
-    console.log(args);
-    const promoStyles = clsx(baseParams.styles,args.Layout, args.BackgroundColor, args.HideBlobAccent && CommonStyles.HideBlobAccent);
+    const promoStyles = clsx(baseParams.styles,args.Layout, args.BackgroundColor, args.HideBlobAccent && CommonStyles.HideBlobAccent, args.CurvedBottom && CommonStyles.CurvedBottom, args.CurvedTop && CommonStyles.CurvedTop);
     
-    console.log(promoStyles);
     const params = {
       ...baseParams,
       styles: promoStyles,
-      CurvedTop: boolToSitecoreCheckbox(args.CurvedTop),
-      CurvedBottom: boolToSitecoreCheckbox(args.CurvedBottom),
     };
     return (
       <Default
@@ -99,7 +95,7 @@ export const WithPlaceholderPromo: Story = {
     BlobAccent: true,
   },
   render: (args) => {
-     const promoStyles = clsx(baseParams.styles,args.Layout, args.BackgroundColor, args.HideBlobAccent && CommonStyles.HideBlobAccent);
+     const promoStyles = clsx(baseParams.styles,args.Layout, args.BackgroundColor, args.HideBlobAccent && CommonStyles.HideBlobAccent, args.CurvedBottom && CommonStyles.CurvedBottom, args.CurvedTop && CommonStyles.CurvedTop);
     
     const params = {
       ...baseParams,
@@ -128,7 +124,7 @@ export const WithPlaceholderContent: Story = {
     BlobAccent: true,
   },
   render: (args) => {
-    const promoStyles = clsx(baseParams.styles,args.Layout, args.BackgroundColor, args.HideBlobAccent && CommonStyles.HideBlobAccent);
+    const promoStyles = clsx(baseParams.styles,args.Layout, args.BackgroundColor, args.HideBlobAccent && CommonStyles.HideBlobAccent, args.CurvedBottom && CommonStyles.CurvedBottom, args.CurvedTop && CommonStyles.CurvedTop);
     
     const params = {
       ...baseParams,
