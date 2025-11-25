@@ -202,14 +202,14 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4cc76778-2f3e-48f6-8e3b-adec4a25a8f4"
+      Value: "6fe2f8e1-e8cb-4470-8470-93e93b28b3e4"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\jeffrey.isham@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251121T202511Z
+      Value: 20251124T194907Z
 - Language: "es-ES"
   Versions:
   - Version: 1
@@ -269,26 +269,22 @@ Languages:
               s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=17" />
             <r
               uid="{D362D8F7-42C9-488A-BE41-4E79A8C3868A}"
-              s:par="FieldNames=%7b4091EF1F-FB38-4E84-8776-076441E040BF%7d&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=2&amp;CurvedTop&amp;HideShapes=0&amp;Reversed=0&amp;ShowMultipleImages=0&amp;HideQuote=0&amp;HideCurveLine=0&amp;HideShadows=0&amp;CurvedBottom" />
+              s:par="FieldNames=%7b4091EF1F-FB38-4E84-8776-076441E040BF%7d&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=2&amp;CurvedTop&amp;HideShapes=0&amp;Reversed=0&amp;ShowMultipleImages=0&amp;HideQuote=0&amp;HideCurveLine=0&amp;HideShadows=0&amp;CurvedBottom=0" />
             <r
               uid="{5C245F3E-D832-4ED3-8DBB-88ABAB16ABC0}"
-              s:par="FieldNames=%7b4091EF1F-FB38-4E84-8776-076441E040BF%7d&amp;RenderingIdentifier&amp;Styles=%7c%7b1D7E4033-FFD2-40D3-99EB-E0BE364BB74F%7d%7c%7bDB71A4F4-4E6E-465A-B110-E26F47627B7E%7d&amp;CSSStyles&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=16&amp;CurvedTop&amp;CurvedBottom" />
+              s:par="FieldNames=%7b4091EF1F-FB38-4E84-8776-076441E040BF%7d&amp;RenderingIdentifier&amp;Styles=%7c%7b1D7E4033-FFD2-40D3-99EB-E0BE364BB74F%7d%7c%7bDB71A4F4-4E6E-465A-B110-E26F47627B7E%7d&amp;CSSStyles&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=16&amp;CurvedTop&amp;CurvedBottom=0" />
             <r
               uid="{1B086346-531C-4C41-BC73-5CF1F0CFF9D0}"
               s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=15&amp;Reversed=0" />
             <r
-              uid="{8ABC8A08-490F-45DC-831B-27150008D7B7}"
-              s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=19" />
-            <r
-              uid="{992CC2E9-6AEB-47DB-B026-D34EFC1B70FE}"
-              s:ds=""
-              s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d" />
+              uid="{AAF0D7B4-60E9-4C86-9EEB-901A9FC4B2AC}"
+              s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=20" />
             <r
               uid="{F827819F-D3D3-4FBD-8BAF-87D769468B06}"
               s:par="FieldNames&amp;RenderingIdentifier&amp;Styles=%7c%7b8562F7F8-721A-4C82-B884-AAF58B44C6B6%7d&amp;CSSStyles&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=5" />
             <r
               uid="{D208AC42-DFB1-49D3-87F4-DDF7006DAA69}"
-              s:par="FieldNames=%7bA83A4134-EBAE-4CF9-9648-68D54EBAF239%7d&amp;RenderingIdentifier&amp;Styles=%7c%7b00AE1E2D-24DF-476E-AC36-5BD62A6B44A5%7d%7c%7b6D4F66C4-8BA6-4733-8019-B4914C5643FF%7d&amp;CSSStyles&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=11&amp;CurvedTop&amp;HideShapes=0&amp;Reversed=0&amp;ShowMultipleImages=0&amp;HideQuote=0&amp;HideCurveLine=1&amp;HideShadows=0&amp;CurvedBottom" />
+              s:par="FieldNames=%7bA83A4134-EBAE-4CF9-9648-68D54EBAF239%7d&amp;RenderingIdentifier&amp;Styles=%7c%7b00AE1E2D-24DF-476E-AC36-5BD62A6B44A5%7d%7c%7b6D4F66C4-8BA6-4733-8019-B4914C5643FF%7d&amp;CSSStyles&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=11&amp;CurvedTop&amp;HideShapes=0&amp;Reversed=0&amp;ShowMultipleImages=0&amp;HideQuote=0&amp;HideCurveLine=1&amp;HideShadows=0&amp;CurvedBottom=0" />
             <r
               uid="{C30C0496-2855-442E-B969-F057DE7492E9}"
               s:par="FieldNames&amp;RenderingIdentifier&amp;Styles=%7c%7b00AE1E2D-24DF-476E-AC36-5BD62A6B44A5%7d&amp;CSSStyles&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=4" />
@@ -316,11 +312,11 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9da24aeb-0d8d-4523-b3e3-6bb701868073"
+      Value: "433f179d-2531-4256-9f18-ffc8c55c2ab2"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\jeral.sandeeptha@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251121T073716Z
+      Value: 20251124T112636Z
