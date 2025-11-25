@@ -34,7 +34,7 @@
   @apply border-b-accent text-accent inline-flex items-center justify-start gap-3 border-b-1 leading-8;
 
   &::after {
-    @apply bg-accent inline-block h-3 w-11 mask-[url('/icons/arrow.svg')] bg-contain bg-no-repeat mask-contain mask-center mask-no-repeat content-[''];
+    @apply bg-accent inline-block h-3 w-11 mask-[url('./images/arrow.svg')] bg-contain bg-no-repeat mask-contain mask-center mask-no-repeat content-[''];
   }
 }
 

@@ -7,10 +7,10 @@ import {
   RichText as ContentSdkRichText,
   useSitecore,
   Placeholder,
+  Link,
 } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from '@/lib/component-props';
 import AccentLine from '@/assets/icons/accent-line/AccentLine';
-import { ExploreLink } from '../non-sitecore/ExploreLink';
 import { CommonStyles, HeroBannerStyles, LayoutStyles } from '@/types/styleFlags';
 
 interface Fields {
@@ -117,7 +117,7 @@ export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
                 {withPlaceholder ? (
                   <Placeholder name={searchBarPlaceholderKey} rendering={rendering} />
                 ) : (
-                  <ExploreLink linkText={fields.CtaLink} />
+                  <Link field={fields.CtaLink} className="arrow-btn" />
                 )}
               </div>
             </div>
@@ -159,7 +159,7 @@ export const TopContent = ({ params, fields, rendering }: HeroBannerProps) => {
               {withPlaceholder ? (
                 <Placeholder name={searchBarPlaceholderKey} rendering={rendering} />
               ) : (
-                <ExploreLink linkText={fields.CtaLink} />
+                <Link field={fields.CtaLink} className="arrow-btn" />
               )}
             </div>
           </div>
