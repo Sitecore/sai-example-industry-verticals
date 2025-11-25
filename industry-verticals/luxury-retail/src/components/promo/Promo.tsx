@@ -32,7 +32,7 @@ export const Default = (props: PromoProps): JSX.Element => {
 
   return (
     <section
-      className={`${props.params.styles || ''} min-h-screen p-6 lg:p-10`}
+      className={`${props.params.styles || ''} py-10 lg:min-h-screen lg:py-16`}
       id={id ? id : undefined}
     >
       <div className="container grid grid-cols-1 items-stretch gap-0 lg:h-screen lg:grid-cols-2 lg:gap-10">
