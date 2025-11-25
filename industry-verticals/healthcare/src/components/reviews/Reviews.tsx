@@ -4,13 +4,13 @@ import BlobAccent from '@/assets/shapes/BlobAccent';
 import { ReviewFields } from '@/types/review';
 import { CommonStyles } from '@/types/styleFlags';
 
-export interface TestimonialProps extends ComponentProps {
+export interface ReviewsProps extends ComponentProps {
   fields: {
     Reviews: ReviewFields[];
   };
 }
 
-export const Default = (props: TestimonialProps) => {
+export const Default = (props: ReviewsProps) => {
   const id = props.params.RenderingIdentifier;
   const reviews = props.fields?.Reviews || [];
   const isBlobAccent = !props?.params?.styles?.includes(CommonStyles.HideBlobAccent);
@@ -28,9 +28,9 @@ export const Default = (props: TestimonialProps) => {
         <div className="mt-16 grid gap-12 lg:grid-cols-3">
           {reviews?.map((review: ReviewFields) => (
             <div key={review.id} className="flex flex-col items-center">
-              <div className="relative z-2 mx-4 aspect-square max-w-sm overflow-hidden rounded-lg lg:mx-10">
+              <div className="placeholder-pattern-background relative z-11 mx-4 aspect-square max-w-sm overflow-hidden rounded-lg lg:mx-10">
                 <ContentSdkImage
-                  className="h-full w-full object-cover"
+                  className="relative z-10 h-full w-full object-cover"
                   field={review?.fields?.Avatar}
                 />
               </div>

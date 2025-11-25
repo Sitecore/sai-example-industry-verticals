@@ -6,16 +6,16 @@ import { combineImportEntries, defaultImportEntries } from '@sitecore-content-sd
 import { Link, Text, useSitecore, RichText, NextImage, Placeholder, Image, CdpHelper, withDatasourceCheck, DateField } from '@sitecore-content-sdk/nextjs';
 import { useState, useEffect, useMemo, useId, useRef, useCallback } from 'react';
 import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Autoplay, A11y, Keyboard } from 'swiper/modules';
-import AccentLine from '@/assets/icons/accent-line/AccentLine';
-import CarouselButton from 'src/components/non-sitecore/CarouselButton';
-import ReviewCard from 'src/components/non-sitecore/ReviewCard';
 import { useI18n } from 'next-localization';
 import { faFacebookF, faInstagram, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { FacebookIcon, InstagramIcon, LinkedinIcon, TwitterIcon, YoutubeIcon } from '@/assets/icons/social/social';
+import AccentLine from '@/assets/icons/accent-line/AccentLine';
 import { CommonStyles, LayoutStyles, PromoFlags, HeroBannerStyles } from '@/types/styleFlags';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Autoplay, A11y, Keyboard } from 'swiper/modules';
+import CarouselButton from 'src/components/non-sitecore/CarouselButton';
+import ReviewCard from 'src/components/non-sitecore/ReviewCard';
 import { isParamEnabled } from '@/helpers/isParamEnabled';
 import ProductCarousel from 'src/components/non-sitecore/ProductCarousel';
 import clsx from 'clsx';
@@ -98,41 +98,6 @@ const importMap = [
     ]
   },
   {
-    module: 'swiper/react',
-    exports: [
-      { name: 'Swiper', value: Swiper },
-      { name: 'SwiperSlide', value: SwiperSlide },
-    ]
-  },
-  {
-    module: 'swiper/modules',
-    exports: [
-      { name: 'Navigation', value: Navigation },
-      { name: 'Pagination', value: Pagination },
-      { name: 'Autoplay', value: Autoplay },
-      { name: 'A11y', value: A11y },
-      { name: 'Keyboard', value: Keyboard },
-    ]
-  },
-  {
-    module: '@/assets/icons/accent-line/AccentLine',
-    exports: [
-      { name: 'default', value: AccentLine },
-    ]
-  },
-  {
-    module: 'src/components/non-sitecore/CarouselButton',
-    exports: [
-      { name: 'default', value: CarouselButton },
-    ]
-  },
-  {
-    module: 'src/components/non-sitecore/ReviewCard',
-    exports: [
-      { name: 'default', value: ReviewCard },
-    ]
-  },
-  {
     module: 'next-localization',
     exports: [
       { name: 'useI18n', value: useI18n },
@@ -165,12 +130,47 @@ const importMap = [
     ]
   },
   {
+    module: '@/assets/icons/accent-line/AccentLine',
+    exports: [
+      { name: 'default', value: AccentLine },
+    ]
+  },
+  {
     module: '@/types/styleFlags',
     exports: [
       { name: 'CommonStyles', value: CommonStyles },
       { name: 'LayoutStyles', value: LayoutStyles },
       { name: 'PromoFlags', value: PromoFlags },
       { name: 'HeroBannerStyles', value: HeroBannerStyles },
+    ]
+  },
+  {
+    module: 'swiper/react',
+    exports: [
+      { name: 'Swiper', value: Swiper },
+      { name: 'SwiperSlide', value: SwiperSlide },
+    ]
+  },
+  {
+    module: 'swiper/modules',
+    exports: [
+      { name: 'Navigation', value: Navigation },
+      { name: 'Pagination', value: Pagination },
+      { name: 'Autoplay', value: Autoplay },
+      { name: 'A11y', value: A11y },
+      { name: 'Keyboard', value: Keyboard },
+    ]
+  },
+  {
+    module: 'src/components/non-sitecore/CarouselButton',
+    exports: [
+      { name: 'default', value: CarouselButton },
+    ]
+  },
+  {
+    module: 'src/components/non-sitecore/ReviewCard',
+    exports: [
+      { name: 'default', value: ReviewCard },
     ]
   },
   {

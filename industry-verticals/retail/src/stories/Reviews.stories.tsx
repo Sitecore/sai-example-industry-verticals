@@ -1,18 +1,18 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 import { ComponentProps } from 'react';
-import { Default as Testimonials } from '../components/testimonials/Testimonials';
+import { Default as Reviews } from '../components/reviews/Reviews';
 import { CommonParams, CommonRendering } from './common/commonData';
 import { createReviews } from './helpers/createItems';
 import { createTextField } from './helpers/createFields';
 import { expect, userEvent, within } from 'storybook/internal/test';
 
-type StoryProps = ComponentProps<typeof Testimonials> & {
+type StoryProps = ComponentProps<typeof Reviews> & {
   numberOfReviews: number;
 };
 
 const meta = {
-  title: 'Page/ReviewsCarousel',
-  component: Testimonials,
+  title: 'Page/Reviews',
+  component: Reviews,
   tags: ['autodocs'],
   parameters: {
     layout: 'fullscreen',
@@ -39,7 +39,7 @@ const baseParams = {
 
 const baseRendering = {
   ...CommonRendering,
-  componentName: 'ReviewsCarousel',
+  componentName: 'Reviews',
   params: baseParams,
 };
 
@@ -49,7 +49,7 @@ export const Default: Story = {
   },
   render: (args) => {
     return (
-      <Testimonials
+      <Reviews
         params={baseParams}
         rendering={baseRendering}
         fields={{
@@ -68,7 +68,7 @@ export const FourItems: Story = {
   },
   render: (args) => {
     return (
-      <Testimonials
+      <Reviews
         params={baseParams}
         rendering={baseRendering}
         fields={{
@@ -88,7 +88,7 @@ export const NavigationButtonsInteractionTest: Story = {
   },
   render: (args) => {
     return (
-      <Testimonials
+      <Reviews
         params={baseParams}
         rendering={baseRendering}
         fields={{

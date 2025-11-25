@@ -3,14 +3,14 @@
 import { combineImportEntries, defaultImportEntries } from '@sitecore-content-sdk/nextjs/codegen';
 // end of built-in imports
 
-import { Link, Text, useSitecore, NextImage, Placeholder, RichText, withDatasourceCheck, CdpHelper } from '@sitecore-content-sdk/nextjs';
+import { Link, Text, useSitecore, Placeholder, RichText, NextImage, withDatasourceCheck, CdpHelper } from '@sitecore-content-sdk/nextjs';
 import { useState, useId, useEffect } from 'react';
 import React from 'react';
 import { useTheme } from 'next-themes';
-import BlobAccent from '@/assets/shapes/BlobAccent';
-import { CommonStyles, FeatureStyles } from '@/types/styleFlags';
 import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import BlobAccent from '@/assets/shapes/BlobAccent';
+import { CommonStyles, FeatureStyles } from '@/types/styleFlags';
 import { faArrowRight, faBars, faChevronDown, faChevronUp, faTimes, faEnvelope, faPhone, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import BlobAccent_c450f25c63b00a2e370305e155038c473dbb9c49 from 'src/components/non-sitecore/BlobAccent';
 import CurvedClip from 'src/components/non-sitecore/CurvedClip';
@@ -39,9 +39,9 @@ const importMap = [
       { name: 'Link', value: Link },
       { name: 'Text', value: Text },
       { name: 'useSitecore', value: useSitecore },
-      { name: 'NextImage', value: NextImage },
       { name: 'Placeholder', value: Placeholder },
       { name: 'RichText', value: RichText },
+      { name: 'NextImage', value: NextImage },
       { name: 'withDatasourceCheck', value: withDatasourceCheck },
       { name: 'CdpHelper', value: CdpHelper },
     ]
@@ -62,19 +62,6 @@ const importMap = [
     ]
   },
   {
-    module: '@/assets/shapes/BlobAccent',
-    exports: [
-      { name: 'default', value: BlobAccent },
-    ]
-  },
-  {
-    module: '@/types/styleFlags',
-    exports: [
-      { name: 'CommonStyles', value: CommonStyles },
-      { name: 'FeatureStyles', value: FeatureStyles },
-    ]
-  },
-  {
     module: '@fortawesome/free-brands-svg-icons',
     exports: [
       { name: 'faFacebook', value: faFacebook },
@@ -86,6 +73,19 @@ const importMap = [
     module: '@fortawesome/react-fontawesome',
     exports: [
       { name: 'FontAwesomeIcon', value: FontAwesomeIcon },
+    ]
+  },
+  {
+    module: '@/assets/shapes/BlobAccent',
+    exports: [
+      { name: 'default', value: BlobAccent },
+    ]
+  },
+  {
+    module: '@/types/styleFlags',
+    exports: [
+      { name: 'CommonStyles', value: CommonStyles },
+      { name: 'FeatureStyles', value: FeatureStyles },
     ]
   },
   {

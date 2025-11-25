@@ -1,18 +1,18 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
-import { TestimonialProps, Default as Testimonials } from '../components/testimonials/Testimonials';
+import { ReviewsProps, Default as Reviews } from '../components/reviews/Reviews';
 import { CommonParams, CommonRendering } from './common/commonData';
 import { CommonStyles } from '@/types/styleFlags';
 import clsx from 'clsx';
 import { createReviews } from './helpers/createItems';
 
-type StoryProps = TestimonialProps & {
+type StoryProps = ReviewsProps & {
   HideBlobAccent: boolean;
   NumberOfReviews: number;
 };
 
 const meta = {
-  title: 'Page Content/Testimonials',
-  component: Testimonials,
+  title: 'Page Content/Reviews',
+  component: Reviews,
   tags: ['autodocs'],
   parameters: {
     layout: 'fullscreen',
@@ -64,6 +64,6 @@ export const Default: Story = {
       Reviews: createReviews(args.NumberOfReviews),
     };
 
-    return <Testimonials params={params} rendering={baseRendering} fields={fields} />;
+    return <Reviews params={params} rendering={baseRendering} fields={fields} />;
   },
 };
