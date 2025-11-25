@@ -5,6 +5,7 @@ import CarouselButton from './CarouselButton';
 import { ReviewFields } from '@/types/review';
 import { ComponentRendering, useSitecore } from '@sitecore-content-sdk/nextjs';
 import ReviewCard from './ReviewCard';
+import { useI18n } from 'next-localization';
 
 type ProductReviewsProps = {
   reviews: ReviewFields[];
@@ -13,6 +14,7 @@ type ProductReviewsProps = {
 
 export const ProductReviews = (props: ProductReviewsProps) => {
   const { page } = useSitecore();
+  const { t } = useI18n();
 
   const uid = props.rendering.uid;
   const isPageEditing = page.mode.isEditing;
@@ -21,7 +23,9 @@ export const ProductReviews = (props: ProductReviewsProps) => {
     return (
       <div className="w-full">
         <div className="container pt-10">
-          <p className="pb-10 text-center">No reviews available for this product.</p>
+          <p className="pb-10 text-center">
+            {t('no_reviews_label') || 'No reviews available for this product.'}
+          </p>
         </div>
       </div>
     );
