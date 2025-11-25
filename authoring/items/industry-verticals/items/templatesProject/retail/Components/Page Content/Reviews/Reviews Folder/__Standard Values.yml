@@ -2,7 +2,7 @@
 ID: "ef9a6e5e-8c5e-40a3-af61-22ddb205e337"
 Parent: "b024a2d8-cdde-4338-bd97-fe25248aa3be"
 Template: "b024a2d8-cdde-4338-bd97-fe25248aa3be"
-Path: /sitecore/templates/Project/retail/Components/Page Content/Reviews/Testimonials Folder/__Standard Values
+Path: /sitecore/templates/Project/retail/Components/Page Content/Reviews/Reviews Folder/__Standard Values
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters

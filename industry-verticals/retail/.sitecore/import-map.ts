@@ -43,8 +43,6 @@ import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
 import { getCart } from '@/lib/cart';
 import { useCartAction } from '@/hooks/useCartAction';
 import { PopoverClose } from '@radix-ui/react-popover';
-import { ArrowLong } from '@/assets/icons/arrow-long/arrow-long';
-import { ButtonType } from '@/types/enums';
 import ShortArrow from '@/assets/icons/arrow-short/ArrowShort';
 import { Popover, PopoverContent, PopoverTrigger } from '@/shadcn/components/ui/popover';
 import { MiniCart } from 'src/components/non-sitecore/MiniCart';
@@ -56,7 +54,6 @@ import { getLinkContent, getLinkField, isNavLevel, isNavRootItem, prepareFields 
 import { useRouter } from 'next/router';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from 'src/shadcn/components/ui/select';
 import { localeOptions } from '@/constants/localeOptions';
-import { ExploreLink } from 'src/components/non-sitecore/ExploreLink';
 import { generateIndexes } from '@/helpers/generateIndexes';
 import Head from 'next/head';
 import client from 'lib/sitecore-client';
@@ -360,18 +357,6 @@ const importMap = [
     ]
   },
   {
-    module: '@/assets/icons/arrow-long/arrow-long',
-    exports: [
-      { name: 'ArrowLong', value: ArrowLong },
-    ]
-  },
-  {
-    module: '@/types/enums',
-    exports: [
-      { name: 'ButtonType', value: ButtonType },
-    ]
-  },
-  {
     module: '@/assets/icons/arrow-short/ArrowShort',
     exports: [
       { name: 'default', value: ShortArrow },
@@ -445,12 +430,6 @@ const importMap = [
     module: '@/constants/localeOptions',
     exports: [
       { name: 'localeOptions', value: localeOptions },
-    ]
-  },
-  {
-    module: 'src/components/non-sitecore/ExploreLink',
-    exports: [
-      { name: 'ExploreLink', value: ExploreLink },
     ]
   },
   {
