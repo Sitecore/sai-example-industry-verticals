@@ -79,7 +79,7 @@ const HeroBannerCommon = ({
 };
 
 /* ------------------- Default (bottom-left) ------------------- */
-export const Default2 = ({ params, fields, rendering }: HeroBannerProps) => {
+export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
   const styles = params.styles || '';
   const reverseLayout = styles.includes('reversed');
 
@@ -109,7 +109,7 @@ export const Default2 = ({ params, fields, rendering }: HeroBannerProps) => {
 };
 
 /* ------------------- TopContent (top-right) ------------------- */
-export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
+export const TopContent = ({ params, fields, rendering }: HeroBannerProps) => {
   const styles = params.styles || '';
   const reverseLayout = styles.includes('reversed');
 
