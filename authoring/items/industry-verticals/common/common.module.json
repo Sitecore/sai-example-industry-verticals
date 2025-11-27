@@ -5,22 +5,22 @@
     "includes": [
       {
         "name": "module",
-        "path": "/sitecore/system/settings/Project/retail",
+        "path": "/sitecore/system/settings/Project/industry-verticals",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
         "name": "templatesProject",
-        "path": "/sitecore/templates/Project/retail",
+        "path": "/sitecore/templates/Project/industry-verticals",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
         "name": "branchesProject",
-        "path": "/sitecore/templates/Branches/Project/retail",
+        "path": "/sitecore/templates/Branches/Project/industry-verticals",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
         "name": "projectMediaFolders",
-        "path": "/sitecore/Media Library/Project/retail",
+        "path": "/sitecore/Media Library/Project/industry-verticals",
         "rules": [
           {
             "path": "/shared",
@@ -46,23 +46,23 @@
       },
       {
         "name": "projectRenderings",
-        "path": "/sitecore/Layout/Renderings/Project/retail",
+        "path": "/sitecore/Layout/Renderings/Project/industry-verticals",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
         "name": "projectPlaceholderSettings",
-        "path": "/sitecore/Layout/Placeholder Settings/Project/retail",
+        "path": "/sitecore/Layout/Placeholder Settings/Project/industry-verticals",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
         "name": "tenantRoot",
-        "path": "/sitecore/content/retail",
+        "path": "/sitecore/content/industry-verticals",
         "scope": "SingleItem",
         "allowedPushOperations": "CreateAndUpdate"
       },
       {
         "name": "sites-forma-lux",
-        "path": "/sitecore/content/retail/forma-lux",
+        "path": "/sitecore/content/industry-verticals/forma-lux",
         "rules": [
           {
             "path": "/home",
@@ -107,7 +107,7 @@
       },
       {
         "name": "sites-essential-living",
-        "path": "/sitecore/content/retail/essential-living",
+        "path": "/sitecore/content/industry-verticals/essential-living",
         "rules": [
           {
             "path": "/home",
@@ -152,7 +152,7 @@
       },
       {
         "name": "sites-nova-medical",
-        "path": "/sitecore/content/retail/nova-medical",
+        "path": "/sitecore/content/industry-verticals/nova-medical",
         "rules": [
           {
             "path": "/home",

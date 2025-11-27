@@ -6,31 +6,31 @@
     "includes": [
       {
         "name": "essentials-home",
-        "path": "/sitecore/content/retail/essential-living/home",
+        "path": "/sitecore/content/industry-verticals/essential-living/home",
         "scope": "DescendantsOnly",
         "allowedPushOperations": "CreateOnly"
       },
       {
         "name": "essentials-media",
-        "path": "/sitecore/content/retail/essential-living/Media",
+        "path": "/sitecore/content/industry-verticals/essential-living/Media",
         "scope": "DescendantsOnly",
         "allowedPushOperations": "CreateOnly"
       },
       {
         "name": "essentials-data",
-        "path": "/sitecore/content/retail/essential-living/Data",
+        "path": "/sitecore/content/industry-verticals/essential-living/Data",
         "scope": "DescendantsOnly",
         "allowedPushOperations": "CreateOnly"
       },
       {
         "name": "essentials-dictionary",
-        "path": "/sitecore/content/retail/essential-living/Dictionary",
+        "path": "/sitecore/content/industry-verticals/essential-living/Dictionary",
         "scope": "DescendantsOnly",
         "allowedPushOperations": "CreateOnly"
       },
       {
         "name": "essentials-presentation",
-        "path": "/sitecore/content/retail/essential-living/Presentation",
+        "path": "/sitecore/content/industry-verticals/essential-living/Presentation",
         "scope": "DescendantsOnly",
         "allowedPushOperations": "CreateOnly"
       }

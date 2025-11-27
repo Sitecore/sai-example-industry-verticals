@@ -6,7 +6,7 @@
     "includes": [
       {
         "name": "essential-media",
-        "path": "/sitecore/Media Library/Project/retail/essential-living",
+        "path": "/sitecore/Media Library/Project/industry-verticals/essential-living",
         "scope": "DescendantsOnly",
         "allowedPushOperations": "CreateUpdateAndDelete"
       }

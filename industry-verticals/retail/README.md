@@ -75,17 +75,17 @@ It distinguishes between IAR (Item-As-Resources) modules and SCS (Sitecore Conte
 
 #### Serialized Item Summary
 
-| Category                                    | Path                                               | Serialized | Deployment Type |
-| ------------------------------------------- | -------------------------------------------------- | ---------- | --------------- |
-| Project Settings                            | `/sitecore/system/Settings/Project/retail`         | Yes        | IAR             |
-| Templates                                   | `/sitecore/templates/Project/retail`               | Yes        | IAR             |
-| Branch Templates                            | `/sitecore/templates/Branches/Project/retail`      | Yes        | IAR             |
-| Layouts / Renderings / Placeholder Settings | `/sitecore/layout/.../Project/retail`              | Yes        | IAR             |
-| Tenant Root                                 | `/sitecore/content/retail`                         | Yes        | IAR             |
-| Site Root                                   | `/sitecore/content/retail/forma-lux`               | Yes        | SCS             |
-| Home, Data, Dictionary, Presentation        | `/sitecore/content/retail/forma-lux/...`           | Yes        | SCS             |
-| Media Library Folder (structure)            | `/sitecore/media library/Project/retail/forma-lux` | Yes        | SCS             |
-| Media Assets                                | `/sitecore/media library/.../*`                    | Yes        | IAR             |
+| Category                                    | Path                                                           | Serialized | Deployment Type |
+| ------------------------------------------- | -------------------------------------------------------------- | ---------- | --------------- |
+| Project Settings                            | `/sitecore/system/Settings/Project/industry-verticals`         | Yes        | IAR             |
+| Templates                                   | `/sitecore/templates/Project/industry-verticals`               | Yes        | IAR             |
+| Branch Templates                            | `/sitecore/templates/Branches/Project/industry-verticals`      | Yes        | IAR             |
+| Layouts / Renderings / Placeholder Settings | `/sitecore/layout/.../Project/industry-verticals`              | Yes        | IAR             |
+| Tenant Root                                 | `/sitecore/content/retail`                                     | Yes        | IAR             |
+| Site Root                                   | `/sitecore/content/retail/forma-lux`                           | Yes        | SCS             |
+| Home, Data, Dictionary, Presentation        | `/sitecore/content/retail/forma-lux/...`                       | Yes        | SCS             |
+| Media Library Folder (structure)            | `/sitecore/media library/Project/industry-verticals/forma-lux` | Yes        | SCS             |
+| Media Assets                                | `/sitecore/media library/.../*`                                | Yes        | IAR             |
 
 ---
 

@@ -6,7 +6,7 @@
     "includes": [
       {
         "name": "nova-media",
-        "path": "/sitecore/Media Library/Project/retail/nova-medical",
+        "path": "/sitecore/Media Library/Project/industry-verticals/nova-medical",
         "scope": "DescendantsOnly",
         "allowedPushOperations": "CreateUpdateAndDelete"
       }

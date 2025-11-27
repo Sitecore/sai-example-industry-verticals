@@ -6,7 +6,7 @@
     "includes": [
       {
         "name": "retail-media",
-        "path": "/sitecore/Media Library/Project/retail/forma-lux",
+        "path": "/sitecore/Media Library/Project/industry-verticals/forma-lux",
         "scope": "DescendantsOnly",
         "allowedPushOperations": "CreateUpdateAndDelete"
       }
