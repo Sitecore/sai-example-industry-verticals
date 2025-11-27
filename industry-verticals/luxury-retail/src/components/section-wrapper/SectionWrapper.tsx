@@ -17,7 +17,7 @@ export const Default = ({ params, fields, rendering }: SectionWrapperProps) => {
   const componentPlaceholderKey = `section-wrapper-content-${params.DynamicPlaceholderId}`;
 
   return (
-    <section className={`component section-wrapper py-8 ${styles}`} id={id}>
+    <section className={`component section-wrapper py-10 lg:py-16 ${styles}`} id={id}>
       <div className="container">
         <div className="grid gap-8 lg:grid-cols-4">
           <div className="space-y-8 lg:col-span-3">

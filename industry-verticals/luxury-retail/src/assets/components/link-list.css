@@ -29,3 +29,9 @@
     @apply hidden;
   }
 }
+
+.social-follow.hide-title {
+  h5 {
+    @apply hidden;
+  }
+}

@@ -57,7 +57,7 @@ export const Default = (props: FeaturesProps) => {
 
   return (
     <FeatureWrapper props={props}>
-      <div className="container py-10">
+      <div className="container py-10 lg:py-16">
         {/* Section Heading */}
         <div className="mb-10">
           {(title?.jsonValue || isPageEditing) && (
@@ -81,8 +81,11 @@ export const Default = (props: FeaturesProps) => {
 
             const content = (
               <>
-                <div className="mb-7 aspect-square w-full transition-transform duration-300 hover:scale-[1.02]">
-                  <Image field={image} className="h-full w-full object-cover" />
+                <div className="group mb-7 aspect-square w-full overflow-hidden transition-transform duration-300">
+                  <Image
+                    field={image}
+                    className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
+                  />
                 </div>
 
                 <h3 className="text-2xl md:text-3xl">

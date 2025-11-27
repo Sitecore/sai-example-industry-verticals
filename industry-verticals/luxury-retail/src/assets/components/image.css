@@ -21,6 +21,6 @@
 
 .image-hide-caption {
   .image-caption {
-    @apply hidden;
+    @apply !hidden;
   }
 }

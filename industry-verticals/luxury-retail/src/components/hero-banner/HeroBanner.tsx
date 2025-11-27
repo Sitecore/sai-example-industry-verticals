@@ -23,7 +23,8 @@ const HeroBannerCommon = ({
   params,
   fields,
   children,
-}: HeroBannerProps & { children: React.ReactNode }) => {
+  topContent,
+}: HeroBannerProps & { children: React.ReactNode; topContent?: boolean }) => {
   const { page } = useSitecore();
   const { styles, RenderingIdentifier: id } = params;
   const isPageEditing = page.mode.isEditing;
@@ -40,8 +41,8 @@ const HeroBannerCommon = ({
   }
 
   return (
-    <div
-      className={`component hero-banner ${styles} relative flex min-h-screen flex-col items-center`}
+    <section
+      className={`component hero-banner ${styles} relative flex min-h-screen flex-col items-center py-10`}
       id={id}
     >
       {/* Background Media */}
@@ -65,13 +66,15 @@ const HeroBannerCommon = ({
           />
         )}
         {/* Gradient overlay */}
-        {!hideGradientOverlay && (
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent from-85% to-white"></div>
+        {hideGradientOverlay && (
+          <div
+            className={`to-foreground/80 absolute inset-0 ${topContent ? 'bg-gradient-to-t' : 'bg-gradient-to-b'} from-transparent from-40%`}
+          ></div>
         )}
       </div>
 
       {children}
-    </div>
+    </section>
   );
 };
 
@@ -111,7 +114,7 @@ export const TopContent = ({ params, fields, rendering }: HeroBannerProps) => {
   const reverseLayout = styles.includes('reversed');
 
   return (
-    <HeroBannerCommon params={params} fields={fields} rendering={rendering}>
+    <HeroBannerCommon params={params} fields={fields} rendering={rendering} topContent>
       <div className="relative flex h-full w-full flex-grow items-start">
         <div className="container mx-auto flex h-full items-start">
           <div

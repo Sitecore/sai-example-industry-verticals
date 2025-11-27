@@ -31,9 +31,6 @@ export const ProductReviews = (props: ProductReviewsProps) => {
             <h6 className="text-sm">
               <Text field={review.fields.ReviewerName} />
             </h6>
-            <p className="text-xs">
-              <Text field={review.fields.Caption} />
-            </p>
           </div>
           <StarRating
             rating={review.fields.Rating.value}
