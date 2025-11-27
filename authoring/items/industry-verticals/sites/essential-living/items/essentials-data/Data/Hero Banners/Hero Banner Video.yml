@@ -14,7 +14,7 @@ SharedFields:
     <file mediaid="{170C18CC-5A07-42F5-A369-59B28B03BA31}" mediapath="/Project/retail/forma-lux/HeroBanners/hero-vid-1" src="-/media/170C18CC5A0742F5A36959B28B03BA31.ashx" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "70519a7b-df29-4323-8860-4008b8d8ea67"
+  Value: "0884435d-13ac-4fbd-9763-5b9bcca8735a"
 Languages:
 - Language: en
   Versions:
@@ -36,7 +36,7 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b3288de5-cdab-493e-9638-4f119a0d19d3"
+      Value: "22c349fa-4720-45bb-8222-0307524d3867"
     - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
       Hint: Title
       Value: New Collection
@@ -46,4 +46,4 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251127T101502Z
+      Value: 20251127T103505Z

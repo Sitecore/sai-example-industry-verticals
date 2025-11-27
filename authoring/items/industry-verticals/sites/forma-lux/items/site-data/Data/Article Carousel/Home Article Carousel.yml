@@ -31,7 +31,7 @@ Languages:
       Value: 50+ Beautiful room inspirations
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "94e8cf10-a563-4998-bca3-ac8547ca3525"
+      Value: "a8767424-f1f9-4912-81a8-711ae5fb23ce"
     - ID: "9097fa39-7bba-4e25-92f0-0b25d187509d"
       Hint: CarouselExplore
       Value: |
@@ -48,7 +48,7 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251127T101502Z
+      Value: 20251127T103506Z
 - Language: "es-ES"
   Versions:
   - Version: 1
@@ -75,7 +75,7 @@ Languages:
       Value: Más de 50 hermosas inspiraciones para habitaciones
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7b074282-d122-4792-b234-a596fc2414de"
+      Value: "f78e0e85-9d75-418a-b781-3ec1c3f1de55"
     - ID: "9097fa39-7bba-4e25-92f0-0b25d187509d"
       Hint: CarouselExplore
       Value: |
@@ -92,4 +92,4 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251127T101503Z
+      Value: 20251127T103506Z

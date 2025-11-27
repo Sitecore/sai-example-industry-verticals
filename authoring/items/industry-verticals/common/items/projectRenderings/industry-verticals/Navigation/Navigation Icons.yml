@@ -15,7 +15,7 @@ SharedFields:
   Value: Office/32x32/password_field.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Project/retail/Components/Navigation/NavigationIcons/NavigationIcons
+  Value: "/sitecore/templates/Project/industry-verticals/Components/Navigation/NavigationIcons/NavigationIcons"
 - ID: "7d8ae35f-9ed1-43b5-96a2-0a5f040d4e4e"
   Hint: Open Properties after Add
   Value: 0
@@ -27,7 +27,7 @@ SharedFields:
   Value: "query:$site/*[@@name='Data']/*[@@templatename='NavigationIcons Folder']|query:$sharedSites/*[@@name='Data']/*[@@templatename='NavigationIcons Folder']"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "fae5f330-63d9-4c41-9d41-92af4ebc2e3d"
+  Value: "5b21519b-1594-43d3-8752-311dafa400ba"
 - ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
   Hint: OtherProperties
   Value: IsRenderingsWithDynamicPlaceholders=true&UsePlaceholderDatasourceContext=true
@@ -81,14 +81,14 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "89c9ac28-dd22-475a-9498-78321ae07179"
+      Value: "d425cf5e-9bcd-4678-b746-0b094c4a2a86"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251016T103639Z
+      Value: 20251127T103507Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

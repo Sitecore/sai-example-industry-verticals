@@ -1,9 +1,56 @@
 ﻿---
-ID: "26b6bdb6-e481-4406-be43-7fd6b63ea131"
-Parent: "4781f893-d471-4ab0-9948-32b2ba77f858"
-Template: "744d807c-58ee-4148-b56c-2a4d721ef30f"
+ID: "4683ba70-acc7-4277-ae62-8b424ec363bf"
+Parent: "5e91146f-47cf-441c-afa3-2524d1b1bdd2"
+Template: "58a32680-fc59-49bc-890c-fd69f7a9cf1a"
 Path: "/sitecore/content/industry-verticals/forma-lux/Data/Product Reviews/Review 6"
+SharedFields:
+- ID: "63ff7a9b-580a-4df9-8135-6cc1fc25a489"
+  Hint: ReviewImage
+  Value: |
+    <image mediaid="{425126A2-6E66-41D4-9379-0C1277DD1B11}" />
+- ID: "9f389762-fc1e-4bb1-9fc9-5ae25a3e1f38"
+  Hint: Avatar
+  Value: |
+    <image mediaid="{D380E9E7-8BE4-4809-B7EC-4E30B6289EAB}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "2bda7fa0-67e5-4e0f-a182-c9d7e4581d8c"
 Languages:
 - Language: en
   Versions:
   - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251121T110246Z
+    - ID: "43cdbc7e-aa68-4d04-a13b-2d027ef29368"
+      Hint: Rating
+      Value: 4
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "52f7ed6b-3e64-453f-9499-1a7281a05dc9"
+      Hint: Description
+      Value: |
+        "My space feels like a living gallery thanks to Forma Lux. Their designs balance art and function in the most seamless way."
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "8bb0daa9-d77b-4c79-99c1-4d12e8d8a623"
+      Hint: Caption
+      Value: Interior Stylist, Paris
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "424460ed-f56f-4be2-9d62-419d042cdd89"
+    - ID: "997e5f9c-d7b6-4704-9add-8e2ffcd15c2c"
+      Hint: ReviewerName
+      Value: Clara Moreau
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251121T111633Z

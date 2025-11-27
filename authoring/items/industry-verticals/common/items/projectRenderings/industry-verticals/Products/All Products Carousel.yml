@@ -15,7 +15,7 @@ SharedFields:
   Value: Office/32x32/playing_cards.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Project/retail/Page
+  Value: "/sitecore/templates/Project/industry-verticals/Page"
 - ID: "7d8ae35f-9ed1-43b5-96a2-0a5f040d4e4e"
   Hint: Open Properties after Add
   Value: 0
@@ -27,7 +27,7 @@ SharedFields:
   Value: "{5F8249B6-9290-4061-BD92-8DD72C7C6F7C}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "d1fe5175-7a60-410f-a2db-9b79e858f7b9"
+  Value: "60b60e8b-2be1-499b-81d2-1ec752a162c2"
 - ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
   Hint: OtherProperties
   Value: IsRenderingsWithDynamicPlaceholders=true&UsePlaceholderDatasourceContext=true
@@ -77,14 +77,14 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3ebe56b6-1ef4-4c04-8860-260b7cf975cf"
+      Value: "cfa42e83-0025-4258-b2f8-78989e8a2363"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251020T143541Z
+      Value: 20251127T103508Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

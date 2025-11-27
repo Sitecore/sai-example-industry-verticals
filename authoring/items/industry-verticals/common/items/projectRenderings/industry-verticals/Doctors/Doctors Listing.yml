@@ -15,7 +15,7 @@ SharedFields:
   Value: office/32x32/users.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Project/retail/Page
+  Value: "/sitecore/templates/Project/industry-verticals/Page"
 - ID: "7d8ae35f-9ed1-43b5-96a2-0a5f040d4e4e"
   Hint: Open Properties after Add
   Value: 0
@@ -27,7 +27,7 @@ SharedFields:
   Value: "{2F5C334E-5615-423C-8281-9FC180191302}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "d6c59b08-6fa6-4dd0-98a0-db854ba0748a"
+  Value: "eb5fbc93-d245-4daf-b1b6-82ec9fb161c4"
 - ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
   Hint: OtherProperties
   Value: IsRenderingsWithDynamicPlaceholders=true&UsePlaceholderDatasourceContext=true
@@ -77,14 +77,14 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b8a80c68-69ec-49e3-a112-a861cc9d704f"
+      Value: "fbf6434b-887d-4b39-b435-89ac72f09f03"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251114T115837Z
+      Value: 20251127T103507Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

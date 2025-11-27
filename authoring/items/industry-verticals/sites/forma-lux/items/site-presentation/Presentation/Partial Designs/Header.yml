@@ -10,7 +10,7 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{003B5CC3-7A2D-4FF9-B496-28662112C23C}" />
+    <image mediaid="{1C2BA88C-07EA-4753-9123-23AAD9527B7D}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
   Value: "04550abb-4a7f-4baf-8c8f-2259c4f9150d"
@@ -85,14 +85,14 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2bd7f1c4-aba5-44ad-893b-7245e8fac4fa"
+      Value: "5f6543a3-3276-4689-be32-ab4613e7e8b7"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251127T101503Z
+      Value: 20251127T103506Z
 - Language: "es-ES"
   Versions:
   - Version: 1
@@ -110,14 +110,14 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3df21a87-d033-427d-9923-943467eb58bb"
+      Value: "2d556d29-3568-4a33-a3e1-cddfecf5e81a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251008T144422Z
+      Value: 20251127T103506Z
 - Language: "fr-FR"
   Versions:
   - Version: 1
@@ -135,11 +135,11 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "94e837e8-4425-4a14-bb2c-9beb1736e886"
+      Value: "72e42273-8e2b-44be-9f60-a1c27984f10c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251008T144422Z
+      Value: 20251127T103506Z

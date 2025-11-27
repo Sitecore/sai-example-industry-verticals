@@ -21,10 +21,10 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{1265691C-6EE9-49B3-8131-FDEA5E9EE0F7}" />
+    <image mediaid="{B78A2E82-F686-4DA4-924F-83EA119ED642}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "54627e00-130d-4640-8a2b-2013f8c91196"
+  Value: "4a82e492-5751-4e1e-99a1-955131802180"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -44,7 +44,7 @@ SharedFields:
           p:after="r[@uid='{6F31A773-DFBF-4730-A1E3-6E1CB04F850A}']"
           s:ds="9776580a-c13e-403f-928a-1d15c2d5e13c"
           s:id="{B49CF2D7-7CB2-4918-8F38-2607D956D995}"
-          s:par="FieldNames=%7B96409BF2-9023-4CE1-8EF3-AA01ED5D1F3A%7D&amp;RenderingIdentifier&amp;Styles=%7C%7B8562F7F8-721A-4C82-B884-AAF58B44C6B6%7D%7C%7BEB728F9E-C2AC-4572-8AE4-A948B68B7EC8%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=1&amp;HideGradientOverlay=0&amp;HideAccentLine=0&amp;WithPlaceholder=0&amp;ReverseLayout=0"
+          s:par="FieldNames=%7B96409BF2-9023-4CE1-8EF3-AA01ED5D1F3A%7D&amp;RenderingIdentifier&amp;Styles=%7C%7B8562F7F8-721A-4C82-B884-AAF58B44C6B6%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=1&amp;HideGradientOverlay=0&amp;HideAccentLine=0&amp;WithPlaceholder=0&amp;ReverseLayout=0"
           s:ph="headless-main" />
         <r
           uid="{335D3948-776E-4A8D-B9AC-60E7FE730DC9}"
@@ -202,14 +202,14 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6fe2f8e1-e8cb-4470-8470-93e93b28b3e4"
+      Value: "77c69b37-5646-466f-9fc4-0d6e6fca29cc"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeffrey.isham@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251124T194907Z
+      Value: 20251127T135614Z
 - Language: "es-ES"
   Versions:
   - Version: 1

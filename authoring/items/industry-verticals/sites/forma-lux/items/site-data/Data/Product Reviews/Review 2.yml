@@ -1,9 +1,55 @@
 ﻿---
-ID: "f3760f5f-6cf6-4028-8ffa-f79479e36258"
-Parent: "4781f893-d471-4ab0-9948-32b2ba77f858"
-Template: "744d807c-58ee-4148-b56c-2a4d721ef30f"
+ID: "0c32c436-2cd3-4ba1-aa7f-e0688e6eddf8"
+Parent: "5e91146f-47cf-441c-afa3-2524d1b1bdd2"
+Template: "58a32680-fc59-49bc-890c-fd69f7a9cf1a"
 Path: "/sitecore/content/industry-verticals/forma-lux/Data/Product Reviews/Review 2"
+SharedFields:
+- ID: "63ff7a9b-580a-4df9-8135-6cc1fc25a489"
+  Hint: ReviewImage
+  Value: |
+    <image mediaid="{D6114837-C32B-42C4-B574-A3B3ECAFC459}" />
+- ID: "9f389762-fc1e-4bb1-9fc9-5ae25a3e1f38"
+  Hint: Avatar
+  Value: |
+    <image mediaid="{EB918E1B-4A73-439D-9E1F-F820DDA124CD}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "ca37980b-2715-4b14-aaac-d9dc2e63a810"
 Languages:
 - Language: en
   Versions:
   - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251121T110124Z
+    - ID: "43cdbc7e-aa68-4d04-a13b-2d027ef29368"
+      Hint: Rating
+      Value: 4
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "52f7ed6b-3e64-453f-9499-1a7281a05dc9"
+      Hint: Description
+      Value: “There’s a quiet confidence in Forma Lux design. It’s minimalism with personality — understated, but impossible to ignore.”
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "8bb0daa9-d77b-4c79-99c1-4d12e8d8a623"
+      Hint: Caption
+      Value: Interior Stylist, New York
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2fed1640-ef68-4555-b9d2-0070c1b7ff65"
+    - ID: "997e5f9c-d7b6-4704-9add-8e2ffcd15c2c"
+      Hint: ReviewerName
+      Value: Sophia R.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251121T110654Z
