@@ -1,0 +1,36 @@
+﻿---
+ID: "02e09c65-59a0-43a4-9110-e634c2a37bc9"
+Parent: "5ca6e6aa-35ea-4da9-a17e-9ef0d666809b"
+Template: "5ca6e6aa-35ea-4da9-a17e-9ef0d666809b"
+Path: /sitecore/templates/Project/retail/Custom Templates/Products/Product Dimensions/Product Dimension Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {5CA6E6AA-35EA-4DA9-A17E-9EF0D666809B}
+    {84AF1477-A3D4-4A67-8604-9C4916F0BACD}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "e29a167b-6691-433e-8b05-4d6e1d8dfc2e"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d1e216ef-4dbf-45c2-8347-f6234a0be14f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250924T084045Z
