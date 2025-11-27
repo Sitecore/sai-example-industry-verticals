@@ -1,0 +1,63 @@
+﻿---
+ID: "3ac897d8-974c-40f3-a5b9-05152305cb19"
+Parent: "cb85c659-2e7e-48b9-ae40-40f73ec3dcb0"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/industry-verticals/forma-lux/Logos/Airbnb Logo"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/3AC897D8974C40F3A5B905152305CB19.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 154
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "3ac897d8-974c-40f3-a5b9-05152305cb19"
+  Value: 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
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 2711
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 154 x 48
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "1fd330d7-be91-4088-b1e6-ed34a3118420"
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 48
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250904T114016Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: Airbnb Logo
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5ee19e96-d1a9-410d-bd43-6888f8053ed0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251008T145027Z

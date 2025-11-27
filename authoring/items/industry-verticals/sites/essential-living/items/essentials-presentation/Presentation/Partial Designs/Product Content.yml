@@ -1,0 +1,74 @@
+﻿---
+ID: "9f1318c0-f155-438d-9151-86bb39294c97"
+Parent: "ebe50aff-85be-4691-b28b-ecb5998be88d"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: "/sitecore/content/industry-verticals/essential-living/Presentation/Partial Designs/Product Content"
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: "product-content"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{7E0C10F0-E7DB-400F-9797-4C9E40169B98}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "f1d91b64-3b24-4cdd-866e-048738c534c0"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{AC59DEC4-19D0-4BAD-BE0D-A040832F2825}"
+          p:before="*"
+          s:id="{7EEEB709-7AAA-4B2F-8FBA-88EF74B3D2FE}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;ShowCompareButton&amp;ShowAddtoCartButton=1&amp;ShowAddtoWishlistButton&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{2BD49431-1C68-4555-9CD5-A8C69630F16A}"
+          p:after="r[@uid='{AC59DEC4-19D0-4BAD-BE0D-A040832F2825}']"
+          s:ds="c96fe3ba-c27d-4079-a4e5-ae37c716ff32"
+          s:id="{3275D21A-F7AC-4682-9EBF-BEF6FEBBDDA8}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="headless-main" />
+        <r
+          uid="{037C2055-812B-4A3E-A9E9-7995EB29AE09}"
+          p:after="*[1=2]"
+          s:ds="53cfafd3-53b9-43e4-8d85-16221f2a595b"
+          s:id="{CCD11802-22A3-462F-92FC-821515E2AEC8}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B3A37E4B7-5741-4BA4-AC18-0D5C6B4629DC%7D&amp;Styles=%7C%7BB1D1551B-355F-42D1-AB13-2F0E36BCF17C%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251114T101406Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d5aa3c1f-8e1a-45b0-bdff-762f02524d1a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251118T142222Z

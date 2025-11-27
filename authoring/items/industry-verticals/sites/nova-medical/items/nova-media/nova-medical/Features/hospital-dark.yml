@@ -1,0 +1,60 @@
+﻿---
+ID: "0cb2462e-261a-4631-a549-2d69478d1432"
+Parent: "c2da822e-f0c8-4503-bcae-65b0db1a4341"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/industry-verticals/nova-medical/Features/hospital-dark"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/0CB2462E261A4631A5492D69478D1432.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 70
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "a5f1266f-c9ea-4c66-af46-1a8f9e5f83b5"
+  Value: PHN2ZyBpZD0iR3JvdXBfNDM5IiBkYXRhLW5hbWU9Ikdyb3VwIDQzOSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgd2lkdGg9IjQ5LjE4NiIgaGVpZ2h0PSIzOS44NzEiIHZpZXdCb3g9IjAgMCA0OS4xODYgMzkuODcxIj4KICA8ZGVmcz4KICAgIDxjbGlwUGF0aCBpZD0iY2xpcC1wYXRoIj4KICAgICAgPHJlY3QgaWQ9IlJlY3RhbmdsZV80NzUiIGRhdGEtbmFtZT0iUmVjdGFuZ2xlIDQ3NSIgd2lkdGg9IjQ5LjE4NiIgaGVpZ2h0PSIzOS44NzEiIGZpbGw9IiNmZmYiLz4KICAgIDwvY2xpcFBhdGg+CiAgPC9kZWZzPgogIDxnIGlkPSJHcm91cF80MzgiIGRhdGEtbmFtZT0iR3JvdXAgNDM4IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDApIiBjbGlwLXBhdGg9InVybCgjY2xpcC1wYXRoKSI+CiAgICA8cGF0aCBpZD0iUGF0aF83MTIiIGRhdGEtbmFtZT0iUGF0aCA3MTIiIGQ9Ik0xLjQ1NiwzOS44NzFoMTUuNTJhMS40NTYsMS40NTYsMCwwLDAsMS40NTQtMS40NTZWMjguMTY5SDMwLjc1NVYzOC40MTZhMS40NTYsMS40NTYsMCwwLDAsMS40NTYsMS40NTZINDcuNzMyYTEuNDU1LDEuNDU1LDAsMCwwLDEuNDU0LTEuNDU2VjEuNDU2QTEuNDUzLDEuNDUzLDAsMCwwLDQ3LjczMiwwSDMyLjIxYTEuNDU1LDEuNDU1LDAsMCwwLTEuNDU2LDEuNDU2VjEyLjY3MUgxOC40MjlWMS40NTZBMS40NTUsMS40NTUsMCwwLDAsMTYuOTc1LDBIMS40NTZBMS40NTQsMS40NTQsMCwwLDAsMCwxLjQ1NnYzNi45NmExLjQ1NSwxLjQ1NSwwLDAsMCwxLjQ1NiwxLjQ1Nk0yLjkwOSwyLjkwOUgxNS41MlYxNC4xMjhhMS40NTUsMS40NTUsMCwwLDAsMS40NTYsMS40NTRIMzIuMjFhMS40NTYsMS40NTYsMCwwLDAsMS40NTYtMS40NTRWMi45MDlINDYuMjc0VjM2Ljk2SDMzLjY2NlYyNi43MTJhMS40NTUsMS40NTUsMCwwLDAtMS40NTYtMS40NTRIMTYuOTc1YTEuNDUzLDEuNDUzLDAsMCwwLTEuNDU2LDEuNDU0VjM2Ljk2SDIuOTA5WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAwKSIgZmlsbD0iI2ZmZiIvPgogIDwvZz4KPC9zdmc+Cg==
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 1075
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/svg+xml
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: svg
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "e75d6ba0-1090-4264-9f38-f9cfe8efc6ca"
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 70
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251120T124958Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: "hospital-dark"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9346fef8-c299-4bd7-a2d4-173fb3e8e018"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251120T132155Z

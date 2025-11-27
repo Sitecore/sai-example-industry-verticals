@@ -1,0 +1,69 @@
+﻿---
+ID: "75fadbb7-a3c5-4f2d-a96b-db4a1adbd3e5"
+Parent: "eebca638-ea2a-4bcd-a897-7bdd9aac3630"
+Template: "7e3a2360-40fa-456d-8061-307338dd39e0"
+Path: "/sitecore/content/industry-verticals/nova-medical/Data/Footers/Global Footer"
+SharedFields:
+- ID: "2895a16e-c1b8-4e79-959a-802d5bc81a5a"
+  Hint: Logo
+  Value: |
+    <image mediaid="{1E2893D1-3578-4372-B350-C72F8F0982BE}" />
+- ID: "adbf8159-4982-49d9-ba49-fe665175d647"
+  Hint: LogoDark
+  Value: |
+    <image mediaid="{00ACA506-FC61-4B1D-9D1F-9BCCCA845E98}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "21c5aee1-165f-4fe5-8ff6-221579bc54ad"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251119T120407Z
+    - ID: "40096e29-7ffe-4148-902f-2e64d17f3f2b"
+      Hint: TitleThree
+      Value: Our Services
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "775b58bb-13a1-426d-86e5-765ad797e407"
+      Hint: TitleOne
+      Value: Contact
+    - ID: "79d2d2a7-b0d5-421c-89fb-b7d040f56d26"
+      Hint: CopyrightText
+      Value: Copyright © 2024. All Rights Reserved.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a4bc5132-16eb-4454-9923-10e56ed6c6e5"
+    - ID: "9f2b5ebe-6b3a-4128-b6e9-6b7adf4e86da"
+      Hint: PolicyText
+      Value: |
+        <link linktype="external" url="#" target="" text="Privacy Policy" title="" class=""/>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "d12db112-ac8e-4701-9186-1c25d7c2c148"
+      Hint: TitleTwo
+      Value: About us
+    - ID: "d4ce5fe0-92df-4490-8b05-e704cf6f448e"
+      Hint: TitleFour
+      Value: Hospital Time
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251119T120710Z
+    - ID: "ff56e380-2171-49bf-a693-84ee1bc9413b"
+      Hint: TermsText
+      Value: |
+        <link linktype="external" url="#" target="" text="Terms of Use" title="" class=""/>

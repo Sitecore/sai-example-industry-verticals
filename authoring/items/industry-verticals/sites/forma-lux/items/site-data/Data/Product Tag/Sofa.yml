@@ -1,0 +1,34 @@
+﻿---
+ID: "fd74a159-fc1f-48f8-88c8-5703d830e00d"
+Parent: "5c9796c9-11e8-4b4f-977f-3d54ab3c2105"
+Template: "d96c025a-1d48-464b-9a72-327c8cc413bb"
+Path: "/sitecore/content/industry-verticals/forma-lux/Data/Product Tag/Sofa"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250924T075233Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cee5068c-f0c3-4a32-ab2b-3d8ff3a4ffb6"
+    - ID: "9ce1cd5e-556b-491f-87a9-4027294b99f8"
+      Hint: Tag
+      Value: Sofa
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250929T103152Z

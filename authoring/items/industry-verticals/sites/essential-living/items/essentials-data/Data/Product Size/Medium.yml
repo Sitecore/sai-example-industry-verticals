@@ -1,0 +1,34 @@
+﻿---
+ID: "3c6b2483-0ce5-425b-bbd7-de4c5a9b32d6"
+Parent: "6a8cb8a3-cb65-4f92-aff0-3ae1136d35b9"
+Template: "3dd5dfcc-0769-4306-9877-71df72ff22c5"
+Path: "/sitecore/content/industry-verticals/essential-living/Data/Product Size/Medium"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250923T121111Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f583190f-2462-4ab5-a208-1ca9cce24979"
+    - ID: "91a5f0ce-60e5-494d-ac50-9308b916b490"
+      Hint: ProductSize
+      Value: M
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250923T121116Z

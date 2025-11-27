@@ -1,0 +1,34 @@
+﻿---
+ID: "7afdcba4-d6aa-4af4-9ce8-c404256e7702"
+Parent: "d2469e16-828b-4d83-83de-784ab8eadea2"
+Template: "121ff042-8e7e-48e2-961d-d38d81e8edc6"
+Path: "/sitecore/content/industry-verticals/forma-lux/Data/Article Tags/Home Decor"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250912T080402Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "655ee303-9aad-459c-9deb-a26afa86b46d"
+      Hint: Tag
+      Value: Home Décor
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "41c033bd-540b-459c-9072-235c8962b60d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250923T121935Z

@@ -1,0 +1,84 @@
+﻿---
+ID: "192785d3-b1c7-4b40-9bc9-90661f6ee37d"
+Parent: "7f095d77-2e10-48f8-9365-18396bd76baf"
+Template: "f6e44a9e-074a-4865-987e-0c2dc00b7af5"
+Path: "/sitecore/content/industry-verticals/essential-living/Home/Shop/Lighting/SuperNova Lamp"
+SharedFields:
+- ID: "2cfb917c-9876-4edb-82c0-1c9acd6965d4"
+  Hint: Reviews
+  Value: |
+    {09A3E05B-C0D6-429E-82BF-3AED6DA0FE74}
+    {5483F694-7286-4153-BD0A-6C9539D31E55}
+- ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+  Hint: Tags
+  Value: |
+    {D0E94078-10B7-476C-A15C-37278BB782B3}
+    {E02ED45E-D390-4C62-A51D-C179FCCF9776}
+    {0E5A608A-7CE2-4568-B7F1-3F1C4368F8D1}
+    {B2672DB7-F5B9-4874-9CE3-776E89FB2227}
+    {B3D4DD83-B972-4D87-8078-3040CF3F2EF5}
+- ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+  Hint: SKU
+  Value: L009873
+- ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
+  Hint: Color
+  Value: "{EDA30340-78C5-497E-93C0-D5B5133AC783}"
+- ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
+  Hint: Image2
+  Value: |
+    <image mediaid="250ccdb5-d9ed-4594-9856-0ddb67faa31c" />
+- ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
+  Hint: Image1
+  Value: |
+    <image mediaid="4cce3727-1bd5-4c4a-9580-4e56245d6cb5" alt="lamp" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{084C7AA8-F3B1-454D-AC47-76E6F225B0C5}" />
+- ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+  Hint: Category
+  Value: "{2A70488E-95C7-4BCB-AACF-C72B73B4DDD6}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "ef92dd89-424f-4594-83a3-4c0162ed1b6e"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251121T135113Z
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: A thoughtfully designed lamp that introduces quiet elegance and warm, ambient light to your space.
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 650
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: SuperNova Lamp
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ea3ab462-30ab-490c-99bb-d21ef7d4a9b9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: SuperNova Lamp
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251125T142100Z

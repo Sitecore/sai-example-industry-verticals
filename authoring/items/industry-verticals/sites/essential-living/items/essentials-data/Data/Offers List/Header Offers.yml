@@ -1,0 +1,102 @@
+﻿---
+ID: "2d858e6b-aff2-4d0e-88a8-6a0d9c99998a"
+Parent: "5d3aad7f-f21b-4f63-b4fe-91dd76ec1b55"
+Template: "56dc3dfd-48b8-4dbf-811f-c0cdfaaea31a"
+Path: "/sitecore/content/industry-verticals/essential-living/Data/Offers List/Header Offers"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250829T075008Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fcc2664d-fb69-40ae-befa-f10549b4da3a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "c7492074-d5b8-4e2e-96b2-b7ce7e267aa6"
+      Hint: Offers
+      Value: |
+        {F6250D0F-12D0-4D01-A145-15E22A027CF1}
+        {7673351F-356F-4D23-9C57-D64647D2A6CA}
+        {EF597EAB-1CC6-479E-8E62-2D6B7E81BD1A}
+        {4D7CF86A-0169-44E7-A3C7-80F4556B6F2D}
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250903T115000Z
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250910T094224Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2b3b7ed7-8eb2-4466-a3e5-fdf459a4746f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "c7492074-d5b8-4e2e-96b2-b7ce7e267aa6"
+      Hint: Offers
+      Value: |
+        {F6250D0F-12D0-4D01-A145-15E22A027CF1}
+        {7673351F-356F-4D23-9C57-D64647D2A6CA}
+        {EF597EAB-1CC6-479E-8E62-2D6B7E81BD1A}
+        {4D7CF86A-0169-44E7-A3C7-80F4556B6F2D}
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250910T094441Z
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250910T094415Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b1efe4a4-0b84-4f25-b723-d52d57449b33"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "c7492074-d5b8-4e2e-96b2-b7ce7e267aa6"
+      Hint: Offers
+      Value: |
+        {F6250D0F-12D0-4D01-A145-15E22A027CF1}
+        {7673351F-356F-4D23-9C57-D64647D2A6CA}
+        {EF597EAB-1CC6-479E-8E62-2D6B7E81BD1A}
+        {4D7CF86A-0169-44E7-A3C7-80F4556B6F2D}
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250910T094427Z

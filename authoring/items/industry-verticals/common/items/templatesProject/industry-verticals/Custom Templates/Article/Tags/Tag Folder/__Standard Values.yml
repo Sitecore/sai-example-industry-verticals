@@ -1,0 +1,36 @@
+﻿---
+ID: "605f02fc-3b3c-41d2-8628-739375b67278"
+Parent: "f99c9d96-9b5d-4f08-9fa5-b278225f17af"
+Template: "f99c9d96-9b5d-4f08-9fa5-b278225f17af"
+Path: "/sitecore/templates/Project/industry-verticals/Custom Templates/Article/Tags/Tag Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {121FF042-8E7E-48E2-961D-D38D81E8EDC6}
+    {F99C9D96-9B5D-4F08-9FA5-B278225F17AF}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "6b19f952-efd5-4b37-bd8a-ddbe4b37036b"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ee17ed2a-08f5-4008-86ea-824df7ecafbc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250912T080148Z

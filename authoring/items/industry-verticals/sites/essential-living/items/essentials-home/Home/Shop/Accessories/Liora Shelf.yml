@@ -1,0 +1,76 @@
+﻿---
+ID: "c1ef251d-f48a-4f0b-8816-c42c73893e6b"
+Parent: "63abf4a1-d28b-4abc-956e-6640b058abfe"
+Template: "f6e44a9e-074a-4865-987e-0c2dc00b7af5"
+Path: "/sitecore/content/industry-verticals/essential-living/Home/Shop/Accessories/Liora Shelf"
+SharedFields:
+- ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+  Hint: Tags
+  Value: |
+    {A74F385B-ECCE-44E4-9BED-41BE7E6CF424}
+    {7FD7D22D-D8A2-4032-88D8-6A12BABDC06C}
+    {DD3BB8ED-CD1D-48AD-92AD-41408E337FC6}
+    {9DA2ED3B-1FB9-4FC4-8BAF-F92CC16921D4}
+    {0E5A608A-7CE2-4568-B7F1-3F1C4368F8D1}
+- ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+  Hint: SKU
+  Value: LIRSH
+- ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
+  Hint: Image2
+  Value: |
+    <image mediaid="98f9d52a-3891-4ff3-bdb5-73aec3baac90" />
+- ID: "9a62ea92-04df-49e2-ab37-00d251d0cc22"
+  Hint: Image4
+  Value: |
+    <image mediaid="8017e46f-350e-476c-84ce-e4bde865f1e9" />
+- ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
+  Hint: Image1
+  Value: |
+    <image mediaid="ba5a6167-fead-49db-ba3d-de83a7069227" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{3C87B4DC-B3FD-44F2-A93E-F454A874C84D}" />
+- ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+  Hint: Category
+  Value: "{22276428-A93A-480A-937C-6E6A2DCA9F0F}"
+- ID: "d9c8ae87-80fc-460b-9140-3db7358b1c8e"
+  Hint: Image3
+  Value: |
+    <image mediaid="5d085bcf-9809-4108-a2fd-a6348a3ed263" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "785b1c8b-62a6-451e-9588-1009c3596585"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251117T140004Z
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: "Crafted from beautifully woven wicker, the Liora Oval Shelf brings organic softness and warm texture to any wall. Its rounded, elongated shape offers a relaxed, airy feel that suits bohemian, coastal, and natural-inspired interiors. Lightweight yet stylish, it’s ideal for showcasing small décor pieces, plants, or everyday essentials with effortless charm."
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 165
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Liora Shelf
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e1f058f5-c609-446d-a4a6-42ea246c4c09"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Liora Shelf
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251117T140440Z

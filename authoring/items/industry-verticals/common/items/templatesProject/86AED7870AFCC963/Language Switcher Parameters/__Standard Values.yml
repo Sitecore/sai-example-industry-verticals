@@ -1,0 +1,27 @@
+﻿---
+ID: "6b319558-0aee-4cfc-ab2e-7b4379cebebe"
+Parent: "35f09618-3fd8-434c-bb08-17691b9fb555"
+Template: "35f09618-3fd8-434c-bb08-17691b9fb555"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Utilities/Language Switcher/Rendering Parameters/Language Switcher Parameters/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211012T120926Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JssImport
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "72927452-167f-4e07-9a1d-53f07f94cbc2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250827T114915Z

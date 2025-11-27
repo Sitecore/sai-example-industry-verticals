@@ -1,0 +1,51 @@
+﻿---
+ID: "04de7b73-9e0e-4325-9394-c92a07183394"
+Parent: "b4733bf3-23b3-46e4-92a5-c62530621c8c"
+Template: "6b107fcc-05d3-4193-be89-f025632bd8b6"
+Path: "/sitecore/content/industry-verticals/nova-medical/Data/Headers/Global Header"
+SharedFields:
+- ID: "d53d7eee-4d9a-46a9-afcf-bc46d0e6974d"
+  Hint: LogoLight
+  Value: |
+    <image mediaid="1e2893d1-3578-4372-b350-c72f8f0982be" />
+- ID: "fe72d918-559d-4a56-bc6d-1c108017d768"
+  Hint: LogoDark
+  Value: |
+    <image mediaid="00aca506-fc61-4b1d-9d1f-9bccca845e98" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251117T112755Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "385bc137-bb6a-4449-90ef-647ae6f88f14"
+    - ID: "b3731078-ddd2-4faa-9535-87138237566f"
+      Hint: MailLink
+      Value: |
+        <link linktype="mailto" url="contact@novamedical.com" class="" text="contact@novamedical.com" title=""/>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251118T083725Z
+    - ID: "fcdd653f-a7af-41a9-b65b-be60ad68b640"
+      Hint: PhoneLink
+      Value: |
+        <link linktype="external" url="#" target="" text="Phone" title="" class=""/>

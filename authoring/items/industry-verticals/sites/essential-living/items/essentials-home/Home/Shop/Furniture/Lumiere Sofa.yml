@@ -1,0 +1,81 @@
+﻿---
+ID: "ac52067a-3096-4cac-890c-c754f96e6798"
+Parent: "40d7c2d4-fe6b-4fe7-a493-8c3a2c4ebc0a"
+Template: "f6e44a9e-074a-4865-987e-0c2dc00b7af5"
+Path: "/sitecore/content/industry-verticals/essential-living/Home/Shop/Furniture/Lumiere Sofa"
+SharedFields:
+- ID: "2cfb917c-9876-4edb-82c0-1c9acd6965d4"
+  Hint: Reviews
+  Value: |
+    {612EB8E4-ED53-43B5-976D-625BA8AA5506}
+    {E96ADA31-687E-43EF-8DDF-C36F6ECAC627}
+- ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+  Hint: Tags
+  Value: |
+    {5DCDD333-1C8D-4886-9959-83BCB64261CC}
+    {7C74235E-979A-4248-84E9-D62A3F64DD0A}
+    {9DA2ED3B-1FB9-4FC4-8BAF-F92CC16921D4}
+    {DD3BB8ED-CD1D-48AD-92AD-41408E337FC6}
+    {A4283E9B-C0AB-48ED-8D63-3CCB7E3C38E2}
+- ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+  Hint: SKU
+  Value: LUMS
+- ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
+  Hint: Color
+  Value: "{48AF6314-5311-451F-97AF-9224B562F1D7}"
+- ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
+  Hint: Image2
+  Value: |
+    <image mediaid="28b74367-e1c3-4c45-9255-061154e4a983" />
+- ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
+  Hint: Size
+  Value: |
+    {D69E6592-51A7-4829-814D-65CDF0F76E4C}
+    {355D412D-5643-477C-8E52-AEF86CAC10FA}
+- ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
+  Hint: Image1
+  Value: |
+    <image mediaid="a1f43718-048b-4619-98e4-1e91641cdae7" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{4590C412-2277-4A7D-B1D6-3D0CF3D9A9B1}" />
+- ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+  Hint: Category
+  Value: "{D0446F4B-F9A9-4701-A3EB-989D5A0A42F6}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "c3190cf7-fc4d-4602-91b0-5e50dc529f5a"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251117T115127Z
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: The Lumière Sofa offers modern comfort with effortless style. Its soft, pouffy cushions and clean rectangular silhouette create a welcoming yet sculptural presence. Upholstered in luxurious velvety beige fabric, it brings warmth and sophistication to any living space, perfect for lounging or making a statement in a modern interior.
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 2100
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Lumiere Sofa
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e608316b-2890-41e7-8a2a-89900bb23e46"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Lumière Sofa
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251124T105539Z

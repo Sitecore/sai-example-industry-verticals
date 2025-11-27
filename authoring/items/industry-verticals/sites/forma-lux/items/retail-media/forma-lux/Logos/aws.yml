@@ -1,0 +1,63 @@
+﻿---
+ID: "fae111f3-1d45-42ae-b358-3aa28d53d948"
+Parent: "cb85c659-2e7e-48b9-ae40-40f73ec3dcb0"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/industry-verticals/forma-lux/Logos/aws"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/FAE111F31D4542AEB3583AA28D53D948.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 188
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "fae111f3-1d45-42ae-b358-3aa28d53d948"
+  Value: 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
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 3409
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 188 x 58
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "cbe2bb69-ad4f-402b-8017-a49a16bf0c86"
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 58
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250904T113809Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: aws
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ff901098-1bae-4cfa-8fea-aebc5c0fab56"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251008T144928Z

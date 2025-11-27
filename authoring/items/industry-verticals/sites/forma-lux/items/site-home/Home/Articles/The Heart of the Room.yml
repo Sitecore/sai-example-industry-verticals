@@ -1,0 +1,139 @@
+﻿---
+ID: "aeef3a7c-6f36-4d86-8629-4ea57a0c7656"
+Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/The Heart of the Room"
+SharedFields:
+- ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
+  Hint: Author
+  Value: "{9B44F7C4-472E-4F20-8957-8D9D482E692F}"
+- ID: "1a8bfd25-dc41-43ec-a561-d0635fb1958a"
+  Hint: Tags
+  Value: |
+    {06F27D49-7A05-45B4-BE35-67A7C7D9E5D0}
+    {EA0C996A-ABFD-4E4F-96E1-AE4DB6125B8A}
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20260422T000000Z
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <image mediaid="1bf33b92-1866-4fe6-bb63-3632d9d2ae38" />
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: "-50"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{DDA99E04-29F7-49E3-BA48-57BD813A3D7B}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "3da25716-ad46-407d-bb54-a27f070bbc6d"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{FE78EDFD-7DAF-43BF-9F3D-A6C5771180EA}"
+          s:ds="259d76b9-f347-447c-bd4b-a051222fe4b3"
+          s:id="{E3CCF1D0-7855-4898-8BDE-77F83C6A487C}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B1F38B6BC-87F0-436E-8E98-A5D06F55FE4F%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles"
+          s:ph="/headless-main/sxa-articlecontent/article-details-1" />
+      </d>
+    </r>
+- ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+  Hint: Category
+  Value: "{53E47824-D8CD-4263-AAC6-A4358F7E5DB4}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "253781cd-6b75-4769-954f-ea6d6d7cda64"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "The Heart of the Room: Fireplace & Lounge"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250911T094732Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "The Heart of the Room: Fireplace"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><figure class="image image_resized image-style-align-right" style="width:42.48%;"><img class="image_resized" style="aspect-ratio:520/282;" src="-/media/949C1CB9D30246B0AB197E5E2F4B611C.ashx" alt="pexels-vecislavas-popa-1571453 1" width="520" height="282" /></figure><h3>Statement Pieces That Spark Conversation</h3><p>A suspended iron light fixture draws the eye, hovering above a low-profile coffee table crafted from driftwood. Nearby, a sculptural bookshelf holds a curated mix of art, plants, and ceramics, offering both function and flair.</p><p>It is a well-thought-out layout that naturally guides the eye through the room. Every design element—whether structural or decorative—feels intentional, contributing to the room’s harmonious vibe. A neutral palette dominates, but touches of terracotta and navy add personality without overwhelming the senses. Artisanal details, like hand-thrown pottery and textured wall panels, infuse warmth and authenticity.</p><p>It is a well-thought-out layout that naturally guides the eye through the room. Every design element—whether structural or decorative—feels intentional, contributing to the room’s harmonious vibe. A neutral palette dominates, but touches of terracotta and navy add personality without overwhelming the senses. Artisanal details, like hand-thrown pottery and textured wall panels, infuse warmth and authenticity.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: |
+        This living room blends rustic charm with modern sophistication. Natural wood beams stretch across the ceiling, contrasting with sleek concrete floors for a grounded yet contemporary feel.
+        
+        Raw linen drapes frame large windows, allowing golden light to spill across reclaimed oak furniture. A woolen rug anchors the seating area, while soft cushions and layered throws invite you to sink in and stay awhile.
+        
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d39a8d1c-b887-428f-8e15-ca09f6e6c7da"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "The Heart of the Room: Fireplace"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251008T155309Z
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251007T081009Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "809801e3-e6d6-4c11-b135-1371a7ce7a71"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: 
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: The Heart of the Room
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251007T081242Z

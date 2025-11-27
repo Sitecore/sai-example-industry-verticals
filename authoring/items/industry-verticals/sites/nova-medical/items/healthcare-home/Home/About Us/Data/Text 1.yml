@@ -1,0 +1,38 @@
+﻿---
+ID: "09b845cf-70e9-471a-90fc-9c20b087c499"
+Parent: "37780f45-ee92-4d21-a5b6-54063b2e6d56"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/industry-verticals/nova-medical/Home/About Us/Data/Text 1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251124T095952Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <div class="ck-content"><p>Welcome to our esteemed healthcare organization. At Nova Medical, we are dedicated to providing exceptional care and promoting wellness for all individuals. Our distinguished team, which includes highly skilled and experienced doctors, compassionate nurses, and specialized health professionals, is committed to delivering a comprehensive range of health services tailored to meet the unique needs of each patient. These services are meticulously designed with your needs in mind, ensuring you receive the attentive, personalized care you deserve. We adopt a holistic approach to your health, which means we focus on treating the whole person by emphasizing not only medical treatment but preventative measures and mental wellness support.<br />&nbsp;</p><p>Our goal is to empower you to take charge of your health and enjoy a more fulfilling and vibrant life. We invite you to join us in our mission to construct a healthier future by engaging in our community health initiatives that aim to address specific health challenges, attending our informative educational workshops on various health topics, and participating in wellness activities that are thoughtfully designed to enhance your overall health journey. Together, we strive to make a positive impact on your health and the health of our community.</p></div>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3a6a8c6c-3f35-416c-ae5c-e90944d5bf65"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251124T100617Z

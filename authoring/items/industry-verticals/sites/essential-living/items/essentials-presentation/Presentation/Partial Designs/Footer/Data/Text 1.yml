@@ -1,0 +1,38 @@
+﻿---
+ID: "f72a1f20-fe8a-439e-9e0c-93aa47118447"
+Parent: "d0261e04-8012-4ed8-b915-ca4a19015c8b"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/industry-verticals/essential-living/Presentation/Partial Designs/Footer/Data/Text 1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251114T063215Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <div class="ck-content"><figure class="image"><img style="aspect-ratio:162/48;" src="-/media/8B31AD188B7C42FF8B85F86B32DF95FF.ashx" alt="app_store" width="162" height="48" /></figure><figure class="image"><img style="aspect-ratio:162/48;" src="-/media/71D78B9C72B7492EAB6C8798D72F4B35.ashx" alt="google_play" width="162" height="48" /></figure></div>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6e33105b-884a-40db-97e7-21b041d2fde3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251114T063506Z

@@ -1,0 +1,36 @@
+﻿---
+ID: "7c959dac-8324-4a2a-8f25-83ddfe8601bd"
+Parent: "2faa2791-3af9-45bc-a15b-52be4cddfe5e"
+Template: "2faa2791-3af9-45bc-a15b-52be4cddfe5e"
+Path: "/sitecore/templates/Project/industry-verticals/Custom Templates/Products/Product Tags/Product Tag Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {D96C025A-1D48-464B-9A72-327C8CC413BB}
+    {2FAA2791-3AF9-45BC-A15B-52BE4CDDFE5E}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "07f8be86-6407-4c96-bbed-b0e6cc61b92e"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b839d983-9355-4af1-b1eb-1224a7390c52"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250924T074348Z

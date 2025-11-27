@@ -1,0 +1,26 @@
+﻿---
+ID: "8afc3f1e-3474-4c5a-b5b1-2d015f45646f"
+Parent: "5748c2a6-a45c-470b-9a60-7aae34abd634"
+Template: "d96c025a-1d48-464b-9a72-327c8cc413bb"
+Path: "/sitecore/content/industry-verticals/essential-living/Data/Product Tags/Ceramic"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251117T122325Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2ddc69dd-f6e4-4e3b-b275-b90c3cbaa799"
+    - ID: "9ce1cd5e-556b-491f-87a9-4027294b99f8"
+      Hint: Tag
+      Value: Ceramic
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251117T122325Z

@@ -1,0 +1,42 @@
+﻿---
+ID: "81fc9cad-e6e8-470d-ae1a-5aeea67d1b79"
+Parent: "bde491e8-c4f0-42cd-b7c0-27b7597c9abf"
+Template: "3b22a3fa-18d2-47c7-a467-74c984a65ca4"
+Path: "/sitecore/content/industry-verticals/essential-living/Presentation/Page Designs"
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+SharedFields:
+- ID: "ba1f60d6-3deb-40cc-bb61-eec772279ee1"
+  Hint: TemplatesMapping
+  Value: "%7b98E60957-0783-4A9A-85CC-77DAD30E9711%7d%3d%257B3AA1713C-F166-49E5-993C-8945C4D8CB00%257D%26%7bF6E44A9E-074A-4865-987E-0C2DC00B7AF5%7d%3d%257BD1756CF1-C1FA-442F-8190-34B8F4537143%257D%26%7b4D2B49E6-1130-444A-B22C-5C7E25D01B56%7d%3d%257B81256351-940A-4ACE-B51D-EF904881A7E0%257D"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "d45180ee-4fc0-49ec-a4e9-ae48fd5116db"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{2EA756FA-AED6-4599-83B7-36FEFE229B31}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251111T120528Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1ece12af-37f5-497f-987e-6ac6f5831476"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251114T112657Z

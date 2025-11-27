@@ -1,0 +1,63 @@
+﻿---
+ID: "d95441cd-5517-4c80-a9ed-055556d4bba7"
+Parent: "c2da822e-f0c8-4503-bcae-65b0db1a4341"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/industry-verticals/nova-medical/Features/health-check"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/D95441CD55174C80A9ED055556D4BBA7.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 73
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "85c3236b-6ab6-4a46-918e-1d569332bde9"
+  Value: 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
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 2036
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 73 x 87
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "be26d353-e98b-4cd3-b85d-b50b9293c7de"
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 87
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251120T123026Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: "health-check"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d5afdb30-c61c-4033-bd4a-f27b744b791e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251120T124058Z

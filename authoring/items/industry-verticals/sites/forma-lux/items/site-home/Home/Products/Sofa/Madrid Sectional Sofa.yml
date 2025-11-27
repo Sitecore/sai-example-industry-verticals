@@ -1,0 +1,102 @@
+﻿---
+ID: "02b85f2c-098f-4736-95ea-bd8776beeca2"
+Parent: "078d4751-d125-408a-9ff2-f5417844b877"
+Template: "f6e44a9e-074a-4865-987e-0c2dc00b7af5"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Products/Sofa/Madrid Sectional Sofa"
+SharedFields:
+- ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+  Hint: Tags
+  Value: |
+    {FD74A159-FC1F-48F8-88C8-5703D830E00D}
+    {AC473CFD-491E-4EB1-9D3D-AF5A1F63F10B}
+    {831305F5-99B0-4746-B09A-42C67FE37EC5}
+- ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+  Hint: SKU
+  Value: SOF0006
+- ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
+  Hint: Color
+  Value: |
+    {4644FE16-10A7-44F1-8172-CA03C35A688D}
+    {75E874D3-C7B4-466B-B9F1-F305D5B67E85}
+    {12BF3FA0-8034-4629-814C-3E34BEE11474}
+- ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
+  Hint: Size
+  Value: |
+    {978D9183-8AD5-4000-8A7E-312A50B1E1B1}
+    {C593AA0B-B143-4FD4-B8F6-C8950FB744B0}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1307
+- ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
+  Hint: Image1
+  Value: |
+    <image mediaid="929b4212-caa8-4885-a12e-9a40ffc4d837" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{3938EBAE-00F6-4D56-A062-75C533A15E43}" />
+- ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+  Hint: Category
+  Value: "{078D4751-D125-408A-9FF2-F5417844B877}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "9dd6a727-faf1-4309-b4a4-cd20463f65a4"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{0D13CDAB-EDCE-4654-BD18-CF5972D2E7EC}"
+          s:ds="381203f0-6ee1-4675-b043-c8d4ddbd6b86"
+          s:id="{E874A406-4977-443B-8AFE-690812AFB5EF}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;Autoplay&amp;Loop&amp;HideAccentLine&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="/headless-main/sxa-productcontent/related-products-1" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T130943Z
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: A spacious sectional sofa with a chaise lounge.
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 1499
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Madrid Sectional Sofa
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e5d45d3d-ea6d-4f09-8198-426032358ccc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Madrid Sectional Sofa
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251017T154206Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: "<p>The Madrid Sectional Sofa offers ample seating with its L-shaped design. Upholstered in durable polyester, it’s perfect for family gatherings and movie nights. The chaise lounge adds extra comfort.</p>"

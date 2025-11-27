@@ -1,0 +1,83 @@
+﻿---
+ID: "253a2551-7882-43bb-9ade-0caca67edbbe"
+Parent: "63abf4a1-d28b-4abc-956e-6640b058abfe"
+Template: "f6e44a9e-074a-4865-987e-0c2dc00b7af5"
+Path: "/sitecore/content/industry-verticals/essential-living/Home/Shop/Accessories/Amberlyn Vase"
+SharedFields:
+- ID: "2cfb917c-9876-4edb-82c0-1c9acd6965d4"
+  Hint: Reviews
+  Value: "{F8B50942-5287-436C-B4A9-86C5D36AECEA}"
+- ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+  Hint: Tags
+  Value: |
+    {B2672DB7-F5B9-4874-9CE3-776E89FB2227}
+    {9DA2ED3B-1FB9-4FC4-8BAF-F92CC16921D4}
+- ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+  Hint: SKU
+  Value: MBRLNV
+- ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
+  Hint: Image2
+  Value: |
+    <image mediaid="e90f6f5c-0287-437a-9c33-e801b6680b48" />
+- ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
+  Hint: Image1
+  Value: |
+    <image mediaid="9421d620-baa4-45ac-a70b-a4122c3591a6" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{738E1331-E932-4433-8155-5A09954B6252}" />
+- ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+  Hint: Category
+  Value: "{887FB994-F608-4229-8C2A-3CC886C799FA}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "fb26e73e-308c-444d-9511-1a6827041ee0"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{68FD6FAA-6CC2-424E-8BF0-FAAF2E91EBE3}"
+          s:ds="0b0fd34d-bcbc-4664-8e66-3f1aa8c3df3a"
+          s:id="{E874A406-4977-443B-8AFE-690812AFB5EF}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;Autoplay&amp;Loop&amp;FieldNames=%7B8D0F408B-64E3-4AAB-8BA1-3769CB5962A4%7D&amp;Styles=%7C%7B95E378C7-358A-4DA6-AE47-7D47134EEDB7%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="/headless-main/sxa-product-content/related-products-1" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251117T123250Z
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: "Crafted from amber-tinted glass, the Amberlyn Vase combines warmth with contemporary elegance. Its rounded base and tall neck create a graceful, versatile silhouette. Whether filled with fresh or dried florals, it brings a soft, radiant glow to any space."
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 120
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Amberlyn Vase
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "aa2f36e8-3039-496d-a2ea-7a5f25bb2ddd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Amberlyn Vase
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251124T110427Z

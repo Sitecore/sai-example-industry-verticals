@@ -1,0 +1,63 @@
+﻿---
+ID: "e3a47c0f-6584-4be2-9fc1-a9335f8a9160"
+Parent: "8205f3ba-7037-4af4-a5d2-3b1d5eba7689"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/industry-verticals/essential-living/Logo"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/E3A47C0F65844BE29FC1A9335F8A9160.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 80
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "f21d66f7-0a28-4f57-a7ef-0f324ee95f8e"
+  Value: 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
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 2196
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 80 x 37
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "286546a5-ee98-4b11-8f35-153876a4fd3e"
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 37
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251113T095459Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: Logo
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "43838bd2-87a7-45ca-81e2-6a7a8e5b6c34"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251113T095459Z

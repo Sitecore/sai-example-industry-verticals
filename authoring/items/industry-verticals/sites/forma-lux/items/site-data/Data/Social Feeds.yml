@@ -1,0 +1,31 @@
+﻿---
+ID: "a962ffbf-d2e8-43ca-af54-f37908b20218"
+Parent: "dcc7de24-6385-4653-9875-0d5be089f705"
+Template: "2abc9f24-f927-4f31-bc41-2b6f0212885f"
+Path: "/sitecore/content/industry-verticals/forma-lux/Data/Social Feeds"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250916T071629Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fadb2245-0925-4234-95a6-a7e5b49fc55d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250916T071629Z

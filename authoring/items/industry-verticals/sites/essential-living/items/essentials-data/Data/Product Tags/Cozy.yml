@@ -1,0 +1,34 @@
+﻿---
+ID: "a4283e9b-c0ab-48ed-8d63-3ccb7e3c38e2"
+Parent: "5748c2a6-a45c-470b-9a60-7aae34abd634"
+Template: "d96c025a-1d48-464b-9a72-327c8cc413bb"
+Path: "/sitecore/content/industry-verticals/essential-living/Data/Product Tags/Cozy"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251117T083805Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7c1aa9a4-593a-486f-9afb-97ed7be9f8d5"
+    - ID: "9ce1cd5e-556b-491f-87a9-4027294b99f8"
+      Hint: Tag
+      Value: Cozy
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251117T083816Z

@@ -1,0 +1,56 @@
+﻿---
+ID: "6ea02fd1-d0ca-443b-b0af-ee12f9977645"
+Parent: "b4f6710f-6b10-4be4-87de-1d0a5ca61d08"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: "/sitecore/content/industry-verticals/nova-medical/Presentation/Available Renderings/Page Content"
+BranchID: "209f458a-5f7c-4024-9bbb-c78ad6d21abc"
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Value: |
+    {C5F905F8-FD1F-444E-A9E5-AC6B774FF0DE}
+    {9C6D53E3-FE57-4638-AF7B-6D68304C7A94}
+    {3836D951-BB14-43AC-9231-649B7F245DC5}
+    {5CEFF7C3-95EE-4EF8-A08C-7A6DBE5613CD}
+    {B49CF2D7-7CB2-4918-8F38-2607D956D995}
+    {75A72FA7-693E-4ABF-8A24-D3B74D48EA20}
+    {02654BA0-74AE-42A4-B384-BCA9B96ADF4B}
+    {810E5B86-932A-4160-8672-C126B545F034}
+    {C6F7E044-B3A2-4510-AE50-5F546E30CCD1}
+    {0D60B2A1-9BF8-420A-8EEA-BC98FE425EB7}
+    {E3CCF1D0-7855-4898-8BDE-77F83C6A487C}
+    {89252C77-218A-4B21-8A74-BC8A4BF11D93}
+    {32E7FD88-4E5D-4AAB-A15F-61DCEBA1EE6F}
+    {CCD11802-22A3-462F-92FC-821515E2AEC8}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "f4f1ea6c-79b1-4014-ba64-80f7ec0fdf85"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{EDD5B21F-2BD2-4290-81A2-68428363D312}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251112T093311Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f3378435-c82d-4d6d-84a0-1daf5b849fc2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251120T123657Z

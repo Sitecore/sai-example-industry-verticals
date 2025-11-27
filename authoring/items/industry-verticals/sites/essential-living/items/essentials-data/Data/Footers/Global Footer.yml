@@ -1,0 +1,64 @@
+﻿---
+ID: "effc3c64-dac6-4342-b6dd-baa91b2237b9"
+Parent: "1d9e225c-9b4f-4f9e-bbe2-b3cd0499ba26"
+Template: "7e3a2360-40fa-456d-8061-307338dd39e0"
+Path: "/sitecore/content/industry-verticals/essential-living/Data/Footers/Global Footer"
+SharedFields:
+- ID: "2895a16e-c1b8-4e79-959a-802d5bc81a5a"
+  Hint: Logo
+  Value: |
+    <image mediaid="e3a47c0f-6584-4be2-9fc1-a9335f8a9160" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "f59108b7-7896-4686-8c06-d67adfce2194"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251114T062652Z
+    - ID: "40096e29-7ffe-4148-902f-2e64d17f3f2b"
+      Hint: TitleThree
+      Value: Support
+    - ID: "6e545c55-70f1-49ef-b75f-e10257f0845a"
+      Hint: Description
+      Value: |
+        <div class="ck-content"><p>Live Boldly. Style Deeply.</p></div>
+    - ID: "775b58bb-13a1-426d-86e5-765ad797e407"
+      Hint: TitleOne
+      Value: Furniture
+    - ID: "79d2d2a7-b0d5-421c-89fb-b7d040f56d26"
+      Hint: CopyrightText
+      Value: Copyright © 2025
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4b2055c4-dc9a-4c4f-b14d-c9dba3b0d05a"
+    - ID: "9f2b5ebe-6b3a-4128-b6e9-6b7adf4e86da"
+      Hint: PolicyText
+      Value: |
+        <link linktype="external" url="#" target="" text="Privacy Policy" title="" class=""/>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "d12db112-ac8e-4701-9186-1c25d7c2c148"
+      Hint: TitleTwo
+      Value: Services
+    - ID: "d4ce5fe0-92df-4490-8b05-e704cf6f448e"
+      Hint: TitleFour
+      Value: Follow us
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251114T063729Z
+    - ID: "e646865b-2d8d-4608-a43e-42c7f1d21675"
+      Hint: TitleFive
+      Value: Install App
+    - ID: "ff56e380-2171-49bf-a693-84ee1bc9413b"
+      Hint: TermsText
+      Value: |
+        <link linktype="external" url="#" target="" text="Terms &amp; Conditions" title="" class=""/>

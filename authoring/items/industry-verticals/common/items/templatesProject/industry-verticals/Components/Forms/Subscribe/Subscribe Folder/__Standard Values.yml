@@ -1,0 +1,36 @@
+﻿---
+ID: "92e20994-5b3d-4705-996c-dc3b418c5c74"
+Parent: "2492a8c2-72f4-44e7-86eb-c2bd9f6c0f6c"
+Template: "2492a8c2-72f4-44e7-86eb-c2bd9f6c0f6c"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Forms/Subscribe/Subscribe Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {35A8562C-3713-4AE7-8BC7-8770FE57B283}
+    {2492A8C2-72F4-44E7-86EB-C2BD9F6C0F6C}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "acf128f3-0767-489a-9a0d-bf7442b2c4b8"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ce491aed-d0bf-4cc5-b792-3622c6e00335"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250904T075430Z

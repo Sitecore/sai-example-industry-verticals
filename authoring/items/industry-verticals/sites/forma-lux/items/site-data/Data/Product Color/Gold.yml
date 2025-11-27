@@ -1,0 +1,38 @@
+﻿---
+ID: "d5d801b9-21cd-426c-8573-0fff36fe3317"
+Parent: "7a3cb362-094a-4892-ae25-bb6769db1d24"
+Template: "55f6c4e8-2c19-4a56-8fd3-66b60f1b281a"
+Path: "/sitecore/content/industry-verticals/forma-lux/Data/Product Color/Gold"
+SharedFields:
+- ID: "5145da52-d0bb-4db7-a6be-c810483b5073"
+  Hint: HexCode
+  Value: #C1A25F
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250923T124702Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "824896a8-4e44-446b-81ca-c97dd80931f3"
+      Hint: Name
+      Value: Gold
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a844d2d7-bb67-49a3-8ed7-c1b70bcab1a8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250923T124708Z

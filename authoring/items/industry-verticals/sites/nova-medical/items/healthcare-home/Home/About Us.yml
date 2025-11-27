@@ -1,0 +1,86 @@
+﻿---
+ID: "ef3a734f-6b63-4541-9c85-3a2515c8413c"
+Parent: "09dbe61d-b540-470b-b4df-34ba542f66ee"
+Template: "98e60957-0783-4a9a-85cc-77dad30e9711"
+Path: "/sitecore/content/industry-verticals/nova-medical/Home/About Us"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{3DB762EE-DEE8-438B-AF5F-AA83D3952789}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "fa988076-e114-47b7-b078-07f1fab9c726"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{E440D62F-AB68-4963-9050-B8AC04743B8D}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;BackgroundImage&amp;Styles=%7C%7BC0E61CA5-0889-466A-9318-B4734C87EC75%7D%7C%7B069D7EEB-9AE9-4FD3-B385-E835AAACFECC%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
+          s:ph="headless-main" />
+        <r
+          uid="{61FE6120-546A-4A3C-AFD4-4CCF799E3E49}"
+          p:after="r[@uid='{E440D62F-AB68-4963-9050-B8AC04743B8D}']"
+          s:id="{3836D951-BB14-43AC-9231-649B7F245DC5}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B278A6D3D-0CF8-4A66-A30A-352BD51646DC%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="/headless-main/container-4" />
+        <r
+          uid="{B9D8BCB3-82DB-4061-82A4-7BCB60F5E4CF}"
+          p:after="r[@uid='{61FE6120-546A-4A3C-AFD4-4CCF799E3E49}']"
+          s:ds="local:/Data/Image 1"
+          s:id="{AB2EDBA0-3960-4F12-B765-579DC231894A}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D%7C%7B7DBAA2DA-8DA0-4039-AAEB-7B7549D0681F%7D%7C%7BEC24EF47-A4B9-4E75-B9ED-293762DCA530%7D&amp;FieldNames=%7B484B5DBB-A040-4247-B2A0-95E338F57EAC%7D&amp;Styles=%7C%7B069D7EEB-9AE9-4FD3-B385-E835AAACFECC%7D%7C%7BC0E61CA5-0889-466A-9318-B4734C87EC75%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="/headless-main/container-4" />
+        <r
+          uid="{44B1AEF2-5773-4463-A578-360DC3C4D073}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B63253C51-7FEC-4D1E-AD72-D408A1B2AD0B%7D&amp;Styles=%7C%7B43628540-39FB-4DC5-BFF8-CE6864F6A5D1%7D%7C%7B069D7EEB-9AE9-4FD3-B385-E835AAACFECC%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="/headless-main/container-4" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251114T094910Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: About Us
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: About Us
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "02e63e2a-cddf-4ada-94c8-278821b15662"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251124T101600Z

@@ -1,0 +1,53 @@
+﻿---
+ID: "82b6ae05-037c-40ef-97a8-2ca6c19e1ca7"
+Parent: "ba166a09-d83e-470d-a774-499c6cc2199e"
+Template: "08213afb-9cb4-4c1f-a5da-865b9a095601"
+Path: "/sitecore/content/industry-verticals/nova-medical/Data/Promos/About us"
+SharedFields:
+- ID: "b441a09f-ddb2-41a8-84cc-2533686541f4"
+  Hint: PromoImageOne
+  Value: |
+    <image mediaid="1fa58ab4-17d2-4544-902d-a86e090ed444" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "263dbb61-e054-4812-bb6b-30bbd57c8f8b"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251120T125330Z
+    - ID: "453ed40c-5232-4e90-b023-7a3cee2bcfe8"
+      Hint: PromoMoreInfo
+      Value: |
+        <link linktype="external" url="#" target="" text="Get Started" title="" class=""/>
+    - ID: "4fc0c7b3-bcfb-4a9d-834d-59f6836e5fd6"
+      Hint: PromoDescription
+      Value: |
+        <div class="ck-content"><p>We are committed to redefining healthcare by combining innovation, compassion, and expertise. Our mission is to provide accessible, high-quality medical services tailored to your needs, whether it's urgent care, routine check-ups, or specialized treatments.&nbsp;</p><p>&nbsp;</p><p>With a patient-first approach and state-of-the-art facilities, we ensure your health is always in the best hands.&nbsp;</p><p>&nbsp;</p><p>Your well-being is our priority, every step of the way.&nbsp;</p><p>&nbsp;</p><p>Ready to take charge of your health?</p></div>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5d5c64b4-2231-4c94-95df-7f0576232309"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251124T093950Z
+    - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
+      Hint: PromoTitle
+      Value: About us

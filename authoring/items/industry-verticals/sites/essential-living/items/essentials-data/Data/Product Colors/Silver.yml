@@ -1,0 +1,33 @@
+﻿---
+ID: "66ea48ca-1eac-426f-8f03-06a88b8b016c"
+Parent: "69bf73fb-612f-4286-9fc3-1cdcd2c9f67b"
+Template: "55f6c4e8-2c19-4a56-8fd3-66b60f1b281a"
+Path: "/sitecore/content/industry-verticals/essential-living/Data/Product Colors/Silver"
+SharedFields:
+- ID: "5145da52-d0bb-4db7-a6be-c810483b5073"
+  Hint: HexCode
+  Value: #c4c4c4
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "4ffead28-49a3-4bf2-9321-cce7bc9fe2c9"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251124T102858Z
+    - ID: "824896a8-4e44-446b-81ca-c97dd80931f3"
+      Hint: Name
+      Value: Silver
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c71e930c-2cc6-4e12-bb04-33d92f14a266"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251124T102904Z

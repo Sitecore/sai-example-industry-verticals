@@ -1,0 +1,88 @@
+﻿---
+ID: "dc085c0d-e83b-4977-9213-b53f6ccc63cf"
+Parent: "63abf4a1-d28b-4abc-956e-6640b058abfe"
+Template: "f6e44a9e-074a-4865-987e-0c2dc00b7af5"
+Path: "/sitecore/content/industry-verticals/essential-living/Home/Shop/Accessories/Solis Ring Vase"
+SharedFields:
+- ID: "2cfb917c-9876-4edb-82c0-1c9acd6965d4"
+  Hint: Reviews
+  Value: "{D8FE9CC8-53D2-4EC7-AEDE-4109A1E73507}"
+- ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+  Hint: Tags
+  Value: |
+    {8AFC3F1E-3474-4C5A-B5B1-2D015F45646F}
+    {DD3BB8ED-CD1D-48AD-92AD-41408E337FC6}
+    {7C74235E-979A-4248-84E9-D62A3F64DD0A}
+    {9DA2ED3B-1FB9-4FC4-8BAF-F92CC16921D4}
+- ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+  Hint: SKU
+  Value: SLSRV
+- ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
+  Hint: Color
+  Value: "{D288E6D4-8D6A-4B75-BD2D-9044C968FBFA}"
+- ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
+  Hint: Image2
+  Value: |
+    <image mediaid="2d988fad-53e1-4906-a6c7-e772ba55f91e" />
+- ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
+  Hint: Image1
+  Value: |
+    <image mediaid="48712d2d-f55a-4d21-9bd9-c5541d280a71" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{B0892A90-843D-4201-BB66-DF03296D8EA0}" />
+- ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+  Hint: Category
+  Value: "{887FB994-F608-4229-8C2A-3CC886C799FA}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "cfa1e823-7575-4b3b-8395-04d52458f9a7"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{DA1A2049-D08E-49BD-8D10-A3BFAB08139A}"
+          s:ds="0b0fd34d-bcbc-4664-8e66-3f1aa8c3df3a"
+          s:id="{E874A406-4977-443B-8AFE-690812AFB5EF}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;Autoplay&amp;Loop&amp;FieldNames=%7B8D0F408B-64E3-4AAB-8BA1-3769CB5962A4%7D&amp;Styles=%7C%7B95E378C7-358A-4DA6-AE47-7D47134EEDB7%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="/headless-main/sxa-product-content/related-products-1" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251117T122619Z
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: The Solis Ring Vase is a minimalist porcelain piece with a graceful circular silhouette. Ideal for small bouquets or a single stem, it brings subtle sophistication to shelves and tables. Its smooth, white finish complements modern and Scandinavian interiors effortlessly.
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 95
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Solis Ring Vase
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "818d4af5-51f0-4fa3-ae25-7aca02a3404c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Solis Ring Vase
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251124T110521Z

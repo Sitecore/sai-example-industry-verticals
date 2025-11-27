@@ -1,0 +1,63 @@
+﻿---
+ID: "991368da-7c60-4c57-a527-a993ded820f8"
+Parent: "2255da02-7a2c-4d3e-a41f-0f9ddf9b08a9"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/industry-verticals/forma-lux/Icons/trophy 1"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/991368DA7C604C57A527A993DED820F8.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 60
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "991368da-7c60-4c57-a527-a993ded820f8"
+  Value: iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAVdSURBVHgB7VtbUhs7EG0b+L7OCnAKqOLvmhVkvIJwV3BhBSEryHgFwSuIswLYgc0KMH9UAYXZgfPNwzkn0TgaWTNj62HjJKfKxUgzI+lI3a3u1lATR+zs7BzWarUvuGzIEjGZTEb4k97d3X0VB9TFESD7QZZMVvXbxO9EHOFMeJXAKjtP9GbVA01ga2srQSdNFMf4DW9vbwfGAEaYdScRWwDv8WvpFbu7u4mqa2AMw+fn5+EIKGukVnRjf3+/+fT0RB1NzHskWK/XRU0CcYFJSCQi9vb2eujvf1UcY4LHWv86Bhj3cRHxekHjLbx0KRayBPWooLNloVHSf7K5uXlJDrabM4S5smisLyswSAHBCelTHc0bMzoMPUglT/YCv5R6q2btRBOtDO+gTxOJCPRpq+tivKcUX6XPn+SXVDaw0lTJtv5OToeV3t5rDY6w3701O8IefKq2pVWig0VIzUoQp3QmWRl83mA+xlk5J9KPj485uQepY7FAScFYVggQOS241dELGxsbiV7OiTQsb0MXHTQ6sjQonDHM5DdRor/sbYn96aumA2I8wrj1qpwtqtyHS0DR3+YFyD7YxCskYD9oTFtVz0H6So1tTqSVnzoFxKGyg9cG0wvDYoz0co4wRGFovJ/ImgGED/WyySlHWOnFQ1bG7LyTNQPs0HutODR13eZp9bTrltrf1gIcq+6B4frCfGaGMKxcz6j6LGsCFZ9PQafEfGaG8PX1tbnFcJVfPWmM8ZOxuj1bAGENHmCdU8k7FidsUF4p1NjSrMzdBqvbsT1rJaxW+aNRna6StC3oR2zQUNKXGrc6C4WHxM3NTU8MN40Nw4++x+/IqP9H4mPaBx0dGigkJhjCmumeDvz/XlEjhQmADGg4lZ9RSBnG8LTeSERgHCRX5Qh1qjy+ypwWG2AQYXosBhq22DMUGMVJOVlmP47ncW/nSuJRvGHI2mUBArazQ4kEGKCk4BYNawfe1NsyMdZRKdImVMzMnPQHYxuwxs4hgMDh3kjpkGiXIWJR1FSEhQnrMBMBFKt5Z3pegOwR2v2i9dFDH8fiCC/C3BYgygwTsy1jjFk/qEqVzgtKE8S5r68uxdenfa9EvBKnrlbFCTjjRIgn2AbInRlq0/WdTO+TB+qRYcFbIN33sdpKcpibmlpm5T2l4glvwlxlWnDJu6It1PWLcsNl0BwK/d0xyLYXNVA2eOmwDpKz5bNpZLidmcczJkgUzx1ZUsA8ZWhjaxxKAAQjTNiMTAaVPhpg8Fc8JlF1TBr+i6A9KXoH9/4LRZYISphQpFPLSi2KC+73IcRYR3DCGVSmJMVv0TTR9KRDIiAa4QxzBh8/4OtUzAOfvPS8yFlbOg6iGTZsPwP5ld+OGnH96E/iY1u7vlI6OdVLSMAwe4YGTCJjGZ886M7DjLXVk/88dw7hpZUhKmHT8bDF1Nh2cpMAp6MpERGVsCUPZdtPc3UvLy9Rj3dii3Ru8JajHB7RjvQyxVoiIiphDD5noW1OhGnEIBXbEnNMEhg0OtDDQ4omz3k0l5F5p3PbO5gYpoca2nNMJfEzpPNX7Wkp7+pMAn0Qoyz4Rzgj5xIIwQib34cERjuUqxnM8WCUZKl+EDeYeszThQMJgCArrGLhS63qXH0N56x/xpd31PODEGFiECtt2W+7vsaGgYReDrU/r+XXtD6IEjxQFH2/HFDfc0poRCHM3JR4IgZZ4o8T6b86HAjejoKyAX0JjL8i/bvD2dNS5z9HuGyoLWTqFanTBle38ufAjDYBBhBX6ozJOYpyJmy6fkvGADaiLQ5wFumJx/8OBYBz3z7/mZZWfOgSC0wQdMQR3wHdhdlZ6LD2JAAAAABJRU5ErkJggg==
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 1480
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 60 x 60
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "298fd2e9-9577-4a8c-8fe1-6b52cc580499"
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 60
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250904T201441Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: trophy 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8f2d9c56-5111-4e4f-b7a7-20da48a6e488"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251008T150915Z

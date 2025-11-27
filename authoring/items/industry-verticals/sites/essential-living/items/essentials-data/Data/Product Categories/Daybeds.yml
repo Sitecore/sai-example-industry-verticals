@@ -1,0 +1,26 @@
+﻿---
+ID: "f9b0ce9c-60a5-4dbf-8d93-a18881a16098"
+Parent: "09dceca1-38ad-4e8a-85b9-1a873ac13e40"
+Template: "5635eaab-28a6-4783-a10e-c4f9b1b99bba"
+Path: "/sitecore/content/industry-verticals/essential-living/Data/Product Categories/Daybeds"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251117T120100Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f97ac6ec-f113-4fbd-bc4f-aad45a4e98d1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251117T120100Z
+    - ID: "fe0c006b-d8ca-442a-943a-566a619d913c"
+      Hint: CategoryName
+      Value: Daybeds

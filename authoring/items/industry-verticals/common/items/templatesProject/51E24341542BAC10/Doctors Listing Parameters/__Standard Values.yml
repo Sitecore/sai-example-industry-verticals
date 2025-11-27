@@ -1,0 +1,27 @@
+﻿---
+ID: "81ec248d-1a96-4c5b-999a-84d29ae2fa86"
+Parent: "29823ac5-87da-41bb-ac4b-a2c1895f159b"
+Template: "29823ac5-87da-41bb-ac4b-a2c1895f159b"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Doctors/Doctors Listing/Rendering Parameters/Doctors Listing Parameters/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211012T120926Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JssImport
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "61a2d297-333a-4da6-a090-1d45243c82c5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251114T114341Z

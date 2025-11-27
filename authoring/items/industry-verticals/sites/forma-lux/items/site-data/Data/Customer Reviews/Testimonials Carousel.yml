@@ -1,0 +1,48 @@
+﻿---
+ID: "dbd47473-f2be-4360-9311-e5a2bf70924e"
+Parent: "7eeba072-1ce2-455c-bc4e-da7fca977c6d"
+Template: "4aeaa1d5-0823-461d-8d2d-94286a5de0a6"
+Path: "/sitecore/content/industry-verticals/forma-lux/Data/Customer Reviews/Testimonials Carousel"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251120T122514Z
+    - ID: "42ae28c2-1616-415c-bb0d-e79d7690f6f6"
+      Hint: Eyebrow
+      Value: Testimonials
+    - ID: "4952a853-becb-4896-95db-c32559e99f99"
+      Hint: Reviews
+      Value: |
+        {7BE879CA-0274-4896-90C5-09EA3331F778}
+        {0C32C436-2CD3-4BA1-AA7F-E0688E6EDDF8}
+        {69C2C14F-7C2B-4870-9D13-3BECA6E6D143}
+        {0B0870A7-0563-41D6-A643-CEB42A0E58AC}
+        {6C89758B-0F85-4A86-B400-AFC973B11BC5}
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "eafd63c1-7774-44c7-8aa7-239f28ff94d5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\lYgvRRBc1cAdrl67diXJp6wW5rWpAHDs
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251125T111803Z
+    - ID: "db8ea901-ced9-4d54-81c0-5e3cb48863c2"
+      Hint: Title
+      Value: Our client reviews

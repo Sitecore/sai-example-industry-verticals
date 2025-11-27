@@ -1,0 +1,34 @@
+﻿---
+ID: "d0446f4b-f9a9-4701-a3eb-989d5a0a42f6"
+Parent: "09dceca1-38ad-4e8a-85b9-1a873ac13e40"
+Template: "5635eaab-28a6-4783-a10e-c4f9b1b99bba"
+Path: "/sitecore/content/industry-verticals/essential-living/Data/Product Categories/Sofas"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251117T074459Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c8143bf9-7119-4fd6-b5f1-dc6b3f69e79f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251117T104649Z
+    - ID: "fe0c006b-d8ca-442a-943a-566a619d913c"
+      Hint: CategoryName
+      Value: Sofas

@@ -1,0 +1,36 @@
+﻿---
+ID: "4cb4086b-fbb5-4288-a3a7-8fe529a072be"
+Parent: "e4992b10-8a1b-452f-aad4-54785467cbce"
+Template: "e4992b10-8a1b-452f-aad4-54785467cbce"
+Path: "/sitecore/templates/Project/industry-verticals/Custom Templates/Review/Review Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {58A32680-FC59-49BC-890C-FD69F7A9CF1A}
+    {E4992B10-8A1B-452F-AAD4-54785467CBCE}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "c9120a8f-d299-4c76-928d-1a61a73ca168"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9a8640ac-1920-4dc5-a216-e650f17a3184"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251121T104339Z

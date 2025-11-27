@@ -1,0 +1,74 @@
+﻿---
+ID: "2e56e9cb-8a54-4ac6-acec-87d8151a4321"
+Parent: "40d7c2d4-fe6b-4fe7-a493-8c3a2c4ebc0a"
+Template: "f6e44a9e-074a-4865-987e-0c2dc00b7af5"
+Path: "/sitecore/content/industry-verticals/essential-living/Home/Shop/Furniture/Tide Chair"
+SharedFields:
+- ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+  Hint: Tags
+  Value: |
+    {BE2153A5-FC2B-40D5-B501-966CBDDD19B8}
+    {87A94074-CE51-475A-97C2-40A850F47F3A}
+    {7C74235E-979A-4248-84E9-D62A3F64DD0A}
+    {9DA2ED3B-1FB9-4FC4-8BAF-F92CC16921D4}
+- ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+  Hint: SKU
+  Value: TDEC
+- ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
+  Hint: Color
+  Value: "{4F524365-A1D1-4C21-A130-E6A8873C420D}"
+- ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
+  Hint: Image2
+  Value: |
+    <image mediaid="f2c14026-e1d4-4e39-b054-5a06026cd003" />
+- ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
+  Hint: Image1
+  Value: |
+    <image mediaid="ce7e92c1-fdc4-482a-8354-b848b6082cee" alt="" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{BAB25FD5-F5F1-492F-ABB4-9E3E27D36CB1}" />
+- ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+  Hint: Category
+  Value: "{D9CCB5FA-D3B9-4A49-8B42-551171D1E98B}"
+- ID: "d9c8ae87-80fc-460b-9140-3db7358b1c8e"
+  Hint: Image3
+  Value: |
+    <image mediaid="e16dfb64-ded9-4806-906d-56c85ece5d4b" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "b101fb55-5e66-4a55-b788-0897f60e4607"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251117T085450Z
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Crafted from recycled materials, the Tide Chair features soft, flowing lines and a seamless, uniform silhouette. Its deep navy tone adds modern calm, while the sculpted form delivers comfort, durability, and sustainable elegance to any space.
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 189
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Tide Chair
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "80754bcd-5192-4b6e-9d84-ab4a7531ef17"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Tide Chair
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251117T130505Z

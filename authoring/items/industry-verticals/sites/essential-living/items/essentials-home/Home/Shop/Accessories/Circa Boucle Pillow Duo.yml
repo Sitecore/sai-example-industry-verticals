@@ -1,0 +1,74 @@
+﻿---
+ID: "e7ebb785-d803-4a10-bcc4-880b87235570"
+Parent: "63abf4a1-d28b-4abc-956e-6640b058abfe"
+Template: "f6e44a9e-074a-4865-987e-0c2dc00b7af5"
+Path: "/sitecore/content/industry-verticals/essential-living/Home/Shop/Accessories/Circa Boucle Pillow Duo"
+SharedFields:
+- ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+  Hint: Tags
+  Value: |
+    {088EF252-7F7B-4615-BD6A-4598A37B879E}
+    {A4283E9B-C0AB-48ED-8D63-3CCB7E3C38E2}
+    {DD3BB8ED-CD1D-48AD-92AD-41408E337FC6}
+    {9DA2ED3B-1FB9-4FC4-8BAF-F92CC16921D4}
+- ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+  Hint: SKU
+  Value: CRCBPD
+- ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
+  Hint: Image2
+  Value: |
+    <image mediaid="53c8ad63-0cbe-4aaf-b973-02a824445623" />
+- ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
+  Hint: Size
+  Value: "{695F20C6-97B1-4C86-A62D-03C880B038B3}"
+- ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
+  Hint: Image1
+  Value: |
+    <image mediaid="f2dfb181-7e8c-4864-b890-ef7cfcfaa33e" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{652573B0-6870-427E-B97B-2383B79B10D6}" />
+- ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+  Hint: Category
+  Value: "{EB775442-65E1-4FD7-A6E6-7726437EB59E}"
+- ID: "d9c8ae87-80fc-460b-9140-3db7358b1c8e"
+  Hint: Image3
+  Value: |
+    <image mediaid="e0a22678-9fba-4ad1-8dd8-645b07e1cd92" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "74cd5a72-0890-4e58-95fa-05db8264a599"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251117T125658Z
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: This sculptural pillow set features a modern cream donut cushion paired with a warm beige bouclé sphere, creating a playful yet elegant combination. The soft, textured fabrics add depth and warmth to sofas, armchairs, or bedroom décor. Perfect for contemporary interiors, this duo brings a curated, designer look with minimal effort.
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 145
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Circa Boucle Pillow Duo
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ec866d80-9f57-4d41-8882-d5502d95d056"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Circa Bouclé Pillow Duo
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251117T130301Z

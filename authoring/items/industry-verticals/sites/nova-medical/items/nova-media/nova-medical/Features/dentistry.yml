@@ -1,0 +1,63 @@
+﻿---
+ID: "56143046-82ba-463c-8bb7-1cf4ff053272"
+Parent: "c2da822e-f0c8-4503-bcae-65b0db1a4341"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/industry-verticals/nova-medical/Features/dentistry"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/5614304682BA463C8BB71CF4FF053272.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 73
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "a0824257-fc06-4260-bb4d-d63267a5b687"
+  Value: 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
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 2519
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 73 x 82
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "60e0c4bb-2e49-4931-87db-8530a21cee4d"
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 82
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251120T123021Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: dentistry
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b5c40ae4-4e9f-4124-bc72-6218d3c8aabc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251120T124048Z

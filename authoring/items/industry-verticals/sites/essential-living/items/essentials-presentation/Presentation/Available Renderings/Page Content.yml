@@ -1,0 +1,60 @@
+﻿---
+ID: "f87955ab-289e-4ab1-9dd5-0f803422599e"
+Parent: "06e95609-7097-4003-99b9-9021ad1f0398"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: "/sitecore/content/industry-verticals/essential-living/Presentation/Available Renderings/Page Content"
+BranchID: "209f458a-5f7c-4024-9bbb-c78ad6d21abc"
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Value: |
+    {C5F905F8-FD1F-444E-A9E5-AC6B774FF0DE}
+    {9C6D53E3-FE57-4638-AF7B-6D68304C7A94}
+    {3836D951-BB14-43AC-9231-649B7F245DC5}
+    {02654BA0-74AE-42A4-B384-BCA9B96ADF4B}
+    {32138D34-7434-4CD1-BF7F-64DA1CEB8F33}
+    {C56EFAE9-39E8-45EB-8B59-D4BF2B71914E}
+    {32E7FD88-4E5D-4AAB-A15F-61DCEBA1EE6F}
+    {7EEEB709-7AAA-4B2F-8FBA-88EF74B3D2FE}
+    {613A3675-953D-4AD1-877A-48D24A28977D}
+    {E874A406-4977-443B-8AFE-690812AFB5EF}
+    {E3CCF1D0-7855-4898-8BDE-77F83C6A487C}
+    {B49CF2D7-7CB2-4918-8F38-2607D956D995}
+    {6B69C658-CE00-476C-8A97-FA59F2DEF73B}
+    {CCD11802-22A3-462F-92FC-821515E2AEC8}
+    {442E3EA4-DE9A-41B5-A917-0F589F79B1A0}
+    {3275D21A-F7AC-4682-9EBF-BEF6FEBBDDA8}
+    {6C0D91D1-A92F-41BD-949B-423811202101}
+    {330F59E3-329C-4E5D-8A00-CF144B1E1A87}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "729fe0a2-d1a7-4fe4-8b4f-0984c1ba8f65"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{EDD5B21F-2BD2-4290-81A2-68428363D312}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251111T120558Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3f5d432c-131d-481e-a123-db15822a9e5d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251117T132234Z

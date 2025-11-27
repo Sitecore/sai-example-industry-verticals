@@ -1,0 +1,31 @@
+﻿---
+ID: "ec14ded1-5226-4b32-81b4-e50b6f01c0e0"
+Parent: "ccfb1b49-f9cc-45f1-9ede-f1c93e62d41d"
+Template: "66634c4b-bb85-48af-a5ab-ec3c790eef1d"
+Path: "/sitecore/content/industry-verticals/essential-living/Data/Offer List"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250828T151746Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "665cb117-fd31-4537-9589-9d55854b6e04"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250828T151746Z

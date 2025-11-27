@@ -1,0 +1,42 @@
+﻿---
+ID: "f8c11985-5318-45f1-8887-40a620bc9353"
+Parent: "210851c2-119f-46ab-9463-b21c0327df11"
+Template: "3b22a3fa-18d2-47c7-a467-74c984a65ca4"
+Path: "/sitecore/content/industry-verticals/nova-medical/Presentation/Page Designs"
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+SharedFields:
+- ID: "ba1f60d6-3deb-40cc-bb61-eec772279ee1"
+  Hint: TemplatesMapping
+  Value: "%7b2F814F03-C3EF-4229-854C-CBCED6D24704%7d%3d%257BB754E50C-8FAF-46A6-819C-AFEC5BD09640%257D%26%7b98E60957-0783-4A9A-85CC-77DAD30E9711%7d%3d%257B587DB6F9-985F-435B-9462-3243FB1A1AEA%257D%26%7bC0274E9D-2974-4766-A29A-0C4F9FAF8C86%7d%3d%257B04FC4F49-CD13-443D-A58E-DC8A46340881%257D"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "4d77fc26-5395-45a6-b381-e6629328b294"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{2EA756FA-AED6-4599-83B7-36FEFE229B31}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251112T093237Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fbf067f7-dd53-46cc-91e6-77a2a16dd08c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251117T073008Z

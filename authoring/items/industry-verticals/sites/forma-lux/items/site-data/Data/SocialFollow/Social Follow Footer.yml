@@ -1,0 +1,129 @@
+﻿---
+ID: "132d65e2-e46b-4e54-b35d-cf097f1fd28e"
+Parent: "ceae8e02-05f1-45b8-915b-608148d8919e"
+Template: "f6930608-d385-4c04-9bb1-6d1053448867"
+Path: "/sitecore/content/industry-verticals/forma-lux/Data/SocialFollow/Social Follow Footer"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "20c5fd56-620f-43ea-9ac9-962a19ff4615"
+      Hint: FacebookLink
+      Value: |
+        <link linktype="external" url="" target="" text="Facebook" title="" class=""/>
+    - ID: "24cc1760-4aac-4105-818f-4a17ffd733b7"
+      Hint: SocialTitle
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250827T114037Z
+    - ID: "2b18a275-2d1e-4a45-81d2-4651c25697b3"
+      Hint: InstagramLink
+      Value: |
+        <link linktype="external" url="" text="Instagram"/>
+    - ID: "4c020db1-8c7e-4576-9fad-2c44483c5954"
+      Hint: TwitterLink
+      Value: |
+        <link linktype="external" url="" target="" text="Twitter" title="" class=""/>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "82a5236e-7ffe-45e4-a987-437a3e9ed5fe"
+      Hint: YoutubeLink
+      Value: 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c87cceea-9e25-4e29-b6c9-e6d29ce71d4a"
+    - ID: "8eb52c3f-0da7-4370-97b4-6660650496c5"
+      Hint: LinkedinLink
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250903T071345Z
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "20c5fd56-620f-43ea-9ac9-962a19ff4615"
+      Hint: FacebookLink
+      Value: |
+        <link text="Facebook" linktype="external" url="" anchor="" target="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250910T102905Z
+    - ID: "2b18a275-2d1e-4a45-81d2-4651c25697b3"
+      Hint: InstagramLink
+      Value: |
+        <link text="Instagram" linktype="external" url="" anchor="" target="" />
+    - ID: "4c020db1-8c7e-4576-9fad-2c44483c5954"
+      Hint: TwitterLink
+      Value: |
+        <link text="Twitter" linktype="external" url="" anchor="" target="" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6cb02579-6761-40ba-9ca0-e9013686bebe"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250910T105825Z
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "20c5fd56-620f-43ea-9ac9-962a19ff4615"
+      Hint: FacebookLink
+      Value: |
+        <link text="Facebook" linktype="external" url="" anchor="" target="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250910T103635Z
+    - ID: "2b18a275-2d1e-4a45-81d2-4651c25697b3"
+      Hint: InstagramLink
+      Value: |
+        <link text="Instagram" linktype="external" url="" anchor="" target="" />
+    - ID: "4c020db1-8c7e-4576-9fad-2c44483c5954"
+      Hint: TwitterLink
+      Value: |
+        <link text="Twitter" linktype="external" url="" anchor="" target="" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9776d00f-b9bf-486a-aaf4-4ca20cc50360"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250910T105855Z

@@ -1,0 +1,94 @@
+﻿---
+ID: "f6ec6b67-47c8-44a4-aac7-3b645e724758"
+Parent: "260cf295-7d6b-4e12-805c-2596ffd1c3d7"
+Template: "f6e44a9e-074a-4865-987e-0c2dc00b7af5"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Products/Lamp/Tertial"
+SharedFields:
+- ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+  Hint: Tags
+  Value: "{831305F5-99B0-4746-B09A-42C67FE37EC5}"
+- ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+  Hint: SKU
+  Value: LMP0005
+- ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
+  Hint: Color
+  Value: |
+    {4644FE16-10A7-44F1-8172-CA03C35A688D}
+    {12BF3FA0-8034-4629-814C-3E34BEE11474}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1450
+- ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
+  Hint: Image1
+  Value: |
+    <image mediaid="bb7b4b43-7e13-4e4c-830d-6e2a1b7fea5f" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{B120A8ED-D198-42E7-ADFC-D7A3EC089073}" />
+- ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+  Hint: Category
+  Value: "{260CF295-7D6B-4E12-805C-2596FFD1C3D7}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "91db82f3-81a0-4363-80ed-0c3f24695cde"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{DACCAE2D-3304-479B-B07A-A76EAD4720EF}"
+          s:ds="381203f0-6ee1-4675-b043-c8d4ddbd6b86"
+          s:id="{E874A406-4977-443B-8AFE-690812AFB5EF}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;Autoplay&amp;Loop&amp;HideAccentLine&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="/headless-main/sxa-productcontent/related-products-1" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251009T142342Z
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Illuminate your space with Tertial, the versatile and stylish lamp designed for modern living. Perfect for any room, Tertial provides adjustable lighting to suit your needs and enhance your home's ambiance.
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 29
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Tertial
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bf6e706e-8e63-40d1-ab21-47018c5d4f18"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Tertial
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251020T101924Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: |
+        <div class="ck-content"><p>Illuminate your space with the Tertial Lamp, a perfect blend of functionality and modern design that brings a warm, inviting atmosphere to any room. Crafted meticulously from high-quality materials, Tertial features an adjustable arm and head, allowing you to direct light precisely where you need it. Its sleek silhouette and minimalist aesthetic make it a versatile addition to both contemporary and classic interiors. Whether placed on your work desk, beside your reading chair, or on your bedside table, Tertial enhances your environment with its efficient lighting and elegant charm. With the Tertial Lamp, personalization meets practicality. Designed with ease in mind, the intuitive adjustment mechanism lets you seamlessly modify the lamp's height and angle to suit your activities, from focused work sessions to cozy reading evenings. The robust base ensures stability on any surface, while the energy-efficient bulb provides long-lasting, eco-friendly illumination that enhances your room's ambiance. Experience lighting that combines innovative engineering with timeless style—experience Tertial.</p></div>

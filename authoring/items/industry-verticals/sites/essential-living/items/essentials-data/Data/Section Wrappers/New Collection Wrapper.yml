@@ -1,0 +1,40 @@
+﻿---
+ID: "9e629d50-d066-45f2-8153-cde7969b561f"
+Parent: "6b4b8903-5a3e-4897-a9e5-67a5ea6668fa"
+Template: "464a7993-10a8-4e15-a56e-3df58d050aa1"
+Path: "/sitecore/content/industry-verticals/essential-living/Data/Section Wrappers/New Collection Wrapper"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17316dee-ddb8-43ec-9d7e-596c4f7662ad"
+      Hint: Title
+      Value: The new collection has arrived
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251117T131431Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ea7a8476-b7a4-46a1-8472-a1532292b5ff"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251117T131457Z
+    - ID: "e8fcda31-4dd9-48ff-b847-1b7a674b1951"
+      Hint: Description
+      Value: Discover accessories that transforms spaces into sanctuaries—soft glows, clean lines, and timeless elegance.

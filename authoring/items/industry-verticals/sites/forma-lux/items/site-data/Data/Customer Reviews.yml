@@ -1,0 +1,31 @@
+﻿---
+ID: "7eeba072-1ce2-455c-bc4e-da7fca977c6d"
+Parent: "dcc7de24-6385-4653-9875-0d5be089f705"
+Template: "b024a2d8-cdde-4338-bd97-fe25248aa3be"
+Path: "/sitecore/content/industry-verticals/forma-lux/Data/Customer Reviews"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251120T122329Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1ad0b6b2-4a69-44b6-a101-5865c17c7812"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251125T095411Z

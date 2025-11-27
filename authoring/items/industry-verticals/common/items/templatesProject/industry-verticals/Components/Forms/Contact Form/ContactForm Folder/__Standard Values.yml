@@ -1,0 +1,36 @@
+﻿---
+ID: "b4e23b25-f4cb-48c1-9d11-df62614b58b6"
+Parent: "a78b80bb-c3f2-4166-af34-69dcc7aa0cfa"
+Template: "a78b80bb-c3f2-4166-af34-69dcc7aa0cfa"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Forms/Contact Form/ContactForm Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {D14FEB7C-05E7-4AC1-A5C3-981DB9372840}
+    {A78B80BB-C3F2-4166-AF34-69DCC7AA0CFA}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "951b9db8-0a2b-4fd8-b796-cef4ca4b3082"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "101e41f5-2557-4830-b7bf-04c0ec15641a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250911T103304Z

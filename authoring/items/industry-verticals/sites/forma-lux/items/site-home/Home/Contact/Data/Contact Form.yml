@@ -1,0 +1,41 @@
+﻿---
+ID: "4417f60b-710d-41cb-a7b4-d92cb194da26"
+Parent: "9070db1f-875d-4002-b1c4-820e242f7cac"
+Template: "d14feb7c-05e7-4ac1-a5c3-981db9372840"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Contact/Data/Contact Form"
+SharedFields:
+- ID: "3849c8a9-5391-4eab-abf3-7d3bc771af97"
+  Hint: SubmitText
+  Value: Send message
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "676bfd29-8f23-4cf7-a033-49580f42d3fb"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250912T115502Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "298d0168-5a79-481b-8271-2c49607cdeac"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250915T105349Z

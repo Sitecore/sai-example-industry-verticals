@@ -1,0 +1,52 @@
+﻿---
+ID: "524c63b9-83f2-4ab3-8ad8-197dcdfe4e59"
+Parent: "abee40f0-745a-47f3-a14a-2bfb06320ff8"
+Template: "0a39f168-834c-46c5-8866-65a60764c0a4"
+Path: "/sitecore/content/industry-verticals/nova-medical/Data/Features/Promo Features/Feature 2"
+SharedFields:
+- ID: "83bc80ee-e97a-474b-8c05-a2559394eebe"
+  Hint: FeatureImage
+  Value: |
+    <image mediaid="3d7e8340-6abc-4cb6-bbc6-76e74130ca83" />
+- ID: "86778b86-6ddc-4d81-ae29-6aac5cebbaf8"
+  Hint: FeatureImageDark
+  Value: |
+    <image mediaid="4bb8fde5-cdfa-4228-964e-e7aa249b95f7" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "1421a8eb-21fa-417b-a998-a5bffc08bdba"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251117T120037Z
+    - ID: "35b07fa2-ce95-4459-8dd6-074203dda9a7"
+      Hint: FeatureDescription
+      Value: With our free ambulance service, we ensure swift and safe transportation whenever you need it most—because your health comes first.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "5f507c84-84f9-4033-81a2-90bca3d12606"
+      Hint: FeatureTitle
+      Value: Free Ambulance Car
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "04b476f9-a3dd-4ecc-bdea-dff9c4cf1c8c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251120T132052Z

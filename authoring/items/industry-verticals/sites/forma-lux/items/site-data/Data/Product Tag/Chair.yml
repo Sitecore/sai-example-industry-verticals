@@ -1,0 +1,34 @@
+﻿---
+ID: "aa1d2dc7-47cb-41be-952d-f19b07b47154"
+Parent: "5c9796c9-11e8-4b4f-977f-3d54ab3c2105"
+Template: "d96c025a-1d48-464b-9a72-327c8cc413bb"
+Path: "/sitecore/content/industry-verticals/forma-lux/Data/Product Tag/Chair"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250924T075254Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0e5ae9ca-51d6-415f-844a-73bc4e580cef"
+    - ID: "9ce1cd5e-556b-491f-87a9-4027294b99f8"
+      Hint: Tag
+      Value: Chair
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250929T103132Z

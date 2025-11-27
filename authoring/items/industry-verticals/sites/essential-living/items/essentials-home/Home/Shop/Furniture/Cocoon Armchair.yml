@@ -1,0 +1,74 @@
+﻿---
+ID: "12fe9994-88b7-4254-b391-49e9db6c24ef"
+Parent: "40d7c2d4-fe6b-4fe7-a493-8c3a2c4ebc0a"
+Template: "f6e44a9e-074a-4865-987e-0c2dc00b7af5"
+Path: "/sitecore/content/industry-verticals/essential-living/Home/Shop/Furniture/Cocoon Armchair"
+SharedFields:
+- ID: "2cfb917c-9876-4edb-82c0-1c9acd6965d4"
+  Hint: Reviews
+  Value: "{6F42222E-B7C0-4A1F-BD77-D932270602D9}"
+- ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+  Hint: Tags
+  Value: |
+    {088EF252-7F7B-4615-BD6A-4598A37B879E}
+    {A4283E9B-C0AB-48ED-8D63-3CCB7E3C38E2}
+    {DF78CAA6-1D44-429C-87FA-207830D4C38A}
+    {7C74235E-979A-4248-84E9-D62A3F64DD0A}
+    {9DA2ED3B-1FB9-4FC4-8BAF-F92CC16921D4}
+- ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+  Hint: SKU
+  Value: CCNAC
+- ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
+  Hint: Color
+  Value: "{D288E6D4-8D6A-4B75-BD2D-9044C968FBFA}"
+- ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
+  Hint: Image2
+  Value: |
+    <image mediaid="7be1658c-7d5f-430e-9a9e-fee1fe5320a9" alt="Cocoon Armchair" />
+- ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
+  Hint: Image1
+  Value: |
+    <image mediaid="38e2d7e8-3b81-4851-b02a-719de495c77b" alt="Cocoon Armchair" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{0ACE75EF-EA28-4226-8386-1679F7B0E826}" />
+- ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+  Hint: Category
+  Value: "{30D02D41-0A02-43EE-B98A-06B5383AC5CB}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "41783b01-9fe5-4b30-854a-d2a29ce9462d"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251117T073517Z
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Sink into soft serenity. The Cocoon Armchair wraps you in plush white bouclé, offering gentle texture and modern comfort, while solid oak legs add natural warmth and timeless elegance. A refined piece designed to elevate any space with quiet luxury.
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 699
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Cocoon Armchair
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f2e336d5-ec62-4231-8324-88543c9af0c3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Cocoon Armchair
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251124T104812Z

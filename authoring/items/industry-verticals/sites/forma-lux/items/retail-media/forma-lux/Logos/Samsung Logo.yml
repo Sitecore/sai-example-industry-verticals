@@ -1,0 +1,63 @@
+﻿---
+ID: "c8cce3c0-8274-4682-9618-93ef6b898d06"
+Parent: "cb85c659-2e7e-48b9-ae40-40f73ec3dcb0"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/industry-verticals/forma-lux/Logos/Samsung Logo"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/C8CCE3C082744682961893EF6B898D06.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 222
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "c8cce3c0-8274-4682-9618-93ef6b898d06"
+  Value: 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
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 2944
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 222 x 34
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "3247d59a-3d4a-42d0-beb1-b18873dee122"
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 34
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250904T114020Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: Samsung Logo
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1f889291-ae5b-42f7-ab68-26fd245e28dc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251008T145044Z

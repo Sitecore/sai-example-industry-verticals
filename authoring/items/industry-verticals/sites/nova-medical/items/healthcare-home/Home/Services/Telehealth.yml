@@ -1,0 +1,42 @@
+﻿---
+ID: "ac9d8ddf-b947-4c84-a272-852f1991f1be"
+Parent: "2d977608-7371-4d73-b6d3-47ddd725013f"
+Template: "c0274e9d-2974-4766-a29a-0c4f9faf8c86"
+Path: "/sitecore/content/industry-verticals/nova-medical/Home/Services/Telehealth"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{6CBC531C-0562-486F-8316-9F4D9B146690}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251117T080050Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Telehealth
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "219c0297-6c9f-4c3c-b50a-a06dc8626770"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "c676100c-bb5a-4ad0-a2e9-e73fd0168708"
+      Hint: Title
+      Value: Telehealth
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251117T080050Z

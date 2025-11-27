@@ -1,0 +1,63 @@
+﻿---
+ID: "4c2f0086-d15c-45d1-bcea-ce9f1395eea4"
+Parent: "cb85c659-2e7e-48b9-ae40-40f73ec3dcb0"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/industry-verticals/forma-lux/Logos/Google Logo"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/4C2F0086D15C45D1BCEACE9F1395EEA4.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 148
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "4c2f0086-d15c-45d1-bcea-ce9f1395eea4"
+  Value: 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
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 2694
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 148 x 48
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "25beb1b8-6f55-49f6-8b3a-f0b2f3c9fdab"
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 48
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250904T113901Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: Google Logo
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "093befdd-a052-48d1-a540-d2f3f8904cc3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251008T144435Z

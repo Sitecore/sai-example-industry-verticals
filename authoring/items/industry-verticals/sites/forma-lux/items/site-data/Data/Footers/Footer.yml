@@ -1,0 +1,176 @@
+﻿---
+ID: "d1a5bc7c-2138-4765-a5df-0d79e3e898e1"
+Parent: "e9db93f1-1da6-4949-9657-828830dff5aa"
+Template: "7e3a2360-40fa-456d-8061-307338dd39e0"
+Path: "/sitecore/content/industry-verticals/forma-lux/Data/Footers/Footer"
+SharedFields:
+- ID: "2895a16e-c1b8-4e79-959a-802d5bc81a5a"
+  Hint: Logo
+  Value: |
+    <image mediaid="8cc2a449-e23b-488c-bb23-3d7c7a07f6e7" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250827T102830Z
+    - ID: "40096e29-7ffe-4148-902f-2e64d17f3f2b"
+      Hint: TitleThree
+      Value: Support
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "6e545c55-70f1-49ef-b75f-e10257f0845a"
+      Hint: Description
+      Value: <span>Live Boldly. Style Deeply.</span>
+    - ID: "775b58bb-13a1-426d-86e5-765ad797e407"
+      Hint: TitleOne
+      Value: Furniture
+    - ID: "79d2d2a7-b0d5-421c-89fb-b7d040f56d26"
+      Hint: CopyrightText
+      Value: Copyright © 2025
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d0be7b71-5f16-4ea1-9422-041c955615d2"
+    - ID: "9f2b5ebe-6b3a-4128-b6e9-6b7adf4e86da"
+      Hint: PolicyText
+      Value: |
+        <link linktype="external" url="" target="" text="Privacy Policy" title="" class=""/>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "d12db112-ac8e-4701-9186-1c25d7c2c148"
+      Hint: TitleTwo
+      Value: Services
+    - ID: "d4ce5fe0-92df-4490-8b05-e704cf6f448e"
+      Hint: TitleFour
+      Value: Follow Us
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250828T082243Z
+    - ID: "e646865b-2d8d-4608-a43e-42c7f1d21675"
+      Hint: TitleFive
+      Value: Install App
+    - ID: "ff56e380-2171-49bf-a693-84ee1bc9413b"
+      Hint: TermsText
+      Value: |
+        <link linktype="external" url="" target="" text="Terms &amp; Conditions" title="" class=""/>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250910T094611Z
+    - ID: "40096e29-7ffe-4148-902f-2e64d17f3f2b"
+      Hint: TitleThree
+      Value: Apoyo
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "6e545c55-70f1-49ef-b75f-e10257f0845a"
+      Hint: Description
+      Value: Vive con audacia. Dale estilo a tu vida.
+    - ID: "775b58bb-13a1-426d-86e5-765ad797e407"
+      Hint: TitleOne
+      Value: Muebles
+    - ID: "79d2d2a7-b0d5-421c-89fb-b7d040f56d26"
+      Hint: CopyrightText
+      Value: Derechos de autor © 2025
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "534cb72f-c944-43fa-9d94-701316a92d85"
+    - ID: "9f2b5ebe-6b3a-4128-b6e9-6b7adf4e86da"
+      Hint: PolicyText
+      Value: |
+        <link text="política de privacidad" linktype="external" url="" anchor="" target="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d12db112-ac8e-4701-9186-1c25d7c2c148"
+      Hint: TitleTwo
+      Value: Servicios
+    - ID: "d4ce5fe0-92df-4490-8b05-e704cf6f448e"
+      Hint: TitleFour
+      Value: Síganos
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250910T103317Z
+    - ID: "e646865b-2d8d-4608-a43e-42c7f1d21675"
+      Hint: TitleFive
+      Value: Instalar aplicación
+    - ID: "ff56e380-2171-49bf-a693-84ee1bc9413b"
+      Hint: TermsText
+      Value: |
+        <link text="Términos y condiciones" linktype="external" url="" anchor="" target="" />
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250910T094604Z
+    - ID: "40096e29-7ffe-4148-902f-2e64d17f3f2b"
+      Hint: TitleThree
+      Value: Soutien
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "6e545c55-70f1-49ef-b75f-e10257f0845a"
+      Hint: Description
+      Value: Vivez avec audace. Adoptez un style profond.
+    - ID: "775b58bb-13a1-426d-86e5-765ad797e407"
+      Hint: TitleOne
+      Value: Meubles
+    - ID: "79d2d2a7-b0d5-421c-89fb-b7d040f56d26"
+      Hint: CopyrightText
+      Value: Droits d'auteur © 2025
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7a0061ad-0408-4b4a-b531-ba9b359f37b1"
+    - ID: "9f2b5ebe-6b3a-4128-b6e9-6b7adf4e86da"
+      Hint: PolicyText
+      Value: |
+        <link text="politique de confidentialité" linktype="external" url="" anchor="" target="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d12db112-ac8e-4701-9186-1c25d7c2c148"
+      Hint: TitleTwo
+      Value: Services
+    - ID: "d4ce5fe0-92df-4490-8b05-e704cf6f448e"
+      Hint: TitleFour
+      Value: "Suivez-nous"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250910T104309Z
+    - ID: "e646865b-2d8d-4608-a43e-42c7f1d21675"
+      Hint: TitleFive
+      Value: Installer l'application
+    - ID: "ff56e380-2171-49bf-a693-84ee1bc9413b"
+      Hint: TermsText
+      Value: |
+        <link text="Conditions générales" linktype="external" url="" anchor="" target="" />

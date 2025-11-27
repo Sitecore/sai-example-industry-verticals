@@ -1,0 +1,100 @@
+﻿---
+ID: "c96fe3ba-c27d-4079-a4e5-ae37c716ff32"
+Parent: "55139a64-5703-4295-9d0b-059032c56734"
+Template: "c130ad19-8cf2-48ae-bc03-19c4d91c2629"
+Path: "/sitecore/content/industry-verticals/essential-living/Data/Social Feeds/Social Feed Home"
+SharedFields:
+- ID: "2aacd5cd-fc77-4b96-9bc0-ae4991115ca6"
+  Hint: Image9
+  Value: |
+    <image mediaid="{6A1B49AF-57CC-42DC-AC41-85D08D60B45D}" />
+- ID: "41d4803f-ca8f-47db-835d-5e947e1ed558"
+  Hint: Image2
+  Value: |
+    <image mediaid="{B7FB24DF-A947-4F98-8B15-080CCCD70F39}" />
+- ID: "5e0aa7e5-78d0-4ead-88fe-bebe282b9005"
+  Hint: Image8
+  Value: |
+    <image mediaid="{BCB37E7C-373C-47B2-9B65-C589CA8CC6C8}" />
+- ID: "825b569b-b2c0-4bd6-8677-12b0f36e470f"
+  Hint: Image4
+  Value: 
+- ID: "9477b449-c25a-4228-98d8-ae3435ab19b1"
+  Hint: Image7
+  Value: |
+    <image mediaid="{2816450C-BE2F-4A1A-BBF4-77168AA37DED}" />
+- ID: "9c11a6a4-e9b5-4f36-9a65-65fad7daf14b"
+  Hint: Image6
+  Value: |
+    <image mediaid="{8FA16068-D779-4300-9AB6-8164AB50CFB2}" />
+- ID: "b6adc497-e361-47ce-a977-88c6531ad798"
+  Hint: Image3
+  Value: |
+    <image mediaid="{A1FB335C-1191-49BB-8F34-DF945974BD61}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "cf32b865-a42f-4f3d-9c53-5df766a85fa1"
+- ID: "f63f1078-d0c6-45f6-a237-c3a588f495bd"
+  Hint: Image1
+  Value: |
+    <image mediaid="{9F6F770F-CACB-4069-A13E-A196B67B53A0}" />
+- ID: "f771cbc7-e4db-4232-ba17-4400c11a1625"
+  Hint: Image5
+  Value: |
+    <image mediaid="{F34CC488-85EF-4F9F-AE31-4F12910B8422}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24b4a80a-7c22-48b7-b473-e136c981deb3"
+      Hint: Caption6
+      Value: @john
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250916T071650Z
+    - ID: "31d6ee3b-4ce9-4bc9-839c-f8c1f6f8c8c9"
+      Hint: Caption5
+      Value: @maria
+    - ID: "4675bb61-43c6-475d-b885-286efdbc89ba"
+      Hint: Caption2
+      Value: @liam
+    - ID: "4d62e9d8-ceaf-4d6d-a3f3-89744b715490"
+      Hint: Heading
+      Value: By you on Instagram
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "83bda5d9-35d5-4117-ad72-4562936be518"
+      Hint: Caption8
+      Value: @dylan
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "47aa3fca-c601-4996-9d36-6f8330b26f07"
+    - ID: "a652162f-5821-4fe0-b373-2c7a03ab362d"
+      Hint: Eyebrow
+      Value: Find us on Instagram @essentialliving
+    - ID: "a871d52b-8c82-4574-bb1f-1a9040855988"
+      Hint: Caption3
+      Value: @emma
+    - ID: "b6eabfbb-3838-483f-8bd6-16306790dc05"
+      Hint: Caption1
+      Value: @sintija
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251118T142222Z
+    - ID: "e8a72d8a-5be9-4dca-bb6d-cfe90726e847"
+      Hint: Caption7
+      Value: @josh
+    - ID: "f3393fa3-ca30-45f7-aaf6-f1ac856616e8"
+      Hint: Caption4
+      Value: @devon

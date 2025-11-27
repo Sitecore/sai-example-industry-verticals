@@ -1,0 +1,83 @@
+﻿---
+ID: "98c1fcad-fe74-4ed4-8f01-111693116a33"
+Parent: "40d7c2d4-fe6b-4fe7-a493-8c3a2c4ebc0a"
+Template: "f6e44a9e-074a-4865-987e-0c2dc00b7af5"
+Path: "/sitecore/content/industry-verticals/essential-living/Home/Shop/Furniture/Calder Dining Chair"
+SharedFields:
+- ID: "2cfb917c-9876-4edb-82c0-1c9acd6965d4"
+  Hint: Reviews
+  Value: |
+    {D3CA6D4C-4EA5-431A-AB4F-24CB67979852}
+    {6F42222E-B7C0-4A1F-BD77-D932270602D9}
+- ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+  Hint: Tags
+  Value: |
+    {2207C465-ABA2-4BC7-BB08-F77A54C818E1}
+    {DF78CAA6-1D44-429C-87FA-207830D4C38A}
+    {87A94074-CE51-475A-97C2-40A850F47F3A}
+    {BE2153A5-FC2B-40D5-B501-966CBDDD19B8}
+    {F756F8D3-5281-4CF2-90A1-48A93D1924E4}
+- ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+  Hint: SKU
+  Value: CLDRDC
+- ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
+  Hint: Color
+  Value: |
+    {64E1A39E-1FCC-4B04-8514-F2ABDAB35C0B}
+    {E41623EB-F9E6-46A5-A9F5-EE05E80F866E}
+    {3D621560-2690-4951-B2B7-113658E508F3}
+- ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
+  Hint: Image2
+  Value: |
+    <image mediaid="b46e6b5d-7936-4c52-9dd8-0d62ebc1f51a" />
+- ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
+  Hint: Image1
+  Value: |
+    <image mediaid="7e94e94a-72a9-4da1-901d-83f8b37ede2f" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{DC0E1BA9-4F52-4093-BC0B-0D2C7623BB54}" />
+- ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+  Hint: Category
+  Value: "{D9CCB5FA-D3B9-4A49-8B42-551171D1E98B}"
+- ID: "d9c8ae87-80fc-460b-9140-3db7358b1c8e"
+  Hint: Image3
+  Value: |
+    <image mediaid="e808379b-d2bf-4017-948e-63f9b8c365b8" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "f706913d-1b73-4032-a847-6ec32b161620"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251117T112717Z
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: "The Calder Dining Chair blends mid-century charm with modern craftsmanship. Its sculpted plastic frame supports a warm oak seat, creating a harmonious balance of form and function. Curved lines and elegant proportions make it a refined addition to any dining space, available in a palette of rich, sophisticated tones."
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 218
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Calder Dining Chair
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a0cc8314-39fc-4983-b225-1dd1a77487c7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Calder Dining Chair
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251124T104455Z

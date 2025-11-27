@@ -1,0 +1,73 @@
+﻿---
+ID: "c1916450-b659-4e67-9b88-b5fd71232750"
+Parent: "40d7c2d4-fe6b-4fe7-a493-8c3a2c4ebc0a"
+Template: "f6e44a9e-074a-4865-987e-0c2dc00b7af5"
+Path: "/sitecore/content/industry-verticals/essential-living/Home/Shop/Furniture/Linea Armchair"
+SharedFields:
+- ID: "2cfb917c-9876-4edb-82c0-1c9acd6965d4"
+  Hint: Reviews
+  Value: "{53077722-F94A-496F-AA7F-D10CD7378910}"
+- ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+  Hint: Tags
+  Value: |
+    {7C74235E-979A-4248-84E9-D62A3F64DD0A}
+    {DF78CAA6-1D44-429C-87FA-207830D4C38A}
+    {DD3BB8ED-CD1D-48AD-92AD-41408E337FC6}
+    {AD845D60-1007-404A-BA59-64963B917D5F}
+- ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+  Hint: SKU
+  Value: LINAC
+- ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
+  Hint: Color
+  Value: "{48AF6314-5311-451F-97AF-9224B562F1D7}"
+- ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
+  Hint: Image2
+  Value: |
+    <image mediaid="b39c3dc1-f038-45a6-b5d5-1e53475cdb93" />
+- ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
+  Hint: Image1
+  Value: |
+    <image mediaid="eac578e0-eb6c-43e1-8e60-4feea459e75f" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{C0CB03B6-AE12-446F-9FB0-46C1BD11CCA6}" />
+- ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+  Hint: Category
+  Value: "{30D02D41-0A02-43EE-B98A-06B5383AC5CB}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "a58e2788-b17f-4c98-b6cf-78b07235c481"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251117T113359Z
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: The Linea Armchair combines sleek modern design with tactile comfort. Its textured white fabric envelops a minimalist metal frame, while oak plates on the armrests add warmth and subtle contrast. Clean lines and refined proportions create a contemporary statement piece that elevates any living space.
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 1217
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Linea Armchair
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0ef15bf6-d6c6-49f2-8e80-03277004561a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Linea Armchair
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251124T104832Z

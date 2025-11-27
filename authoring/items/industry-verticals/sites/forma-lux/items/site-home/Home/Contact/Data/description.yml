@@ -1,0 +1,38 @@
+﻿---
+ID: "51d25c16-a6b8-486e-8502-dd2a4915a60a"
+Parent: "9070db1f-875d-4002-b1c4-820e242f7cac"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Contact/Data/description"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250930T091317Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <div class="ck-content"><h1 style="text-align:center;">&nbsp;</h1><h3 style="text-align:center;"><strong>Let’s start a conversation</strong></h3><p style="text-align:center;">Whether you’re ready to launch a project or just exploring ideas, send us a message below.</p><p style="text-align:center;">Our team will get back to you within one business day.</p><p style="text-align:center;">&nbsp;</p></div>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "92099217-767d-43b0-ae3f-20c33b1deb7e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251009T063830Z

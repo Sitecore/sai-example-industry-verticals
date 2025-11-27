@@ -1,0 +1,60 @@
+﻿---
+ID: "2cbb2008-995d-49f5-8bae-e3ae9a878217"
+Parent: "c2da822e-f0c8-4503-bcae-65b0db1a4341"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/industry-verticals/nova-medical/Features/building-light"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/2CBB2008995D49F58BAEE3AE9A878217.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 72
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "df755515-f800-49cc-8182-d422552ba6b5"
+  Value: PHN2ZyBpZD0iR3JvdXBfNDI2IiBkYXRhLW5hbWU9Ikdyb3VwIDQyNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNzIuMDYyIiBoZWlnaHQ9IjUxLjk4NCIgdmlld0JveD0iMCAwIDcyLjA2MiA1MS45ODQiPgogIDxwYXRoIGlkPSJQYXRoXzY5NiIgZGF0YS1uYW1lPSJQYXRoIDY5NiIgZD0iTTQyLjQzNCwyNi41MjVINTkuNzc4VjQ5LjMwN0g0Mi40MzRaTTE1Ljk3NywxLjg3Mkg0MC4yNzJWNDkuMzA3SDE1Ljk3N1pNMTQuMTEsMFY1MC4xMTJIMHYxLjg3Mkg3Mi4wNjJWNTAuMTEySDYxLjY0NVYyNC42NTNINDIuMTRWMFoiIGZpbGw9IiMwMjM4NTkiLz4KICA8cGF0aCBpZD0iUGF0aF82OTciIGRhdGEtbmFtZT0iUGF0aCA2OTciIGQ9Ik0yNS4xMjYsNi41MWgtNnY1LjE2aDZabS0uOTM0LDQuMjI1SDIwLjA1OFY3LjQ0Nmg0LjEzNFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEuNjkzIDAuNTc2KSIgZmlsbD0iIzAyMzg1OSIvPgogIDxwYXRoIGlkPSJQYXRoXzY5OCIgZGF0YS1uYW1lPSJQYXRoIDY5OCIgZD0iTTMzLjAzOSw2LjUxaC02djUuMTZoNlptLS45MzQsNC4yMjVIMjcuOTcxVjcuNDQ2aDQuMTM0WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMi4zOTMgMC41NzYpIiBmaWxsPSIjMDIzODU5Ii8+CiAgPHBhdGggaWQ9IlBhdGhfNjk5IiBkYXRhLW5hbWU9IlBhdGggNjk5IiBkPSJNMzMuMDM5LDEyLjY3NWgtNnY1LjE2aDZaTTMyLjEwNSwxNi45SDI3Ljk3MVYxMy42MTFoNC4xMzRaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyLjM5MyAxLjEyMikiIGZpbGw9IiMwMjM4NTkiLz4KICA8cGF0aCBpZD0iUGF0aF83MDAiIGRhdGEtbmFtZT0iUGF0aCA3MDAiIGQ9Ik0zMy4wMzksMjMuNTc5aC02VjI4Ljc0aDZaTTMyLjEwNSwyNy44SDI3Ljk3MVYyNC41MTVoNC4xMzRaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyLjM5MyAyLjA4NykiIGZpbGw9IiMwMjM4NTkiLz4KICA8cGF0aCBpZD0iUGF0aF83MDEiIGRhdGEtbmFtZT0iUGF0aCA3MDEiIGQ9Ik0zMy4wMzksMzQuNGgtNnY1LjE2aDZabS0uOTM0LDQuMjI1SDI3Ljk3MVYzNS4zMzhoNC4xMzRaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyLjM5MyAzLjA0NSkiIGZpbGw9IiMwMjM4NTkiLz4KICA8cGF0aCBpZD0iUGF0aF83MDIiIGRhdGEtbmFtZT0iUGF0aCA3MDIiIGQ9Ik0yNS4xMjYsMzQuNGgtNnY1LjE2aDZabS0uOTM0LDQuMjI1SDIwLjA1OFYzNS4zMzhoNC4xMzRaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxLjY5MyAzLjA0NSkiIGZpbGw9IiMwMjM4NTkiLz4KICA8cGF0aCBpZD0iUGF0aF83MDMiIGRhdGEtbmFtZT0iUGF0aCA3MDMiIGQ9Ik00Ny4xMDgsMjYuMjMyaC02djUuMTZoNlptLS45MzQsNC4yMjJINDIuMDRWMjcuMTY2aDQuMTM0WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMy42MzkgMi4zMjIpIiBmaWxsPSIjMDIzODU5Ii8+CiAgPHBhdGggaWQ9IlBhdGhfNzA0IiBkYXRhLW5hbWU9IlBhdGggNzA0IiBkPSJNNTQuMDI0LDMzLjg5aC02djUuMTYxaDZabS0uOTMzLDQuMjI1SDQ4Ljk1N1YzNC44MjdoNC4xMzRaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0LjI1MSAzKSIgZmlsbD0iIzAyMzg1OSIvPgo8L3N2Zz4K
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 1590
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/svg+xml
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: svg
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "0795ae8c-5bbb-40a4-87dc-a0ad0805cffa"
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 52
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251120T124945Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: "building-light"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c7e77e8e-8614-48ad-9aa3-6fb770f5a5e5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251120T132140Z

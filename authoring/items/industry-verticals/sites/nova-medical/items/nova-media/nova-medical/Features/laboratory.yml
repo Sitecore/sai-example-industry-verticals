@@ -1,0 +1,63 @@
+﻿---
+ID: "e6fe48fc-525b-4720-bff3-541497615e5e"
+Parent: "c2da822e-f0c8-4503-bcae-65b0db1a4341"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/industry-verticals/nova-medical/Features/laboratory"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/E6FE48FC525B4720BFF3541497615E5E.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 73
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "f97f6130-25ff-4bc5-8865-63778382886c"
+  Value: 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
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 2252
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 73 x 78
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "014b3bdc-40e2-4ac7-8ca8-df474da03724"
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 78
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251120T123039Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: laboratory
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "96dfdfec-3a9c-4b1e-9a21-e12eaf039bcb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251120T124106Z
