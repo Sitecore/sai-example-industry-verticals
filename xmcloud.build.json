@@ -29,12 +29,19 @@
     }
   },
   "deployItems": {
-    "modules": ["Project.retail"]
+    "modules": ["Project.IndustryVerticles"]
   },
   "postActions": {
     "actions": {
       "scsModules": {
-        "modules": ["Project.Retail-Media", "Project.Retail-Content"]
+        "modules": [
+          "Project.Retail-Content",
+          "Project.Healthcare-Content",
+          "Project.Essentials-Content",
+          "Project.Essentials-Media",
+          "Project.Healthcare-Media",
+          "Project.Retail-Media"
+        ]
       },
       "warmUpCm": {
         "urls": [

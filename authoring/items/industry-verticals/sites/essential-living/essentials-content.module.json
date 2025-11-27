@@ -1,0 +1,39 @@
+{
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Project.Essentials-Content",
+  "references": ["Project.IndustryVerticles"],
+  "items": {
+    "includes": [
+      {
+        "name": "essentials-home",
+        "path": "/sitecore/content/retail/essential-living/home",
+        "scope": "DescendantsOnly",
+        "allowedPushOperations": "CreateOnly"
+      },
+      {
+        "name": "essentials-media",
+        "path": "/sitecore/content/retail/essential-living/Media",
+        "scope": "DescendantsOnly",
+        "allowedPushOperations": "CreateOnly"
+      },
+      {
+        "name": "essentials-data",
+        "path": "/sitecore/content/retail/essential-living/Data",
+        "scope": "DescendantsOnly",
+        "allowedPushOperations": "CreateOnly"
+      },
+      {
+        "name": "essentials-dictionary",
+        "path": "/sitecore/content/retail/essential-living/Dictionary",
+        "scope": "DescendantsOnly",
+        "allowedPushOperations": "CreateOnly"
+      },
+      {
+        "name": "essentials-presentation",
+        "path": "/sitecore/content/retail/essential-living/Presentation",
+        "scope": "DescendantsOnly",
+        "allowedPushOperations": "CreateOnly"
+      }
+    ]
+  }
+}

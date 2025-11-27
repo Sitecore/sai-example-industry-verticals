@@ -1,0 +1,39 @@
+{
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Project.Retail-Content",
+  "references": ["Project.IndustryVerticles"],
+  "items": {
+    "includes": [
+      {
+        "name": "site-home",
+        "path": "/sitecore/content/retail/forma-lux/home",
+        "scope": "DescendantsOnly",
+        "allowedPushOperations": "CreateOnly"
+      },
+      {
+        "name": "site-media",
+        "path": "/sitecore/content/retail/forma-lux/Media",
+        "scope": "DescendantsOnly",
+        "allowedPushOperations": "CreateOnly"
+      },
+      {
+        "name": "site-data",
+        "path": "/sitecore/content/retail/forma-lux/Data",
+        "scope": "DescendantsOnly",
+        "allowedPushOperations": "CreateOnly"
+      },
+      {
+        "name": "site-dictionary",
+        "path": "/sitecore/content/retail/forma-lux/Dictionary",
+        "scope": "DescendantsOnly",
+        "allowedPushOperations": "CreateOnly"
+      },
+      {
+        "name": "site-presentation",
+        "path": "/sitecore/content/retail/forma-lux/Presentation",
+        "scope": "DescendantsOnly",
+        "allowedPushOperations": "CreateOnly"
+      }
+    ]
+  }
+}

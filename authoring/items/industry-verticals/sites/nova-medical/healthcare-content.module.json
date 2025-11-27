@@ -1,0 +1,39 @@
+{
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Project.Healthcare-Content",
+  "references": ["Project.IndustryVerticles"],
+  "items": {
+    "includes": [
+      {
+        "name": "healthcare-home",
+        "path": "/sitecore/content/retail/nova-medical/home",
+        "scope": "DescendantsOnly",
+        "allowedPushOperations": "CreateOnly"
+      },
+      {
+        "name": "healthcare-media",
+        "path": "/sitecore/content/retail/nova-medical/Media",
+        "scope": "DescendantsOnly",
+        "allowedPushOperations": "CreateOnly"
+      },
+      {
+        "name": "healthcare-data",
+        "path": "/sitecore/content/retail/nova-medical/Data",
+        "scope": "DescendantsOnly",
+        "allowedPushOperations": "CreateOnly"
+      },
+      {
+        "name": "healthcare-dictionary",
+        "path": "/sitecore/content/retail/nova-medical/Dictionary",
+        "scope": "DescendantsOnly",
+        "allowedPushOperations": "CreateOnly"
+      },
+      {
+        "name": "healthcare-presentation",
+        "path": "/sitecore/content/retail/nova-medical/Presentation",
+        "scope": "DescendantsOnly",
+        "allowedPushOperations": "CreateOnly"
+      }
+    ]
+  }
+}
