@@ -1,0 +1,66 @@
+﻿---
+ID: "6917230a-bee4-4ec1-8529-8aab5d6a3b49"
+Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/The Work-From-Home Upgrade"
+SharedFields:
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <image mediaid="7b69d3a1-be0a-40a4-bc63-8dfc3d8f8c7f" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{35902DFA-0A50-43E6-92DA-646B602A2A1C}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "2d371cb1-0215-4e53-8095-733cbcab61d8"
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "41f8adbc-7a93-429d-a90e-edec0f845c12"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "The Work-From-Home Upgrade: Designing a Modern Home Office That Inspires"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T081506Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "The Work-From-Home Upgrade"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>Working at home doesn’t mean working from a couch anymore. Define your zone with a quality desk that offers both workspace and style—a wood top with slender metal legs, or a compact modular unit. Choose an ergonomic chair with clean lines so it looks as good as it works. Keep storage streamlined: floating shelves, closed-cabinets to hide clutter, and minimal desk accessories. Lighting matters: natural if possible, supplemented by a modern floor or task lamp. Add a few personal touches—artwork, a plant, a textured rug—but keep the feel calm and uncluttered. The result: a home office that looks modern and keeps you focused.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Create a productive, stylish workspace with furniture that blends comfort, function and aesthetic.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fc4d7a5f-0323-4005-a325-98cddc4018e8"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "The Work-From-Home Upgrade: Designing a Modern Home Office That Inspires"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251128T084212Z

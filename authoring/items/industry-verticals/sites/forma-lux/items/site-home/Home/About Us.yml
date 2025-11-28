@@ -9,14 +9,14 @@ SharedFields:
   Value: 
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 200
+  Value: 600
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{0B081450-C058-43DA-9F4C-A6083D93066D}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "c7f60469-eb97-4361-9de9-02262549cbc6"
+  Value: "989f5cad-0905-4494-a160-36b46c243fca"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -102,14 +102,14 @@ Languages:
       Value: "<p>At Forma Lux, we blend timeless design with modern expression to create interiors that reflect individuality and elegance. Guided by a passion for curated living, we design furnishings that go beyond trend — crafted for those who live boldly and style deeply. Our philosophy is rooted in balance: between form and function, subtlety and statement, simplicity and richness.</p>"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "030111d0-e246-4362-9bef-77ad8b60beeb"
+      Value: "7f4ce71b-57d2-4f80-8ac6-d99580165ee6"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251008T153901Z
+      Value: 20251128T094406Z
 - Language: "es-ES"
   Versions:
   - Version: 1

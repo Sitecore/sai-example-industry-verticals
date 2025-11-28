@@ -6,14 +6,14 @@ Path: "/sitecore/content/industry-verticals/forma-lux/Home/Contact"
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 500
+  Value: 800
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{FE9288F0-C03F-4408-A671-65629A8B7866}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "a55ea56b-95d8-4e52-9ebc-c967a14c8504"
+  Value: "94fbce2a-31c0-4b20-9e37-edf3cbae8914"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -89,14 +89,14 @@ Languages:
         <p style="text-align:center;"><meta charset="utf-8" /><span style="white-space:pre-wrap;">Contact us to publish your content and show ads </span></p><p style="text-align:center;"><span style="white-space:pre-wrap;">to our website and get a good reach.</span></p><p style="text-align:center;">&nbsp;</p>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "30b2e3ea-4d4a-4e24-9646-7d54e73e3ad3"
+      Value: "8ac7d27f-1ea7-4359-8c5a-8a254cab689a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251029T110339Z
+      Value: 20251128T094406Z
 - Language: "es-ES"
   Versions:
   - Version: 1

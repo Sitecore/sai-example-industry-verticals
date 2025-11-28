@@ -6,17 +6,51 @@ Path: "/sitecore/content/industry-verticals/forma-lux/Home/Decor"
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 100
+  Value: 200
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{EAB1770F-CF96-4C68-8E36-E5A4AE085BF9}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "883f75c6-bd95-40dc-832e-5275be906bbb"
+  Value: "8bed7287-985b-4cb8-b5a0-4b28e484e99f"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
-  Value: 
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{31C56C54-35A5-459B-B0DA-AF8E2ADB4A78}"
+          p:before="*"
+          s:ds="36c43f1d-707b-406b-a388-eebd9f4ae55b"
+          s:id="{E874A406-4977-443B-8AFE-690812AFB5EF}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;Autoplay&amp;Loop&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="headless-main" />
+        <r
+          uid="{0E05C224-7F8C-4798-A61C-B5C09E1F9679}"
+          p:after="r[@uid='{31C56C54-35A5-459B-B0DA-AF8E2ADB4A78}']"
+          s:ds="9525ded0-6fce-449e-ad11-cf6e434e1b01"
+          s:id="{CCD11802-22A3-462F-92FC-821515E2AEC8}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B4091EF1F-FB38-4E84-8776-076441E040BF%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="headless-main" />
+        <r
+          uid="{35680642-846B-47CC-BE17-D66E19560CEC}"
+          p:after="r[@uid='{0E05C224-7F8C-4798-A61C-B5C09E1F9679}']"
+          s:ds="8dcd8766-673e-40ee-91b8-1da4b0b83621"
+          s:id="{E3CCF1D0-7855-4898-8BDE-77F83C6A487C}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BEEE3F67D-35F3-47C3-B4B1-EB65EB4ABE8B%7D&amp;Styles=%7C%7B00AE1E2D-24DF-476E-AC36-5BD62A6B44A5%7D&amp;RenderingIdentifier&amp;CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{0A5ADA95-FD15-400C-B1F3-50AB9BBA2C2F}"
+          p:after="*[1=2]"
+          s:ds="600ef875-2d75-42cd-bb6e-73d0d90d50fd"
+          s:id="{96E7CF65-48A4-47BE-9BB7-DCE50CF7AEA1}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+      </d>
+    </r>
 Languages:
 - Language: en
   Fields:
@@ -43,14 +77,14 @@ Languages:
       Value: Contact us
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "42fd1aa1-01cc-41f6-ac01-b71f00e2f161"
+      Value: "ddff6f0d-8343-4dc0-b6ce-41cf588cdcc9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251001T100358Z
+      Value: 20251128T094405Z
 - Language: "es-ES"
   Versions:
   - Version: 1

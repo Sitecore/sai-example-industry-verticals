@@ -1,0 +1,83 @@
+﻿---
+ID: "ca82510a-fcdb-4b2f-b8d3-00652fb9d3d6"
+Parent: "078d4751-d125-408a-9ff2-f5417844b877"
+Template: "f6e44a9e-074a-4865-987e-0c2dc00b7af5"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Products/Sofa/The Lumina Sofa"
+SharedFields:
+- ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+  Hint: Tags
+  Value: "{FD74A159-FC1F-48F8-88C8-5703D830E00D}"
+- ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+  Hint: SKU
+  Value: " FL-LS-1001"
+- ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
+  Hint: Image2
+  Value: |
+    <image mediaid="7b0bc954-3318-46b3-a8c2-44b66fe392f8" />
+- ID: "9a62ea92-04df-49e2-ab37-00d251d0cc22"
+  Hint: Image4
+  Value: |
+    <image mediaid="f683eb1e-87c6-4ef6-9c29-5f5ef3468333" />
+- ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
+  Hint: Image1
+  Value: |
+    <image mediaid="1b6af9f8-bdb3-46ea-bff3-7af36a133b67" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{F6EC848D-D85A-4797-8B12-9777780986EB}" />
+- ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+  Hint: Category
+  Value: "{53DA2329-23E7-459F-A810-A057A8AD646B}"
+- ID: "d9c8ae87-80fc-460b-9140-3db7358b1c8e"
+  Hint: Image3
+  Value: |
+    <image mediaid="3577408c-999a-4852-b803-0cba4a02f7ae" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "c2352219-aaed-480f-816d-b2e099d44c4d"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T093210Z
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: The signature piece of the Lumina Collection, this modular sofa embodies timeless design and sustainable craftsmanship — a refined balance of form, comfort, and adaptability.
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 1500
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: The Lumina Sofa
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "58816d7f-8510-4422-9635-3f4f6d833c93"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: The Lumina Sofa
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251128T093627Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: |
+        <div class="ck-content"><p>The Lumina Sofa captures the essence of modern living — elegant, inviting, and designed to evolve with your space. Crafted with a responsibly sourced hardwood frame and soft, durable upholstery, it brings both warmth and structure to any interior. Its modular design allows for endless configurations, adapting to changing needs while maintaining a seamless, sculptural presence. Every detail, from the clean silhouette to the precise joinery, reflects Forma Lux’s belief that luxury lies in simplicity and longevity.</p></div>

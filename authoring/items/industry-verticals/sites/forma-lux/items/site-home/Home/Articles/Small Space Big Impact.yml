@@ -1,0 +1,66 @@
+﻿---
+ID: "084ca194-138b-4231-a4b2-6e76e86afaff"
+Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/Small Space Big Impact"
+SharedFields:
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <image mediaid="852ff56e-88d2-4e8d-ace2-6d47ad46f207" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{C629B8C2-73E2-46C7-AEF7-5067351697A8}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "3f85ec50-a521-453b-8cb0-45b351cfda87"
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "f5c1115b-f893-4339-a9db-f375fd812a36"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Small Space, Big Impact: Smart Furniture Choices for Compact Homes"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T083248Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Small Space Big Impact
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>When your space is modest, every inch counts. Choose furniture that serves more than one purpose—a sleeper sofa for guests, a coffee table with hidden storage, or nesting tables that tuck away when you don’t need them. Opt for pieces with light visual weight: open legs, transparent surfaces, slimmer profiles. Keep your color palette consistent so the eye flows easily. Vertical accents draw attention upward and create a sense of height: consider tall shelving, floor lamps, or hung artwork. Don’t cram—leave breathing room around key pieces so your space still feels spacious. With smart selections, even the smallest home can feel luxurious and modern.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: "Make the most of limited square footage with multi-functional, thoughtfully scaled furniture."
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "08ab9c0f-cddd-4bb2-b609-2946a40a0c68"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "Small Space, Big Impact: Smart Furniture Choices for Compact Homes"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251128T084137Z

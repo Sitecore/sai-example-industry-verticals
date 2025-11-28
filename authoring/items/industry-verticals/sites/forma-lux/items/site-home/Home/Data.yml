@@ -6,10 +6,10 @@ Path: "/sitecore/content/industry-verticals/forma-lux/Home/Data"
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: "-100"
+  Value: 0
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "11a384e0-4e05-4683-b0a3-0157835610ae"
+  Value: "3fa7fe78-6e17-4e21-93bb-e1c097266f8d"
 Languages:
 - Language: en
   Versions:
@@ -28,11 +28,11 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "25ddb0a4-af5c-45da-b731-e5139f1dc292"
+      Value: "fd051337-075c-42dc-8f68-ca6a6833c5a0"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251008T113224Z
+      Value: 20251128T094405Z
