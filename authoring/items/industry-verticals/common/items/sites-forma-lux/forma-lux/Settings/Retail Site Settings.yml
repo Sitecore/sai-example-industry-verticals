@@ -6,26 +6,29 @@ Path: "/sitecore/content/industry-verticals/forma-lux/Settings/Retail Site Setti
 SharedFields:
 - ID: "bd13b584-36a1-4c4e-aa1c-b4689ee2fae8"
   Hint: Custom CSS
-  Value: |
-    --color-foreground: #222222;
-    --color-foreground-light: #555555;
-    --color-foreground-muted: #888888;
-    --color-background: #ffffff;
-    --color-background-accent: #f4f4f4;
-    --color-background-muted: #f9f9f9;
-    --color-background-muted-light: #cccccc;
-    --color-background-muted-dark: #999999;
-    --color-background-surface: #fdfdfd;
-    --color-accent: #6c63ff;
-    --color-success: #28a745;
-    --color-danger: #dc3545;
-    --color-border: #e0e0e0;
-    --font-heading: 'Inter', sans-serif;
-    --font-body: 'Inter', sans-serif;
-    --radius-base: 0rem;
+  Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "bdf334a8-3b04-44f4-bd86-f8d6b5cbdc43"
+  Value: "38cc0095-2e60-43e3-8540-c9ed9318a796"
+- ID: "f4f80dc4-7985-4bba-a11e-4daebba94481"
+  Hint: ThemeDefaults
+  Value: |
+    --color-foreground: #1e1e1e;
+    --color-foreground-light: #505050;
+    --color-foreground-muted: #9f9f9f;
+    --color-background: #fff;
+    --color-background-accent: #faf3ea;
+    --color-background-muted: #f7f7f7;
+    --color-background-muted-light: #7a7a7a;
+    --color-background-muted-dark: #666;
+    --color-background-surface: #fafafa;
+    --color-accent: #c1a25f;
+    --color-success: #2ec1ac;
+    --color-danger: #e97171;
+    --color-border: #e8e8e8;
+    --font-heading: 'Manrope', sans-serif;
+    --font-body: 'Manrope', sans-serif;
+    --radius-base: 0.5rem;
 Languages:
 - Language: en
   Versions:
@@ -36,11 +39,11 @@ Languages:
       Value: 20251117T220631Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4ba1e276-456b-4b31-bed6-1d5f06f371b4"
+      Value: "bf62e299-1ed3-483a-8963-ce19f76ebab8"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\INIwVuCCf0fzziGGBdz0UepKJ8K6him7
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251121T200657Z
+      Value: 20251201T071547Z
