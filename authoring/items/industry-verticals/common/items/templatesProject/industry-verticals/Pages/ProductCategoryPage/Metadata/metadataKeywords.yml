@@ -15,6 +15,13 @@ SharedFields:
   Value: "62a758dd-9ec6-4772-a574-c2bc25863843"
 Languages:
 - Language: en
+  Fields:
+  - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
+    Hint: Title
+    Value: Keywords
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "2ea86ee9-2d5d-49a9-8501-51034f4543ac"
   Versions:
   - Version: 1
     Fields:
@@ -31,11 +38,11 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "405b5ad3-3c29-4967-8f76-3612ad1786fc"
+      Value: "5fc82245-a7ae-404f-81ae-63c12d8657c1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251201T112701Z
+      Value: 20251201T121106Z

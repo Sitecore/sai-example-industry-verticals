@@ -31,14 +31,19 @@ Languages:
         <link linktype="external" url="" target="" text="View All" title="" class=""/>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6ca5526e-2cb9-48ff-b3a4-fe03b2c111d9"
+      Value: "727a0f92-d427-4fe5-a325-a6c393c9195d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\isuru.bandara@sitecore.com
     - ID: "c3fb8c52-2f64-45bc-9970-ea340d7271fa"
       Hint: ProductsList
-      Value: 
+      Value: |
+        {683A4C94-17A8-4C36-93AE-CDD2C60B1FB2}
+        {DC635359-2002-438A-81C9-605141AA1CE3}
+        {76F9B02F-ADCD-4C45-A5DA-5047CF157D5E}
+        {4D01F6A1-9FBE-4D57-8C03-08CADA0704EA}
+        {79317D2A-7BB5-4B53-808E-7E4E465399FD}
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251128T095208Z
+      Value: 20251201T113826Z

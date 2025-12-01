@@ -6,7 +6,7 @@ Path: "/sitecore/templates/Project/industry-verticals/Pages/DoctorPage"
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Office/32x32/preview.png
+  Value: Office/32x32/doctor.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: |
@@ -20,7 +20,7 @@ SharedFields:
   Value: 800
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "1aa8f848-8e18-4216-a05d-2d41690de7c3"
+  Value: "43028852-cabf-4830-8401-80ee30db2f31"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
   Value: "{F52B3226-389C-4C00-A3D3-0BDDB9352F57}"
@@ -42,11 +42,11 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9a19da0b-ed22-423b-843a-1462e78874d5"
+      Value: "a80ee116-1135-4347-a3f4-977f6717817a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251114T111349Z
+      Value: 20251201T120152Z

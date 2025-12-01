@@ -3,11 +3,30 @@ ID: "b5e64e0c-2252-4ef0-8f81-45c36fc5897a"
 Parent: "e79d8586-d4b5-42f5-aec1-ae82c4f47f0f"
 Template: "ac18eef2-f134-4985-8b74-6ad16cca6577"
 Path: "/sitecore/content/industry-verticals/forma-lux/Data/Hero Banners/The Luminar Collection Banner"
+SharedFields:
+- ID: "00b71f70-411d-4ea1-a423-74ed20b60157"
+  Hint: Image
+  Value: |
+    <image mediaid="0508382f-17c7-41af-98ea-10a30439f3f1" />
+- ID: "d74790ee-7289-4a66-b921-71da75df6cde"
+  Hint: Video
+  Value: |
+    <file mediapath="/Project/industry-verticals/forma-lux/HeroBanners/TheLuminaSofa_vid" mediaid="{060136C7-A616-42C4-B51F-35B4C9F822F8}" src="-/media/060136C7A61642C4B51F35B4C9F822F8.ashx" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "dd795637-8771-4058-bbe6-cf8b57dd55d7"
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1dec177a-1a9b-41cf-a60c-d89f28fa41e8"
+      Hint: Description
+      Value: |
+        <div class="ck-content"><p>A signature piece from the Lumina Collection, crafted to embody timeless design, modular versatility, and sustainable sophistication.</p></div>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251201T094618Z
@@ -21,11 +40,18 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8ca0fdd8-38e0-4195-910e-9eedf9f062fa"
+      Value: "20dcd990-4d7b-439d-b46f-9d29d531fc22"
+    - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
+      Hint: Title
+      Value: Experience Comfort Reimagined
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251201T094618Z
+      Value: 20251201T123143Z
+    - ID: "e3c72e5d-cbf1-4af8-8a73-dc4d3c8590f3"
+      Hint: CtaLink
+      Value: |
+        <link linktype="external" url="Explore The Lumina Sofa" target="" text="Explore The Lumina Sofa" title="" class=""/>
