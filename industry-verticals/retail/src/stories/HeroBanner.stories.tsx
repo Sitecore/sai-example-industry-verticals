@@ -12,6 +12,7 @@ type StoryProps = ComponentProps<typeof HeroBanner> & {
   withPlaceholder?: boolean;
   reverseLayout?: boolean;
   withoutGradientOverlay?: boolean;
+  screenLayer?: boolean;
 };
 
 const meta = {
@@ -28,6 +29,13 @@ const meta = {
     },
     withoutGradientOverlay: {
       name: 'Without Gradient Overlay',
+      control: {
+        type: 'boolean',
+      },
+      defaultValue: false,
+    },
+    screenLayer: {
+      name: 'Screen Layer',
       control: {
         type: 'boolean',
       },
@@ -53,6 +61,7 @@ const meta = {
     withoutGradientOverlay: false,
     reverseLayout: false,
     withPlaceholder: false,
+    screenLayer: false,
   },
   parameters: {
     layout: 'fullscreen',
@@ -101,6 +110,7 @@ export const Default: Story = {
         baseParams.styles,
         args.hideAccentLine && CommonStyles.HideAccentLine,
         args.withoutGradientOverlay && HeroBannerStyles.HideGradientOverlay,
+        args.screenLayer && HeroBannerStyles.ScreenLayer,
         args.reverseLayout && LayoutStyles.Reversed,
         args.withPlaceholder && HeroBannerStyles.WithPlaceholder
       ),
@@ -120,6 +130,7 @@ export const WithTopContent: Story = {
         baseParams.styles,
         args.hideAccentLine && CommonStyles.HideAccentLine,
         args.withoutGradientOverlay && HeroBannerStyles.HideGradientOverlay,
+        args.screenLayer && HeroBannerStyles.ScreenLayer,
         args.reverseLayout && LayoutStyles.Reversed,
         args.withPlaceholder && HeroBannerStyles.WithPlaceholder
       ),

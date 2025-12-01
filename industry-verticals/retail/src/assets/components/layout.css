@@ -115,3 +115,13 @@
 .position-center select {
   text-align-last: center !important;
 }
+
+.container-dark-background .shim {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 50px;
+}
+
+.shim {
+  background: rgba(255, 255, 255, 0.4);
+  padding: 50px;
+}
