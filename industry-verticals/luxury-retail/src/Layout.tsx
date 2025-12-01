@@ -3,7 +3,7 @@
  */
 import React, { JSX } from 'react';
 import Head from 'next/head';
-import { Placeholder, Field, Page } from '@sitecore-content-sdk/nextjs';
+import { Placeholder, Field, Page, ImageField } from '@sitecore-content-sdk/nextjs';
 import Scripts from 'src/Scripts';
 import SitecoreStyles from 'src/components/content-sdk/SitecoreStyles';
 import { DesignLibraryLayout } from './DesignLibraryLayout';
@@ -15,6 +15,11 @@ interface LayoutProps {
 interface RouteFields {
   [key: string]: unknown;
   Title?: Field;
+  metadataTitle?: Field;
+  metadataKeywords?: Field;
+  metadataDescription?: Field;
+  pageSummary?: Field;
+  ogImage?: ImageField;
 }
 
 const Layout = ({ page }: LayoutProps): JSX.Element => {
@@ -23,6 +28,14 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
   const fields = route?.fields as RouteFields;
   const mainClassPageEditing = mode.isEditing ? 'editing-mode' : 'prod-mode';
 
+  const metaDescription =
+    fields?.metadataDescription?.value?.toString() || fields?.pageSummary?.value?.toString() || '';
+  const metaKeywords = fields?.metadataKeywords?.value?.toString() || '';
+  const ogTitle = fields?.metadataTitle?.value?.toString() || 'Page';
+  const ogImage = fields?.ogImage?.value?.src;
+  const ogDescription =
+    fields?.metadataDescription?.value?.toString() || fields?.pageSummary?.value?.toString() || '';
+
   return (
     <>
       <Scripts />
@@ -30,6 +43,12 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
       <Head>
         <title>{fields?.Title?.value?.toString() || 'Page'}</title>
         <link rel="icon" href="/favicon.ico" />
+        {metaDescription && <meta name="description" content={metaDescription} />}
+        {metaKeywords && <meta name="keywords" content={metaKeywords} />}
+        <link rel="icon" href="/favicon.ico" />
+        {ogTitle && <meta property="og:title" content={ogTitle} />}
+        {ogDescription && <meta property="og:description " content={ogDescription} />}
+        {ogImage && <meta property="og:image" content={ogImage} />}
       </Head>
 
       {/* root placeholder for the app, which we add components to using route data */}
