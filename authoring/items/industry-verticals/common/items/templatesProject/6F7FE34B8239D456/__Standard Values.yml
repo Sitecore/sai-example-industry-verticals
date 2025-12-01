@@ -2,7 +2,7 @@
 ID: "941c726d-21a6-4a7d-b3f6-6e9ca7667dcb"
 Parent: "29c25d85-4ce4-4ee4-a311-7a9ada139bd3"
 Template: "29c25d85-4ce4-4ee4-a311-7a9ada139bd3"
-Path: "/sitecore/templates/Project/industry-verticals/Components/Products/Selected Products/Related Products Folder/__Standard Values"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Products/Selected Products/Selected Products Folder/__Standard Values"
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters

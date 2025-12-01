@@ -1,41 +1,48 @@
 ﻿---
-ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
-Parent: "683db553-4524-47e9-b05b-7f8422c6c5dc"
+ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+Parent: "0ac18c87-1f93-4290-a62b-6e7eac9e0d1b"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: "/sitecore/templates/Project/industry-verticals/Page/Content/Title"
+Path: "/sitecore/templates/Project/industry-verticals/Page/Metadata/metadataDescription"
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: "Single-Line Text"
+  Value: "Multi-Line Text"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 1
+  Value: 200
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "fad5daab-1785-46d6-8eef-635a70374561"
+  Value: "650b43f0-6ce6-4b59-a6c5-a547e47f9267"
 Languages:
 - Language: en
+  Fields:
+  - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
+    Hint: Title
+    Value: Description
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "cfc5e5f8-7795-4d61-bf35-f90a853fab9b"
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250820T091620Z
+      Value: 20251201T111207Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\jeral.sandeeptha@sitecore.com
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\jeral.sandeeptha@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7c9a8836-a378-429a-945b-9f0bd95e6b70"
+      Value: "0af4ee56-9287-40d4-8392-3e95ec530ee1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251201T111432Z
+      Value: 20251201T111531Z

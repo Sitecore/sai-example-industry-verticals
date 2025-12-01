@@ -2,7 +2,7 @@
 ID: "33621d56-4dd3-4a0b-99a9-8f9bc9ee1132"
 Parent: "8fa0b406-061c-4f22-8a46-d8e804d0286a"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: "/sitecore/templates/Project/industry-verticals/Components/Products/Selected Products/Rendering Parameters/Related Products Parameters/Params"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Products/Selected Products/Rendering Parameters/Selected Products Parameters/Params"
 Languages:
 - Language: en
   Versions:

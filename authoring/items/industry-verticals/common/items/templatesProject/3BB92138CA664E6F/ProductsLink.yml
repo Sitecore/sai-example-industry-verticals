@@ -1,21 +1,21 @@
 ﻿---
-ID: "c3fb8c52-2f64-45bc-9970-ea340d7271fa"
+ID: "7a6784c9-46c6-4781-86c3-c482f3ef62e6"
 Parent: "5820518e-f74f-4fad-8765-a9ec8c529d47"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: "/sitecore/templates/Project/industry-verticals/Components/Products/Selected Products/Related Products/Data/ProductsList"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Products/Selected Products/Selected Products/Data/ProductsLink"
 SharedFields:
 - ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
   Hint: Source
-  Value: "query:$site/*[@@name='Home']//*[@@templatename='ProductPage']"
+  Value: "query:$linkableHomes"
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: Treelist
+  Value: General Link
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 1000
+  Value: 900
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "036bfb85-2a5e-45ff-9add-14ec7c2de564"
+  Value: "87327cbe-9053-468e-b8ce-c753e083a803"
 Languages:
 - Language: en
   Versions:
@@ -23,7 +23,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250925T125521Z
+      Value: 20250925T125242Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -34,11 +34,11 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8aa856d4-dc59-46ba-861a-fec377dd9a2f"
+      Value: "2bb8e004-32bb-4a1f-942c-62db4d95f2a6"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250925T125620Z
+      Value: 20250925T125619Z

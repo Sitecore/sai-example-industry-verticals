@@ -2,7 +2,7 @@
 ID: "53d0df0a-b9c3-4a83-9150-37c68259f6ab"
 Parent: "5820518e-f74f-4fad-8765-a9ec8c529d47"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: "/sitecore/templates/Project/industry-verticals/Components/Products/Selected Products/Related Products/Data/Title"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Products/Selected Products/Selected Products/Data/Title"
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
