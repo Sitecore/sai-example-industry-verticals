@@ -10,6 +10,22 @@ import * as SocialFollow from 'src/components/social-follow/SocialFollow';
 import * as SocialFeed from 'src/components/social-feed/SocialFeed';
 import * as SelectedProducts from 'src/components/selected-products/SelectedProducts';
 import * as SectionWrapper from 'src/components/section-wrapper/SectionWrapper';
+import * as SuggestionBlock from 'src/components/search/SuggestionBlock';
+import * as Spinner from 'src/components/search/Spinner';
+import * as SortOrder from 'src/components/search/SortOrder';
+import * as SearchResultsComponent from 'src/components/search/SearchResultsComponent';
+import * as SearchResults from 'src/components/search/SearchResults';
+import * as SearchPagination from 'src/components/search/SearchPagination';
+import * as SearchFacets from 'src/components/search/SearchFacets';
+import * as ResultsPerPage from 'src/components/search/ResultsPerPage';
+import * as QuestionsAnswers from 'src/components/search/QuestionsAnswers';
+import * as QueryResultsSummary from 'src/components/search/QueryResultsSummary';
+import * as PreviewSearch from 'src/components/search/PreviewSearch';
+import * as HomeHighlighted from 'src/components/search/HomeHighlighted';
+import * as Filter from 'src/components/search/Filter';
+import * as CardViewSwitcher from 'src/components/search/CardViewSwitcher';
+import * as ArticleHorizontalCard from 'src/components/search/ArticleHorizontalCard';
+import * as ArticleCard from 'src/components/search/ArticleCard';
 import * as RowSplitter from 'src/components/row-splitter/RowSplitter';
 import * as RichText from 'src/components/rich-text/RichText';
 import * as Reviews from 'src/components/reviews/Reviews';
@@ -48,6 +64,22 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['SocialFeed', { ...SocialFeed }],
   ['SelectedProducts', { ...SelectedProducts }],
   ['SectionWrapper', { ...SectionWrapper }],
+  ['SuggestionBlock', { ...SuggestionBlock }],
+  ['Spinner', { ...Spinner }],
+  ['SortOrder', { ...SortOrder }],
+  ['SearchResultsComponent', { ...SearchResultsComponent }],
+  ['SearchResults', { ...SearchResults }],
+  ['SearchPagination', { ...SearchPagination }],
+  ['SearchFacets', { ...SearchFacets }],
+  ['ResultsPerPage', { ...ResultsPerPage }],
+  ['QuestionsAnswers', { ...QuestionsAnswers }],
+  ['QueryResultsSummary', { ...QueryResultsSummary }],
+  ['PreviewSearch', { ...PreviewSearch }],
+  ['HomeHighlighted', { ...HomeHighlighted }],
+  ['Filter', { ...Filter }],
+  ['CardViewSwitcher', { ...CardViewSwitcher }],
+  ['ArticleHorizontalCard', { ...ArticleHorizontalCard }],
+  ['ArticleCard', { ...ArticleCard }],
   ['RowSplitter', { ...RowSplitter }],
   ['RichText', { ...RichText }],
   ['Reviews', { ...Reviews }],
