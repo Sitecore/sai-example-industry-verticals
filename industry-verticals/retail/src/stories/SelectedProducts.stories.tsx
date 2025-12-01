@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 import { ComponentProps } from 'react';
-import { Default as RelatedProducts } from '../components/related-products/RelatedProducts';
+import { Default as SelectedProducts } from '../components/selected-products/SelectedProducts';
 import { CommonParams, CommonRendering } from './common/commonData';
 import { generateId } from './helpers/generateId';
 import { boolToSitecoreCheckbox } from './helpers/boolToSitecoreCheckbox';
@@ -14,7 +14,7 @@ import { createLinkField, createTextField } from './helpers/createFields';
 import { CommonStyles } from '@/types/styleFlags';
 import clsx from 'clsx';
 
-type StoryProps = ComponentProps<typeof RelatedProducts> &
+type StoryProps = ComponentProps<typeof SelectedProducts> &
   BackgroundColorArgs & {
     numberOfProducts: number;
     autoPlay: boolean;
@@ -23,8 +23,8 @@ type StoryProps = ComponentProps<typeof RelatedProducts> &
   };
 
 const meta = {
-  title: 'Products/Related Products',
-  component: RelatedProducts,
+  title: 'Products/Selected Products',
+  component: SelectedProducts,
   tags: ['autodocs'],
   parameters: {
     layout: 'padded',
@@ -67,7 +67,7 @@ const baseParams = {
 
 const baseRendering = {
   ...CommonRendering,
-  componentName: 'Related Products',
+  componentName: 'Selected Products',
   params: baseParams,
 };
 
@@ -76,7 +76,7 @@ export const Default: Story = {
     const uid = generateId();
 
     return (
-      <RelatedProducts
+      <SelectedProducts
         params={{
           ...baseParams,
           Autoplay: boolToSitecoreCheckbox(args.autoPlay),
@@ -90,7 +90,7 @@ export const Default: Story = {
         }}
         rendering={{ ...baseRendering, uid }}
         fields={{
-          Title: createTextField('Related Products'),
+          Title: createTextField('Selected Products'),
           ProductsLink: createLinkField('View All'),
           ProductsList: createProductItems(args.numberOfProducts),
         }}

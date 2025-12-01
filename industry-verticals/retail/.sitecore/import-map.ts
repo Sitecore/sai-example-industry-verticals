@@ -10,14 +10,14 @@ import { useI18n } from 'next-localization';
 import { faFacebookF, faInstagram, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { FacebookIcon, InstagramIcon, LinkedinIcon, TwitterIcon, YoutubeIcon } from '@/assets/icons/social/social';
+import { isParamEnabled } from '@/helpers/isParamEnabled';
 import AccentLine from '@/assets/icons/accent-line/AccentLine';
+import ProductCarousel from 'src/components/non-sitecore/ProductCarousel';
 import { CommonStyles, LayoutStyles, PromoFlags, HeroBannerStyles } from '@/types/styleFlags';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay, A11y, Keyboard } from 'swiper/modules';
 import CarouselButton from 'src/components/non-sitecore/CarouselButton';
 import ReviewCard from 'src/components/non-sitecore/ReviewCard';
-import { isParamEnabled } from '@/helpers/isParamEnabled';
-import ProductCarousel from 'src/components/non-sitecore/ProductCarousel';
 import clsx from 'clsx';
 import { Quote } from '@/assets/icons/quote/Quote';
 import { usePagination } from '@/hooks/usePagination';
@@ -127,9 +127,21 @@ const importMap = [
     ]
   },
   {
+    module: '@/helpers/isParamEnabled',
+    exports: [
+      { name: 'isParamEnabled', value: isParamEnabled },
+    ]
+  },
+  {
     module: '@/assets/icons/accent-line/AccentLine',
     exports: [
       { name: 'default', value: AccentLine },
+    ]
+  },
+  {
+    module: 'src/components/non-sitecore/ProductCarousel',
+    exports: [
+      { name: 'default', value: ProductCarousel },
     ]
   },
   {
@@ -168,18 +180,6 @@ const importMap = [
     module: 'src/components/non-sitecore/ReviewCard',
     exports: [
       { name: 'default', value: ReviewCard },
-    ]
-  },
-  {
-    module: '@/helpers/isParamEnabled',
-    exports: [
-      { name: 'isParamEnabled', value: isParamEnabled },
-    ]
-  },
-  {
-    module: 'src/components/non-sitecore/ProductCarousel',
-    exports: [
-      { name: 'default', value: ProductCarousel },
     ]
   },
   {
