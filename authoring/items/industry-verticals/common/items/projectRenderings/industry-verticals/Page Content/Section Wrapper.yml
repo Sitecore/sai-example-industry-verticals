@@ -15,7 +15,7 @@ SharedFields:
   Value: Office/32x32/gauze_bandage.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Project/retail/Components/Page Content/Section Wrapper/Section Wrapper
+  Value: "/sitecore/templates/Project/industry-verticals/Components/Page Content/Section Wrapper/Section Wrapper"
 - ID: "7d8ae35f-9ed1-43b5-96a2-0a5f040d4e4e"
   Hint: Open Properties after Add
   Value: 0
@@ -33,7 +33,7 @@ SharedFields:
   Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "135fb62f-11c7-423a-84f1-c15a9d499079"
+  Value: "2b18178b-1398-48b6-a563-3cbe86e9a12a"
 - ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
   Hint: OtherProperties
   Value: IsRenderingsWithDynamicPlaceholders=true
@@ -87,14 +87,14 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c9aea1f4-45ae-49f7-a7e5-18b2d8a4ba59"
+      Value: "49ebc9fb-e8f9-4774-a627-3dde0daae95d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251117T095249Z
+      Value: 20251201T101146Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

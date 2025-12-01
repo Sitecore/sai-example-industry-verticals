@@ -15,13 +15,13 @@ SharedFields:
   Value: Office/32x32/window_star.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Project/retail/Components/Page Content/Promo/Promo
+  Value: "/sitecore/templates/Project/industry-verticals/Components/Page Content/Promo/Promo"
 - ID: "7d8ae35f-9ed1-43b5-96a2-0a5f040d4e4e"
   Hint: Open Properties after Add
   Value: 0
 - ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
   Hint: __Read Only
-  Value: 0
+  Value: 
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
   Value: "{E3A40241-78DA-4435-B1AB-B8C641F035D9}"
@@ -33,7 +33,7 @@ SharedFields:
   Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "abb26b74-a1dc-443b-b81e-f06be84e78c0"
+  Value: "f30cd668-73fd-48c7-a0bd-265195edbcb7"
 - ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
   Hint: OtherProperties
   Value: IsRenderingsWithDynamicPlaceholders=true
@@ -71,6 +71,10 @@ Languages:
       Hint: __Updated
       Value: 20250902T113633Z
 - Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "da604418-d6d3-4d9b-a195-1c860aa723ab"
   Versions:
   - Version: 1
     Fields:
@@ -83,14 +87,14 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a693427f-9795-4299-9501-e95c25125b2b"
+      Value: "843dbace-a767-483d-ba06-2ca1110fa2ed"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251120T125548Z
+      Value: 20251201T101110Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

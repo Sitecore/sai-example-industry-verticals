@@ -17,13 +17,13 @@ SharedFields:
   Value: Office/32x32/document_width.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Project/retail/Components/Global Elements/Header Extended/Header Extended
+  Value: "/sitecore/templates/Project/industry-verticals/Components/Global Elements/Header Extended/Header Extended"
 - ID: "7d8ae35f-9ed1-43b5-96a2-0a5f040d4e4e"
   Hint: Open Properties after Add
   Value: 0
 - ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
   Hint: __Read Only
-  Value: 0
+  Value: 
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
   Value: "{39BCC290-145F-42A7-AE9C-483F90B111D8}"
@@ -35,7 +35,7 @@ SharedFields:
   Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "f6aafbbd-312f-4230-81dc-b4bc1a992db7"
+  Value: "8a9f0754-c4c7-4c4b-b43b-8e197c8d3b50"
 - ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
   Hint: OtherProperties
   Value: IsRenderingsWithDynamicPlaceholders=true
@@ -76,7 +76,7 @@ Languages:
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "494c78ef-c368-47f3-b4ed-7c681b0287e6"
+    Value: "addcb68f-23b3-4c5b-9c79-fbcb93ac6909"
   Versions:
   - Version: 1
     Fields:
@@ -89,14 +89,14 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "73a5eae8-7770-4a66-8d45-dae39dd14b8d"
+      Value: "66295f50-ea36-420a-bec1-e0152b1da151"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251117T112431Z
+      Value: 20251201T100939Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

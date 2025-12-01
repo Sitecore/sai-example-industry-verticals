@@ -1,0 +1,46 @@
+﻿---
+ID: "0b0fd34d-bcbc-4664-8e66-3f1aa8c3df3a"
+Parent: "054eab04-7cbe-466e-a8a7-889364e15fc9"
+Template: "0cb3fc95-fea8-40eb-9560-158e7d92a3a4"
+Path: "/sitecore/content/industry-verticals/essential-living/Data/Selected Products/Most Popular Vases"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251124T101019Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "53d0df0a-b9c3-4a83-9150-37c68259f6ab"
+      Hint: Title
+      Value: Most popular right now
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a321c900-53c0-4ab4-a697-76451088ef8a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "c3fb8c52-2f64-45bc-9970-ea340d7271fa"
+      Hint: ProductsList
+      Value: |
+        {D3949283-F108-43D6-88AD-26DFEC4AF180}
+        {7799CC81-2DF0-4E5A-9A3B-11DD0B192E2B}
+        {FA19E33E-0E84-4B60-B495-0AFF16A2FDDD}
+        {DC085C0D-E83B-4977-9213-B53F6CCC63CF}
+        {69EC5897-5943-4AC3-85B6-A4A277B065C1}
+        {253A2551-7882-43BB-9ADE-0CACA67EDBBE}
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251124T101150Z
