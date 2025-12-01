@@ -5,6 +5,12 @@ Template: "6f108e3c-5d57-42f8-a910-c22920269b0a"
 Path: "/sitecore/content/industry-verticals/forma-lux/Data/Link Lists/Footer/Footer Services Links/Link 1"
 BranchID: "f2490b61-7d7d-4bbf-8cf6-3b355fdf4ce4"
 SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "94815300-ab25-40fe-8857-aafb0a662ba4"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{0D4590EB-C925-4056-BDB9-222EC424247B}"
@@ -33,14 +39,14 @@ Languages:
         <link linktype="external" url="" target="" text="Email Marketing" title="" class=""/>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "803a13e5-9eee-4a2f-976c-60fe9017d8e0"
+      Value: "daf583d2-5df4-4ac1-b658-6a177c920eb7"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250827T163051Z
+      Value: 20251201T110539Z
 - Language: "es-ES"
   Versions:
   - Version: 1

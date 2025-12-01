@@ -5,11 +5,27 @@ Template: "9f7eb765-4566-4dd5-b74f-8bba6a27ba17"
 Path: "/sitecore/content/industry-verticals/forma-lux/Settings/Retail Site Settings"
 SharedFields:
 - ID: "bd13b584-36a1-4c4e-aa1c-b4689ee2fae8"
-  Hint: Custom CSS
-  Value: 
+  Hint: CustomCSS
+  Value: |
+    --color-foreground: #1a1f2b;
+    --color-foreground-light: #4a5568;
+    --color-foreground-muted: #94a3b8;
+    --color-background: #f8fafc;
+    --color-background-accent: #e2e8f0;
+    --color-background-muted: #edf2f7;
+    --color-background-muted-light: #a0aec0;
+    --color-background-muted-dark: #718096;
+    --color-background-surface: #f1f5f9;
+    --color-accent: #5b9bd5;
+    --color-success: #38b2ac;
+    --color-danger: #e53e3e;
+    --color-border: #d1d5db;
+    --font-heading: 'Montserrat', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
+    --radius-base: 0.5rem;
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "38cc0095-2e60-43e3-8540-c9ed9318a796"
+  Value: "d38ac688-a647-45f9-9d8c-59ec743fc5e6"
 - ID: "f4f80dc4-7985-4bba-a11e-4daebba94481"
   Hint: ThemeDefaults
   Value: |
@@ -39,11 +55,11 @@ Languages:
       Value: 20251117T220631Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bf62e299-1ed3-483a-8963-ce19f76ebab8"
+      Value: "899cbbbe-d406-466d-b4d5-57d5a02eed3d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\INIwVuCCf0fzziGGBdz0UepKJ8K6him7
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251201T071547Z
+      Value: 20251201T102727Z

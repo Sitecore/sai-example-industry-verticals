@@ -1,0 +1,47 @@
+﻿---
+ID: "bb10a2a1-5d84-4e91-a517-76d6af518063"
+Parent: "054eab04-7cbe-466e-a8a7-889364e15fc9"
+Template: "0cb3fc95-fea8-40eb-9560-158e7d92a3a4"
+Path: "/sitecore/content/industry-verticals/essential-living/Data/Selected Products/Most Popular Furniture"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251117T134300Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "53d0df0a-b9c3-4a83-9150-37c68259f6ab"
+      Hint: Title
+      Value: Most popular right now
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6838eaeb-a9e0-451e-9ce2-5f60a7cf0b61"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "c3fb8c52-2f64-45bc-9970-ea340d7271fa"
+      Hint: ProductsList
+      Value: |
+        {98C1FCAD-FE74-4ED4-8F01-111693116A33}
+        {12FE9994-88B7-4254-B391-49E9DB6C24EF}
+        {8A15E69A-ABA2-4B97-BCE4-BF2FFF72AA43}
+        {AC52067A-3096-4CAC-890C-C754F96E6798}
+        {5706BF81-99ED-4BE1-B04C-816ACAF56D8B}
+        {B6EF5D55-27BA-4332-B939-46A314E83471}
+        {2E56E9CB-8A54-4AC6-ACEC-87D8151A4321}
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251117T134430Z

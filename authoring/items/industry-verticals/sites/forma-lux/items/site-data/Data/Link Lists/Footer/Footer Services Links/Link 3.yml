@@ -3,6 +3,13 @@ ID: "0cb54aa1-c5d6-4dbd-8037-20596a818c1f"
 Parent: "51692e61-3acc-4907-85cd-a94f5d6fbb05"
 Template: "6f108e3c-5d57-42f8-a910-c22920269b0a"
 Path: "/sitecore/content/industry-verticals/forma-lux/Data/Link Lists/Footer/Footer Services Links/Link 3"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "ffe469ae-6792-4b15-96d9-22ba27aab399"
 Languages:
 - Language: en
   Versions:
@@ -28,14 +35,14 @@ Languages:
         <link linktype="external" url="" target="" text="Branding" title="" class=""/>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "585ca320-9fb7-4eac-ae4d-367d09f5e284"
+      Value: "74bb919c-f0b1-4e89-9bc6-14384d274dce"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250827T163106Z
+      Value: 20251201T110540Z
 - Language: "es-ES"
   Versions:
   - Version: 1

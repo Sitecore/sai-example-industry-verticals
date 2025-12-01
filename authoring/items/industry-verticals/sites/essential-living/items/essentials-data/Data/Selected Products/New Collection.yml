@@ -1,0 +1,45 @@
+﻿---
+ID: "0dc383e4-859a-4630-9089-1538888e542e"
+Parent: "054eab04-7cbe-466e-a8a7-889364e15fc9"
+Template: "0cb3fc95-fea8-40eb-9560-158e7d92a3a4"
+Path: "/sitecore/content/industry-verticals/essential-living/Data/Selected Products/New Collection"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251117T131307Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e153617b-b283-4132-98f0-64733d7fbdad"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "c3fb8c52-2f64-45bc-9970-ea340d7271fa"
+      Hint: ProductsList
+      Value: |
+        {253A2551-7882-43BB-9ADE-0CACA67EDBBE}
+        {D3949283-F108-43D6-88AD-26DFEC4AF180}
+        {E7EBB785-D803-4A10-BCC4-880B87235570}
+        {AC52067A-3096-4CAC-890C-C754F96E6798}
+        {C1916450-B659-4E67-9B88-B5FD71232750}
+        {8A15E69A-ABA2-4B97-BCE4-BF2FFF72AA43}
+        {20775BFC-50D7-4EA4-B9ED-FA330D8E1945}
+        {5D76AAB1-03F4-40CE-A886-33B0379750F6}
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251117T132013Z

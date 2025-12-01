@@ -12,13 +12,13 @@ SharedFields:
   Value: Office/32x32/user_earth.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Project/retail/Components/Navigation/SocialFollow/SocialFollow
+  Value: "/sitecore/templates/Project/industry-verticals/Components/Navigation/SocialFollow/SocialFollow"
 - ID: "7d8ae35f-9ed1-43b5-96a2-0a5f040d4e4e"
   Hint: Open Properties after Add
   Value: 0
 - ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
   Hint: __Read Only
-  Value: 0
+  Value: 
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
   Value: "{B67BEF9A-EC18-4CEC-9334-5BA4218A541B}"
@@ -27,10 +27,10 @@ SharedFields:
   Value: "query:$site/*[@@name='Data']/*[@@templatename='SocialFollow Folder']|query:$sharedSites/*[@@name='Data']/*[@@templatename='SocialFollow Folder']"
 - ID: "c39a90ce-0035-41bb-90f6-3c8a6ea87797"
   Hint: AddFieldEditorButton
-  Value: 0
+  Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "f899c3d0-ec3f-4922-8236-5c7861897002"
+  Value: "fd662b75-766e-4e7c-913e-7ce2d3232981"
 - ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
   Hint: OtherProperties
   Value: IsRenderingsWithDynamicPlaceholders=true
@@ -71,7 +71,7 @@ Languages:
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "e71a4404-90ac-4b5f-9e10-214892731a19"
+    Value: "312ba1bc-7e60-4ae9-89b1-9706fbb17f59"
   Versions:
   - Version: 1
     Fields:
@@ -84,14 +84,14 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b1800b5a-511f-4e4b-b294-a372896fc5b7"
+      Value: "b74620f3-6e0e-4252-a6cb-31059ff6cfae"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251003T131448Z
+      Value: 20251201T101004Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

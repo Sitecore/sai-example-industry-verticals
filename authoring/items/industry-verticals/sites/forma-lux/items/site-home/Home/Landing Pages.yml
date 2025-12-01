@@ -16,7 +16,7 @@ SharedFields:
     <image mediaid="{9766AC43-3CA0-49A6-A724-D9A9C0D11297}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "2835d839-40ac-478f-888d-6ce391c854e9"
+  Value: "f6d1a4ca-c643-45b2-a706-d8dfff9074d8"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -25,10 +25,18 @@ SharedFields:
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
         <r
-          uid="{5BB42638-636A-441E-9556-0C5EF089364E}"
-          s:id="{1DEB067F-0BB1-405E-94F5-2ABB537A6160}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BCFF73B2F-EC37-4A98-A032-154A8741FA50%7D&amp;Styles&amp;NavigationRoot&amp;LevelFrom=%7BA59325BB-5A27-46F9-8110-9D499715F3BE%7D&amp;LevelTo=%7BA59325BB-5A27-46F9-8110-9D499715F3BE%7D&amp;Filter=%7BA0E7FF57-6994-4B09-AA21-104239628D5A%7D&amp;Flattened&amp;AddRoot=1&amp;SerializerFieldNames&amp;RenderingIdentifier&amp;CSSStyles"
+          uid="{1192FE6C-568D-4B61-A982-E2C9DC275C7A}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;BackgroundImage&amp;Styles=%7C%7BB8F669C4-5BCA-4194-86E5-E81B26A07E57%7D%7C%7BD6694EC2-5606-4337-89A2-19B14D3497C9%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
           s:ph="headless-main" />
+        <r
+          uid="{FFDD2189-5D6B-4A73-8FB1-1416FCA3C443}"
+          p:after="*[1=2]"
+          s:ds="e78257e7-f912-4efc-8c7e-3037d8267194"
+          s:id="{4956263D-1195-4D6E-931B-800EA625FF6F}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BF970277B-80F7-41D8-A12F-8BDBE91EA5C3%7D&amp;Styles=%7C%7BB8F669C4-5BCA-4194-86E5-E81B26A07E57%7D%7C%7B429B7A66-0C72-4E18-AFD1-8C27A014A197%7D%7C%7B11343061-70CC-4066-AB3B-E2EEE2A7E3D4%7D%7C%7B833C53AA-A11A-4F7C-972C-A859505FBAC4%7D&amp;RenderingIdentifier&amp;CSSStyles"
+          s:ph="/headless-main/container-1" />
       </d>
     </r>
 Languages:
@@ -58,11 +66,11 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d10caa3c-2475-4195-b02e-90b5a9e0f072"
+      Value: "9dfc013c-b500-4655-a338-5c9918b820c1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251201T083118Z
+      Value: 20251201T092901Z

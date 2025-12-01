@@ -12,13 +12,13 @@ SharedFields:
   Value: Office/32x32/phone_speech_bubble.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Project/retail/Components/Forms/Contact Form/ContactForm
+  Value: "/sitecore/templates/Project/industry-verticals/Components/Forms/Contact Form/ContactForm"
 - ID: "7d8ae35f-9ed1-43b5-96a2-0a5f040d4e4e"
   Hint: Open Properties after Add
   Value: 0
 - ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
   Hint: __Read Only
-  Value: 0
+  Value: 
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
   Value: "{C199DBF8-9D66-4512-9E82-A19FDDBC583F}"
@@ -30,7 +30,7 @@ SharedFields:
   Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "07e5e14e-3e8f-48d3-99e8-831f2ee9fec2"
+  Value: "ec324475-29af-4b1b-9eaa-7bcfe2a6a99f"
 - ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
   Hint: OtherProperties
   Value: IsRenderingsWithDynamicPlaceholders=true
@@ -71,7 +71,7 @@ Languages:
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "619fc149-fcbc-4a16-b7de-d1e54fcac38e"
+    Value: "7adc9cec-cd90-426c-8f99-2f09a465d94c"
   Versions:
   - Version: 1
     Fields:
@@ -84,14 +84,14 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8ea112ae-ed46-4663-a0b3-74dd1c504d11"
+      Value: "02b8b134-4cde-4491-8200-0f439a61b7a7"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251003T131407Z
+      Value: 20251201T100909Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
