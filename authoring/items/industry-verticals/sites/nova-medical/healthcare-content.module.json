@@ -8,31 +8,31 @@
         "name": "healthcare-home",
         "path": "/sitecore/content/industry-verticals/nova-medical/home",
         "scope": "DescendantsOnly",
-        "allowedPushOperations": "CreateOnly"
+        "allowedPushOperations": "CreateAndUpdate"
       },
       {
         "name": "healthcare-media",
         "path": "/sitecore/content/industry-verticals/nova-medical/Media",
         "scope": "DescendantsOnly",
-        "allowedPushOperations": "CreateOnly"
+        "allowedPushOperations": "CreateAndUpdate"
       },
       {
         "name": "healthcare-data",
         "path": "/sitecore/content/industry-verticals/nova-medical/Data",
         "scope": "DescendantsOnly",
-        "allowedPushOperations": "CreateOnly"
+        "allowedPushOperations": "CreateAndUpdate"
       },
       {
         "name": "healthcare-dictionary",
         "path": "/sitecore/content/industry-verticals/nova-medical/Dictionary",
         "scope": "DescendantsOnly",
-        "allowedPushOperations": "CreateOnly"
+        "allowedPushOperations": "CreateAndUpdate"
       },
       {
         "name": "healthcare-presentation",
         "path": "/sitecore/content/industry-verticals/nova-medical/Presentation",
         "scope": "DescendantsOnly",
-        "allowedPushOperations": "CreateOnly"
+        "allowedPushOperations": "CreateAndUpdate"
       }
     ]
   }
