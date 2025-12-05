@@ -20,8 +20,14 @@ import {
   backgroundColorArgTypes,
   defaultBackgroundColorArgs,
 } from './common/commonControls';
+import { boolToSitecoreCheckbox } from './helpers/boolToSitecoreCheckbox';
+import { CommonStyles } from '@/types/styleFlags';
+import clsx from 'clsx';
 
-type StoryProps = ComponentProps<typeof Default> & BackgroundColorArgs;
+type StoryProps = ComponentProps<typeof Default> &
+  BackgroundColorArgs & {
+    hideAccentLine?: boolean;
+  };
 
 const meta = {
   title: 'Page Content/Features',
@@ -32,9 +38,17 @@ const meta = {
   },
   argTypes: {
     ...backgroundColorArgTypes,
+    hideAccentLine: {
+      name: 'Hide Accent Line',
+      control: {
+        type: 'boolean',
+      },
+      defaultValue: false,
+    },
   },
   args: {
     ...defaultBackgroundColorArgs,
+    hideAccentLine: false,
   },
 } satisfies Meta<StoryProps>;
 export default meta;
@@ -58,9 +72,12 @@ export const FeatureDefault: Story = {
         rendering={baseRendering}
         params={{
           ...baseParams,
-          styles: `${baseParams.styles}
-            ${args.BackgroundColor}
-          `,
+          HideAccentLine: boolToSitecoreCheckbox(args.hideAccentLine),
+          styles: clsx(
+            baseParams.styles,
+            args.BackgroundColor,
+            args.hideAccentLine && CommonStyles.HideAccentLine
+          ),
         }}
         fields={createIGQLData({
           count: 3,
