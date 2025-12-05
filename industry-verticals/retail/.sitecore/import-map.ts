@@ -4,8 +4,9 @@ import { combineImportEntries, defaultImportEntries } from '@sitecore-content-sd
 // end of built-in imports
 
 import { Link, Text, useSitecore, RichText, NextImage, Placeholder, Image, CdpHelper, withDatasourceCheck, DateField } from '@sitecore-content-sdk/nextjs';
-import { useState, useEffect, useMemo, useId, useRef, useCallback } from 'react';
+import { useEffect, useState, useMemo, useId, useRef, useCallback } from 'react';
 import React from 'react';
+import Head from 'next/head';
 import { useI18n } from 'next-localization';
 import { faFacebookF, faInstagram, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -55,7 +56,6 @@ import { useRouter } from 'next/router';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from 'src/shadcn/components/ui/select';
 import { localeOptions } from '@/constants/localeOptions';
 import { generateIndexes } from '@/helpers/generateIndexes';
-import Head from 'next/head';
 import client from 'lib/sitecore-client';
 import Image_5d8ce56058442d94361877e28c501c951a554a6a from 'next/image';
 import * as FEAAS from '@sitecore-feaas/clientside/react';
@@ -85,13 +85,19 @@ const importMap = [
   {
     module: 'react',
     exports: [
-      { name: 'useState', value: useState },
       { name: 'useEffect', value: useEffect },
+      { name: 'useState', value: useState },
       { name: 'useMemo', value: useMemo },
       { name: 'useId', value: useId },
       { name: 'useRef', value: useRef },
       { name: 'useCallback', value: useCallback },
       { name: 'default', value: React },
+    ]
+  },
+  {
+    module: 'next/head',
+    exports: [
+      { name: 'default', value: Head },
     ]
   },
   {
@@ -436,12 +442,6 @@ const importMap = [
     module: '@/helpers/generateIndexes',
     exports: [
       { name: 'generateIndexes', value: generateIndexes },
-    ]
-  },
-  {
-    module: 'next/head',
-    exports: [
-      { name: 'default', value: Head },
     ]
   },
   {
