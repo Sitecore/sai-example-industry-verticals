@@ -16,7 +16,7 @@ SharedFields:
     <image mediaid="{64887F04-BD8E-4095-BC42-5324F51DCF87}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "332518c1-f434-4a57-8af7-1ffd8a6ba883"
+  Value: "4f2a8792-6243-4e8d-b4aa-ee05e1ab3396"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -25,7 +25,7 @@ SharedFields:
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
         <r
-          uid="{E8C94B8B-CD55-47A8-9F38-3DD712CAC7AC}"
+          uid="{30ACA572-3C1B-494E-B907-D96F014B8CDB}"
           s:ds="a08045f1-6d55-4a11-8352-0c5ba319bfaa"
           s:id="{E3CCF1D0-7855-4898-8BDE-77F83C6A487C}"
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B4475AE6C-68CF-4E03-B39D-D80DBC77A4C4%7D&amp;Styles=%7C%7B6B4FBF1C-88C2-42CE-BE88-AB3485078363%7D&amp;RenderingIdentifier&amp;CSSStyles"
@@ -55,11 +55,9 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{4A83754B-D385-4A77-A694-698E270C2558}"
-              s:ds="cbf5817c-a413-4310-9bba-43b72ec7f61f"
-              s:id="{E3CCF1D0-7855-4898-8BDE-77F83C6A487C}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B4475AE6C-68CF-4E03-B39D-D80DBC77A4C4%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles"
-              s:ph="headless-main" />
+              uid="{E8C94B8B-CD55-47A8-9F38-3DD712CAC7AC}">
+              <p:d />
+            </r>
           </d>
         </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
@@ -81,11 +79,11 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6e4fbdc5-1ec8-47c9-b140-eb9ecca354c0"
+      Value: "796929ce-6749-4760-bbf1-08d761160875"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251124T104311Z
+      Value: 20251202T085334Z

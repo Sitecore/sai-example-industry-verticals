@@ -8,31 +8,31 @@
         "name": "site-home",
         "path": "/sitecore/content/industry-verticals/forma-lux/home",
         "scope": "DescendantsOnly",
-        "allowedPushOperations": "CreateOnly"
+        "allowedPushOperations": "CreateAndUpdate"
       },
       {
         "name": "site-media",
         "path": "/sitecore/content/industry-verticals/forma-lux/Media",
         "scope": "DescendantsOnly",
-        "allowedPushOperations": "CreateOnly"
+        "allowedPushOperations": "CreateAndUpdate"
       },
       {
         "name": "site-data",
         "path": "/sitecore/content/industry-verticals/forma-lux/Data",
         "scope": "DescendantsOnly",
-        "allowedPushOperations": "CreateOnly"
+        "allowedPushOperations": "CreateAndUpdate"
       },
       {
         "name": "site-dictionary",
         "path": "/sitecore/content/industry-verticals/forma-lux/Dictionary",
         "scope": "DescendantsOnly",
-        "allowedPushOperations": "CreateOnly"
+        "allowedPushOperations": "CreateAndUpdate"
       },
       {
         "name": "site-presentation",
         "path": "/sitecore/content/industry-verticals/forma-lux/Presentation",
         "scope": "DescendantsOnly",
-        "allowedPushOperations": "CreateOnly"
+        "allowedPushOperations": "CreateAndUpdate"
       }
     ]
   }

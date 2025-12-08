@@ -18,7 +18,7 @@ import { useRef, useState } from 'react';
 import { Article } from '@/types/article';
 import Link from 'next/link';
 import { cn } from '@/shadcn/lib/utils';
-import { LayoutStyles } from '@/types/styleFlags';
+import { CommonStyles, LayoutStyles } from '@/types/styleFlags';
 
 interface Fields {
   CarouselTitle: Field<string>;
@@ -41,6 +41,7 @@ export const Default = (props: CarouselProps) => {
   const isReversed = props?.params?.styles?.includes(LayoutStyles.Reversed);
   const swiperFirstRef = useRef<SwiperClass | null>(null);
   const swiperSecondRef = useRef<SwiperClass | null>(null);
+  const hideAccentLine = props.params.styles?.includes(CommonStyles.HideAccentLine);
 
   const handleNext = () => {
     if (currentIndex < articles.length - 1) {
@@ -82,7 +83,7 @@ export const Default = (props: CarouselProps) => {
           <div className="w-full space-y-5 md:w-1/3">
             <h2 className="inline-block max-w-md">
               <Text field={props.fields.CarouselTitle} />
-              <AccentLine className="w-full max-w-xs" />
+              {!hideAccentLine && <AccentLine className="w-full max-w-xs" />}
             </h2>
 
             <div className="max-w-md">

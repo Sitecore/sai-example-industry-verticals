@@ -5,7 +5,7 @@ Template: "9f7eb765-4566-4dd5-b74f-8bba6a27ba17"
 Path: "/sitecore/templates/Project/industry-verticals/Site Settings/__Standard Values"
 SharedFields:
 - ID: "bd13b584-36a1-4c4e-aa1c-b4689ee2fae8"
-  Hint: Custom CSS
+  Hint: CustomCSS
   Value: /* Custom CSS */
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
