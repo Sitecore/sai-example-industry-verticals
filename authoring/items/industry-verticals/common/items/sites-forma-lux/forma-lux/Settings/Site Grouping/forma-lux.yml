@@ -35,6 +35,9 @@ SharedFields:
 - ID: "9eaf6dc9-b811-4cda-9edd-9697faba628a"
   Hint: POS
   Value: "en=forma-lux"
+- ID: "b59e43ab-84da-49f3-87a1-d2fcf648365b"
+  Hint: Scheme
+  Value: https
 - ID: "cb4e9e2e-2b66-43dc-ad3f-9caf363d28d3"
   Hint: SiteName
   Value: "forma-lux"
@@ -43,7 +46,7 @@ SharedFields:
   Value: *
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "b26fb8a6-dce9-4c9c-8478-2b301d2eab36"
+  Value: "aa34acc8-c71c-4ccf-b526-627f76b4357e"
 - ID: "e5b5ccb5-17a1-429d-bd3e-6122b3216e52"
   Hint: TargetHostName
   Value: "sitecore-demo-xm-cloud-industry-vertica-git-618935-sitecoredemo.vercel.app"
@@ -74,11 +77,11 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3045aeab-be86-4039-8794-8bf63c52182d"
+      Value: "e22e9713-65c4-4191-815d-03277a983d52"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\jeral.sandeeptha@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251205T125815Z
+      Value: 20251207T232307Z

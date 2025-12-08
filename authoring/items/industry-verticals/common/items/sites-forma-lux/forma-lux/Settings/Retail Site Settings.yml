@@ -7,25 +7,25 @@ SharedFields:
 - ID: "bd13b584-36a1-4c4e-aa1c-b4689ee2fae8"
   Hint: CustomCSS
   Value: |
-    --color-foreground: #e6eef6;
-    --color-foreground-light: #ffffff;
-    --color-foreground-muted: #9fb3c8;
-    --color-background: #0b1220;
-    --color-background-accent: #0f2638;
-    --color-background-muted: #071018;
-    --color-background-muted-light: #22303b;
-    --color-background-muted-dark: #051018;
-    --color-background-surface: #091826;
-    --color-accent: #4fd1c5;
-    --color-success: #2ecc71;
-    --color-danger: #ff6b6b;
-    --color-border: #16232b;
-    --font-heading: 'Inter', sans-serif;
-    --font-body: 'Inter', sans-serif;
+    --color-foreground: #c125a4;
+    --color-foreground-light: #5a4636;
+    --color-foreground-muted: #a68a6d;
+    --color-background: #fff8f3;
+    --color-background-accent: #fbe4d6;
+    --color-background-muted: #f4e9e2;
+    --color-background-muted-light: #cbb8a6;
+    --color-background-muted-dark: #9e8c7a;
+    --color-background-surface: #fff3e8;
+    --color-accent: #811378;
+    --color-success: #6bbf59;
+    --color-danger: #d95f5f;
+    --color-border: #e6d8c8;
+    --font-heading: 'Pacifico', cursive;
+    --font-body: 'Nunito', sans-serif;
     --radius-base: 0rem;
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "5153fdd3-e7f1-4b57-b290-85aa43e94cbd"
+  Value: "5bc63866-52f8-4565-8554-d004ffc169bb"
 - ID: "f4f80dc4-7985-4bba-a11e-4daebba94481"
   Hint: ThemeDefaults
   Value: |
@@ -197,11 +197,11 @@ Languages:
         
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "af8ecb36-a870-47f3-83a5-9319690c33cc"
+      Value: "1b87be1a-a0a0-491f-a672-eb8892eab406"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\INIwVuCCf0fzziGGBdz0UepKJ8K6him7
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251201T133313Z
+      Value: 20251205T215627Z
