@@ -6,15 +6,13 @@ Path: "/sitecore/layout/Placeholder Settings/Project/industry-verticals/Header E
 SharedFields:
 - ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
   Hint: Placeholder Key
-  Value: "header-nav-{*}"
+  Value: "header-extended-nav-{*}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "d817fdb2-e503-401f-afc3-c899b452e87d"
+  Value: "e683de09-4885-4f9d-a0a9-77a823cdcc24"
 - ID: "e391b526-d0c5-439d-803e-17512eae6222"
   Hint: Allowed Controls
-  Value: |
-    {1DEB067F-0BB1-405E-94F5-2ABB537A6160}
-    {9F65621E-1102-461C-BBEE-3FADCE8E0509}
+  Value: "{9F65621E-1102-461C-BBEE-3FADCE8E0509}"
 Languages:
 - Language: en
   Versions:
@@ -33,11 +31,11 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a3dfa914-e900-48f6-9871-e1285c49ae24"
+      Value: "ba2b2360-694e-48ec-9682-4d27bf8e3d38"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251204T150054Z
+      Value: 20251208T075725Z
