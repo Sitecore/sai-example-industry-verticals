@@ -3,6 +3,16 @@ import Head from 'next/head';
 import { Field } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from 'lib/component-props';
 
+// The type of the obj kept in the FontOptions field
+type FontOptions = {
+  label: string;
+  suffix: string;
+  fonts: {
+    name: string;
+    link: string;
+  }[];
+}[];
+
 interface Fields {
   CustomCSS: Field<string>;
   ThemeDefaults: Field<string>;
@@ -40,7 +50,7 @@ const getSelectedFontNames = (vars: Record<string, string>) => {
 };
 
 // Find matching Google Font links
-const findFontLinks = (fontData: any[], selectedNames: string[]) => {
+const findFontLinks = (fontData: FontOptions, selectedNames: string[]) => {
   const links: string[] = [];
   for (const group of fontData) {
     for (const font of group.fonts) {
@@ -60,7 +70,7 @@ export const Default = (props: ThemeEditorProps): JSX.Element => {
 
   const fonts = useMemo(() => {
     try {
-      return fontOptionsValue ? JSON.parse(fontOptionsValue) : [];
+      return fontOptionsValue ? JSON.parse(fontOptionsValue) : ([] as FontOptions);
     } catch (e) {
       console.error('Invalid JSON in FontOptions:', e);
       return [];
