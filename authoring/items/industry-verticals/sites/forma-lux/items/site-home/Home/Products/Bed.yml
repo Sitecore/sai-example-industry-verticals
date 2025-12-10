@@ -7,13 +7,17 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 100
+- ID: "c17f3d69-c947-45a0-b4f5-cbcdf58e805c"
+  Hint: ogImage
+  Value: |
+    <image mediaid="fdd73121-fdab-4945-a6df-74f4bd343d98" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{D7EFEC39-0118-4288-9D44-84ACBC6DFD2E}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "4122f101-af38-4b8f-92a2-4c910bfefbb2"
+  Value: "7a62ed03-942a-4607-b754-33b9d96ba8a3"
 Languages:
 - Language: en
   Versions:
@@ -22,12 +26,21 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
+    - ID: "1bdb1624-90c5-46d5-968f-0c17c9a816c4"
+      Hint: metadataKeywords
+      Value: "luxury beds, modern bed frames, minimalist bed design, sustainable furniture, wooden bed, handcrafted furniture, bedroom design, timeless comfort, eco-friendly furniture"
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251016T155045Z
+    - ID: "2b03e37f-61d7-4f3c-95fa-7277bfcbff6d"
+      Hint: metadataTitle
+      Value: Luxury Beds
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Bed
+    - ID: "4ff0b19e-04d3-454f-9e63-421c84e00477"
+      Hint: pageSummary
+      Value: The bed collection transforms the bedroom into a calm, restorative space. Built with natural materials and clean lines, each design emphasizes comfort, balance, and the quiet sophistication of timeless craftsmanship.
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -41,14 +54,17 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "70e5a746-ce4d-4978-a0b0-078759cbb9b5"
+      Value: "f7d27b53-9f4c-49fa-91af-1541ea17f85b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
+    - ID: "ca87ddf9-ad6a-47ad-aaea-f411377684a1"
+      Hint: metadataDescription
+      Value: Explore modern beds crafted with natural materials and refined design. Each piece brings balance, serenity, and enduring comfort to the contemporary bedroom.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251128T094400Z
+      Value: 20251210T074946Z
     - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
       Hint: CategoryName
       Value: Bed

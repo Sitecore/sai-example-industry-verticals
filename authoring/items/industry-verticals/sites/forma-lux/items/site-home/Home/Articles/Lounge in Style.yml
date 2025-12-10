@@ -4,6 +4,10 @@ Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
 Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
 Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/Lounge in Style"
 SharedFields:
+- ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
+  Hint: ogImage
+  Value: |
+    <image mediaid="b6d141b0-01f1-4264-a5b8-e914ec236317" />
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
@@ -14,7 +18,7 @@ SharedFields:
     <image mediaid="{83E047CE-4388-4F9C-A397-2C25785A25E4}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "304a33b9-c54e-422c-bb31-9cff1cda2f8d"
+  Value: "1312e889-e618-4394-9f7f-ee19f489e40d"
 Languages:
 - Language: en
   Fields:
@@ -30,6 +34,9 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: Learn how to select the ideal modern sofa for your home. Explore tips on size, configuration, fabric choices, and styling with pillows, throws, and coffee tables to make your sofa the design hero.
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251128T084006Z
@@ -53,16 +60,25 @@ Languages:
       Value: |
         From scale to fabric, here’s how to get the sofa choice just right.
         
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: Learn how to select the ideal modern sofa for your home. Explore tips on size, configuration, fabric choices, and styling with pillows, throws, and coffee tables to make your sofa the design hero.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "693a2489-8294-4ff4-b38e-9088c4783513"
+      Value: "769d5f55-09e3-4995-8a4d-0e2edb8b9023"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "Lounge in Style: Choosing the Right Modern Sofa for Your Space"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251128T092400Z
+      Value: 20251210T091340Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: "Lounge in Style: Choosing the Right Modern Sofa for Your Space"
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: modern sofa design, sofa size guide, sofa configuration ideas, sectional sofa tips, single sofa layout, two sofas facing design, performance fabric sofas, full grain leather sofa, timeless sofa materials, low profile sofa style, clean arm sofa design, exposed base sofa, modern living room seating, sofa styling tips, contrasting texture pillows, decorative throws for sofas, modern coffee table pairing, living room layout ideas, design hero sofa concept, contemporary sofa trends

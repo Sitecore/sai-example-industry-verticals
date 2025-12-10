@@ -67,9 +67,15 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251016T130943Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: "Madrid Sectional Sofa | Forma Lux – Spacious L-Shaped Sofa with Chaise Lounge"
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
       Value: A spacious sectional sofa with a chaise lounge.
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: "Madrid Sectional Sofa, L-shaped sofa, sectional couch, chaise lounge, family sofa, modern living room furniture, durable upholstery, Forma Lux shop"
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
       Value: 1499
@@ -84,9 +90,16 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: "The Madrid Sectional Sofa by Forma Lux combines generous seating with refined design. Its L-shaped form and chaise lounge create the perfect balance of comfort, versatility, and modern style."
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="929b4212-caa8-4885-a12e-9a40ffc4d837" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e5d45d3d-ea6d-4f09-8198-426032358ccc"
+      Value: "88ba3e4b-46de-45db-9cca-d3f3ca3a2b11"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -96,7 +109,10 @@ Languages:
       Value: Madrid Sectional Sofa
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251017T154206Z
+      Value: 20251210T081629Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: "<p>The Madrid Sectional Sofa offers ample seating with its L-shaped design. Upholstered in durable polyester, it’s perfect for family gatherings and movie nights. The chaise lounge adds extra comfort.</p>"
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: "Expansive and inviting, the Madrid Sectional Sofa embodies Forma Lux’s philosophy of effortless comfort and crafted function. Its L-shaped silhouette and integrated chaise lounge provide ample space for gatherings, while durable polyester upholstery ensures longevity and softness. Available in Black, Indigo, and White, and in Large or Extra Large sizes, Madrid is designed for connection — whether for lively family moments or quiet evenings in. It’s a study in balance: generous proportions, minimalist form, and enduring comfort."

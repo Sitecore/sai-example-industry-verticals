@@ -4,6 +4,10 @@ Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
 Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
 Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/Selecting the perfect couch"
 SharedFields:
+- ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
+  Hint: ogImage
+  Value: |
+    <image mediaid="cae9b6a1-ddd1-47e6-983a-b45c3f95a99b" />
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
@@ -14,7 +18,7 @@ SharedFields:
     <image mediaid="{7D455C1D-E594-4F77-8D7B-7FF624FDA0AA}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "3c2e5388-df95-4ce1-a0f2-c7a41cafee03"
+  Value: "8e2366c6-8f29-4d08-9d6f-e944beaf6595"
 Languages:
 - Language: en
   Versions:
@@ -23,6 +27,18 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: |
+        In pursuit of tranquil sophistication, Forma Lux offers couches embodying elegance and functionality. Our pieces blend modern European design, craftsmanship, and minimalism, creating refined living spaces.
+        
+        Choosing the perfect couch involves reflecting on your space's soul, advocating for designs that inspire calm and redefine luxury through timeless artistry. Consider form and function's dialogue, where bold elements meet graceful curves.
+        
+        Sustainability and integrity drive our ethos, offering couches crafted with natural materials and ethical practices that resonate with your values and endure time. Whether you're a 'Conscious Minimalist' or an 'Urban Visionary,' our collection caters to diverse tastes.
+        
+        Integrating Forma Lux's timeless pieces elevates living beautifully, as a couch transcends furniture and becomes self-expression. True luxury focuses on beauty and functionality over fleeting trends.
+        
+        Reflect your unique taste and tranquility with couches echoing refined modern design principles, shaping spaces with soul and substance, where elegance and functionality coexist harmoniously.
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251128T084006Z
@@ -44,9 +60,12 @@ Languages:
     - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
       Hint: ShortDescription
       Value: "Choosing the Perfect Couch: A Reflection of Elegance and Functionality"
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: In pursuit of tranquil sophistication, Forma Lux offers couches embodying elegance and functionality. Our pieces blend modern European design, craftsmanship, and minimalism, creating refined living spaces.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a604d975-4d07-47fe-8d03-1ff8b79e5172"
+      Value: "a911fdc6-7100-4fe8-a279-3e41b3478fbf"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: Selecting the perfect couch
@@ -56,4 +75,10 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251128T084111Z
+      Value: 20251210T091652Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: Selecting the perfect couch
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: "Tranquil spaces, sophistication, couch cornerstone, style and purpose, Forma Lux, ideal couch, elegance and functionality, aesthetic appeal, practical ease, modern European design, craftsmanship, minimalism, refined living, thoughtful reflection, soul and substance, quiet luxury, designs that inspire calm, traditional luxury, timeless artistry, simplicity, form and function, bold sculptural elements, graceful curves, artisanal craftsmanship, sustainability, integrity, natural materials, ethical production practices, resonate values, test of time, Conscious Minimalist, clean lines, natural textures, Urban Visionary, modular designs, diverse personas, timeless pieces, living environment, art of living beautifully, canvas of self-expression, elegance and livability, true luxury, fleeting trends, enduring beauty and functionality, unique taste, tranquil sensibility, refined modern design, shape your space, soul and substance, elegance and functionality coexist."
