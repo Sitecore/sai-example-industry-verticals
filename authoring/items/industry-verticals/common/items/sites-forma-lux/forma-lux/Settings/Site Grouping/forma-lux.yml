@@ -31,7 +31,7 @@ SharedFields:
   Value: 1
 - ID: "8e0dd914-9afb-4d45-bf8b-7ff5d6e5337e"
   Hint: HostName
-  Value: 
+  Value: *
 - ID: "9eaf6dc9-b811-4cda-9edd-9697faba628a"
   Hint: POS
   Value: "en=forma-lux"
@@ -46,7 +46,7 @@ SharedFields:
   Value: *
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "411d228c-a9c8-440e-ac50-26abccbbaf50"
+  Value: "81059496-1736-4121-8506-8de8c2d17895"
 - ID: "e5b5ccb5-17a1-429d-bd3e-6122b3216e52"
   Hint: TargetHostName
   Value: 
@@ -77,11 +77,11 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f12fcb60-d58d-4690-bcff-61d2a74da3b1"
+      Value: "4d56d8b0-8dc3-4df7-8778-5b5a6c4bbb9d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251210T085557Z
+      Value: 20251211T090410Z
