@@ -51,13 +51,13 @@ export const DefaultHeaderExtended = (props: HeaderProps) => {
         </div>
         <div className="order-last lg:order-0 lg:mr-4 xl:mr-8">
           <Placeholder
-            name={`header-nav-${props?.params?.DynamicPlaceholderId}`}
+            name={`header-extended-nav-${props?.params?.DynamicPlaceholderId}`}
             rendering={props.rendering}
           />
         </div>
         <div className="mx-2 lg:mx-0">
           <Placeholder
-            name={`header-theme-switcher-${props?.params?.DynamicPlaceholderId}`}
+            name={`header-extended-theme-switcher-${props?.params?.DynamicPlaceholderId}`}
             rendering={props.rendering}
           />
         </div>

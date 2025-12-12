@@ -4,6 +4,10 @@ Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
 Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
 Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/Sustainable Style"
 SharedFields:
+- ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
+  Hint: ogImage
+  Value: |
+    <image mediaid="0403bb06-cdda-4227-a4c4-8c1239b15952" />
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
@@ -14,7 +18,7 @@ SharedFields:
     <image mediaid="{CF28F9CA-EF7C-400A-BE5A-6451276C64E1}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "d467b0b4-321f-4914-a817-57628070fd4b"
+  Value: "467418a9-4198-44ca-bcda-4ad7a64d87b1"
 Languages:
 - Language: en
   Fields:
@@ -30,6 +34,9 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: "Discover how to choose furniture that looks good and does good. Explore responsibly-sourced wood, low-VOC finishes, recycled materials, and durable construction for a stylish, sustainable home."
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251128T082739Z
@@ -51,9 +58,12 @@ Languages:
     - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
       Hint: ShortDescription
       Value: "Green design doesn’t mean compromising look—explore eco-friendly materials and methods."
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: "Discover how to choose furniture that looks good and does good. Explore responsibly-sourced wood, low-VOC finishes, recycled materials, and durable construction for a stylish, sustainable home."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f2f95503-2c40-4de5-8e96-8f5b9dfaab88"
+      Value: "1e88d5c8-e289-4699-a6f9-814d067df947"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "Sustainable Style: Modern Furniture That’s Good for the Planet"
@@ -63,4 +73,10 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251128T084156Z
+      Value: 20251210T091842Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: "Sustainable Furniture Choices: Modern Design That Reflects Your Values"
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: "sustainable furniture design, eco-friendly furniture choices, responsibly sourced wood, low-VOC finishes, recycled metal furniture, sustainable textiles, certified sustainable fabrics, modern sustainable furniture, material honesty in design, simplicity in furniture design, durable furniture construction, high-quality joinery, long-lasting furniture investment, reduce waste home design, buy less buy well philosophy, sustainable home decor, ethical furniture production, green interior design trends, eco-conscious furniture ideas, modern eco-friendly living"

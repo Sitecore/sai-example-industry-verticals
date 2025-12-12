@@ -32,6 +32,9 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251128T094442Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: The Lumina Tables | Sustainable Nesting Tables by Forma Lux
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
       Value: A pair of nesting tables crafted in natural oak, offering versatile surfaces that complement the Lumina Collection’s soft forms and warm palette.
@@ -49,9 +52,16 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: Discover The Lumina Tables from Forma Lux — a pair of handcrafted nesting tables designed with timeless simplicity and sustainable materials. Elegant proportions, natural oak, and enduring craftsmanship define this modern living essential.
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="fcf08c20-c52d-4a24-82e2-36acbb1a2402" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "20147fc7-cdb8-4c2d-a57e-9177137a9ef3"
+      Value: "1b0c8967-278e-4b87-a318-988586dd9d02"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -61,8 +71,11 @@ Languages:
       Value: The Lumina Tables
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251128T094807Z
+      Value: 20251210T080420Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: |
         <div class="ck-content"><p>Designed to harmonize with the Lumina Sofa and Chair, the Lumina Tables are a study in balance and proportion. Each table is handcrafted from sustainably sourced oak with a satin finish that highlights the wood’s natural character. The larger coffee table provides a generous surface for everyday living, while the smaller side table adds functional elegance beside a sofa or reading chair. Together, they create a layered sense of texture and rhythm — an understated centerpiece that completes the Lumina living space.</p></div>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: The Lumina Tables bring harmony and balance to any space, uniting form and function through elegant simplicity. Handcrafted in natural oak with refined proportions and a smooth satin finish, this nesting set complements the Lumina Collection’s serene aesthetic. Designed for versatility and made to last, the Lumina Tables embody the Forma Lux philosophy — timeless design, sustainable craftsmanship, and enduring beauty.

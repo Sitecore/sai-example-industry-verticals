@@ -66,9 +66,15 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251016T131822Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Orion Floor Lamp | Forma Lux – Minimalist Metal Floor Lamp with Adjustable Head
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
       Value: A tall floor lamp with a sleek metal frame
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Orion Floor Lamp, modern floor lamp, adjustable light, minimalist lighting, metal lamp, reading light, living room lighting, Forma Lux shop
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
       Value: 199.99
@@ -83,9 +89,16 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: Illuminate your space with the Orion Floor Lamp by Forma Lux – a tall, sleek metal design with an adjustable head that provides focused light for reading or relaxation.
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="28d22a05-db68-4315-a155-ef51922ef528" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bdacb8ce-1abe-4aba-835a-9d198a64bd45"
+      Value: "0be6ebe2-99b5-4e0b-8346-349da1405255"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -95,7 +108,10 @@ Languages:
       Value: Orion Floor Lamp
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251017T153344Z
+      Value: 20251210T075840Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: <p>The Orion Floor Lamp features a slim, minimalist design with an adjustable head for directional lighting. Perfect for reading corners or modern living rooms.</p>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: Streamlined and sophisticated, the Orion Floor Lamp exemplifies Forma Lux’s mastery of purposeful minimalism. Its slim metal frame and adjustable head deliver directional illumination that adapts to mood and moment. Perfect beside a sofa or armchair, Orion adds quiet structure and soft glow to modern interiors. Available in Gold, Black, and White, and in Small or Medium sizes, it’s an elegant statement of light, balance, and craftsmanship.

@@ -41,9 +41,15 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251128T092723Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: The Lumina Chair
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
       Value: A modern classic, the Lumina Chair combines minimalist design with enduring comfort, featuring a solid oak frame and upholstered seat in soft, neutral tones.
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Limina Chair, Forma Lux, luxury furniture, modern design, European craftsmanship, minimalist style, elegant seating, sustainable materials, timeless elegance, artful elegance, mindful living, architectural design, tranquil spaces, soul and substance, aesthetic excellence, Urban Visionary, Conscious Minimalist, Elevated Homemaker, Modern Collector, premium experiences, quiet design, art of living beautifully
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
       Value: 850
@@ -58,9 +64,16 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: Limina Chair, Forma Lux, luxury furniture, modern design, European craftsmanship, minimalist style, elegant seating, sustainable materials, timeless elegance, artful elegance, mindful living, architectural design, tranquil spaces, soul and substance, aesthetic excellence, Urban Visionary, Conscious Minimalist, Elevated Homemaker, Modern Collector, premium experiences, quiet design, art of living beautifully
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="ae0c4b01-db06-4c77-914a-482444f300de" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5ab7ff17-6aa5-4d65-a3ae-cd8ee176deff"
+      Value: "744be139-aff8-4dcd-9a6c-30652c511ef2"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -70,8 +83,12 @@ Languages:
       Value: The Lumina Chair
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251128T093110Z
+      Value: 20251210T084244Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: |
         <div class="ck-content"><p>The Lumina Chair is designed as a companion to the collection’s signature sofa, embodying the same quiet elegance and timeless construction. Its handcrafted oak frame showcases natural grain and tone, while the cushioned seat and back provide relaxed support for everyday living. Refined yet approachable, this chair is equally suited for a serene reading corner or a conversational living space. Built to last, it’s a piece that blends beauty, comfort, and sustainable integrity.</p></div>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: |
+        Introducing "The Lumina Chair" by Forma Lux, where timeless elegance meets sophisticated craftsmanship. This chair embodies the brand's ethos of shaping tranquil spaces with soul and substance, seamlessly integrating modern European design with sustainable practices. The Lumina Chair transforms any room into a serene haven, providing a refined experience that resonates with the elegance and authenticity of Forma Lux.

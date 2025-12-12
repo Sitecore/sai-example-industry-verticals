@@ -68,9 +68,15 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251016T125259Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: "Kyoto Accent Chair | Forma Lux – Japanese-Inspired Chair with Natural Wood Design"
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
       Value: "A Japanese-inspired accent chair with clean lines and natural wood tones."
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Kyoto Accent Chair, Japanese furniture, accent chair, minimalist design, natural wood tones, cotton upholstery, Forma Lux shop, reading chair
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
       Value: 289
@@ -85,9 +91,16 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: The Kyoto Accent Chair by Forma Lux draws on Japanese design principles with its low profile, angled legs, and soft cotton upholstery — a minimalist piece for serene, modern spaces.
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="dd3eaa5d-fe59-4c73-844a-6d77304c3b05" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "cbe55e9a-40d8-4dee-b68f-eb518237cf92"
+      Value: "e60e1fd7-c3ec-4f92-af66-8f899c274bba"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -97,7 +110,10 @@ Languages:
       Value: Kyoto Accent Chair
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251017T154409Z
+      Value: 20251210T083807Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: "<p>Inspired by traditional Japanese aesthetics, the Kyoto Accent Chair features a low-profile design with a wide seat and angled legs. Upholstered in soft cotton fabric, it’s perfect for reading nooks or minimalist interiors.</p>"
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: "Tranquility meets design precision in the Kyoto Accent Chair. Influenced by Japanese craftsmanship, Kyoto features angled wooden legs, a low, grounding profile, and soft cotton upholstery that invites quiet reflection. Ideal for reading nooks or minimalist interiors, it brings balance and harmony to any setting. Available in Gold, Black, Indigo, and White, and in Medium or Large sizes, this piece expresses Forma Lux’s philosophy: where intentional design and timeless materials create spaces of peace and beauty."

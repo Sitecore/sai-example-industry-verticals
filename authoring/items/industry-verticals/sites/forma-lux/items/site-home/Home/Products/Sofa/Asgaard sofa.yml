@@ -134,9 +134,15 @@ Languages:
     - ID: "29f7d409-6f68-447d-8d7a-ce16df1761f3"
       Hint: Height
       Value: 76 cm
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Asgaard Sofa | Forma Lux – Modern Modular Sofa with Timeless Craftsmanship
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
       Value: "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound."
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Asgaard Sofa, modular sofa, luxury couch, modern living room furniture, handcrafted upholstery, Forma Lux shop, contemporary sofa design, sustainable furniture
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
       Value: 2499.56
@@ -151,6 +157,13 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: The Asgaard Sofa by Forma Lux combines modern modular design with artisan craftsmanship. Elegant lines, premium materials, and deep comfort make it the centerpiece of any contemporary living space.
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="34259610-0d61-4e86-8f34-5e5c1a3ff065" />
     - ID: "67259fe9-9fcd-46f4-b330-5865618a3b8c"
       Hint: Width
       Value: 265.32 cm
@@ -159,7 +172,7 @@ Languages:
       Value: 167 cm
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fed665f5-d59a-46a9-bdd1-d9aca531ed3e"
+      Value: "819faf21-4d39-4d8a-9ede-5891590c75e7"
     - ID: "acbcb630-e684-43ae-bb85-9fc89052c8a9"
       Hint: Weight
       Value: 45 KG
@@ -172,17 +185,20 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Asgaard sofa
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251121T073811Z
+      Value: 20251210T080625Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: |
         <div class="ck-content"><p>Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and takes the show on the road.</p><p>Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.</p></div>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: A statement in both comfort and craft, the Asgaard Sofa represents the essence of Forma Lux living. Designed with modular flexibility and sculpted precision, Asgaard’s clean geometry is softened by rich upholstery and a balanced silhouette. Available in Black, Gold, and Indigo, and in Extra Small, Small, and Medium sizes, it adapts effortlessly to urban lofts or spacious homes. Each detail—from the tailored stitching to the sustainable frame—reflects Forma Lux’s dedication to timeless design and modern comfort.
 - Language: "es-ES"
   Versions:
   - Version: 1
