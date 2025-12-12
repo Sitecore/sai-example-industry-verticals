@@ -124,9 +124,15 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250923T122113Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Baltsar Chair | Forma Lux – Modern Ergonomic Chair with Timeless Elegance
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
       Value: Setting the standard as a leader in modern seating, the Baltsar Chair combines elegance with ergonomic excellence. Its sleek design and superior comfort make it a standout piece in any space.
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Baltsar Chair, modern chair, ergonomic seating, luxury furniture, contemporary chair design, comfortable accent chair, Forma Lux furniture, designer chair
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
       Value: 392
@@ -141,22 +147,32 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: "The Baltsar Chair by Forma Lux combines modern sophistication with ergonomic design. Its sculpted form, durable frame, and high-quality upholstery deliver lasting comfort and timeless appeal."
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="ac31f8b5-1fdf-4669-a774-a8719f015a4d" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "26037822-f494-44bb-8ebb-cb945d4d476d"
+      Value: "b9a4cb5b-cd26-4d52-993c-bbf0ed42bdda"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Baltsar Chair
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251121T112224Z
+      Value: 20251210T083640Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: "<p>Exuding modern sophistication, the Baltsar Chair effortlessly combines sleek design with unparalleled comfort. Its ergonomic structure ensures superior support, making it a perfect addition to both contemporary and classic interiors. </p><p>Crafted with precision, the Baltsar Chair features a durable frame and high-quality upholstery that promise long-lasting use. Its elegant contours not only add a touch of luxury but also provide a welcoming embrace that invites you to sit and unwind. Ideal for any setting, the Baltsar Chair is more than just a seat; it's an invitation to experience style and relaxation like never before.</p>"
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: The Baltsar Chair embodies the perfect balance of design precision and human comfort. Its fluid lines and ergonomic contours reflect Forma Lux’s commitment to craftsmanship that serves both form and function. Upholstered in premium materials and built on a robust frame, Baltsar offers enduring support and elegance. Available in Black and Indigo, and in Extra Small, Large, and Extra Large sizes, it elevates any interior — from refined office settings to serene living spaces — as a symbol of thoughtful modern design.
 - Language: "es-ES"
   Versions:
   - Version: 1

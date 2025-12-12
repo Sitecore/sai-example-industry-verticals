@@ -1,50 +1,36 @@
 ﻿---
-ID: "e03c6aa7-be0b-4ffc-8ebb-6db8fa58b5b4"
-Parent: "091e6e59-b7e5-4eda-b742-ad432a30a34d"
+ID: "21c822b8-ad29-4b39-bf43-baee3882d578"
+Parent: "17862168-9427-4b7d-8b4f-9c5988e9e03a"
 Template: "9f7eb765-4566-4dd5-b74f-8bba6a27ba17"
-Path: "/sitecore/content/industry-verticals/forma-lux/Settings/Retail Site Settings"
+Path: "/sitecore/content/industry-verticals/essential-living/Settings/Theme Settings"
 SharedFields:
 - ID: "bd13b584-36a1-4c4e-aa1c-b4689ee2fae8"
   Hint: CustomCSS
-  Value: |
-    --color-foreground: #c125a4;
-    --color-foreground-light: #5a4636;
-    --color-foreground-muted: #a68a6d;
-    --color-background: #fff8f3;
-    --color-background-accent: #fbe4d6;
-    --color-background-muted: #f4e9e2;
-    --color-background-muted-light: #cbb8a6;
-    --color-background-muted-dark: #9e8c7a;
-    --color-background-surface: #fff3e8;
-    --color-accent: #811378;
-    --color-success: #6bbf59;
-    --color-danger: #d95f5f;
-    --color-border: #e6d8c8;
-    --font-heading: 'Pacifico', cursive;
-    --font-body: 'Nunito', sans-serif;
-    --radius-base: 0rem;
+  Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "5bc63866-52f8-4565-8554-d004ffc169bb"
+  Value: "1a7b76be-ae00-473a-ac68-c746a0281ce9"
 - ID: "f4f80dc4-7985-4bba-a11e-4daebba94481"
   Hint: ThemeDefaults
   Value: |
-    --color-foreground: #1e1e1e;
-    --color-foreground-light: #505050;
-    --color-foreground-muted: #9f9f9f;
-    --color-background: #fff;
-    --color-background-accent: #faf3ea;
-    --color-background-muted: #f7f7f7;
-    --color-background-muted-light: #7a7a7a;
-    --color-background-muted-dark: #666;
-    --color-background-surface: #fafafa;
-    --color-accent: #c1a25f;
+    --color-foreground: #2c2621;
+    --color-foreground-light: #948685;
+    
+    --color-background: #fbfaf9;
+    --color-background-accent: #f9eee6;
+    --color-background-muted: #f5f2f1;
+    
+    --color-accent: #846854;
+    
     --color-success: #2ec1ac;
     --color-danger: #e97171;
-    --color-border: #e8e8e8;
-    --font-heading: 'Manrope', sans-serif;
-    --font-body: 'Manrope', sans-serif;
-    --radius-base: 0.5rem;
+    
+    --color-border: #846854;
+    
+    --font-heading: 'Libre Baskerville', serif;
+    --font-body: 'Poppins', sans-serif;
+    
+    --radius-base: 0rem;
 Languages:
 - Language: en
   Versions:
@@ -197,11 +183,11 @@ Languages:
         
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1b87be1a-a0a0-491f-a672-eb8892eab406"
+      Value: "7ec52a97-32f1-4e6a-aaec-68e61f4983e7"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\INIwVuCCf0fzziGGBdz0UepKJ8K6him7
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251205T215627Z
+      Value: 20251208T141532Z

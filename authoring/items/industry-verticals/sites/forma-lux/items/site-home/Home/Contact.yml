@@ -4,6 +4,10 @@ Parent: "4e869961-efef-4b47-bb69-170a251d689b"
 Template: "98e60957-0783-4a9a-85cc-77dad30e9711"
 Path: "/sitecore/content/industry-verticals/forma-lux/Home/Contact"
 SharedFields:
+- ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
+  Hint: ogImage
+  Value: |
+    <image mediaid="61a831ba-e732-4c02-a04d-e7175d063aac" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 800
@@ -13,7 +17,7 @@ SharedFields:
     <image mediaid="{FE9288F0-C03F-4408-A671-65629A8B7866}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "94fbce2a-31c0-4b20-9e37-edf3cbae8914"
+  Value: "f85c3014-407e-475f-b7c2-9733c6a89db0"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -77,6 +81,9 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250828T111343Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: Contact Forma Lux – Luxury Furniture Inquiries
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Contact
@@ -87,16 +94,19 @@ Languages:
       Hint: Content
       Value: |
         <p style="text-align:center;"><meta charset="utf-8" /><span style="white-space:pre-wrap;">Contact us to publish your content and show ads </span></p><p style="text-align:center;"><span style="white-space:pre-wrap;">to our website and get a good reach.</span></p><p style="text-align:center;">&nbsp;</p>
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: Get in touch with Forma Lux for design consultations, custom furniture solutions or to explore our collections and dealers.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8ac7d27f-1ea7-4359-8c5a-8a254cab689a"
+      Value: "bd6ce3fc-16e9-4c87-85ba-2ee885f1a255"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251128T094406Z
+      Value: 20251210T092253Z
 - Language: "es-ES"
   Versions:
   - Version: 1

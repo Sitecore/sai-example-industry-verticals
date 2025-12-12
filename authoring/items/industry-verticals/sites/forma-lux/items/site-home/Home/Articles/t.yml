@@ -4,6 +4,10 @@ Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
 Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
 Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/t"
 SharedFields:
+- ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
+  Hint: ogImage
+  Value: |
+    <image mediaid="a99d7387-e8db-491d-ad92-a84e7cc3939b" />
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
@@ -14,7 +18,7 @@ SharedFields:
     <image mediaid="{966BAE0C-A670-476A-8695-84442B37752A}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "4159bf4c-96be-491c-8aad-e8ca76724a55"
+  Value: "696f9813-ad35-4e16-96f4-a7d13d664748"
 Languages:
 - Language: en
   Fields:
@@ -30,6 +34,9 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: "Discover how to use bold colors like teal, burnt orange, and chartreuse in modern furniture without overwhelming your space. Learn the 60-30-10 rule, anchoring techniques, and tips for creating fresh, intentional color palettes."
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251128T084006Z
@@ -51,16 +58,25 @@ Languages:
     - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
       Hint: ShortDescription
       Value: Transform a tired, neutral room into a curated modern haven with just a few smart moves
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: "Discover how to use bold colors like teal, burnt orange, and chartreuse in modern furniture without overwhelming your space. Learn the 60-30-10 rule, anchoring techniques, and tips for creating fresh, intentional color palettes."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "317d7ecb-c6cc-400d-b7f2-902b7f851fa3"
+      Value: "3dcaad4f-2727-4ee7-b7ac-b1c1c66396aa"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "From Blank Slate to Bold Space: How to Kick-Off Your Modern Living Room Makeover"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251128T090123Z
+      Value: 20251210T091143Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: "Color Confidence: Bold Hues in Modern Furniture Without Overdoing It"
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: "color confidence, bold hues in furniture, modern furniture color tips, interior color strategy, 60-30-10 color rule, anchoring color in design, neutral and bold color mix, modern home color ideas, teal accent chair, burnt orange sofa, chartreuse ottoman, fresh color palettes, intentional color design, modern interior color trends, light and color pairing, pops of color in furniture"

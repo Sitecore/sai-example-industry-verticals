@@ -64,9 +64,15 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251016T130117Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: "Siena Platform Bed | Forma Lux – Minimalist Low-Profile Wooden Bed"
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
       Value: "A minimalist platform bed with a low-profile design"
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: "Siena Platform Bed, minimalist bed, low-profile bed, solid wood frame, modern platform bed, slatted base bed, contemporary bedroom furniture, Forma Lux shop"
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
       Value: 899.5
@@ -81,9 +87,16 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: "Experience refined simplicity with the Siena Platform Bed by Forma Lux. Crafted from solid wood, its minimalist low-profile design and slatted base deliver timeless form and lasting support."
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="a22a8bae-f510-47b6-9a55-24f9b6d7bb2f" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9adc3dc6-ba7d-493a-a842-144a0c3f914d"
+      Value: "6e49d35d-e675-4fd2-9f69-7f5dcf54afdb"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -93,7 +106,10 @@ Languages:
       Value: Siena Platform Bed
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251017T151748Z
+      Value: 20251210T075429Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: "<p>The Siena Platform Bed features clean lines and a solid wood frame, making it ideal for modern interiors. Its low-profile design eliminates the need for a box spring, while the slatted base provides excellent mattress support.</p>"
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: Pure form, honest materials, and enduring comfort define the Siena Platform Bed. With its low silhouette and precise geometry, Siena reflects Forma Lux’s modern aesthetic—elevated simplicity rooted in craftsmanship. The solid wood frame offers structural integrity and elegance, while the slatted base ensures breathable support. Available in Black and in Small, Medium, or Large sizes, Siena transforms minimalist design into a daily ritual of calm and comfort.
