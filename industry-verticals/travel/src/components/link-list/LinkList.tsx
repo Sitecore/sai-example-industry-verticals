@@ -28,10 +28,12 @@ const LinkListItem = ({
   index,
   total,
   field,
+  className,
 }: {
   index: number;
   total: number;
   field: LinkField;
+  className?: string;
 }) => {
   const classNames = [
     `item${index}`,
@@ -44,8 +46,8 @@ const LinkListItem = ({
 
   return (
     <li className={classNames}>
-      <div className="field-link">
-        <ContentSdkLink field={field} />
+      <div className={`field-link`}>
+        <ContentSdkLink field={field} className={className} />
       </div>
     </li>
   );

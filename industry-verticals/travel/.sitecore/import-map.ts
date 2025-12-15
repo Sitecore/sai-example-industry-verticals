@@ -7,13 +7,14 @@ import { Link, Text, useSitecore, Placeholder, RichText, NextImage, CdpHelper, w
 import { useState, useRef, useEffect } from 'react';
 import React from 'react';
 import { isParamEnabled } from '@/helpers/isParamEnabled';
-import { ChevronDown } from 'lucide-react';
+import { ChevronDown, Plane, CreditCard, Phone, Mail, Facebook, Twitter, Instagram, Youtube } from 'lucide-react';
 import HamburgerIcon from '@/components/non-sitecore/HamburgerIcon';
 import { useClickAway } from '@/hooks/useClickAway';
 import { useStopResponsiveTransition } from '@/hooks/useStopResponsiveTransition';
 import { extractMediaUrl } from '@/helpers/extractMediaUrl';
 import { getLinkContent, getLinkField, isNavLevel, isNavRootItem, prepareFields } from '@/helpers/navHelpers';
 import clsx from 'clsx';
+import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
 import Head from 'next/head';
 import client from 'lib/sitecore-client';
 import Image from 'next/image';
@@ -55,6 +56,14 @@ const importMap = [
     module: 'lucide-react',
     exports: [
       { name: 'ChevronDown', value: ChevronDown },
+      { name: 'Plane', value: Plane },
+      { name: 'CreditCard', value: CreditCard },
+      { name: 'Phone', value: Phone },
+      { name: 'Mail', value: Mail },
+      { name: 'Facebook', value: Facebook },
+      { name: 'Twitter', value: Twitter },
+      { name: 'Instagram', value: Instagram },
+      { name: 'Youtube', value: Youtube },
     ]
   },
   {
@@ -95,6 +104,12 @@ const importMap = [
     module: 'clsx',
     exports: [
       { name: 'default', value: clsx },
+    ]
+  },
+  {
+    module: 'next/link',
+    exports: [
+      { name: 'default', value: Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 },
     ]
   },
   {
