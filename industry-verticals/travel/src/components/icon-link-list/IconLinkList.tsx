@@ -1,6 +1,13 @@
 import React from 'react';
-import { Link as ContentSdkLink, Text as ContentSdkText, LinkField, TextField, ComponentParams, ComponentRendering } from '@sitecore-content-sdk/nextjs';
+import {
+  Link as ContentSdkLink,
+  Text as ContentSdkText,
+  LinkField,
+  ComponentParams,
+  ComponentRendering,
+} from '@sitecore-content-sdk/nextjs';
 import { IGQLTextField } from '@/types/igql';
+import * as LucidIcons from 'lucide-react';
 
 interface IconLink {
   iconName: { jsonValue: { value: string } };
@@ -28,10 +35,12 @@ const IconLinkListItem = ({
   index,
   total,
   field,
+  iconName,
 }: {
   index: number;
   total: number;
   field: LinkField;
+  iconName?: string;
 }) => {
   const classNames = [
     `item${index}`,
@@ -42,9 +51,12 @@ const IconLinkListItem = ({
     .filter(Boolean)
     .join(' ');
 
+  const IconComponent = iconName ? (LucidIcons as any)[iconName] : undefined;
+
   return (
     <li className={classNames}>
-      <div className="field-link">
+      <div className="field-link flex items-center space-x-3">
+        <div className="text-blue-400">{IconComponent && <IconComponent size={20} />}</div>
         <ContentSdkLink field={field} />
       </div>
     </li>
@@ -56,30 +68,27 @@ export const Default = (props: IconLinkListProps) => {
   const styles = `component link-list ${props.params.styles || ''}`.trim();
   const id = props.params.RenderingIdentifier;
 
-  console.log(props);
-
   const renderContent = () => {
     if (!datasource) {
       return <h3>Link List</h3>;
     }
 
+    const links = datasource.children.results.map((element, index) => {
+      return (
+        <IconLinkListItem
+          key={`${index}-${element.link}`}
+          index={index}
+          total={datasource.children.results.length}
+          field={element.link.jsonValue}
+          iconName={element.iconName.jsonValue.value}
+        />
+      );
+    });
+
     return (
       <>
         <ContentSdkText tag="h3" field={datasource.title.jsonValue} />
-        <ul>
-            {
-                datasource.children.results.map((element, index) => {
-                    return (
-                        <IconLinkListItem
-                            key={`${index}-${element.link}`}
-                            index={index}
-                            total={datasource.children.results.length}
-                            field={element.link.jsonValue}
-                        />
-                    )
-                })
-            }
-        </ul>
+        <ul>{links}</ul>
       </>
     );
   };
