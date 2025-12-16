@@ -10,7 +10,7 @@ import {
   createTextField,
 } from './helpers/createFields';
 import { createIGQLData } from './helpers/createIGQLData';
-import { createLinkItems } from './helpers/createItems';
+import { createIconLinkItems, createLinkItems } from './helpers/createItems';
 import { ComponentFields } from '@sitecore-content-sdk/nextjs';
 import clsx from 'clsx';
 
@@ -54,7 +54,7 @@ const baseFields = {
   CookiesText: createLinkField('Cookies'),
   Description: createRichTextField(1),
   Logo: createImageField('logo'),
-  LogoDark: createImageField('logo'), 
+  LogoDark: createImageField('logo'),
 };
 
 const SocialFollowRendering = {
@@ -77,10 +77,26 @@ const LinkListRendering = {
     Styles: 'list-vertical',
   },
   fields: createIGQLData({
-    createItems: createLinkItems,
     count: 3,
     topLevelFields: {},
+    createItems: createLinkItems,
   }) as unknown as ComponentFields,
+};
+
+const IconLinkListRendering = {
+  ...CommonRendering,
+  componentName: 'IconLinkList',
+  params: CommonParams,
+  fields: {
+    data: {
+      datasource: {
+        children: {
+          results: createIconLinkItems(3),
+        },
+        title: createTextField(''),
+      },
+    },
+  } as unknown as ComponentFields,
 };
 
 export const Default: Story = {
@@ -147,7 +163,7 @@ export const WithPlaceholderData: Story = {
           placeholders: {
             [`footer-list-first-${baseParams.DynamicPlaceholderId}`]: [LinkListRendering],
             [`footer-list-second-${baseParams.DynamicPlaceholderId}`]: [LinkListRendering],
-            // [`footer-list-third-${baseParams.DynamicPlaceholderId}`]: [],
+            [`footer-list-third-${baseParams.DynamicPlaceholderId}`]: [IconLinkListRendering],
             [`footer-list-fourth-${baseParams.DynamicPlaceholderId}`]: [SocialFollowRendering],
           },
         }}

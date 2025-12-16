@@ -1,8 +1,8 @@
 ﻿---
-ID: "ecd850eb-e7ac-4d86-b3ae-fb21872d3f28"
+ID: "05a02f88-a1b2-4404-b21f-7f11e361b441"
 Parent: "0160276c-4f3c-4739-b51e-641e4b2b6703"
-Template: "ceebf12e-c01a-4d9f-ab3e-ebb6bcb0c7de"
-Path: "/sitecore/content/industry-verticals/nova-medical/Data/Content Section"
+Template: "6a9bfbd3-33e3-48cd-87b4-d50688d1e02c"
+Path: "/sitecore/content/industry-verticals/nova-medical/Data/Section Wrapper"
 Languages:
 - Language: en
   Versions:
@@ -10,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20251113T113421Z
+      Value: 20251216T103202Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,11 +21,11 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3ab67159-d86b-4a49-8af3-0f4e8e1e4717"
+      Value: "0fa3705c-5a59-41ca-8ccd-6704c40c6620"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251113T113439Z
+      Value: 20251216T103219Z
