@@ -15,7 +15,7 @@ import BlobAccent from '../../assets/shapes/BlobAccent';
 import CurvedClip from '../../assets/shapes/CurvedClip';
 
 interface Fields {
-  Heading: Field<string>;
+  Title: Field<string>;
   Description: RichTextField;
 }
 
@@ -41,13 +41,13 @@ const DefaultContentSection = ({ fields, params, rendering }: ContentSectionProp
       <div className="relative z-10 container">
         <div className="max-w-4xl">
           <h2>
-            <ContentSdkText field={fields.Heading} />
+            <ContentSdkText field={fields.Title} />
           </h2>
           <ContentSdkRichText className="text-lg" field={fields.Description} />
         </div>
       </div>
       <Placeholder
-        name={`content-section-content-${params?.DynamicPlaceholderId}`}
+        name={`section-wrapper-content-${params?.DynamicPlaceholderId}`}
         rendering={rendering}
       />
     </section>
