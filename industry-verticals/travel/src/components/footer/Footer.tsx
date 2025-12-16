@@ -62,8 +62,6 @@ const Footer = (props: FooterProps): JSX.Element => {
     },
   ];
 
-  console.log(props);
-
   return (
     <footer className={`bg-gray-900 py-12 text-white ${sxaStyles}`} id={id}>
       <div className="container mx-auto">
@@ -75,9 +73,9 @@ const Footer = (props: FooterProps): JSX.Element => {
             <div className="flex space-x-2 mb-4 max-w-40">
               <ContentSdkImage field={props.fields.Logo} />
             </div>
-            <p className="text-sm [&_*]:text-gray-400 mb-4">
+            <div className="[&_*]:text-gray-400 mb-4">
               <RichText field={props.fields.Description} />
-            </p>
+            </div>
             <Placeholder name={phKeyFour} rendering={props.rendering} />
           </div>
 

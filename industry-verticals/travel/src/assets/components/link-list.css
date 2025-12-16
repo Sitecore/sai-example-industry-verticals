@@ -9,7 +9,7 @@
   }
 
   ul {
-    @apply flex flex-row flex-wrap gap-4;
+    @apply flex flex-row flex-wrap gap-2 text-gray-400;
   }
 
   a:hover {
