@@ -8,14 +8,13 @@ import {
   LinkField,
   RichTextField,
   Text,
+  useSitecore,
 } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from 'lib/component-props';
-import { isParamEnabled } from '@/helpers/isParamEnabled';
+import { LayoutStyles, PromoFlags } from '@/types/styleFlags';
 
 interface Fields {
   PromoImageOne: ImageField;
-  PromoImageTwo: ImageField;
-  PromoImageThree: ImageField;
   PromoTitle: Field<string>;
   PromoDescription: RichTextField;
   PromoSubTitle: Field<string>;
@@ -28,36 +27,54 @@ export type PromoProps = ComponentProps & {
 
 export const Default = (props: PromoProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-  const isPromoReversed = !isParamEnabled(props.params.Reversed) ? '' : 'order-last';
+  const isPromoReversed = props?.params?.styles?.includes(LayoutStyles.Reversed)
+    ? 'order-last'
+    : '';
+  const hideShadow = props?.params?.styles?.includes(PromoFlags.HidePromoShadows);
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
 
   return (
-    <section className={`${props.params.styles} py-20`} id={id ? id : undefined}>
-      <div className="container grid grid-cols-1 place-items-center gap-10 lg:grid-cols-2">
-        <div className={`${isPromoReversed} relative w-full`}>
-          <div
-            className={`relative z-10 aspect-4/3 w-full max-w-4xl overflow-hidden rounded-2xl shadow-2xl`}
-          >
+    <section
+      className={`${props.params.styles || ''} py-10 lg:min-h-screen lg:py-16`}
+      id={id ? id : undefined}
+    >
+      <div className="container">
+        <div
+          className={`grid grid-cols-1 overflow-hidden rounded-lg border shadow transition-shadow hover:shadow-lg lg:h-screen lg:grid-cols-2 ${hideShadow ? '' : 'shadow hover:shadow-lg'} `}
+        >
+          {/* Image Section */}
+          <div className={`${isPromoReversed} relative h-full w-full lg:h-screen`}>
             <ContentSdkImage
               field={props.fields.PromoImageOne}
-              className="h-full w-full object-cover"
+              className={`h-full w-full object-cover`}
             />
           </div>
-        </div>
 
-        <div className="space-y-5">
-          <div className="eyebrow">
-            <Text field={props.fields.PromoSubTitle} />
+          {/* Text Section */}
+          <div className="font-body relative flex flex-col justify-start p-6 py-8 lg:justify-center lg:p-20 lg:py-10">
+            <div className="flex w-full flex-col">
+              {(props.fields.PromoSubTitle?.value || isPageEditing) && (
+                <div className="text-accent w-full text-sm font-semibold tracking-wide uppercase">
+                  <Text field={props.fields.PromoSubTitle} className="w-full" />
+                </div>
+              )}
+              <div className="w-full space-y-5">
+                <Text field={props.fields.PromoTitle} tag="h3" className="w-full" />
+
+                <div className="text-foreground w-full text-base">
+                  <ContentSdkRichText field={props.fields.PromoDescription} />
+                </div>
+
+                {(props.fields.PromoMoreInfo?.value?.href || isPageEditing) && (
+                  <Link
+                    field={props.fields.PromoMoreInfo}
+                    className="bg-foreground text-background block w-full rounded-lg px-6 py-3 text-center transition-all duration-300 hover:bg-gray-800"
+                  />
+                )}
+              </div>
+            </div>
           </div>
-
-          <h2 className="inline-block max-w-md">
-            <Text field={props.fields.PromoTitle} />
-          </h2>
-
-          <div className="max-w-lg text-lg">
-            <ContentSdkRichText field={props.fields.PromoDescription} />
-          </div>
-
-          <Link field={props.fields.PromoMoreInfo} className="main-btn" />
         </div>
       </div>
     </section>
