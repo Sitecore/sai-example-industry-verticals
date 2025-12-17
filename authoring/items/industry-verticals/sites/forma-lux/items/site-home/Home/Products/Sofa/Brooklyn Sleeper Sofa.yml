@@ -108,3 +108,121 @@ Languages:
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
       Value: "Designed for flexibility without compromise, the Brooklyn Sleeper Sofa reflects Forma Lux’s philosophy of purposeful design. With a smooth pull-out mechanism and soft, durable upholstery, it transitions effortlessly from daytime lounging to nighttime comfort. Ideal for apartments and guest rooms, Brooklyn balances practicality with refined aesthetics. Available in Indigo and Large size, it’s the perfect union of form, function, and quiet luxury — a true testament to how modern furniture can adapt beautifully to contemporary living."
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T131324Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: "Canapé-lit Brooklyn | Forma Lux – Canapé-lit convertible pour un mode de vie moderne"
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Un canapé convertible qui fait aussi office de lit.
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: "Canapé-lit Brooklyn, canapé-lit convertible, canapé-lit, mobilier moderne, vie compacte, revêtement durable, boutique Forma Lux, mobilier multifonctionnel"
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 1099
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Canapé-lit Brooklyn"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="7143ce2d-5fa6-4c30-bcd3-ac5375185602" alt="canapé-lit-brooklyn" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "30b9c169-601b-451d-92dd-0eaab323f41a"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: "Canapé-lit Brooklyn"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T110242Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: "<p>Le canapé-lit Brooklyn est parfait pour les petits espaces. Avec un simple mécanisme de déploiement, il se transforme en un lit confortable. Recouvert d'un tissu durable, il est idéal pour les invités de nuit.</p>"
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: "Conçu pour la flexibilité sans compromis, le canapé-lit Brooklyn reflète la philosophie de Forma Lux en matière de design réfléchi. Avec un mécanisme de déploiement fluide et un revêtement doux et durable, il passe sans effort du salon de jour au confort nocturne. Idéal pour les appartements et les chambres d'amis, Brooklyn équilibre la praticité avec une esthétique raffinée. Disponible en Indigo et en grande taille, c'est l'union parfaite de la forme, de la fonction et du luxe discret — un véritable témoignage de la façon dont le mobilier moderne peut s'adapter magnifiquement à la vie contemporaine."
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T131324Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: "Canapé-lit Brooklyn | Forma Lux – Canapé-lit convertible pour un mode de vie moderne"
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Un canapé convertible qui fait également office de lit.
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: "Canapé-lit Brooklyn, canapé-lit convertible, canapé-lit, mobilier moderne, vie compacte, revêtement durable, boutique Forma Lux, mobilier multifonctionnel"
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 1099
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Canapé-lit Brooklyn"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="7143ce2d-5fa6-4c30-bcd3-ac5375185602" alt="canapé-lit-brooklyn" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f47e739c-253a-4f6c-9b49-49f6bfda895a"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: "Canapé-lit Brooklyn"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T104116Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: "<p>Le canapé-lit Brooklyn est parfait pour les petits espaces. Avec un simple mécanisme de déploiement, il se transforme en un lit confortable. Revêtu d'un tissu durable, il est idéal pour les invités de nuit.</p>"
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: "Conçu pour la flexibilité sans compromis, le canapé-lit Brooklyn reflète la philosophie de Forma Lux en matière de design réfléchi. Avec un mécanisme de déploiement fluide et un revêtement doux et durable, il passe sans effort du salon de jour au confort nocturne. Idéal pour les appartements et les chambres d'amis, Brooklyn équilibre la praticité avec une esthétique raffinée. Disponible en Indigo et en grande taille, c'est l'union parfaite de la forme, de la fonction et du luxe discret — un véritable témoignage de la façon dont le mobilier moderne peut s'adapter magnifiquement à la vie contemporaine."

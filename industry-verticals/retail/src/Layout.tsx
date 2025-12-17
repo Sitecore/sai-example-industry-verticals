@@ -7,6 +7,7 @@ import { Placeholder, Field, Page, ImageField } from '@sitecore-content-sdk/next
 import Scripts from 'src/Scripts';
 import SitecoreStyles from 'src/components/content-sdk/SitecoreStyles';
 import { DesignLibraryLayout } from './DesignLibraryLayout';
+import { useRouter } from 'next/router';
 
 interface LayoutProps {
   page: Page;
@@ -23,6 +24,7 @@ interface RouteFields {
 }
 
 const Layout = ({ page }: LayoutProps): JSX.Element => {
+  const router = useRouter();
   const { layout, mode } = page;
   const { route } = layout.sitecore;
   const fields = route?.fields as RouteFields;
@@ -35,6 +37,8 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
   const ogImage = fields?.ogImage?.value?.src;
   const ogDescription =
     fields?.metadataDescription?.value?.toString() || fields?.pageSummary?.value?.toString() || '';
+  const currentPath = router.asPath;
+  const ogUrl = `${process.env.NEXT_PUBLIC_BASE_URL || ''}${currentPath}`;
 
   return (
     <>
@@ -49,6 +53,9 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
         {ogTitle && <meta property="og:title" content={ogTitle} />}
         {ogDescription && <meta property="og:description " content={ogDescription} />}
         {ogImage && <meta property="og:image" content={ogImage} />}
+        {ogUrl && <meta property="og:url" content={ogUrl} />}
+        {/* Custom meta tag for current relative path - used in Search */}
+        {currentPath && <meta name="page-path" content="{currentPath}" />}
       </Head>
 
       {/* root placeholder for the app, which we add components to using route data */}

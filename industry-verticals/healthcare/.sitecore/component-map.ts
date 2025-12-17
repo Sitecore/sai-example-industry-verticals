@@ -8,6 +8,7 @@ import * as Title from 'src/components/title/Title';
 import * as ThemeSwitcher from 'src/components/theme-switcher/ThemeSwitcher';
 import * as ThemeEditor from 'src/components/theme-editor/ThemeEditor';
 import * as SocialFollow from 'src/components/social-follow/SocialFollow';
+import * as SectionWrapper from 'src/components/section-wrapper/SectionWrapper';
 import * as RowSplitter from 'src/components/row-splitter/RowSplitter';
 import * as RichText from 'src/components/rich-text/RichText';
 import * as Reviews from 'src/components/reviews/Reviews';
@@ -23,7 +24,6 @@ import * as Footer from 'src/components/footer/Footer';
 import * as Features from 'src/components/features/Features';
 import * as DoctorsListing from 'src/components/doctors-listing/DoctorsListing';
 import * as DoctorDetails from 'src/components/doctor-details/DoctorDetails';
-import * as ContentSection from 'src/components/content-section/ContentSection';
 import * as ContentBlock from 'src/components/content-block/ContentBlock';
 import * as Container from 'src/components/container/Container';
 import * as ColumnSplitter from 'src/components/column-splitter/ColumnSplitter';
@@ -36,6 +36,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['ThemeSwitcher', { ...ThemeSwitcher }],
   ['ThemeEditor', { ...ThemeEditor }],
   ['SocialFollow', { ...SocialFollow }],
+  ['SectionWrapper', { ...SectionWrapper, componentType: 'client' }],
   ['RowSplitter', { ...RowSplitter }],
   ['RichText', { ...RichText }],
   ['Reviews', { ...Reviews }],
@@ -51,7 +52,6 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Features', { ...Features, componentType: 'client' }],
   ['DoctorsListing', { ...DoctorsListing }],
   ['DoctorDetails', { ...DoctorDetails }],
-  ['ContentSection', { ...ContentSection, componentType: 'client' }],
   ['ContentBlock', { ...ContentBlock }],
   ['Container', { ...Container }],
   ['ColumnSplitter', { ...ColumnSplitter }],
