@@ -18,10 +18,10 @@ Languages:
   Fields:
   - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
     Hint: Title
-    Value: Acitivity Name
+    Value: Title
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "e063cac7-9472-4101-ab3c-ce27ddb955f3"
+    Value: "2f53a63b-2b73-4554-a763-3a072bb5b311"
   Versions:
   - Version: 1
     Fields:
@@ -38,11 +38,11 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0987747a-8dcd-47bc-8837-2d2c8c5c199b"
+      Value: "4a0be519-40b4-42ff-9065-78591ca449d1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251217T120135Z
+      Value: 20251217T121342Z

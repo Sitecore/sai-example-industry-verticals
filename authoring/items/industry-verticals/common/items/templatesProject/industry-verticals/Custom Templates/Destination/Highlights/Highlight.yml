@@ -6,13 +6,13 @@ Path: "/sitecore/templates/Project/industry-verticals/Custom Templates/Destinati
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Office/32x32/camera.png
+  Value: Office/32x32/pin2.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "1e82a2d6-e270-47f0-802d-87e79781eb25"
+  Value: "6096a989-0dd7-405e-ada6-756349915458"
 Languages:
 - Language: en
   Versions:
@@ -31,11 +31,11 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "684a876d-ec75-4f85-9ab7-8aceab05c273"
+      Value: "0a6dad12-96ff-46d7-afff-91aaab531173"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251217T115732Z
+      Value: 20251217T121030Z
