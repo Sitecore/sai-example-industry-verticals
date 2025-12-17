@@ -1,8 +1,8 @@
 ﻿---
-ID: "ecd850eb-e7ac-4d86-b3ae-fb21872d3f28"
-Parent: "0160276c-4f3c-4739-b51e-641e4b2b6703"
-Template: "ceebf12e-c01a-4d9f-ab3e-ebb6bcb0c7de"
-Path: "/sitecore/content/industry-verticals/nova-medical/Data/Content Section"
+ID: "12bd1dc2-d11c-42d2-8e3b-2d4745b8530b"
+Parent: "4e5ef9cc-8cd0-41e1-8190-71d91f75e901"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: "/sitecore/media library/Project/industry-verticals/skywings/System/E"
 Languages:
 - Language: en
   Versions:
@@ -10,22 +10,22 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20251113T113421Z
+      Value: 20251215T084541Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\neli.kostadinova@sitecore.com
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3ab67159-d86b-4a49-8af3-0f4e8e1e4717"
+      Value: "bc2db0e5-7baf-43d1-b014-758ff6fb4119"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\neli.kostadinova@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251113T113439Z
+      Value: 20251215T084541Z

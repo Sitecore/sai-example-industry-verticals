@@ -80,3 +80,129 @@ Languages:
     - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
       Hint: metadataKeywords
       Value: "color confidence, bold hues in furniture, modern furniture color tips, interior color strategy, 60-30-10 color rule, anchoring color in design, neutral and bold color mix, modern home color ideas, teal accent chair, burnt orange sofa, chartreuse ottoman, fresh color palettes, intentional color design, modern interior color trends, light and color pairing, pops of color in furniture"
+- Language: "fr-CA"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "36131550-16fa-44c4-aca1-bc0c3bb4257b"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Confiance en la couleur Comment utiliser des teintes audacieuses dans les meubles modernes sans en faire trop
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: "Découvrez comment utiliser des couleurs audacieuses comme le bleu sarcelle, l'orange brûlé et le chartreuse dans les meubles modernes sans surcharger votre espace. Apprenez la règle 60-30-10, les techniques d'ancrage et des conseils pour créer des palettes de couleurs fraîches et intentionnelles."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T084006Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Sélectionner le canapé parfait
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p><span style="background-color:rgb(255,255,255);color:rgb(80,80,80);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:Manrope, sans-serif;font-size:18px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Vous avez donc un salon qui fonctionne, mais qui n'inspire pas. Cela change aujourd'hui. Commencez par choisir une pièce maîtresse - peut-être un canapé d'angle élégant dans une couleur audacieuse ou une table basse architecturale aux lignes épurées. Laissez cette pièce guider votre palette. Ensuite, ajoutez du contraste : des textiles doux, des accessoires sculpturaux, un tapis géométrique. L'équilibre est essentiel : associez des tons de bois chauds à des finitions métalliques froides ; mélangez les surfaces brillantes et mates. Et n'oubliez pas l'échelle - de grands meubles invitent au confort, mais un espace ouvert garde les choses aérées. Enfin, personnalisez : ajoutez un objet significatif, une œuvre d'art inhabituelle ou une plante avec du caractère. Le résultat ? Un espace de vie qui reflète votre style et vous fait </span></span><em style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);border:0px solid rgb(232, 232, 232);box-sizing:border-box;color:rgb(80, 80, 80);font-family:Manrope, sans-serif;font-size:18px;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;max-width:100%;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;" data-start="1248" data-end="1254"><em>sentir</em></em><span style="background-color:rgb(255,255,255);color:rgb(80,80,80);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:Manrope, sans-serif;font-size:18px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;"> moderne.</span></span></p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Transformez une pièce neutre et fatiguée en un havre moderne et soigné avec quelques gestes intelligents
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: "Découvrez comment utiliser des couleurs audacieuses comme le bleu sarcelle, l'orange brûlé et le chartreuse dans les meubles modernes sans surcharger votre espace. Apprenez la règle 60-30-10, les techniques d'ancrage et des conseils pour créer des palettes de couleurs fraîches et intentionnelles."
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "698c049f-e348-4ade-8345-53d87ab86112"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "De l'ardoise vierge à l'espace audacieux : Comment démarrer la transformation de votre salon moderne"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T110139Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: "Confiance en la couleur : Teintes audacieuses dans les meubles modernes sans en faire trop"
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: "confiance en la couleur, teintes audacieuses dans les meubles, conseils de couleur pour meubles modernes, stratégie de couleur intérieure, règle de couleur 60-30-10, ancrage de couleur dans le design, mélange de couleurs neutres et audacieuses, idées de couleurs pour maison moderne, fauteuil d'appoint bleu sarcelle, canapé orange brûlé, ottomane chartreuse, palettes de couleurs fraîches, design de couleur intentionnel, tendances de couleur intérieure moderne, association de lumière et de couleur, touches de couleur dans les meubles"
+- Language: "fr-FR"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "2d286c3e-853e-4a0c-9163-400d2acd8f4d"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Confiance en la couleur Comment utiliser des teintes audacieuses dans les meubles modernes sans en faire trop
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: "Découvrez comment utiliser des couleurs audacieuses comme le bleu canard, l'orange brûlé et le chartreuse dans les meubles modernes sans surcharger votre espace. Apprenez la règle 60-30-10, les techniques d'ancrage et des conseils pour créer des palettes de couleurs fraîches et intentionnelles."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T084006Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Sélectionner le canapé parfait
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p><span style="background-color:rgb(255,255,255);color:rgb(80,80,80);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:Manrope, sans-serif;font-size:18px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Vous avez donc un salon qui fonctionne, mais qui n'inspire pas. Cela change aujourd'hui. Commencez par choisir une pièce maîtresse - peut-être un canapé d'angle élégant dans une couleur audacieuse ou une table basse architecturale aux lignes épurées. Laissez cette pièce guider votre palette. Ensuite, ajoutez du contraste : des textiles doux, des accessoires sculpturaux, un tapis géométrique. L'équilibre est essentiel : associez des tons de bois chauds à des finitions métalliques froides ; mélangez des surfaces brillantes avec des surfaces mates. Et n'oubliez pas l'échelle - de grands meubles invitent au confort, mais un espace ouvert garde les choses aérées. Enfin, personnalisez : ajoutez un objet significatif, une œuvre d'art inhabituelle ou une plante avec du caractère. Le résultat ? Un espace de vie qui reflète votre style et vous fait </span></span><em style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);border:0px solid rgb(232, 232, 232);box-sizing:border-box;color:rgb(80, 80, 80);font-family:Manrope, sans-serif;font-size:18px;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;max-width:100%;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;" data-start="1248" data-end="1254"><em>sentir</em></em><span style="background-color:rgb(255,255,255);color:rgb(80,80,80);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:Manrope, sans-serif;font-size:18px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;"> moderne.</span></span></p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Transformez une pièce neutre et fatiguée en un havre moderne et soigné avec quelques gestes astucieux
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: "Découvrez comment utiliser des couleurs audacieuses comme le bleu canard, l'orange brûlé et le chartreuse dans les meubles modernes sans surcharger votre espace. Apprenez la règle 60-30-10, les techniques d'ancrage et des conseils pour créer des palettes de couleurs fraîches et intentionnelles."
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f6a92248-7498-475d-ac20-b3ffd9ce2bb2"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "De la page blanche à l'espace audacieux : Comment démarrer la transformation de votre salon moderne"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T104025Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: "Confiance en la couleur : Teintes audacieuses dans les meubles modernes sans en faire trop"
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: "confiance en la couleur, teintes audacieuses dans les meubles, conseils de couleur pour meubles modernes, stratégie de couleur intérieure, règle de couleur 60-30-10, ancrage de la couleur dans le design, mélange de couleurs neutres et audacieuses, idées de couleurs pour maison moderne, fauteuil d'appoint bleu canard, canapé orange brûlé, ottomane chartreuse, palettes de couleurs fraîches, design de couleur intentionnel, tendances de couleur intérieure moderne, association de lumière et de couleur, touches de couleur dans les meubles"
