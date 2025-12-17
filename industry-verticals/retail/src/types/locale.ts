@@ -1,4 +1,4 @@
-export type AppLocale = 'en' | 'fr-FR' | 'es-ES';
+export type AppLocale = 'en' | 'fr-FR' | 'fr-CA' | 'es-ES';
 
 export type LocaleOption = {
   code: AppLocale;
