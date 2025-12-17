@@ -32,7 +32,7 @@ SharedFields:
     <image mediaid="{DDA99E04-29F7-49E3-BA48-57BD813A3D7B}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "50b14843-1515-4a4b-ac51-09ad4071fef6"
+  Value: "52023518-d741-48c9-a0bb-d9eff6b730f6"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -150,3 +150,131 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251007T081242Z
+- Language: "fr-CA"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "2cd0c727-88b5-4441-859f-0a73e5e6b150"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Le cœur de la pièce : Foyer & Salon"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: "Une étude en équilibre et intention, Le cœur de la pièce : Foyer & Salon capture la philosophie de design fait main de Forma Lux—où chaque poutre, textile et courbe contribue à un ensemble harmonieux. L'histoire se déroule en textures : chêne récupéré et fer, laine et lin, béton et lumière. Cette pièce célèbre comment l'artisanat transforme les matières premières en luxe discret, évoquant chaleur, authenticité et confort intemporel."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250911T094732Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Le cœur de la pièce : Foyer"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><figure class="image image_resized image-style-align-right" style="width:42.48%;"><img class="image_resized" style="aspect-ratio:520/282;" src="-/media/949C1CB9D30246B0AB197E5E2F4B611C.ashx" alt="pexels-vecislavas-popa-1571453 1" width="520" height="282" /></figure><h3>Pièces maîtresses qui suscitent la conversation</h3><p>Un luminaire en fer suspendu attire le regard, planant au-dessus d'une table basse profilée fabriquée à partir de bois flotté. À proximité, une bibliothèque sculpturale contient un mélange de pièces d'art, de plantes et de céramiques, offrant à la fois fonctionnalité et style.</p><p>C'est une disposition bien pensée qui guide naturellement le regard à travers la pièce. Chaque élément de design—qu'il soit structurel ou décoratif—semble intentionnel, contribuant à l'ambiance harmonieuse de la pièce. Une palette neutre domine, mais des touches de terracotta et de marine ajoutent de la personnalité sans submerger les sens. Des détails artisanaux, comme de la poterie faite à la main et des panneaux muraux texturés, insufflent chaleur et authenticité.</p><p>C'est une disposition bien pensée qui guide naturellement le regard à travers la pièce. Chaque élément de design—qu'il soit structurel ou décoratif—semble intentionnel, contribuant à l'ambiance harmonieuse de la pièce. Une palette neutre domine, mais des touches de terracotta et de marine ajoutent de la personnalité sans submerger les sens. Des détails artisanaux, comme de la poterie faite à la main et des panneaux muraux texturés, insufflent chaleur et authenticité.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: |
+        Ce salon mélange le charme rustique avec la sophistication moderne. Des poutres en bois naturel s'étendent à travers le plafond, contrastant avec des planchers en béton élégants pour une sensation à la fois ancrée et contemporaine.
+        
+        Des rideaux en lin brut encadrent de grandes fenêtres, permettant à la lumière dorée de se répandre sur des meubles en chêne récupéré. Un tapis en laine ancre la zone de sièges, tandis que des coussins moelleux et des jetés superposés vous invitent à vous installer et à rester un moment.
+        
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9fb9c72c-c319-40bc-af34-de3ff3de93ec"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "Le cœur de la pièce : Foyer"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T110127Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: "Le cœur de la pièce : Foyer & Salon | Journal Forma Lux – Design fait main avec chaleur & artisanat"
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: meubles faits à la main, salon rustique moderne, design en bois, salon avec foyer, Forma Lux intérieurs, matériaux durables, artisanat, décoration intérieure contemporaine
+- Language: "fr-FR"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "bf5190d0-ce1e-42d2-a3bf-1bc00933068e"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Le Cœur de la Pièce : Cheminée & Salon"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: "Une étude en équilibre et intention, Le Cœur de la Pièce : Cheminée & Salon capture la philosophie de design fait main de Forma Lux—où chaque poutre, textile et courbe contribue à un ensemble harmonieux. L'histoire se déroule en textures : chêne récupéré et fer, laine et lin, béton et lumière. Cette pièce célèbre comment l'artisanat transforme les matières premières en luxe discret, évoquant chaleur, authenticité et confort intemporel."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250911T094732Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Le Cœur de la Pièce : Cheminée"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><figure class="image image_resized image-style-align-right" style="width:42.48%;"><img class="image_resized" style="aspect-ratio:520/282;" src="-/media/949C1CB9D30246B0AB197E5E2F4B611C.ashx" alt="pexels-vecislavas-popa-1571453 1" width="520" height="282" /></figure><h3>Pièces Maîtresses Qui Suscitent la Conversation</h3><p>Un luminaire en fer suspendu attire le regard, planant au-dessus d'une table basse au profil bas fabriquée à partir de bois flotté. À proximité, une bibliothèque sculpturale abrite un mélange de pièces d'art, de plantes et de céramiques, offrant à la fois fonctionnalité et style.</p><p>C'est une disposition bien pensée qui guide naturellement le regard à travers la pièce. Chaque élément de design—qu'il soit structurel ou décoratif—semble intentionnel, contribuant à l'ambiance harmonieuse de la pièce. Une palette neutre domine, mais des touches de terracotta et de bleu marine ajoutent de la personnalité sans submerger les sens. Des détails artisanaux, comme de la poterie faite à la main et des panneaux muraux texturés, insufflent chaleur et authenticité.</p><p>C'est une disposition bien pensée qui guide naturellement le regard à travers la pièce. Chaque élément de design—qu'il soit structurel ou décoratif—semble intentionnel, contribuant à l'ambiance harmonieuse de la pièce. Une palette neutre domine, mais des touches de terracotta et de bleu marine ajoutent de la personnalité sans submerger les sens. Des détails artisanaux, comme de la poterie faite à la main et des panneaux muraux texturés, insufflent chaleur et authenticité.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: |
+        Ce salon mélange le charme rustique avec la sophistication moderne. Des poutres en bois naturel s'étendent à travers le plafond, contrastant avec des sols en béton élégants pour une sensation à la fois ancrée et contemporaine.
+        
+        Des rideaux en lin brut encadrent de grandes fenêtres, permettant à la lumière dorée de se répandre sur des meubles en chêne récupéré. Un tapis en laine ancre la zone de sièges, tandis que des coussins moelleux et des plaids superposés vous invitent à vous installer et à rester un moment.
+        
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "daa4648b-0d66-4221-919f-bc69e72545dc"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "Le Cœur de la Pièce : Cheminée"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T104014Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: "Le Cœur de la Pièce : Cheminée & Salon | Forma Lux Journal – Design Fait Main avec Chaleur & Artisanat"
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: meubles faits main, salon rustique moderne, design en bois, salon avec cheminée, Forma Lux intérieurs, matériaux durables, artisanat, décoration intérieure contemporaine

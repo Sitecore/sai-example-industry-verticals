@@ -92,3 +92,131 @@ Languages:
       Hint: pageSummary
       Value: |
         Introducing "The Lumina Chair" by Forma Lux, where timeless elegance meets sophisticated craftsmanship. This chair embodies the brand's ethos of shaping tranquil spaces with soul and substance, seamlessly integrating modern European design with sustainable practices. The Lumina Chair transforms any room into a serene haven, providing a refined experience that resonates with the elegance and authenticity of Forma Lux.
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T092723Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: La Chaise Lumina
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Un classique moderne, la Chaise Lumina combine un design minimaliste avec un confort durable, avec un cadre en chêne massif et un siège rembourré dans des tons doux et neutres.
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: "Chaise Limina, Forma Lux, mobilier de luxe, design moderne, savoir-faire européen, style minimaliste, assise élégante, matériaux durables, élégance intemporelle, élégance artistique, vie consciente, design architectural, espaces tranquilles, âme et substance, excellence esthétique, Visionnaire Urbain, Minimaliste Conscient, Créateur Élevé, Collectionneur Moderne, expériences premium, design silencieux, l'art de vivre magnifiquement"
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 850
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: La Chaise Lumina
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: "Chaise Limina, Forma Lux, mobilier de luxe, design moderne, savoir-faire européen, style minimaliste, assise élégante, matériaux durables, élégance intemporelle, élégance artistique, vie consciente, design architectural, espaces tranquilles, âme et substance, excellence esthétique, Visionnaire Urbain, Minimaliste Conscient, Créateur Élevé, Collectionneur Moderne, expériences premium, design silencieux, l'art de vivre magnifiquement"
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="ae0c4b01-db06-4c77-914a-482444f300de" alt="chaise-lumina-1" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "acf23e9e-6ed8-4376-8370-037c4ad546b3"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: La Chaise Lumina
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T110254Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: |
+        <div class="ck-content"><p>La Chaise Lumina est conçue comme un compagnon du canapé signature de la collection, incarnant la même élégance discrète et construction intemporelle. Son cadre en chêne fabriqué à la main met en valeur le grain et la teinte naturels, tandis que le siège et le dossier rembourrés offrent un soutien détendu pour la vie quotidienne. Raffinée mais accessible, cette chaise convient aussi bien à un coin lecture serein qu'à un espace de vie convivial. Conçue pour durer, c'est une pièce qui allie beauté, confort et intégrité durable.</p></div>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: |
+        Présentation de "La Chaise Lumina" par Forma Lux, où l'élégance intemporelle rencontre le savoir-faire sophistiqué. Cette chaise incarne l'éthique de la marque qui façonne des espaces tranquilles avec âme et substance, intégrant harmonieusement le design européen moderne avec des pratiques durables. La Chaise Lumina transforme n'importe quelle pièce en un havre de paix, offrant une expérience raffinée qui résonne avec l'élégance et l'authenticité de Forma Lux.
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T092723Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: La Chaise Lumina
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Un classique moderne, la Chaise Lumina combine un design minimaliste avec un confort durable, avec un cadre en chêne massif et un siège rembourré dans des tons doux et neutres.
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Chaise Limina, Forma Lux, mobilier de luxe, design moderne, artisanat européen, style minimaliste, sièges élégants, matériaux durables, élégance intemporelle, élégance artistique, vie consciente, design architectural, espaces tranquilles, âme et substance, excellence esthétique, Visionnaire Urbain, Minimaliste Conscient, Créateur Élevé, Collectionneur Moderne, expériences premium, design silencieux, art de vivre magnifiquement
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 850
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: La Chaise Lumina
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: Chaise Limina, Forma Lux, mobilier de luxe, design moderne, artisanat européen, style minimaliste, sièges élégants, matériaux durables, élégance intemporelle, élégance artistique, vie consciente, design architectural, espaces tranquilles, âme et substance, excellence esthétique, Visionnaire Urbain, Minimaliste Conscient, Créateur Élevé, Collectionneur Moderne, expériences premium, design silencieux, art de vivre magnifiquement
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="ae0c4b01-db06-4c77-914a-482444f300de" alt="lumina-chair-1" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8c08a743-192f-41fc-8e96-1a8f7e958517"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: La Chaise Lumina
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T104122Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: |
+        <div class="ck-content"><p>La Chaise Lumina est conçue comme un compagnon du canapé signature de la collection, incarnant la même élégance discrète et construction intemporelle. Son cadre en chêne fabriqué à la main met en valeur le grain et la tonalité naturels, tandis que le siège et le dossier rembourrés offrent un soutien détendu pour la vie quotidienne. Raffinée mais abordable, cette chaise convient aussi bien à un coin lecture serein qu'à un espace de vie conversationnel. Conçue pour durer, c'est une pièce qui allie beauté, confort et intégrité durable.</p></div>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: |
+        Présentation de "La Chaise Lumina" par Forma Lux, où l'élégance intemporelle rencontre l'artisanat sophistiqué. Cette chaise incarne l'éthique de la marque en façonnant des espaces tranquilles avec âme et substance, intégrant harmonieusement le design européen moderne avec des pratiques durables. La Chaise Lumina transforme n'importe quelle pièce en un havre de paix, offrant une expérience raffinée qui résonne avec l'élégance et l'authenticité de Forma Lux.

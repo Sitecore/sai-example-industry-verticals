@@ -1,0 +1,36 @@
+﻿---
+ID: "bc2a9a1b-79a1-4218-816f-3f4cd643715b"
+Parent: "4cb97675-c764-4fdb-8a2d-e4a3fd73ff46"
+Template: "4cb97675-c764-4fdb-8a2d-e4a3fd73ff46"
+Path: "/sitecore/templates/Project/industry-verticals/Custom Templates/Destination/Hotels/Activity Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {7061E950-7828-45CF-814B-E96A417B195F}
+    {0505FF53-7339-4187-A12B-7C6530234A98}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "39bc3b09-0594-4105-a4fb-656f872989e0"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d935b015-b767-4132-839f-b766c5e6edea"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T115823Z

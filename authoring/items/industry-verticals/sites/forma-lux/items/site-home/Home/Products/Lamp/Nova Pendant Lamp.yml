@@ -109,3 +109,121 @@ Languages:
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
       Value: Refined yet understated, the Nova Pendant Lamp embodies Forma Lux’s approach to light as atmosphere. Its frosted glass globe diffuses warmth, while the brass fixture adds a subtle touch of luxury. Ideal for dining areas or kitchens, Nova balances geometry and glow — turning everyday moments into curated experiences. Available in Gold and in Small or Medium sizes, it’s a timeless accent that brings harmony and intention to modern living.
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T151131Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Suspension Nova | Forma Lux – Globe en verre dépoli avec monture en laiton
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: La suspension Nova présente un globe en verre dépoli suspendu à une monture en laiton
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Suspension Nova, suspension en verre dépoli, éclairage en laiton, suspension moderne, éclairage de salle à manger, luminaire d'ambiance, boutique Forma Lux
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 249
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Suspension Nova
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="00174816-617e-4e0a-9731-324a67f32945" alt="nova-pendant-lamp-1" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "df04f3a3-20dc-4ce5-a688-c5d4ba15b953"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Suspension Nova
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T110231Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>La suspension Nova présente un globe en verre dépoli suspendu à une monture en laiton. Elle offre un éclairage doux et ambiant, idéal pour les salles à manger ou les cuisines.</p>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: Raffinée mais discrète, la suspension Nova incarne l'approche de Forma Lux envers la lumière comme atmosphère. Son globe en verre dépoli diffuse une chaleur, tandis que la monture en laiton ajoute une touche subtile de luxe. Idéale pour les salles à manger ou les cuisines, Nova équilibre géométrie et éclat — transformant les moments quotidiens en expériences soignées. Disponible en or et en tailles petite ou moyenne, c'est un accent intemporel qui apporte harmonie et intention à la vie moderne.
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T151131Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Lampe Suspendue Nova | Forma Lux – Globe en Verre Givré avec Monture en Laiton
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: La Lampe Suspendue Nova présente un globe en verre givré suspendu à une monture en laiton
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Lampe Suspendue Nova, suspension en verre givré, éclairage en laiton, suspension moderne, éclairage de salle à manger, luminaire d'ambiance, boutique Forma Lux
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 249
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Lampe Suspendue Nova
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="00174816-617e-4e0a-9731-324a67f32945" alt="nova-pendant-lamp-1" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b53bfd6e-ddd8-4be8-ae9b-240c73bf83d2"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Lampe Suspendue Nova
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T104115Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>La Lampe Suspendue Nova présente un globe en verre givré suspendu à une monture en laiton. Elle fournit un éclairage doux et ambiant, idéal pour les salles à manger ou les cuisines.</p>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: Raffinée mais discrète, la Lampe Suspendue Nova incarne l'approche de Forma Lux de la lumière comme atmosphère. Son globe en verre givré diffuse une chaleur, tandis que la monture en laiton ajoute une touche subtile de luxe. Idéale pour les salles à manger ou les cuisines, Nova équilibre géométrie et éclat — transformant les moments quotidiens en expériences soignées. Disponible en or et en tailles petite ou moyenne, c'est un accent intemporel qui apporte harmonie et intention à la vie moderne.
