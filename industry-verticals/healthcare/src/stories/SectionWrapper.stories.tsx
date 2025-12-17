@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
-import { Default } from '../components/content-section/ContentSection';
+import { Default } from '../components/section-wrapper/SectionWrapper';
 import { ComponentProps } from 'react';
 import { renderStorybookPlaceholder } from 'src/stories/helpers/renderStorybookPlaceholder';
 import { boolToSitecoreCheckbox } from 'src/stories/helpers/boolToSitecoreCheckbox';
@@ -11,7 +11,7 @@ import { createRichTextField, createTextField } from './helpers/createFields';
 type StoryProps = ComponentProps<typeof Default> & AppearanceArgs;
 
 const meta = {
-  title: 'Page Content/Content Section',
+  title: 'Page Content/Section Wrapper',
   component: Default,
   tags: ['autodocs'],
   argTypes: {
@@ -26,7 +26,7 @@ export default meta;
 type Story = StoryObj<StoryProps>;
 
 const baseFields = {
-  Heading: createTextField('Our Special Doctors'),
+  Title: createTextField('Our Special Doctors'),
   Description: createRichTextField(1),
 };
 
