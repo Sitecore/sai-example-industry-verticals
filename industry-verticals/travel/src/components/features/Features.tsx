@@ -1,6 +1,6 @@
 import { ComponentProps } from '@/lib/component-props';
-import { IGQLTextField } from '@/types/igql';
-import { Text, NextImage as Image } from '@sitecore-content-sdk/nextjs';
+import { IGQLField, IGQLTextField } from '@/types/igql';
+import { Text, NextImage as Image, LinkField, ImageField } from '@sitecore-content-sdk/nextjs';
 import React from 'react';
 interface Fields {
   data: {
@@ -15,10 +15,10 @@ interface Fields {
 }
 
 interface Feature {
-  featureImage: { jsonValue: { value: { src: string; alt?: string } } };
-  featureTitle: { jsonValue: { value: string } };
-  featureDescription: { jsonValue: { value: string } };
-  featureLink: { jsonValue: { value: { href: string } } };
+  featureImage: IGQLField<ImageField>;
+  featureTitle: IGQLTextField;
+  featureDescription: IGQLTextField;
+  featureLink: IGQLField<LinkField>;
 }
 
 type FeaturesProps = ComponentProps & {
