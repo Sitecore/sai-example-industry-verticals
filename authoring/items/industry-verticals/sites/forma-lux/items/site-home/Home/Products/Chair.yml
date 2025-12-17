@@ -10,14 +10,14 @@ SharedFields:
 - ID: "c17f3d69-c947-45a0-b4f5-cbcdf58e805c"
   Hint: ogImage
   Value: |
-    <image mediaid="767397c6-4915-47f5-b86d-75e07e0dc1d9" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/76658-HomepagePromoCTAs-1100x740?v=9210bb63" dam-id="hTWQgT3RSbmgYszzmJFPmg" width="1100" height="740" alt="chairs-meta.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76658/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{C71493A5-69AE-423E-8D6F-F38B1CA2A335}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "1d0a7ede-331c-4ce1-aabe-65cfa87cb1cd"
+  Value: "9e803d3c-636d-4dab-80bd-0918311a2907"
 Languages:
 - Language: en
   Versions:
@@ -54,7 +54,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "41d3a69d-6954-4f10-b366-55ae19608894"
+      Value: "b6608d14-0078-4adb-a06b-597d5011fbff"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -64,7 +64,7 @@ Languages:
       Value: Discover chairs that combine sculptural form and ergonomic comfort. Designed with refined proportions and natural materials, each piece complements modern interiors beautifully.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251210T083537Z
+      Value: 20251217T151621Z
     - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
       Hint: CategoryName
       Value: Chair

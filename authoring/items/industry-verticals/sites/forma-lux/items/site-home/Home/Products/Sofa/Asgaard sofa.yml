@@ -163,7 +163,7 @@ Languages:
     - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
       Hint: ogImage
       Value: |
-        <image mediaid="34259610-0d61-4e86-8f34-5e5c1a3ff065" />
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/31a316d620ad4889be07b6fcd53b0a01?v=cf5479b9" dam-id="vt1PtpUmQSaBu8nyn2lncA" width="4024" height="3270" alt="Asgaard sofa 3.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66860/thumbnail" />
     - ID: "67259fe9-9fcd-46f4-b330-5865618a3b8c"
       Hint: Width
       Value: 265.32 cm
@@ -172,7 +172,7 @@ Languages:
       Value: 167 cm
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "819faf21-4d39-4d8a-9ede-5891590c75e7"
+      Value: "639b042b-4d40-4305-be35-4ea345ccf60d"
     - ID: "acbcb630-e684-43ae-bb85-9fc89052c8a9"
       Hint: Weight
       Value: 45 KG
@@ -191,7 +191,7 @@ Languages:
       Value: Asgaard sofa
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251210T080625Z
+      Value: 20251217T152248Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: |

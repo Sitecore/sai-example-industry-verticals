@@ -7,7 +7,7 @@ SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
   Value: |
-    <image mediaid="36a60cf0-d352-49f2-b487-c15b003a5191" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/76488-LandingPageHero-2000x600?v=3bce7b27" dam-id="ngNXiZDpRI2taEiS-sNRPA" width="2000" height="600" alt="Dinning design.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76488/thumbnail" />
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
@@ -18,7 +18,7 @@ SharedFields:
     <image mediaid="{EDEC4492-23DB-491F-B4DB-300DFAEA81F3}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "7c904ca7-260f-4901-ba26-eb29a558ae70"
+  Value: "eb36eb52-c683-4ce5-a8ab-54d142777d79"
 Languages:
 - Language: en
   Fields:
@@ -65,7 +65,7 @@ Languages:
       Value: "Dining is more than meals—it’s shaping memories. Start with a table that suits your space: clean lines, durable material, room for expansion. Pair with chairs that are comfortable but defined—slim profiles, quality upholstery or shell material. Lighting should hover at 30-36” above the table for optimal ambiance. Add a rug to anchor the area and soften acoustics. For accessories: keep it minimal—a sculptural bowl, a simple runner, a piece of art—but meaningful. The goal: a modern dining space that says “come together” whether it’s family pizza night or dinner for six with friends."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9b0b3c6d-1fbc-4412-b079-af86affab8fe"
+      Value: "3e48ccd2-f705-43a6-85de-7a05f6d5faeb"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "Dining Design Done Right: Modern Furniture for the Heart of Your Home"
@@ -75,7 +75,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251210T091218Z
+      Value: 20251217T153025Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: Dining Design Done Right Modern Furniture for the Heart of Your Home

@@ -10,7 +10,7 @@ SharedFields:
 - ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
   Hint: ogImage
   Value: |
-    <image mediaid="fd09003a-b7ac-4058-a748-c8a8479474cf" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/76689-HomepagePromoCTAs-1100x740?v=7481d3c5" dam-id="keGpD7ZjQ_Ckp2D9ObeltQ" width="1100" height="740" alt="about-us-meta.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76689/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 600
@@ -20,7 +20,7 @@ SharedFields:
     <image mediaid="{0B081450-C058-43DA-9F4C-A6083D93066D}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "f31b8e72-5659-440b-9831-0337650152f3"
+  Value: "f3fb5085-d28d-46af-b923-22dcbea25d06"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -115,7 +115,7 @@ Languages:
       Value: Learn how Forma Lux blends artisan craftsmanship, premium materials and modern design philosophy to create timeless furniture.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "faad940a-522b-4b78-970c-ac463102a888"
+      Value: "80bbf04b-8598-46f0-9d8d-5005214b35fb"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -125,7 +125,7 @@ Languages:
       Value: Our heritage, materials, and design ethos—Forma Lux is where tradition meets modernity for pieces that last.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251210T090710Z
+      Value: 20251217T152446Z
 - Language: "es-ES"
   Versions:
   - Version: 1

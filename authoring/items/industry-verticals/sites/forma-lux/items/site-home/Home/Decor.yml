@@ -7,7 +7,7 @@ SharedFields:
 - ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
   Hint: ogImage
   Value: |
-    <image mediaid="f4dddce5-f225-4cf9-aad1-cd12808a7952" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/76531-LandingPageHero-2000x600?v=4b840920" dam-id="uogDcNJvSM65cynfU9s37g" width="2000" height="600" alt="article1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76531/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 200
@@ -17,7 +17,7 @@ SharedFields:
     <image mediaid="{EAB1770F-CF96-4C68-8E36-E5A4AE085BF9}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "8355a0fd-b4b3-4ff4-a1c6-1f4384eff941"
+  Value: "0e9aee43-daef-47a4-9a0e-44b5bdd92a64"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -84,14 +84,14 @@ Languages:
       Value: Contact us
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "626c2b34-37e6-4303-ab83-68aab8f12e03"
+      Value: "506e7529-c540-43c9-9771-b37091639fed"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251210T073739Z
+      Value: 20251217T151140Z
 - Language: "es-ES"
   Versions:
   - Version: 1

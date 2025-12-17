@@ -13,15 +13,15 @@ SharedFields:
 - ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
   Hint: Image2
   Value: |
-    <image mediaid="7b0bc954-3318-46b3-a8c2-44b66fe392f8" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/6e1e549674c34e95b5cd288e70c976e3?v=af160ac7" dam-id="fIGW0YgPSpyimDa20I6XCw" width="1024" height="1024" alt="TheLuminaSofa-NaturalLight.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68171/thumbnail" />
 - ID: "9a62ea92-04df-49e2-ab37-00d251d0cc22"
   Hint: Image4
   Value: |
-    <image mediaid="f683eb1e-87c6-4ef6-9c29-5f5ef3468333" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/834dbb491f324eb8aa5b3a2bb9e808ad?v=e3bb1bd6" dam-id="6j9rvqKQR4ig63SxxYr-Mg" width="992" height="910" alt="LuminaSofa-Linen.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68168/thumbnail" />
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <image mediaid="1b6af9f8-bdb3-46ea-bff3-7af36a133b67" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c86d3c9f3a00490f88e439451c4b11ff?v=f9d5320d" dam-id="-Xst0beLTAWkJpetsFv5XQ" width="1024" height="1024" alt="LuminaSofa-Transparent.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68722/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -32,10 +32,10 @@ SharedFields:
 - ID: "d9c8ae87-80fc-460b-9140-3db7358b1c8e"
   Hint: Image3
   Value: |
-    <image mediaid="3577408c-999a-4852-b803-0cba4a02f7ae" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/d54fda0c64644787ba7d94c277fb597b?v=a9907a20" dam-id="Sib5AQyjRM6kHfTwzABMWA" width="968" height="936" alt="LuminaSofa-Leg.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68170/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "c2352219-aaed-480f-816d-b2e099d44c4d"
+  Value: "d8aa2614-d134-402c-9e51-f258e71e567d"
 Languages:
 - Language: en
   Versions:
@@ -79,7 +79,7 @@ Languages:
         <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c86d3c9f3a00490f88e439451c4b11ff?v=f9d5320d" dam-id="-Xst0beLTAWkJpetsFv5XQ" width="1024" height="1024" alt="LuminaSofa-Transparent.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68722/thumbnail" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6aaebeeb-5395-458c-81b2-0e515eec62b3"
+      Value: "fd1974a3-f487-4400-a390-4fe9e769125e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -89,7 +89,7 @@ Languages:
       Value: The Lumina Sofa
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251217T095351Z
+      Value: 20251217T152216Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: |

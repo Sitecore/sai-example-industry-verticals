@@ -13,7 +13,7 @@ SharedFields:
 - ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
   Hint: ogImage
   Value: |
-    <image mediaid="a606d62d-d4a0-4300-92dd-3a6192b27289" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/76645-LandingPageHero-2000x600?v=73ec6612" dam-id="-7WQV-NRRkCpMe8JV60RlQ" width="2000" height="600" alt="products-meta.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76645/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 400
@@ -23,7 +23,7 @@ SharedFields:
     <image mediaid="{072CD27A-6AC9-457E-9649-37051EFC336C}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "3cd5c8c9-678a-4560-a704-96bd247a36bf"
+  Value: "5d556618-f0e9-46cf-95aa-14c15c6f0beb"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -74,7 +74,7 @@ Languages:
       Value: Explore Forma Lux’s full range of sustainable furniture collections — timeless sofas, chairs, and tables crafted with precision, natural materials, and enduring elegance. Designed to bring warmth, balance, and sophistication to every space.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e345cedd-6d08-4357-9826-e4a8e9e560e8"
+      Value: "86590b93-766f-462d-b0cb-7e553a71bff9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -84,7 +84,7 @@ Languages:
       Value: Forma Lux offers a curated selection of sustainable luxury furniture designed to elevate modern living. Each collection — from modular sofas to sculptural tables — reflects a commitment to craftsmanship, quality, and intentional design. Every piece is made to endure, bringing refined simplicity and lasting beauty to the spaces people call home.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251210T074806Z
+      Value: 20251217T151235Z
 - Language: "es-ES"
   Versions:
   - Version: 1

@@ -19,7 +19,7 @@ SharedFields:
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <image mediaid="ae0c4b01-db06-4c77-914a-482444f300de" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/a40cc117f6bc43b584576379e57d5352?v=0831c28d" dam-id="_6HhKmO1SFWVcvVHiNnphg" width="1024" height="1024" alt="TheLuminaChair.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68204/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -29,7 +29,7 @@ SharedFields:
   Value: "{1F4F7164-0F0C-4CAB-8F44-7B7C85AD9C1A}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "b5a6e692-f60c-4cb2-a1ef-f0a4320db489"
+  Value: "f839cf59-39de-4355-9661-d8558e725314"
 Languages:
 - Language: en
   Versions:
@@ -70,10 +70,10 @@ Languages:
     - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
       Hint: ogImage
       Value: |
-        <image mediaid="ae0c4b01-db06-4c77-914a-482444f300de" />
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/a40cc117f6bc43b584576379e57d5352?v=0831c28d" dam-id="_6HhKmO1SFWVcvVHiNnphg" width="1024" height="1024" alt="TheLuminaChair.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68204/thumbnail" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "744be139-aff8-4dcd-9a6c-30652c511ef2"
+      Value: "1ef252fc-0ede-4c54-b749-f9c7b46d5d37"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -83,7 +83,7 @@ Languages:
       Value: The Lumina Chair
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251210T084244Z
+      Value: 20251217T151904Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: |

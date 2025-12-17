@@ -10,7 +10,7 @@ SharedFields:
 - ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
   Hint: ogImage
   Value: |
-    <image mediaid="2adb879e-ba7e-41ca-9f97-be3702b62a0c" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/76652-HomepagePromoCTAs-1100x740?v=fd28ec65" dam-id="oN8jguLHQVyzWc3hq3-T6Q" width="1100" height="740" alt="checkout-meta.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76652/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 900
@@ -20,7 +20,7 @@ SharedFields:
     <image mediaid="{14163266-EC02-4CCF-AD57-90239FD85E3C}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "4e7b4cfd-6b73-4766-a711-9e16e68d3cc4"
+  Value: "d8a330ac-5ca2-415b-920f-5b49e5513527"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -87,14 +87,14 @@ Languages:
         <p style="text-align:center;">This page is part of a demo experience.&nbsp;</p><p style="text-align:center;">Right now, the website isn’t connected to a live e-commerce system — but it can be fully integrated with one.&nbsp;</p><p style="text-align:center;">When it is, this is where your visitors will land to review their selected products and complete their purchase.</p><p style="text-align:center;">&nbsp;</p>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7d1e01ff-d8ab-44a1-be0c-ee6c92d21ab9"
+      Value: "0df4e174-7ddd-4ad5-847f-e9e34f360940"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251210T102612Z
+      Value: 20251217T154433Z
 - Language: "fr-CA"
   Versions:
   - Version: 1

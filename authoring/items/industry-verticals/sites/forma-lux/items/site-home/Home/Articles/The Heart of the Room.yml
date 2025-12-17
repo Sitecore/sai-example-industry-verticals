@@ -18,7 +18,7 @@ SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
   Value: |
-    <image mediaid="1bf33b92-1866-4fe6-bb63-3632d9d2ae38" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/76684-HomePageHero-2000x800?v=531cee18" dam-id="RVpmO47SRf23V15z6NE3YQ" width="2000" height="800" alt="beds-meta.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76684/thumbnail" />
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
@@ -32,7 +32,7 @@ SharedFields:
     <image mediaid="{DDA99E04-29F7-49E3-BA48-57BD813A3D7B}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "52023518-d741-48c9-a0bb-d9eff6b730f6"
+  Value: "4ae00c4c-392c-4dab-b0b0-109f15e945ad"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -99,7 +99,7 @@ Languages:
         
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1d954b9e-ef26-472b-a6d1-abe10bd52b06"
+      Value: "39c69807-0cb0-4c92-be46-30b1ba9b8602"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "The Heart of the Room: Fireplace"
@@ -109,7 +109,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251210T090921Z
+      Value: 20251217T152602Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: "The Heart of the Room: Fireplace & Lounge | Forma Lux Journal – Handmade Design with Warmth & Craft"

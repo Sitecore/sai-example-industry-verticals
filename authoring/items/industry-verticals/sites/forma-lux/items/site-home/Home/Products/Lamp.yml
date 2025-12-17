@@ -7,14 +7,14 @@ SharedFields:
 - ID: "c17f3d69-c947-45a0-b4f5-cbcdf58e805c"
   Hint: ogImage
   Value: |
-    <image mediaid="bb7b4b43-7e13-4e4c-830d-6e2a1b7fea5f" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/a0e8c9878de24b899f0aad1571f2c922?v=837a054b" dam-id="FTJoHg4MStO29dvZqnn-ZA" width="2816" height="2257" alt="sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (30).png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/67322/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{389827BE-A450-4F40-803F-E0E9ACD39074}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "822e3bbf-48d1-4430-81da-08d43f3e7b98"
+  Value: "4b216928-384e-440e-9c37-f01875cb3637"
 Languages:
 - Language: en
   Versions:
@@ -51,7 +51,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d9637af3-2b0f-4ba2-b831-ea8d1be92c58"
+      Value: "51dc5d40-190f-45da-9f39-1e643c96123d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -61,7 +61,7 @@ Languages:
       Value: Explore modern lamps that bring warmth, balance, and atmosphere to any space. Thoughtfully designed for beauty and function, each piece enhances the art of living through light.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251210T075557Z
+      Value: 20251217T151430Z
     - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
       Hint: CategoryName
       Value: Lamp
