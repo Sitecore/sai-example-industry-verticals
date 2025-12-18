@@ -7,7 +7,7 @@ SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
   Value: |
-    <image mediaid="28829ad4-7160-49df-afc2-f6bf45463573" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/76489-HomePageHero-2000x800?v=6a1bb3c0" dam-id="-At1dqaWS9O8lKFpNn9jMg" width="2000" height="800" alt="play-with.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76489/thumbnail" />
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
@@ -18,7 +18,7 @@ SharedFields:
     <image mediaid="{DBB74AEE-2793-4122-AE15-A6A5E0A23B74}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "792f36ee-9d1f-44d1-8b61-b35ca577d328"
+  Value: "44f15dd1-9ee6-4239-a74b-ef5e7f95c88c"
 Languages:
 - Language: en
   Fields:
@@ -65,7 +65,7 @@ Languages:
       Value: Minimal doesn’t mean flat. Discover how mixing textures—wood, wool, metal, and glass—creates depth, warmth, and personality in modern furniture design.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8a46d90e-63e5-48f6-9f42-0b2aa065fc23"
+      Value: "019fa0b6-dad1-4a9b-a9a3-8c4dc1858116"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "Play With Texture: Why Material Mixes Make Modern Furniture Pop"
@@ -75,10 +75,138 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251210T091601Z
+      Value: 20251217T153614Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: "Play With Texture: Material Mixes That Elevate Modern Design"
     - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
       Hint: metadataKeywords
       Value: modern furniture texture, material mix design, layered modern interiors, wood and metal furniture, glass and fabric combinations, tactile home décor, texture in interior design, modern material palette, furniture contrast ideas, warm wood tones, brushed steel accents, wool and leather textures, minimalist home warmth, modern mixed materials, how to add texture to décor, contemporary furniture styling, modern layering techniques, interior design materials, modern texture ideas
+- Language: "fr-CA"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "61a50537-be55-488b-b2dc-c133f4ff3a2e"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Jouez avec la texture Pourquoi les mélanges de matériaux font ressortir les meubles modernes
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: Minimal ne signifie pas plat. Découvrez comment le mélange de textures—bois, laine, métal et verre—crée de la profondeur, de la chaleur et de la personnalité dans le design de meubles modernes.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T084006Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Sélectionner le canapé parfait
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p><span style="background-color:rgb(255,255,255);color:rgb(80,80,80);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:Manrope, sans-serif;font-size:18px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Un design minimaliste ne signifie pas plat. La texture peut apporter de la profondeur, de la chaleur et de l'intrigue. Commencez par un matériau de base – disons, une table à manger en noyer – et ajoutez du contraste : une base en acier brossé, un jeté en laine, un fauteuil d'appoint en cuir. Chaque matériau raconte une histoire et ajoute de la richesse. Pensez aussi aux qualités tactiles – la douceur du rembourrage, la fraîcheur du métal, l'irrégularité naturelle de la pierre. L'objectif : une palette de sensations autant qu'une apparence. Gardez le schéma de couleurs global restreint pour que les textures se démarquent plutôt que de rivaliser. Le résultat est un espace moderne qui invite au toucher, pas seulement à l'apparence lisse.</span></span></p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: |
+        Combinez des matériaux comme le bois, la laine, le métal et le verre pour un look superposé mais minimaliste.
+        
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: Minimal ne signifie pas plat. Découvrez comment le mélange de textures—bois, laine, métal et verre—crée de la profondeur, de la chaleur et de la personnalité dans le design de meubles modernes.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a2b49244-4a05-474c-958a-69b3abd0d33f"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "Jouez avec la texture : Pourquoi les mélanges de matériaux font ressortir les meubles modernes"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T110138Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: "Jouez avec la texture : Les mélanges de matériaux qui élèvent le design moderne"
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: texture de meubles modernes, design de mélange de matériaux, intérieurs modernes superposés, meubles en bois et métal, combinaisons de verre et de tissu, décoration tactile, texture dans le design d'intérieur, palette de matériaux modernes, idées de contraste de meubles, tons de bois chauds, accents en acier brossé, textures de laine et de cuir, chaleur minimaliste à la maison, matériaux mixtes modernes, comment ajouter de la texture à la décoration, style de meubles contemporains, techniques de superposition modernes, matériaux de design d'intérieur, idées de texture moderne
+- Language: "fr-FR"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "0a17e9b5-a00b-454a-9cf4-7da13d5a0d03"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Jouez avec la texture Pourquoi les mélanges de matériaux font ressortir le mobilier moderne
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: Minimal ne signifie pas plat. Découvrez comment le mélange de textures—bois, laine, métal et verre—crée profondeur, chaleur et personnalité dans le design de mobilier moderne.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T084006Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Sélectionner le canapé parfait
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p><span style="background-color:rgb(255,255,255);color:rgb(80,80,80);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:Manrope, sans-serif;font-size:18px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Un design minimaliste ne signifie pas plat. La texture peut apporter profondeur, chaleur et intrigue. Commencez par un matériau de base – disons, une table à manger en noyer – et ajoutez du contraste : une base en acier brossé, un plaid en laine, un fauteuil d'appoint en cuir. Chaque matériau raconte une histoire et ajoute de la richesse. Pensez aussi aux qualités tactiles – la douceur du rembourrage, la fraîcheur du métal, l'irrégularité naturelle de la pierre. L'objectif : une palette de sensations autant qu'une apparence. Gardez le schéma de couleurs global restreint pour que les textures se démarquent plutôt que de rivaliser. Le résultat est un espace moderne qui invite au toucher, pas seulement à l'apparence lisse.</span></span></p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Combinez des matériaux comme le bois, la laine, le métal et le verre pour un look superposé mais minimaliste.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: Minimal ne signifie pas plat. Découvrez comment le mélange de textures—bois, laine, métal et verre—crée profondeur, chaleur et personnalité dans le design de mobilier moderne.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a5f90eff-d465-4aa6-845e-9035224f011b"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "Jouez avec la texture : Pourquoi les mélanges de matériaux font ressortir le mobilier moderne"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T104025Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: "Jouez avec la texture : Les mélanges de matériaux qui élèvent le design moderne"
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: texture de mobilier moderne, design de mélange de matériaux, intérieurs modernes superposés, meubles en bois et métal, combinaisons de verre et de tissu, décoration intérieure tactile, texture dans le design d'intérieur, palette de matériaux modernes, idées de contraste de mobilier, tons chauds du bois, accents en acier brossé, textures de laine et de cuir, chaleur minimaliste à la maison, matériaux mixtes modernes, comment ajouter de la texture à la décoration, style de mobilier contemporain, techniques de superposition modernes, matériaux de design d'intérieur, idées de texture moderne

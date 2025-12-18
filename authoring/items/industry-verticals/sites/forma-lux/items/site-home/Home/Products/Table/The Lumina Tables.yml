@@ -58,10 +58,10 @@ Languages:
     - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
       Hint: ogImage
       Value: |
-        <image mediaid="fcf08c20-c52d-4a24-82e2-36acbb1a2402" />
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c2533f15792f4de5993d1e885880afb3?v=4c8343c5" dam-id="LWoIqxe9QSqPH0hhbIYzbw" width="804" height="570" alt="Tables.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68216/thumbnail" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1b0c8967-278e-4b87-a318-988586dd9d02"
+      Value: "17a7e191-1352-4645-9e7c-64d7884d9f81"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -71,7 +71,7 @@ Languages:
       Value: The Lumina Tables
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251210T080420Z
+      Value: 20251217T151751Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: |
@@ -79,3 +79,123 @@ Languages:
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
       Value: The Lumina Tables bring harmony and balance to any space, uniting form and function through elegant simplicity. Handcrafted in natural oak with refined proportions and a smooth satin finish, this nesting set complements the Lumina Collection’s serene aesthetic. Designed for versatility and made to last, the Lumina Tables embody the Forma Lux philosophy — timeless design, sustainable craftsmanship, and enduring beauty.
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T094442Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Les Tables Lumina | Tables Gigognes Durables par Forma Lux
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Une paire de tables gigognes fabriquées en chêne naturel, offrant des surfaces polyvalentes qui complètent les formes douces et la palette chaleureuse de la Collection Lumina.
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 632
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Les Tables Lumina
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: "Découvrez les Tables Lumina de Forma Lux — une paire de tables gigognes fabriquées à la main, conçues avec une simplicité intemporelle et des matériaux durables. Des proportions élégantes, du chêne naturel et un savoir-faire durable définissent cet essentiel moderne pour le salon."
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="fcf08c20-c52d-4a24-82e2-36acbb1a2402" alt="table-lumina-1" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c4857ec3-a46e-4c4d-b6bc-f4cb4fc9cba2"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Les Tables Lumina
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T110254Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: |
+        <div class="ck-content"><p>Conçues pour s'harmoniser avec le Sofa et le Fauteuil Lumina, les Tables Lumina sont une étude d'équilibre et de proportion. Chaque table est fabriquée à la main à partir de chêne issu de sources durables avec une finition satinée qui met en valeur le caractère naturel du bois. La grande table basse offre une surface généreuse pour la vie quotidienne, tandis que la petite table d'appoint ajoute une élégance fonctionnelle à côté d'un canapé ou d'un fauteuil de lecture. Ensemble, elles créent un sens de texture et de rythme superposé — un centre de table discret qui complète l'espace de vie Lumina.</p></div>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: Les Tables Lumina apportent harmonie et équilibre à tout espace, unissant forme et fonction par une élégante simplicité. Fabriqué à la main en chêne naturel avec des proportions raffinées et une finition satinée lisse, cet ensemble gigogne complète l'esthétique sereine de la Collection Lumina. Conçues pour la polyvalence et faites pour durer, les Tables Lumina incarnent la philosophie de Forma Lux — design intemporel, artisanat durable et beauté durable.
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T094442Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Les Tables Lumina | Tables Gigognes Durables par Forma Lux
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Une paire de tables gigognes fabriquées en chêne naturel, offrant des surfaces polyvalentes qui complètent les formes douces et la palette chaleureuse de la Collection Lumina.
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 632
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Les Tables Lumina
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: Découvrez les Tables Lumina de Forma Lux — une paire de tables gigognes fabriquées à la main, conçues avec une simplicité intemporelle et des matériaux durables. Des proportions élégantes, du chêne naturel et un artisanat durable définissent cet essentiel moderne pour le salon.
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="fcf08c20-c52d-4a24-82e2-36acbb1a2402" alt="lumina-table-1" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c25fa4fc-ca42-4a2a-8989-2af5dc6d2ea8"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Les Tables Lumina
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T104122Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: |
+        <div class="ck-content"><p>Conçues pour s'harmoniser avec le canapé et le fauteuil Lumina, les Tables Lumina sont une étude d'équilibre et de proportion. Chaque table est fabriquée à la main à partir de chêne issu de sources durables avec une finition satinée qui met en valeur le caractère naturel du bois. La grande table basse offre une surface généreuse pour la vie quotidienne, tandis que la petite table d'appoint ajoute une élégance fonctionnelle à côté d'un canapé ou d'un fauteuil de lecture. Ensemble, elles créent un sens de texture et de rythme superposé — un centre de table discret qui complète l'espace de vie Lumina.</p></div>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: Les Tables Lumina apportent harmonie et équilibre à tout espace, unissant forme et fonction par une élégante simplicité. Fabriqué à la main en chêne naturel avec des proportions raffinées et une finition satinée lisse, cet ensemble gigogne complète l'esthétique sereine de la Collection Lumina. Conçues pour la polyvalence et faites pour durer, les Tables Lumina incarnent la philosophie de Forma Lux — design intemporel, artisanat durable et beauté durable.
