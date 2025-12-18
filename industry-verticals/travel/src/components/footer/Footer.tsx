@@ -63,7 +63,7 @@ const Footer = (props: FooterProps): JSX.Element => {
   ];
 
   return (
-    <footer className={`bg-gray-900 py-12 text-white ${sxaStyles}`} id={id}>
+    <div className={`bg-foreground py-12 text-white ${sxaStyles}`} id={id}>
       <div className="container mx-auto">
         
         {/* content section */}
@@ -73,7 +73,7 @@ const Footer = (props: FooterProps): JSX.Element => {
             <div className="flex space-x-2 mb-4 max-w-40">
               <ContentSdkImage field={props.fields.Logo} />
             </div>
-            <div className="[&_*]:text-gray-400 mb-4">
+            <div className="**:text-accent-gray mb-4">
               <RichText field={props.fields.Description} />
             </div>
             <Placeholder name={phKeyFour} rendering={props.rendering} />
@@ -89,30 +89,30 @@ const Footer = (props: FooterProps): JSX.Element => {
         </div>
 
         {/* seperator */}
-        <hr className="my-8 bg-gray-700" />
+        <hr className="my-8 bg-foreground-light" />
 
         {/* copyright section */}
         <div className="flex flex-col items-center justify-between md:flex-row">
-          <p className="text-sm text-gray-400">
+          <p className="text-sm text-accent-gray">
             <ContentSdkText field={props.fields.CopyrightText} />
           </p>
           <div className="mt-4 flex justify-between gap-6 md:mt-0">
             <ContentSdkLink
-              className="text-sm text-gray-400 hover:text-white"
+              className="text-sm text-accent-gray hover:text-white"
               field={props.fields.PolicyText}
             />
             <ContentSdkLink
-              className="text-sm text-gray-400 hover:text-white"
+              className="text-sm text-accent-gray hover:text-white"
               field={props.fields.TermsText}
             />
             <ContentSdkLink
-              className="text-sm text-gray-400 hover:text-white"
+              className="text-sm text-accent-gray hover:text-white"
               field={props.fields.CookiesText}
             />
           </div>
         </div>
       </div>
-    </footer>
+    </div>
   );
 };
 
