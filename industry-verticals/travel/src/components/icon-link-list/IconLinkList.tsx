@@ -6,12 +6,12 @@ import {
   ComponentParams,
   ComponentRendering,
 } from '@sitecore-content-sdk/nextjs';
-import { IGQLTextField } from '@/types/igql';
+import { IGQLLinkField, IGQLTextField } from '@/types/igql';
 import * as LucidIcons from 'lucide-react';
 
 interface IconLink {
-  iconName: { jsonValue: { value: string } };
-  link: { jsonValue: { value: { href: string } } };
+  iconName: IGQLTextField;
+  link: IGQLLinkField;
 }
 
 interface Fields {
@@ -79,8 +79,8 @@ export const Default = (props: IconLinkListProps) => {
           key={`${index}-${element.link}`}
           index={index}
           total={datasource.children.results.length}
-          field={element.link.jsonValue}
-          iconName={element.iconName.jsonValue.value}
+          field={element.link?.jsonValue}
+          iconName={element.iconName?.jsonValue?.value?.toString()}
         />
       );
     });
