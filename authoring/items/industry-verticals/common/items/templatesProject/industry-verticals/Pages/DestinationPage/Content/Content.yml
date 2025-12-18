@@ -1,6 +1,6 @@
 ﻿---
 ID: "7019640c-5c00-4037-92cf-377ddb14d0b0"
-Parent: "7fb14706-429a-4a7f-a3c3-401ee26de35d"
+Parent: "0726472c-000e-4d21-9075-bd1328efa785"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: "/sitecore/templates/Project/industry-verticals/Pages/DestinationPage/Content/Content"
 SharedFields:
@@ -34,11 +34,11 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "972c428d-0de2-4763-8251-da2b3f4f4f44"
+      Value: "79fc96bf-63e8-4f0b-9b3f-0a0dcbcea39e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\neli.kostadinova@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251210T134342Z
+      Value: 20251218T112909Z
