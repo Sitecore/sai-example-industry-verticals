@@ -21,10 +21,10 @@ export const Default = (props: SubscribeBannerProps): JSX.Element => {
       id={id || undefined}
     >
       <div className="container max-w-4xl md:max-w-5xl md:px-10">
-        <div className="flex flex-col items-center gap-4 text-center md:gap-6">
-          <h1 className="text-foreground text-2xl leading-tight font-bold md:text-3xl">
+        <div className="flex flex-col items-center gap-4 text-center">
+          <h3 className="text-foreground leading-tight font-bold">
             <Text field={props.fields?.Title} />
-          </h1>
+          </h3>
 
           <div className="text-foreground text-center text-base leading-tight">
             <RichText field={props.fields?.HelperText} />
@@ -47,10 +47,7 @@ export const Default = (props: SubscribeBannerProps): JSX.Element => {
                 className="bg-background ring-foreground/20 focus:ring-foreground/40 !text-foreground placeholder:text-foreground/70 h-9 w-full rounded-md ps-5 ring-1 focus:ring-2 focus:outline-none md:h-10"
               />
 
-              <button
-                type="submit"
-                className="bg-accent group-[.container-dark-background]:bg-background group-[.container-dark-background]:!text-foreground text-background h-9 rounded-md px-4 text-sm font-semibold hover:opacity-90 focus-visible:ring-2 focus-visible:outline-none md:right-3 md:h-10 md:px-5"
-              >
+              <button type="submit" className="btn-accent">
                 {t('button_text') || 'Subscribe'}
               </button>
             </div>
