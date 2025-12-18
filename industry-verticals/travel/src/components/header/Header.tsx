@@ -16,13 +16,13 @@ export const Default = (props: HeaderProps): JSX.Element => {
   return (
     <div className={`component header bg-background border-b ${styles}`} id={id}>
       <div className="container flex items-center gap-4 py-4 lg:gap-6">
-        <div className="header-block *:shrink max-lg:w-full max-lg:justify-between">
+        <div className="header-block *:shrink max-lg:w-full max-lg:justify-between lg:shrink-0">
           <Placeholder name={`header-left-${DynamicPlaceholderId}`} rendering={props.rendering} />
         </div>
-        <div className="hidden! lg:flex! lg:w-full">
+        <div className="hidden! lg:flex! lg:shrink lg:basis-full">
           <Placeholder name={`header-nav-${DynamicPlaceholderId}`} rendering={props.rendering} />
         </div>
-        <div className="header-block hidden! lg:flex!">
+        <div className="header-block hidden! lg:flex! lg:shrink-0">
           <Placeholder name={`header-right-${DynamicPlaceholderId}`} rendering={props.rendering} />
         </div>
 
