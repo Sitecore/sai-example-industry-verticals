@@ -9,12 +9,17 @@ SharedFields:
   Value: "section-wrapper-content-{*}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "07ba4069-8d92-4364-8b54-18a84dff5437"
+  Value: "06377964-57bc-4854-853d-9d186cd647b5"
 - ID: "e391b526-d0c5-439d-803e-17512eae6222"
   Hint: Allowed Controls
   Value: |
     {C29D8AEC-AD95-44E5-BCF9-B0D98C933345}
     {E874A406-4977-443B-8AFE-690812AFB5EF}
+    {810E5B86-932A-4160-8672-C126B545F034}
+    {C6F7E044-B3A2-4510-AE50-5F546E30CCD1}
+    {E3CCF1D0-7855-4898-8BDE-77F83C6A487C}
+    {7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}
+    {15CABDFF-FFD9-48F4-826D-A4C3D7868D3A}
 Languages:
 - Language: en
   Versions:
@@ -33,11 +38,11 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d79b61db-1c1f-4b78-a010-8235975aa23e"
+      Value: "48c49ffd-6d7c-4ce9-b4d8-416c4df3be4f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\neli.kostadinova@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251117T131541Z
+      Value: 20251216T144245Z

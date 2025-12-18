@@ -1,0 +1,36 @@
+﻿---
+ID: "5aa8f0fd-c6bc-42e8-bef6-47ff7c0f5efc"
+Parent: "001630d3-ecb2-4671-82ca-6cef5e726f13"
+Template: "001630d3-ecb2-4671-82ca-6cef5e726f13"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Navigation/IconLinkList/IconLinkList Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {3ADF25E0-F28F-4777-AD84-E2B43A102A96}
+    {001630D3-ECB2-4671-82CA-6CEF5E726F13}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "d6a9f535-7b45-487f-856f-931947e92d5e"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T061559Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "85b70090-5294-4788-a47e-aed2cfa911c2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251215T170008Z

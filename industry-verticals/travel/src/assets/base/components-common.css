@@ -37,3 +37,7 @@
     @apply pointer-events-none opacity-60;
   }
 }
+
+.btn-primary {
+  @apply bg-foreground text-background hover:bg-foreground/90 block w-full rounded-lg px-6 py-3 text-center transition-all duration-300;
+}

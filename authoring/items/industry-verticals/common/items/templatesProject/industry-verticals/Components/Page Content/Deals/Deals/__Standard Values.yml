@@ -1,0 +1,36 @@
+﻿---
+ID: "ebe807c5-dfa3-49bb-bfe1-3cb1e8147fed"
+Parent: "b044a953-455a-4f8d-b99a-730f9d1818e2"
+Template: "b044a953-455a-4f8d-b99a-730f9d1818e2"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Page Content/Deals/Deals/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{7116912B-AF25-436F-98A4-8388A7C74D87}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "56b6a85d-00cc-4a6e-8e20-11915fe93406"
+- ID: "f7b94d8c-a842-49f8-ab7a-2169d00426b0"
+  Hint: __Should Not Organize In Bucket
+  Value: 1
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20111206T092520Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5b28cb2b-6912-43ee-95cc-fc110e8bf095"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T144154Z
