@@ -67,10 +67,7 @@ export const Default = (props: PromoProps): JSX.Element => {
                 </div>
 
                 {(props.fields.PromoMoreInfo?.value?.href || isPageEditing) && (
-                  <Link
-                    field={props.fields.PromoMoreInfo}
-                    className="bg-foreground text-background block w-full rounded-lg px-6 py-3 text-center transition-all duration-300 hover:bg-gray-800"
-                  />
+                  <Link field={props.fields.PromoMoreInfo} className="btn-primary" />
                 )}
               </div>
             </div>
