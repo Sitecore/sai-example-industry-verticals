@@ -1,4 +1,6 @@
 import { useSearchResultsActions, useSearchResultsSelectedFilters } from '@sitecore-search/react';
+import type { SearchResultsStoreSelectedFacet } from '@sitecore-search/widgets';
+import type { FacetPayloadType } from '@sitecore-search/data';
 
 const buildRangeLabel = (min: number | undefined, max: number | undefined): string => {
   return typeof min === 'undefined'
@@ -7,7 +9,11 @@ const buildRangeLabel = (min: number | undefined, max: number | undefined): stri
       ? ` > $${min}`
       : `$${min} - $${max}`;
 };
-const buildFacetLabel = (selectedFacet: any) => {
+const buildFacetLabel = (
+  selectedFacet: SearchResultsStoreSelectedFacet & {
+    type: FacetPayloadType;
+  }
+) => {
   if ('min' in selectedFacet || 'max' in selectedFacet) {
     return `${buildRangeLabel(selectedFacet.min, selectedFacet.max)}`;
   }

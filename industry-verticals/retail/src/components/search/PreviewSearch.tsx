@@ -53,7 +53,7 @@ export const PreviewSearchComponent = ({
       suggestionsList: [{ suggestion: 'title_context_aware', max: 6 }],
       itemsPerPage: defaultItemsPerPage,
     },
-    query: (query): any => {
+    query: (query) => {
       if (SEARCH_CONFIG.source !== '') {
         const sources = SEARCH_CONFIG.source.split('|');
         sources.forEach((source) => {

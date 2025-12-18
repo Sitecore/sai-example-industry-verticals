@@ -2,11 +2,12 @@ import { ArticleCard } from '@sitecore-search/ui';
 import Image from 'next/image';
 import { DEFAULT_IMG_URL } from '@/constants/search';
 import Link from 'next/link';
+import { EntityModel } from '@sitecore-search/react';
 
 type ArticleCardItemCardProps = {
   className?: string;
   displayText?: boolean;
-  article: any;
+  article: EntityModel;
   onItemClick: React.MouseEventHandler<HTMLAnchorElement>;
   index: number;
 };

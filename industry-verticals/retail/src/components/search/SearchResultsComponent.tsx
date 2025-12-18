@@ -67,7 +67,7 @@ export const SearchResultsComponent = ({
       itemsPerPage: defaultItemsPerPage,
       keyphrase: defaultKeyphrase,
     },
-    query: (query): any => {
+    query: (query) => {
       if (SEARCH_CONFIG.source !== '') {
         const sources = SEARCH_CONFIG.source.split('|');
         sources.forEach((source) => {

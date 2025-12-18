@@ -19,7 +19,7 @@ const SortOrder = ({ options, selected }: SortOrderProps) => {
       </SortSelect.Trigger>
       <SortSelect.Content className="bg-background absolute top-8 z-100 min-w-37.5 rounded-md shadow-sm">
         <SortSelect.Viewport className="z-50000 p-1">
-          {options.map((option: any) => (
+          {options.map((option) => (
             <SortSelect.Option
               value={option}
               key={option.name}
