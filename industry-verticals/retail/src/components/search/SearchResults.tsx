@@ -19,7 +19,7 @@ export const SearchResults = (props: SearchResultsProps): JSX.Element => {
   console.log(`grabbed keyword from querystring: ${query}`);
 
   return (
-    <div key={query} className={`${sxaStyles}`}>
+    <div key={query} className={`${sxaStyles} w-full`}>
       <QuestionsAnswers
         key={`${query}-questions`}
         rfkId="rfkid_qa"

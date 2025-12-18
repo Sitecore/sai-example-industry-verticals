@@ -1,7 +1,7 @@
 import { ArticleCard } from '@sitecore-search/ui';
 import Link from 'next/link';
 import Image from 'next/image';
-import { DEFAULT_IMG_URL } from '@/_data/customizations';
+import { DEFAULT_IMG_URL } from '@/constants/search';
 import { EntityModel } from '@sitecore-search/react';
 
 type ArticleItemCardProps = {
@@ -15,39 +15,39 @@ const ArticleItemCard = ({ className = '', article }: ArticleItemCardProps) => {
   const validImageUrl = article.image_url?.trim() ? article.image_url : DEFAULT_IMG_URL;
 
   return (
-    <ArticleCard.Root
-      key={article.id}
-      className={`group relative rounded-md border border-gray-300 shadow-md focus-within:scale-102 focus-within:transition-all focus-within:duration-300 focus-within:ease-linear hover:scale-102 hover:shadow-lg hover:transition-all hover:duration-300 hover:ease-linear focus-within:hover:shadow-lg dark:border-gray-600 ${className}`}
+    <Link
+      href={article.url}
+      className="focus:outline-accent"
+      aria-label={article.name || article.title}
     >
-      <div className="aspect-h-1 aspect-w-1 sm:aspect-none h-32 w-full overflow-hidden rounded-t-md bg-gray-200">
-        <Image
-          src={validImageUrl}
-          className="h-full w-full object-cover object-center lg:h-full lg:w-full"
-          alt={article.name || article.title}
-          width={500}
-          height={115}
-          loading="lazy"
-        />
-      </div>
-      <div className="relative m-4 flex-col justify-between">
-        <Link
-          className="focus:outline-indigo-500"
-          href={`/detail/${article.id}`}
-          aria-label={`View details for ${article.name || article.title}`}
-        >
-          <span aria-hidden="true" className="absolute inset-0"></span>
-          <ArticleCard.Title className="mt-4 h-[100px] overflow-hidden text-base font-bold">
+      <ArticleCard.Root
+        key={article.id}
+        className={`group border-border hover:shadow-accent/20 relative rounded-md border shadow-sm hover:shadow-md hover:transition-all hover:duration-300 hover:ease-linear ${className}`}
+      >
+        <div className="bg-background-surface h-50 w-full overflow-hidden rounded-t-md">
+          <Image
+            src={validImageUrl}
+            className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105 lg:h-full lg:w-full"
+            alt={article.name || article.title}
+            width={500}
+            height={115}
+            loading="lazy"
+          />
+        </div>
+        <div className="relative m-4 flex-col justify-between">
+          <span className="text-foreground-light mt-4 text-xs font-light">{article.type}</span>
+          <ArticleCard.Title className="h-10 overflow-hidden text-base font-bold">
             {article.name || article.title}
           </ArticleCard.Title>
-        </Link>
-        <ArticleCard.Subtitle className="mt-3 flex text-sm text-gray-600 dark:text-gray-200">
-          {/* {article.type} */}
-          <div className="right-0 text-sm font-medium text-blue-600 hover:text-blue-800">
-            Read More →
-          </div>
-        </ArticleCard.Subtitle>
-      </div>
-    </ArticleCard.Root>
+          <ArticleCard.Subtitle className="text-foreground-light mt-3 flex text-sm">
+            {/* {article.type} */}
+            <div className="text-foreground-muted group-hover:text-accent right-0 text-sm font-medium">
+              View →
+            </div>
+          </ArticleCard.Subtitle>
+        </div>
+      </ArticleCard.Root>
+    </Link>
   );
 };
 

@@ -28,11 +28,11 @@ const RelatedQuestionsComponent = ({ relatedQuestions = [] }: RelatedQuestionsPr
   return (
     <div className="space-y-4">
       {relatedQuestions.length > 0 && (
-        <Accordion className="pb-4" type="multiple">
+        <Accordion type="multiple">
           <h4 className="text-md mb-4 font-bold">People also ask ...</h4>
           {relatedQuestions.map(({ answer, question }, index) => (
             <Item
-              className="border-border w-full cursor-pointer border-b py-4"
+              className="border-border w-full cursor-pointer py-4 not-last:border-b"
               value={`${answer}-${index}`}
               key={index}
             >
@@ -87,7 +87,7 @@ export const QuestionsAnswersComponent = ({
   return (
     <div>
       {((answer && question) || relatedQuestionsResponse.length > 0) && (
-        <div className="border-border mb-8 rounded-lg border bg-white p-6 shadow-sm">
+        <div className="border-border mb-8 rounded-lg border bg-white p-5 shadow-sm">
           {answer && question && <MainQuestionComponent answer={answer} question={question} />}
           {relatedQuestionsResponse.length > 0 && (
             <RelatedQuestionsComponent relatedQuestions={relatedQuestionsResponse} />

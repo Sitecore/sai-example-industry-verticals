@@ -7,24 +7,100 @@ import {
 } from '@sitecore-content-sdk/nextjs/codegen';
 // end of built-in imports
 
-import { Link, Text, useSitecore, RichText, NextImage, Placeholder, Image as Image_8a80e63291fea86e0744df19113dc44bec187216, CdpHelper, withDatasourceCheck, DateField } from '@sitecore-content-sdk/nextjs';
+import {
+  Link,
+  Text,
+  useSitecore,
+  RichText,
+  NextImage,
+  Placeholder,
+  Image as Image_8a80e63291fea86e0744df19113dc44bec187216,
+  CdpHelper,
+  withDatasourceCheck,
+  DateField,
+} from '@sitecore-content-sdk/nextjs';
 import { useMemo, useState, useCallback, useEffect, useId, useRef } from 'react';
 import React from 'react';
 import Head from 'next/head';
 import { useI18n } from 'next-localization';
-import { faFacebookF, faInstagram, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import {
+  faFacebookF,
+  faInstagram,
+  faLinkedin,
+  faTwitter,
+  faYoutube,
+} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { FacebookIcon, InstagramIcon, LinkedinIcon, TwitterIcon, YoutubeIcon } from '@/assets/icons/social/social';
+import {
+  FacebookIcon,
+  InstagramIcon,
+  LinkedinIcon,
+  TwitterIcon,
+  YoutubeIcon,
+} from '@/assets/icons/social/social';
 import { isParamEnabled } from '@/helpers/isParamEnabled';
 import AccentLine from '@/assets/icons/accent-line/AccentLine';
 import ProductCarousel from 'src/components/non-sitecore/ProductCarousel';
 import { CommonStyles, LayoutStyles, PromoFlags, HeroBannerStyles } from '@/types/styleFlags';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { usePreviewSearchActions, useSearchResultsActions, WidgetDataType, useSearchResults, widget, useQuestions, usePreviewSearch, FilterEqual, useSearchResultsSelectedFilters } from '@sitecore-search/react';
-import { PreviewSearch, SortSelect, Pagination, AccordionFacets, FacetItem, RangeFacet, SearchResultsAccordionFacets, SearchResultsFacetValueRange, Select, ArticleCard, CardViewSwitcher as CardViewSwitcher_b6c381477cbf12fc0dc4f9aeb9e8e41e943b6ea7 } from '@sitecore-search/ui';
-import { LoaderCircle, ChevronDown, Heart, Plus, ChevronLeft, ChevronRight, Star, User, X, Check, Loader2, ShoppingCart, Search, Globe, MoreHorizontal, Home, ArrowRight } from 'lucide-react';
-import { GridIcon, ListBulletIcon, ArrowLeftIcon, ArrowRightIcon, CheckIcon, ChevronDownIcon } from '@radix-ui/react-icons';
-import { HIGHLIGHTED_ARTICLES_RFKID, SEARCH_WIDGET_ID, PREVIEW_WIDGET_ID, HOMEHIGHLIGHTED_WIDGET_ID, DEFAULT_IMG_URL } from '@/_data/customizations';
+import {
+  usePreviewSearchActions,
+  useSearchResultsActions,
+  WidgetDataType,
+  useSearchResults,
+  widget,
+  useQuestions,
+  usePreviewSearch,
+  FilterEqual,
+  useSearchResultsSelectedFilters,
+} from '@sitecore-search/react';
+import {
+  PreviewSearch,
+  SortSelect,
+  Pagination,
+  AccordionFacets,
+  FacetItem,
+  RangeFacet,
+  SearchResultsAccordionFacets,
+  SearchResultsFacetValueRange,
+  Select,
+  ArticleCard,
+  CardViewSwitcher as CardViewSwitcher_b6c381477cbf12fc0dc4f9aeb9e8e41e943b6ea7,
+} from '@sitecore-search/ui';
+import {
+  LoaderCircle,
+  ChevronDown,
+  Heart,
+  Plus,
+  ChevronLeft,
+  ChevronRight,
+  Star,
+  User,
+  X,
+  Check,
+  Loader2,
+  ShoppingCart,
+  Search,
+  Globe,
+  MoreHorizontal,
+  Home,
+  ArrowRight,
+} from 'lucide-react';
+import {
+  GridIcon,
+  ListBulletIcon,
+  ArrowLeftIcon,
+  ArrowRightIcon,
+  CheckIcon,
+  ChevronDownIcon,
+} from '@radix-ui/react-icons';
+import {
+  HIGHLIGHTED_ARTICLES_RFKID,
+  SEARCH_WIDGET_ID,
+  PREVIEW_WIDGET_ID,
+  HOMEHIGHLIGHTED_WIDGET_ID,
+  DEFAULT_IMG_URL,
+} from '@/constants/search';
 import HomeHighlighted from 'src/components/search/HomeHighlighted';
 import Spinner from 'src/components/search/Spinner';
 import ArticleItemCard from 'src/components/search/ArticleCard';
@@ -43,7 +119,13 @@ import Image from 'next/image';
 import SuggestionBlock from 'src/components/search/SuggestionBlock';
 import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination as Pagination_8dba730cdca19ae0ff3cf106a6e16ccff9e9cae7, Autoplay, A11y, Keyboard } from 'swiper/modules';
+import {
+  Navigation,
+  Pagination as Pagination_8dba730cdca19ae0ff3cf106a6e16ccff9e9cae7,
+  Autoplay,
+  A11y,
+  Keyboard,
+} from 'swiper/modules';
 import CarouselButton from 'src/components/non-sitecore/CarouselButton';
 import ReviewCard from 'src/components/non-sitecore/ReviewCard';
 import clsx from 'clsx';
@@ -60,7 +142,18 @@ import { ProductMetaDetals } from 'src/components/non-sitecore/ProductMetaDetail
 import { ProductDescription } from 'src/components/non-sitecore/ProductDescription';
 import { ProductSizeControl } from 'src/components/non-sitecore/ProductSizeControl';
 import { ProductColorControl } from 'src/components/non-sitecore/ProductColorControl';
-import { EmailIcon, EmailShareButton, FacebookIcon as FacebookIcon_9cb8204ac12fcef03c9ff3e4b02fa570c6e7630c, FacebookShareButton, LinkedinIcon as LinkedinIcon_9cb8204ac12fcef03c9ff3e4b02fa570c6e7630c, LinkedinShareButton, PinterestIcon, PinterestShareButton, TwitterIcon as TwitterIcon_9cb8204ac12fcef03c9ff3e4b02fa570c6e7630c, TwitterShareButton } from 'react-share';
+import {
+  EmailIcon,
+  EmailShareButton,
+  FacebookIcon as FacebookIcon_9cb8204ac12fcef03c9ff3e4b02fa570c6e7630c,
+  FacebookShareButton,
+  LinkedinIcon as LinkedinIcon_9cb8204ac12fcef03c9ff3e4b02fa570c6e7630c,
+  LinkedinShareButton,
+  PinterestIcon,
+  PinterestShareButton,
+  TwitterIcon as TwitterIcon_9cb8204ac12fcef03c9ff3e4b02fa570c6e7630c,
+  TwitterShareButton,
+} from 'react-share';
 import StarRating from 'src/components/non-sitecore/StarRating';
 import { ProductReviews } from 'src/components/non-sitecore/ProductReviews';
 import SocialShare from 'src/components/non-sitecore/SocialShare';
@@ -77,9 +170,21 @@ import HamburgerIcon from '@/components/non-sitecore/HamburgerIcon';
 import { useClickAway } from '@/hooks/useClickAway';
 import { useStopResponsiveTransition } from '@/hooks/useStopResponsiveTransition';
 import { extractMediaUrl } from '@/helpers/extractMediaUrl';
-import { getLinkContent, getLinkField, isNavLevel, isNavRootItem, prepareFields } from '@/helpers/navHelpers';
+import {
+  getLinkContent,
+  getLinkField,
+  isNavLevel,
+  isNavRootItem,
+  prepareFields,
+} from '@/helpers/navHelpers';
 import { useRouter as useRouter_0e8a928699f624a3ad05eb9c9906b0e7ce1a00be } from 'next/router';
-import { Select as Select_4a7098778d43a9b4dcd5871ec48ea51b5a246850, SelectContent, SelectItem, SelectTrigger, SelectValue } from 'src/shadcn/components/ui/select';
+import {
+  Select as Select_4a7098778d43a9b4dcd5871ec48ea51b5a246850,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from 'src/shadcn/components/ui/select';
 import { localeOptions } from '@/constants/localeOptions';
 import { generateIndexes } from '@/helpers/generateIndexes';
 import client from 'lib/sitecore-client';
@@ -105,7 +210,7 @@ const importMap = [
       { name: 'CdpHelper', value: CdpHelper },
       { name: 'withDatasourceCheck', value: withDatasourceCheck },
       { name: 'DateField', value: DateField },
-    ]
+    ],
   },
   {
     module: 'react',
@@ -117,19 +222,15 @@ const importMap = [
       { name: 'useId', value: useId },
       { name: 'useRef', value: useRef },
       { name: 'default', value: React },
-    ]
+    ],
   },
   {
     module: 'next/head',
-    exports: [
-      { name: 'default', value: Head },
-    ]
+    exports: [{ name: 'default', value: Head }],
   },
   {
     module: 'next-localization',
-    exports: [
-      { name: 'useI18n', value: useI18n },
-    ]
+    exports: [{ name: 'useI18n', value: useI18n }],
   },
   {
     module: '@fortawesome/free-brands-svg-icons',
@@ -139,13 +240,11 @@ const importMap = [
       { name: 'faLinkedin', value: faLinkedin },
       { name: 'faTwitter', value: faTwitter },
       { name: 'faYoutube', value: faYoutube },
-    ]
+    ],
   },
   {
     module: '@fortawesome/react-fontawesome',
-    exports: [
-      { name: 'FontAwesomeIcon', value: FontAwesomeIcon },
-    ]
+    exports: [{ name: 'FontAwesomeIcon', value: FontAwesomeIcon }],
   },
   {
     module: '@/assets/icons/social/social',
@@ -155,25 +254,19 @@ const importMap = [
       { name: 'LinkedinIcon', value: LinkedinIcon },
       { name: 'TwitterIcon', value: TwitterIcon },
       { name: 'YoutubeIcon', value: YoutubeIcon },
-    ]
+    ],
   },
   {
     module: '@/helpers/isParamEnabled',
-    exports: [
-      { name: 'isParamEnabled', value: isParamEnabled },
-    ]
+    exports: [{ name: 'isParamEnabled', value: isParamEnabled }],
   },
   {
     module: '@/assets/icons/accent-line/AccentLine',
-    exports: [
-      { name: 'default', value: AccentLine },
-    ]
+    exports: [{ name: 'default', value: AccentLine }],
   },
   {
     module: 'src/components/non-sitecore/ProductCarousel',
-    exports: [
-      { name: 'default', value: ProductCarousel },
-    ]
+    exports: [{ name: 'default', value: ProductCarousel }],
   },
   {
     module: '@/types/styleFlags',
@@ -182,14 +275,14 @@ const importMap = [
       { name: 'LayoutStyles', value: LayoutStyles },
       { name: 'PromoFlags', value: PromoFlags },
       { name: 'HeroBannerStyles', value: HeroBannerStyles },
-    ]
+    ],
   },
   {
     module: 'next/navigation',
     exports: [
       { name: 'useRouter', value: useRouter },
       { name: 'useSearchParams', value: useSearchParams },
-    ]
+    ],
   },
   {
     module: '@sitecore-search/react',
@@ -203,7 +296,7 @@ const importMap = [
       { name: 'usePreviewSearch', value: usePreviewSearch },
       { name: 'FilterEqual', value: FilterEqual },
       { name: 'useSearchResultsSelectedFilters', value: useSearchResultsSelectedFilters },
-    ]
+    ],
   },
   {
     module: '@sitecore-search/ui',
@@ -218,8 +311,11 @@ const importMap = [
       { name: 'SearchResultsFacetValueRange', value: SearchResultsFacetValueRange },
       { name: 'Select', value: Select },
       { name: 'ArticleCard', value: ArticleCard },
-      { name: 'CardViewSwitcher', value: CardViewSwitcher_b6c381477cbf12fc0dc4f9aeb9e8e41e943b6ea7 },
-    ]
+      {
+        name: 'CardViewSwitcher',
+        value: CardViewSwitcher_b6c381477cbf12fc0dc4f9aeb9e8e41e943b6ea7,
+      },
+    ],
   },
   {
     module: 'lucide-react',
@@ -241,7 +337,7 @@ const importMap = [
       { name: 'MoreHorizontal', value: MoreHorizontal },
       { name: 'Home', value: Home },
       { name: 'ArrowRight', value: ArrowRight },
-    ]
+    ],
   },
   {
     module: '@radix-ui/react-icons',
@@ -252,7 +348,7 @@ const importMap = [
       { name: 'ArrowRightIcon', value: ArrowRightIcon },
       { name: 'CheckIcon', value: CheckIcon },
       { name: 'ChevronDownIcon', value: ChevronDownIcon },
-    ]
+    ],
   },
   {
     module: '@/_data/customizations',
@@ -262,85 +358,59 @@ const importMap = [
       { name: 'PREVIEW_WIDGET_ID', value: PREVIEW_WIDGET_ID },
       { name: 'HOMEHIGHLIGHTED_WIDGET_ID', value: HOMEHIGHLIGHTED_WIDGET_ID },
       { name: 'DEFAULT_IMG_URL', value: DEFAULT_IMG_URL },
-    ]
+    ],
   },
   {
     module: 'src/components/search/HomeHighlighted',
-    exports: [
-      { name: 'default', value: HomeHighlighted },
-    ]
+    exports: [{ name: 'default', value: HomeHighlighted }],
   },
   {
     module: 'src/components/search/Spinner',
-    exports: [
-      { name: 'default', value: Spinner },
-    ]
+    exports: [{ name: 'default', value: Spinner }],
   },
   {
     module: 'src/components/search/ArticleCard',
-    exports: [
-      { name: 'default', value: ArticleItemCard },
-    ]
+    exports: [{ name: 'default', value: ArticleItemCard }],
   },
   {
     module: 'src/components/search/SortOrder',
-    exports: [
-      { name: 'default', value: SortOrder },
-    ]
+    exports: [{ name: 'default', value: SortOrder }],
   },
   {
     module: 'src/components/search/ArticleHorizontalCard',
-    exports: [
-      { name: 'default', value: ArticleHorizontalItemCard },
-    ]
+    exports: [{ name: 'default', value: ArticleHorizontalItemCard }],
   },
   {
     module: 'src/components/search/SearchPagination',
-    exports: [
-      { name: 'default', value: SearchPagination },
-    ]
+    exports: [{ name: 'default', value: SearchPagination }],
   },
   {
     module: 'src/components/search/SearchFacets',
-    exports: [
-      { name: 'default', value: SearchFacets },
-    ]
+    exports: [{ name: 'default', value: SearchFacets }],
   },
   {
     module: 'src/components/search/ResultsPerPage',
-    exports: [
-      { name: 'default', value: ResultsPerPage },
-    ]
+    exports: [{ name: 'default', value: ResultsPerPage }],
   },
   {
     module: 'src/components/search/QueryResultsSummary',
-    exports: [
-      { name: 'default', value: QueryResultsSummary },
-    ]
+    exports: [{ name: 'default', value: QueryResultsSummary }],
   },
   {
     module: 'src/components/search/CardViewSwitcher',
-    exports: [
-      { name: 'default', value: CardViewSwitcher },
-    ]
+    exports: [{ name: 'default', value: CardViewSwitcher }],
   },
   {
     module: 'src/hooks/useSearchTracking',
-    exports: [
-      { name: 'useSearchTracking', value: useSearchTracking },
-    ]
+    exports: [{ name: 'useSearchTracking', value: useSearchTracking }],
   },
   {
     module: 'src/components/search/SearchResultsComponent',
-    exports: [
-      { name: 'default', value: SearchResultsWidget },
-    ]
+    exports: [{ name: 'default', value: SearchResultsWidget }],
   },
   {
     module: 'src/components/search/QuestionsAnswers',
-    exports: [
-      { name: 'default', value: QuestionsAnswers },
-    ]
+    exports: [{ name: 'default', value: QuestionsAnswers }],
   },
   {
     module: '@radix-ui/react-accordion',
@@ -350,32 +420,26 @@ const importMap = [
       { name: 'Header', value: Header },
       { name: 'Item', value: Item },
       { name: 'Trigger', value: Trigger },
-    ]
+    ],
   },
   {
     module: 'next/image',
-    exports: [
-      { name: 'default', value: Image },
-    ]
+    exports: [{ name: 'default', value: Image }],
   },
   {
     module: 'src/components/search/SuggestionBlock',
-    exports: [
-      { name: 'default', value: SuggestionBlock },
-    ]
+    exports: [{ name: 'default', value: SuggestionBlock }],
   },
   {
     module: 'next/link',
-    exports: [
-      { name: 'default', value: Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 },
-    ]
+    exports: [{ name: 'default', value: Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 }],
   },
   {
     module: 'swiper/react',
     exports: [
       { name: 'Swiper', value: Swiper },
       { name: 'SwiperSlide', value: SwiperSlide },
-    ]
+    ],
   },
   {
     module: 'swiper/modules',
@@ -385,104 +449,74 @@ const importMap = [
       { name: 'Autoplay', value: Autoplay },
       { name: 'A11y', value: A11y },
       { name: 'Keyboard', value: Keyboard },
-    ]
+    ],
   },
   {
     module: 'src/components/non-sitecore/CarouselButton',
-    exports: [
-      { name: 'default', value: CarouselButton },
-    ]
+    exports: [{ name: 'default', value: CarouselButton }],
   },
   {
     module: 'src/components/non-sitecore/ReviewCard',
-    exports: [
-      { name: 'default', value: ReviewCard },
-    ]
+    exports: [{ name: 'default', value: ReviewCard }],
   },
   {
     module: 'clsx',
-    exports: [
-      { name: 'default', value: clsx },
-    ]
+    exports: [{ name: 'default', value: clsx }],
   },
   {
     module: '@/assets/icons/quote/Quote',
-    exports: [
-      { name: 'Quote', value: Quote },
-    ]
+    exports: [{ name: 'Quote', value: Quote }],
   },
   {
     module: '@/hooks/usePagination',
-    exports: [
-      { name: 'usePagination', value: usePagination },
-    ]
+    exports: [{ name: 'usePagination', value: usePagination }],
   },
   {
     module: '@/components/non-sitecore/ProductCard',
-    exports: [
-      { name: 'ProductCard', value: ProductCard },
-    ]
+    exports: [{ name: 'ProductCard', value: ProductCard }],
   },
   {
     module: 'src/components/non-sitecore/Pagination',
-    exports: [
-      { name: 'Pagination', value: Pagination_25a2ac6977db7c44c4c657d8bc0b397259e5032a },
-    ]
+    exports: [{ name: 'Pagination', value: Pagination_25a2ac6977db7c44c4c657d8bc0b397259e5032a }],
   },
   {
     module: '@/helpers/productUtils',
     exports: [
       { name: 'calculateAverageRatingFromIGQL', value: calculateAverageRatingFromIGQL },
       { name: 'calculateAverageRating', value: calculateAverageRating },
-    ]
+    ],
   },
   {
     module: 'src/components/non-sitecore/ProductTabs',
-    exports: [
-      { name: 'ProductTabs', value: ProductTabs },
-    ]
+    exports: [{ name: 'ProductTabs', value: ProductTabs }],
   },
   {
     module: 'src/components/non-sitecore/QuantityControl',
-    exports: [
-      { name: 'default', value: QuantityControl },
-    ]
+    exports: [{ name: 'default', value: QuantityControl }],
   },
   {
     module: 'src/components/non-sitecore/AddToCartButton',
-    exports: [
-      { name: 'AddToCartButton', value: AddToCartButton },
-    ]
+    exports: [{ name: 'AddToCartButton', value: AddToCartButton }],
   },
   {
     module: 'src/components/non-sitecore/ProductGallery',
-    exports: [
-      { name: 'ProductGallery', value: ProductGallery },
-    ]
+    exports: [{ name: 'ProductGallery', value: ProductGallery }],
   },
   {
     module: 'src/components/non-sitecore/ProductMetaDetails',
-    exports: [
-      { name: 'ProductMetaDetals', value: ProductMetaDetals },
-    ]
+    exports: [{ name: 'ProductMetaDetals', value: ProductMetaDetals }],
   },
   {
     module: 'src/components/non-sitecore/ProductDescription',
-    exports: [
-      { name: 'ProductDescription', value: ProductDescription },
-    ]
+    exports: [{ name: 'ProductDescription', value: ProductDescription }],
   },
   {
     module: 'src/components/non-sitecore/ProductSizeControl',
-    exports: [
-      { name: 'ProductSizeControl', value: ProductSizeControl },
-    ]
+    exports: [{ name: 'ProductSizeControl', value: ProductSizeControl }],
   },
   {
     module: 'src/components/non-sitecore/ProductColorControl',
-    exports: [
-      { name: 'ProductColorControl', value: ProductColorControl },
-    ]
+    exports: [{ name: 'ProductColorControl', value: ProductColorControl }],
   },
   {
     module: 'react-share',
@@ -497,61 +531,43 @@ const importMap = [
       { name: 'PinterestShareButton', value: PinterestShareButton },
       { name: 'TwitterIcon', value: TwitterIcon_9cb8204ac12fcef03c9ff3e4b02fa570c6e7630c },
       { name: 'TwitterShareButton', value: TwitterShareButton },
-    ]
+    ],
   },
   {
     module: 'src/components/non-sitecore/StarRating',
-    exports: [
-      { name: 'default', value: StarRating },
-    ]
+    exports: [{ name: 'default', value: StarRating }],
   },
   {
     module: 'src/components/non-sitecore/ProductReviews',
-    exports: [
-      { name: 'ProductReviews', value: ProductReviews },
-    ]
+    exports: [{ name: 'ProductReviews', value: ProductReviews }],
   },
   {
     module: 'src/components/non-sitecore/SocialShare',
-    exports: [
-      { name: 'default', value: SocialShare },
-    ]
+    exports: [{ name: 'default', value: SocialShare }],
   },
   {
     module: '@/hooks/useLocaleOptions',
-    exports: [
-      { name: 'useLocale', value: useLocale },
-    ]
+    exports: [{ name: 'useLocale', value: useLocale }],
   },
   {
     module: 'src/components/non-sitecore/ProductCard',
-    exports: [
-      { name: 'ProductCard', value: ProductCard_1c3beebee643aa9e58bfc4ec64964849bfb9dc1b },
-    ]
+    exports: [{ name: 'ProductCard', value: ProductCard_1c3beebee643aa9e58bfc4ec64964849bfb9dc1b }],
   },
   {
     module: '@/lib/cart',
-    exports: [
-      { name: 'getCart', value: getCart },
-    ]
+    exports: [{ name: 'getCart', value: getCart }],
   },
   {
     module: '@/hooks/useCartAction',
-    exports: [
-      { name: 'useCartAction', value: useCartAction },
-    ]
+    exports: [{ name: 'useCartAction', value: useCartAction }],
   },
   {
     module: '@radix-ui/react-popover',
-    exports: [
-      { name: 'PopoverClose', value: PopoverClose },
-    ]
+    exports: [{ name: 'PopoverClose', value: PopoverClose }],
   },
   {
     module: '@/assets/icons/arrow-short/ArrowShort',
-    exports: [
-      { name: 'default', value: ShortArrow },
-    ]
+    exports: [{ name: 'default', value: ShortArrow }],
   },
   {
     module: '@/shadcn/components/ui/popover',
@@ -559,43 +575,31 @@ const importMap = [
       { name: 'Popover', value: Popover },
       { name: 'PopoverContent', value: PopoverContent },
       { name: 'PopoverTrigger', value: PopoverTrigger },
-    ]
+    ],
   },
   {
     module: 'src/components/non-sitecore/MiniCart',
-    exports: [
-      { name: 'MiniCart', value: MiniCart },
-    ]
+    exports: [{ name: 'MiniCart', value: MiniCart }],
   },
   {
     module: 'src/components/search/PreviewSearch',
-    exports: [
-      { name: 'default', value: PreviewSearch_4de1a796917131c02c1d8f23d3df1bc9d5bbcf97 },
-    ]
+    exports: [{ name: 'default', value: PreviewSearch_4de1a796917131c02c1d8f23d3df1bc9d5bbcf97 }],
   },
   {
     module: '@/components/non-sitecore/HamburgerIcon',
-    exports: [
-      { name: 'default', value: HamburgerIcon },
-    ]
+    exports: [{ name: 'default', value: HamburgerIcon }],
   },
   {
     module: '@/hooks/useClickAway',
-    exports: [
-      { name: 'useClickAway', value: useClickAway },
-    ]
+    exports: [{ name: 'useClickAway', value: useClickAway }],
   },
   {
     module: '@/hooks/useStopResponsiveTransition',
-    exports: [
-      { name: 'useStopResponsiveTransition', value: useStopResponsiveTransition },
-    ]
+    exports: [{ name: 'useStopResponsiveTransition', value: useStopResponsiveTransition }],
   },
   {
     module: '@/helpers/extractMediaUrl',
-    exports: [
-      { name: 'extractMediaUrl', value: extractMediaUrl },
-    ]
+    exports: [{ name: 'extractMediaUrl', value: extractMediaUrl }],
   },
   {
     module: '@/helpers/navHelpers',
@@ -605,13 +609,11 @@ const importMap = [
       { name: 'isNavLevel', value: isNavLevel },
       { name: 'isNavRootItem', value: isNavRootItem },
       { name: 'prepareFields', value: prepareFields },
-    ]
+    ],
   },
   {
     module: 'next/router',
-    exports: [
-      { name: 'useRouter', value: useRouter_0e8a928699f624a3ad05eb9c9906b0e7ce1a00be },
-    ]
+    exports: [{ name: 'useRouter', value: useRouter_0e8a928699f624a3ad05eb9c9906b0e7ce1a00be }],
   },
   {
     module: 'src/shadcn/components/ui/select',
@@ -621,49 +623,35 @@ const importMap = [
       { name: 'SelectItem', value: SelectItem },
       { name: 'SelectTrigger', value: SelectTrigger },
       { name: 'SelectValue', value: SelectValue },
-    ]
+    ],
   },
   {
     module: '@/constants/localeOptions',
-    exports: [
-      { name: 'localeOptions', value: localeOptions },
-    ]
+    exports: [{ name: 'localeOptions', value: localeOptions }],
   },
   {
     module: '@/helpers/generateIndexes',
-    exports: [
-      { name: 'generateIndexes', value: generateIndexes },
-    ]
+    exports: [{ name: 'generateIndexes', value: generateIndexes }],
   },
   {
     module: 'lib/sitecore-client',
-    exports: [
-      { name: 'default', value: client },
-    ]
+    exports: [{ name: 'default', value: client }],
   },
   {
     module: '@sitecore-feaas/clientside/react',
-    exports: [
-      { name: '*', value: FEAAS },
-    ]
+    exports: [{ name: '*', value: FEAAS }],
   },
   {
     module: 'next.config',
-    exports: [
-      { name: 'default', value: nextConfig },
-    ]
+    exports: [{ name: 'default', value: nextConfig }],
   },
   {
     module: '@sitecore-cloudsdk/events/browser',
-    exports: [
-      { name: 'pageView', value: pageView },
-    ]
+    exports: [{ name: 'pageView', value: pageView }],
   },
   {
     module: 'sitecore.config',
-    exports: [
-      { name: 'default', value: config },
-    ]
+    exports: [{ name: 'default', value: config }],
   },
   {
     module: '@fortawesome/free-solid-svg-icons',
@@ -671,21 +659,20 @@ const importMap = [
       { name: 'faUser', value: faUser },
       { name: 'faCalendar', value: faCalendar },
       { name: 'faTag', value: faTag },
-    ]
+    ],
   },
   {
     module: '@/helpers/articleUtils',
     exports: [
       { name: 'sortByDateDesc', value: sortByDateDesc },
       { name: 'getCategoryCounts', value: getCategoryCounts },
-    ]
+    ],
   },
   {
     module: '@/shadcn/lib/utils',
-    exports: [
-      { name: 'cn', value: cn },
-    ]
-  }
+    exports: [{ name: 'cn', value: cn }],
+  },
 ] as ImportEntry[];
 
 export default combineImportEntries(defaultImportEntries, importMap);
+

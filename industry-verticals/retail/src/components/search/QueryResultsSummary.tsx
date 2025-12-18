@@ -11,7 +11,7 @@ const QueryResultsSummary = ({
   totalItemsReturned,
 }: QueryResultsSummaryProps) => {
   return (
-    <div className="mx-0 my-auto font-bold">
+    <div className="mx-0 my-auto">
       Showing {itemsPerPage * (currentPage - 1) + 1} -{' '}
       {itemsPerPage * (currentPage - 1) + totalItemsReturned} of {totalItems} results
     </div>

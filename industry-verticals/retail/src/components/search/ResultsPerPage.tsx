@@ -7,6 +7,8 @@ type ResultsPerPageProps = {
 
 const ResultsPerPage = ({ defaultItemsPerPage }: ResultsPerPageProps) => {
   const { onResultsPerPageChange } = useSearchResultsActions();
+
+  const options = [10, 25, 50];
   return (
     <div>
       <label className="pr-1">Results Per Page</label>
@@ -18,32 +20,21 @@ const ResultsPerPage = ({ defaultItemsPerPage }: ResultsPerPageProps) => {
           })
         }
       >
-        <Select.Trigger className="inline-flex h-10 cursor-pointer items-center gap-1 border-0 bg-transparent px-4 py-1 focus:outline-gray-700">
+        <Select.Trigger className="focus:outline-accent inline-flex h-10 cursor-pointer items-center gap-1 border-0 bg-transparent px-4 py-1">
           <Select.SelectValue />
           <Select.Icon />
         </Select.Trigger>
-        <Select.SelectContent className="z-100 min-w-[100px] rounded-md bg-gray-100 shadow-[2px_2px_4px_#CFCFCF] dark:bg-gray-700">
+        <Select.SelectContent className="bg-background-surface z-100 min-w-25 rounded-md shadow-sm">
           <Select.Viewport className="p-1">
-            <Select.SelectItem
-              value="10"
-              className="whitespace-no-wrap flex h-6 cursor-pointer items-center rounded-sm px-1 leading-none select-none hover:bg-gray-700 hover:text-gray-100 focus:outline-gray-700 data-[state=checked]:bg-gray-100 data-[state=checked]:text-gray-700 dark:hover:bg-gray-100 dark:hover:text-gray-700 dark:data-[state=checked]:bg-gray-700 dark:data-[state=checked]:text-gray-100"
-            >
-              <SortSelect.OptionText>10</SortSelect.OptionText>
-            </Select.SelectItem>
-
-            <Select.SelectItem
-              value="25"
-              className="whitespace-no-wrap flex h-6 cursor-pointer items-center rounded-sm px-1 leading-none select-none hover:bg-gray-700 hover:text-gray-100 focus:outline-gray-700 data-[state=checked]:bg-gray-100 data-[state=checked]:text-gray-700 dark:hover:bg-gray-100 dark:hover:text-gray-700 dark:data-[state=checked]:bg-gray-700 dark:data-[state=checked]:text-gray-100"
-            >
-              <SortSelect.OptionText>25</SortSelect.OptionText>
-            </Select.SelectItem>
-
-            <Select.SelectItem
-              value="50"
-              className="whitespace-no-wrap flex h-6 cursor-pointer items-center rounded-sm px-1 leading-none select-none hover:bg-gray-700 hover:text-gray-100 focus:outline-gray-700 data-[state=checked]:bg-gray-100 data-[state=checked]:text-gray-700 dark:hover:bg-gray-100 dark:hover:text-gray-700 dark:data-[state=checked]:bg-gray-700 dark:data-[state=checked]:text-gray-100"
-            >
-              <SortSelect.OptionText>50</SortSelect.OptionText>
-            </Select.SelectItem>
+            {options.map((option, idx) => (
+              <Select.SelectItem
+                key={`${option}_${idx}`}
+                value={String(option)}
+                className="text-foreground-muted whitespace-no-wrap hover:text-foreground focus:outline-accent data-[state=checked]:bg-background-accent data-[state=checked]:text-foreground flex h-6 cursor-pointer items-center rounded-sm px-1 leading-none select-none"
+              >
+                <SortSelect.OptionText>{option}</SortSelect.OptionText>
+              </Select.SelectItem>
+            ))}
           </Select.Viewport>
         </Select.SelectContent>
       </Select.Root>

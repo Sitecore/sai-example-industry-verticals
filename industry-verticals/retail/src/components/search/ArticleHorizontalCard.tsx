@@ -1,6 +1,7 @@
 import { ArticleCard } from '@sitecore-search/ui';
 import Image from 'next/image';
-import { DEFAULT_IMG_URL } from '@/_data/customizations';
+import { DEFAULT_IMG_URL } from '@/constants/search';
+import Link from 'next/link';
 
 type ArticleCardItemCardProps = {
   className?: string;
@@ -18,36 +19,40 @@ const ArticleHorizontalItemCard = ({ className = '', article }: ArticleCardItemC
   }
 
   return (
-    <ArticleCard.Root
-      key={article.id}
-      className={`group relative my-4 flex max-h-52 w-full flex-row flex-nowrap rounded-md border border-gray-200 focus-within:transition-all focus-within:duration-300 focus-within:ease-linear hover:shadow-lg hover:transition-all hover:duration-300 hover:ease-linear focus-within:hover:shadow-lg dark:border-gray-600 ${className} rounded-lg border bg-white p-6 shadow-sm transition-shadow`}
+    <Link
+      href={article.url}
+      className="focus:outline-accent"
+      aria-label={article.name || article.title}
     >
-      {validImageUrl && (
-        <div className="w-[25%] flex-none overflow-hidden rounded bg-gray-200">
-          <Image
-            src={validImageUrl}
-            className="h-full w-full rounded object-cover object-center lg:h-full lg:w-full"
-            alt="alt"
-            width={500}
-            height={115}
-          />
-        </div>
-      )}
-      <div className="grow flex-col pl-4">
-        <a className="focus:outline-indigo-500" href={article.url}>
+      <ArticleCard.Root
+        key={article.id}
+        className={`group border-border hover:shadow-accent/20 relative my-4 flex max-h-52 w-full flex-row flex-nowrap rounded-md border bg-white p-6 shadow-sm transition-shadow hover:shadow-md ${className}`}
+      >
+        {validImageUrl && (
+          <div className="bg-background-surface w-1/4 flex-none overflow-hidden rounded">
+            <Image
+              src={validImageUrl}
+              className="h-full w-full rounded object-cover object-center lg:h-full lg:w-full"
+              alt="alt"
+              width={500}
+              height={115}
+            />
+          </div>
+        )}
+        <div className="grow flex-col pl-4">
           <span aria-hidden="true" className="absolute inset-0"></span>
-          <ArticleCard.Title className="mb-2 text-lg font-semibold text-gray-900">
+          <ArticleCard.Title className="text-foreground mb-2 text-lg font-semibold">
             {article.name || article.title}
           </ArticleCard.Title>
-        </a>
-        <ArticleCard.Subtitle className="mt-3 line-clamp-2 text-sm text-gray-600 dark:text-gray-300">
-          {article.description}
-        </ArticleCard.Subtitle>
-        <div className="text-primary-foreground absolute top-4 right-4 rounded-md border border-transparent bg-gray-300 px-2.5 py-0.5 text-xs font-semibold">
-          {article.type}
+          <ArticleCard.Subtitle className="text-foreground-light mt-3 line-clamp-2 text-sm">
+            {article.description}
+          </ArticleCard.Subtitle>
+          <div className="text-foreground bg-background-accent absolute top-4 right-4 rounded-md px-2.5 py-0.5 text-xs font-semibold">
+            {article.type}
+          </div>
         </div>
-      </div>
-    </ArticleCard.Root>
+      </ArticleCard.Root>
+    </Link>
   );
 };
 export default ArticleHorizontalItemCard;

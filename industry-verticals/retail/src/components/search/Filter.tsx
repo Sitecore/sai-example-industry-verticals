@@ -23,7 +23,7 @@ const Filter = () => {
         <h3 className="text-sm font-semibold md:text-base">Filters</h3>
         <button
           onClick={onClearFilters}
-          className="text-opacity-75 text-sm font-medium text-gray-800 underline hover:text-gray-900 focus:outline-gray-900 dark:text-gray-100"
+          className="text-opacity-75 hover:text-foreground focus:outline-accent text-foreground-light text-sm font-medium underline"
         >
           Clear Filters
         </button>
@@ -33,7 +33,7 @@ const Filter = () => {
           <button
             key={`${selectedFacet.facetId}${selectedFacet.facetLabel}${selectedFacet.valueLabel}`}
             onClick={() => onRemoveFilter(selectedFacet)}
-            className="whitespace-no-wrap relative m-1 max-w-full cursor-pointer overflow-hidden rounded-md bg-gray-400 py-1.5 pr-5 pl-2 text-xs font-medium text-ellipsis text-white before:absolute before:top-2/4 before:right-2 before:h-0.5 before:w-2.5 before:-rotate-45 before:bg-white before:content-[''] after:absolute after:top-2/4 after:right-2 after:h-0.5 after:w-2.5 after:rotate-45 after:bg-white after:content-[''] focus:outline-indigo-500"
+            className="whitespace-no-wrap bg-background-muted-dark focus:outline-accent relative m-1 max-w-full cursor-pointer overflow-hidden rounded-md py-1.5 pr-5 pl-2 text-xs font-medium text-ellipsis text-white before:absolute before:top-2/4 before:right-2 before:h-0.5 before:w-2.5 before:-rotate-45 before:bg-white before:content-[''] after:absolute after:top-2/4 after:right-2 after:h-0.5 after:w-2.5 after:rotate-45 after:bg-white after:content-['']"
           >
             {buildFacetLabel(selectedFacet)}
           </button>
