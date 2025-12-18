@@ -13,7 +13,7 @@ SharedFields:
 - ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
   Hint: ogImage
   Value: |
-    <image mediaid="76c5f9a3-435e-4e44-81ce-e26c0b25f410" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/76692-LandingPageHero-2000x600?v=cfa06d5a" dam-id="VwISYcNlRGiiqWFo96-N1Q" width="2000" height="600" alt="articles-meta.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76692/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 700
@@ -23,7 +23,7 @@ SharedFields:
     <image mediaid="{5FA79714-AC55-4EEB-B05B-B7E1E00CB5D8}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "735b6098-d937-48ca-a9f3-2ebf8c901e8f"
+  Value: "6443823f-84ae-43b8-9f6c-37c186967fda"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -89,7 +89,7 @@ Languages:
       Value: Discover Forma Lux articles on interiors, materials, and modern craftsmanship.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "419e749b-ae34-43b7-9d24-29b33f2cecee"
+      Value: "4ec9c59d-59ca-47b6-8b50-cfc2a8c2188d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -99,7 +99,7 @@ Languages:
       Value: Ideas and inspiration from the Forma Lux Journal—on design, materials, and living well.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251210T090813Z
+      Value: 20251217T152521Z
 - Language: "es-ES"
   Versions:
   - Version: 1
@@ -128,3 +128,95 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251007T080845Z
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250919T111219Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: Journal Forma Lux – Articles
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Articles
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: Articles
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: Découvrez les articles de Forma Lux sur les intérieurs, les matériaux et l'artisanat moderne.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fa16730c-4a8b-4ac4-a0e7-cc0a4f571dc2"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: Idées et inspiration du Journal Forma Lux—sur le design, les matériaux et l'art de bien vivre.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T110105Z
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250919T111219Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: Forma Lux Journal – Articles
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Articles
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: Articles
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: Découvrez les articles de Forma Lux sur les intérieurs, les matériaux et l'artisanat moderne.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5d3783c2-e6d4-46d1-af5a-a73b67383498"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: "Idées et inspiration du Forma Lux Journal—sur le design, les matériaux et le bien-vivre."
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T103952Z

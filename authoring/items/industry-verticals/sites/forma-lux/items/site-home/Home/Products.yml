@@ -13,7 +13,7 @@ SharedFields:
 - ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
   Hint: ogImage
   Value: |
-    <image mediaid="a606d62d-d4a0-4300-92dd-3a6192b27289" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/76645-LandingPageHero-2000x600?v=73ec6612" dam-id="-7WQV-NRRkCpMe8JV60RlQ" width="2000" height="600" alt="products-meta.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76645/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 400
@@ -23,7 +23,7 @@ SharedFields:
     <image mediaid="{072CD27A-6AC9-457E-9649-37051EFC336C}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "3cd5c8c9-678a-4560-a704-96bd247a36bf"
+  Value: "5d556618-f0e9-46cf-95aa-14c15c6f0beb"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -74,7 +74,7 @@ Languages:
       Value: Explore Forma Lux’s full range of sustainable furniture collections — timeless sofas, chairs, and tables crafted with precision, natural materials, and enduring elegance. Designed to bring warmth, balance, and sophistication to every space.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e345cedd-6d08-4357-9826-e4a8e9e560e8"
+      Value: "86590b93-766f-462d-b0cb-7e553a71bff9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -84,7 +84,7 @@ Languages:
       Value: Forma Lux offers a curated selection of sustainable luxury furniture designed to elevate modern living. Each collection — from modular sofas to sculptural tables — reflects a commitment to craftsmanship, quality, and intentional design. Every piece is made to endure, bringing refined simplicity and lasting beauty to the spaces people call home.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251210T074806Z
+      Value: 20251217T151235Z
 - Language: "es-ES"
   Versions:
   - Version: 1
@@ -113,6 +113,55 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20250925T123933Z
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
+      Hint: metadataKeywords
+      Value: Forma Lux, meubles de luxe, meubles durables, collections de meubles modernes, canapés faits à la main, chaises minimalistes, tables en chêne, design intemporel, meubles écologiques, sièges modulaires
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250922T091044Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: Produits | Parcourez tous nos produits
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Produits
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: Produits
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: Explorez la gamme complète de collections de meubles durables de Forma Lux — des canapés, chaises et tables intemporels fabriqués avec précision, matériaux naturels et élégance durable. Conçus pour apporter chaleur, équilibre et sophistication à chaque espace.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fb50e7d3-dd06-4000-afe4-2e63cb002834"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: Forma Lux offre une sélection soignée de meubles de luxe durables conçus pour élever le mode de vie moderne. Chaque collection — des canapés modulaires aux tables sculpturales — reflète un engagement envers l'artisanat, la qualité et le design intentionnel. Chaque pièce est faite pour durer, apportant une simplicité raffinée et une beauté durable aux espaces que les gens appellent chez eux.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T110105Z
 - Language: "fr-FR"
   Versions:
   - Version: 1

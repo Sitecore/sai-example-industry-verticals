@@ -1,0 +1,31 @@
+﻿---
+ID: "fab62347-5449-40f5-84aa-5e15851611cb"
+Parent: "a9f13b07-fe90-4e52-a6a5-f174165a84e2"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: "/sitecore/templates/Project/industry-verticals/Custom Templates/Destination/Hotels"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251217T114130Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3fb1d7bc-ae32-4560-b965-c4467496f113"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T114130Z

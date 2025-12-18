@@ -3,27 +3,27 @@
 import { combineImportEntries, defaultImportEntries } from '@sitecore-content-sdk/nextjs/codegen';
 // end of built-in imports
 
-import { Link, Text, useSitecore, Placeholder, RichText, NextImage, withDatasourceCheck, CdpHelper } from '@sitecore-content-sdk/nextjs';
-import { useState, useId, useEffect } from 'react';
+import { Link, Text, useSitecore, RichText, withDatasourceCheck, Placeholder, NextImage, CdpHelper } from '@sitecore-content-sdk/nextjs';
+import { useMemo, useState, useId, useEffect } from 'react';
 import React from 'react';
 import { useTheme } from 'next-themes';
+import Head from 'next/head';
 import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import BlobAccent from '@/assets/shapes/BlobAccent';
+import { isParamEnabled } from '@/helpers/isParamEnabled';
+import BlobAccent from 'src/assets/shapes/BlobAccent';
+import CurvedClip from 'src/assets/shapes/CurvedClip';
+import BlobAccent_ff719d36323bb13e49440edf42521225aa8ecaa1 from '@/assets/shapes/BlobAccent';
 import { CommonStyles, FeatureStyles } from '@/types/styleFlags';
 import { faArrowRight, faBars, faChevronDown, faChevronUp, faTimes, faEnvelope, faPhone, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import BlobAccent_c450f25c63b00a2e370305e155038c473dbb9c49 from 'src/components/non-sitecore/BlobAccent';
-import CurvedClip from 'src/components/non-sitecore/CurvedClip';
+import CurvedClip_6089ba18dc7000eae1dc64c54178a20f58206b41 from 'src/components/non-sitecore/CurvedClip';
 import { getLinkField, getNavigationText } from '@/helpers/navHelpers';
 import { useI18n } from 'next-localization';
 import HeroClip from '@/assets/shapes/HeroClip';
 import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
-import BlobAccent_2e4ecd85952329c540c505e64c2c0c7c0394fc8b from 'src/assets/shapes/BlobAccent';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Keyboard, Navigation, Pagination } from 'swiper/modules';
-import { isParamEnabled } from '@/helpers/isParamEnabled';
-import CurvedClip_a87a03c0e7ca8cbf6425a5f9fe21d118e0f2a53f from 'src/assets/shapes/CurvedClip';
-import Head from 'next/head';
 import client from 'lib/sitecore-client';
 import Image from 'next/image';
 import * as FEAAS from '@sitecore-feaas/clientside/react';
@@ -39,16 +39,17 @@ const importMap = [
       { name: 'Link', value: Link },
       { name: 'Text', value: Text },
       { name: 'useSitecore', value: useSitecore },
-      { name: 'Placeholder', value: Placeholder },
       { name: 'RichText', value: RichText },
-      { name: 'NextImage', value: NextImage },
       { name: 'withDatasourceCheck', value: withDatasourceCheck },
+      { name: 'Placeholder', value: Placeholder },
+      { name: 'NextImage', value: NextImage },
       { name: 'CdpHelper', value: CdpHelper },
     ]
   },
   {
     module: 'react',
     exports: [
+      { name: 'useMemo', value: useMemo },
       { name: 'useState', value: useState },
       { name: 'useId', value: useId },
       { name: 'useEffect', value: useEffect },
@@ -59,6 +60,12 @@ const importMap = [
     module: 'next-themes',
     exports: [
       { name: 'useTheme', value: useTheme },
+    ]
+  },
+  {
+    module: 'next/head',
+    exports: [
+      { name: 'default', value: Head },
     ]
   },
   {
@@ -76,9 +83,27 @@ const importMap = [
     ]
   },
   {
-    module: '@/assets/shapes/BlobAccent',
+    module: '@/helpers/isParamEnabled',
+    exports: [
+      { name: 'isParamEnabled', value: isParamEnabled },
+    ]
+  },
+  {
+    module: 'src/assets/shapes/BlobAccent',
     exports: [
       { name: 'default', value: BlobAccent },
+    ]
+  },
+  {
+    module: 'src/assets/shapes/CurvedClip',
+    exports: [
+      { name: 'default', value: CurvedClip },
+    ]
+  },
+  {
+    module: '@/assets/shapes/BlobAccent',
+    exports: [
+      { name: 'default', value: BlobAccent_ff719d36323bb13e49440edf42521225aa8ecaa1 },
     ]
   },
   {
@@ -110,7 +135,7 @@ const importMap = [
   {
     module: 'src/components/non-sitecore/CurvedClip',
     exports: [
-      { name: 'default', value: CurvedClip },
+      { name: 'default', value: CurvedClip_6089ba18dc7000eae1dc64c54178a20f58206b41 },
     ]
   },
   {
@@ -139,12 +164,6 @@ const importMap = [
     ]
   },
   {
-    module: 'src/assets/shapes/BlobAccent',
-    exports: [
-      { name: 'default', value: BlobAccent_2e4ecd85952329c540c505e64c2c0c7c0394fc8b },
-    ]
-  },
-  {
     module: 'swiper/react',
     exports: [
       { name: 'Swiper', value: Swiper },
@@ -157,24 +176,6 @@ const importMap = [
       { name: 'Keyboard', value: Keyboard },
       { name: 'Navigation', value: Navigation },
       { name: 'Pagination', value: Pagination },
-    ]
-  },
-  {
-    module: '@/helpers/isParamEnabled',
-    exports: [
-      { name: 'isParamEnabled', value: isParamEnabled },
-    ]
-  },
-  {
-    module: 'src/assets/shapes/CurvedClip',
-    exports: [
-      { name: 'default', value: CurvedClip_a87a03c0e7ca8cbf6425a5f9fe21d118e0f2a53f },
-    ]
-  },
-  {
-    module: 'next/head',
-    exports: [
-      { name: 'default', value: Head },
     ]
   },
   {
