@@ -5,9 +5,24 @@ import Bootstrap from 'src/Bootstrap';
 import { SitecorePageProps } from '@sitecore-content-sdk/nextjs';
 import scConfig from 'sitecore.config';
 import 'assets/main.css';
+import { Environment, PageController, WidgetsProvider } from '@sitecore-search/react';
+
+const SEARCH_CONFIG = {
+  env: process.env.NEXT_PUBLIC_SEARCH_ENV,
+  customerKey: process.env.NEXT_PUBLIC_SEARCH_CUSTOMER_KEY,
+  apiKey: process.env.NEXT_PUBLIC_SEARCH_API_KEY,
+};
 
 function App({ Component, pageProps }: AppProps<SitecorePageProps>): JSX.Element {
   const { dictionary, ...rest } = pageProps;
+  const lang = pageProps.page?.locale || scConfig.defaultLanguage;
+
+  PageController.getContext().setLocaleLanguage(lang);
+  if (lang == 'en') {
+    PageController.getContext().setLocaleCountry('us');
+  } else {
+    PageController.getContext().setLocaleCountry(lang.split('-')[1]);
+  }
 
   return (
     <>
@@ -21,7 +36,14 @@ function App({ Component, pageProps }: AppProps<SitecorePageProps>): JSX.Element
         lngDict={dictionary}
         locale={pageProps.page?.locale || scConfig.defaultLanguage}
       >
-        <Component {...rest} />
+        <WidgetsProvider
+          env={SEARCH_CONFIG.env as Environment}
+          customerKey={SEARCH_CONFIG.customerKey}
+          apiKey={SEARCH_CONFIG.apiKey}
+          publicSuffix={true}
+        >
+          <Component {...rest} />
+        </WidgetsProvider>
       </I18nProvider>
     </>
   );

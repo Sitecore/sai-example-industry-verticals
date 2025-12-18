@@ -88,14 +88,14 @@ export const PreviewSearchComponent = ({
       <form onSubmit={handleSubmit} className="flex-1">
         <PreviewSearch.Input
           name="query"
-          className="w-full rounded-md border border-gray-300 px-4 py-3 text-lg focus:border-transparent focus:ring-2 focus:ring-blue-500 focus:outline-none"
+          className="focus:ring-accent border-border w-full rounded-md border px-4 py-3 text-lg focus:border-transparent focus:ring-2 focus:outline-none"
           onChange={keyphraseHandler}
           autoComplete="off"
           placeholder="Search content, products..."
         />
       </form>
 
-      <PreviewSearch.Content className="flex h-[400px] w-(--radix-popover-trigger-width) justify-center bg-gray-100 pt-0 shadow-[2px_5px_5px_5px_rgba(0,0,0,0.3)] transition-opacity dark:bg-gray-800">
+      <PreviewSearch.Content className="bg-background-surface mt-0.5 flex h-100 w-(--radix-popover-trigger-width) justify-center overflow-hidden rounded-b-md pt-0 shadow-xl transition-opacity">
         <Spinner loading={loading} />
 
         {!loading && (
@@ -114,7 +114,7 @@ export const PreviewSearchComponent = ({
               {({ isFetching: isResultsFetching, data: { content: articles = [] } = {} }) => (
                 <PreviewSearch.Items
                   data-loading={isResultsFetching}
-                  className="flex flex-3 overflow-y-auto bg-white data-[loading=false]:m-0 data-[loading=false]:grid data-[loading=false]:list-none data-[loading=false]:grid-cols-3 data-[loading=false]:gap-3 data-[loading=false]:p-2 dark:bg-gray-700"
+                  className="flex flex-3 overflow-y-auto bg-white data-[loading=false]:m-0 data-[loading=false]:grid data-[loading=false]:list-none data-[loading=false]:grid-cols-3 data-[loading=false]:gap-3 data-[loading=false]:p-2"
                 >
                   <Spinner loading={isResultsFetching} />
 
@@ -133,9 +133,9 @@ export const PreviewSearchComponent = ({
                             })
                           }
                           href={article.url}
-                          className="box-border flex w-full text-black no-underline focus:shadow-md"
+                          className="box-border flex w-full text-black no-underline focus:shadow-sm"
                         >
-                          <ArticleCard.Root className="block w-full cursor-pointer rounded-md border border-solid border-transparent p-2 text-center shadow-[2px_2px_4px_rgba(0,0,0,0.3)] focus-within:shadow-[2px_2px_4px_rgba(0,0,0,0.8)] hover:shadow-[2px_2px_4px_rgba(0,0,0,0.8)] dark:text-white">
+                          <ArticleCard.Root className="block w-full cursor-pointer rounded-md border border-solid border-transparent p-2 text-center shadow-sm transition-shadow focus-within:shadow-xl hover:shadow-md">
                             <div className="relative m-auto mb-2.5 flex h-[6em] items-center justify-center overflow-hidden">
                               <Image
                                 src={article.image_url}

@@ -13,7 +13,7 @@ type Question = {
 
 const MainQuestionComponent = ({ answer, question }: Question) => {
   return (
-    <div className="mb-6 border-b border-gray-200 p-3 dark:text-gray-100">
+    <div className="border-border mb-6 border-b p-3">
       <h4 className="text-lg font-bold">{question}</h4>
       <p className="mt-2">{answer}</p>
     </div>
@@ -26,20 +26,24 @@ type RelatedQuestionsProps = {
 
 const RelatedQuestionsComponent = ({ relatedQuestions = [] }: RelatedQuestionsProps) => {
   return (
-    <div className="space-y-4 dark:text-gray-100">
+    <div className="space-y-4">
       {relatedQuestions.length > 0 && (
         <Accordion className="pb-4" type="multiple">
           <h4 className="text-md mb-4 font-bold">People also ask ...</h4>
           {relatedQuestions.map(({ answer, question }, index) => (
             <Item
-              className="w-full cursor-pointer border-b border-gray-400 py-4 dark:border-b-gray-200"
+              className="border-border w-full cursor-pointer border-b py-4"
               value={`${answer}-${index}`}
               key={index}
             >
               <Header>
-                <Trigger className="text-bold flex w-full justify-between gap-x-2 text-left text-sm">
+                <Trigger className="group flex w-full justify-between gap-x-2 text-sm">
                   <span className="font-semibold">{question}</span>
-                  <ChevronDownIcon height={20} width={20} />
+                  <ChevronDownIcon
+                    height={20}
+                    width={20}
+                    className="transition-transform duration-200 group-data-[state=open]:rotate-180"
+                  />
                 </Trigger>
               </Header>
               <Content className="pt-5 text-sm font-light">{answer}</Content>
@@ -83,7 +87,7 @@ export const QuestionsAnswersComponent = ({
   return (
     <div>
       {((answer && question) || relatedQuestionsResponse.length > 0) && (
-        <div className="mb-8 rounded-lg border border-gray-200 bg-white p-6 shadow-lg">
+        <div className="border-border mb-8 rounded-lg border bg-white p-6 shadow-sm">
           {answer && question && <MainQuestionComponent answer={answer} question={question} />}
           {relatedQuestionsResponse.length > 0 && (
             <RelatedQuestionsComponent relatedQuestions={relatedQuestionsResponse} />
