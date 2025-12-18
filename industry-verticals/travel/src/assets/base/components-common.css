@@ -37,3 +37,7 @@
     @apply pointer-events-none opacity-60;
   }
 }
+
+.simple-btn {
+  @apply border-border inline-flex items-center justify-center gap-2 rounded-md border px-2 py-1.5 text-sm font-medium whitespace-nowrap shadow-xs hover:bg-gray-100;
+}
