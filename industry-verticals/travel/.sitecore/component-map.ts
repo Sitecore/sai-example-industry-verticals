@@ -15,10 +15,10 @@ import * as PageContent from 'src/components/page-content/PageContent';
 import * as Navigation from 'src/components/navigation/Navigation';
 import * as LinkList from 'src/components/link-list/LinkList';
 import * as Image from 'src/components/image/Image';
-import * as Deals from 'src/components/deals/Deals';
 import * as Header from 'src/components/header/Header';
 import * as Features from 'src/components/features/Features';
 import * as DestinationDetails from 'src/components/destination-details/DestinationDetails';
+import * as Deals from 'src/components/deals/Deals';
 import * as ContentBlock from 'src/components/content-block/ContentBlock';
 import * as Container from 'src/components/container/Container';
 import * as ColumnSplitter from 'src/components/column-splitter/ColumnSplitter';
@@ -38,10 +38,10 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Navigation', { ...Navigation, componentType: 'client' }],
   ['LinkList', { ...LinkList }],
   ['Image', { ...Image }],
-  ['Deals', { ...Deals }],
   ['Header', { ...Header, componentType: 'client' }],
   ['Features', { ...Features }],
   ['DestinationDetails', { ...DestinationDetails }],
+  ['Deals', { ...Deals }],
   ['ContentBlock', { ...ContentBlock }],
   ['Container', { ...Container }],
   ['ColumnSplitter', { ...ColumnSplitter }],
