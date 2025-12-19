@@ -18,3 +18,15 @@
     @apply w-auto! max-w-full;
   }
 }
+
+.image-hide-caption {
+  .image-caption {
+    @apply hidden!;
+  }
+}
+
+.component.image.image-logo {
+  img {
+    @apply h-auto min-w-36;
+  }
+}

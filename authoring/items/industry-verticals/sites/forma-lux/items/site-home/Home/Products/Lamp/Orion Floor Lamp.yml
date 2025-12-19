@@ -115,6 +115,68 @@ Languages:
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
       Value: Streamlined and sophisticated, the Orion Floor Lamp exemplifies Forma Lux’s mastery of purposeful minimalism. Its slim metal frame and adjustable head deliver directional illumination that adapts to mood and moment. Perfect beside a sofa or armchair, Orion adds quiet structure and soft glow to modern interiors. Available in Gold, Black, and White, and in Small or Medium sizes, it’s an elegant statement of light, balance, and craftsmanship.
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T131822Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Lámpara de Pie Orion | Forma Lux – Lámpara de Pie Metálica Minimalista con Cabezal Ajustable
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Una lámpara de pie alta con un marco de metal elegante
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Lámpara de Pie Orion, lámpara de pie moderna, luz ajustable, iluminación minimalista, lámpara de metal, luz de lectura, iluminación para sala de estar, tienda Forma Lux
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 199.99
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Lámpara de Pie Orion
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: "Ilumina tu espacio con la Lámpara de Pie Orion de Forma Lux: un diseño alto y elegante de metal con un cabezal ajustable que proporciona luz focalizada para leer o relajarse."
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="28d22a05-db68-4315-a155-ef51922ef528" alt="orion-floor-lamp-1" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4f5034ec-07b2-4253-b91b-3d8ef7683c1c"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Lámpara de Pie Orion
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251219T104434Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>La Lámpara de Pie Orion presenta un diseño delgado y minimalista con un cabezal ajustable para iluminación direccional. Perfecta para rincones de lectura o salas de estar modernas.</p>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: Estilizada y sofisticada, la Lámpara de Pie Orion ejemplifica la maestría de Forma Lux en el minimalismo intencionado. Su delgado marco de metal y cabezal ajustable ofrecen una iluminación direccional que se adapta al estado de ánimo y al momento. Perfecta junto a un sofá o sillón, Orion añade una estructura discreta y un suave resplandor a los interiores modernos. Disponible en Oro, Negro y Blanco, y en tamaños Pequeño o Mediano, es una declaración elegante de luz, equilibrio y artesanía.
 - Language: "fr-CA"
   Versions:
   - Version: 1

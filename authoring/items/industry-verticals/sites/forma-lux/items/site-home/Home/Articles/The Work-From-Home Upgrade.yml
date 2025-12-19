@@ -80,6 +80,69 @@ Languages:
     - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
       Hint: metadataKeywords
       Value: modern home office design, home office setup tips, ergonomic office chair, stylish office desk, wood and metal desk, modular desk unit, floating shelves storage, closed cabinet storage, minimal desk accessories, modern task lamp, home office lighting ideas, natural light workspace, calm uncluttered office, textured rug office decor, home office organization, contemporary home office furniture, work from home essentials, modern workspace ideas, home office productivity design, clean lines office furniture
+- Language: "es-ES"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "9f411986-b2ef-4a43-b8bf-ecde26ab0321"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "La mejora del trabajo desde casa: Diseñando una oficina en casa moderna que inspire"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: Crea una oficina en casa moderna que combine estilo y productividad. Descubre consejos para sillas ergonómicas, escritorios elegantes, almacenamiento inteligente, iluminación natural y accesorios mínimos para un espacio de trabajo tranquilo y ordenado.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T081506Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: La mejora del trabajo desde casa
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>Trabajar desde casa ya no significa trabajar desde el sofá. Define tu zona con un escritorio de calidad que ofrezca tanto espacio de trabajo como estilo: una superficie de madera con patas de metal delgadas, o una unidad modular compacta. Elige una silla ergonómica con líneas limpias para que se vea tan bien como funciona. Mantén el almacenamiento simplificado: estantes flotantes, armarios cerrados para ocultar el desorden y accesorios de escritorio mínimos. La iluminación importa: natural si es posible, complementada por una lámpara de pie o de tarea moderna. Añade algunos toques personales: obras de arte, una planta, una alfombra texturizada, pero mantén la sensación de calma y orden. El resultado: una oficina en casa que luce moderna y te mantiene enfocado.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Crea un espacio de trabajo productivo y elegante con muebles que combinen comodidad, funcionalidad y estética.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: Crea una oficina en casa moderna que combine estilo y productividad. Descubre consejos para sillas ergonómicas, escritorios elegantes, almacenamiento inteligente, iluminación natural y accesorios mínimos para un espacio de trabajo tranquilo y ordenado.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4572ebf3-9831-4c93-9379-4047b49cad0d"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "La mejora del trabajo desde casa: Diseñando una oficina en casa moderna que inspire"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251219T104334Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: "Diseño de oficina en casa moderna: Estilosa, funcional y enfocada"
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: diseño de oficina en casa moderna, consejos para configurar oficina en casa, silla de oficina ergonómica, escritorio de oficina elegante, escritorio de madera y metal, unidad de escritorio modular, almacenamiento en estantes flotantes, almacenamiento en armario cerrado, accesorios de escritorio mínimos, lámpara de tarea moderna, ideas de iluminación para oficina en casa, espacio de trabajo con luz natural, oficina tranquila y ordenada, decoración de oficina con alfombra texturizada, organización de oficina en casa, muebles de oficina en casa contemporáneos, esenciales para trabajar desde casa, ideas de espacio de trabajo moderno, diseño de productividad para oficina en casa, muebles de oficina con líneas limpias
 - Language: "fr-CA"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

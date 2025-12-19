@@ -47,10 +47,10 @@ Languages:
   Fields:
   - ID: "2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e"
     Hint: Phrase
-    Value: mensaje
+    Value: Mensaje
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "5367b442-2abd-4716-a097-c94bc93ec833"
+    Value: "f19f2d0e-b064-4156-b38a-bd646c34c33a"
   Versions:
   - Version: 1
     Fields:
@@ -75,6 +75,35 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20250915T160648Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250915T053857Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "acf25546-ac54-4e35-8a89-8aaa399e090c"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251219T104359Z
 - Language: "fr-CA"
   Fields:
   - ID: "2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e"
