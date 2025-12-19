@@ -17,21 +17,21 @@ SharedFields:
       datasource: item(path: $datasource, language: $language) {
         children {
           results {
-            ... on Feature{
+            ... on Deal{
               id
-              featureTitle{
+              dealTitle{
                 jsonValue
               }
-              featureDescription {
+              dealDescription{
                 jsonValue
               }
-              featureImage {
+              dealCtaLink{
                 jsonValue
               }
-              featureLink {
+              offerText{
                 jsonValue
               }
-              featureImageDark {
+              dealValidity{
                 jsonValue
               }
             }
@@ -55,7 +55,7 @@ SharedFields:
   Value: 0
 - ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
   Hint: __Read Only
-  Value: 0
+  Value: 
 - ID: "a2f5d9df-8cba-4a1d-99eb-51acb94cb057"
   Hint: Page Editor Buttons
   Value: |
@@ -72,7 +72,7 @@ SharedFields:
   Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "fa8da063-5472-43a9-8e4d-d8154a91211a"
+  Value: "830dc198-37e2-4aa2-9f72-9e6eb58d851a"
 - ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
   Hint: OtherProperties
   Value: IsRenderingsWithDynamicPlaceholders=true
@@ -113,7 +113,7 @@ Languages:
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "8ebedc24-8ba4-4ac6-80f3-5e51305b3e8b"
+    Value: "73f2d946-771e-43af-ac0c-c451f887f98a"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
     Value: 
@@ -129,14 +129,14 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "adaa3c58-d2e3-4bcc-96b7-44a3bc97a616"
+      Value: "70bf0ec8-202e-4d4e-981c-c204904deb37"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251217T145536Z
+      Value: 20251218T130539Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

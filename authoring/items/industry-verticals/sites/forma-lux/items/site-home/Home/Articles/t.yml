@@ -80,6 +80,69 @@ Languages:
     - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
       Hint: metadataKeywords
       Value: "color confidence, bold hues in furniture, modern furniture color tips, interior color strategy, 60-30-10 color rule, anchoring color in design, neutral and bold color mix, modern home color ideas, teal accent chair, burnt orange sofa, chartreuse ottoman, fresh color palettes, intentional color design, modern interior color trends, light and color pairing, pops of color in furniture"
+- Language: "es-ES"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "890f1759-dace-4317-8276-bc54ef01d239"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Confianza en el Color Cómo Usar Tonos Audaces en Muebles Modernos Sin Exagerar
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: "Descubre cómo usar colores audaces como el teal, el naranja quemado y el chartreuse en muebles modernos sin abrumar tu espacio. Aprende la regla 60-30-10, técnicas de anclaje y consejos para crear paletas de colores frescas e intencionales."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T084006Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Seleccionando el sofá perfecto
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p><span style="background-color:rgb(255,255,255);color:rgb(80,80,80);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:Manrope, sans-serif;font-size:18px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Así que tienes una sala de estar que funciona, pero no inspira. Eso cambia hoy. Comienza eligiendo una pieza destacada, tal vez un sofá seccional elegante en un color audaz o una mesa de centro arquitectónica con líneas limpias. Deja que esa pieza guíe tu paleta. Luego añade contraste: textiles suaves, accesorios escultóricos, una alfombra geométrica. El equilibrio es clave: combina tonos de madera cálidos con acabados metálicos fríos; mezcla superficies de alto brillo con mate. Y no olvides la escala: los muebles grandes invitan a la comodidad, pero el espacio abierto mantiene las cosas aireadas. Finalmente, personaliza: añade un objeto significativo, una pieza de arte inusual o una planta con carácter. ¿El resultado? Un espacio vital que refleja tu estilo y te hace </span></span><em style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);border:0px solid rgb(232, 232, 232);box-sizing:border-box;color:rgb(80, 80, 80);font-family:Manrope, sans-serif;font-size:18px;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;max-width:100%;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;" data-start="1248" data-end="1254"><em>sentir</em></em><span style="background-color:rgb(255,255,255);color:rgb(80,80,80);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:Manrope, sans-serif;font-size:18px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;"> moderno.</span></span></p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Transforma una habitación cansada y neutral en un refugio moderno y curado con solo unos pocos movimientos inteligentes.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: "Descubre cómo usar colores audaces como el teal, el naranja quemado y el chartreuse en muebles modernos sin abrumar tu espacio. Aprende la regla 60-30-10, técnicas de anclaje y consejos para crear paletas de colores frescas e intencionales."
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ea10b317-134d-4d80-8ea3-190ce7469a19"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "De Lienzo en Blanco a Espacio Audaz: Cómo Iniciar la Transformación de Tu Sala de Estar Moderna"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251219T104328Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: "Confianza en el Color: Tonos Audaces en Muebles Modernos Sin Exagerar"
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: "confianza en el color, tonos audaces en muebles, consejos de color para muebles modernos, estrategia de color interior, regla de color 60-30-10, color ancla en diseño, mezcla de colores neutros y audaces, ideas de color para el hogar moderno, silla acento en color teal, sofá naranja quemado, otomana chartreuse, paletas de colores frescas, diseño de color intencional, tendencias de color interior moderno, combinación de luz y color, toques de color en muebles"
 - Language: "fr-CA"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

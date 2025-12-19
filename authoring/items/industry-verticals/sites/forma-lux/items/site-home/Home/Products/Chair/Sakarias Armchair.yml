@@ -133,6 +133,13 @@ Languages:
       Hint: pageSummary
       Value: Refined yet welcoming, the Sakarias Armchair embodies Forma Lux’s pursuit of beauty through comfort. Designed with plush cushioning, premium upholstery, and a sleek, supportive frame, it delivers both visual elegance and everyday relaxation. Ideal for modern or traditional interiors, Sakarias transforms any corner into a retreat of calm sophistication. Available in Black and White, and in Extra Small size, it’s an essential piece for those who appreciate craftsmanship, durability, and quiet luxury.
 - Language: "es-ES"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "dc688efe-fb5e-4f5b-a3c3-d77d77b6df20"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Sillón Sakarias
   Versions:
   - Version: 1
     Fields:
@@ -169,6 +176,69 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20250926T105517Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250922T091111Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Sillón Sakarias | Forma Lux – Sillón elegante con cojines lujosos
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Descubre la combinación perfecta de comodidad y estilo con el Sillón Sakarias. Esta pieza elegante presenta un diseño estilizado con cojines lujosos, ofreciendo un asiento acogedor para la relajación. Ideal para cualquier espacio de vida, el Sillón Sakarias añade un toque de sofisticación a la decoración de tu hogar.
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Sillón Sakarias, sillón de lujo, silla moderna de acento, sillón tapizado, muebles de sala, asiento cómodo, tienda Forma Lux, decoración contemporánea
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 392
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Sillón Sakarias
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: El Sillón Sakarias de Forma Lux combina diseño contemporáneo con comodidad lujosa. Su silueta elegante, tapicería de primera calidad y estructura resistente crean una experiencia de asiento sofisticada para cualquier hogar.
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="82b66367-0640-42fa-ac54-164898c35b94" alt="sakarias-armchair-1" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1bb7a5a5-6a71-4162-ada5-ec7c3afc2a8b"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Sillón Sakarias
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251219T104444Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>Presentamos el Sillón Sakarias, una combinación perfecta de estilo y comodidad que eleva cualquier espacio de vida. Elaborado con precisión, este sillón presenta un diseño elegante que complementa tanto la decoración moderna como la tradicional. Su estructura resistente y cojines lujosos proporcionan un soporte y relajación excepcionales, convirtiéndolo en el lugar ideal para descansar después de un largo día.</p><p>&nbsp;Experimenta un lujo inigualable con la tapicería de primera calidad del Sillón Sakarias, disponible en una gama de colores para combinar con tu estilo personal. Ya sea que estés disfrutando de un momento tranquilo con un libro o entreteniendo a los invitados, este sillón no solo cumple sino que supera las expectativas de durabilidad y elegancia. El Sillón Sakarias es verdaderamente una adición exquisita a cualquier hogar, ofreciendo tanto atractivo estético como comodidad práctica.</p>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: Refinado pero acogedor, el Sillón Sakarias encarna la búsqueda de Forma Lux de la belleza a través de la comodidad. Diseñado con cojines lujosos, tapicería de primera calidad y un marco elegante y de apoyo, ofrece tanto elegancia visual como relajación diaria. Ideal para interiores modernos o tradicionales, Sakarias transforma cualquier rincón en un refugio de sofisticación tranquila. Disponible en negro y blanco, y en tamaño extra pequeño, es una pieza esencial para aquellos que aprecian la artesanía, la durabilidad y el lujo discreto.
 - Language: "fr-CA"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

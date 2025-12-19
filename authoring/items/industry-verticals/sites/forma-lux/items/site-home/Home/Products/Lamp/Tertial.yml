@@ -108,6 +108,69 @@ Languages:
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
       Value: "The Tertial Lamp embodies Forma Lux’s commitment to intelligent design and effortless functionality. With its adjustable arm and pivoting head, Tertial adapts seamlessly from focused work to relaxed reading. Its minimalist frame, available in Black or White, complements both modern and classic interiors, while the energy-efficient bulb delivers warm, consistent light. Built from durable materials and finished with refined precision, Tertial transforms illumination into an act of design — where every movement meets purpose and beauty."
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251009T142342Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Lámpara Tertial | Forma Lux – Lámpara moderna ajustable para el hogar y el espacio de trabajo
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Ilumina tu espacio con Tertial, la lámpara versátil y elegante diseñada para la vida moderna. Perfecta para cualquier habitación, Tertial proporciona iluminación ajustable para adaptarse a tus necesidades y mejorar el ambiente de tu hogar.
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Lámpara Tertial, lámpara ajustable, lámpara de escritorio moderna, luz de lectura, iluminación minimalista, lámpara de oficina en casa, tienda Forma Lux, iluminación versátil
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 29
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Tertial
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: "Descubre la Lámpara Tertial de Forma Lux: una lámpara moderna ajustable con una silueta elegante, diseñada para una iluminación precisa y un estilo atemporal en cualquier habitación."
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="bb7b4b43-7e13-4e4c-830d-6e2a1b7fea5f" alt="tertial-1" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b9f7fcd0-99c7-43d3-bcd9-e6b945661fbb"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Tertial
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251219T104434Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: |
+        <div class="ck-content"><p>Ilumina tu espacio con la Lámpara Tertial, una combinación perfecta de funcionalidad y diseño moderno que aporta una atmósfera cálida y acogedora a cualquier habitación. Meticulosamente elaborada con materiales de alta calidad, Tertial cuenta con un brazo y cabeza ajustables, lo que te permite dirigir la luz precisamente donde la necesitas. Su silueta elegante y estética minimalista la convierten en una adición versátil tanto para interiores contemporáneos como clásicos. Ya sea colocada en tu escritorio de trabajo, junto a tu silla de lectura o en tu mesa de noche, Tertial mejora tu entorno con su iluminación eficiente y encanto elegante. Con la Lámpara Tertial, la personalización se encuentra con la practicidad. Diseñada pensando en la facilidad, el mecanismo de ajuste intuitivo te permite modificar sin esfuerzo la altura y el ángulo de la lámpara para adaptarse a tus actividades, desde sesiones de trabajo enfocadas hasta acogedoras noches de lectura. La base robusta asegura estabilidad en cualquier superficie, mientras que la bombilla de bajo consumo energético proporciona una iluminación duradera y ecológica que mejora el ambiente de tu habitación. Experimenta una iluminación que combina ingeniería innovadora con estilo atemporal: experimenta Tertial.</p></div>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: La Lámpara Tertial encarna el compromiso de Forma Lux con el diseño inteligente y la funcionalidad sin esfuerzo. Con su brazo ajustable y cabeza pivotante, Tertial se adapta sin problemas desde el trabajo enfocado hasta la lectura relajada. Su estructura minimalista, disponible en negro o blanco, complementa tanto interiores modernos como clásicos, mientras que la bombilla de bajo consumo energético ofrece una luz cálida y constante. Construida con materiales duraderos y acabada con precisión refinada, Tertial transforma la iluminación en un acto de diseño, donde cada movimiento se encuentra con el propósito y la belleza.
 - Language: "fr-CA"
   Versions:
   - Version: 1

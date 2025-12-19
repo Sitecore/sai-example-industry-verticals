@@ -80,6 +80,69 @@ Languages:
     - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
       Hint: metadataKeywords
       Value: modular furniture, adaptable furniture, modern living, modular sectionals, modular sofas, modular storage systems, flexible home design, reconfigurable furniture, customizable furniture, contemporary furniture design, modular interior design, scalable furniture, space flexibility, evolving home design, modern home solutions, minimalist modular design, versatile furniture ideas, sustainable furniture trends, furniture for modern lifestyles
+- Language: "es-ES"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "40881ed4-1b3a-4902-bc30-ab64da2007d9"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "El auge de lo modular: Muebles adaptables para la vida moderna"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: Descubre el poder de los muebles modulares. Desde seccionales hasta sistemas de almacenamiento, explora diseños adaptables que evolucionan con tu estilo de vida moderno.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T082030Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: El auge de lo modular
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>Los hogares modernos demandan flexibilidad. Los muebles modulares te permiten adaptarte: mover, reconfigurar, añadir piezas a medida que creces o cambias. Un seccional modular puede transformarse de un acogedor sofá de tres plazas a un amplio salón; las unidades de almacenamiento pueden evolucionar con tus necesidades. Al seleccionar, presta atención a los conectores, la compatibilidad y las opciones de acabado para que tus piezas permanezcan cohesivas. Modular no significa genérico: busca elementos bien diseñados con líneas limpias, proporciones cuidadas y materiales de alta calidad. En última instancia, los sistemas modulares te dan libertad sin compromisos: estilo que vive contigo, no a tu alrededor.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Descubre cómo los sofás modulares, seccionales y sistemas de almacenamiento se adaptan a tu estilo de vida en constante evolución.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: Descubre el poder de los muebles modulares. Desde seccionales hasta sistemas de almacenamiento, explora diseños adaptables que evolucionan con tu estilo de vida moderno.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "04650dcd-ca59-4fe6-8275-7c7ee363da79"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "El auge de lo modular: Muebles adaptables para la vida moderna"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251219T104328Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: "El auge de lo modular: Muebles adaptables para la vida moderna"
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: muebles modulares, muebles adaptables, vida moderna, seccionales modulares, sofás modulares, sistemas de almacenamiento modulares, diseño de hogar flexible, muebles reconfigurables, muebles personalizables, diseño de muebles contemporáneos, diseño interior modular, muebles escalables, flexibilidad espacial, diseño de hogar en evolución, soluciones modernas para el hogar, diseño modular minimalista, ideas de muebles versátiles, tendencias de muebles sostenibles, muebles para estilos de vida modernos
 - Language: "fr-CA"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
