@@ -79,6 +79,66 @@ Languages:
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
       Value: The Lumina Tables bring harmony and balance to any space, uniting form and function through elegant simplicity. Handcrafted in natural oak with refined proportions and a smooth satin finish, this nesting set complements the Lumina Collection’s serene aesthetic. Designed for versatility and made to last, the Lumina Tables embody the Forma Lux philosophy — timeless design, sustainable craftsmanship, and enduring beauty.
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T094442Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Las Mesas Lumina | Mesas Nido Sostenibles de Forma Lux
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Un par de mesas nido elaboradas en roble natural, que ofrecen superficies versátiles que complementan las formas suaves y la paleta cálida de la Colección Lumina.
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 632
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Las Mesas Lumina
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: "Descubre Las Mesas Lumina de Forma Lux: un par de mesas nido hechas a mano, diseñadas con simplicidad atemporal y materiales sostenibles. Proporciones elegantes, roble natural y artesanía duradera definen este esencial moderno para el hogar."
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c2533f15792f4de5993d1e885880afb3?v=4c8343c5" dam-id="LWoIqxe9QSqPH0hhbIYzbw" width="804" height="570" alt="Tables.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68216/thumbnail" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e97e2ecf-482f-4daf-98eb-c93edc070a4d"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Las Mesas Lumina
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251219T104444Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: |
+        <div class="ck-content"><p>Diseñadas para armonizar con el Sofá y la Silla Lumina, las Mesas Lumina son un estudio de equilibrio y proporción. Cada mesa está hecha a mano con roble de origen sostenible y un acabado satinado que resalta el carácter natural de la madera. La mesa de centro más grande ofrece una superficie generosa para la vida cotidiana, mientras que la mesa auxiliar más pequeña añade elegancia funcional al lado de un sofá o sillón de lectura. Juntas, crean una sensación de textura y ritmo en capas: un centro discreto que completa el espacio de vida Lumina.</p></div>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: "Las Mesas Lumina aportan armonía y equilibrio a cualquier espacio, uniendo forma y función a través de una elegante simplicidad. Hechas a mano en roble natural con proporciones refinadas y un acabado satinado suave, este conjunto de mesas nido complementa la estética serena de la Colección Lumina. Diseñadas para la versatilidad y hechas para durar, las Mesas Lumina encarnan la filosofía de Forma Lux: diseño atemporal, artesanía sostenible y belleza perdurable."
 - Language: "fr-CA"
   Versions:
   - Version: 1

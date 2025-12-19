@@ -117,6 +117,13 @@ Languages:
       Hint: metadataKeywords
       Value: handmade furniture, rustic modern living room, wood design, fireplace lounge, Forma Lux interiors, sustainable materials, artisan craftsmanship, contemporary home decor
 - Language: "es-ES"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "dc0a9b5c-7d68-466f-923c-f0afde935ab9"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "El Corazón de la Habitación: Chimenea y Salón"
   Versions:
   - Version: 1
     Fields:
@@ -150,6 +157,64 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251007T081242Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: "Un estudio en equilibrio e intención, El Corazón de la Habitación: Chimenea y Salón captura la filosofía de diseño hecho a mano de Forma Lux, donde cada viga, textil y curva contribuye a un todo armonioso. La historia se despliega en texturas: roble recuperado e hierro, lana y lino, hormigón y luz. Esta pieza celebra cómo la artesanía transforma materiales en bruto en lujo silencioso, evocando calidez, autenticidad y confort atemporal."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250911T094732Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "El Corazón de la Habitación: Chimenea"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><figure class="image image_resized image-style-align-right" style="width:42.48%;"><img class="image_resized" style="aspect-ratio:520/282;" src="-/media/949C1CB9D30246B0AB197E5E2F4B611C.ashx" alt="pexels-vecislavas-popa-1571453 1" width="520" height="282" /></figure><h3>Piezas de Declaración que Inician Conversaciones</h3><p>Una lámpara de hierro suspendida atrae la mirada, flotando sobre una mesa de centro de perfil bajo hecha de madera a la deriva. Cerca, una estantería escultural alberga una mezcla curada de arte, plantas y cerámica, ofreciendo tanto función como estilo.</p><p>Es un diseño bien pensado que guía naturalmente la mirada a través de la habitación. Cada elemento de diseño, ya sea estructural o decorativo, se siente intencional, contribuyendo a la vibra armoniosa de la habitación. Predomina una paleta neutral, pero toques de terracota y azul marino añaden personalidad sin abrumar los sentidos. Detalles artesanales, como cerámica hecha a mano y paneles de pared texturizados, infunden calidez y autenticidad.</p><p>Es un diseño bien pensado que guía naturalmente la mirada a través de la habitación. Cada elemento de diseño, ya sea estructural o decorativo, se siente intencional, contribuyendo a la vibra armoniosa de la habitación. Predomina una paleta neutral, pero toques de terracota y azul marino añaden personalidad sin abrumar los sentidos. Detalles artesanales, como cerámica hecha a mano y paneles de pared texturizados, infunden calidez y autenticidad.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: |
+        Esta sala de estar combina el encanto rústico con la sofisticación moderna. Vigas de madera natural se extienden por el techo, contrastando con suelos de hormigón pulido para una sensación contemporánea y a la vez arraigada.
+        
+        Cortinas de lino crudo enmarcan grandes ventanas, permitiendo que la luz dorada se derrame sobre muebles de roble recuperado. Una alfombra de lana ancla el área de asientos, mientras que cojines suaves y mantas superpuestas invitan a hundirse y quedarse un rato.
+        
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4ad17a09-9458-4c72-a040-7623a40f9c65"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "El Corazón de la Habitación: Chimenea"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251219T104317Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: "El Corazón de la Habitación: Chimenea y Salón | Forma Lux Journal – Diseño Hecho a Mano con Calidez y Artesanía"
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: muebles hechos a mano, sala de estar rústica moderna, diseño de madera, salón con chimenea, interiores Forma Lux, materiales sostenibles, artesanía artesanal, decoración del hogar contemporánea
 - Language: "fr-CA"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

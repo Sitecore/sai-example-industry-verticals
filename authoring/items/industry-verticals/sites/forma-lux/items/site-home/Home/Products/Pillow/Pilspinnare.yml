@@ -135,6 +135,13 @@ Languages:
       Hint: pageSummary
       Value: Engineered for comfort and crafted with care, the Pilspinnare Pillow elevates everyday rest to an experience of quiet luxury. Its soft cotton shell and 90% feather filling offer a perfect balance of plushness and breathability, maintaining a cool, refreshing sleep climate. Designed with a low loft to support stomach sleepers, Pilspinnare reflects Forma Lux’s philosophy of mindful design — where materials, craftsmanship, and comfort converge to create true rest. Available in White, and in Small, Medium, and Large sizes, it’s the finishing touch for a serene modern bedroom.
 - Language: "es-ES"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "fbbadb6b-b196-4ad9-ba66-5cd4b8393227"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Pilspinnare
   Versions:
   - Version: 1
     Fields:
@@ -171,6 +178,66 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20250926T105505Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250922T091111Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Almohada Pilspinnare | Forma Lux – Almohada de Plumas de Algodón Suave para un Sueño Reparador
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Una almohada de algodón suave con un relleno perfectamente mullido de 90% plumas. Los materiales permiten que el aire circule, para que obtengas un entorno de sueño cómodo. La baja altura es más cómoda para quienes duermen boca abajo.
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: almohada pilspinnare, almohada de plumas, almohada de algodón, ropa de cama transpirable, almohada de lujo, almohada para dormir boca abajo, decoración del hogar Forma Lux, confort del sueño
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 15
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Pilspinnare
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="3b49401c-f84f-47f0-bfb4-cd33f13722cb" alt="pilspinnare-1" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "496cfe71-6736-4ef1-ae35-c0b01c6b1a50"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Pilspinnare
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251219T104435Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>Descubre un confort inigualable con nuestra almohada de algodón suave premium. Cada almohada está meticulosamente elaborada con un generoso relleno compuesto por un 90% de plumas de alta calidad, diseñado para contornearse suavemente a la forma única de tu cabeza y cuello. Esto asegura que logres un sueño verdaderamente reparador e ininterrumpido.&nbsp;</p><p>El uso de materiales transpirables en su diseño garantiza una circulación de aire excepcional, manteniendo la almohada fresca y ofreciendo un entorno de sueño refrescante durante toda la noche. Confeccionada con una baja altura, esta almohada proporciona un soporte ideal, particularmente para quienes duermen boca abajo y buscan el máximo confort sin ninguna tensión adicional en el cuello o la columna.</p>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: Diseñada para el confort y elaborada con cuidado, la Almohada Pilspinnare eleva el descanso diario a una experiencia de lujo silencioso. Su funda de algodón suave y su relleno de 90% plumas ofrecen un equilibrio perfecto de suavidad y transpirabilidad, manteniendo un clima de sueño fresco y refrescante. Diseñada con una baja altura para apoyar a los que duermen boca abajo, Pilspinnare refleja la filosofía de diseño consciente de Forma Lux, donde los materiales, la artesanía y el confort convergen para crear un verdadero descanso. Disponible en blanco, y en tamaños pequeño, mediano y grande, es el toque final para un dormitorio moderno y sereno.
 - Language: "fr-CA"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
