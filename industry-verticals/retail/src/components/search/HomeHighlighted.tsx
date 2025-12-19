@@ -13,7 +13,7 @@ export const HomeHighlightedComponent = (): JSX.Element => {
     queryResult: { data: { content: articles = [] } = {} },
   } = useSearchResults({
     query: (query) => {
-      query.getRequest().setSearchFilter(new FilterEqual('type', 'Destinations'));
+      query.getRequest().setSearchFilter(new FilterEqual('type', 'Article'));
 
       if (SEARCH_CONFIG.source !== '') {
         const sources = SEARCH_CONFIG.source.split('|');
