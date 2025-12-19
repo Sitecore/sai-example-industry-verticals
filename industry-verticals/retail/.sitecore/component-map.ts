@@ -23,7 +23,6 @@ import * as QuestionsAnswers from 'src/components/search/QuestionsAnswers';
 import * as QueryResultsSummary from 'src/components/search/QueryResultsSummary';
 import * as PreviewSearch from 'src/components/search/PreviewSearch';
 import * as HomeHighlighted from 'src/components/search/HomeHighlighted';
-import * as Filter from 'src/components/search/Filter';
 import * as CardViewSwitcher from 'src/components/search/CardViewSwitcher';
 import * as ArticleHorizontalCard from 'src/components/search/ArticleHorizontalCard';
 import * as ArticleCard from 'src/components/search/ArticleCard';
@@ -78,7 +77,6 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['QueryResultsSummary', { ...QueryResultsSummary }],
   ['PreviewSearch', { ...PreviewSearch }],
   ['HomeHighlighted', { ...HomeHighlighted }],
-  ['Filter', { ...Filter }],
   ['CardViewSwitcher', { ...CardViewSwitcher }],
   ['ArticleHorizontalCard', { ...ArticleHorizontalCard }],
   ['ArticleCard', { ...ArticleCard }],
