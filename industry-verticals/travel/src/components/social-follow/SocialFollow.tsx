@@ -43,7 +43,7 @@ export const Default = (props: SocialFollowProps) => {
   );
 };
 
-export const Share = (props: SocialFollowProps) => {
+export const Follow = (props: SocialFollowProps) => {
   const id = props.params.RenderingIdentifier;
 
   const socialLinks = [
