@@ -4,6 +4,10 @@ Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
 Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
 Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/The Work-From-Home Upgrade"
 SharedFields:
+- ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/76633-HomepagePromoCTAs-1100x740?v=8a7a5fc0" dam-id="Lk_r5NN0TNWG2HNI4f0OmA" width="1100" height="740" alt="work-from-home-article.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76633/thumbnail" />
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
@@ -14,7 +18,7 @@ SharedFields:
     <image mediaid="{35902DFA-0A50-43E6-92DA-646B602A2A1C}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "2d371cb1-0215-4e53-8095-733cbcab61d8"
+  Value: "a0d0333d-8c8c-49a2-a151-f34f642d4f52"
 Languages:
 - Language: en
   Fields:
@@ -30,6 +34,9 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: Create a modern home office that blends style and productivity. Discover tips for ergonomic chairs, sleek desks, smart storage, natural lighting, and minimal accessories for a calm, uncluttered workspace.
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251128T081506Z
@@ -51,9 +58,12 @@ Languages:
     - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
       Hint: ShortDescription
       Value: Create a productive, stylish workspace with furniture that blends comfort, function and aesthetic.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: Create a modern home office that blends style and productivity. Discover tips for ergonomic chairs, sleek desks, smart storage, natural lighting, and minimal accessories for a calm, uncluttered workspace.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fc4d7a5f-0323-4005-a325-98cddc4018e8"
+      Value: "373b6700-4c37-42d9-bf31-998b6b8257d2"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "The Work-From-Home Upgrade: Designing a Modern Home Office That Inspires"
@@ -63,4 +73,136 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251128T084212Z
+      Value: 20251217T154258Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: "Modern Home Office Design: Stylish, Functional, and Focused"
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: modern home office design, home office setup tips, ergonomic office chair, stylish office desk, wood and metal desk, modular desk unit, floating shelves storage, closed cabinet storage, minimal desk accessories, modern task lamp, home office lighting ideas, natural light workspace, calm uncluttered office, textured rug office decor, home office organization, contemporary home office furniture, work from home essentials, modern workspace ideas, home office productivity design, clean lines office furniture
+- Language: "fr-CA"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "130cbdb7-2be8-4915-8f6c-eb14e28f334e"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "La mise à niveau du télétravail : Concevoir un bureau à domicile moderne qui inspire"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: Créez un bureau à domicile moderne qui allie style et productivité. Découvrez des conseils pour des chaises ergonomiques, des bureaux élégants, un rangement intelligent, un éclairage naturel et des accessoires minimalistes pour un espace de travail calme et dégagé.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T081506Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: La mise à niveau du télétravail
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>Travailler à domicile ne signifie plus travailler depuis un canapé. Définissez votre zone avec un bureau de qualité qui offre à la fois espace de travail et style—un plateau en bois avec des pieds en métal élancés, ou une unité modulaire compacte. Choisissez une chaise ergonomique aux lignes épurées pour qu'elle soit aussi belle qu'efficace. Gardez le rangement épuré : étagères flottantes, armoires fermées pour cacher le désordre, et accessoires de bureau minimalistes. L'éclairage est important : naturel si possible, complété par une lampe de sol ou de bureau moderne. Ajoutez quelques touches personnelles—œuvres d'art, une plante, un tapis texturé—mais gardez l'ambiance calme et dégagée. Le résultat : un bureau à domicile qui a l'air moderne et vous garde concentré.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Créez un espace de travail productif et élégant avec des meubles qui allient confort, fonctionnalité et esthétique.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: Créez un bureau à domicile moderne qui allie style et productivité. Découvrez des conseils pour des chaises ergonomiques, des bureaux élégants, un rangement intelligent, un éclairage naturel et des accessoires minimalistes pour un espace de travail calme et dégagé.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "017d53e3-efdf-4d7e-a1fc-1a7540fce142"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "La mise à niveau du télétravail : Concevoir un bureau à domicile moderne qui inspire"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T110139Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: "Conception de bureau à domicile moderne : élégant, fonctionnel et concentré"
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: conception de bureau à domicile moderne, conseils pour l'aménagement de bureau à domicile, chaise de bureau ergonomique, bureau élégant, bureau en bois et métal, unité de bureau modulaire, rangement avec étagères flottantes, rangement avec armoire fermée, accessoires de bureau minimalistes, lampe de bureau moderne, idées d'éclairage de bureau à domicile, espace de travail avec lumière naturelle, bureau calme et dégagé, décoration de bureau avec tapis texturé, organisation de bureau à domicile, mobilier de bureau à domicile contemporain, essentiels du télétravail, idées d'espace de travail moderne, conception de bureau à domicile pour la productivité, mobilier de bureau aux lignes épurées
+- Language: "fr-FR"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "e0f42e48-03e5-4e06-abcd-80bdb03670f3"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "La mise à niveau du télétravail : Concevoir un bureau à domicile moderne qui inspire"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: Créez un bureau à domicile moderne qui allie style et productivité. Découvrez des conseils pour des chaises ergonomiques, des bureaux élégants, un rangement intelligent, un éclairage naturel et des accessoires minimalistes pour un espace de travail calme et épuré.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T081506Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: La mise à niveau du télétravail
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>Travailler à domicile ne signifie plus travailler depuis un canapé. Définissez votre zone avec un bureau de qualité qui offre à la fois espace de travail et style : un plateau en bois avec des pieds en métal élancés, ou une unité modulaire compacte. Choisissez une chaise ergonomique aux lignes épurées pour qu'elle soit aussi belle qu'efficace. Gardez le rangement épuré : étagères flottantes, armoires fermées pour cacher le désordre, et accessoires de bureau minimalistes. L'éclairage est important : naturel si possible, complété par une lampe de sol ou de bureau moderne. Ajoutez quelques touches personnelles—œuvres d'art, une plante, un tapis texturé—mais gardez l'ambiance calme et épurée. Le résultat : un bureau à domicile qui a l'air moderne et vous garde concentré.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Créez un espace de travail productif et élégant avec des meubles qui allient confort, fonctionnalité et esthétique.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: Créez un bureau à domicile moderne qui allie style et productivité. Découvrez des conseils pour des chaises ergonomiques, des bureaux élégants, un rangement intelligent, un éclairage naturel et des accessoires minimalistes pour un espace de travail calme et épuré.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c976a613-6947-497f-975a-db11eb136a34"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "La mise à niveau du télétravail : Concevoir un bureau à domicile moderne qui inspire"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T104025Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: "Conception de bureau à domicile moderne : élégant, fonctionnel et concentré"
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: conception de bureau à domicile moderne, conseils pour l'aménagement de bureau à domicile, chaise de bureau ergonomique, bureau élégant, bureau en bois et métal, unité de bureau modulaire, rangement avec étagères flottantes, rangement avec armoire fermée, accessoires de bureau minimalistes, lampe de bureau moderne, idées d'éclairage de bureau à domicile, espace de travail avec lumière naturelle, bureau calme et épuré, décoration de bureau avec tapis texturé, organisation de bureau à domicile, mobilier de bureau à domicile contemporain, essentiels du télétravail, idées d'espace de travail moderne, conception de bureau à domicile pour la productivité, mobilier de bureau aux lignes épurées

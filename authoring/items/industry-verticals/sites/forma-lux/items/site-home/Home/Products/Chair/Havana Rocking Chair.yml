@@ -62,9 +62,15 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251016T125659Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Havana Rocking Chair | Forma Lux – Modern Wooden Rocking Chair in Teak
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
       Value: A classic wooden rocking chair with a contemporary twist.
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Havana Rocking Chair, wooden rocking chair, teak chair, modern rocking chair, nursery furniture, classic chair design, Forma Lux shop, handcrafted furniture
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
       Value: 319.75
@@ -79,9 +85,16 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: The Havana Rocking Chair by Forma Lux blends classic craftsmanship with contemporary style. Made from solid teak wood and featuring plush cushions, it offers comfort and elegance in any room.
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="b12fc9fc-a7a5-4ada-aba4-fc5a693afb27" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2a296292-5a0c-4c22-9ebc-5f033411be7f"
+      Value: "33db449e-a469-448a-96c2-dd2e99c20f7a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -91,7 +104,134 @@ Languages:
       Value: Havana Rocking Chair
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251017T154717Z
+      Value: 20251210T083848Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: <p>The Havana Rocking Chair is crafted from solid teak wood with a smooth rocking motion. Its cushioned seat and backrest provide comfort, while its timeless design makes it a versatile addition to nurseries, living rooms, or porches.</p>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: "The Havana Rocking Chair reimagines a timeless form through the lens of modern craftsmanship. Built from solid teak wood, it delivers a smooth, balanced rocking motion and enduring strength. The cushioned seat and backrest provide inviting comfort, while the design’s sculptural simplicity suits nurseries, living rooms, or covered porches alike. Available in Black and Medium size, Havana embodies Forma Lux’s design philosophy: tradition refined by modern sensibility — where every curve invites rest and rhythm."
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T125659Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Chaise berçante Havana | Forma Lux – Chaise berçante moderne en bois de teck
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Une chaise berçante en bois classique avec une touche contemporaine.
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Chaise berçante Havana, chaise berçante en bois, chaise en teck, chaise berçante moderne, mobilier de chambre de bébé, design de chaise classique, boutique Forma Lux, mobilier fait à la main
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 319.75
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Chaise berçante Havana
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: La chaise berçante Havana de Forma Lux allie l'artisanat classique au style contemporain. Fabriquée en bois de teck massif et dotée de coussins moelleux, elle offre confort et élégance dans n'importe quelle pièce.
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="b12fc9fc-a7a5-4ada-aba4-fc5a693afb27" alt="chaise-bercante-havana-1" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a9630ca2-c234-4915-a7a7-4747ac62dd7d"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Chaise berçante Havana
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T110254Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>La chaise berçante Havana est fabriquée en bois de teck massif avec un mouvement de balancement fluide. Son siège et son dossier rembourrés offrent un confort, tandis que son design intemporel en fait un ajout polyvalent aux chambres de bébé, aux salons ou aux porches.</p>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: "La chaise berçante Havana réinvente une forme intemporelle à travers le prisme de l'artisanat moderne. Construite en bois de teck massif, elle offre un mouvement de balancement fluide et équilibré ainsi qu'une résistance durable. Le siège et le dossier rembourrés offrent un confort accueillant, tandis que la simplicité sculpturale du design convient aussi bien aux chambres de bébé, aux salons qu'aux porches couverts. Disponible en noir et en taille moyenne, Havana incarne la philosophie de design de Forma Lux : la tradition raffinée par la sensibilité moderne — où chaque courbe invite au repos et au rythme."
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T125659Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Fauteuil à bascule Havana | Forma Lux – Fauteuil à bascule moderne en bois de teck
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Un fauteuil à bascule en bois classique avec une touche contemporaine.
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Fauteuil à bascule Havana, fauteuil à bascule en bois, chaise en teck, fauteuil à bascule moderne, mobilier de nursery, design de chaise classique, boutique Forma Lux, mobilier fait main
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 319.75
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Fauteuil à bascule Havana
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: Le fauteuil à bascule Havana de Forma Lux allie artisanat classique et style contemporain. Fabriqué en bois de teck massif et doté de coussins moelleux, il offre confort et élégance dans n'importe quelle pièce.
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="b12fc9fc-a7a5-4ada-aba4-fc5a693afb27" alt="havana-rocking-chair-1" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4d02ba26-ad63-4883-9aa3-048e8184d677"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Fauteuil à bascule Havana
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T104122Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>Le fauteuil à bascule Havana est fabriqué en bois de teck massif avec un mouvement de bascule fluide. Son siège et son dossier rembourrés offrent confort, tandis que son design intemporel en fait un ajout polyvalent aux nurseries, salons ou porches.</p>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: "Le fauteuil à bascule Havana réinvente une forme intemporelle à travers le prisme de l'artisanat moderne. Construit en bois de teck massif, il offre un mouvement de bascule fluide et équilibré ainsi qu'une résistance durable. Le siège et le dossier rembourrés offrent un confort accueillant, tandis que la simplicité sculpturale du design convient aussi bien aux nurseries, aux salons ou aux porches couverts. Disponible en noir et en taille moyenne, Havana incarne la philosophie de design de Forma Lux : la tradition raffinée par la sensibilité moderne — où chaque courbe invite au repos et au rythme."

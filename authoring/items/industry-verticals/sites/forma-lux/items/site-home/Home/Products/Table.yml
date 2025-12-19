@@ -7,13 +7,17 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 800
+- ID: "c17f3d69-c947-45a0-b4f5-cbcdf58e805c"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c2533f15792f4de5993d1e885880afb3?v=4c8343c5" dam-id="LWoIqxe9QSqPH0hhbIYzbw" width="804" height="570" alt="Tables.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68216/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{A66257D4-0843-40CB-88AF-7CA2DB2F653C}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "85cb192d-ea8e-4100-8652-db06530c3577"
+  Value: "f6fa32c5-ebdf-433e-a44f-35fddd8535f6"
 Languages:
 - Language: en
   Versions:
@@ -22,12 +26,21 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
+    - ID: "1bdb1624-90c5-46d5-968f-0c17c9a816c4"
+      Hint: metadataKeywords
+      Value: modern tables, minimalist furniture, coffee table, side table, dining table, oak table, nesting tables, contemporary design, sustainable furniture, luxury interior
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251128T094323Z
+    - ID: "2b03e37f-61d7-4f3c-95fa-7277bfcbff6d"
+      Hint: metadataTitle
+      Value: Modern Tables
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Table
+    - ID: "4ff0b19e-04d3-454f-9e63-421c84e00477"
+      Hint: pageSummary
+      Value: The table collection showcases refined craftsmanship and versatile design. With natural materials and minimalist silhouettes, each piece adds balance and function to the modern home while standing as a work of art in its own right.
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -41,14 +54,121 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b01437e4-ba35-4d3a-b69b-eb212f47df5d"
+      Value: "355c8eda-1ab4-411e-aeeb-50bd86dd5334"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
+    - ID: "ca87ddf9-ad6a-47ad-aaea-f411377684a1"
+      Hint: metadataDescription
+      Value: Shop contemporary tables designed for modern living. Clean lines, natural materials, and timeless proportions create versatile pieces that elevate every room.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251128T094427Z
+      Value: 20251217T151713Z
+    - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
+      Hint: CategoryName
+      Value: Table
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1bdb1624-90c5-46d5-968f-0c17c9a816c4"
+      Hint: metadataKeywords
+      Value: tables modernes, mobilier minimaliste, table basse, table d'appoint, table à manger, table en chêne, tables gigognes, design contemporain, mobilier durable, intérieur de luxe
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T094323Z
+    - ID: "2b03e37f-61d7-4f3c-95fa-7277bfcbff6d"
+      Hint: metadataTitle
+      Value: Tables Modernes
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Table
+    - ID: "4ff0b19e-04d3-454f-9e63-421c84e00477"
+      Hint: pageSummary
+      Value: "La collection de tables met en valeur un savoir-faire raffiné et un design polyvalent. Avec des matériaux naturels et des silhouettes minimalistes, chaque pièce ajoute équilibre et fonctionnalité à la maison moderne tout en se tenant comme une œuvre d'art à part entière."
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5cad19bf-f251-4273-9578-1393c0f00d5d"
+      Hint: Title
+      Value: Lampe
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a403c7aa-69e8-49ca-828c-c7e4b09c93f4"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "ca87ddf9-ad6a-47ad-aaea-f411377684a1"
+      Hint: metadataDescription
+      Value: Magasinez des tables contemporaines conçues pour la vie moderne. Des lignes épurées, des matériaux naturels et des proportions intemporelles créent des pièces polyvalentes qui rehaussent chaque pièce.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T110127Z
+    - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
+      Hint: CategoryName
+      Value: Table
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1bdb1624-90c5-46d5-968f-0c17c9a816c4"
+      Hint: metadataKeywords
+      Value: tables modernes, mobilier minimaliste, table basse, table d'appoint, table à manger, table en chêne, tables gigognes, design contemporain, mobilier durable, intérieur de luxe
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T094323Z
+    - ID: "2b03e37f-61d7-4f3c-95fa-7277bfcbff6d"
+      Hint: metadataTitle
+      Value: Tables Modernes
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Table
+    - ID: "4ff0b19e-04d3-454f-9e63-421c84e00477"
+      Hint: pageSummary
+      Value: "La collection de tables met en valeur un savoir-faire raffiné et un design polyvalent. Avec des matériaux naturels et des silhouettes minimalistes, chaque pièce ajoute équilibre et fonctionnalité à la maison moderne tout en se tenant comme une œuvre d'art à part entière."
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5cad19bf-f251-4273-9578-1393c0f00d5d"
+      Hint: Title
+      Value: Lampe
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "872e6451-0c53-409f-82bb-95257f012dcb"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "ca87ddf9-ad6a-47ad-aaea-f411377684a1"
+      Hint: metadataDescription
+      Value: Achetez des tables contemporaines conçues pour la vie moderne. Des lignes épurées, des matériaux naturels et des proportions intemporelles créent des pièces polyvalentes qui rehaussent chaque pièce.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T104013Z
     - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
       Hint: CategoryName
       Value: Table

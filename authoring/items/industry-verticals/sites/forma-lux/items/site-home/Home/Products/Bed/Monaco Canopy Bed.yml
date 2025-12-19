@@ -65,9 +65,15 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251016T130435Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Monaco Canopy Bed | Forma Lux – Romantic Metal Canopy Bed for Modern Interiors
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
       Value: A romantic canopy bed with a sleek metal frame.
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Monaco Canopy Bed, metal canopy bed, romantic bedroom furniture, modern canopy frame, elegant bed design, draped canopy bed, Forma Lux shop
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
       Value: 1099
@@ -82,9 +88,16 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: The Monaco Canopy Bed by Forma Lux combines sleek metal design with timeless romance. Flowing drapes and refined proportions create a luxurious, intimate bedroom centerpiece.
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="d07360f8-8eed-44cf-a993-8c477d755902" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8dbe1193-8b0f-49a2-af27-288832675f82"
+      Value: "5e9da52d-7cf7-42ff-9968-814405008276"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -94,7 +107,134 @@ Languages:
       Value: Monaco Canopy Bed
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251201T114920Z
+      Value: 20251210T075514Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: <p>The Monaco Canopy Bed brings elegance and charm to your bedroom. Its slim metal frame supports flowing drapes, creating a cozy and intimate atmosphere. Perfect for those who love a touch of drama in their interiors.</p>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: Graceful and dramatic, the Monaco Canopy Bed captures the essence of contemporary romance. Its slender metal frame supports cascading fabric that softens the geometry, transforming any bedroom into a serene retreat. Available in Indigo and Black, and in Small or Medium sizes, Monaco balances lightness and structure—inviting comfort, privacy, and a touch of cinematic elegance into the modern home.
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T130435Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Lit à baldaquin Monaco | Forma Lux – Lit à baldaquin en métal romantique pour intérieurs modernes
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Un lit à baldaquin romantique avec un cadre métallique élégant.
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Lit à baldaquin Monaco, lit à baldaquin en métal, mobilier de chambre romantique, cadre de baldaquin moderne, design de lit élégant, lit à baldaquin drapé, boutique Forma Lux
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 1099
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Lit à baldaquin Monaco
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: Le lit à baldaquin Monaco de Forma Lux combine un design métallique élégant avec une romance intemporelle. Des draperies fluides et des proportions raffinées créent une pièce maîtresse de chambre luxueuse et intime.
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="d07360f8-8eed-44cf-a993-8c477d755902" alt="lit-à-baldaquin-monaco" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cacaf344-4287-42ea-8418-b21847c7c7a3"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Lit à baldaquin Monaco
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T110231Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>Le lit à baldaquin Monaco apporte élégance et charme à votre chambre. Son cadre métallique mince supporte des draperies fluides, créant une atmosphère chaleureuse et intime. Parfait pour ceux qui aiment une touche de drame dans leurs intérieurs.</p>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: Gracieux et dramatique, le lit à baldaquin Monaco capture l'essence de la romance contemporaine. Son cadre métallique élancé supporte un tissu en cascade qui adoucit la géométrie, transformant toute chambre en un refuge serein. Disponible en Indigo et Noir, et en tailles Petite ou Moyenne, Monaco équilibre légèreté et structure—invitation au confort, à l'intimité, et à une touche d'élégance cinématographique dans la maison moderne.
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T130435Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Lit à baldaquin Monaco | Forma Lux – Lit à baldaquin en métal romantique pour intérieurs modernes
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Un lit à baldaquin romantique avec un cadre métallique élégant.
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Lit à baldaquin Monaco, lit à baldaquin en métal, mobilier de chambre romantique, cadre de baldaquin moderne, design de lit élégant, lit à baldaquin drapé, boutique Forma Lux
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 1099
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Lit à baldaquin Monaco
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: Le lit à baldaquin Monaco de Forma Lux combine un design métallique élégant avec une romance intemporelle. Des draperies fluides et des proportions raffinées créent une pièce maîtresse de chambre luxueuse et intime.
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="d07360f8-8eed-44cf-a993-8c477d755902" alt="monaco-canopy-bed" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "441969f7-8e1b-4cd1-a540-bf201075ce7d"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Lit à baldaquin Monaco
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T104115Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>Le lit à baldaquin Monaco apporte élégance et charme à votre chambre. Son cadre métallique fin supporte des draperies fluides, créant une atmosphère chaleureuse et intime. Parfait pour ceux qui aiment une touche de drame dans leurs intérieurs.</p>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: Gracieux et dramatique, le lit à baldaquin Monaco capture l'essence de la romance contemporaine. Son cadre métallique élancé supporte un tissu en cascade qui adoucit la géométrie, transformant toute chambre en un refuge serein. Disponible en Indigo et Noir, et en tailles Petite ou Moyenne, Monaco équilibre légèreté et structure—invitation au confort, à l'intimité, et à une touche d'élégance cinématographique dans la maison moderne.

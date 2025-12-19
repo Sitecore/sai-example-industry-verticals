@@ -1,0 +1,193 @@
+﻿---
+ID: "21c822b8-ad29-4b39-bf43-baee3882d578"
+Parent: "17862168-9427-4b7d-8b4f-9c5988e9e03a"
+Template: "9f7eb765-4566-4dd5-b74f-8bba6a27ba17"
+Path: "/sitecore/content/industry-verticals/essential-living/Settings/Theme Settings"
+SharedFields:
+- ID: "bd13b584-36a1-4c4e-aa1c-b4689ee2fae8"
+  Hint: CustomCSS
+  Value: 
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "1a7b76be-ae00-473a-ac68-c746a0281ce9"
+- ID: "f4f80dc4-7985-4bba-a11e-4daebba94481"
+  Hint: ThemeDefaults
+  Value: |
+    --color-foreground: #2c2621;
+    --color-foreground-light: #948685;
+    
+    --color-background: #fbfaf9;
+    --color-background-accent: #f9eee6;
+    --color-background-muted: #f5f2f1;
+    
+    --color-accent: #846854;
+    
+    --color-success: #2ec1ac;
+    --color-danger: #e97171;
+    
+    --color-border: #846854;
+    
+    --font-heading: 'Libre Baskerville', serif;
+    --font-body: 'Poppins', sans-serif;
+    
+    --radius-base: 0rem;
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251117T220631Z
+    - ID: "38c79e1a-489b-431d-b04e-aefea3c09438"
+      Hint: FontOptions
+      Value: |
+        [
+          {
+            "label": "Sans Serif",
+            "suffix": ", sans-serif",
+            "fonts": [
+              {
+                "name": "Anton",
+                "link": "https://fonts.googleapis.com/css2?family=Anton&display=swap"
+              },
+              {
+                "name": "Bebas Neue",
+                "link": "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+              },
+              {
+                "name": "Inter",
+                "link": "https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+              },
+              {
+                "name": "Lato",
+                "link": "https://fonts.googleapis.com/css2?family=Lato:wght@100..900&display=swap"
+              },
+              {
+                "name": "Manrope",
+                "link": "https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+              },
+              {
+                "name": "Montserrat",
+                "link": "https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
+              },
+              {
+                "name": "Mulish",
+                "link": "https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+              },
+              {
+                "name": "Noto Sans",
+                "link": "https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+              },
+              {
+                "name": "Nunito",
+                "link": "https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap"
+              },
+              {
+                "name": "Open Sans",
+                "link": "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap"
+              },
+              {
+                "name": "Oswald",
+                "link": "https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+              },
+              {
+                "name": "Poppins",
+                "link": "https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&display=swap"
+              },
+              {
+                "name": "Roboto",
+                "link": "https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap"
+              },
+              {
+                "name": "Rubik",
+                "link": "https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap"
+              }
+            ]
+          },
+          {
+            "label": "Serif",
+            "suffix": ", serif",
+            "fonts": [
+              {
+                "name": "Abril Fatface",
+                "link": "https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap"
+              },
+              {
+                "name": "Cormorant",
+                "link": "https://fonts.googleapis.com/css2?family=Cormorant:wght@300..700&display=swap"
+              },
+              {
+                "name": "Libre Baskerville",
+                "link": "https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap"
+              },
+              {
+                "name": "Lora",
+                "link": "https://fonts.googleapis.com/css2?family=Lora:wght@400..700&display=swap"
+              },
+              {
+                "name": "Merriweather",
+                "link": "https://fonts.googleapis.com/css2?family=Merriweather:wght@300..900&display=swap"
+              },
+              {
+                "name": "Playfair Display",
+                "link": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&display=swap"
+              },
+              {
+                "name": "Roboto Serif",
+                "link": "https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100..900&display=swap"
+              }
+            ]
+          },
+          {
+            "label": "Monospace",
+            "suffix": ", monospace",
+            "fonts": [
+              {
+                "name": "Fira Code",
+                "link": "https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap"
+              },
+              {
+                "name": "Roboto Mono",
+                "link": "https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100..700&display=swap"
+              },
+              {
+                "name": "Source Code Pro",
+                "link": "https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200..900&display=swap"
+              },
+              {
+                "name": "Space Mono",
+                "link": "https://fonts.googleapis.com/css2?family=Space+Mono:wght@400..700&display=swap"
+              }
+            ]
+          },
+          {
+            "label": "Display",
+            "suffix": ", cursive",
+            "fonts": [
+              {
+                "name": "Great Vibes",
+                "link": "https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+              },
+              {
+                "name": "Pacifico",
+                "link": "https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+              },
+              {
+                "name": "Satisfy",
+                "link": "https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+              }
+            ]
+          }
+        ]
+        
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7ec52a97-32f1-4e6a-aaec-68e61f4983e7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\INIwVuCCf0fzziGGBdz0UepKJ8K6him7
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251208T141532Z

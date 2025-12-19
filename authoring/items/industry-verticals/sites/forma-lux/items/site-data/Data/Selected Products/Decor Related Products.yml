@@ -47,3 +47,95 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251201T113955Z
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T093116Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "53d0df0a-b9c3-4a83-9150-37c68259f6ab"
+      Hint: Title
+      Value: Sélectionné pour l'œil averti
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "7a6784c9-46c6-4781-86c3-c482f3ef62e6"
+      Hint: ProductsLink
+      Value: |
+        <link class="" target="" title="" linktype="external" text="Voir tout" url="" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fb0515f6-6911-4211-a952-b28412dc37a5"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "c3fb8c52-2f64-45bc-9970-ea340d7271fa"
+      Hint: ProductsList
+      Value: |
+        {27EA866A-4C8D-4080-84E8-C07858D79729}
+        {F6EC6B67-47C8-44A4-AAC7-3B645E724758}
+        {861E20CD-4A19-416F-9818-E9DDF8E985D9}
+        {58A5B3F4-4C67-4C57-BDED-0FAB80A27088}
+        {A2E66B10-65F2-4B1D-B875-340B45493C84}
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T110201Z
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T093116Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "53d0df0a-b9c3-4a83-9150-37c68259f6ab"
+      Hint: Title
+      Value: Sélectionné pour l'œil averti
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "7a6784c9-46c6-4781-86c3-c482f3ef62e6"
+      Hint: ProductsLink
+      Value: |
+        <link class="" target="" title="" linktype="external" text="Voir tout" url="" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b5bffdf4-b6c7-47f2-b56b-f2486cc4e2c2"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "c3fb8c52-2f64-45bc-9970-ea340d7271fa"
+      Hint: ProductsList
+      Value: |
+        {27EA866A-4C8D-4080-84E8-C07858D79729}
+        {F6EC6B67-47C8-44A4-AAC7-3B645E724758}
+        {861E20CD-4A19-416F-9818-E9DDF8E985D9}
+        {58A5B3F4-4C67-4C57-BDED-0FAB80A27088}
+        {A2E66B10-65F2-4B1D-B875-340B45493C84}
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T104041Z

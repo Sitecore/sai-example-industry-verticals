@@ -7,13 +7,17 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 700
+- ID: "c17f3d69-c947-45a0-b4f5-cbcdf58e805c"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/76658-HomepagePromoCTAs-1100x740?v=9210bb63" dam-id="hTWQgT3RSbmgYszzmJFPmg" width="1100" height="740" alt="chairs-meta.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76658/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{C71493A5-69AE-423E-8D6F-F38B1CA2A335}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "791c36e6-3af1-49c7-a479-b7ecc015a139"
+  Value: "9e803d3c-636d-4dab-80bd-0918311a2907"
 Languages:
 - Language: en
   Versions:
@@ -22,12 +26,21 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
+    - ID: "1bdb1624-90c5-46d5-968f-0c17c9a816c4"
+      Hint: metadataKeywords
+      Value: modern chairs, minimalist seating, accent chair, dining chair, armchair, oak chair, contemporary furniture, luxury design, timeless craftsmanship, sustainable seating
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251016T154629Z
+    - ID: "2b03e37f-61d7-4f3c-95fa-7277bfcbff6d"
+      Hint: metadataTitle
+      Value: Chairs
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Chair
+    - ID: "4ff0b19e-04d3-454f-9e63-421c84e00477"
+      Hint: pageSummary
+      Value: Crafted for balance, comfort, and elegance, this chair collection celebrates simplicity in design. With thoughtful details and enduring materials, each piece invites comfort while maintaining a clean, architectural presence.
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -41,14 +54,121 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1323b87d-2558-43a4-bf1d-045f5b7354f9"
+      Value: "b6608d14-0078-4adb-a06b-597d5011fbff"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
+    - ID: "ca87ddf9-ad6a-47ad-aaea-f411377684a1"
+      Hint: metadataDescription
+      Value: Discover chairs that combine sculptural form and ergonomic comfort. Designed with refined proportions and natural materials, each piece complements modern interiors beautifully.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251128T094344Z
+      Value: 20251217T151621Z
     - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
       Hint: CategoryName
       Value: Chair
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1bdb1624-90c5-46d5-968f-0c17c9a816c4"
+      Hint: metadataKeywords
+      Value: chaises modernes, sièges minimalistes, chaise d'appoint, chaise de salle à manger, fauteuil, chaise en chêne, mobilier contemporain, design de luxe, artisanat intemporel, sièges durables
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T154629Z
+    - ID: "2b03e37f-61d7-4f3c-95fa-7277bfcbff6d"
+      Hint: metadataTitle
+      Value: Chaises
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Chaise
+    - ID: "4ff0b19e-04d3-454f-9e63-421c84e00477"
+      Hint: pageSummary
+      Value: Conçue pour l'équilibre, le confort et l'élégance, cette collection de chaises célèbre la simplicité du design. Avec des détails réfléchis et des matériaux durables, chaque pièce invite au confort tout en conservant une présence architecturale épurée.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5cad19bf-f251-4273-9578-1393c0f00d5d"
+      Hint: Title
+      Value: Chaise
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3a3eb32c-0de3-4a21-9f7f-1320119b4be6"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "ca87ddf9-ad6a-47ad-aaea-f411377684a1"
+      Hint: metadataDescription
+      Value: Découvrez des chaises qui allient forme sculpturale et confort ergonomique. Conçue avec des proportions raffinées et des matériaux naturels, chaque pièce complète magnifiquement les intérieurs modernes.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T110127Z
+    - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
+      Hint: CategoryName
+      Value: Chaise
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1bdb1624-90c5-46d5-968f-0c17c9a816c4"
+      Hint: metadataKeywords
+      Value: chaises modernes, sièges minimalistes, chaise d'appoint, chaise de salle à manger, fauteuil, chaise en chêne, mobilier contemporain, design de luxe, artisanat intemporel, sièges durables
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T154629Z
+    - ID: "2b03e37f-61d7-4f3c-95fa-7277bfcbff6d"
+      Hint: metadataTitle
+      Value: Chaises
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Chaise
+    - ID: "4ff0b19e-04d3-454f-9e63-421c84e00477"
+      Hint: pageSummary
+      Value: Conçue pour l'équilibre, le confort et l'élégance, cette collection de chaises célèbre la simplicité du design. Avec des détails réfléchis et des matériaux durables, chaque pièce invite au confort tout en conservant une présence architecturale épurée.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5cad19bf-f251-4273-9578-1393c0f00d5d"
+      Hint: Title
+      Value: Chaise
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "56583f4c-3f8b-4ca5-83c4-bc185c6a98e9"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "ca87ddf9-ad6a-47ad-aaea-f411377684a1"
+      Hint: metadataDescription
+      Value: Découvrez des chaises qui allient forme sculpturale et confort ergonomique. Conçue avec des proportions raffinées et des matériaux naturels, chaque pièce complète magnifiquement les intérieurs modernes.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T104013Z
+    - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
+      Hint: CategoryName
+      Value: Chaise

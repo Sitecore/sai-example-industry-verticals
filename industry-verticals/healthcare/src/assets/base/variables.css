@@ -22,9 +22,6 @@
   --font-heading: 'Mulish', sans-serif;
   --font-body: 'Noto Sans', sans-serif;
 
-  --shadow-soft: 0px 3px 45px rgba(0, 0, 0, 0.16);
-  --background-image-hero-clip: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1601.7 992.77' preserveAspectRatio='none'%3E%3Cg fill='black'%3E%3Cpath d='M.83,636.38s121.41,339.4,484.75,353.09,578.3-16.53,644.58-66.01,469.84-402.66,469.84-402.66l1.7-520.8L0,.05l.83,636.33Z'/%3E%3C/g%3E%3C/svg%3E");
-
   --radius-base: 0.5rem;
 
   /*
@@ -39,4 +36,8 @@
   --radius-2xl: calc(var(--radius-base) * 3);
   --radius-3xl: calc(var(--radius-base) * 4);
   --radius-4xl: calc(var(--radius-base) * 5);
+
+  /* Other variables */
+  --shadow-soft: 0px 3px 45px rgba(0, 0, 0, 0.16);
+  --background-image-hero-clip: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1601.7 992.77' preserveAspectRatio='none'%3E%3Cg fill='black'%3E%3Cpath d='M.83,636.38s121.41,339.4,484.75,353.09,578.3-16.53,644.58-66.01,469.84-402.66,469.84-402.66l1.7-520.8L0,.05l.83,636.33Z'/%3E%3C/g%3E%3C/svg%3E");
 }

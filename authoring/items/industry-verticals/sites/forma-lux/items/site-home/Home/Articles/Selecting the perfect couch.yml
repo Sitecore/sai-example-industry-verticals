@@ -4,6 +4,10 @@ Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
 Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
 Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/Selecting the perfect couch"
 SharedFields:
+- ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/76485-HomepagePromoCTAs-1100x740?v=41875711" dam-id="jKr4hBcpT8Kx2jWw-u5ECw" width="1100" height="740" alt="selecting-the-perfect-couch-article.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76485/thumbnail" />
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
@@ -14,7 +18,7 @@ SharedFields:
     <image mediaid="{7D455C1D-E594-4F77-8D7B-7FF624FDA0AA}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "3c2e5388-df95-4ce1-a0f2-c7a41cafee03"
+  Value: "c8a85ebe-4e24-4df2-8af6-c70a06651032"
 Languages:
 - Language: en
   Versions:
@@ -23,6 +27,18 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: |
+        In pursuit of tranquil sophistication, Forma Lux offers couches embodying elegance and functionality. Our pieces blend modern European design, craftsmanship, and minimalism, creating refined living spaces.
+        
+        Choosing the perfect couch involves reflecting on your space's soul, advocating for designs that inspire calm and redefine luxury through timeless artistry. Consider form and function's dialogue, where bold elements meet graceful curves.
+        
+        Sustainability and integrity drive our ethos, offering couches crafted with natural materials and ethical practices that resonate with your values and endure time. Whether you're a 'Conscious Minimalist' or an 'Urban Visionary,' our collection caters to diverse tastes.
+        
+        Integrating Forma Lux's timeless pieces elevates living beautifully, as a couch transcends furniture and becomes self-expression. True luxury focuses on beauty and functionality over fleeting trends.
+        
+        Reflect your unique taste and tranquility with couches echoing refined modern design principles, shaping spaces with soul and substance, where elegance and functionality coexist harmoniously.
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251128T084006Z
@@ -44,9 +60,12 @@ Languages:
     - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
       Hint: ShortDescription
       Value: "Choosing the Perfect Couch: A Reflection of Elegance and Functionality"
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: In pursuit of tranquil sophistication, Forma Lux offers couches embodying elegance and functionality. Our pieces blend modern European design, craftsmanship, and minimalism, creating refined living spaces.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a604d975-4d07-47fe-8d03-1ff8b79e5172"
+      Value: "37b32a4d-11dd-4deb-bd57-025194b8cbdd"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: Selecting the perfect couch
@@ -56,4 +75,140 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251128T084111Z
+      Value: 20251217T153655Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: Selecting the perfect couch
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: "Tranquil spaces, sophistication, couch cornerstone, style and purpose, Forma Lux, ideal couch, elegance and functionality, aesthetic appeal, practical ease, modern European design, craftsmanship, minimalism, refined living, thoughtful reflection, soul and substance, quiet luxury, designs that inspire calm, traditional luxury, timeless artistry, simplicity, form and function, bold sculptural elements, graceful curves, artisanal craftsmanship, sustainability, integrity, natural materials, ethical production practices, resonate values, test of time, Conscious Minimalist, clean lines, natural textures, Urban Visionary, modular designs, diverse personas, timeless pieces, living environment, art of living beautifully, canvas of self-expression, elegance and livability, true luxury, fleeting trends, enduring beauty and functionality, unique taste, tranquil sensibility, refined modern design, shape your space, soul and substance, elegance and functionality coexist."
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: |
+        À la recherche de sophistication tranquille, Forma Lux propose des canapés incarnant l'élégance et la fonctionnalité. Nos pièces allient design moderne européen, artisanat et minimalisme, créant des espaces de vie raffinés.
+        
+        Choisir le canapé parfait implique de réfléchir à l'âme de votre espace, en préconisant des designs qui inspirent le calme et redéfinissent le luxe à travers un art intemporel. Considérez le dialogue entre la forme et la fonction, où des éléments audacieux rencontrent des courbes gracieuses.
+        
+        La durabilité et l'intégrité guident notre éthique, offrant des canapés fabriqués avec des matériaux naturels et des pratiques éthiques qui résonnent avec vos valeurs et résistent au temps. Que vous soyez un 'Minimaliste Conscient' ou un 'Visionnaire Urbain', notre collection s'adresse à des goûts divers.
+        
+        Intégrer les pièces intemporelles de Forma Lux élève l'art de vivre magnifiquement, car un canapé transcende le meuble et devient une expression personnelle. Le vrai luxe se concentre sur la beauté et la fonctionnalité plutôt que sur les tendances éphémères.
+        
+        Reflétez votre goût unique et votre tranquillité avec des canapés qui résonnent avec les principes du design moderne raffiné, façonnant des espaces avec âme et substance, où l'élégance et la fonctionnalité coexistent harmonieusement.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T084006Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Sélectionner le canapé parfait
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>Dans la quête d'espaces tranquilles qui résonnent de sophistication, le canapé reste une pierre angulaire, harmonisant style et utilité. Chez Forma Lux, nous croyons que sélectionner le canapé idéal est une incarnation de l'élégance et de la fonctionnalité, alliant harmonieusement attrait esthétique et facilité pratique. Notre philosophie repose sur la création de pièces qui incarnent le design moderne européen, l'artisanat et le minimalisme, capturant l'essence d'un art de vivre raffiné.</p><p>Le chemin vers le choix du canapé parfait commence par une réflexion attentive sur l'âme et la substance de votre espace. En tant que pourvoyeurs de luxe discret, nous préconisons des designs qui inspirent le calme, redéfinissant la notion traditionnelle de luxe avec un art intemporel et une simplicité. Considérez le dialogue entre la forme et la fonction, où des éléments sculpturaux audacieux rencontrent les courbes gracieuses de l'artisanat.</p><p>Au cœur de notre éthique se trouve l'engagement envers la durabilité et l'intégrité. Optez pour des canapés fabriqués avec des matériaux naturels et des pratiques de production éthiques, garantissant que chaque pièce non seulement résonne avec vos valeurs mais résiste également à l'épreuve du temps. Que vous soyez un 'Minimaliste Conscient' qui chérit les lignes épurées et les textures naturelles, ou un 'Visionnaire Urbain' qui recherche des designs modulaires, notre collection s'adresse à des personnalités diverses.</p><p>Incorporer les pièces intemporelles de Forma Lux dans votre environnement de vie élève l'art de vivre magnifiquement. Le canapé devient plus qu'un simple meuble ; il évolue en une toile d'expression personnelle, mêlant élégance et habitabilité quotidienne. En explorant la pièce parfaite, rappelez-vous que le vrai luxe transcende les tendances éphémères et se concentre sur la beauté et la fonctionnalité durables.</p><p>Laissez votre maison refléter votre goût unique et votre sensibilité tranquille, avec des canapés qui résonnent avec les principes du design moderne raffiné. Chez Forma Lux, nous vous invitons à façonner votre espace avec âme et substance, en nourrissant une atmosphère où l'élégance et la fonctionnalité coexistent harmonieusement.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: "Choisir le canapé parfait : Un reflet d'élégance et de fonctionnalité"
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: À la recherche de sophistication tranquille, Forma Lux propose des canapés incarnant l'élégance et la fonctionnalité. Nos pièces allient design moderne européen, artisanat et minimalisme, créant des espaces de vie raffinés.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f76b5464-0eca-42db-8838-3939b6a25b14"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: Sélectionner le canapé parfait
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T110138Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: Sélectionner le canapé parfait
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: Espaces tranquilles, sophistication, pierre angulaire du canapé, style et utilité, Forma Lux, canapé idéal, élégance et fonctionnalité, attrait esthétique, facilité pratique, design moderne européen, artisanat, minimalisme, art de vivre raffiné, réflexion attentive, âme et substance, luxe discret, designs qui inspirent le calme, luxe traditionnel, art intemporel, simplicité, forme et fonction, éléments sculpturaux audacieux, courbes gracieuses, artisanat, durabilité, intégrité, matériaux naturels, pratiques de production éthiques, valeurs résonnantes, épreuve du temps, Minimaliste Conscient, lignes épurées, textures naturelles, Visionnaire Urbain, designs modulaires, personnalités diverses, pièces intemporelles, environnement de vie, art de vivre magnifiquement, toile d'expression personnelle, élégance et habitabilité, vrai luxe, tendances éphémères, beauté et fonctionnalité durables, goût unique, sensibilité tranquille, design moderne raffiné, façonner votre espace, âme et substance, élégance et fonctionnalité coexistent.
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: |
+        À la recherche de sophistication tranquille, Forma Lux propose des canapés incarnant élégance et fonctionnalité. Nos pièces allient design moderne européen, artisanat et minimalisme, créant des espaces de vie raffinés.
+        
+        Choisir le canapé parfait implique de réfléchir à l'âme de votre espace, en prônant des designs qui inspirent le calme et redéfinissent le luxe à travers un art intemporel. Considérez le dialogue entre forme et fonction, où des éléments audacieux rencontrent des courbes gracieuses.
+        
+        La durabilité et l'intégrité guident notre éthique, offrant des canapés fabriqués avec des matériaux naturels et des pratiques éthiques qui résonnent avec vos valeurs et résistent au temps. Que vous soyez un 'Minimaliste Conscient' ou un 'Visionnaire Urbain', notre collection s'adresse à des goûts divers.
+        
+        Intégrer les pièces intemporelles de Forma Lux élève l'art de vivre magnifiquement, car un canapé transcende le mobilier et devient une expression personnelle. Le véritable luxe se concentre sur la beauté et la fonctionnalité plutôt que sur les tendances éphémères.
+        
+        Reflétez votre goût unique et votre tranquillité avec des canapés qui résonnent avec les principes du design moderne raffiné, façonnant des espaces avec âme et substance, où élégance et fonctionnalité coexistent harmonieusement.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T084006Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Sélectionner le canapé parfait
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>Dans la quête d'espaces tranquilles qui résonnent de sophistication, le canapé reste une pierre angulaire, harmonisant style et fonction. Chez Forma Lux, nous croyons que sélectionner le canapé idéal est une incarnation de l'élégance et de la fonctionnalité, alliant harmonieusement attrait esthétique et facilité pratique. Notre philosophie repose sur la création de pièces qui incarnent le design moderne européen, l'artisanat et le minimalisme, capturant l'essence d'un art de vivre raffiné.</p><p>Le voyage vers le choix du canapé parfait commence par une réflexion attentive sur l'âme et la substance de votre espace. En tant que pourvoyeurs de luxe discret, nous prônons des designs qui inspirent le calme, redéfinissant la notion traditionnelle de luxe avec un art intemporel et une simplicité. Considérez le dialogue entre forme et fonction, où des éléments sculpturaux audacieux rencontrent les courbes gracieuses de l'artisanat.</p><p>Au cœur de notre éthique se trouve l'engagement envers la durabilité et l'intégrité. Optez pour des canapés fabriqués avec des matériaux naturels et des pratiques de production éthiques, garantissant que chaque pièce résonne non seulement avec vos valeurs mais résiste également à l'épreuve du temps. Que vous soyez un 'Minimaliste Conscient' qui chérit les lignes épurées et les textures naturelles, ou un 'Visionnaire Urbain' qui recherche des designs modulaires, notre collection s'adresse à des personnalités diverses.</p><p>Incorporer les pièces intemporelles de Forma Lux dans votre environnement de vie élève l'art de vivre magnifiquement. Le canapé devient plus qu'un simple meuble ; il évolue en une toile d'expression personnelle, mêlant élégance et habitabilité quotidienne. En explorant la pièce parfaite, rappelez-vous que le véritable luxe transcende les tendances éphémères et se concentre sur la beauté et la fonctionnalité durables.</p><p>Laissez votre maison refléter votre goût unique et votre sensibilité tranquille, avec des canapés qui résonnent avec les principes du design moderne raffiné. Chez Forma Lux, nous vous invitons à façonner votre espace avec âme et substance, en nourrissant une atmosphère où l'élégance et la fonctionnalité coexistent harmonieusement.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: "Choisir le canapé parfait : un reflet d'élégance et de fonctionnalité"
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: À la recherche de sophistication tranquille, Forma Lux propose des canapés incarnant élégance et fonctionnalité. Nos pièces allient design moderne européen, artisanat et minimalisme, créant des espaces de vie raffinés.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "13bad956-f68c-4148-bf96-0dc517d3e1b5"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: Sélectionner le canapé parfait
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T104025Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: Sélectionner le canapé parfait
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: Espaces tranquilles, sophistication, pierre angulaire du canapé, style et fonction, Forma Lux, canapé idéal, élégance et fonctionnalité, attrait esthétique, facilité pratique, design moderne européen, artisanat, minimalisme, art de vivre raffiné, réflexion attentive, âme et substance, luxe discret, designs qui inspirent le calme, luxe traditionnel, art intemporel, simplicité, forme et fonction, éléments sculpturaux audacieux, courbes gracieuses, artisanat, durabilité, intégrité, matériaux naturels, pratiques de production éthiques, valeurs résonnantes, épreuve du temps, Minimaliste Conscient, lignes épurées, textures naturelles, Visionnaire Urbain, designs modulaires, personnalités diverses, pièces intemporelles, environnement de vie, art de vivre magnifiquement, toile d'expression personnelle, élégance et habitabilité, véritable luxe, tendances éphémères, beauté et fonctionnalité durables, goût unique, sensibilité tranquille, design moderne raffiné, façonner votre espace, âme et substance, élégance et fonctionnalité coexistent.

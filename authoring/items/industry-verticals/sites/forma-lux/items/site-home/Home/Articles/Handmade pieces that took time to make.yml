@@ -15,6 +15,10 @@ SharedFields:
 - ID: "5f90c361-338c-4896-b022-11dafa5c2241"
   Hint: PublishedDate
   Value: 20250927T000000Z
+- ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/49689e980528431b86086dc363721e0d?v=f0cd6908" dam-id="NuPqTaaSRP2KkZ6K1sMv9g" width="3840" height="2160" alt="Rectangle 68 (2).jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/67023/thumbnail" />
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
@@ -28,7 +32,7 @@ SharedFields:
     <image mediaid="{E65E4578-2747-482C-B25A-E1C1CF6760EF}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "c62776f0-c540-4030-a392-0f9181fa3d5d"
+  Value: "02453f24-7576-49cb-b814-5584df953fc2"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -65,6 +69,9 @@ Languages:
     - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
       Hint: __Final Renderings
       Value: 
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: "At Forma Lux, time is a material in itself. Handmade Pieces That Took Time to Make reflects the art of slow creation—each piece shaped by deliberate rhythm and care. Iron, driftwood, and hand-thrown pottery coexist in perfect balance, forming interiors rich with authenticity and quiet luxury. The result is more than décor; it’s an experience of craft, patience, and permanence in an age of speed."
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250917T090300Z
@@ -88,19 +95,28 @@ Languages:
       Value: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum.
         
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: Explore how patience and precision define Handmade Pieces That Took Time to Make. Forma Lux celebrates slow design—crafted furniture and home décor where every curve, texture, and finish reflects human touch.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "818d20d6-dd09-4c11-8513-79d0af1919a3"
+      Value: "3f71a728-91d5-49d4-9b3d-3b5eef45b1ed"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: Handmade pieces that took time to make
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251008T155322Z
+      Value: 20251217T152714Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: Handmade Pieces That Took Time to Make | Forma Lux Journal – The Beauty of Patience in Design
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: handmade furniture, artisan craftsmanship, slow design, home decor, sustainable interiors, Forma Lux journal, timeless design, wood furniture
 - Language: "es-ES"
   Versions:
   - Version: 1
@@ -129,3 +145,133 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251007T081024Z
+- Language: "fr-CA"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "708c084a-f3ef-4e4d-9198-a82cfd3ef831"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Pièces faites à la main qui ont pris du temps à réaliser
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: Chez Forma Lux, le temps est un matériau en soi. Les pièces faites à la main qui ont pris du temps à réaliser reflètent l'art de la création lente—chaque pièce façonnée par un rythme délibéré et un soin attentif. Le fer, le bois flotté et la poterie faite à la main coexistent en parfait équilibre, formant des intérieurs riches en authenticité et en luxe discret. Le résultat est plus qu'une décoration; c'est une expérience d'artisanat, de patience et de permanence à une époque de vitesse.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250917T090300Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Pièces faites à la main qui ont pris du temps à réaliser
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><figure class="image image_resized image-style-align-right" style="width:42.48%;"><img class="image_resized" style="aspect-ratio:520/282;" src="-/media/949C1CB9D30246B0AB197E5E2F4B611C.ashx" alt="pexels-vecislavas-popa-1571453 1" width="520" height="282" /></figure><h3>Pièces de déclaration qui suscitent la conversation</h3><p>Un luminaire en fer suspendu attire l'œil, planant au-dessus d'une table basse profilée fabriquée à partir de bois flotté. À proximité, une bibliothèque sculpturale contient un mélange de livres d'art, de plantes et de céramiques, offrant à la fois fonctionnalité et flair.</p><p>C'est une disposition bien pensée qui guide naturellement le regard à travers la pièce. Chaque élément de design, qu'il soit structurel ou décoratif, semble intentionnel, contribuant à l'ambiance harmonieuse de la pièce. Une palette neutre domine, mais des touches de terracotta et de marine ajoutent de la personnalité sans submerger les sens. Des détails artisanaux, comme la poterie faite à la main et les panneaux muraux texturés, insufflent chaleur et authenticité.</p><p>C'est une disposition bien pensée qui guide naturellement le regard à travers la pièce. Chaque élément de design, qu'il soit structurel ou décoratif, semble intentionnel, contribuant à l'ambiance harmonieuse de la pièce. Une palette neutre domine, mais des touches de terracotta et de marine ajoutent de la personnalité sans submerger les sens. Des détails artisanaux, comme la poterie faite à la main et les panneaux muraux texturés, insufflent chaleur et authenticité.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum.
+        
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: Découvrez comment la patience et la précision définissent les pièces faites à la main qui ont pris du temps à réaliser. Forma Lux célèbre le design lent—des meubles et des décorations d'intérieur où chaque courbe, texture et finition reflète la touche humaine.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0d64aedb-5317-421f-9c50-5a623096ee69"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: Pièces faites à la main qui ont pris du temps à réaliser
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T110127Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: Pièces faites à la main qui ont pris du temps à réaliser | Journal Forma Lux – La beauté de la patience dans le design
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: meubles faits à la main, artisanat, design lent, décoration intérieure, intérieurs durables, journal Forma Lux, design intemporel, meubles en bois
+- Language: "fr-FR"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "3248aa53-ff1e-4e29-892b-96d2f78fc843"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Pièces faites à la main qui ont pris du temps à réaliser
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: Chez Forma Lux, le temps est un matériau en soi. Les Pièces faites à la main qui ont pris du temps à réaliser reflètent l'art de la création lente—chaque pièce façonnée par un rythme délibéré et un soin attentif. Le fer, le bois flotté et la poterie faite à la main coexistent en parfait équilibre, formant des intérieurs riches en authenticité et en luxe discret. Le résultat est plus qu'une décoration ; c'est une expérience d'artisanat, de patience et de permanence à une époque de vitesse.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250917T090300Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Pièces faites à la main qui ont pris du temps à réaliser
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><figure class="image image_resized image-style-align-right" style="width:42.48%;"><img class="image_resized" style="aspect-ratio:520/282;" src="-/media/949C1CB9D30246B0AB197E5E2F4B611C.ashx" alt="pexels-vecislavas-popa-1571453 1" width="520" height="282" /></figure><h3>Pièces de déclaration qui suscitent la conversation</h3><p>Un luminaire en fer suspendu attire l'œil, planant au-dessus d'une table basse profilée fabriquée à partir de bois flotté. À proximité, une bibliothèque sculpturale contient un mélange de livres d'art, de plantes et de céramiques, offrant à la fois fonctionnalité et flair.</p><p>C'est une disposition bien pensée qui guide naturellement le regard à travers la pièce. Chaque élément de design, qu'il soit structurel ou décoratif, semble intentionnel, contribuant à l'ambiance harmonieuse de la pièce. Une palette neutre domine, mais des touches de terracotta et de marine ajoutent de la personnalité sans submerger les sens. Des détails artisanaux, comme la poterie faite à la main et les panneaux muraux texturés, insufflent chaleur et authenticité.</p><p>C'est une disposition bien pensée qui guide naturellement le regard à travers la pièce. Chaque élément de design, qu'il soit structurel ou décoratif, semble intentionnel, contribuant à l'ambiance harmonieuse de la pièce. Une palette neutre domine, mais des touches de terracotta et de marine ajoutent de la personnalité sans submerger les sens. Des détails artisanaux, comme la poterie faite à la main et les panneaux muraux texturés, insufflent chaleur et authenticité.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum.
+        
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: Découvrez comment la patience et la précision définissent les Pièces faites à la main qui ont pris du temps à réaliser. Forma Lux célèbre le design lent—des meubles et des décorations d'intérieur où chaque courbe, texture et finition reflète la touche humaine.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "910b0842-bba2-4deb-8822-2660915d5ea6"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: Pièces faites à la main qui ont pris du temps à réaliser
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T104014Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: Pièces faites à la main qui ont pris du temps à réaliser | Journal Forma Lux – La beauté de la patience dans le design
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: meubles faits à la main, artisanat, design lent, décoration intérieure, intérieurs durables, journal Forma Lux, design intemporel, meubles en bois
