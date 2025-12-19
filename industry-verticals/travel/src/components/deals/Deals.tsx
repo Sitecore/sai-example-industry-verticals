@@ -1,8 +1,9 @@
-import { IGQLTextField } from '@/types/igql';
+import { IGQLField, IGQLTextField } from '@/types/igql';
 import {
   ComponentParams,
   ComponentRendering,
   Link,
+  LinkField,
   Text,
   useSitecore,
 } from '@sitecore-content-sdk/nextjs';
@@ -21,11 +22,11 @@ interface Fields {
 }
 
 interface Deal {
-  dealTitle: { jsonValue: { value: string } };
-  dealDescription: { jsonValue: { value: string } };
-  dealCtaLink: { jsonValue: { value: { href: string } } };
-  offerText: { jsonValue: { value: string } };
-  dealValidity: { jsonValue: { value: string } };
+  dealTitle: IGQLTextField;
+  dealDescription: IGQLTextField;
+  dealCtaLink: IGQLField<LinkField>;
+  offerText: IGQLTextField;
+  dealValidity: IGQLTextField;
 }
 
 type DealsProps = {
@@ -59,10 +60,10 @@ export const Default = (props: DealsProps) => {
     <DealWrapper props={props}>
       <div className="container mx-auto px-4">
         <div className="mb-12 text-center">
-          <h2 className="mb-4 text-3xl font-bold md:text-4xl">
+          <h2 className="mb-4 font-bold">
             <Text field={mainTitle.jsonValue} />
           </h2>
-          <p className="text-foreground-muted text-xl">
+          <p className="text-foreground-light text-xl">
             <Text field={mainDescription.jsonValue} />
           </p>
         </div>
@@ -100,7 +101,7 @@ export const Default = (props: DealsProps) => {
                 </div>
 
                 <div className="flex flex-1 flex-col p-4 pt-0">
-                  <p className="text-foreground-muted mb-4">
+                  <p className="mb-4">
                     <Text field={description} />
                   </p>
                   <p className="text-accent mb-4 text-sm font-medium">
