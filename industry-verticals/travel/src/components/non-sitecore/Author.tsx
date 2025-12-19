@@ -30,16 +30,16 @@ export const Author = (props: AuthorProps) => {
             <div className="flex items-start space-x-4">
               <Image field={props.fields.Avatar} width={80} height={80} className="rounded-full" />
               <div>
-                <h3 className="mb-2 text-xl font-semibold text-gray-900">
+                <h2 className="mb-2 text-xl font-semibold text-gray-900">
                   About <Text field={props.fields.AuthorName} />
-                </h3>
+                </h2>
                 <div className="mb-4 text-gray-600">
                   <ContentSdkText field={props.fields.About} />
                 </div>
                 <Placeholder rendering={props.rendering} name={props.placeholderKey} />
               </div>
             </div>
-        </div>
+          </div>
       </div>
     </div>
   );

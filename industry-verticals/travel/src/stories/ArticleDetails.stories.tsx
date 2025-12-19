@@ -7,10 +7,9 @@ import {
   createRichTextField,
   createTextField,
   createImageField,
-  // createIGQLField,
   createLinkField,
 } from './helpers/createFields';
-// import { boolToSitecoreCheckbox } from './helpers/boolToSitecoreCheckbox';
+import { ComponentFields } from '@sitecore-content-sdk/nextjs';
 
 type StoryProps = ComponentProps<typeof ArticleDetails> & {
   hideShareWidget?: boolean;
@@ -20,14 +19,6 @@ const meta = {
   title: 'Articles/Article Details',
   component: ArticleDetails,
   tags: ['autodocs'],
-  argTypes: {
-    hideShareWidget: {
-      control: {
-        type: 'boolean',
-      },
-      defaultValue: false,
-    },
-  },
   parameters: {
     layout: 'fullscreen',
   },
@@ -77,9 +68,36 @@ const baseFields = {
   BackLink: createLinkField('Back to Blog'),
 };
 
+const SocialFollowShareRendering = {
+  ...CommonRendering,
+  componentName: 'SocialFollow',
+  params: CommonParams,
+  fields: {
+    FacebookLink: createLinkField('Facebook'),
+    InstagramLink: createLinkField('Instagram'),
+    TwitterLink: createLinkField('Twitter'),
+    YoutubeLink: createLinkField('Youtube'),
+  } as unknown as ComponentFields,
+};
+
 export const Default: Story = {
   render: () => {
-    return <ArticleDetails params={baseParams} rendering={baseRendering} fields={baseFields} />;
+    return (
+      <ArticleDetails
+        params={baseParams}
+        rendering={{
+          ...baseRendering,
+          placeholders: {
+            [`article-details-${baseParams.DynamicPlaceholderId}`]: [SocialFollowShareRendering],
+            [`article-details-author-${baseParams.DynamicPlaceholderId}`]: [SocialFollowShareRendering],
+            [`article-details-full-width-${baseParams.DynamicPlaceholderId}`]: [
+              renderStorybookPlaceholder(),
+            ],
+          },
+        }}
+        fields={baseFields}
+      />
+    );
   },
 };
 

@@ -33,10 +33,21 @@ export const Default = (props: SocialFollowProps) => {
     <div className="flex items-center space-x-2" id={id}>
       <span className="text-sm text-gray-500">Share:</span>
       {socialLinks.map(({ icon: Icon, field, key }) => (
-        <ContentSdkLink field={field} key={key} className="text-foreground">
-            <button className="bg-primary text-primary-foreground hover:bg-primary/90 items-center justify-center gap-2 rounded-md p-2 text-sm font-medium hover:bg-gray-100 transition-all outline-none">
-              <Icon className="h-4 w-4 cursor-pointer text-foreground" />
-            </button>
+        <ContentSdkLink
+          field={field}
+          key={key}
+          className="text-foreground"
+          aria-label={`Share this on ${key}`}
+        >
+          <button
+            type="button"
+            role="presentation"
+            aria-hidden="true"
+            tabIndex={-1}
+            className="bg-primary text-primary-foreground hover:bg-primary/90 items-center justify-center rounded-md p-2 transition-all outline-none hover:bg-gray-100"
+          >
+            <Icon aria-hidden="true" className="h-4 w-4" />
+          </button>
         </ContentSdkLink>
       ))}
     </div>
@@ -57,12 +68,23 @@ export const Follow = (props: SocialFollowProps) => {
   return (
     <div className="flex items-center space-x-2" id={id}>
       <button className="simple-btn">
-        <span className="font-bold text-md text-black">Follow</span>
+        <span className="text-md font-bold text-black">Follow</span>
       </button>
       {socialLinks.map(({ icon: Icon, field, key }) => (
-        <ContentSdkLink field={field} key={key} className="text-foreground">
-          <button className="bg-primary text-primary-foreground hover:bg-primary/90 items-center justify-center gap-2 rounded-md p-2 text-sm font-medium transition-all outline-none hover:bg-gray-100">
-            <Icon className="text-foreground h-4 w-4 cursor-pointer" />
+        <ContentSdkLink
+          field={field}
+          key={key}
+          className="text-foreground"
+          aria-label={`Follow us on ${key}`}
+        >
+          <button
+            type="button"
+            role="presentation"
+            aria-hidden="true"
+            tabIndex={-1}
+            className="bg-primary text-primary-foreground hover:bg-primary/90 items-center justify-center rounded-md p-2 transition-all outline-none hover:bg-gray-100"
+          >
+            <Icon aria-hidden="true" className="h-4 w-4" />
           </button>
         </ContentSdkLink>
       ))}
