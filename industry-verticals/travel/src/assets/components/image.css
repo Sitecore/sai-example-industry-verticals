@@ -24,3 +24,9 @@
     @apply hidden!;
   }
 }
+
+.component.image.image-logo {
+  img {
+    @apply h-auto w-36;
+  }
+}
