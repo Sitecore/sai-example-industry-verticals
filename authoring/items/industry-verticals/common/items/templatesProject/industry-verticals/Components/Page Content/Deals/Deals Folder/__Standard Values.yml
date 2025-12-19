@@ -9,10 +9,10 @@ SharedFields:
   Value: |
     {40065854-D68A-4E1C-BDAD-0D61EB39C97C}
     {239BABBD-8545-49D1-9063-2354E81442F7}
-    {AD148487-7AAE-4095-B602-7F9AEEB3F8B6}
+    {B044A953-455A-4F8D-B99A-730F9D1818E2}
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "0c60311c-3e0e-42e3-bd01-b910185428ad"
+  Value: "ee702a27-afbc-42b3-b4a7-dd29f8772884"
 Languages:
 - Language: en
   Versions:
@@ -27,11 +27,11 @@ Languages:
         sitecore\admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7b1dcfe8-45e2-47cb-a8d0-2ebadf3677b4"
+      Value: "fe183346-3eee-401f-a132-e6be6b953bf8"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251217T144157Z
+      Value: 20251218T125339Z
