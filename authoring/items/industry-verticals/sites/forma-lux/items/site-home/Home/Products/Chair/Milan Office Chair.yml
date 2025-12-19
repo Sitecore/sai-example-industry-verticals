@@ -117,6 +117,68 @@ Languages:
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
       Value: Designed for productivity and poise, the Milan Office Chair exemplifies Forma Lux’s philosophy of intelligent comfort. Its adjustable features—including height, tilt, and armrests—create a customized ergonomic experience, while the breathable mesh back enhances airflow for long hours of focus. Available in Black, Gold, and White, and in Medium, Large, and Extra Large sizes, Milan transforms any workspace into a refined environment of balance, performance, and contemporary design.
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T125528Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Silla de Oficina Milan | Forma Lux – Silla de Oficina Ergonómica con Diseño Ajustable
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Una silla de oficina ergonómica moderna con características ajustables
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Silla de Oficina Milan, silla de oficina ergonómica, silla de escritorio ajustable, muebles modernos para espacios de trabajo, silla de oficina de malla, tienda Forma Lux, asientos de oficina de lujo
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 229.99
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Silla de Oficina Milan
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: La Silla de Oficina Milan de Forma Lux fusiona función ergonómica con elegancia moderna. La altura, inclinación y reposabrazos ajustables ofrecen comodidad personalizada, mientras que un respaldo de malla transpirable te mantiene fresco y concentrado.
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="e16e2396-aac4-4fbe-b8e3-4f8ca6b96eda" alt="milan-office-chair-1" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "38fd5956-d46f-43cc-a5a6-4b0049c6f3cd"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Silla de Oficina Milan
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251219T104444Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>La Silla de Oficina Milan combina diseño elegante con funcionalidad. Con altura, inclinación y reposabrazos ajustables, asegura máxima comodidad durante largas horas de trabajo. El respaldo de malla transpirable promueve el flujo de aire, manteniéndote fresco y concentrado.</p>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: Diseñada para la productividad y el aplomo, la Silla de Oficina Milan ejemplifica la filosofía de Forma Lux de confort inteligente. Sus características ajustables, que incluyen altura, inclinación y reposabrazos, crean una experiencia ergonómica personalizada, mientras que el respaldo de malla transpirable mejora el flujo de aire para largas horas de concentración. Disponible en Negro, Dorado y Blanco, y en tamaños Mediano, Grande y Extra Grande, Milan transforma cualquier espacio de trabajo en un entorno refinado de equilibrio, rendimiento y diseño contemporáneo.
 - Language: "fr-CA"
   Versions:
   - Version: 1

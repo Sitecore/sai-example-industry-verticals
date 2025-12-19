@@ -82,6 +82,69 @@ Languages:
     - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
       Hint: metadataKeywords
       Value: modern sofa design, sofa size guide, sofa configuration ideas, sectional sofa tips, single sofa layout, two sofas facing design, performance fabric sofas, full grain leather sofa, timeless sofa materials, low profile sofa style, clean arm sofa design, exposed base sofa, modern living room seating, sofa styling tips, contrasting texture pillows, decorative throws for sofas, modern coffee table pairing, living room layout ideas, design hero sofa concept, contemporary sofa trends
+- Language: "es-ES"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "185f00fe-4358-43c2-8ca2-cb9306ab1e19"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Relájate con Estilo: Eligiendo el Sofá Moderno Adecuado para tu Espacio"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: Aprende a seleccionar el sofá moderno ideal para tu hogar. Explora consejos sobre tamaño, configuración, opciones de tela y estilo con cojines, mantas y mesas de centro para hacer de tu sofá el héroe del diseño.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T084006Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Seleccionando el sofá perfecto
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p><span style="background-color:rgb(255,255,255);color:rgb(80,80,80);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:Manrope, sans-serif;font-size:18px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">El sofá es el ancla del espacio de vida, así que elígelo bien. Comienza con el tamaño: deja al menos 30”-36” detrás si está contra una pared, y caminos despejados a su alrededor. Decide la configuración: sofá único, dos sofás enfrentados, seccional... lo que se adapte a tu estilo de vida. La selección de la tela es clave: telas de alto rendimiento para familias, cuero de plena flor para atemporalidad. El estilo moderno favorece un perfil bajo, brazos limpios y base o patas expuestas. Luego, añade capas: algunos cojines en textura contrastante, una manta para calidez, una mesa de centro baja para completar la región. Con elecciones cuidadosas, tu sofá se convierte no solo en un asiento, sino en el héroe del diseño.</span></span></p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Desde la escala hasta la tela, aquí te mostramos cómo elegir el sofá perfecto.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: Aprende a seleccionar el sofá moderno ideal para tu hogar. Explora consejos sobre tamaño, configuración, opciones de tela y estilo con cojines, mantas y mesas de centro para hacer de tu sofá el héroe del diseño.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f33a216a-1d4a-42a8-9242-0657c883f424"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "Relájate con Estilo: Eligiendo el Sofá Moderno Adecuado para tu Espacio"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251219T104327Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: "Relájate con Estilo: Eligiendo el Sofá Moderno Adecuado para tu Espacio"
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: diseño de sofá moderno, guía de tamaños de sofá, ideas de configuración de sofá, consejos para sofá seccional, diseño de sofá único, diseño de dos sofás enfrentados, sofás de tela de alto rendimiento, sofá de cuero de plena flor, materiales de sofá atemporales, estilo de sofá de perfil bajo, diseño de sofá de brazos limpios, base expuesta de sofá, asientos modernos para sala de estar, consejos de estilo para sofá, cojines de textura contrastante, mantas decorativas para sofás, combinación de mesa de centro moderna, ideas de distribución de sala de estar, concepto de sofá héroe del diseño, tendencias de sofá contemporáneo
 - Language: "fr-CA"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

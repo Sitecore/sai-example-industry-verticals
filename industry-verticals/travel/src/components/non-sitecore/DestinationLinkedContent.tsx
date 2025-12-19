@@ -16,7 +16,7 @@ export const DestinationLinkedContent = ({ destination }: { destination: Destina
       </TabsList>
       <TabsContent value="activities" className="grid gap-4">
         {destination.Activities?.map((a) => (
-          <div className="info-card">
+          <div className="info-card" key={a.id}>
             <h5 className="info-card-title">
               <Camera />
               <Text field={a.fields.Title} />
@@ -29,7 +29,7 @@ export const DestinationLinkedContent = ({ destination }: { destination: Destina
       </TabsContent>
       <TabsContent value="weather" className="grid gap-4 lg:grid-cols-2">
         {destination.Weather?.map((w) => (
-          <div className="info-card">
+          <div className="info-card" key={w.id}>
             <div className="flex items-center gap-4">
               <Image field={w.fields.Image} width={24} height={24} />
               <div>
@@ -56,7 +56,7 @@ export const DestinationLinkedContent = ({ destination }: { destination: Destina
       </TabsContent>
       <TabsContent value="travel-tips" className="grid gap-4">
         {destination.TravelTips?.map((t) => (
-          <div className="info-card">
+          <div className="info-card" key={t.id}>
             <h5 className="info-card-title">
               <Navigation />
               <Text field={t.fields.Title} />
@@ -69,7 +69,7 @@ export const DestinationLinkedContent = ({ destination }: { destination: Destina
       </TabsContent>
       <TabsContent value="hotels" className="grid gap-4">
         {destination.Hotels?.map((h) => (
-          <div className="info-card">
+          <div className="info-card" key={h.id}>
             <div className="flex flex-wrap justify-between">
               <h5 className="info-card-title mb-0!">
                 <Bed />

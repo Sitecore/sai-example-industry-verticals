@@ -13,18 +13,18 @@ import React from 'react';
 import { useI18n } from 'next-localization';
 import { LayoutStyles, PromoFlags } from '@/types/styleFlags';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/shadcn/components/ui/dropdown-menu';
-import { Share2, ArrowLeft, Phone, Plane, Bed, Camera, Navigation, ChevronDown, Heart, Star } from 'lucide-react';
+import { Share2, ArrowLeft, Phone, Plane, Bed, Camera, Navigation, X, Menu, Heart, Star } from 'lucide-react';
 import { EmailIcon, EmailShareButton, FacebookIcon, FacebookShareButton, LinkedinIcon, LinkedinShareButton, PinterestIcon, PinterestShareButton, TwitterIcon, TwitterShareButton } from 'react-share';
 import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/shadcn/components/ui/tabs';
-import HamburgerIcon from '@/components/non-sitecore/HamburgerIcon';
 import { useClickAway } from '@/hooks/useClickAway';
 import { useStopResponsiveTransition } from '@/hooks/useStopResponsiveTransition';
 import { extractMediaUrl } from '@/helpers/extractMediaUrl';
 import { getLinkContent, getLinkField, isNavLevel, isNavRootItem, prepareFields } from '@/helpers/navHelpers';
 import clsx from 'clsx';
 import { isParamEnabled } from '@/helpers/isParamEnabled';
+import { Drawer, DrawerTrigger, DrawerContent, DrawerClose } from '@/shadcn/components/ui/drawer';
 import Head from 'next/head';
 import SocialShare from 'src/components/non-sitecore/SocialShare';
 import { DestinationHighlights } from 'src/components/non-sitecore/DestinationHighlights';
@@ -93,7 +93,8 @@ const importMap = [
       { name: 'Bed', value: Bed },
       { name: 'Camera', value: Camera },
       { name: 'Navigation', value: Navigation },
-      { name: 'ChevronDown', value: ChevronDown },
+      { name: 'X', value: X },
+      { name: 'Menu', value: Menu },
       { name: 'Heart', value: Heart },
       { name: 'Star', value: Star },
     ]
@@ -135,12 +136,6 @@ const importMap = [
     ]
   },
   {
-    module: '@/components/non-sitecore/HamburgerIcon',
-    exports: [
-      { name: 'default', value: HamburgerIcon },
-    ]
-  },
-  {
     module: '@/hooks/useClickAway',
     exports: [
       { name: 'useClickAway', value: useClickAway },
@@ -178,6 +173,15 @@ const importMap = [
     module: '@/helpers/isParamEnabled',
     exports: [
       { name: 'isParamEnabled', value: isParamEnabled },
+    ]
+  },
+  {
+    module: '@/shadcn/components/ui/drawer',
+    exports: [
+      { name: 'Drawer', value: Drawer },
+      { name: 'DrawerTrigger', value: DrawerTrigger },
+      { name: 'DrawerContent', value: DrawerContent },
+      { name: 'DrawerClose', value: DrawerClose },
     ]
   },
   {

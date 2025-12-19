@@ -82,6 +82,71 @@ Languages:
     - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
       Hint: metadataKeywords
       Value: "Tranquil spaces, sophistication, couch cornerstone, style and purpose, Forma Lux, ideal couch, elegance and functionality, aesthetic appeal, practical ease, modern European design, craftsmanship, minimalism, refined living, thoughtful reflection, soul and substance, quiet luxury, designs that inspire calm, traditional luxury, timeless artistry, simplicity, form and function, bold sculptural elements, graceful curves, artisanal craftsmanship, sustainability, integrity, natural materials, ethical production practices, resonate values, test of time, Conscious Minimalist, clean lines, natural textures, Urban Visionary, modular designs, diverse personas, timeless pieces, living environment, art of living beautifully, canvas of self-expression, elegance and livability, true luxury, fleeting trends, enduring beauty and functionality, unique taste, tranquil sensibility, refined modern design, shape your space, soul and substance, elegance and functionality coexist."
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: |
+        En la búsqueda de sofisticación tranquila, Forma Lux ofrece sofás que encarnan elegancia y funcionalidad. Nuestras piezas combinan diseño moderno europeo, artesanía y minimalismo, creando espacios de vida refinados.
+        
+        Elegir el sofá perfecto implica reflexionar sobre el alma de tu espacio, abogando por diseños que inspiran calma y redefinen el lujo a través del arte atemporal. Considera el diálogo entre forma y función, donde los elementos audaces se encuentran con curvas gráciles.
+        
+        La sostenibilidad y la integridad impulsan nuestro ethos, ofreciendo sofás elaborados con materiales naturales y prácticas éticas que resuenan con tus valores y perduran en el tiempo. Ya seas un 'Minimalista Consciente' o un 'Visionario Urbano', nuestra colección atiende a gustos diversos.
+        
+        Integrar las piezas atemporales de Forma Lux eleva el arte de vivir bellamente, ya que un sofá trasciende el mobiliario y se convierte en autoexpresión. El verdadero lujo se centra en la belleza y funcionalidad sobre las tendencias pasajeras.
+        
+        Refleja tu gusto único y tranquilidad con sofás que resuenen con los principios del diseño moderno refinado, dando forma a espacios con alma y sustancia, donde la elegancia y la funcionalidad coexisten armoniosamente.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T084006Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Seleccionando el sofá perfecto
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>En la búsqueda de espacios tranquilos que resuenen con sofisticación, el sofá sigue siendo una piedra angular, armonizando estilo con propósito. En Forma Lux, creemos que seleccionar el sofá ideal es una encarnación de elegancia y funcionalidad, combinando sin esfuerzo el atractivo estético con la facilidad práctica. Nuestra filosofía se basa en crear piezas que encarnen el diseño moderno europeo, la artesanía y el minimalismo, capturando la esencia de la vida refinada.</p><p>El viaje para elegir el sofá perfecto comienza con una reflexión cuidadosa sobre el alma y la sustancia de tu espacio. Como proveedores de lujo silencioso, abogamos por diseños que inspiran calma, redefiniendo la noción tradicional de lujo con arte y simplicidad atemporales. Considera el diálogo entre forma y función, donde los elementos escultóricos audaces se encuentran con las curvas gráciles de la artesanía artesanal.</p><p>Fundamental para nuestro ethos es el compromiso con la sostenibilidad y la integridad. Opta por sofás elaborados con materiales naturales y prácticas de producción éticas, asegurando que cada pieza no solo resuene con tus valores, sino que también resista la prueba del tiempo. Ya sea que te identifiques con el 'Minimalista Consciente' que aprecia las líneas limpias y las texturas naturales, o con el 'Visionario Urbano' que busca diseños modulares, nuestra colección atiende a diversas personalidades.</p><p>Incorporar las piezas atemporales de Forma Lux en tu entorno vital eleva el arte de vivir bellamente. El sofá se convierte en más que un simple mueble; evoluciona en un lienzo de autoexpresión, combinando elegancia con habitabilidad diaria. Al explorar la pieza perfecta, recuerda que el verdadero lujo trasciende las tendencias pasajeras y se centra en la belleza y funcionalidad duraderas.</p><p>Deja que tu hogar refleje tu gusto único y sensibilidad tranquila, con sofás que resuenen con los principios del diseño moderno refinado. En Forma Lux, te invitamos a dar forma a tu espacio con alma y sustancia, fomentando una atmósfera donde la elegancia y la funcionalidad coexistan armoniosamente.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: "Elegir el sofá perfecto: una reflexión de elegancia y funcionalidad"
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: En la búsqueda de sofisticación tranquila, Forma Lux ofrece sofás que encarnan elegancia y funcionalidad. Nuestras piezas combinan diseño moderno europeo, artesanía y minimalismo, creando espacios de vida refinados.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4a90ad99-1b82-43c6-b6c9-5cd44a29fc5b"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: Seleccionando el sofá perfecto
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251219T104327Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: Seleccionando el sofá perfecto
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: Espacios tranquilos, sofisticación, piedra angular del sofá, estilo y propósito, Forma Lux, sofá ideal, elegancia y funcionalidad, atractivo estético, facilidad práctica, diseño moderno europeo, artesanía, minimalismo, vida refinada, reflexión cuidadosa, alma y sustancia, lujo silencioso, diseños que inspiran calma, lujo tradicional, arte atemporal, simplicidad, forma y función, elementos escultóricos audaces, curvas gráciles, artesanía artesanal, sostenibilidad, integridad, materiales naturales, prácticas de producción éticas, valores resonantes, prueba del tiempo, Minimalista Consciente, líneas limpias, texturas naturales, Visionario Urbano, diseños modulares, personalidades diversas, piezas atemporales, entorno vital, arte de vivir bellamente, lienzo de autoexpresión, elegancia y habitabilidad, verdadero lujo, tendencias pasajeras, belleza y funcionalidad duraderas, gusto único, sensibilidad tranquila, diseño moderno refinado, dar forma a tu espacio, alma y sustancia, elegancia y funcionalidad coexisten.
 - Language: "fr-CA"
   Versions:
   - Version: 1

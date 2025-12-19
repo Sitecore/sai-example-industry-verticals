@@ -80,6 +80,69 @@ Languages:
     - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
       Hint: metadataKeywords
       Value: "sustainable furniture design, eco-friendly furniture choices, responsibly sourced wood, low-VOC finishes, recycled metal furniture, sustainable textiles, certified sustainable fabrics, modern sustainable furniture, material honesty in design, simplicity in furniture design, durable furniture construction, high-quality joinery, long-lasting furniture investment, reduce waste home design, buy less buy well philosophy, sustainable home decor, ethical furniture production, green interior design trends, eco-conscious furniture ideas, modern eco-friendly living"
+- Language: "es-ES"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "6f054f17-1b89-4ab0-9631-5f17eb0e6b70"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Estilo Sostenible: Muebles Modernos que son Buenos para el Planeta"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: Descubre cómo elegir muebles que se vean bien y hagan el bien. Explora madera de origen responsable, acabados bajos en COV, materiales reciclados y construcción duradera para un hogar elegante y sostenible.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T082739Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Estilo Sostenible
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>Más consumidores están eligiendo muebles que no solo se ven bien, sino que también hacen el bien. Busca piezas hechas de madera de origen responsable, acabados bajos en COV, metal reciclado y textiles certificados por su sostenibilidad. El diseño moderno es una combinación ideal: su énfasis en la honestidad de los materiales y la simplicidad se adapta perfectamente a los muebles fabricados de manera sostenible. Elige una construcción sólida: ensamblaje de alta calidad, materiales duraderos, para que tu inversión perdure. Cuando compras menos, compras bien, reduces el desperdicio. El resultado: un hogar que refleja tus valores y tu estilo, ambos a la vez.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: "El diseño ecológico no significa comprometer el aspecto: explora materiales y métodos eco-amigables."
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: Descubre cómo elegir muebles que se vean bien y hagan el bien. Explora madera de origen responsable, acabados bajos en COV, materiales reciclados y construcción duradera para un hogar elegante y sostenible.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "620dfa54-e6b6-4fcd-bf07-683671d928bb"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "Estilo Sostenible: Muebles Modernos que son Buenos para el Planeta"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251219T104327Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: "Opciones de Muebles Sostenibles: Diseño Moderno que Refleja tus Valores"
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: "diseño de muebles sostenibles, opciones de muebles eco-amigables, madera de origen responsable, acabados bajos en COV, muebles de metal reciclado, textiles sostenibles, telas certificadas sostenibles, muebles modernos sostenibles, honestidad de materiales en el diseño, simplicidad en el diseño de muebles, construcción de muebles duradera, ensamblaje de alta calidad, inversión en muebles de larga duración, diseño de hogar que reduce el desperdicio, filosofía de comprar menos comprar bien, decoración del hogar sostenible, producción ética de muebles, tendencias de diseño de interiores verdes, ideas de muebles eco-conscientes, vida moderna eco-amigable"
 - Language: "fr-CA"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

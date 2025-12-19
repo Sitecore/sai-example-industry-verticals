@@ -120,7 +120,7 @@ const SocialShare = ({
         </DropdownMenuTrigger>
         <DropdownMenuContent className="min-w-none">
           {platforms.map((platform) => (
-            <DropdownMenuItem>{renderSocialButton(platform)}</DropdownMenuItem>
+            <DropdownMenuItem key={platform}>{renderSocialButton(platform)}</DropdownMenuItem>
           ))}
         </DropdownMenuContent>
       </DropdownMenu>

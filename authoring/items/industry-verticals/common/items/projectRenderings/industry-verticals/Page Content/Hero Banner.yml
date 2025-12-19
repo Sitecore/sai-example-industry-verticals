@@ -9,9 +9,7 @@ SharedFields:
   Value: HeroBanner
 - ID: "069a8361-b1cd-437c-8c32-a3be78941446"
   Hint: Placeholders
-  Value: |
-    {CF06B8FB-5542-413B-AAE3-2CE3ABC3E31D}
-    {2C0C0F20-5B78-4364-B41C-EA6736EFEC4D}
+  Value: "{CF06B8FB-5542-413B-AAE3-2CE3ABC3E31D}"
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
   Value: Office/32x32/painting_landscape.png
@@ -35,7 +33,7 @@ SharedFields:
   Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "e7033247-d031-4bac-ae85-0c41c0fcc9d5"
+  Value: "5ef890fb-54b9-4342-8e66-8e8ff07ff1f5"
 - ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
   Hint: OtherProperties
   Value: IsRenderingsWithDynamicPlaceholders=true
@@ -92,14 +90,14 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9472c07f-a6eb-4b02-8700-25591d6a2151"
+      Value: "fe13d866-343d-42f4-ba7d-c6b03de43a2c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\tharuka.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251217T082012Z
+      Value: 20251219T070855Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
