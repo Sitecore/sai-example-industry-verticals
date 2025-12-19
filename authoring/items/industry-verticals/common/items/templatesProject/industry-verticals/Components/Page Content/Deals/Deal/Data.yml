@@ -2,7 +2,7 @@
 ID: "68882278-68ec-40aa-8cf9-ff60682b74d5"
 Parent: "7116912b-af25-436f-98a4-8388a7c74d87"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: "/sitecore/templates/Project/industry-verticals/Components/Page Content/Deals/Deal/Feature"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Page Content/Deals/Deal/Data"
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
