@@ -7,18 +7,30 @@ import {
 } from '@sitecore-content-sdk/nextjs/codegen';
 // end of built-in imports
 
-import { Link, Text, useSitecore, Placeholder, RichText, NextImage, Image, CdpHelper, withDatasourceCheck, DateField } from '@sitecore-content-sdk/nextjs';
+import { Link, Text, useSitecore, RichText, Placeholder, NextImage, CdpHelper, withDatasourceCheck, DateField } from '@sitecore-content-sdk/nextjs';
 import { useState, useRef, useEffect } from 'react';
 import React from 'react';
-import { Facebook, Twitter, Youtube, Instagram, Linkedin, ChevronDown, ArrowLeft, Calendar, Clock, Heart, Share2 } from 'lucide-react';
-import { isParamEnabled } from '@/helpers/isParamEnabled';
-import HamburgerIcon from '@/components/non-sitecore/HamburgerIcon';
+import { useI18n } from 'next-localization';
+import { LayoutStyles, PromoFlags } from '@/types/styleFlags';
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/shadcn/components/ui/dropdown-menu';
+import { Share2, ArrowLeft, Phone, Plane, Bed, Camera, Navigation, X, Menu, Heart, Star } from 'lucide-react';
+import { EmailIcon, EmailShareButton, FacebookIcon, FacebookShareButton, LinkedinIcon, LinkedinShareButton, PinterestIcon, PinterestShareButton, TwitterIcon, TwitterShareButton } from 'react-share';
+import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
+import { usePathname } from 'next/navigation';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/shadcn/components/ui/tabs';
 import { useClickAway } from '@/hooks/useClickAway';
 import { useStopResponsiveTransition } from '@/hooks/useStopResponsiveTransition';
 import { extractMediaUrl } from '@/helpers/extractMediaUrl';
 import { getLinkContent, getLinkField, isNavLevel, isNavRootItem, prepareFields } from '@/helpers/navHelpers';
 import clsx from 'clsx';
+import { isParamEnabled } from '@/helpers/isParamEnabled';
+import { Drawer, DrawerTrigger, DrawerContent, DrawerClose } from '@/shadcn/components/ui/drawer';
 import Head from 'next/head';
+import SocialShare from 'src/components/non-sitecore/SocialShare';
+import { DestinationHighlights } from 'src/components/non-sitecore/DestinationHighlights';
+import { DestinationSidebar } from 'src/components/non-sitecore/DestinationSidebar';
+import { ParentPathLink } from 'src/components/non-sitecore/ParentPathLink';
+import { DestinationLinkedContent } from 'src/components/non-sitecore/DestinationLinkedContent';
 import client from 'lib/sitecore-client';
 import Image_5d8ce56058442d94361877e28c501c951a554a6a from 'next/image';
 import * as FEAAS from '@sitecore-feaas/clientside/react';
@@ -35,8 +47,8 @@ const importMap = [
       { name: 'Link', value: Link },
       { name: 'Text', value: Text },
       { name: 'useSitecore', value: useSitecore },
-      { name: 'Placeholder', value: Placeholder },
       { name: 'RichText', value: RichText },
+      { name: 'Placeholder', value: Placeholder },
       { name: 'NextImage', value: NextImage },
       { name: 'Image', value: Image },
       { name: 'CdpHelper', value: CdpHelper },
@@ -54,31 +66,77 @@ const importMap = [
     ]
   },
   {
+    module: 'next-localization',
+    exports: [
+      { name: 'useI18n', value: useI18n },
+    ]
+  },
+  {
+    module: '@/types/styleFlags',
+    exports: [
+      { name: 'LayoutStyles', value: LayoutStyles },
+      { name: 'PromoFlags', value: PromoFlags },
+    ]
+  },
+  {
+    module: '@/shadcn/components/ui/dropdown-menu',
+    exports: [
+      { name: 'DropdownMenu', value: DropdownMenu },
+      { name: 'DropdownMenuContent', value: DropdownMenuContent },
+      { name: 'DropdownMenuItem', value: DropdownMenuItem },
+      { name: 'DropdownMenuTrigger', value: DropdownMenuTrigger },
+    ]
+  },
+  {
     module: 'lucide-react',
     exports: [
-      { name: 'Facebook', value: Facebook },
-      { name: 'Twitter', value: Twitter },
-      { name: 'Youtube', value: Youtube },
-      { name: 'Instagram', value: Instagram },
-      { name: 'Linkedin', value: Linkedin },
-      { name: 'ChevronDown', value: ChevronDown },
-      { name: 'ArrowLeft', value: ArrowLeft },
-      { name: 'Calendar', value: Calendar },
-      { name: 'Clock', value: Clock },
-      { name: 'Heart', value: Heart },
       { name: 'Share2', value: Share2 },
+      { name: 'ArrowLeft', value: ArrowLeft },
+      { name: 'Phone', value: Phone },
+      { name: 'Plane', value: Plane },
+      { name: 'Bed', value: Bed },
+      { name: 'Camera', value: Camera },
+      { name: 'Navigation', value: Navigation },
+      { name: 'X', value: X },
+      { name: 'Menu', value: Menu },
+      { name: 'Heart', value: Heart },
+      { name: 'Star', value: Star },
     ]
   },
   {
-    module: '@/helpers/isParamEnabled',
+    module: 'react-share',
     exports: [
-      { name: 'isParamEnabled', value: isParamEnabled },
+      { name: 'EmailIcon', value: EmailIcon },
+      { name: 'EmailShareButton', value: EmailShareButton },
+      { name: 'FacebookIcon', value: FacebookIcon },
+      { name: 'FacebookShareButton', value: FacebookShareButton },
+      { name: 'LinkedinIcon', value: LinkedinIcon },
+      { name: 'LinkedinShareButton', value: LinkedinShareButton },
+      { name: 'PinterestIcon', value: PinterestIcon },
+      { name: 'PinterestShareButton', value: PinterestShareButton },
+      { name: 'TwitterIcon', value: TwitterIcon },
+      { name: 'TwitterShareButton', value: TwitterShareButton },
     ]
   },
   {
-    module: '@/components/non-sitecore/HamburgerIcon',
+    module: 'next/link',
     exports: [
-      { name: 'default', value: HamburgerIcon },
+      { name: 'default', value: Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 },
+    ]
+  },
+  {
+    module: 'next/navigation',
+    exports: [
+      { name: 'usePathname', value: usePathname },
+    ]
+  },
+  {
+    module: '@/shadcn/components/ui/tabs',
+    exports: [
+      { name: 'Tabs', value: Tabs },
+      { name: 'TabsContent', value: TabsContent },
+      { name: 'TabsList', value: TabsList },
+      { name: 'TabsTrigger', value: TabsTrigger },
     ]
   },
   {
@@ -116,9 +174,54 @@ const importMap = [
     ]
   },
   {
+    module: '@/helpers/isParamEnabled',
+    exports: [
+      { name: 'isParamEnabled', value: isParamEnabled },
+    ]
+  },
+  {
+    module: '@/shadcn/components/ui/drawer',
+    exports: [
+      { name: 'Drawer', value: Drawer },
+      { name: 'DrawerTrigger', value: DrawerTrigger },
+      { name: 'DrawerContent', value: DrawerContent },
+      { name: 'DrawerClose', value: DrawerClose },
+    ]
+  },
+  {
     module: 'next/head',
     exports: [
       { name: 'default', value: Head },
+    ]
+  },
+  {
+    module: 'src/components/non-sitecore/SocialShare',
+    exports: [
+      { name: 'default', value: SocialShare },
+    ]
+  },
+  {
+    module: 'src/components/non-sitecore/DestinationHighlights',
+    exports: [
+      { name: 'DestinationHighlights', value: DestinationHighlights },
+    ]
+  },
+  {
+    module: 'src/components/non-sitecore/DestinationSidebar',
+    exports: [
+      { name: 'DestinationSidebar', value: DestinationSidebar },
+    ]
+  },
+  {
+    module: 'src/components/non-sitecore/ParentPathLink',
+    exports: [
+      { name: 'ParentPathLink', value: ParentPathLink },
+    ]
+  },
+  {
+    module: 'src/components/non-sitecore/DestinationLinkedContent',
+    exports: [
+      { name: 'DestinationLinkedContent', value: DestinationLinkedContent },
     ]
   },
   {

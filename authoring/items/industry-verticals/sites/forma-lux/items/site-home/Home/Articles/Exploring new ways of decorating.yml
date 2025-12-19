@@ -113,6 +113,13 @@ Languages:
       Hint: metadataKeywords
       Value: interior design, modern home decor, furniture styling, contemporary interiors, Forma Lux journal, design inspiration, artisan craftsmanship, home trends
 - Language: "es-ES"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "59ead7a5-a9be-4e99-8e28-ffd4d903e4fc"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Explorando nuevas formas de decorar
   Versions:
   - Version: 1
     Fields:
@@ -140,6 +147,60 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251007T081036Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: Forma Lux te invita a repensar cómo cobran vida las habitaciones. Explorando nuevas formas de decorar examina el diseño como una conversación, entre estructura y suavidad, herencia e innovación. La iluminación escultórica, las texturas de madera flotante y la cerámica artesanal anclan el espacio en una belleza táctil, mientras que la moderación reflexiva mantiene cada detalle con propósito. Este artículo celebra los interiores no como exhibiciones estáticas, sino como expresiones en evolución de artesanía, emoción y armonía moderna.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250917T090300Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Explorando nuevas formas de decorar
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <figure class="image image_resized image-style-align-right" style="width:42.48%;"><img class="image_resized" style="aspect-ratio:520/282;" src="-/media/949C1CB9D30246B0AB197E5E2F4B611C.ashx" alt="pexels-vecislavas-popa-1571453 1" width="520" height="282" /></figure><h3>Piezas de declaración que inspiran conversación</h3><p>Una lámpara de hierro suspendida atrae la mirada, flotando sobre una mesa de centro de perfil bajo hecha de madera flotante. Cerca, una estantería escultórica alberga una mezcla curada de arte, plantas y cerámica, ofreciendo tanto función como estilo.</p><p>Es un diseño bien pensado que guía naturalmente la mirada a través de la habitación. Cada elemento de diseño, ya sea estructural o decorativo, se siente intencional, contribuyendo a la vibra armoniosa de la habitación. Predomina una paleta neutral, pero toques de terracota y azul marino añaden personalidad sin abrumar los sentidos. Los detalles artesanales, como la cerámica hecha a mano y los paneles de pared texturizados, infunden calidez y autenticidad.</p><p>Es un diseño bien pensado que guía naturalmente la mirada a través de la habitación. Cada elemento de diseño, ya sea estructural o decorativo, se siente intencional, contribuyendo a la vibra armoniosa de la habitación. Predomina una paleta neutral, pero toques de terracota y azul marino añaden personalidad sin abrumar los sentidos. Los detalles artesanales, como la cerámica hecha a mano y los paneles de pared texturizados, infunden calidez y autenticidad.</p><figure class="image image_resized image-style-align-right" style="width:42.48%;"><img class="image_resized" style="aspect-ratio:520/282;" src="-/media/949C1CB9D30246B0AB197E5E2F4B611C.ashx" alt="pexels-vecislavas-popa-1571453 1" width="520" height="282" /></figure><h3>Piezas de declaración que inspiran conversación</h3><p>Una lámpara de hierro suspendida atrae la mirada, flotando sobre una mesa de centro de perfil bajo hecha de madera flotante. Cerca, una estantería escultórica alberga una mezcla curada de arte, plantas y cerámica, ofreciendo tanto función como estilo.</p><p>Es un diseño bien pensado que guía naturalmente la mirada a través de la habitación. Cada elemento de diseño, ya sea estructural o decorativo, se siente intencional, contribuyendo a la vibra armoniosa de la habitación. Predomina una paleta neutral, pero toques de terracota y azul marino añaden personalidad sin abrumar los sentidos. Los detalles artesanales, como la cerámica hecha a mano y los paneles de pared texturizados, infunden calidez y autenticidad.</p><p>Es un diseño bien pensado que guía naturalmente la mirada a través de la habitación. Cada elemento de diseño, ya sea estructural o decorativo, se siente intencional, contribuyendo a la vibra armoniosa de la habitación. Predomina una paleta neutral, pero toques de terracota y azul marino añaden personalidad sin abrumar los sentidos. Los detalles artesanales, como la cerámica hecha a mano y los paneles de pared texturizados, infunden calidez y autenticidad.</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ff16daef-aa47-4e44-b2da-a377ef6f0d6a"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: Explorando nuevas formas de decorar
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251219T104327Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: Explorando nuevas formas de decorar | Revista Forma Lux – Perspectivas modernas sobre diseño de interiores
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: diseño de interiores, decoración moderna del hogar, estilo de muebles, interiores contemporáneos, revista Forma Lux, inspiración en diseño, artesanía artesanal, tendencias del hogar
 - Language: "fr-CA"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
