@@ -1,0 +1,60 @@
+﻿---
+ID: "1ee70b23-d0cb-4aab-9cec-b0a8f4406475"
+Parent: "85e21f39-3043-445d-ae25-bdc5de2ecc20"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/industry-verticals/skywings/Icons/snowflake"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/1EE70B23D0CB4AAB9CECB0A8F4406475.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 24
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "af8f6488-a847-4d26-bb09-7de66ef21a6a"
+  Value: PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXNub3dmbGFrZS1pY29uIGx1Y2lkZS1zbm93Zmxha2UiPjxwYXRoIGQ9Im0xMCAyMC0xLjI1LTIuNUw2IDE4Ii8+PHBhdGggZD0iTTEwIDQgOC43NSA2LjUgNiA2Ii8+PHBhdGggZD0ibTE0IDIwIDEuMjUtMi41TDE4IDE4Ii8+PHBhdGggZD0ibTE0IDQgMS4yNSAyLjVMMTggNiIvPjxwYXRoIGQ9Im0xNyAyMS0zLTZoLTQiLz48cGF0aCBkPSJtMTcgMy0zIDYgMS41IDMiLz48cGF0aCBkPSJNMiAxMmg2LjVMMTAgOSIvPjxwYXRoIGQ9Im0yMCAxMC0xLjUgMiAxLjUgMiIvPjxwYXRoIGQ9Ik0yMiAxMmgtNi41TDE0IDE1Ii8+PHBhdGggZD0ibTQgMTAgMS41IDJMNCAxNCIvPjxwYXRoIGQ9Im03IDIxIDMtNi0xLjUtMyIvPjxwYXRoIGQ9Im03IDMgMyA2aDQiLz48L3N2Zz4=
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 581
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/svg+xml
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: svg
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "a59a12b1-f2ac-445c-b237-f94c55fc73d0"
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 24
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251218T083907Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: snow
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9fe95546-b740-4808-bf4e-63b386a80fc3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251218T083914Z

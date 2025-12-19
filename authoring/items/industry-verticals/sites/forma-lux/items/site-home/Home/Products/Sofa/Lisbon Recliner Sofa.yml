@@ -115,3 +115,189 @@ Languages:
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
       Value: "Designed for indulgent comfort, the Lisbon Recliner Sofa transforms relaxation into an experience of quiet sophistication. Its built-in recliners and cup holders merge function with form, while plush cushioning and a refined silhouette reflect Forma Lux’s commitment to craftsmanship. Available in Black and White, and in Large or Extra Large sizes, Lisbon is ideal for home theaters or cozy nights in — a statement of modern luxury designed to move with you."
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T131426Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Sofá Reclinable Lisboa | Forma Lux – Sofá Reclinable de Lujo con Comodidad Acolchada
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Un sofá reclinable con cojines acolchados.
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Sofá Reclinable Lisboa, sofá reclinable, sofá para cine en casa, sofá reclinable de lujo, muebles modernos para sala de estar, sofá con portavasos, tienda Forma Lux, asientos acolchados
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 1599
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Sofá Reclinable Lisboa
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: Relájate con estilo con el Sofá Reclinable Lisboa de Forma Lux. Con reclinadores integrados, cojines acolchados y portavasos integrados, aporta comodidad moderna a los cines en casa y espacios acogedores.
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="b1c3494b-19a7-4f2f-b753-ee28614613e3" alt="lisbon-recliner-sofa-1" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b594388d-b7e0-482d-893b-e2795672df18"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Sofá Reclinable Lisboa
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251219T104435Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>El Sofá Reclinable Lisboa combina comodidad y conveniencia. Con reclinadores y portavasos integrados, es perfecto para cines en casa y noches acogedoras.</p>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: Diseñado para un confort indulgente, el Sofá Reclinable Lisboa transforma la relajación en una experiencia de sofisticación tranquila. Sus reclinadores y portavasos integrados fusionan función con forma, mientras que el acolchado lujoso y una silueta refinada reflejan el compromiso de Forma Lux con la artesanía. Disponible en Negro y Blanco, y en tamaños Grande o Extra Grande, Lisboa es ideal para cines en casa o noches acogedoras — una declaración de lujo moderno diseñado para moverse contigo.
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T131426Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Sofa inclinable Lisbonne | Forma Lux – Sofa inclinable de luxe avec confort moelleux
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Un sofa inclinable avec rembourrage moelleux.
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: "Sofa inclinable Lisbonne, sofa de cinéma maison, canapé inclinable de luxe, mobilier de salon moderne, sofa avec porte-gobelet, boutique Forma Lux, sièges moelleux"
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 1599
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Sofa inclinable Lisbonne
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: "Détendez-vous avec style grâce au sofa inclinable Lisbonne de Forma Lux. Doté de fauteuils inclinables intégrés, de coussins moelleux et de porte-gobelets intégrés, il apporte un confort moderne aux cinémas maison et aux espaces de vie confortables."
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="b1c3494b-19a7-4f2f-b753-ee28614613e3" alt="lisbon-recliner-sofa-1" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b596f7f6-297f-46ac-b0e9-12145651df33"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Sofa inclinable Lisbonne
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T110242Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: "<p>Le sofa inclinable Lisbonne combine confort et commodité. Avec des fauteuils inclinables et des porte-gobelets intégrés, il est parfait pour les cinémas maison et les soirées confortables.</p>"
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: "Conçu pour un confort indulgent, le sofa inclinable Lisbonne transforme la détente en une expérience de sophistication tranquille. Ses fauteuils inclinables et porte-gobelets intégrés allient fonction et forme, tandis que le rembourrage moelleux et une silhouette raffinée reflètent l'engagement de Forma Lux envers l'artisanat. Disponible en noir et blanc, et en tailles grande ou très grande, Lisbonne est idéal pour les cinémas maison ou les soirées confortables — une déclaration de luxe moderne conçue pour vous accompagner."
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T131426Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Canapé inclinable Lisbonne | Forma Lux – Canapé inclinable de luxe avec confort moelleux
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Un canapé inclinable avec un rembourrage moelleux.
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: "Canapé inclinable Lisbonne, canapé inclinable, canapé de cinéma maison, canapé inclinable de luxe, mobilier de salon moderne, canapé avec porte-gobelet, boutique Forma Lux, sièges moelleux"
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 1599
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Canapé inclinable Lisbonne
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: "Détendez-vous avec style avec le canapé inclinable Lisbonne de Forma Lux. Doté de fauteuils inclinables intégrés, de coussins moelleux et de porte-gobelets intégrés, il apporte un confort moderne aux cinémas maison et aux espaces de vie confortables."
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="b1c3494b-19a7-4f2f-b753-ee28614613e3" alt="lisbon-recliner-sofa-1" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d54f68ad-17e6-4f96-8e0c-c2e6d248a222"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Canapé inclinable Lisbonne
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T104121Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: "<p>Le canapé inclinable Lisbonne combine confort et commodité. Avec des fauteuils inclinables et des porte-gobelets intégrés, il est parfait pour les cinémas maison et les soirées confortables.</p>"
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: "Conçu pour un confort indulgent, le canapé inclinable Lisbonne transforme la détente en une expérience de sophistication tranquille. Ses fauteuils inclinables et porte-gobelets intégrés allient fonction et forme, tandis que le rembourrage moelleux et une silhouette raffinée reflètent l'engagement de Forma Lux envers l'artisanat. Disponible en noir et blanc, et en tailles grande ou extra grande, Lisbonne est idéal pour les cinémas maison ou les soirées confortables — une déclaration de luxe moderne conçue pour vous accompagner."

@@ -1,0 +1,237 @@
+﻿---
+ID: "219bb4a9-3960-4f16-b536-9cd946f0f340"
+Parent: "4e869961-efef-4b47-bb69-170a251d689b"
+Template: "98e60957-0783-4a9a-85cc-77dad30e9711"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Search"
+SharedFields:
+- ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
+  Hint: NavigationFilter
+  Value: |
+    {E0A2A027-0932-4878-A7D6-0416D5263EFB}
+    {61BD64D6-809E-40AE-9297-2724A19329B3}
+    {D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}
+    {500AE4C0-FA7B-463F-8149-EFFF7F044101}
+    {A0E7FF57-6994-4B09-AA21-104239628D5A}
+- ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/bec3d8cb26154982b6cad368820d21f6?v=53371e4b" dam-id="Oa_b1yC2RG6fhK7gFMdmyQ" width="861" height="675" alt="ShowroomLayout.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66627/thumbnail" />
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 850
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{606684A8-01EF-46A3-8B35-C8C13D6045D6}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "03200fde-ff5b-486c-ab4a-7f86a8877e17"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{A697D0A1-96FE-4CBE-84F7-F954F0A69925}"
+          s:ds=""
+          s:id="{60C9D163-2898-49E3-A3B4-60F8E743062A}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
+      Hint: metadataKeywords
+      Value: Search
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251217T115000Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: Search | Forma Lux Furniture and Home Design
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Search
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: Search
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: Explore the Forma Lux collection and find the perfect piece for your home. Search our range of handcrafted, sustainable furniture designed to bring warmth, balance, and timeless beauty to every space.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c0c8e96d-6d1b-40e5-a4ea-5cace655e4ca"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: The Forma Lux Search page helps you discover our curated selection of modern, sustainable furniture. Whether you’re looking for a modular sofa, an accent chair, or a refined table design, every piece reflects Forma Lux’s philosophy of intentional living and enduring craftsmanship.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T131521Z
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
+      Hint: metadataKeywords
+      Value: Buscar
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251217T115000Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: Buscar | Forma Lux Muebles y Diseño de Hogar
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Buscar
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: Buscar
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: Explora la colección de Forma Lux y encuentra la pieza perfecta para tu hogar. Busca en nuestra gama de muebles artesanales y sostenibles diseñados para aportar calidez, equilibrio y belleza atemporal a cada espacio.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "54be96c4-6c04-495f-b506-e326d3e2df86"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: La página de búsqueda de Forma Lux te ayuda a descubrir nuestra selección curada de muebles modernos y sostenibles. Ya sea que busques un sofá modular, una silla de acento o un diseño de mesa refinado, cada pieza refleja la filosofía de Forma Lux de vida intencional y artesanía perdurable.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251219T104259Z
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
+      Hint: metadataKeywords
+      Value: Recherche
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251217T115000Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: Recherche | Forma Lux Mobilier et Design d'intérieur
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Recherche
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: Recherche
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: Explorez la collection Forma Lux et trouvez la pièce parfaite pour votre maison. Parcourez notre gamme de meubles artisanaux et durables conçus pour apporter chaleur, équilibre et beauté intemporelle à chaque espace.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5ea7ee70-cb39-4686-b6fa-4555c2e1014c"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: La page de recherche Forma Lux vous aide à découvrir notre sélection de meubles modernes et durables. Que vous recherchiez un canapé modulaire, un fauteuil d'appoint ou un design de table raffiné, chaque pièce reflète la philosophie de Forma Lux de vivre intentionnellement et de manière durable.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T144208Z
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
+      Hint: metadataKeywords
+      Value: Chercher
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251217T115000Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: Chercher | Forma Lux Mobilier et Design d'intérieur
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Chercher
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: Chercher
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: Explorez la collection Forma Lux et trouvez la pièce parfaite pour votre maison. Cherchez dans notre gamme de meubles artisanaux et durables conçus pour apporter chaleur, équilibre et beauté intemporelle à chaque espace.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0beed000-2e25-43a8-8efe-ff3a6b524d94"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: La page de recherche Forma Lux vous aide à découvrir notre sélection de meubles modernes et durables. Que vous recherchiez un canapé modulaire, un fauteuil d'appoint ou un design de table raffiné, chaque pièce reflète la philosophie de Forma Lux de vie intentionnelle et d'artisanat durable.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T144217Z

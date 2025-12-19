@@ -163,7 +163,7 @@ Languages:
     - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
       Hint: ogImage
       Value: |
-        <image mediaid="34259610-0d61-4e86-8f34-5e5c1a3ff065" />
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/31a316d620ad4889be07b6fcd53b0a01?v=cf5479b9" dam-id="vt1PtpUmQSaBu8nyn2lncA" width="4024" height="3270" alt="Asgaard sofa 3.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66860/thumbnail" />
     - ID: "67259fe9-9fcd-46f4-b330-5865618a3b8c"
       Hint: Width
       Value: 265.32 cm
@@ -172,7 +172,7 @@ Languages:
       Value: 167 cm
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "819faf21-4d39-4d8a-9ede-5891590c75e7"
+      Value: "639b042b-4d40-4305-be35-4ea345ccf60d"
     - ID: "acbcb630-e684-43ae-bb85-9fc89052c8a9"
       Hint: Weight
       Value: 45 KG
@@ -191,7 +191,7 @@ Languages:
       Value: Asgaard sofa
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251210T080625Z
+      Value: 20251217T152248Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: |
@@ -200,6 +200,13 @@ Languages:
       Hint: pageSummary
       Value: A statement in both comfort and craft, the Asgaard Sofa represents the essence of Forma Lux living. Designed with modular flexibility and sculpted precision, Asgaard’s clean geometry is softened by rich upholstery and a balanced silhouette. Available in Black, Gold, and Indigo, and in Extra Small, Small, and Medium sizes, it adapts effortlessly to urban lofts or spacious homes. Each detail—from the tailored stitching to the sustainable frame—reflects Forma Lux’s dedication to timeless design and modern comfort.
 - Language: "es-ES"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "4ce64007-2dd6-4db5-a1e5-bfaa419d52d3"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Sofá Asgaard
   Versions:
   - Version: 1
     Fields:
@@ -236,6 +243,220 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20250926T105448Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{4A85CC5E-0551-4F8A-BE75-902E0A8BF0CE}"
+              s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;HideAccentLine=0&amp;Autoplay=0&amp;DynamicPlaceholderId=1&amp;Loop=0" />
+            <r
+              uid="{D79A2166-FD58-4371-83F5-1D7F04B77CD9}"
+              s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;HideAccentLine=0&amp;Autoplay=0&amp;DynamicPlaceholderId=2&amp;Loop=0" />
+            <r
+              uid="{1F2320BE-FCCE-487C-9618-9EA0A4D32976}"
+              s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;HideAccentLine=0&amp;Autoplay=0&amp;DynamicPlaceholderId=3&amp;Loop=0" />
+            <r
+              uid="{B7C1703E-E3DE-4D96-8195-3E08830A8360}">
+              <p:d />
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250923T122113Z
+    - ID: "29f7d409-6f68-447d-8d7a-ce16df1761f3"
+      Hint: Height
+      Value: 76 cm
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Sofá Asgaard | Forma Lux – Sofá modular moderno con artesanía atemporal
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Estableciendo el estándar como uno de los altavoces más potentes de su clase, el Kilburn es un héroe compacto y valiente con un audio bien equilibrado que presume de un rango medio claro y agudos extendidos para un sonido.
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Sofá Asgaard, sofá modular, sofá de lujo, muebles modernos para sala de estar, tapicería hecha a mano, tienda Forma Lux, diseño de sofá contemporáneo, muebles sostenibles
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 2499.56
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Sofá Asgaard
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: El Sofá Asgaard de Forma Lux combina un diseño modular moderno con artesanía artesanal. Líneas elegantes, materiales de primera calidad y una comodidad profunda lo convierten en el centro de cualquier espacio de vida contemporáneo.
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/31a316d620ad4889be07b6fcd53b0a01?v=cf5479b9" dam-id="vt1PtpUmQSaBu8nyn2lncA" width="4024" height="3270" alt="Asgaard sofa 3.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66860/thumbnail" />
+    - ID: "67259fe9-9fcd-46f4-b330-5865618a3b8c"
+      Hint: Width
+      Value: 265,32 cm
+    - ID: "7d125aa9-e5f4-4163-a68c-31686d582866"
+      Hint: Depth
+      Value: 167 cm
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2a79f3b7-1a0b-46c9-b221-eb84f80f22b3"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "acbcb630-e684-43ae-bb85-9fc89052c8a9"
+      Hint: Weight
+      Value: 45 KG
+    - ID: "b5f6bc28-f8db-489f-b95e-43638b3d3ddc"
+      Hint: LegHeight
+      Value: 5,46 cm
+    - ID: "b98a779c-b7a3-4617-96a8-85f21897d0d0"
+      Hint: SeatHeight
+      Value: 41,52 cm
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Sofá Asgaard
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251219T104435Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: |
+        <div class="ck-content"><p>Encarnando el espíritu crudo y rebelde del rock 'n' roll, el altavoz estéreo portátil activo Kilburn toma el aspecto y sonido inconfundibles de Marshall, desenchufa los cables y lleva el espectáculo a la carretera.</p><p>Con un peso inferior a 7 libras, el Kilburn es una pieza ligera de ingeniería de estilo vintage. Estableciendo el estándar como uno de los altavoces más potentes de su clase, el Kilburn es un héroe compacto y valiente con un audio bien equilibrado que presume de un rango medio claro y agudos extendidos para un sonido que es tanto articulado como pronunciado. Las perillas analógicas te permiten ajustar los controles a tus preferencias personales mientras que la correa de cuero influenciada por la guitarra permite un viaje fácil y con estilo.</p></div>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: Una declaración tanto de comodidad como de artesanía, el Sofá Asgaard representa la esencia de la vida de Forma Lux. Diseñado con flexibilidad modular y precisión esculpida, la geometría limpia de Asgaard se suaviza con una rica tapicería y una silueta equilibrada. Disponible en Negro, Dorado e Índigo, y en tamaños Extra Pequeño, Pequeño y Mediano, se adapta sin esfuerzo a lofts urbanos o casas espaciosas. Cada detalle, desde las costuras hechas a medida hasta el marco sostenible, refleja la dedicación de Forma Lux al diseño atemporal y la comodidad moderna.
+- Language: "fr-CA"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "ea93b9e9-3250-4306-8010-706857cc09e7"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Sofa Asgaard
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{4A85CC5E-0551-4F8A-BE75-902E0A8BF0CE}"
+              s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;HideAccentLine=0&amp;Autoplay=0&amp;DynamicPlaceholderId=1&amp;Loop=0" />
+            <r
+              uid="{D79A2166-FD58-4371-83F5-1D7F04B77CD9}"
+              s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;HideAccentLine=0&amp;Autoplay=0&amp;DynamicPlaceholderId=2&amp;Loop=0" />
+            <r
+              uid="{1F2320BE-FCCE-487C-9618-9EA0A4D32976}"
+              s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;HideAccentLine=0&amp;Autoplay=0&amp;DynamicPlaceholderId=3&amp;Loop=0" />
+            <r
+              uid="{B7C1703E-E3DE-4D96-8195-3E08830A8360}">
+              <p:d />
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250923T122113Z
+    - ID: "29f7d409-6f68-447d-8d7a-ce16df1761f3"
+      Hint: Height
+      Value: 76 cm
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Sofa Asgaard | Forma Lux – Sofa modulaire moderne avec un artisanat intemporel
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: "Établissant la norme en tant que l'un des haut-parleurs les plus puissants de sa catégorie, le Kilburn est un héros compact et courageux avec un son bien équilibré qui offre des médiums clairs et des aigus étendus pour un son."
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Sofa Asgaard, sofa modulaire, canapé de luxe, mobilier de salon moderne, rembourrage fait main, boutique Forma Lux, design de sofa contemporain, mobilier durable
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 2499.56
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Sofa Asgaard
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: Le sofa Asgaard de Forma Lux combine un design modulaire moderne avec un artisanat d'artisan. Des lignes élégantes, des matériaux de qualité supérieure et un confort profond en font le point central de tout espace de vie contemporain.
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="34259610-0d61-4e86-8f34-5e5c1a3ff065" alt="asgaard-sofa-1" />
+    - ID: "67259fe9-9fcd-46f4-b330-5865618a3b8c"
+      Hint: Width
+      Value: 265,32 cm
+    - ID: "7d125aa9-e5f4-4163-a68c-31686d582866"
+      Hint: Depth
+      Value: 167 cm
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b08b7683-aaec-4dad-ac1b-9e4193fa3bab"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "acbcb630-e684-43ae-bb85-9fc89052c8a9"
+      Hint: Weight
+      Value: 45 kg
+    - ID: "b5f6bc28-f8db-489f-b95e-43638b3d3ddc"
+      Hint: LegHeight
+      Value: 5,46 cm
+    - ID: "b98a779c-b7a3-4617-96a8-85f21897d0d0"
+      Hint: SeatHeight
+      Value: 41,52 cm
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Sofa Asgaard
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T110241Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: |
+        <div class="ck-content"><p>Incarner l'esprit brut et indomptable du rock 'n' roll, le haut-parleur stéréo actif portable Kilburn reprend le look et le son inimitables de Marshall, débranche les cordons et emmène le spectacle sur la route.</p><p>Pesant moins de 7 livres, le Kilburn est une pièce d'ingénierie légère au style vintage. Établissant la norme en tant que l'un des haut-parleurs les plus puissants de sa catégorie, le Kilburn est un héros compact et courageux avec un son bien équilibré qui offre des médiums clairs et des aigus étendus pour un son à la fois articulé et prononcé. Les boutons analogiques vous permettent d'affiner les réglages selon vos préférences personnelles tandis que la sangle en cuir inspirée de la guitare permet un voyage facile et stylé.</p></div>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: Une déclaration de confort et d'artisanat, le sofa Asgaard représente l'essence de la vie Forma Lux. Conçu avec une flexibilité modulaire et une précision sculptée, la géométrie épurée d'Asgaard est adoucie par un riche rembourrage et une silhouette équilibrée. Disponible en noir, or et indigo, et en tailles très petite, petite et moyenne, il s'adapte sans effort aux lofts urbains ou aux maisons spacieuses. Chaque détail, de la couture sur mesure au cadre durable, reflète le dévouement de Forma Lux à un design intemporel et un confort moderne.
 - Language: "fr-FR"
   Versions:
   - Version: 1
