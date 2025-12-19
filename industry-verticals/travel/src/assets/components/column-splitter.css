@@ -5,3 +5,9 @@
 .component.container .column-splitter.row {
   @apply px-0;
 }
+
+.column-splitter.vertical-align-center {
+  .row {
+    @apply h-full items-center;
+  }
+}

@@ -107,4 +107,4 @@ export const getNavigationFields = (options?: { withRoot?: boolean; flat?: boole
   return arrayToObject(pages);
 };
 
-export const logoParam = `<image mediaid="8cc2a449-e23b-488c-bb23-3d7c7a07f6e7" mediaurl="${createPlaceholderImageSrc(true)}" />`;
+export const logoParam = `<image mediaid="8cc2a449-e23b-488c-bb23-3d7c7a07f6e7" mediaurl="${createPlaceholderImageSrc('logo')}" />`;
