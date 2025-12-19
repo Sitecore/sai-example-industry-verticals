@@ -80,6 +80,19 @@ const SocialFollowShareRendering = {
   } as unknown as ComponentFields,
 };
 
+const PromoRendering = {
+  ...CommonRendering,
+  componentName: 'Promo',
+  params: CommonParams,
+  fields: {
+    PromoImageOne: createImageField('placeholder'),
+    PromoTitle: createTextField('We provide you the best experience'),
+    PromoDescription: createRichTextField(1, 'paragraphs'),
+    PromoSubTitle: createTextField('Materials'),
+    PromoMoreInfo: createLinkField('Read More'),
+  } as unknown as ComponentFields,
+};
+
 export const Default: Story = {
   render: () => {
     return (
@@ -89,10 +102,10 @@ export const Default: Story = {
           ...baseRendering,
           placeholders: {
             [`article-details-${baseParams.DynamicPlaceholderId}`]: [SocialFollowShareRendering],
-            [`article-details-author-${baseParams.DynamicPlaceholderId}`]: [SocialFollowShareRendering],
-            [`article-details-full-width-${baseParams.DynamicPlaceholderId}`]: [
-              renderStorybookPlaceholder(),
+            [`article-details-author-${baseParams.DynamicPlaceholderId}`]: [
+              SocialFollowShareRendering,
             ],
+            [`article-details-full-width-${baseParams.DynamicPlaceholderId}`]: [PromoRendering],
           },
         }}
         fields={baseFields}
