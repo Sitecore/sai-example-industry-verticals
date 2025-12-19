@@ -38,18 +38,10 @@
   }
 }
 
-.navigation-item {
-  @apply text-foreground hover:text-accent transition-colors hover:no-underline! lg:whitespace-nowrap;
+.btn-primary {
+  @apply bg-foreground text-background hover:bg-foreground/90 block w-full rounded-lg px-6 py-3 text-center transition-all duration-300;
 }
 
-.navigation-item-primary {
-  @apply font-medium in-[.drawer-content]:text-xl;
-}
-
-.header-block {
-  @apply flex items-center justify-items-start gap-x-6 *:w-auto *:basis-auto;
-}
-
-.drawer-heading {
-  @apply mt-7 mb-18 text-2xl;
+.btn-accent {
+  @apply bg-accent group-[.container-dark-background]:bg-background group-[.container-dark-background]:!text-foreground text-background h-9 rounded-md px-4 text-sm font-semibold hover:opacity-90 focus-visible:ring-2 focus-visible:outline-none md:right-3 md:h-10 md:px-5;
 }

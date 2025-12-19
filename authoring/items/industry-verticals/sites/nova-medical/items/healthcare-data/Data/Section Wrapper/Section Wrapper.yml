@@ -1,0 +1,37 @@
+﻿---
+ID: "cc83680e-1357-44c8-bc6a-aeddb055b4da"
+Parent: "05a02f88-a1b2-4404-b21f-7f11e361b441"
+Template: "464a7993-10a8-4e15-a56e-3df58d050aa1"
+Path: "/sitecore/content/industry-verticals/nova-medical/Data/Section Wrapper/Section Wrapper"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17316dee-ddb8-43ec-9d7e-596c4f7662ad"
+      Hint: Title
+      Value: Our Special Doctors
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251216T103238Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "419855f4-f781-4913-a145-6363c27d07cd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251216T103346Z
+    - ID: "e8fcda31-4dd9-48ff-b847-1b7a674b1951"
+      Hint: Description
+      Value: "Our specialists come from diverse fields of medicine, combining years of experience with cutting-edge practices to provide personalized care. Whether it’s preventive care, diagnostics, or advanced treatments, our doctors are committed to guiding you on your journey to optimal health."

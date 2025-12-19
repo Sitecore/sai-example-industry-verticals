@@ -7,7 +7,7 @@ SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
   Value: |
-    <image mediaid="de283ceb-e2c1-467f-ac9f-b91057dfed5e" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/76479-HomepagePromoCTAs-1100x740?v=40b1ba5b" dam-id="xy8twTkNSUKZS2OVNyKHCg" width="1100" height="740" alt="the-rise-of-modular-article.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76479/thumbnail" />
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
@@ -18,7 +18,7 @@ SharedFields:
     <image mediaid="{08957D32-562E-4480-B010-746DA4F48F6A}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "da7eb534-28ba-4ec2-8bbe-a7ca1bfc1c7a"
+  Value: "3108056f-1b4f-4232-9ae4-9ee286a4bb8b"
 Languages:
 - Language: en
   Fields:
@@ -63,7 +63,7 @@ Languages:
       Value: Discover the power of modular furniture. From sectionals to storage systems, explore adaptable designs that evolve with your modern lifestyle.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "eb7574bc-16d3-445a-8584-707cb879334c"
+      Value: "f8b8a5ad-8785-46f7-821d-8738ae71d2aa"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "The Rise of Modular: Adaptable Furniture for Modern Living"
@@ -73,10 +73,136 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251210T091914Z
+      Value: 20251217T154106Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: "The Rise of Modular: Adaptable Furniture for Modern Living"
     - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
       Hint: metadataKeywords
       Value: modular furniture, adaptable furniture, modern living, modular sectionals, modular sofas, modular storage systems, flexible home design, reconfigurable furniture, customizable furniture, contemporary furniture design, modular interior design, scalable furniture, space flexibility, evolving home design, modern home solutions, minimalist modular design, versatile furniture ideas, sustainable furniture trends, furniture for modern lifestyles
+- Language: "fr-CA"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "48385d94-6aff-406d-939d-8ffcbeeb5b33"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "L'essor du modulaire : Meubles adaptables pour la vie moderne"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: Découvrez le pouvoir des meubles modulaires. Des sectionnels aux systèmes de rangement, explorez des designs adaptables qui évoluent avec votre style de vie moderne.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T082030Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: L'essor du modulaire
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>Les maisons modernes exigent de la flexibilité. Les meubles modulaires vous permettent de vous adapter – déplacer, reconfigurer, ajouter des pièces à mesure que vous grandissez ou changez. Un sectionnel modulaire peut se transformer d'un canapé trois places confortable à un salon spacieux ; les unités de rangement peuvent évoluer avec vos besoins. Lors de la sélection, faites attention aux connecteurs, à la compatibilité et aux options de finition pour que vos pièces restent cohérentes. Modulaire ne signifie pas générique—recherchez des éléments bien conçus avec des lignes épurées, des proportions réfléchies et des matériaux de haute qualité. En fin de compte, les systèmes modulaires vous offrent la liberté sans compromis : un style qui vit avec vous, pas autour de vous.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Découvrez comment les canapés modulaires, les sectionnels et les systèmes de rangement s'adaptent à votre style de vie en constante évolution.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: Découvrez le pouvoir des meubles modulaires. Des sectionnels aux systèmes de rangement, explorez des designs adaptables qui évoluent avec votre style de vie moderne.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a745044f-f271-425f-9d0b-20dd66bdd9fe"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "L'essor du modulaire : Meubles adaptables pour la vie moderne"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T110139Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: "L'essor du modulaire : Meubles adaptables pour la vie moderne"
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: meubles modulaires, meubles adaptables, vie moderne, sectionnels modulaires, canapés modulaires, systèmes de rangement modulaires, design de maison flexible, meubles reconfigurables, meubles personnalisables, design de meubles contemporain, design intérieur modulaire, meubles évolutifs, flexibilité de l'espace, design de maison évolutif, solutions de maison moderne, design modulaire minimaliste, idées de meubles polyvalents, tendances de meubles durables, meubles pour modes de vie modernes
+- Language: "fr-FR"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "7f68551e-cdae-4969-a59f-a7132e03526b"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "L'essor du modulaire : Meubles adaptables pour une vie moderne"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: Découvrez le pouvoir des meubles modulaires. Des sectionnels aux systèmes de rangement, explorez des designs adaptables qui évoluent avec votre style de vie moderne.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T082030Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: L'essor du modulaire
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>Les maisons modernes exigent de la flexibilité. Les meubles modulaires vous permettent de vous adapter – déplacer, reconfigurer, ajouter des pièces au fur et à mesure de votre croissance ou de vos changements. Un sectionnel modulaire peut se transformer d'un canapé trois places confortable en un salon spacieux ; les unités de rangement peuvent évoluer avec vos besoins. Lors de la sélection, faites attention aux connecteurs, à la compatibilité et aux options de finition pour que vos pièces restent cohérentes. Modulaire ne signifie pas générique—recherchez des éléments bien conçus avec des lignes épurées, des proportions réfléchies et des matériaux de haute qualité. En fin de compte, les systèmes modulaires vous offrent la liberté sans compromis : un style qui vit avec vous, pas autour de vous.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Découvrez comment les canapés modulaires, les sectionnels et les systèmes de rangement s'adaptent à votre style de vie en constante évolution.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: Découvrez le pouvoir des meubles modulaires. Des sectionnels aux systèmes de rangement, explorez des designs adaptables qui évoluent avec votre style de vie moderne.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3298bc0c-0b54-49d3-8acc-6323e4e835c3"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "L'essor du modulaire : Meubles adaptables pour une vie moderne"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T104025Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: "L'essor du modulaire : Meubles adaptables pour une vie moderne"
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: meubles modulaires, meubles adaptables, vie moderne, sectionnels modulaires, canapés modulaires, systèmes de rangement modulaires, design de maison flexible, meubles reconfigurables, meubles personnalisables, design de meubles contemporain, design d'intérieur modulaire, meubles évolutifs, flexibilité de l'espace, design de maison évolutif, solutions modernes pour la maison, design modulaire minimaliste, idées de meubles polyvalents, tendances de meubles durables, meubles pour modes de vie modernes

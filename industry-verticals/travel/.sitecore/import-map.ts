@@ -7,16 +7,18 @@ import {
 } from '@sitecore-content-sdk/nextjs/codegen';
 // end of built-in imports
 
-import { Link, Text, useSitecore, Placeholder, RichText, NextImage, CdpHelper, withDatasourceCheck } from '@sitecore-content-sdk/nextjs';
+import { Link, Text, useSitecore, RichText, Placeholder, NextImage, CdpHelper, withDatasourceCheck } from '@sitecore-content-sdk/nextjs';
 import { useState, useRef, useEffect } from 'react';
 import React from 'react';
-import { isParamEnabled } from '@/helpers/isParamEnabled';
+import { useI18n } from 'next-localization';
+import { LayoutStyles, PromoFlags } from '@/types/styleFlags';
 import { ArrowLeft, X, Menu } from 'lucide-react';
 import { useClickAway } from '@/hooks/useClickAway';
 import { useStopResponsiveTransition } from '@/hooks/useStopResponsiveTransition';
 import { extractMediaUrl } from '@/helpers/extractMediaUrl';
 import { getLinkContent, getLinkField, isNavLevel, isNavRootItem, prepareFields } from '@/helpers/navHelpers';
 import clsx from 'clsx';
+import { isParamEnabled } from '@/helpers/isParamEnabled';
 import { Drawer, DrawerTrigger, DrawerContent, DrawerClose } from '@/shadcn/components/ui/drawer';
 import Head from 'next/head';
 import client from 'lib/sitecore-client';
@@ -33,8 +35,8 @@ const importMap = [
       { name: 'Link', value: Link },
       { name: 'Text', value: Text },
       { name: 'useSitecore', value: useSitecore },
-      { name: 'Placeholder', value: Placeholder },
       { name: 'RichText', value: RichText },
+      { name: 'Placeholder', value: Placeholder },
       { name: 'NextImage', value: NextImage },
       { name: 'CdpHelper', value: CdpHelper },
       { name: 'withDatasourceCheck', value: withDatasourceCheck },
@@ -50,9 +52,16 @@ const importMap = [
     ]
   },
   {
-    module: '@/helpers/isParamEnabled',
+    module: 'next-localization',
     exports: [
-      { name: 'isParamEnabled', value: isParamEnabled },
+      { name: 'useI18n', value: useI18n },
+    ]
+  },
+  {
+    module: '@/types/styleFlags',
+    exports: [
+      { name: 'LayoutStyles', value: LayoutStyles },
+      { name: 'PromoFlags', value: PromoFlags },
     ]
   },
   {
@@ -95,6 +104,12 @@ const importMap = [
     module: 'clsx',
     exports: [
       { name: 'default', value: clsx },
+    ]
+  },
+  {
+    module: '@/helpers/isParamEnabled',
+    exports: [
+      { name: 'isParamEnabled', value: isParamEnabled },
     ]
   },
   {
