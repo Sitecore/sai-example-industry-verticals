@@ -13,8 +13,8 @@ import SearchFacets from './SearchFacets';
 import ResultsPerPage from './ResultsPerPage';
 import QueryResultsSummary from './QueryResultsSummary';
 import CardViewSwitcher from './CardViewSwitcher';
-import { useSearchTracking, type Events } from '../../hooks/useSearchTracking';
 import { HIGHLIGHTED_ARTICLES_RFKID, SEARCH_WIDGET_ID } from '@/constants/search';
+import { useSearchTracking, type Events } from '@/hooks/useSearchTracking';
 
 const SEARCH_CONFIG = {
   source: process.env.NEXT_PUBLIC_SEARCH_SOURCE as string,

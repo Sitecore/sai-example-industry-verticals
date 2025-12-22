@@ -7,7 +7,7 @@ import { Popover, PopoverContent, PopoverTrigger } from '@/shadcn/components/ui/
 import { PopoverClose } from '@radix-ui/react-popover';
 import { MiniCart } from '../non-sitecore/MiniCart';
 import { LinkField } from '@sitecore-content-sdk/nextjs';
-import PreviewSearch from '../search/PreviewSearch';
+import PreviewSearch from '../non-sitecore/search/PreviewSearch';
 
 export type NavigationIconsProps = ComponentProps & {
   fields: {

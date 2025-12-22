@@ -1,8 +1,8 @@
 import { JSX } from 'react';
 import { FilterEqual, WidgetDataType, useSearchResults, widget } from '@sitecore-search/react';
 import ArticleCard from './ArticleCard';
-import { useSearchTracking, type Events } from '../../hooks/useSearchTracking';
 import { HOMEHIGHLIGHTED_WIDGET_ID } from '@/constants/search';
+import { useSearchTracking, type Events } from '@/hooks/useSearchTracking';
 
 const SEARCH_CONFIG = {
   source: process.env.NEXT_PUBLIC_SEARCH_SOURCE as string,

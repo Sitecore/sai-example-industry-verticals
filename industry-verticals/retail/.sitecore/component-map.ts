@@ -11,21 +11,7 @@ import * as SocialFollow from 'src/components/social-follow/SocialFollow';
 import * as SocialFeed from 'src/components/social-feed/SocialFeed';
 import * as SelectedProducts from 'src/components/selected-products/SelectedProducts';
 import * as SectionWrapper from 'src/components/section-wrapper/SectionWrapper';
-import * as SuggestionBlock from 'src/components/search/SuggestionBlock';
-import * as Spinner from 'src/components/search/Spinner';
-import * as SortOrder from 'src/components/search/SortOrder';
-import * as SearchResultsComponent from 'src/components/search/SearchResultsComponent';
-import * as SearchResults from 'src/components/search/SearchResults';
-import * as SearchPagination from 'src/components/search/SearchPagination';
-import * as SearchFacets from 'src/components/search/SearchFacets';
-import * as ResultsPerPage from 'src/components/search/ResultsPerPage';
-import * as QuestionsAnswers from 'src/components/search/QuestionsAnswers';
-import * as QueryResultsSummary from 'src/components/search/QueryResultsSummary';
-import * as PreviewSearch from 'src/components/search/PreviewSearch';
-import * as HomeHighlighted from 'src/components/search/HomeHighlighted';
-import * as CardViewSwitcher from 'src/components/search/CardViewSwitcher';
-import * as ArticleHorizontalCard from 'src/components/search/ArticleHorizontalCard';
-import * as ArticleCard from 'src/components/search/ArticleCard';
+import * as SearchResults from 'src/components/search-results/SearchResults';
 import * as RowSplitter from 'src/components/row-splitter/RowSplitter';
 import * as RichText from 'src/components/rich-text/RichText';
 import * as Reviews from 'src/components/reviews/Reviews';
@@ -35,6 +21,20 @@ import * as ProductDetails from 'src/components/product-details/ProductDetails';
 import * as PartialDesignDynamicPlaceholder from 'src/components/partial-design-dynamic-placeholder/PartialDesignDynamicPlaceholder';
 import * as PageContent from 'src/components/page-content/PageContent';
 import * as Offers from 'src/components/offers/Offers';
+import * as SuggestionBlock from 'src/components/non-sitecore/search/SuggestionBlock';
+import * as Spinner from 'src/components/non-sitecore/search/Spinner';
+import * as SortOrder from 'src/components/non-sitecore/search/SortOrder';
+import * as SearchResultsComponent from 'src/components/non-sitecore/search/SearchResultsComponent';
+import * as SearchPagination from 'src/components/non-sitecore/search/SearchPagination';
+import * as SearchFacets from 'src/components/non-sitecore/search/SearchFacets';
+import * as ResultsPerPage from 'src/components/non-sitecore/search/ResultsPerPage';
+import * as QuestionsAnswers from 'src/components/non-sitecore/search/QuestionsAnswers';
+import * as QueryResultsSummary from 'src/components/non-sitecore/search/QueryResultsSummary';
+import * as PreviewSearch from 'src/components/non-sitecore/search/PreviewSearch';
+import * as HomeHighlighted from 'src/components/non-sitecore/search/HomeHighlighted';
+import * as CardViewSwitcher from 'src/components/non-sitecore/search/CardViewSwitcher';
+import * as ArticleHorizontalCard from 'src/components/non-sitecore/search/ArticleHorizontalCard';
+import * as ArticleCard from 'src/components/non-sitecore/search/ArticleCard';
 import * as NavigationIcons from 'src/components/navigation-icons/NavigationIcons';
 import * as Navigation from 'src/components/navigation/Navigation';
 import * as LinkList from 'src/components/link-list/LinkList';
@@ -65,11 +65,20 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['SocialFeed', { ...SocialFeed }],
   ['SelectedProducts', { ...SelectedProducts }],
   ['SectionWrapper', { ...SectionWrapper }],
+  ['SearchResults', { ...SearchResults }],
+  ['RowSplitter', { ...RowSplitter }],
+  ['RichText', { ...RichText }],
+  ['Reviews', { ...Reviews }],
+  ['Promo', { ...Promo }],
+  ['ProductListing', { ...ProductListing }],
+  ['ProductDetails', { ...ProductDetails }],
+  ['PartialDesignDynamicPlaceholder', { ...PartialDesignDynamicPlaceholder }],
+  ['PageContent', { ...PageContent }],
+  ['Offers', { ...Offers }],
   ['SuggestionBlock', { ...SuggestionBlock }],
   ['Spinner', { ...Spinner }],
   ['SortOrder', { ...SortOrder }],
   ['SearchResultsComponent', { ...SearchResultsComponent }],
-  ['SearchResults', { ...SearchResults }],
   ['SearchPagination', { ...SearchPagination }],
   ['SearchFacets', { ...SearchFacets }],
   ['ResultsPerPage', { ...ResultsPerPage }],
@@ -80,15 +89,6 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['CardViewSwitcher', { ...CardViewSwitcher }],
   ['ArticleHorizontalCard', { ...ArticleHorizontalCard }],
   ['ArticleCard', { ...ArticleCard }],
-  ['RowSplitter', { ...RowSplitter }],
-  ['RichText', { ...RichText }],
-  ['Reviews', { ...Reviews }],
-  ['Promo', { ...Promo }],
-  ['ProductListing', { ...ProductListing }],
-  ['ProductDetails', { ...ProductDetails }],
-  ['PartialDesignDynamicPlaceholder', { ...PartialDesignDynamicPlaceholder }],
-  ['PageContent', { ...PageContent }],
-  ['Offers', { ...Offers }],
   ['NavigationIcons', { ...NavigationIcons }],
   ['Navigation', { ...Navigation, componentType: 'client' }],
   ['LinkList', { ...LinkList }],

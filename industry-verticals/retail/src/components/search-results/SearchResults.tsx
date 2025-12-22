@@ -1,9 +1,8 @@
 import React, { JSX } from 'react';
 import { ComponentProps } from 'lib/component-props';
-import SearchResultsWidget from './SearchResultsComponent';
 import { useSearchParams } from 'next/navigation';
-import QuestionsAnswers from './QuestionsAnswers';
-
+import QuestionsAnswers from '../non-sitecore/search/QuestionsAnswers';
+import SearchResultsWidget from '../non-sitecore/search/SearchResultsComponent';
 export const dynamic = 'force-dynamic';
 export const fetchCache = 'force-no-store';
 

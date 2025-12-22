@@ -17,11 +17,11 @@ function App({ Component, pageProps }: AppProps<SitecorePageProps>): JSX.Element
   const { dictionary, ...rest } = pageProps;
   const lang = pageProps.page?.locale || scConfig.defaultLanguage;
 
-  PageController.getContext().setLocaleLanguage(lang);
+  PageController.getContext().setLocaleLanguage(lang.split('-')[0]);
   if (lang == 'en') {
     PageController.getContext().setLocaleCountry('us');
   } else {
-    PageController.getContext().setLocaleCountry(lang.split('-')[1]);
+    PageController.getContext().setLocaleCountry(lang.split('-')[1].toLocaleLowerCase());
   }
 
   return (

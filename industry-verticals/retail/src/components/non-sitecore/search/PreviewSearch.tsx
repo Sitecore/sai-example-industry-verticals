@@ -9,7 +9,7 @@ import { useRouter } from 'next/navigation';
 import Spinner from './Spinner';
 import SuggestionBlock from './SuggestionBlock';
 import { PREVIEW_WIDGET_ID } from '@/constants/search';
-import { useSearchTracking, type Events } from '../../hooks/useSearchTracking';
+import { useSearchTracking, type Events } from '@/hooks/useSearchTracking';
 
 const SEARCH_CONFIG = {
   source: process.env.NEXT_PUBLIC_SEARCH_SOURCE as string,
