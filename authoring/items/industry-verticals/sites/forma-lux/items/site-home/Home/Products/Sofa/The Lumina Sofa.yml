@@ -97,6 +97,69 @@ Languages:
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
       Value: The Lumina Sofa is the centerpiece of the Lumina Collection — an expression of balance, craftsmanship, and enduring comfort. Built on a solid hardwood frame and upholstered in soft, durable fabric, its modular design allows for flexible configurations that adapt to any living space. Every line and detail reflects Forma Lux’s belief that luxury should be intentional, sustainable, and designed to last.
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T093210Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: El Sofá Lumina | Sofá Modular Sostenible de Forma Lux
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: "La pieza emblemática de la Colección Lumina, este sofá modular encarna un diseño atemporal y una artesanía sostenible: un equilibrio refinado de forma, confort y adaptabilidad."
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Forma Lux, Colección Lumina, Sofá Lumina, sofá modular, sofá sostenible, muebles de lujo, sala de estar moderna, diseño atemporal, muebles hechos a mano, seccional modular
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 1500
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: El Sofá Lumina
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: "Experimenta El Sofá Lumina de Forma Lux: una pieza modular emblemática que redefine el confort moderno a través de un diseño atemporal y una artesanía sostenible. Hecho a mano con materiales naturales, construido para perdurar y diseñado para evolucionar con tu espacio."
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c86d3c9f3a00490f88e439451c4b11ff?v=f9d5320d" dam-id="-Xst0beLTAWkJpetsFv5XQ" width="1024" height="1024" alt="LuminaSofa-Transparent.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68722/thumbnail" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3dbe89d7-0a29-4d0f-8cd9-03f74be0dcbd"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: El Sofá Lumina
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251219T104435Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: |
+        <div class="ck-content"><p>El Sofá Lumina captura la esencia de la vida moderna: elegante, acogedor y diseñado para evolucionar con tu espacio. Fabricado con un marco de madera dura de origen responsable y una tapicería suave y duradera, aporta calidez y estructura a cualquier interior. Su diseño modular permite configuraciones infinitas, adaptándose a las necesidades cambiantes mientras mantiene una presencia escultórica y continua. Cada detalle, desde la silueta limpia hasta la carpintería precisa, refleja la creencia de Forma Lux de que el lujo reside en la simplicidad y la longevidad.</p></div>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: "El Sofá Lumina es la pieza central de la Colección Lumina: una expresión de equilibrio, artesanía y confort duradero. Construido sobre un marco de madera dura maciza y tapizado en tela suave y duradera, su diseño modular permite configuraciones flexibles que se adaptan a cualquier espacio vital. Cada línea y detalle refleja la creencia de Forma Lux de que el lujo debe ser intencional, sostenible y diseñado para durar."
 - Language: "fr-CA"
   Versions:
   - Version: 1

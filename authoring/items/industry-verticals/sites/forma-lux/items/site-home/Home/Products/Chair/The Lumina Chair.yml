@@ -92,6 +92,70 @@ Languages:
       Hint: pageSummary
       Value: |
         Introducing "The Lumina Chair" by Forma Lux, where timeless elegance meets sophisticated craftsmanship. This chair embodies the brand's ethos of shaping tranquil spaces with soul and substance, seamlessly integrating modern European design with sustainable practices. The Lumina Chair transforms any room into a serene haven, providing a refined experience that resonates with the elegance and authenticity of Forma Lux.
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T092723Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: La Silla Lumina
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Un clásico moderno, la Silla Lumina combina diseño minimalista con comodidad duradera, con un marco de roble macizo y asiento tapizado en tonos suaves y neutros.
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Silla Limina, Forma Lux, muebles de lujo, diseño moderno, artesanía europea, estilo minimalista, asientos elegantes, materiales sostenibles, elegancia atemporal, elegancia artística, vida consciente, diseño arquitectónico, espacios tranquilos, alma y sustancia, excelencia estética, Visionario Urbano, Minimalista Consciente, Ama de Casa Elevada, Coleccionista Moderno, experiencias premium, diseño silencioso, el arte de vivir bellamente
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 850
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: La Silla Lumina
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: Silla Limina, Forma Lux, muebles de lujo, diseño moderno, artesanía europea, estilo minimalista, asientos elegantes, materiales sostenibles, elegancia atemporal, elegancia artística, vida consciente, diseño arquitectónico, espacios tranquilos, alma y sustancia, excelencia estética, Visionario Urbano, Minimalista Consciente, Ama de Casa Elevada, Coleccionista Moderno, experiencias premium, diseño silencioso, el arte de vivir bellamente
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/a40cc117f6bc43b584576379e57d5352?v=0831c28d" dam-id="_6HhKmO1SFWVcvVHiNnphg" width="1024" height="1024" alt="TheLuminaChair.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68204/thumbnail" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cc98c65e-6b61-4c44-bb94-0480a5f2bae3"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: La Silla Lumina
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251219T104444Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: |
+        <div class="ck-content"><p>La Silla Lumina está diseñada como un complemento para el sofá emblemático de la colección, encarnando la misma elegancia silenciosa y construcción atemporal. Su marco de roble hecho a mano muestra la veta y el tono natural, mientras que el asiento y respaldo acolchados brindan un soporte relajado para la vida diaria. Refinada pero accesible, esta silla es igualmente adecuada para un rincón de lectura sereno o un espacio de conversación. Construida para durar, es una pieza que combina belleza, comodidad e integridad sostenible.</p></div>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: |
+        Presentamos "La Silla Lumina" de Forma Lux, donde la elegancia atemporal se encuentra con la artesanía sofisticada. Esta silla encarna el ethos de la marca de dar forma a espacios tranquilos con alma y sustancia, integrando sin esfuerzo el diseño europeo moderno con prácticas sostenibles. La Silla Lumina transforma cualquier habitación en un refugio sereno, proporcionando una experiencia refinada que resuena con la elegancia y autenticidad de Forma Lux.
 - Language: "fr-CA"
   Versions:
   - Version: 1
