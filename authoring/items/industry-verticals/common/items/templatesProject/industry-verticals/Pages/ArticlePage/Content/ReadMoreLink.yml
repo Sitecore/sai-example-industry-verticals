@@ -1,8 +1,8 @@
 ﻿---
-ID: "7867860d-70ef-4cef-b3b0-d41de36989d9"
+ID: "5e570b45-898a-4c16-90a7-ce9d51020c70"
 Parent: "c28f148f-7e3e-45d1-b2d9-d304a87c44d5"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: "/sitecore/templates/Project/industry-verticals/Pages/ArticlePage/Content/BackLink"
+Path: "/sitecore/templates/Project/industry-verticals/Pages/ArticlePage/Content/ReadMoreLink"
 SharedFields:
 - ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
   Hint: Source
@@ -12,25 +12,18 @@ SharedFields:
   Value: General Link
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 408
+  Value: 508
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "10f7c739-aba3-4aa1-9e4b-1abbec31ff2e"
+  Value: "4dccd078-4137-48fd-8656-7a840604ab45"
 Languages:
 - Language: en
-  Fields:
-  - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
-    Hint: Title
-    Value: Back Link
-  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
-    Hint: __Unversioned revision
-    Value: "d2a357f9-6ba3-40b3-9e69-17f88e005e2c"
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20251218T101152Z
+      Value: 20251222T110401Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -41,7 +34,7 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0c918f6f-3945-4805-8fae-4acfd1fb410c"
+      Value: "9d4b6000-5307-481d-af49-ec509dc2f073"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
