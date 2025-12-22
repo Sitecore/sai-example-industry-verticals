@@ -1,4 +1,10 @@
-import { Field, ImageField, LinkField, RichTextField, TextField } from '@sitecore-content-sdk/nextjs';
+import {
+  Field,
+  ImageField,
+  LinkField,
+  RichTextField,
+  TextField,
+} from '@sitecore-content-sdk/nextjs';
 import { SitecoreItem } from './common';
 
 export interface ArticleFields {

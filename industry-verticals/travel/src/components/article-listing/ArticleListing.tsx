@@ -71,7 +71,7 @@ export const Default = (props: ArticleListingProps) => {
                   <ContentSdkText field={article.fields.Category.fields.Category} />
                 </p>
               </div>
-              <div className="p-6 flex flex-col flex-1 gap-2">
+              <div className="flex flex-1 flex-col gap-2 p-6">
                 {/* content section */}
                 <div className="">
                   <div className="mb-3 flex items-center space-x-4 text-sm text-gray-500">
@@ -134,7 +134,8 @@ export const Default = (props: ArticleListingProps) => {
                 </div>
               </div>
             </div>
-          ))};
+          ))}
+          ;
         </div>
 
         {/* cta section */}
