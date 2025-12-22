@@ -5,14 +5,17 @@ import {
   Link as ContentSdkLink,
   RichTextField,
   RichText as ContentSdkRichText,
+  Image as ContentSdkImage,
   Text as ContentSdkText,
+  DateField,
 } from '@sitecore-content-sdk/nextjs';
 import { Article } from '@/types/article';
+import { newsDateFormatter } from '@/helpers/dateHelper';
 
 interface Fields {
-  CarouselTitle: Field<string>;
-  CarouselDescription: RichTextField;
-  CarouselExplore: LinkField;
+  Title: Field<string>;
+  Description: RichTextField;
+  ExploreLink: LinkField;
   Articles: Array<Article>;
 }
 
@@ -23,34 +26,84 @@ export type CarouselProps = ComponentProps & {
 export const Default = (props: CarouselProps) => {
   const id = props.params.RenderingIdentifier;
   const styles = props.params.styles || [];
+  const articles = props.fields?.Articles || [];
 
   return (
     <section className={`py-16 ${styles}`} id={id}>
-      <div className="container mx-auto px-4">
+      <div className="container px-4">
         {/* title section */}
-        <div className="mb-8">
-          <h2 className="mb-2 text-2xl font-bold text-foreground">
-            <ContentSdkText field={props.fields.CarouselTitle} />
-          </h2>
-          <p className="text-foreground-muted">
-            <ContentSdkRichText field={props.fields.CarouselDescription} />
-          </p>
+        <div className="container in-[.column-splitter]:px-0">
+          <div className="mb-12 text-center">
+            <h2 className="mb-4">
+              <ContentSdkText field={props.fields.Title} />
+            </h2>
+            <p>
+              <ContentSdkRichText field={props.fields.Description} />
+            </p>
+          </div>
         </div>
 
         {/* carousel section */}
-        <div></div>
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
+          {articles.map((article, index) => {
+            return (
+              <div className="info-card flex h-full flex-col !px-0" key={index}>
+                <div className="relative shrink-0">
+                  <p className="bg-accent absolute top-4 left-4 z-10 max-w-max rounded px-2 py-1 text-xs text-white">
+                    <ContentSdkText field={article.fields.Category.fields.Category} />
+                  </p>
+                  <ContentSdkImage
+                    field={article.fields.Image}
+                    className="h-48 w-full object-cover"
+                  />
+                </div>
+
+                <div className="flex min-h-0 flex-1 flex-col gap-4 p-6">
+                  <div className="flex flex-col gap-4">
+                    <h6 className="font-bold" role="heading" aria-level={3}>
+                      <ContentSdkText field={article.fields.Title} />
+                    </h6>
+                    <p className="text-foreground-muted">
+                      <ContentSdkRichText field={article.fields.ShortDescription} />
+                    </p>
+                  </div>
+
+                  <div className="mt-auto flex flex-col gap-4">
+                    <div className="flex items-center justify-end">
+                      <DateField
+                        tag="p"
+                        className="news-date text-foreground-muted text-xs"
+                        field={article.fields.PublishedDate}
+                        render={newsDateFormatter}
+                      />
+                    </div>
+                    <div className="flex items-center justify-between">
+                      <p className="text-foreground-muted text-xs">
+                        <ContentSdkText field={article.fields.ReadTime} />
+                      </p>
+                      <p className="text-accent font-semibold">
+                        <ContentSdkLink
+                          field={article.fields.ReadMoreLink}
+                          className="text-accent inline-flex items-center gap-2 font-semibold after:content-['→']"
+                        >
+                          <span>{article.fields.ReadMoreLink.value.text}</span>
+                        </ContentSdkLink>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
 
         {/* cta section */}
-        <div className="mt-12 text-center">
+        <div className="container mt-12 flex items-center justify-center">
           <ContentSdkLink
-            field={props.fields.CarouselExplore}
-            className="text-foreground"
-            aria-label={`link to ${props.fields.CarouselExplore?.value?.text || 'explore more'}`}
-          >
-            <button type="button" role="presentation" aria-hidden="true" className="simple-btn">
-              <ContentSdkLink field={props.fields.CarouselExplore} />
-            </button>
-          </ContentSdkLink>
+            field={props.fields.ExploreLink}
+            className="btn-outline text-foreground max-w-max"
+            aria-label={`link to ${props.fields.ExploreLink?.value?.text || 'explore more'}`}
+          />
         </div>
       </div>
     </section>

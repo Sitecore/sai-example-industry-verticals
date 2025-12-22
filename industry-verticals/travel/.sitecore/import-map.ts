@@ -7,10 +7,11 @@ import {
 } from '@sitecore-content-sdk/nextjs/codegen';
 // end of built-in imports
 
-import { Link, Text, useSitecore, RichText, Placeholder, NextImage, CdpHelper, withDatasourceCheck } from '@sitecore-content-sdk/nextjs';
+import { Link, Text, useSitecore, RichText, Image, DateField, Placeholder, NextImage, CdpHelper, withDatasourceCheck } from '@sitecore-content-sdk/nextjs';
 import { useState, useRef, useEffect } from 'react';
 import React from 'react';
 import { useI18n } from 'next-localization';
+import { newsDateFormatter } from '@/helpers/dateHelper';
 import { LayoutStyles, PromoFlags } from '@/types/styleFlags';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/shadcn/components/ui/dropdown-menu';
 import { Share2, ArrowLeft, Phone, Plane, Bed, Camera, Navigation, X, Menu, Heart, Star } from 'lucide-react';
@@ -32,7 +33,7 @@ import { DestinationSidebar } from 'src/components/non-sitecore/DestinationSideb
 import { ParentPathLink } from 'src/components/non-sitecore/ParentPathLink';
 import { DestinationLinkedContent } from 'src/components/non-sitecore/DestinationLinkedContent';
 import client from 'lib/sitecore-client';
-import Image from 'next/image';
+import Image_5d8ce56058442d94361877e28c501c951a554a6a from 'next/image';
 import * as FEAAS from '@sitecore-feaas/clientside/react';
 import nextConfig from 'next.config';
 import { pageView } from '@sitecore-cloudsdk/events/browser';
@@ -46,6 +47,8 @@ const importMap = [
       { name: 'Text', value: Text },
       { name: 'useSitecore', value: useSitecore },
       { name: 'RichText', value: RichText },
+      { name: 'Image', value: Image },
+      { name: 'DateField', value: DateField },
       { name: 'Placeholder', value: Placeholder },
       { name: 'NextImage', value: NextImage },
       { name: 'CdpHelper', value: CdpHelper },
@@ -65,6 +68,12 @@ const importMap = [
     module: 'next-localization',
     exports: [
       { name: 'useI18n', value: useI18n },
+    ]
+  },
+  {
+    module: '@/helpers/dateHelper',
+    exports: [
+      { name: 'newsDateFormatter', value: newsDateFormatter },
     ]
   },
   {
@@ -229,7 +238,7 @@ const importMap = [
   {
     module: 'next/image',
     exports: [
-      { name: 'default', value: Image },
+      { name: 'default', value: Image_5d8ce56058442d94361877e28c501c951a554a6a },
     ]
   },
   {
