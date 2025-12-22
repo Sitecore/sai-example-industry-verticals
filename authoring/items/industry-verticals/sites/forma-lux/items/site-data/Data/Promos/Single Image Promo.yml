@@ -15,10 +15,10 @@ SharedFields:
 - ID: "b441a09f-ddb2-41a8-84cc-2533686541f4"
   Hint: PromoImageOne
   Value: |
-    <image mediaid="739167c7-ee49-4543-a1de-001246c32ee2" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/9a6bf9db267d4064a703ef689b7b3d93?v=5fd517cc" dam-id="r4u8bbZ3SMqqTv3mrEKT-g" width="4000" height="3000" alt="Rectangle 1451.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/67133/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "77d180bf-9b1a-41ad-901d-d7658a76f376"
+  Value: "28773cab-1baa-4beb-85a5-f05d5dd85df2"
 Languages:
 - Language: en
   Versions:
@@ -51,14 +51,14 @@ Languages:
       Value: 
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "80c5f4f3-a41e-4355-9c43-07db9932f111"
+      Value: "de409d14-e30e-4b12-ab0b-b1bd6fa639a1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251009T140415Z
+      Value: 20251222T102806Z
     - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
       Hint: PromoTitle
       Value: We provide you  the best experience

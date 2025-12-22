@@ -13,7 +13,7 @@ SharedFields:
     {4D7CF86A-0169-44E7-A3C7-80F4556B6F2D}
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "5aaf0ac1-fa4a-4737-bf80-c41cf3838da4"
+  Value: "9b16a24b-9816-40b9-821b-7a0e147fa466"
 Languages:
 - Language: en
   Versions:
@@ -70,6 +70,9 @@ Languages:
       Value: 20250910T094441Z
   - Version: 2
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251219T104217Z
@@ -83,7 +86,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1cf19301-ace1-4ae8-9dd1-8b484fa01fb3"
+      Value: "cc45fe3e-c1dd-4a8e-9acc-f47fc45787d5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -93,7 +96,7 @@ Languages:
       Value: 20251219T104217Z
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251219T104217Z
+      Value: 20251219T141456Z
 - Language: "fr-CA"
   Versions:
   - Version: 1
