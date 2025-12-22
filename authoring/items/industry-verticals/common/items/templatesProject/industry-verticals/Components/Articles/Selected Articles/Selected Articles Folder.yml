@@ -1,30 +1,33 @@
 ﻿---
-ID: "68882278-68ec-40aa-8cf9-ff60682b74d5"
-Parent: "7116912b-af25-436f-98a4-8388a7c74d87"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: "/sitecore/templates/Project/industry-verticals/Components/Page Content/Deals/Deal/Data"
+ID: "f71c301c-b27e-4826-98f7-c19620e7c706"
+Parent: "3a48f5cf-aac2-439c-9d6b-cc85e4d38a84"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Articles/Selected Articles/Selected Articles Folder"
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: networkv2/32x32/link.png
+  Value: office/32x32/markup.png
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "df6ecdfa-9095-48ab-a411-28638855b2f6"
+  Value: "896c3899-7c6f-4334-95d3-05d1e0c4324a"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{782B1B56-9AE6-430A-88CE-BADC0B1FC114}"
 Languages:
 - Language: "de-DE"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "67f2ba23-8a13-4deb-88b8-92aa430c498a"
+    Value: "fe33a5b2-d818-4a43-b817-55c87c9d8a73"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Link
+    Value: Promo Ordner
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250903T121124Z
+      Value: 20250915T111349Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -35,49 +38,49 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e7dfe30b-bb8c-4edc-b74b-d54a9956a26f"
+      Value: "0ff2a349-f4c5-41ae-aa7d-7fd7cc901dcd"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250903T121124Z
+      Value: 20250915T111349Z
 - Language: en
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20111206T110700
+      Value: 20120620T144015Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4fa78375-39b9-4a18-9a69-7f2e25b7fe30"
+      Value: "8b15c7b0-6ab9-4f15-8d4a-4906bd7c1a11"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\jeral.sandeeptha@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251222T105628Z
+      Value: 20251222T090353Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "67f2ba23-8a13-4deb-88b8-92aa430c498a"
+    Value: "fe33a5b2-d818-4a43-b817-55c87c9d8a73"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: リンク
+    Value: プロモ フォルダー
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250903T121124Z
+      Value: 20250915T111349Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -88,28 +91,28 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e7dfe30b-bb8c-4edc-b74b-d54a9956a26f"
+      Value: "0ff2a349-f4c5-41ae-aa7d-7fd7cc901dcd"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250903T121124Z
+      Value: 20250915T111349Z
 - Language: "zh-CN"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "67f2ba23-8a13-4deb-88b8-92aa430c498a"
+    Value: "fe33a5b2-d818-4a43-b817-55c87c9d8a73"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: 链接
+    Value: 促销文件夹
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250903T121124Z
+      Value: 20250915T111349Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -120,11 +123,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e7dfe30b-bb8c-4edc-b74b-d54a9956a26f"
+      Value: "0ff2a349-f4c5-41ae-aa7d-7fd7cc901dcd"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250903T121124Z
+      Value: 20250915T111349Z

@@ -2,7 +2,7 @@
 ID: "99d7de86-e1ea-4759-9aa6-8a0afc72a898"
 Parent: "658a681b-eeea-4d6e-bbaf-26680a8c019f"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: "/sitecore/templates/Project/industry-verticals/Components/Articles/Selected Articles/Rendering Parameters/Article Carousel Parameters"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Articles/Selected Articles/Rendering Parameters/Selected Articles Parameters"
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
@@ -69,14 +69,14 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8215ecce-bd5c-4e14-add8-37cf6fd8d635"
+      Value: "5bc4d3eb-8503-4bcb-829e-53a6edaa5656"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\jeral.sandeeptha@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250917T105653Z
+      Value: 20251222T090334Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

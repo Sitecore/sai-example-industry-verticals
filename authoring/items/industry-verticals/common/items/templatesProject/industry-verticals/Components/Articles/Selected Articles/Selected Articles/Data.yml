@@ -2,7 +2,7 @@
 ID: "e00f662d-10e9-4a06-8ee4-72b57a784723"
 Parent: "30a718e4-b5b1-49df-aea6-ad761528b5c5"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: "/sitecore/templates/Project/industry-verticals/Components/Articles/Selected Articles/Article Carousel/Data"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Articles/Selected Articles/Selected Articles/Data"
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
@@ -56,14 +56,14 @@ Languages:
         sitecore\admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f0925a2b-8be0-41df-b2d1-57a3e9eb39b7"
+      Value: "7104b9fd-9919-488f-ad49-fcf0f5e9fd16"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\jeral.sandeeptha@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250924T091434Z
+      Value: 20251222T092501Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

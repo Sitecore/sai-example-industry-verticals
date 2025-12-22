@@ -12,7 +12,7 @@ Languages:
       Hint: __Lock
       Value: <r />
     - ID: "173353d6-b07d-442c-b2f0-5b95c498f794"
-      Hint: CarouselDescription
+      Hint: Description
       Value: |
         <div class="ck-content"><p>Our designer already made a lot of beautiful prototype of rooms that inspire you</p></div>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
@@ -27,13 +27,13 @@ Languages:
       Value: |
         sitecore\isuru.bandara@sitecore.com
     - ID: "7e4e530b-eb83-4515-801c-4cc914d2605a"
-      Hint: CarouselTitle
+      Hint: Title
       Value: 50+ Beautiful room inspirations
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "a8767424-f1f9-4912-81a8-711ae5fb23ce"
     - ID: "9097fa39-7bba-4e25-92f0-0b25d187509d"
-      Hint: CarouselExplore
+      Hint: ExploreLink
       Value: |
         <link class="" querystring="" id="b86a1b6c-c131-42ce-afcf-d7fef4a543f5" anchor="" target="" title="" linktype="internal" text="Explore more" url="/industry-verticals/forma-lux/Home/Products" />
     - ID: "a6a4a7d3-4017-4996-9264-27b1d3030273"
@@ -57,7 +57,7 @@ Languages:
       Hint: __Lock
       Value: <r />
     - ID: "173353d6-b07d-442c-b2f0-5b95c498f794"
-      Hint: CarouselDescription
+      Hint: Description
       Value: Nuestro dise&ntilde;ador ya ha creado muchos prototipos hermosos de habitaciones que te inspiran<br />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
@@ -71,13 +71,13 @@ Languages:
       Value: |
         sitecore\isuru.bandara@sitecore.com
     - ID: "7e4e530b-eb83-4515-801c-4cc914d2605a"
-      Hint: CarouselTitle
+      Hint: Title
       Value: Más de 50 hermosas inspiraciones para habitaciones
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "f78e0e85-9d75-418a-b781-3ec1c3f1de55"
     - ID: "9097fa39-7bba-4e25-92f0-0b25d187509d"
-      Hint: CarouselExplore
+      Hint: ExploreLink
       Value: |
         <link class="" querystring="" id="e9a6e6f8-3dd6-4664-a6e0-1923816f94c6" anchor="" target="" title="" linktype="internal" text="Explora más" url="/industry-verticals/forma-lux/Home/Articles" />
     - ID: "a6a4a7d3-4017-4996-9264-27b1d3030273"
@@ -99,7 +99,7 @@ Languages:
       Hint: __Lock
       Value: <r />
     - ID: "173353d6-b07d-442c-b2f0-5b95c498f794"
-      Hint: CarouselDescription
+      Hint: Description
       Value: |
         <div class="ck-content"><p>Nuestro diseñador ya ha creado muchos hermosos prototipos de habitaciones que te inspiran</p></div>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
@@ -114,13 +114,13 @@ Languages:
       Value: |
         sitecore\isuru.bandara@sitecore.com
     - ID: "7e4e530b-eb83-4515-801c-4cc914d2605a"
-      Hint: CarouselTitle
+      Hint: Title
       Value: Más de 50 inspiraciones de habitaciones hermosas
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "923fca2b-e76f-49e8-8069-fed0265080b6"
     - ID: "9097fa39-7bba-4e25-92f0-0b25d187509d"
-      Hint: CarouselExplore
+      Hint: ExploreLink
       Value: |
         <link class="" id="b86a1b6c-c131-42ce-afcf-d7fef4a543f5" querystring="" anchor="" target="" title="" linktype="internal" text="Explora más" url="/industry-verticals/forma-lux/Home/Products" />
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
@@ -150,7 +150,7 @@ Languages:
       Hint: __Lock
       Value: <r />
     - ID: "173353d6-b07d-442c-b2f0-5b95c498f794"
-      Hint: CarouselDescription
+      Hint: Description
       Value: |
         <div class="ck-content"><p>Notre designer a déjà créé de nombreux prototypes de chambres magnifiques qui vous inspirent</p></div>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
@@ -165,13 +165,13 @@ Languages:
       Value: |
         sitecore\isuru.bandara@sitecore.com
     - ID: "7e4e530b-eb83-4515-801c-4cc914d2605a"
-      Hint: CarouselTitle
+      Hint: Title
       Value: 50+ inspirations de chambres magnifiques
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "4a71b233-61f2-4375-a5cb-8beec1392063"
     - ID: "9097fa39-7bba-4e25-92f0-0b25d187509d"
-      Hint: CarouselExplore
+      Hint: ExploreLink
       Value: |
         <link class="" id="b86a1b6c-c131-42ce-afcf-d7fef4a543f5" querystring="" anchor="" target="" title="" linktype="internal" text="Explorez plus" url="/industry-verticals/forma-lux/Home/Products" />
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
@@ -198,7 +198,7 @@ Languages:
       Hint: __Lock
       Value: <r />
     - ID: "173353d6-b07d-442c-b2f0-5b95c498f794"
-      Hint: CarouselDescription
+      Hint: Description
       Value: |
         <div class="ck-content"><p>Notre designer a déjà créé de nombreux prototypes de chambres magnifiques qui vous inspirent</p></div>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
@@ -213,13 +213,13 @@ Languages:
       Value: |
         sitecore\isuru.bandara@sitecore.com
     - ID: "7e4e530b-eb83-4515-801c-4cc914d2605a"
-      Hint: CarouselTitle
+      Hint: Title
       Value: Plus de 50 inspirations de chambres magnifiques
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "8a04e0bd-96a3-43d7-9488-9ca6a056ce85"
     - ID: "9097fa39-7bba-4e25-92f0-0b25d187509d"
-      Hint: CarouselExplore
+      Hint: ExploreLink
       Value: |
         <link class="" id="b86a1b6c-c131-42ce-afcf-d7fef4a543f5" querystring="" anchor="" target="" title="" linktype="internal" text="Explorez plus" url="/industry-verticals/forma-lux/Home/Products" />
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"

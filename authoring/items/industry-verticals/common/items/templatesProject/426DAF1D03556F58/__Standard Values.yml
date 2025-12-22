@@ -2,7 +2,7 @@
 ID: "782b1b56-9ae6-430a-88ce-badc0b1fc114"
 Parent: "f71c301c-b27e-4826-98f7-c19620e7c706"
 Template: "f71c301c-b27e-4826-98f7-c19620e7c706"
-Path: "/sitecore/templates/Project/industry-verticals/Components/Articles/Selected Articles/Article Carousel Folder/__Standard Values"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Articles/Selected Articles/Selected Articles Folder/__Standard Values"
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
