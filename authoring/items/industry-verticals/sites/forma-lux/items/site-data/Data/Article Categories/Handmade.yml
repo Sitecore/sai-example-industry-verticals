@@ -63,37 +63,6 @@ Languages:
     - ID: "f9fd853f-2691-40b4-81d1-00ccf1a6cc06"
       Hint: Category
       Value: Hecho a mano
-- Language: "fr-CA"
-  Versions:
-  - Version: 1
-    Fields:
-    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
-      Hint: __Created
-      Value: 20250912T081102Z
-    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
-      Hint: __Owner
-      Value: |
-        sitecore\sanduni.galagoda@sitecore.com
-    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
-      Hint: __Created by
-      Value: |
-        sitecore\sanduni.galagoda@sitecore.com
-    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
-      Hint: __Revision
-      Value: "7fe3ce87-1e90-4134-8cf0-0f13d1133916"
-    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
-      Hint: __Version Name
-      Value: AI translated
-    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
-      Hint: __Updated by
-      Value: |
-        sitecore\isuru.bandara@sitecore.com
-    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
-      Hint: __Updated
-      Value: 20251217T110143Z
-    - ID: "f9fd853f-2691-40b4-81d1-00ccf1a6cc06"
-      Hint: Category
-      Value: Fait main
 - Language: "fr-FR"
   Versions:
   - Version: 1
