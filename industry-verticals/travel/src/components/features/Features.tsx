@@ -39,7 +39,7 @@ const FeaturesWrapper = ({ children, ...props }: FeaturesWrapperProps) => {
             <h2 className="mb-4">
               <Text field={props.fields.data.datasource.title.jsonValue} />
             </h2>
-            <p>
+            <p className="text-foreground-light text-xl">
               <Text field={props.fields.data.datasource.description.jsonValue} />
             </p>
           </div>

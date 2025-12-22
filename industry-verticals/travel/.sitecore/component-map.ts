@@ -19,6 +19,7 @@ import * as Image from 'src/components/image/Image';
 import * as Header from 'src/components/header/Header';
 import * as Features from 'src/components/features/Features';
 import * as DestinationDetails from 'src/components/destination-details/DestinationDetails';
+import * as Deals from 'src/components/deals/Deals';
 import * as ContentBlock from 'src/components/content-block/ContentBlock';
 import * as Container from 'src/components/container/Container';
 import * as ColumnSplitter from 'src/components/column-splitter/ColumnSplitter';
@@ -43,6 +44,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Header', { ...Header, componentType: 'client' }],
   ['Features', { ...Features }],
   ['DestinationDetails', { ...DestinationDetails }],
+  ['Deals', { ...Deals }],
   ['ContentBlock', { ...ContentBlock }],
   ['Container', { ...Container }],
   ['ColumnSplitter', { ...ColumnSplitter }],

@@ -55,7 +55,7 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
         {ogImage && <meta property="og:image" content={ogImage} />}
         {ogUrl && <meta property="og:url" content={ogUrl} />}
         {/* Custom meta tag for current relative path - used in Search */}
-        {currentPath && <meta name="page-path" content="{currentPath}" />}
+        {currentPath && <meta name="page-path" content={currentPath} />}
       </Head>
 
       {/* root placeholder for the app, which we add components to using route data */}

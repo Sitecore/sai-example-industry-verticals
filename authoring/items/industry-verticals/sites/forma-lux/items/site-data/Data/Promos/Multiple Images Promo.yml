@@ -7,18 +7,18 @@ SharedFields:
 - ID: "0d9bfa5d-ac4d-4dca-8477-78801227cf5c"
   Hint: PromoImageTwo
   Value: |
-    <image mediaid="f042434f-637a-4470-957d-9caa7dcc9b30" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/cfd2281e47384cffbd77d30e9c412711?v=0459b0a7" dam-id="JA9QQeILQn-0KFOEs0mmYA" width="2500" height="1667" alt="Rectangle 1450.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/67132/thumbnail" />
 - ID: "3565b3f1-77de-4192-b1ca-e11c6e60c206"
   Hint: PromoImageThree
   Value: |
-    <image mediaid="e0919f62-e847-41fb-985c-0d298789d1b3" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/1032b83ad84741e6b7471a09dbe67d4b?v=bde3a99c" dam-id="uaz18NNCQNaAJavpPqm2xg" width="2500" height="1853" alt="Rectangle 1450 (5).jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/67123/thumbnail" />
 - ID: "b441a09f-ddb2-41a8-84cc-2533686541f4"
   Hint: PromoImageOne
   Value: |
-    <image mediaid="36b5664c-9e04-43bb-aeed-a25b83d329bd" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/5088bfb43f814f57bd15548a6f7b38c5?v=ea9d86c1" dam-id="O9R-vEgER8GZHbOh0UNb7g" width="2500" height="1667" alt="Rectangle 1447.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/67106/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "5cd8af5c-f9e4-4e16-8c93-5d52e0953e9a"
+  Value: "4111c099-0653-46f5-9816-d310c2718e69"
 Languages:
 - Language: en
   Versions:
@@ -51,14 +51,14 @@ Languages:
       Value: Materials
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "da83b75b-9903-473a-9572-e58f85f6c00a"
+      Value: "147f9424-cc32-495b-b9b8-e2308a2b8d16"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251009T140424Z
+      Value: 20251222T103050Z
     - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
       Hint: PromoTitle
       Value: Our Promise  to furniture 
