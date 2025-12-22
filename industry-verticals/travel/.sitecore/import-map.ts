@@ -7,16 +7,17 @@ import {
 } from '@sitecore-content-sdk/nextjs/codegen';
 // end of built-in imports
 
-import { Link, Text, useSitecore, RichText, Placeholder, NextImage, CdpHelper, withDatasourceCheck } from '@sitecore-content-sdk/nextjs';
+import { Link, Text, useSitecore, RichText, Placeholder, NextImage, CdpHelper, withDatasourceCheck, DateField } from '@sitecore-content-sdk/nextjs';
 import { useState, useRef, useEffect } from 'react';
 import React from 'react';
 import { useI18n } from 'next-localization';
 import { LayoutStyles, PromoFlags } from '@/types/styleFlags';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/shadcn/components/ui/dropdown-menu';
-import { Share2, ArrowLeft, Phone, Plane, Bed, Camera, Navigation, X, Menu, Heart, Star } from 'lucide-react';
+import { Share2, ArrowLeft, ChevronLeft, ChevronRight, Phone, Plane, Bed, Camera, Navigation, X, Menu, Heart, Star } from 'lucide-react';
 import { EmailIcon, EmailShareButton, FacebookIcon, FacebookShareButton, LinkedinIcon, LinkedinShareButton, PinterestIcon, PinterestShareButton, TwitterIcon, TwitterShareButton } from 'react-share';
 import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
 import { usePathname } from 'next/navigation';
+import { usePagination } from '@/hooks/usePagination';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/shadcn/components/ui/tabs';
 import { useClickAway } from '@/hooks/useClickAway';
 import { useStopResponsiveTransition } from '@/hooks/useStopResponsiveTransition';
@@ -37,6 +38,10 @@ import * as FEAAS from '@sitecore-feaas/clientside/react';
 import nextConfig from 'next.config';
 import { pageView } from '@sitecore-cloudsdk/events/browser';
 import config from 'sitecore.config';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUser, faCalendar, faTag } from '@fortawesome/free-solid-svg-icons';
+import { sortByDateDesc, getCategoryCounts } from '@/helpers/articleUtils';
+import { Pagination } from 'src/components/non-sitecore/Pagination';
 
 const importMap = [
   {
@@ -50,6 +55,7 @@ const importMap = [
       { name: 'NextImage', value: NextImage },
       { name: 'CdpHelper', value: CdpHelper },
       { name: 'withDatasourceCheck', value: withDatasourceCheck },
+      { name: 'DateField', value: DateField },
     ]
   },
   {
@@ -88,6 +94,8 @@ const importMap = [
     exports: [
       { name: 'Share2', value: Share2 },
       { name: 'ArrowLeft', value: ArrowLeft },
+      { name: 'ChevronLeft', value: ChevronLeft },
+      { name: 'ChevronRight', value: ChevronRight },
       { name: 'Phone', value: Phone },
       { name: 'Plane', value: Plane },
       { name: 'Bed', value: Bed },
@@ -124,6 +132,12 @@ const importMap = [
     module: 'next/navigation',
     exports: [
       { name: 'usePathname', value: usePathname },
+    ]
+  },
+  {
+    module: '@/hooks/usePagination',
+    exports: [
+      { name: 'usePagination', value: usePagination },
     ]
   },
   {
@@ -254,6 +268,33 @@ const importMap = [
     module: 'sitecore.config',
     exports: [
       { name: 'default', value: config },
+    ]
+  },
+  {
+    module: '@fortawesome/react-fontawesome',
+    exports: [
+      { name: 'FontAwesomeIcon', value: FontAwesomeIcon },
+    ]
+  },
+  {
+    module: '@fortawesome/free-solid-svg-icons',
+    exports: [
+      { name: 'faUser', value: faUser },
+      { name: 'faCalendar', value: faCalendar },
+      { name: 'faTag', value: faTag },
+    ]
+  },
+  {
+    module: '@/helpers/articleUtils',
+    exports: [
+      { name: 'sortByDateDesc', value: sortByDateDesc },
+      { name: 'getCategoryCounts', value: getCategoryCounts },
+    ]
+  },
+  {
+    module: 'src/components/non-sitecore/Pagination',
+    exports: [
+      { name: 'Pagination', value: Pagination },
     ]
   }
 ] as ImportEntry[];
