@@ -1,4 +1,3 @@
-// import { isParamEnabled } from '@/helpers/isParamEnabled';
 import { ComponentProps } from '@/lib/component-props';
 import {
   Field,
@@ -15,7 +14,6 @@ import {
   DateField,
 } from '@sitecore-content-sdk/nextjs';
 import { ArrowLeft, Calendar, Clock, Heart, Share2 } from 'lucide-react';
-// import { useEffect, useState } from 'react';
 import { newsDateFormatter } from '../../helpers/dateHelper';
 import { Author } from '../non-sitecore/Author';
 
@@ -53,22 +51,14 @@ interface ArticleDetailsProps extends ComponentProps {
 
 export const Default = ({ params, fields, rendering }: ArticleDetailsProps) => {
   const { page } = useSitecore();
-  // const [currentUrl, setCurrentUrl] = useState('');
   const { styles, RenderingIdentifier: id, DynamicPlaceholderId } = params;
   const placeholderKey = `article-details-${DynamicPlaceholderId}`;
   const placeholderAuthorKey = `article-details-author-${DynamicPlaceholderId}`;
   const fullWidthPlaceholderKey = `article-details-full-width-${DynamicPlaceholderId}`;
   const isPageEditing = page.mode.isEditing;
-  // const hideShareWidget = isParamEnabled(params.HideShareWidget);
 
   console.log(fields);
   console.log(fields.Category?.fields?.Category);
-
-  // useEffect(() => {
-  //   if (typeof window !== 'undefined') {
-  //     setCurrentUrl(window.location.href);
-  //   }
-  // }, []);
 
   if (!fields) {
     return isPageEditing ? (
