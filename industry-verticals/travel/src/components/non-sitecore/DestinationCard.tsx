@@ -39,14 +39,14 @@ export default function DestinationCard({ destination }: DestinationCardProps) {
 
         {/* Label Badge */}
         {fields.Label?.value && (
-          <div className="bg-accent text-background absolute top-4 left-4 rounded-md px-3 py-1 text-xs font-semibold">
+          <div className="bg-accent text-background absolute top-4 left-4 rounded px-2 py-1 text-xs font-semibold">
             <ContentSdkText field={Label} />
           </div>
         )}
 
         {/* Rating */}
         {rating.value > 0 && (
-          <div className="bg-background/90 absolute top-4 right-4 flex items-center gap-1 rounded-full px-2 py-1">
+          <div className="bg-background/90 absolute top-4 right-4 flex items-center gap-1 rounded-md px-2 py-1">
             <Star className="inline size-4 fill-yellow-400 text-yellow-400" />
             <ContentSdkText field={rating} />
           </div>
@@ -141,7 +141,7 @@ export default function DestinationCard({ destination }: DestinationCardProps) {
 
         {/* Action Buttons */}
         <div className="flex space-x-2 text-sm 2xl:text-base">
-          <button className="bg-foreground text-background hover:bg-foreground/90 flex-2 rounded-md py-2 font-semibold transition-colors xl:flex-3">
+          <button className="bg-foreground text-background hover:bg-foreground/90 flex-1 rounded-md py-2 font-semibold transition-colors">
             {t('book_flight') || 'Book Flight'}
           </button>
 
