@@ -67,7 +67,7 @@ const ListItem = ({
             className="icon w-5 h-5"
           />
         )}
-        <div className="text-blue-400">{IconComponent && <IconComponent size={20} />}</div>
+        <div className="text-accent-midlight">{IconComponent && <IconComponent size={20} />}</div>
         <ContentSdkLink field={field} />
       </div>
     </li>

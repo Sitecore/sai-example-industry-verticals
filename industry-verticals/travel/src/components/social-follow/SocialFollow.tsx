@@ -32,7 +32,7 @@ export const Default = (props: SocialFollowProps) => {
     <div className="flex space-x-4" id={id}>
       {socialLinks.map(({ icon: Icon, field, key }) => (
         <ContentSdkLink field={field} key={key} className="text-foreground">
-          <Icon className="h-5 w-5 cursor-pointer text-gray-400 hover:text-white" />
+          <Icon className="h-5 w-5 cursor-pointer text-accent-gray hover:text-white" />
         </ContentSdkLink>
       ))}
     </div>
