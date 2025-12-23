@@ -12,6 +12,10 @@ SharedFields:
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
   Value: BED0003
+- ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/2996a2050b464f3faf2faba8adcac824?v=711a7809" dam-id="WqigNgHRSc2gyo7cHWlZ_w" width="1536" height="1024" alt="hudson-storage-bed-1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79409/thumbnail" />
 - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
   Hint: Color
   Value: |
@@ -28,7 +32,7 @@ SharedFields:
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <image mediaid="ffe1936f-1433-4ed5-9fa5-dfecaea76c52" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/2996a2050b464f3faf2faba8adcac824?v=711a7809" dam-id="WqigNgHRSc2gyo7cHWlZ_w" width="1536" height="1024" alt="hudson-storage-bed-1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79409/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -38,7 +42,7 @@ SharedFields:
   Value: "{16807766-6013-4944-9550-EBC3216AD248}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "e1bb15e8-daa6-4124-a788-d89bd5266169"
+  Value: "d500aa79-b20b-4390-b375-066455b3ab99"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -91,13 +95,9 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: "Discover the Hudson Storage Bed by Forma Lux – crafted from engineered wood with walnut veneer, featuring four spacious under-bed drawers for elegant, space-saving living."
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="ffe1936f-1433-4ed5-9fa5-dfecaea76c52" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d889950f-ee5d-4662-81d5-661a4f8d443b"
+      Value: "21d38180-d53d-494f-b829-e467965c106b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -107,7 +107,7 @@ Languages:
       Value: Hudson Storage Bed
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251210T075308Z
+      Value: 20251223T084024Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: "<p>The Hudson Storage Bed maximizes space with its four under-bed drawers. Crafted from engineered wood with a walnut veneer, it combines practicality with style. Ideal for apartments and compact bedrooms.</p>"
@@ -150,10 +150,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Descubre la Cama con Almacenamiento Hudson de Forma Lux – fabricada con madera industrializada con chapa de nogal, con cuatro espaciosos cajones debajo de la cama para una vida elegante y que ahorra espacio.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="ffe1936f-1433-4ed5-9fa5-dfecaea76c52" alt="hudson-storage-bed-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "6616e5f8-10ba-4b08-8d92-3534962bfbf4"
@@ -212,10 +208,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Découvrez le lit Hudson avec rangement par Forma Lux – fabriqué en bois d'ingénierie avec placage en noyer, doté de quatre tiroirs spacieux sous le lit pour un habitat élégant et peu encombrant.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="ffe1936f-1433-4ed5-9fa5-dfecaea76c52" alt="hudson-storage-bed-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "5eb8cce7-254e-4f0e-afcd-45925ff4c2ed"

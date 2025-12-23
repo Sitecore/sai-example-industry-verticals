@@ -7,18 +7,21 @@ SharedFields:
 - ID: "83bc80ee-e97a-474b-8c05-a2559394eebe"
   Hint: FeatureImage
   Value: |
-    <image mediaid="{C8CCE3C0-8274-4682-9618-93EF6B898D06}" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/4ac360f89201458abdc0268b7b4573c6?v=ab96cf2e" dam-id="IjoswxWgQHulZxRMDEe7cg" width="222" height="34" alt="Samsung Logo.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76694/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 400
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "907354d4-fa12-4e4d-a730-4245df253de4"
+  Value: "4aebaf2f-6073-42b0-a627-b8ac410ed715"
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250904T114241Z
@@ -32,14 +35,14 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "75a67572-888b-40bd-a157-a1a4ffb34d40"
+      Value: "d0805f0c-5fdf-4c9c-878a-cf088230bbe6"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251002T095534Z
+      Value: 20251223T093935Z
 - Language: "es-ES"
   Versions:
   - Version: 1

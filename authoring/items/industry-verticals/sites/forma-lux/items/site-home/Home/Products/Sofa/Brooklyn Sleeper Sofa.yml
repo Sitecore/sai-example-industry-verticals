@@ -13,6 +13,10 @@ SharedFields:
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
   Value: SOF0002
+- ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c6156eff779d403d920bfaccc7b28c92?v=defd6b05" dam-id="Fe_iCLzrSXeYaCOjwYDrIQ" width="768" height="768" alt="brooklyn-sleeper-sofa.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79375/thumbnail" />
 - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
   Hint: Color
   Value: "{75E874D3-C7B4-466B-B9F1-F305D5B67E85}"
@@ -25,7 +29,7 @@ SharedFields:
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <image mediaid="7143ce2d-5fa6-4c30-bcd3-ac5375185602" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c6156eff779d403d920bfaccc7b28c92?v=defd6b05" dam-id="Fe_iCLzrSXeYaCOjwYDrIQ" width="768" height="768" alt="brooklyn-sleeper-sofa.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79375/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -35,7 +39,7 @@ SharedFields:
   Value: "{078D4751-D125-408A-9FF2-F5417844B877}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "c1e546e5-a0db-4aad-952c-caea8d8d2c5d"
+  Value: "b9c8cb4b-6975-46df-80e2-ab70529a47a1"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -85,13 +89,9 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="7143ce2d-5fa6-4c30-bcd3-ac5375185602" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "04b7c4d4-d865-407a-bb0e-410f169c575f"
+      Value: "7f7dd460-1e95-4a06-b54e-70490439a8b3"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -101,7 +101,7 @@ Languages:
       Value: Brooklyn Sleeper Sofa
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251210T080747Z
+      Value: 20251223T085812Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: "<p>The Brooklyn Sleeper Sofa is perfect for small spaces. With a simple pull-out mechanism, it transforms into a comfortable bed. Upholstered in durable fabric, it’s ideal for overnight guests.</p>"
@@ -141,10 +141,6 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="7143ce2d-5fa6-4c30-bcd3-ac5375185602" alt="sofá-cama-brooklyn" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "40df7e4d-2055-411d-9f7e-07251df853c7"
@@ -200,10 +196,6 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="7143ce2d-5fa6-4c30-bcd3-ac5375185602" alt="canapé-lit-brooklyn" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "f47e739c-253a-4f6c-9b49-49f6bfda895a"

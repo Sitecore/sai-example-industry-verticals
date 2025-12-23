@@ -7,6 +7,10 @@ SharedFields:
 - ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
   Hint: NavigationFilter
   Value: "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
+- ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/79693-LandingPageHero-2000x600?v=b815c665" dam-id="LH3yJOzhRICq8Rd348BquA" width="2000" height="600" alt="2e0c02e1ec82784896a5ba2a8ae7a2ddc864aad9 (1).jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79693/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 300
@@ -16,7 +20,7 @@ SharedFields:
     <image mediaid="{9766AC43-3CA0-49A6-A724-D9A9C0D11297}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "f6d1a4ca-c643-45b2-a706-d8dfff9074d8"
+  Value: "5ba88b82-db88-4847-b4f5-139ad97aafef"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -69,14 +73,14 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2a2dc78d-8419-4512-8686-9e9d94d12e78"
+      Value: "16884b36-260c-4fec-b95e-442d3d36c5e6"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251210T073952Z
+      Value: 20251223T091933Z
 - Language: "es-ES"
   Versions:
   - Version: 1

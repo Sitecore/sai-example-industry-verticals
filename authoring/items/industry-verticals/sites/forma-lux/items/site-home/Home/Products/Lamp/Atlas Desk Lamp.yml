@@ -12,6 +12,10 @@ SharedFields:
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
   Value: LMP0002
+- ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/7addb20509e349eb986a5a2ae5e99b84?v=7287a7b2" dam-id="miUYP3WnQZKPc6wh9m1TKA" width="1000" height="1000" alt="atlas-desk-lamp-1.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79362/thumbnail" />
 - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
   Hint: Color
   Value: |
@@ -28,7 +32,7 @@ SharedFields:
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <image mediaid="23514398-863e-49cf-b575-b0d58ed73ff7" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/7addb20509e349eb986a5a2ae5e99b84?v=7287a7b2" dam-id="miUYP3WnQZKPc6wh9m1TKA" width="1000" height="1000" alt="atlas-desk-lamp-1.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79362/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -38,7 +42,7 @@ SharedFields:
   Value: "{260CF295-7D6B-4E12-805C-2596FFD1C3D7}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "c38f4782-ebfe-4d4e-9de9-53a849a9a3e1"
+  Value: "3b0a58d4-eb3d-4663-b096-96ee05dccdfb"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -91,13 +95,9 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Brighten your workspace with the Atlas Desk Lamp by Forma Lux — an adjustable industrial lamp with pivoting arms that combines precision lighting and sculptural design.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="23514398-863e-49cf-b575-b0d58ed73ff7" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bc2b0505-d6c2-4e00-bcc5-2813a2c89673"
+      Value: "1055fb8b-6a62-467f-8241-2ba9e75a54eb"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -107,7 +107,7 @@ Languages:
       Value: Atlas Desk Lamp
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251210T075737Z
+      Value: 20251223T084212Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: <p>The Atlas Desk Lamp is designed for productivity. With adjustable arms and a pivoting head, it provides focused task lighting. Its industrial design adds character to workspaces.</p>
@@ -147,10 +147,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Ilumina tu espacio de trabajo con la Lámpara de Escritorio Atlas de Forma Lux — una lámpara industrial ajustable con brazos pivotantes que combina iluminación de precisión y diseño escultórico.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="23514398-863e-49cf-b575-b0d58ed73ff7" alt="atlas-desk-lamp-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "c519b8ac-3430-499c-9268-8875e6f31046"
@@ -206,10 +202,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Éclairez votre espace de travail avec la Lampe de Bureau Atlas par Forma Lux — une lampe industrielle réglable avec bras pivotants qui combine éclairage de précision et design sculptural.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="23514398-863e-49cf-b575-b0d58ed73ff7" alt="atlas-desk-lamp-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "d63a9b02-26bc-4ec1-8bee-56fe0eba9187"

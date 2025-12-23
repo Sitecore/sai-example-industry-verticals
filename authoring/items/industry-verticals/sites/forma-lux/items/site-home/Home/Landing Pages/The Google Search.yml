@@ -4,10 +4,17 @@ Parent: "af977a9b-c5e9-4195-aa90-00c05f900365"
 Template: "98e60957-0783-4a9a-85cc-77dad30e9711"
 Path: "/sitecore/content/industry-verticals/forma-lux/Home/Landing Pages/The Google Search"
 SharedFields:
+- ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/79689-HomepagePromoCTAs-1100x740?v=705bcc69" dam-id="nzuNhIQGT3mNgSmPl0sh2A" width="1100" height="740" alt="1f8b61c1c7ceb91b8d5d355cc97758366096d9e9.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79689/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{945A3885-92A8-4310-B915-7BBE863A67E0}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "282e9cef-10c1-4e3a-b084-46d923ec6654"
 Languages:
 - Language: en
   Versions:
@@ -164,14 +171,14 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "59ea406d-559c-4a5e-a0cc-f774047b731a"
+      Value: "55f2d0e1-c787-4810-8a91-a3e31c3b0c39"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251210T102557Z
+      Value: 20251223T091715Z
 - Language: "es-ES"
   Versions:
   - Version: 1

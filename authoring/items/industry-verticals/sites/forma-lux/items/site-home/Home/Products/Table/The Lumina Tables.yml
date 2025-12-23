@@ -7,10 +7,14 @@ SharedFields:
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
   Value: "FL-LT-1003"
+- ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c2533f15792f4de5993d1e885880afb3?v=4c8343c5" dam-id="LWoIqxe9QSqPH0hhbIYzbw" width="804" height="570" alt="Tables.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68216/thumbnail" />
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <image mediaid="fcf08c20-c52d-4a24-82e2-36acbb1a2402" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/2aa8f8f3b01f4789917c2d655fd294d3?v=06da1d33" dam-id="oCU76PdqTLOTp70Flj9VaQ" width="804" height="570" alt="nesting_tables.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79708/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -20,7 +24,7 @@ SharedFields:
   Value: "{6EB2E9EB-0CAE-4B98-9A9B-7A960A0DBE1A}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "f8eaf70a-99ab-4c21-aa3b-a7a103e93c87"
+  Value: "26b4414d-7456-4074-b82b-7336d3cd9e8e"
 Languages:
 - Language: en
   Versions:
@@ -55,13 +59,9 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Discover The Lumina Tables from Forma Lux — a pair of handcrafted nesting tables designed with timeless simplicity and sustainable materials. Elegant proportions, natural oak, and enduring craftsmanship define this modern living essential.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c2533f15792f4de5993d1e885880afb3?v=4c8343c5" dam-id="LWoIqxe9QSqPH0hhbIYzbw" width="804" height="570" alt="Tables.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68216/thumbnail" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "17a7e191-1352-4645-9e7c-64d7884d9f81"
+      Value: "41069bcf-95d6-4058-a53b-5fdaeb6fe904"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -71,7 +71,7 @@ Languages:
       Value: The Lumina Tables
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251217T151751Z
+      Value: 20251223T092803Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: |
@@ -112,10 +112,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: "Descubre Las Mesas Lumina de Forma Lux: un par de mesas nido hechas a mano, diseñadas con simplicidad atemporal y materiales sostenibles. Proporciones elegantes, roble natural y artesanía duradera definen este esencial moderno para el hogar."
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c2533f15792f4de5993d1e885880afb3?v=4c8343c5" dam-id="LWoIqxe9QSqPH0hhbIYzbw" width="804" height="570" alt="Tables.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68216/thumbnail" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "e97e2ecf-482f-4daf-98eb-c93edc070a4d"
@@ -172,10 +168,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Découvrez les Tables Lumina de Forma Lux — une paire de tables gigognes fabriquées à la main, conçues avec une simplicité intemporelle et des matériaux durables. Des proportions élégantes, du chêne naturel et un artisanat durable définissent cet essentiel moderne pour le salon.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="fcf08c20-c52d-4a24-82e2-36acbb1a2402" alt="lumina-table-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "c25fa4fc-ca42-4a2a-8989-2af5dc6d2ea8"

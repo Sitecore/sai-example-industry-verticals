@@ -13,6 +13,10 @@ SharedFields:
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
   Value: CHR0003
+- ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/6f2a9e9c25944750b13c3ad4cdbed082?v=1543614b" dam-id="gAYlLcH-SKOBN8AxJeqwuQ" width="360" height="360" alt="havana-rocking-chair-1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79407/thumbnail" />
 - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
   Hint: Color
   Value: "{4644FE16-10A7-44F1-8172-CA03C35A688D}"
@@ -25,7 +29,7 @@ SharedFields:
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <image mediaid="b12fc9fc-a7a5-4ada-aba4-fc5a693afb27" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/6f2a9e9c25944750b13c3ad4cdbed082?v=1543614b" dam-id="gAYlLcH-SKOBN8AxJeqwuQ" width="360" height="360" alt="havana-rocking-chair-1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79407/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -35,7 +39,7 @@ SharedFields:
   Value: "{8DD59D14-31A7-4B85-A547-77B03C68AC32}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "1f80b84b-be4e-4d5d-97cc-8b9dadad97b1"
+  Value: "eed77964-855e-4c35-bddc-7146f6432d8e"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -88,13 +92,9 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: The Havana Rocking Chair by Forma Lux blends classic craftsmanship with contemporary style. Made from solid teak wood and featuring plush cushions, it offers comfort and elegance in any room.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="b12fc9fc-a7a5-4ada-aba4-fc5a693afb27" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "33db449e-a469-448a-96c2-dd2e99c20f7a"
+      Value: "dfc4bfcb-c51a-4e86-8d26-9e4744e5d69a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -104,7 +104,7 @@ Languages:
       Value: Havana Rocking Chair
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251210T083848Z
+      Value: 20251223T090753Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: <p>The Havana Rocking Chair is crafted from solid teak wood with a smooth rocking motion. Its cushioned seat and backrest provide comfort, while its timeless design makes it a versatile addition to nurseries, living rooms, or porches.</p>
@@ -147,10 +147,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: La Mecedora Havana de Forma Lux combina la artesanía clásica con un estilo contemporáneo. Hecha de madera de teca maciza y con cojines mullidos, ofrece comodidad y elegancia en cualquier habitación.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="b12fc9fc-a7a5-4ada-aba4-fc5a693afb27" alt="mecedora-havana-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "3d3effbb-23c3-4ab2-ab82-fbeec7ad42fd"
@@ -209,10 +205,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Le fauteuil à bascule Havana de Forma Lux allie artisanat classique et style contemporain. Fabriqué en bois de teck massif et doté de coussins moelleux, il offre confort et élégance dans n'importe quelle pièce.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="b12fc9fc-a7a5-4ada-aba4-fc5a693afb27" alt="havana-rocking-chair-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "4d02ba26-ad63-4883-9aa3-048e8184d677"

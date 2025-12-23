@@ -7,7 +7,10 @@ SharedFields:
 - ID: "2895a16e-c1b8-4e79-959a-802d5bc81a5a"
   Hint: Logo
   Value: |
-    <image mediaid="8cc2a449-e23b-488c-bb23-3d7c7a07f6e7" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/1095ae2ed8f14638a5f0a6cc77500baf?v=89a3eafb" dam-id="BjmtfBn_QsuaXxnEkNc_MA" width="139" height="25" alt="Forma Lux.svg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76710/thumbnail" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "857815d8-eaf1-43b2-8a9b-54bcd9b47ebf"
 Languages:
 - Language: en
   Versions:
@@ -41,7 +44,7 @@ Languages:
       Value: Copyright © 2025
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d0be7b71-5f16-4ea1-9422-041c955615d2"
+      Value: "b878724b-1a58-46df-92d2-aeea8adb8c28"
     - ID: "9f2b5ebe-6b3a-4128-b6e9-6b7adf4e86da"
       Hint: PolicyText
       Value: |
@@ -49,7 +52,7 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d12db112-ac8e-4701-9186-1c25d7c2c148"
       Hint: TitleTwo
       Value: Services
@@ -58,7 +61,7 @@ Languages:
       Value: Follow Us
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250828T082243Z
+      Value: 20251223T094321Z
     - ID: "e646865b-2d8d-4608-a43e-42c7f1d21675"
       Hint: TitleFive
       Value: Install App

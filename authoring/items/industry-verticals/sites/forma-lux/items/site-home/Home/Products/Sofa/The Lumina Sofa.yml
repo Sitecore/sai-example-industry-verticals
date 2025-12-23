@@ -10,6 +10,10 @@ SharedFields:
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
   Value: " FL-LS-1001"
+- ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c86d3c9f3a00490f88e439451c4b11ff?v=f9d5320d" dam-id="-Xst0beLTAWkJpetsFv5XQ" width="1024" height="1024" alt="LuminaSofa-Transparent.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68722/thumbnail" />
 - ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
   Hint: Image2
   Value: |
@@ -73,10 +77,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Experience The Lumina Sofa from Forma Lux — a signature modular piece that redefines modern comfort through timeless design and sustainable craftsmanship. Handcrafted from natural materials, built to endure, and designed to evolve with your space.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c86d3c9f3a00490f88e439451c4b11ff?v=f9d5320d" dam-id="-Xst0beLTAWkJpetsFv5XQ" width="1024" height="1024" alt="LuminaSofa-Transparent.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68722/thumbnail" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "fd1974a3-f487-4400-a390-4fe9e769125e"
@@ -133,10 +133,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: "Experimenta El Sofá Lumina de Forma Lux: una pieza modular emblemática que redefine el confort moderno a través de un diseño atemporal y una artesanía sostenible. Hecho a mano con materiales naturales, construido para perdurar y diseñado para evolucionar con tu espacio."
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c86d3c9f3a00490f88e439451c4b11ff?v=f9d5320d" dam-id="-Xst0beLTAWkJpetsFv5XQ" width="1024" height="1024" alt="LuminaSofa-Transparent.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68722/thumbnail" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "3dbe89d7-0a29-4d0f-8cd9-03f74be0dcbd"
@@ -196,10 +192,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: "Découvrez le canapé Lumina de Forma Lux — une pièce modulaire emblématique qui redéfinit le confort moderne grâce à un design intemporel et un savoir-faire durable. Fabriqué à la main à partir de matériaux naturels, conçu pour durer et évoluer avec votre espace."
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c86d3c9f3a00490f88e439451c4b11ff?v=f9d5320d" dam-id="-Xst0beLTAWkJpetsFv5XQ" width="1024" height="1024" alt="LuminaSofa-Transparent.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68722/thumbnail" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "28411af9-7ff1-447a-b79b-63adca212bee"
