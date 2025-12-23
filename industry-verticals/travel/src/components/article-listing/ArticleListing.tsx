@@ -1,3 +1,6 @@
+'use client';
+
+import { useState, useMemo } from 'react';
 import {
   Field,
   ImageField,
@@ -41,14 +44,54 @@ interface ArticleListingProps extends ComponentProps {
   };
 }
 
+const CATEGORIES = [
+  'All',
+  'Destinations',
+  'Travel Tips',
+  'Food & Culture',
+  'Sustainable Travel',
+  'Family Travel',
+  'Nightlife',
+  'Culture',
+];
+
 export const Default = (props: ArticleListingProps) => {
   const { t } = useI18n();
   const id = props.params.RenderingIdentifier;
   const sxaStyles = `${props.params?.styles || ''}`;
+  const [selectedCategory, setSelectedCategory] = useState<string>('All');
+
+  // Filter articles based on selected category
+  const filteredArticles = useMemo(() => {
+    if (selectedCategory === 'All') {
+      return props.fields.items;
+    }
+    return props.fields.items.filter((article) => {
+      const categoryValue = article.fields.Category?.fields?.Category?.value || '';
+      return categoryValue === selectedCategory;
+    });
+  }, [props.fields.items, selectedCategory]);
 
   return (
-    <section className={`bg-gray-50 py-12 ${sxaStyles}`} id={id}>
+    <section className={`bg-gray-50 py-8 ${sxaStyles}`} id={id}>
       <div className="container mx-auto px-4">
+        {/* Category Filter */}
+        <div className="mx-auto mb-16 flex flex-wrap justify-center gap-2">
+          {CATEGORIES.map((category) => (
+            <button
+              key={category}
+              onClick={() => setSelectedCategory(category)}
+              className={`mb-2 inline-flex h-8 items-center justify-center rounded-md px-3 text-sm font-semibold whitespace-nowrap transition-all ${
+                selectedCategory === category
+                  ? 'bg-foreground text-background hover:bg-foreground/90 shadow-xs'
+                  : 'text-foreground border-border hover:bg-background-hover border bg-transparent'
+              }`}
+            >
+              {category}
+            </button>
+          ))}
+        </div>
+
         <div className="mb-8">
           <h2 className="mb-2 text-2xl font-bold text-gray-900">
             {t('title') || 'Latest Articles'}
@@ -57,7 +100,7 @@ export const Default = (props: ArticleListingProps) => {
         </div>
 
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {props.fields.items.map((article, index) => (
+          {filteredArticles.map((article, index) => (
             <div className="info-card flex h-full flex-col px-0!" key={index}>
               {/* upper section */}
               <div className="relative">
@@ -135,7 +178,6 @@ export const Default = (props: ArticleListingProps) => {
               </div>
             </div>
           ))}
-          ;
         </div>
 
         {/* cta section */}
