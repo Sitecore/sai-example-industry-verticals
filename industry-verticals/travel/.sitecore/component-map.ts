@@ -13,11 +13,12 @@ import * as PartialDesignDynamicPlaceholder from 'src/components/partial-design-
 import * as PageContent from 'src/components/page-content/PageContent';
 import * as Navigation from 'src/components/navigation/Navigation';
 import * as LinkList from 'src/components/link-list/LinkList';
+import * as ItemFinder from 'src/components/item-finder/ItemFinder';
 import * as Image from 'src/components/image/Image';
+import * as HeroBanner from 'src/components/hero-banner/HeroBanner';
 import * as ContentBlock from 'src/components/content-block/ContentBlock';
 import * as Container from 'src/components/container/Container';
 import * as ColumnSplitter from 'src/components/column-splitter/ColumnSplitter';
-import * as HeroBanner from 'src/components/hero-banner/HeroBanner';
 
 export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['BYOCWrapper', BYOCWrapper],
@@ -32,11 +33,12 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['PageContent', { ...PageContent }],
   ['Navigation', { ...Navigation, componentType: 'client' }],
   ['LinkList', { ...LinkList }],
+  ['ItemFinder', { ...ItemFinder, componentType: 'client' }],
   ['Image', { ...Image }],
+  ['HeroBanner', { ...HeroBanner }],
   ['ContentBlock', { ...ContentBlock }],
   ['Container', { ...Container }],
   ['ColumnSplitter', { ...ColumnSplitter }],
-  ['HeroBanner', { ...HeroBanner }],
 ]);
 
 export default componentMap;

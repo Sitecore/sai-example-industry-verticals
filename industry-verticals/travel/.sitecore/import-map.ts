@@ -12,7 +12,8 @@ import { useState, useRef, useEffect } from 'react';
 import React from 'react';
 import { useI18n } from 'next-localization';
 import { LayoutStyles, PromoFlags } from '@/types/styleFlags';
-import { ChevronDown } from 'lucide-react';
+import DatePicker from 'react-datepicker';
+import { Calendar, ChevronLeft, ChevronRight, ChevronDown, Search, MapPin, Users, Plane, Check } from 'lucide-react';
 import HamburgerIcon from '@/components/non-sitecore/HamburgerIcon';
 import { useClickAway } from '@/hooks/useClickAway';
 import { useStopResponsiveTransition } from '@/hooks/useStopResponsiveTransition';
@@ -20,6 +21,7 @@ import { extractMediaUrl } from '@/helpers/extractMediaUrl';
 import { getLinkContent, getLinkField, isNavLevel, isNavRootItem, prepareFields } from '@/helpers/navHelpers';
 import clsx from 'clsx';
 import { isParamEnabled } from '@/helpers/isParamEnabled';
+import Calendar_319ca33bfed84873fb0adbc31f3f4120ac210185 from '@/components/non-sitecore/CustomCalendar';
 import Head from 'next/head';
 import client from 'lib/sitecore-client';
 import Image from 'next/image';
@@ -65,9 +67,23 @@ const importMap = [
     ]
   },
   {
+    module: 'react-datepicker',
+    exports: [
+      { name: 'default', value: DatePicker },
+    ]
+  },
+  {
     module: 'lucide-react',
     exports: [
+      { name: 'Calendar', value: Calendar },
+      { name: 'ChevronLeft', value: ChevronLeft },
+      { name: 'ChevronRight', value: ChevronRight },
       { name: 'ChevronDown', value: ChevronDown },
+      { name: 'Search', value: Search },
+      { name: 'MapPin', value: MapPin },
+      { name: 'Users', value: Users },
+      { name: 'Plane', value: Plane },
+      { name: 'Check', value: Check },
     ]
   },
   {
@@ -114,6 +130,12 @@ const importMap = [
     module: '@/helpers/isParamEnabled',
     exports: [
       { name: 'isParamEnabled', value: isParamEnabled },
+    ]
+  },
+  {
+    module: '@/components/non-sitecore/CustomCalendar',
+    exports: [
+      { name: 'default', value: Calendar_319ca33bfed84873fb0adbc31f3f4120ac210185 },
     ]
   },
   {

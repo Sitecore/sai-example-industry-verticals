@@ -66,8 +66,8 @@ const HeroBannerCommon = ({
   );
 };
 
-// Travel Blog variant - Blue gradient background with centered content and search bar
-export const TravelBlog = ({ params, fields, rendering }: HeroBannerProps) => {
+// Centered variant - Centered content with gradient overlay and search bar
+export const Centered = ({ params, fields, rendering }: HeroBannerProps) => {
   const searchBarPlaceholderKey = `hero-banner-search-bar-${params.DynamicPlaceholderId}`;
 
   return (
@@ -75,23 +75,23 @@ export const TravelBlog = ({ params, fields, rendering }: HeroBannerProps) => {
       {/* Content Container */}
       <div className="relative z-10 w-full">
         {/* Gradient Background */}
-        <div className="absolute inset-0 z-0 bg-gradient-to-r from-blue-600 to-blue-800"></div>
+        <div className="from-accent-dark to-accent absolute inset-0 z-0 bg-gradient-to-r"></div>
 
         {/* Content Container */}
         <div className="relative z-10 w-full">
           <div className="container mx-auto flex flex-col items-center justify-center px-4 py-16">
             {/* Title */}
-            <h1 className="text-center text-white text-4xl font-bold md:text-5xl">
+            <h1 className="text-background text-center text-4xl font-bold md:text-5xl">
               <ContentSdkText field={fields.Title} />
             </h1>
 
             {/* Description/Tagline */}
-            <div className="mt-4 text-center text-xl text-blue-100">
+            <div className="text-background/80 mt-4 text-center text-xl">
               <ContentSdkRichText field={fields.Description} className="text-center" />
             </div>
 
             {/* Search Bar Placeholder */}
-            <div className="mt-8 w-full max-w-md">
+            <div className="mt-8 w-full max-w-5xl px-4">
               <Placeholder name={searchBarPlaceholderKey} rendering={rendering} />
             </div>
           </div>
@@ -101,8 +101,8 @@ export const TravelBlog = ({ params, fields, rendering }: HeroBannerProps) => {
   );
 };
 
-// Flight Booking variant - Sunset background with centered content and flight search form
-export const FlightBooking = ({ params, fields, rendering }: HeroBannerProps) => {
+// CenteredLarge variant - Centered content with large form area
+export const CenteredLarge = ({ params, fields, rendering }: HeroBannerProps) => {
   const flightSearchPlaceholderKey = `hero-banner-search-bar-${params.DynamicPlaceholderId}`;
 
   return (
@@ -111,17 +111,17 @@ export const FlightBooking = ({ params, fields, rendering }: HeroBannerProps) =>
       <div className="relative z-10 w-full">
         <div className="container mx-auto flex flex-col items-center justify-center px-4 py-16">
           {/* Title */}
-          <h1 className="text-center text-4xl font-bold text-white md:text-5xl">
+          <h1 className="text-background text-center text-4xl font-bold md:text-5xl">
             <ContentSdkText field={fields.Title} />
           </h1>
 
           {/* Description/Tagline */}
-          <div className="mt-4 text-center text-xl text-blue-100">
+          <div className="text-background/80 mt-4 text-center text-xl">
             <ContentSdkRichText field={fields.Description} className="text-center" />
           </div>
 
           {/* Flight Search Form Placeholder */}
-          <div className="mt-8 w-full max-w-4xl">
+          <div className="mt-8 w-full max-w-5xl px-4">
             <Placeholder name={flightSearchPlaceholderKey} rendering={rendering} />
           </div>
         </div>
@@ -130,11 +130,5 @@ export const FlightBooking = ({ params, fields, rendering }: HeroBannerProps) =>
   );
 };
 
-// Default variant - uses TravelBlog as default
-export const Default = TravelBlog;
-
-
-
-
-
-
+// Default variant - uses Centered as default
+export const Default = Centered;

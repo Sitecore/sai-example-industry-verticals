@@ -1,8 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 import {
   Default as HeroBanner,
-  TravelBlog,
-  FlightBooking,
+  Centered,
+  CenteredLarge,
 } from '../components/hero-banner/HeroBanner';
 import { ComponentProps } from 'react';
 import { CommonParams, CommonRendering } from './common/commonData';
@@ -10,7 +10,7 @@ import { createImageField, createRichTextField, createTextField } from './helper
 import { renderStorybookPlaceholder } from './helpers/renderStorybookPlaceholder';
 
 type StoryProps = ComponentProps<typeof HeroBanner> & {
-  variant: 'TravelBlog' | 'FlightBooking';
+  variant: 'Centered' | 'CenteredLarge';
   hasVideo: boolean;
 };
 
@@ -19,23 +19,6 @@ const meta = {
   component: HeroBanner,
   parameters: {
     layout: 'fullscreen',
-  },
-  argTypes: {
-    variant: {
-      control: 'select',
-      name: 'Variant',
-      options: ['TravelBlog', 'FlightBooking'],
-      description: 'Choose the hero banner variant',
-    },
-    hasVideo: {
-      control: 'boolean',
-      name: 'Has Video',
-      description: 'Show video background instead of image',
-    },
-  },
-  args: {
-    variant: 'TravelBlog',
-    hasVideo: false,
   },
   tags: ['autodocs'],
 } satisfies Meta<StoryProps>;
@@ -76,14 +59,14 @@ export const Default: Story = {
       },
     };
 
-    const Component = args.variant === 'FlightBooking' ? FlightBooking : TravelBlog;
+    const Component = args.variant === 'CenteredLarge' ? CenteredLarge : Centered;
     return <Component params={baseParams} rendering={rendering} fields={fields} />;
   },
 };
 
-export const FlightBookingVariant: Story = {
+export const CenteredLargeVariant: Story = {
   args: {
-    variant: 'FlightBooking',
+    variant: 'CenteredLarge',
     hasVideo: false,
   },
   render: (args) => {
@@ -102,6 +85,6 @@ export const FlightBookingVariant: Story = {
       },
     };
 
-    return <FlightBooking params={baseParams} rendering={rendering} fields={fields} />;
+    return <CenteredLarge params={baseParams} rendering={rendering} fields={fields} />;
   },
 };
