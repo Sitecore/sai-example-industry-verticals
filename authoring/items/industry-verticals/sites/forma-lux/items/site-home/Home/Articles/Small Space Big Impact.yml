@@ -7,7 +7,7 @@ SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
   Value: |
-    <image mediaid="852ff56e-88d2-4e8d-ace2-6d47ad46f207" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/76484-LandingPageHero-2000x600?v=bc4e15f8" dam-id="m9bg2u5WQtqiqzMhxKjPDg" width="2000" height="600" alt="small-space-article.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76484/thumbnail" />
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
@@ -18,7 +18,7 @@ SharedFields:
     <image mediaid="{C629B8C2-73E2-46C7-AEF7-5067351697A8}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "ccd8508a-a017-4e26-851e-171274131c61"
+  Value: "c13340a3-e549-48a4-8df4-31ff045c4115"
 Languages:
 - Language: en
   Fields:
@@ -60,7 +60,7 @@ Languages:
       Value: Live large in a small space. Explore clever, modern furniture ideas that maximize every inch — from hidden storage to sleek, multifunctional designs.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5079a3b9-4385-4744-86b2-308a16479541"
+      Value: "f43192cb-79f1-434c-a9e1-8f26c6876dd9"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "Small Space, Big Impact: Smart Furniture Choices for Compact Homes"
@@ -70,10 +70,190 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251210T091751Z
+      Value: 20251217T153804Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: "Small Space, Big Impact: Smart Furniture Choices for Compact Homes"
     - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
       Hint: metadataKeywords
       Value: "small space furniture, modern small apartment design, space-saving furniture ideas, multifunctional furniture, compact living room design, small home décor, sleeper sofa for guests, coffee table with hidden storage, nesting tables, open-leg furniture design, transparent surfaces, slim furniture profiles, consistent color palette, vertical accents, tall shelving ideas, modern floor lamps, wall art placement, airy modern interiors, smart furniture selections, luxurious small space"
+- Language: "es-ES"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "9baa899b-b7d8-4119-b4fb-4d00df702d7d"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Espacio Pequeño, Gran Impacto: Elecciones Inteligentes de Muebles para Hogares Compactos"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T083248Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Espacio Pequeño Gran Impacto
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>Cuando tu espacio es modesto, cada centímetro cuenta. Elige muebles que sirvan para más de un propósito: un sofá cama para invitados, una mesa de centro con almacenamiento oculto o mesas nido que se guardan cuando no las necesitas. Opta por piezas con peso visual ligero: patas abiertas, superficies transparentes, perfiles más delgados. Mantén tu paleta de colores consistente para que la vista fluya fácilmente. Los acentos verticales atraen la atención hacia arriba y crean una sensación de altura: considera estanterías altas, lámparas de pie o arte colgado. No satures: deja espacio alrededor de las piezas clave para que tu espacio aún se sienta espacioso. Con selecciones inteligentes, incluso el hogar más pequeño puede sentirse lujoso y moderno.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Aprovecha al máximo los metros cuadrados limitados con muebles multifuncionales y cuidadosamente dimensionados.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: Vive a lo grande en un espacio pequeño. Explora ideas de muebles modernos e ingeniosos que maximizan cada centímetro, desde almacenamiento oculto hasta diseños elegantes y multifuncionales.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "acfcdc9b-aed0-45fc-a51f-038608257cc9"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "Espacio Pequeño, Gran Impacto: Elecciones Inteligentes de Muebles para Hogares Compactos"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251219T104327Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: "Espacio Pequeño, Gran Impacto: Elecciones Inteligentes de Muebles para Hogares Compactos"
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: muebles para espacios pequeños, diseño moderno de apartamentos pequeños, ideas de muebles que ahorran espacio, muebles multifuncionales, diseño de sala de estar compacta, decoración de hogar pequeño, sofá cama para invitados, mesa de centro con almacenamiento oculto, mesas nido, diseño de muebles con patas abiertas, superficies transparentes, perfiles de muebles delgados, paleta de colores consistente, acentos verticales, ideas de estanterías altas, lámparas de pie modernas, colocación de arte en la pared, interiores modernos y aireados, selecciones inteligentes de muebles, espacio pequeño lujoso
+- Language: "fr-CA"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "24a6d2ce-5ad8-4cbd-b983-d0fe37c6aec0"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Petit espace, grand impact : Choix de meubles intelligents pour les maisons compactes"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T083248Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Petit espace, grand impact
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>Quand votre espace est modeste, chaque centimètre compte. Choisissez des meubles qui servent à plus d'un usage : un canapé-lit pour les invités, une table basse avec rangement caché ou des tables gigognes qui se rangent lorsque vous n'en avez pas besoin. Optez pour des pièces avec un poids visuel léger : pieds ouverts, surfaces transparentes, profils plus minces. Gardez votre palette de couleurs cohérente pour que l'œil circule facilement. Les accents verticaux attirent l'attention vers le haut et créent une impression de hauteur : pensez à des étagères hautes, des lampes sur pied ou des œuvres d'art accrochées. Ne surchargez pas : laissez de l'espace autour des pièces clés pour que votre espace reste spacieux. Avec des sélections intelligentes, même la plus petite maison peut sembler luxueuse et moderne.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Optimisez chaque mètre carré avec des meubles multifonctionnels et bien proportionnés.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: Vivez grand dans un petit espace. Découvrez des idées de meubles modernes et astucieuses qui maximisent chaque centimètre — du rangement caché aux designs élégants et multifonctionnels.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "da5bc99b-42dc-4afc-9e19-99985fb72232"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "Petit espace, grand impact : Choix de meubles intelligents pour les maisons compactes"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T110139Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: "Petit espace, grand impact : Choix de meubles intelligents pour les maisons compactes"
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: "meubles pour petits espaces, design moderne pour petit appartement, idées de meubles gain de place, meubles multifonctionnels, design de salon compact, décoration de petite maison, canapé-lit pour invités, table basse avec rangement caché, tables gigognes, design de meubles à pieds ouverts, surfaces transparentes, profils de meubles minces, palette de couleurs cohérente, accents verticaux, idées d'étagères hautes, lampes sur pied modernes, placement d'œuvres d'art murales, intérieurs modernes et aérés, sélections de meubles intelligents, petit espace luxueux"
+- Language: "fr-FR"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "f4710c50-87dd-43f9-b924-cc9bd3310dee"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Petit espace, grand impact : choix de meubles intelligents pour les maisons compactes"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T083248Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Petit espace, grand impact
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>Lorsque votre espace est modeste, chaque centimètre compte. Choisissez des meubles qui servent à plusieurs fins : un canapé-lit pour les invités, une table basse avec rangement caché ou des tables gigognes qui se rangent lorsque vous n'en avez pas besoin. Optez pour des pièces avec un poids visuel léger : pieds ouverts, surfaces transparentes, profils plus fins. Gardez votre palette de couleurs cohérente pour que l'œil circule facilement. Les accents verticaux attirent l'attention vers le haut et créent une impression de hauteur : pensez à des étagères hautes, des lampes sur pied ou des œuvres d'art accrochées. Ne surchargez pas : laissez de l'espace autour des pièces clés pour que votre espace reste spacieux. Avec des sélections intelligentes, même la plus petite maison peut sembler luxueuse et moderne.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Tirez le meilleur parti de votre espace limité avec des meubles multifonctionnels et bien proportionnés.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: Vivez grand dans un petit espace. Découvrez des idées de meubles modernes et astucieuses qui maximisent chaque centimètre — du rangement caché aux designs élégants et multifonctionnels.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "823fca66-f892-47fc-8536-f4c18d076bd6"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "Petit espace, grand impact : choix de meubles intelligents pour les maisons compactes"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T104025Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: "Petit espace, grand impact : choix de meubles intelligents pour les maisons compactes"
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: "meubles pour petits espaces, design moderne pour petit appartement, idées de meubles gain de place, meubles multifonctionnels, design de salon compact, décoration de petite maison, canapé-lit pour invités, table basse avec rangement caché, tables gigognes, design de meubles à pieds ouverts, surfaces transparentes, profils de meubles fins, palette de couleurs cohérente, accents verticaux, idées d'étagères hautes, lampes sur pied modernes, placement d'œuvres d'art, intérieurs modernes et aérés, sélections de meubles intelligents, petit espace luxueux"

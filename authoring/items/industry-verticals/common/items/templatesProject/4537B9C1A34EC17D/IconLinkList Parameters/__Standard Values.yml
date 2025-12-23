@@ -1,0 +1,27 @@
+﻿---
+ID: "965fb147-c589-4fb6-922f-c03896810e57"
+Parent: "055dea01-e9fb-4077-8011-de3aff17c27f"
+Template: "055dea01-e9fb-4077-8011-de3aff17c27f"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Navigation/IconLinkList/Rendering Parameters/IconLinkList Parameters/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211012T120926Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JssImport
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b3b915d2-04e4-4289-9003-739bf2f6a49a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251215T170003Z

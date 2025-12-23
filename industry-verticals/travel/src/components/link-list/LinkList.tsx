@@ -88,3 +88,35 @@ export const Default = ({ params, fields }: LinkListProps) => {
     </div>
   );
 };
+
+export const SecondaryNavigation = ({ params, fields }: LinkListProps) => {
+  const datasource = fields?.data?.datasource;
+  const styles = `component link-list ${params.styles || ''}`.trim();
+  const id = params.RenderingIdentifier;
+
+  const renderContent = () => {
+    if (!datasource) {
+      return <h3>Link List</h3>;
+    }
+
+    const links = datasource.children.results
+      .filter((element) => element?.field?.link)
+      .map((element, index) => (
+        <LinkListItem
+          key={`${index}-${element.field?.link}`}
+          index={index}
+          total={datasource.children.results.length}
+          field={element.field.link}
+          className="navigation-item"
+        />
+      ));
+
+    return <ul className="flex gap-x-6 gap-y-4 in-[.drawer-content]:flex-col!">{links}</ul>;
+  };
+
+  return (
+    <div className={styles} id={id}>
+      <div className="component-content">{renderContent()}</div>
+    </div>
+  );
+};

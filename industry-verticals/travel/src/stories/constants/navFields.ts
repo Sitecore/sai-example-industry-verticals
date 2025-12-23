@@ -27,65 +27,65 @@ export const navRoot = {
 
 export const topLevelPages = [
   {
-    ...createNavItem('Furniture'),
+    ...createNavItem('Book'),
     Styles: ['level1', 'item0', 'odd', 'first'],
   },
   {
-    ...createNavItem('Decor'),
+    ...createNavItem('Check In'),
     Styles: ['level1', 'item1', 'even'],
   },
   {
-    ...createNavItem('About us'),
+    ...createNavItem('My Trips'),
     Styles: ['level1', 'item1', 'even'],
     Children: [
       {
-        ...createNavItem('Our story'),
+        ...createNavItem('Upcoming Trips'),
         Styles: ['level2', 'item0', 'odd', 'first'],
       },
       {
-        ...createNavItem('Our team'),
+        ...createNavItem('Wishlist'),
         Styles: ['level2', 'item1', 'even'],
       },
       {
-        ...createNavItem('Careers'),
+        ...createNavItem('Past Trips'),
         Styles: ['level2', 'item2', 'odd', 'last'],
       },
     ],
   },
   {
-    ...createNavItem('Contact'),
+    ...createNavItem('Flight Status'),
     Styles: ['level1', 'submenu', 'item2', 'odd', 'last'],
   },
 ];
 
 export const flatTopLevelPages = [
   {
-    ...createNavItem('Furniture'),
+    ...createNavItem('Book'),
     Styles: ['level0', 'item0', 'odd', 'first', 'flat-level1'],
   },
   {
-    ...createNavItem('Decor'),
+    ...createNavItem('Check In'),
     Styles: ['level0', 'item1', 'even', 'flat-level1'],
   },
   {
-    ...createNavItem('About us'),
+    ...createNavItem('My Trips'),
     Styles: ['level0', 'item1', 'even', 'flat-level1'],
   },
   {
-    ...createNavItem('Our story'),
+    ...createNavItem('Upcoming Trips'),
     Styles: ['level0', 'item0', 'odd', 'first', 'flat-level2'],
   },
   {
-    ...createNavItem('Our team'),
+    ...createNavItem('Wishlist'),
     Styles: ['level0', 'item1', 'even', 'flat-level2'],
   },
   {
-    ...createNavItem('Careers'),
+    ...createNavItem('Past Trips'),
     Styles: ['level0', 'item2', 'odd', 'last', 'flat-level2'],
   },
 
   {
-    ...createNavItem('Contact'),
+    ...createNavItem('Flight Status'),
     Styles: ['level0', 'submenu', 'item2', 'odd', 'last', 'flat-level1'],
   },
 ];
@@ -107,4 +107,4 @@ export const getNavigationFields = (options?: { withRoot?: boolean; flat?: boole
   return arrayToObject(pages);
 };
 
-export const logoParam = `<image mediaid="8cc2a449-e23b-488c-bb23-3d7c7a07f6e7" mediaurl="${createPlaceholderImageSrc(true)}" />`;
+export const logoParam = `<image mediaid="8cc2a449-e23b-488c-bb23-3d7c7a07f6e7" mediaurl="${createPlaceholderImageSrc('logo')}" />`;

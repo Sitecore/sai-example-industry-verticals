@@ -37,3 +37,67 @@
     @apply pointer-events-none opacity-60;
   }
 }
+
+.btn-primary {
+  @apply bg-foreground text-background block w-full rounded-md px-6 py-3 text-center text-sm font-semibold transition-all duration-300;
+
+  &:hover {
+    @apply opacity-90;
+  }
+
+  &[disabled] {
+    @apply pointer-events-none opacity-60;
+  }
+}
+
+.btn-accent {
+  @apply bg-accent text-background block w-full rounded-md px-6 py-3 text-center text-sm font-semibold transition-all duration-300;
+  @apply group-[.container-dark-background]:bg-background group-[.container-dark-background]:text-foreground!;
+  &:hover {
+    @apply opacity-90;
+  }
+
+  &[disabled] {
+    @apply pointer-events-none opacity-60;
+  }
+}
+
+.btn-outline {
+  @apply bg-background text-foreground block w-full rounded-md border px-6 py-3 text-center text-sm font-semibold transition-all duration-300;
+
+  &:hover {
+    @apply shadow-sm;
+  }
+
+  &[disabled] {
+    @apply pointer-events-none opacity-60;
+  }
+}
+
+.simple-btn {
+  @apply bg-background-muted flex items-center gap-2 rounded-md border px-2 py-1 text-sm font-semibold shadow-sm transition-all;
+
+  &:hover {
+    @apply shadow-md;
+  }
+
+  &[disabled] {
+    @apply pointer-events-none opacity-60;
+  }
+
+  svg {
+    @apply size-4;
+  }
+}
+
+.info-card {
+  @apply bg-background space-y-4 rounded-lg border p-6 text-sm shadow-sm;
+
+  .info-card-title {
+    @apply mb-6 flex items-center gap-2 text-base;
+
+    svg {
+      @apply text-accent size-4;
+    }
+  }
+}

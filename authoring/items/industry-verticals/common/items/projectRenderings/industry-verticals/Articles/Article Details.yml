@@ -12,6 +12,7 @@ SharedFields:
   Value: |
     {AF47C64F-56E5-48B8-8BC3-38F519E93A4F}
     {E4AAA89B-7FF0-4115-AEAC-34008B49C20F}
+    {67F4D843-2372-4B9E-A13D-A99D28BBE893}
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
   Value: Office/32x32/edit.png
@@ -38,7 +39,7 @@ SharedFields:
   Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "11cc3e77-8a07-4991-beb7-9a165f10ac7e"
+  Value: "f52e00c1-44ea-4b69-9dd2-6969e19211ce"
 - ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
   Hint: OtherProperties
   Value: IsRenderingsWithDynamicPlaceholders=true
@@ -98,14 +99,14 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a254b5d4-6910-4a2a-9eb1-cbcf82c46b0b"
+      Value: "7e81749a-dfda-4275-9820-b47a10c73d12"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\jeral.sandeeptha@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250919T081412Z
+      Value: 20251218T191007Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

@@ -7,7 +7,7 @@ SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
   Value: |
-    <image mediaid="36a60cf0-d352-49f2-b487-c15b003a5191" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/76488-LandingPageHero-2000x600?v=3bce7b27" dam-id="ngNXiZDpRI2taEiS-sNRPA" width="2000" height="600" alt="Dinning design.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76488/thumbnail" />
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
@@ -18,7 +18,7 @@ SharedFields:
     <image mediaid="{EDEC4492-23DB-491F-B4DB-300DFAEA81F3}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "7c904ca7-260f-4901-ba26-eb29a558ae70"
+  Value: "eb36eb52-c683-4ce5-a8ab-54d142777d79"
 Languages:
 - Language: en
   Fields:
@@ -65,7 +65,7 @@ Languages:
       Value: "Dining is more than meals—it’s shaping memories. Start with a table that suits your space: clean lines, durable material, room for expansion. Pair with chairs that are comfortable but defined—slim profiles, quality upholstery or shell material. Lighting should hover at 30-36” above the table for optimal ambiance. Add a rug to anchor the area and soften acoustics. For accessories: keep it minimal—a sculptural bowl, a simple runner, a piece of art—but meaningful. The goal: a modern dining space that says “come together” whether it’s family pizza night or dinner for six with friends."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9b0b3c6d-1fbc-4412-b079-af86affab8fe"
+      Value: "3e48ccd2-f705-43a6-85de-7a05f6d5faeb"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "Dining Design Done Right: Modern Furniture for the Heart of Your Home"
@@ -75,10 +75,207 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251210T091218Z
+      Value: 20251217T153025Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: Dining Design Done Right Modern Furniture for the Heart of Your Home
     - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
       Hint: metadataKeywords
       Value: modern dining space, dining room design tips, dining table ideas, clean lines dining table, durable dining furniture, expandable dining table, comfortable dining chairs, slim profile chairs, quality upholstery chairs, shell material chairs, dining lighting height, dining room ambiance, dining rug ideas, acoustic softening rug, minimal dining accessories, sculptural bowl decor, simple table runner, dining room art, modern dining decor, come together dining concept, family dining ideas, dinner party dining space
+- Language: "es-ES"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "340ed41a-6185-4315-9f00-4376c57f9e84"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Diseño de Comedor Bien Hecho Muebles Modernos para el Corazón de Tu Hogar
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: |
+        Comer es más que comidas: es crear recuerdos. Comienza con una mesa que se adapte a tu espacio: líneas limpias, material duradero, espacio para expansión. Combina con sillas que sean cómodas pero definidas: perfiles delgados, tapicería de calidad o material de concha. La iluminación debe estar a 30-36” sobre la mesa para una atmósfera óptima. Añade una alfombra para anclar el área y suavizar la acústica. Para los accesorios: mantenlo minimalista—un cuenco escultórico, un camino de mesa simple, una obra de arte—pero significativo. El objetivo: un espacio de comedor moderno que diga "reunirse" ya sea noche de pizza en familia o cena para seis con amigos.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T084006Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Seleccionando el sofá perfecto
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p><span style="background-color:rgb(255,255,255);color:rgb(80,80,80);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:Manrope, sans-serif;font-size:18px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Comer es más que comidas: es crear recuerdos. Comienza con una mesa que se adapte a tu espacio: líneas limpias, material duradero, espacio para expansión. Combina con sillas que sean cómodas pero definidas: perfiles delgados, tapicería de calidad o material de concha. La iluminación debe estar a 30-36” sobre la mesa para una atmósfera óptima. Añade una alfombra para anclar el área y suavizar la acústica. Para los accesorios: mantenlo minimalista—un cuenco escultórico, un camino de mesa simple, una obra de arte—pero significativo. El objetivo: un espacio de comedor moderno que diga "reunirse" ya sea noche de pizza en familia o cena para seis con amigos.</span></span></p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Transforma tu área de comedor en un escenario elegante y acogedor para el día a día y para entretener.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: |
+        Comer es más que comidas: es crear recuerdos. Comienza con una mesa que se adapte a tu espacio: líneas limpias, material duradero, espacio para expansión. Combina con sillas que sean cómodas pero definidas: perfiles delgados, tapicería de calidad o material de concha. La iluminación debe estar a 30-36” sobre la mesa para una atmósfera óptima. Añade una alfombra para anclar el área y suavizar la acústica. Para los accesorios: mantenlo minimalista—un cuenco escultórico, un camino de mesa simple, una obra de arte—pero significativo. El objetivo: un espacio de comedor moderno que diga "reunirse" ya sea noche de pizza en familia o cena para seis con amigos.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9abedc2c-cdac-4bb8-9738-0f72d79c6633"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "Diseño de Comedor Bien Hecho: Muebles Modernos para el Corazón de Tu Hogar"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251219T104327Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: Diseño de Comedor Bien Hecho Muebles Modernos para el Corazón de Tu Hogar
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: |
+        espacio de comedor moderno, consejos de diseño de comedor, ideas de mesas de comedor, mesa de comedor de líneas limpias, muebles de comedor duraderos, mesa de comedor extensible, sillas de comedor cómodas, sillas de perfil delgado, sillas de tapicería de calidad, sillas de material de concha, altura de iluminación de comedor, ambiente de comedor, ideas de alfombras de comedor, alfombra para suavizar acústica, accesorios de comedor minimalistas, decoración de cuenco escultórico, camino de mesa simple, arte de comedor, decoración de comedor moderno, concepto de comedor "reunirse", ideas de comedor familiar, espacio de comedor para cenas
+- Language: "fr-CA"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "f2bb4184-56e5-4cfb-ae13-7abe9007298b"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Conception de salle à manger bien faite Meubles modernes pour le cœur de votre maison
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: |
+        Le repas est plus qu'un simple repas—c'est créer des souvenirs. Commencez par une table qui convient à votre espace : lignes épurées, matériau durable, espace pour l'extension. Associez-la à des chaises confortables mais définies—profils minces, revêtement de qualité ou matériau de coque. L'éclairage doit être suspendu à 30-36” au-dessus de la table pour une ambiance optimale. Ajoutez un tapis pour ancrer la zone et adoucir l'acoustique. Pour les accessoires : restez minimaliste—un bol sculptural, un chemin de table simple, une œuvre d'art—mais significatif. L'objectif : un espace de salle à manger moderne qui dit "rassemblez-vous" que ce soit pour une soirée pizza en famille ou un dîner pour six avec des amis.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T084006Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Sélectionner le canapé parfait
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p><span style="background-color:rgb(255,255,255);color:rgb(80,80,80);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:Manrope, sans-serif;font-size:18px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Le repas est plus qu'un simple repas—c'est créer des souvenirs. Commencez par une table qui convient à votre espace : lignes épurées, matériau durable, espace pour l'extension. Associez-la à des chaises confortables mais définies—profils minces, revêtement de qualité ou matériau de coque. L'éclairage doit être suspendu à 30-36” au-dessus de la table pour une ambiance optimale. Ajoutez un tapis pour ancrer la zone et adoucir l'acoustique. Pour les accessoires : restez minimaliste—un bol sculptural, un chemin de table simple, une œuvre d'art—mais significatif. L'objectif : un espace de salle à manger moderne qui dit "rassemblez-vous" que ce soit pour une soirée pizza en famille ou un dîner pour six avec des amis.</span></span></p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Transformez votre salle à manger en une scène élégante et accueillante pour le quotidien et les réceptions.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: |
+        Le repas est plus qu'un simple repas—c'est créer des souvenirs. Commencez par une table qui convient à votre espace : lignes épurées, matériau durable, espace pour l'extension. Associez-la à des chaises confortables mais définies—profils minces, revêtement de qualité ou matériau de coque. L'éclairage doit être suspendu à 30-36” au-dessus de la table pour une ambiance optimale. Ajoutez un tapis pour ancrer la zone et adoucir l'acoustique. Pour les accessoires : restez minimaliste—un bol sculptural, un chemin de table simple, une œuvre d'art—mais significatif. L'objectif : un espace de salle à manger moderne qui dit "rassemblez-vous" que ce soit pour une soirée pizza en famille ou un dîner pour six avec des amis.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7a636351-74a4-4f88-a1bd-ab68dcf6ec15"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "Conception de salle à manger bien faite : Meubles modernes pour le cœur de votre maison"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T110138Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: Conception de salle à manger bien faite Meubles modernes pour le cœur de votre maison
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: "espace salle à manger moderne, conseils de conception de salle à manger, idées de table à manger, table à manger aux lignes épurées, meubles de salle à manger durables, table à manger extensible, chaises de salle à manger confortables, chaises à profil mince, chaises avec revêtement de qualité, chaises en matériau de coque, hauteur d'éclairage de salle à manger, ambiance de salle à manger, idées de tapis de salle à manger, tapis adoucissant l'acoustique, accessoires de salle à manger minimalistes, décoration de bol sculptural, chemin de table simple, art de salle à manger, décoration de salle à manger moderne, concept de salle à manger rassemblez-vous, idées de salle à manger familiale, espace de salle à manger pour dîner entre amis"
+- Language: "fr-FR"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "1e2716c6-0d7c-4d21-ba73-b64e77f96024"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Conception de salle à manger bien faite Meubles modernes pour le cœur de votre maison
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: |
+        Dîner, c'est plus que des repas—c'est créer des souvenirs. Commencez par une table qui convient à votre espace : lignes épurées, matériau durable, espace pour l'extension. Associez-la à des chaises confortables mais définies—profils minces, revêtement de qualité ou matériau de coque. L'éclairage doit être suspendu à 30-36” au-dessus de la table pour une ambiance optimale. Ajoutez un tapis pour ancrer la zone et adoucir l'acoustique. Pour les accessoires : restez minimaliste—un bol sculptural, un chemin de table simple, une œuvre d'art—mais significatif. L'objectif : un espace de salle à manger moderne qui dit "rassemblez-vous" que ce soit pour une soirée pizza en famille ou un dîner pour six avec des amis.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T084006Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Sélectionner le canapé parfait
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p><span style="background-color:rgb(255,255,255);color:rgb(80,80,80);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:Manrope, sans-serif;font-size:18px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Dîner, c'est plus que des repas—c'est créer des souvenirs. Commencez par une table qui convient à votre espace : lignes épurées, matériau durable, espace pour l'extension. Associez-la à des chaises confortables mais définies—profils minces, revêtement de qualité ou matériau de coque. L'éclairage doit être suspendu à 30-36” au-dessus de la table pour une ambiance optimale. Ajoutez un tapis pour ancrer la zone et adoucir l'acoustique. Pour les accessoires : restez minimaliste—un bol sculptural, un chemin de table simple, une œuvre d'art—mais significatif. L'objectif : un espace de salle à manger moderne qui dit "rassemblez-vous" que ce soit pour une soirée pizza en famille ou un dîner pour six avec des amis.</span></span></p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Transformez votre salle à manger en une scène élégante et accueillante pour le quotidien et les réceptions.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: |
+        Dîner, c'est plus que des repas—c'est créer des souvenirs. Commencez par une table qui convient à votre espace : lignes épurées, matériau durable, espace pour l'extension. Associez-la à des chaises confortables mais définies—profils minces, revêtement de qualité ou matériau de coque. L'éclairage doit être suspendu à 30-36” au-dessus de la table pour une ambiance optimale. Ajoutez un tapis pour ancrer la zone et adoucir l'acoustique. Pour les accessoires : restez minimaliste—un bol sculptural, un chemin de table simple, une œuvre d'art—mais significatif. L'objectif : un espace de salle à manger moderne qui dit "rassemblez-vous" que ce soit pour une soirée pizza en famille ou un dîner pour six avec des amis.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "90befdce-0b32-43d9-a385-17eefefdef8e"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "Conception de salle à manger bien faite : Meubles modernes pour le cœur de votre maison"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T104014Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: Conception de salle à manger bien faite Meubles modernes pour le cœur de votre maison
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: |
+        espace de salle à manger moderne, conseils de conception de salle à manger, idées de table à manger, table à manger aux lignes épurées, meubles de salle à manger durables, table à manger extensible, chaises de salle à manger confortables, chaises à profil mince, chaises avec revêtement de qualité, chaises en matériau de coque, hauteur d'éclairage de salle à manger, ambiance de salle à manger, idées de tapis de salle à manger, tapis adoucissant l'acoustique, accessoires de salle à manger minimalistes, décoration de bol sculptural, chemin de table simple, art de salle à manger, décoration de salle à manger moderne, concept de salle à manger "rassemblez-vous", idées de salle à manger familiale, espace de salle à manger pour dîner entre amis

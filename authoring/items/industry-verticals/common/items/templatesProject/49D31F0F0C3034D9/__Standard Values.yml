@@ -1,0 +1,36 @@
+﻿---
+ID: "b0dca39c-4d46-4506-8283-04470fee31bf"
+Parent: "ca5fff42-660b-4c19-bf4f-15f98c88da2b"
+Template: "ca5fff42-660b-4c19-bf4f-15f98c88da2b"
+Path: "/sitecore/templates/Project/industry-verticals/Custom Templates/Destination/Travel Tips/Travel Tip Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {B020EE7A-B8A1-4850-91C0-C65E46EBAEF1}
+    {CA5FFF42-660B-4C19-BF4F-15F98C88DA2B}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "ac312c0e-dad5-4435-b411-57c26eb46853"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f4f37bad-7898-4ee6-8c90-8160e731a2f5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T123619Z

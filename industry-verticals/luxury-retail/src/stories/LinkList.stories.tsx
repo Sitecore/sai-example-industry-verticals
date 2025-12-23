@@ -1,5 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
-import { Default as LinkList } from '../components/link-list/LinkList';
+import {
+  Default as LinkList,
+  SecondaryNavigation as LinkListSecondaryNaviagtion,
+} from '../components/link-list/LinkList';
 import { ComponentProps } from 'react';
 import { CommonParams, CommonRendering } from './common/commonData';
 import { createTextField } from './helpers/createFields';
@@ -97,6 +100,32 @@ export const Vertical: Story = {
           topLevelFields: {
             field: {
               title: createTextField('Services'),
+            },
+          },
+        })}
+      />
+    );
+  },
+};
+
+export const SecondaryNavigation: Story = {
+  args: {
+    vertical: false,
+  },
+  render: (args) => {
+    return (
+      <LinkListSecondaryNaviagtion
+        params={{
+          ...baseParams,
+          styles: `${baseParams.styles} ${args.vertical ? 'list-vertical' : ''}`,
+        }}
+        rendering={baseRendering}
+        fields={createIGQLData({
+          createItems: createLinkItems,
+          count: args.numberOfItems,
+          topLevelFields: {
+            field: {
+              title: createTextField(''),
             },
           },
         })}

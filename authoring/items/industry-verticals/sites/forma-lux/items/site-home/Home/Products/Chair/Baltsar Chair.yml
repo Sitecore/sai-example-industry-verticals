@@ -174,6 +174,13 @@ Languages:
       Hint: pageSummary
       Value: The Baltsar Chair embodies the perfect balance of design precision and human comfort. Its fluid lines and ergonomic contours reflect Forma Lux’s commitment to craftsmanship that serves both form and function. Upholstered in premium materials and built on a robust frame, Baltsar offers enduring support and elegance. Available in Black and Indigo, and in Extra Small, Large, and Extra Large sizes, it elevates any interior — from refined office settings to serene living spaces — as a symbol of thoughtful modern design.
 - Language: "es-ES"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "422fa39e-42aa-4e6c-9f7c-8585e0448bce"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Silla Baltsar
   Versions:
   - Version: 1
     Fields:
@@ -210,6 +217,182 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20250926T105457Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{CA450E27-B6D3-4A16-97F9-3D0751B25C73}"
+              s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;HideAccentLine=0&amp;Autoplay=0&amp;DynamicPlaceholderId=1&amp;Loop=0" />
+            <r
+              uid="{DFF80B35-DFCF-409D-BCC0-B621EA919D7F}"
+              s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;HideAccentLine=0&amp;Autoplay=0&amp;DynamicPlaceholderId=2&amp;Loop=0" />
+            <r
+              uid="{F6CAC90D-9E66-4AF3-8C96-BD6508620557}"
+              s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;HideAccentLine=0&amp;Autoplay=0&amp;DynamicPlaceholderId=4&amp;Loop=0" />
+            <r
+              uid="{26CE41F6-A517-4A1F-A18E-13DE75EB9F77}">
+              <p:d />
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250923T122113Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Silla Baltsar | Forma Lux – Silla ergonómica moderna con elegancia atemporal
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Estableciendo el estándar como líder en asientos modernos, la Silla Baltsar combina elegancia con excelencia ergonómica. Su diseño elegante y comodidad superior la convierten en una pieza destacada en cualquier espacio.
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Silla Baltsar, silla moderna, asiento ergonómico, muebles de lujo, diseño de silla contemporánea, silla cómoda de acento, muebles Forma Lux, silla de diseñador
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 392
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Silla Baltsar
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: La Silla Baltsar de Forma Lux combina sofisticación moderna con diseño ergonómico. Su forma esculpida, estructura duradera y tapicería de alta calidad ofrecen comodidad duradera y atractivo atemporal.
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="ac31f8b5-1fdf-4669-a774-a8719f015a4d" alt="silla-baltsar-1" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d4da690e-92a8-425f-8715-38e947a9f3bb"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Silla Baltsar
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251219T104443Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>Exudando sofisticación moderna, la Silla Baltsar combina sin esfuerzo un diseño elegante con una comodidad inigualable. Su estructura ergonómica asegura un soporte superior, lo que la convierte en una adición perfecta tanto para interiores contemporáneos como clásicos.</p><p>Fabricada con precisión, la Silla Baltsar cuenta con un marco duradero y una tapicería de alta calidad que prometen un uso prolongado. Sus contornos elegantes no solo añaden un toque de lujo, sino que también proporcionan un abrazo acogedor que invita a sentarse y relajarse. Ideal para cualquier entorno, la Silla Baltsar es más que un asiento; es una invitación a experimentar el estilo y la relajación como nunca antes.</p>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: La Silla Baltsar encarna el equilibrio perfecto entre la precisión del diseño y la comodidad humana. Sus líneas fluidas y contornos ergonómicos reflejan el compromiso de Forma Lux con la artesanía que sirve tanto a la forma como a la función. Tapizada en materiales de primera calidad y construida sobre un marco robusto, Baltsar ofrece soporte y elegancia duraderos. Disponible en Negro e Índigo, y en tamaños Extra Pequeño, Grande y Extra Grande, eleva cualquier interior, desde entornos de oficina refinados hasta espacios de vida serenos, como símbolo de diseño moderno y reflexivo.
+- Language: "fr-CA"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "7b57e949-ccb6-4796-85cc-150ae0bb1a33"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Chaise Baltsar
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{CA450E27-B6D3-4A16-97F9-3D0751B25C73}"
+              s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;HideAccentLine=0&amp;Autoplay=0&amp;DynamicPlaceholderId=1&amp;Loop=0" />
+            <r
+              uid="{DFF80B35-DFCF-409D-BCC0-B621EA919D7F}"
+              s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;HideAccentLine=0&amp;Autoplay=0&amp;DynamicPlaceholderId=2&amp;Loop=0" />
+            <r
+              uid="{F6CAC90D-9E66-4AF3-8C96-BD6508620557}"
+              s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;HideAccentLine=0&amp;Autoplay=0&amp;DynamicPlaceholderId=4&amp;Loop=0" />
+            <r
+              uid="{26CE41F6-A517-4A1F-A18E-13DE75EB9F77}">
+              <p:d />
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250923T122113Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Chaise Baltsar | Forma Lux – Chaise ergonomique moderne avec élégance intemporelle
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Établissant la norme en tant que leader dans le domaine des sièges modernes, la Chaise Baltsar combine élégance et excellence ergonomique. Son design épuré et son confort supérieur en font une pièce maîtresse dans n'importe quel espace.
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Chaise Baltsar, chaise moderne, siège ergonomique, mobilier de luxe, design de chaise contemporain, chaise d'appoint confortable, mobilier Forma Lux, chaise design
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 392
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Chaise Baltsar
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: La Chaise Baltsar de Forma Lux combine sophistication moderne et design ergonomique. Sa forme sculptée, son cadre durable et son revêtement de haute qualité offrent un confort durable et un attrait intemporel.
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="ac31f8b5-1fdf-4669-a774-a8719f015a4d" alt="baltsar-chair-1" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3055be77-5705-41cb-92a5-23d57f28ba55"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Chaise Baltsar
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T110242Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>Exhalant une sophistication moderne, la Chaise Baltsar combine sans effort un design épuré avec un confort inégalé. Sa structure ergonomique assure un soutien supérieur, ce qui en fait un ajout parfait aux intérieurs contemporains et classiques. </p><p>Conçue avec précision, la Chaise Baltsar dispose d'un cadre durable et d'un revêtement de haute qualité qui promettent une utilisation durable. Ses contours élégants ajoutent non seulement une touche de luxe, mais offrent également une étreinte accueillante qui vous invite à vous asseoir et à vous détendre. Idéale pour tout cadre, la Chaise Baltsar est plus qu'un simple siège; c'est une invitation à vivre le style et la détente comme jamais auparavant.</p>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: La Chaise Baltsar incarne l'équilibre parfait entre la précision du design et le confort humain. Ses lignes fluides et ses contours ergonomiques reflètent l'engagement de Forma Lux envers un artisanat qui sert à la fois la forme et la fonction. Rembourrée de matériaux de qualité supérieure et construite sur un cadre robuste, Baltsar offre un soutien et une élégance durables. Disponible en noir et indigo, et en tailles extra petite, grande et extra grande, elle élève tout intérieur — des bureaux raffinés aux espaces de vie sereins — en tant que symbole de design moderne réfléchi.
 - Language: "fr-FR"
   Versions:
   - Version: 1
