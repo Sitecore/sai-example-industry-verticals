@@ -6,3 +6,7 @@ export enum LayoutStyles {
 export enum PromoFlags {
   HidePromoShadows = 'hide-promo-shadows',
 }
+
+export enum TitleSectionFlags {
+  HideTitleSection = 'hide-title-section',
+}

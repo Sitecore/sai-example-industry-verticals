@@ -18,6 +18,7 @@ import * as LinkList from 'src/components/link-list/LinkList';
 import * as Image from 'src/components/image/Image';
 import * as Header from 'src/components/header/Header';
 import * as Features from 'src/components/features/Features';
+import * as DestinationListing from 'src/components/destination-listing/DestinationListing';
 import * as DestinationDetails from 'src/components/destination-details/DestinationDetails';
 import * as Deals from 'src/components/deals/Deals';
 import * as ContentBlock from 'src/components/content-block/ContentBlock';
@@ -30,7 +31,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Form', Form],
   ['Title', { ...Title }],
   ['Subscribe', { ...Subscribe }],
-  ['SelectedDestinations', { ...SelectedDestinations }],
+  ['SelectedDestinations', { ...SelectedDestinations, componentType: 'client' }],
   ['SectionWrapper', { ...SectionWrapper }],
   ['RowSplitter', { ...RowSplitter }],
   ['RichText', { ...RichText }],
@@ -42,6 +43,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Image', { ...Image }],
   ['Header', { ...Header, componentType: 'client' }],
   ['Features', { ...Features }],
+  ['DestinationListing', { ...DestinationListing, componentType: 'client' }],
   ['DestinationDetails', { ...DestinationDetails }],
   ['Deals', { ...Deals }],
   ['ContentBlock', { ...ContentBlock }],

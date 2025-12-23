@@ -1,5 +1,11 @@
 import { Destination } from '@/types/destination';
-import { createImageField, createLinkField, createNumberField, createRichTextField, createTextField } from './createFields';
+import {
+  createImageField,
+  createLinkField,
+  createNumberField,
+  createRichTextField,
+  createTextField,
+} from './createFields';
 
 export const createLinkItems = (count: number) =>
   Array.from({ length: count }).map((_, i) => ({

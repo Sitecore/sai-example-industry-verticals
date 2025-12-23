@@ -17,7 +17,7 @@ type StoryProps = SelectedDestinationsProps & {
 };
 
 const meta = {
-  title: 'Page Content/Selected Destinations',
+  title: 'Destinations/Selected Destinations',
   component: SelectedDestinationsDefault,
   tags: ['autodocs'],
   argTypes: {
