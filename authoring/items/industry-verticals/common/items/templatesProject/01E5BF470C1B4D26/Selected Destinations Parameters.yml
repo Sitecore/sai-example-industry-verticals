@@ -1,40 +1,37 @@
 ﻿---
-ID: "a6a4a7d3-4017-4996-9264-27b1d3030273"
-Parent: "e00f662d-10e9-4a06-8ee4-72b57a784723"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-<<<<<<<< HEAD:authoring/items/industry-verticals/common/items/templatesProject/industry-verticals/Components/Page Content/Deals/Deal/Data/FeatureImage.yml
-Path: "/sitecore/templates/Project/industry-verticals/Components/Page Content/Deals/Deal/Data/FeatureImage"
-========
-Path: "/sitecore/templates/Project/industry-verticals/Components/Articles/Selected Articles/Selected Articles/Data/Articles"
->>>>>>>> develop:authoring/items/industry-verticals/common/items/templatesProject/industry-verticals/Components/Articles/Selected Articles/Selected Articles/Data/Articles.yml
+ID: "02290180-8aa1-4d4f-b5c5-f97d5a995419"
+Parent: "1d654fc6-b773-40f1-8f87-8bcd71339f54"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Destinations/Selected Destinations/Rendering Parameters/Selected Destinations Parameters"
 SharedFields:
-- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
-  Hint: Source
-  Value: "query:$site/*[@@name='Home']//*[@@templatename='ArticlePage']"
-- ID: "24cb32f0-e364-4f37-b400-0f2899097b5b"
-  Hint: Enable Shared Language Fallback
-  Value: 1
-- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
-  Hint: Type
-  Value: Treelist
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 100
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/32x32/bookmarks.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: |
+    {4247AAD4-EBDE-4994-998F-E067A51B1FE4}
+    {5C74E985-E055-43FF-B28C-DB6C6A6450A2}
+    {44A022DB-56D3-419A-B43B-E27E4D8E9C41}
+    {3DB3EB10-F8D0-4CC9-BE26-18CE7B139EC8}
+- ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
+  Hint: __Read Only
+  Value: 0
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "5acddd92-dfcb-4a50-9177-7f7ca4639614"
+  Value: "812038ba-c8b5-4d52-8c86-59626209c3a1"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{A09C7471-42C5-472C-A2A5-6436EBFB9075}"
 Languages:
 - Language: "de-DE"
   Fields:
-  - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
-    Hint: Title
-    Value: Text
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
     Value: "fe33a5b2-d818-4a43-b817-55c87c9d8a73"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: PromoText
+    Value: Promo
   Versions:
   - Version: 1
     Fields:
@@ -60,54 +57,34 @@ Languages:
       Hint: __Updated
       Value: 20250915T111349Z
 - Language: en
-  Fields:
-  - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
-    Hint: Title
-    Value: Select Articles
-  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
-    Hint: __Unversioned revision
-    Value: "a3d3c1a4-ab9b-49ed-8ddf-e54b882ec9c3"
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20111213T143500
+      Value: 20211012T120926Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-<<<<<<<< HEAD:authoring/items/industry-verticals/common/items/templatesProject/industry-verticals/Components/Page Content/Deals/Deal/Data/FeatureImage.yml
-      Value: "ace43aa0-fe42-4bf2-a856-f746a6e74342"
+      Value: "acaa237a-5ee3-447a-85bc-0521489cab86"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251218T123938Z
-========
-      Value: "ea836c35-0f5f-4917-bf86-6b591a0de5a9"
-    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
-      Hint: __Updated by
-      Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
-    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
-      Hint: __Updated
-      Value: 20251222T092501Z
->>>>>>>> develop:authoring/items/industry-verticals/common/items/templatesProject/industry-verticals/Components/Articles/Selected Articles/Selected Articles/Data/Articles.yml
-    - ID: "fa622538-0c13-4130-a001-45984241aa00"
-      Hint: Enable Language Fallback
-      Value: 1
+      Value: 20251222T115221Z
 - Language: "ja-JP"
   Fields:
-  - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
-    Hint: Title
-    Value: テキスト
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
     Value: "fe33a5b2-d818-4a43-b817-55c87c9d8a73"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: プロモ テキスト
+    Value: プロモ
   Versions:
   - Version: 1
     Fields:
@@ -134,15 +111,12 @@ Languages:
       Value: 20250915T111349Z
 - Language: "zh-CN"
   Fields:
-  - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
-    Hint: Title
-    Value: 文本
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
     Value: "fe33a5b2-d818-4a43-b817-55c87c9d8a73"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: 促销文字
+    Value: 促销
   Versions:
   - Version: 1
     Fields:

@@ -13,7 +13,10 @@ SharedFields:
   Value: 1
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "bac484f9-04f1-4d35-87f5-b68e51eff9c6"
+  Value: "dafe603b-b871-4d0e-b565-064e61651018"
+- ID: "e12195e6-3bcd-4c51-9cd4-3ae3c0779b9f"
+  Hint: Refresh Threshold
+  Value: 0
 - ID: "eb78b584-b22e-47cd-88da-e80d6dbb9238"
   Hint: Generate Alternate Links
   Value: 1
@@ -25,6 +28,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "139eb09e-73c4-4f96-a06b-a8bc050954e4"
+      Hint: Cache Expiration
+      Value: 0
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250820T091628Z
@@ -38,14 +44,14 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d639539d-ff4b-426e-bf0b-188422c90559"
+      Value: "1d491204-bccb-4ebd-a945-d66d10311cce"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251207T235359Z
+      Value: 20251222T130503Z
 - Language: "es-ES"
   Versions:
   - Version: 1
@@ -71,31 +77,6 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251219T104211Z
-- Language: "fr-CA"
-  Versions:
-  - Version: 1
-    Fields:
-    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
-      Hint: __Created
-      Value: 20251217T110011Z
-    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
-      Hint: __Owner
-      Value: |
-        sitecore\isuru.bandara@sitecore.com
-    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
-      Hint: __Created by
-      Value: |
-        sitecore\isuru.bandara@sitecore.com
-    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
-      Hint: __Revision
-      Value: "ad8632b9-4767-45c7-9f3e-c02da24fbbf5"
-    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
-      Hint: __Updated by
-      Value: |
-        sitecore\isuru.bandara@sitecore.com
-    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
-      Hint: __Updated
-      Value: 20251217T110011Z
 - Language: "fr-FR"
   Versions:
   - Version: 1
