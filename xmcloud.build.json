@@ -45,11 +45,13 @@
       "scsModules": {
         "modules": [
           "Project.Retail-Content",
+          "Project.Retail-Media",
           "Project.Healthcare-Content",
+          "Project.Healthcare-Media",
           "Project.Essentials-Content",
           "Project.Essentials-Media",
-          "Project.Healthcare-Media",
-          "Project.Retail-Media"
+          "Project.Travel-Media",
+          "Project.Travel-Media"
         ]
       },
       "warmUpCm": {
