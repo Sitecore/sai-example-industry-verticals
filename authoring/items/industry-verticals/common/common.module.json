@@ -41,6 +41,11 @@
             "path": "/forma-lux",
             "scope": "SingleItem",
             "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "/skywings",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
           }
         ]
       },
