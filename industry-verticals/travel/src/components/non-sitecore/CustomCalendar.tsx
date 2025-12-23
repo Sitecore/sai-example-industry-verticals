@@ -29,7 +29,6 @@ const CustomCalendar: React.FC<CalendarProps> = ({
   dateFormat = 'MMM d, yyyy',
   ...restProps
 }): JSX.Element => {
-  // Wrapper to convert DatePicker's onChange signature to our simpler one
   const handleChange = (date: Date | null) => {
     if (onChange) {
       onChange(date);
