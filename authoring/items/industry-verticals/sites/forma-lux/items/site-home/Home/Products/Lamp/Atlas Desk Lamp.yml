@@ -91,10 +91,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Brighten your workspace with the Atlas Desk Lamp by Forma Lux — an adjustable industrial lamp with pivoting arms that combines precision lighting and sculptural design.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="23514398-863e-49cf-b575-b0d58ed73ff7" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "bc2b0505-d6c2-4e00-bcc5-2813a2c89673"
@@ -147,10 +143,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Ilumina tu espacio de trabajo con la Lámpara de Escritorio Atlas de Forma Lux — una lámpara industrial ajustable con brazos pivotantes que combina iluminación de precisión y diseño escultórico.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="23514398-863e-49cf-b575-b0d58ed73ff7" alt="atlas-desk-lamp-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "c519b8ac-3430-499c-9268-8875e6f31046"
@@ -206,10 +198,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Éclairez votre espace de travail avec la Lampe de Bureau Atlas par Forma Lux — une lampe industrielle réglable avec des bras pivotants qui combine éclairage de précision et design sculptural.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="23514398-863e-49cf-b575-b0d58ed73ff7" alt="lampe-de-bureau-atlas-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "0ebe5d5c-6cb6-4476-b20b-4963fe64bc06"
@@ -265,10 +253,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Éclairez votre espace de travail avec la Lampe de Bureau Atlas par Forma Lux — une lampe industrielle réglable avec bras pivotants qui combine éclairage de précision et design sculptural.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="23514398-863e-49cf-b575-b0d58ed73ff7" alt="atlas-desk-lamp-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "d63a9b02-26bc-4ec1-8bee-56fe0eba9187"

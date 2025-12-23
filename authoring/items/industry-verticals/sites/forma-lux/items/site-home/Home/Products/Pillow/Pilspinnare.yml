@@ -111,10 +111,6 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\ranula.gamage@sitecore.com
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="3b49401c-f84f-47f0-bfb4-cd33f13722cb" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "e6bf65de-f17b-4624-9f85-e7763dec4412"
@@ -209,10 +205,6 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\ranula.gamage@sitecore.com
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="3b49401c-f84f-47f0-bfb4-cd33f13722cb" alt="pilspinnare-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "496cfe71-6736-4ef1-ae35-c0b01c6b1a50"
@@ -278,10 +270,6 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\ranula.gamage@sitecore.com
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="3b49401c-f84f-47f0-bfb4-cd33f13722cb" alt="pilspinnare-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "ca175939-f1d6-481c-ab1c-f00573100abf"

@@ -86,10 +86,6 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="00174816-617e-4e0a-9731-324a67f32945" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "074cc154-61dc-4b64-99a2-c2235504019f"
@@ -142,10 +138,6 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="00174816-617e-4e0a-9731-324a67f32945" alt="nova-pendant-lamp-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "5878f81c-8d70-4aff-a8dd-c98f832e233c"
@@ -201,10 +193,6 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="00174816-617e-4e0a-9731-324a67f32945" alt="nova-pendant-lamp-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "df04f3a3-20dc-4ce5-a688-c5d4ba15b953"
@@ -260,10 +248,6 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="00174816-617e-4e0a-9731-324a67f32945" alt="nova-pendant-lamp-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "b53bfd6e-ddd8-4be8-ae9b-240c73bf83d2"

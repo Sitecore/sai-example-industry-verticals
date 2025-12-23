@@ -10,7 +10,7 @@ SharedFields:
     <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/a40cc117f6bc43b584576379e57d5352?v=0831c28d" dam-id="_6HhKmO1SFWVcvVHiNnphg" width="1024" height="1024" alt="TheLuminaChair.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68204/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "7acc3d58-34d4-45e2-a531-d629ba889134"
+  Value: "c8495907-0401-4df2-92f9-f5e285c3898a"
 Languages:
 - Language: en
   Versions:
@@ -43,14 +43,14 @@ Languages:
       Value: Harmony and Comfort
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "817fa0fc-9e2a-4574-a28d-049c9ca4a0f5"
+      Value: "4ae16fb0-ba25-459f-b67d-1ae3d1fbb780"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251222T103849Z
+      Value: 20251223T145811Z
     - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
       Hint: PromoTitle
       Value: Lumina Chair Majesty

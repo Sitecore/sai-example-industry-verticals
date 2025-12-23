@@ -141,13 +141,13 @@ export default function DestinationCard({ destination }: DestinationCardProps) {
 
         {/* Action Buttons */}
         <div className="flex space-x-2 text-sm 2xl:text-base">
-          <button className="bg-foreground text-background hover:bg-foreground/90 flex-2 rounded-md py-2 font-semibold transition-colors xl:flex-3">
+          <button className="bg-foreground text-background hover:bg-foreground/90 rounded-md py-2 font-semibold transition-colors">
             {t('book_flight') || 'Book Flight'}
           </button>
 
           <Link
             href={destination.url}
-            className="hover:bg-accent-light/20 flex-1 rounded-md border py-2 text-center font-semibold transition-colors"
+            className="hover:bg-accent-light/20 rounded-md border py-2 text-center font-semibold transition-colors"
           >
             {t('learn_more') || 'Learn More'}
           </Link>
