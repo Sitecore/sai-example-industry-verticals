@@ -6,6 +6,7 @@ import { Form } from '@sitecore-content-sdk/nextjs';
 // end of built-in components
 import * as Title from 'src/components/title/Title';
 import * as Subscribe from 'src/components/subscribe/Subscribe';
+import * as SectionWrapper from 'src/components/section-wrapper/SectionWrapper';
 import * as RowSplitter from 'src/components/row-splitter/RowSplitter';
 import * as RichText from 'src/components/rich-text/RichText';
 import * as Promo from 'src/components/promo/Promo';
@@ -15,7 +16,6 @@ import * as Navigation from 'src/components/navigation/Navigation';
 import * as LinkList from 'src/components/link-list/LinkList';
 import * as ItemFinder from 'src/components/item-finder/ItemFinder';
 import * as Image from 'src/components/image/Image';
-import * as HeroBanner from 'src/components/hero-banner/HeroBanner';
 import * as ContentBlock from 'src/components/content-block/ContentBlock';
 import * as Container from 'src/components/container/Container';
 import * as ColumnSplitter from 'src/components/column-splitter/ColumnSplitter';
@@ -26,6 +26,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Form', Form],
   ['Title', { ...Title }],
   ['Subscribe', { ...Subscribe }],
+  ['SectionWrapper', { ...SectionWrapper }],
   ['RowSplitter', { ...RowSplitter }],
   ['RichText', { ...RichText }],
   ['Promo', { ...Promo }],
@@ -35,7 +36,6 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['LinkList', { ...LinkList }],
   ['ItemFinder', { ...ItemFinder, componentType: 'client' }],
   ['Image', { ...Image }],
-  ['HeroBanner', { ...HeroBanner }],
   ['ContentBlock', { ...ContentBlock }],
   ['Container', { ...Container }],
   ['ColumnSplitter', { ...ColumnSplitter }],

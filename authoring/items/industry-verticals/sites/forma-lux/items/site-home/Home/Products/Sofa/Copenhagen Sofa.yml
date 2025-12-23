@@ -107,6 +107,65 @@ Languages:
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
       Value: "Understated and effortlessly elegant, the Copenhagen Sofa embodies the harmony of Scandinavian design and Forma Lux craftsmanship. Its solid oak base anchors a silhouette defined by balance and proportion, while plush linen cushions invite everyday comfort. Perfect for modern living rooms, Copenhagen delivers warmth, simplicity, and natural texture in equal measure. Available in Black and White, this three-seater sofa is a celebration of quiet luxury — designed to age gracefully with the home it completes."
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T130812Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Sofá Copenhague | Forma Lux – Sofá escandinavo de tres plazas con base de roble
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Un sofá de tres plazas con líneas escandinavas limpias.
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Sofá Copenhague, sofá escandinavo, sofá de tres plazas, tapicería de lino, mueble con base de roble, diseño de sofá moderno, tienda Forma Lux, muebles minimalistas
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 899
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Sofá Copenhague
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="2048d46c-43df-4214-a80d-d821ed9fc115" alt="sofa-copenhague-1" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d5f01890-631a-4760-a71c-6f39f8eebcb4"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Sofá Copenhague
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251219T104435Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>El Sofá Copenhague está tapizado en suave tela de lino con una base de roble macizo. Su diseño minimalista y cojines mullidos lo convierten en una pieza versátil para salones modernos.</p>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: Sutil y elegantemente sencillo, el Sofá Copenhague encarna la armonía del diseño escandinavo y la artesanía de Forma Lux. Su base de roble macizo ancla una silueta definida por el equilibrio y la proporción, mientras que los cojines de lino mullidos invitan al confort diario. Perfecto para salones modernos, Copenhague ofrece calidez, simplicidad y textura natural en igual medida. Disponible en negro y blanco, este sofá de tres plazas es una celebración del lujo discreto, diseñado para envejecer con gracia junto al hogar que completa.
 - Language: "fr-CA"
   Versions:
   - Version: 1

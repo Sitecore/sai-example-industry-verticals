@@ -116,6 +116,68 @@ Languages:
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
       Value: Built to last and crafted to inspire play and rest alike, the Aspen Bunk Bed embodies Forma Lux’s philosophy of thoughtful design for modern families. Each frame is shaped from solid pine, offering warm natural grain and dependable structure. Available in Indigo, Black, White, or Gold and in Small and Medium sizes, Aspen pairs function with elevated aesthetics—turning every kids’ room into a timeless, welcoming space that grows with them.
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T130300Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Cama litera Aspen | Forma Lux – Robusta litera de madera para habitaciones infantiles
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Una robusta litera de madera perfecta para habitaciones infantiles.
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Cama litera Aspen, litera de madera, muebles para habitaciones infantiles, cama de madera de pino, muebles de lujo para niños, muebles para habitaciones compartidas, tienda Forma Lux
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 748.99
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Cama Litera Aspen
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: "Descubre la Cama Litera Aspen de Forma Lux: un diseño duradero de madera de pino con acabado natural, barandillas de seguridad y escalera incorporada. La combinación perfecta de artesanía, seguridad y estilo atemporal para habitaciones compartidas o de invitados."
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="b1e0c368-b796-498c-9ced-4cbb32939f67" alt="aspen-bed-1" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "75554f7a-4038-4006-8829-3d6a41a95887"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Cama Litera Aspen
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251219T104426Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>La Cama Litera Aspen está fabricada con madera de pino duradera y acabada en un tono natural. Con barandillas de seguridad y una escalera incorporada, está diseñada tanto para la seguridad como para el estilo. Ideal para habitaciones compartidas o pijamadas.</p>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: Construida para durar y diseñada para inspirar tanto el juego como el descanso, la Cama Litera Aspen encarna la filosofía de Forma Lux de diseño reflexivo para familias modernas. Cada estructura está formada de pino macizo, ofreciendo una cálida veta natural y una estructura confiable. Disponible en Indigo, Negro, Blanco o Dorado y en tamaños Pequeño y Mediano, Aspen combina funcionalidad con estética elevada, convirtiendo cada habitación infantil en un espacio atemporal y acogedor que crece con ellos.
 - Language: "fr-CA"
   Versions:
   - Version: 1

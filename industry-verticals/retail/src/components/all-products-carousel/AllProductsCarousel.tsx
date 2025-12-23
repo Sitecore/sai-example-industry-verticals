@@ -16,10 +16,10 @@ export const Default = ({ params, fields }: ProductCarouselProps) => {
   const { t } = useI18n();
   const id = params.RenderingIdentifier;
   const { items } = fields;
-  const [selectedCategory, setSelectedCategory] = useState<string>('All');
+  const allProductsCategory = t('all_products_category') || 'All';
+  const [selectedCategory, setSelectedCategory] = useState<string>(allProductsCategory);
   const autoPlay = isParamEnabled(params.Autoplay);
   const loop = isParamEnabled(params.Loop);
-  const allProductsCategory = t('all_products_category') || 'All';
 
   // Filter out category items and only keep product items
   const productItems = useMemo(() => {

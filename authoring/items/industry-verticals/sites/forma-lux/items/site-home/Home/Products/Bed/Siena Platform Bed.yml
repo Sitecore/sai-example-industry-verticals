@@ -113,6 +113,68 @@ Languages:
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
       Value: Pure form, honest materials, and enduring comfort define the Siena Platform Bed. With its low silhouette and precise geometry, Siena reflects Forma Lux’s modern aesthetic—elevated simplicity rooted in craftsmanship. The solid wood frame offers structural integrity and elegance, while the slatted base ensures breathable support. Available in Black and in Small, Medium, or Large sizes, Siena transforms minimalist design into a daily ritual of calm and comfort.
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T130117Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Cama Plataforma Siena | Forma Lux – Cama de Madera Minimalista de Perfil Bajo
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Una cama plataforma minimalista con un diseño de perfil bajo
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Cama Plataforma Siena, cama minimalista, cama de perfil bajo, marco de madera maciza, cama plataforma moderna, cama con base de listones, muebles de dormitorio contemporáneos, tienda Forma Lux
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 899.5
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Cama Plataforma Siena
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: Experimenta la simplicidad refinada con la Cama Plataforma Siena de Forma Lux. Fabricada en madera maciza, su diseño minimalista de perfil bajo y base de listones ofrece una forma atemporal y un soporte duradero.
+    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+      Hint: ogImage
+      Value: |
+        <image mediaid="a22a8bae-f510-47b6-9a55-24f9b6d7bb2f" alt="siena-platform-bed" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0ac55856-e379-43e6-913b-3f0a578e6470"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Cama Plataforma Siena
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251219T104426Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>La Cama Plataforma Siena presenta líneas limpias y un marco de madera maciza, lo que la hace ideal para interiores modernos. Su diseño de perfil bajo elimina la necesidad de un somier, mientras que la base de listones proporciona un excelente soporte para el colchón.</p>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: "La forma pura, los materiales honestos y el confort duradero definen la Cama Plataforma Siena. Con su silueta baja y geometría precisa, Siena refleja la estética moderna de Forma Lux: simplicidad elevada arraigada en la artesanía. El marco de madera maciza ofrece integridad estructural y elegancia, mientras que la base de listones asegura un soporte transpirable. Disponible en negro y en tamaños pequeño, mediano o grande, Siena transforma el diseño minimalista en un ritual diario de calma y confort."
 - Language: "fr-CA"
   Versions:
   - Version: 1

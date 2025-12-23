@@ -1,0 +1,15 @@
+.header-block {
+  @apply flex items-center justify-items-start gap-x-6 *:w-auto *:basis-auto;
+}
+
+.drawer-heading {
+  @apply mt-7 mb-18 text-2xl;
+}
+
+.navigation-item {
+  @apply text-foreground hover:text-accent transition-colors hover:no-underline! lg:whitespace-nowrap;
+}
+
+.navigation-item-primary {
+  @apply font-medium in-[.drawer-content]:text-xl;
+}
