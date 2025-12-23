@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
-import { Default as IconLinkList } from '../components/icon-link-list/IconLinkList';
+import { Default as IconLinkList, DynamicList } from '../components/icon-link-list/IconLinkList';
 import { ComponentProps } from 'react';
 import { CommonParams, CommonRendering } from './common/commonData';
 import { createTextField } from './helpers/createFields';
@@ -84,6 +84,30 @@ export const Vertical: Story = {
   render: (args) => {
     return (
       <IconLinkList
+        params={{
+          ...baseParams,
+          styles: `${baseParams.styles} ${args.vertical ? 'list-vertical' : ''}`,
+        }}
+        rendering={baseRendering}
+        fields={createIGQLData({
+          count: args.numberOfItems,
+          createItems: createIconLinkItems,
+          topLevelFields: {
+            title: createTextField('Services'),
+          },
+        }) as unknown as ComponentProps<typeof IconLinkList>['fields']}
+      />
+    );
+  },
+};
+
+export const LucidIcons: Story = {
+  args: {
+    vertical: true,
+  },
+  render: (args) => {
+    return (
+      <DynamicList
         params={{
           ...baseParams,
           styles: `${baseParams.styles} ${args.vertical ? 'list-vertical' : ''}`,

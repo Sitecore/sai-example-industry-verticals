@@ -1,4 +1,4 @@
-import { createIGQLField, createLinkField } from './createFields';
+import { createIGQLField, createImageField, createLinkField } from './createFields';
 
 export const createLinkItems = (count: number) =>
   Array.from({ length: count }).map((_, i) => ({
@@ -15,11 +15,15 @@ export const createIconLinkItems = (count: number) =>
 
     return {
       id: `iconlink-${i}`,
-      link: createIGQLField(createLinkField(texts[i % texts.length])),
+      link: createIGQLField(
+        createLinkField(texts[i % texts.length])
+      ),
       iconName: {
         jsonValue: {
           value: icons[i % icons.length],
         },
       },
+      iconImage: {
+        jsonValue: createImageField('logo')},
     };
   });
