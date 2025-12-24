@@ -6,7 +6,7 @@ import { Form } from '@sitecore-content-sdk/nextjs';
 // end of built-in components
 import * as Title from 'src/components/title/Title';
 import * as Subscribe from 'src/components/subscribe/Subscribe';
-import * as SocialFollow from 'src/components/social-follow/SocialFollow';
+import * as SelectedDestinations from 'src/components/selected-destinations/SelectedDestinations';
 import * as SectionWrapper from 'src/components/section-wrapper/SectionWrapper';
 import * as RowSplitter from 'src/components/row-splitter/RowSplitter';
 import * as RichText from 'src/components/rich-text/RichText';
@@ -18,6 +18,7 @@ import * as LinkList from 'src/components/link-list/LinkList';
 import * as Image from 'src/components/image/Image';
 import * as Header from 'src/components/header/Header';
 import * as Features from 'src/components/features/Features';
+import * as DestinationListing from 'src/components/destination-listing/DestinationListing';
 import * as DestinationDetails from 'src/components/destination-details/DestinationDetails';
 import * as Deals from 'src/components/deals/Deals';
 import * as ContentBlock from 'src/components/content-block/ContentBlock';
@@ -31,7 +32,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Form', Form],
   ['Title', { ...Title }],
   ['Subscribe', { ...Subscribe }],
-  ['SocialFollow', { ...SocialFollow }],
+  ['SelectedDestinations', { ...SelectedDestinations, componentType: 'client' }],
   ['SectionWrapper', { ...SectionWrapper }],
   ['RowSplitter', { ...RowSplitter }],
   ['RichText', { ...RichText }],
@@ -43,6 +44,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Image', { ...Image }],
   ['Header', { ...Header, componentType: 'client' }],
   ['Features', { ...Features }],
+  ['DestinationListing', { ...DestinationListing, componentType: 'client' }],
   ['DestinationDetails', { ...DestinationDetails }],
   ['Deals', { ...Deals }],
   ['ContentBlock', { ...ContentBlock }],
