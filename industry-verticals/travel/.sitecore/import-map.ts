@@ -7,12 +7,12 @@ import {
 } from '@sitecore-content-sdk/nextjs/codegen';
 // end of built-in imports
 
-import { Link, Text, useSitecore, RichText, NextImage, Placeholder, CdpHelper, withDatasourceCheck, DateField } from '@sitecore-content-sdk/nextjs';
+import { Link, Text, useSitecore, RichText, NextImage, Placeholder, Image, CdpHelper, withDatasourceCheck, DateField } from '@sitecore-content-sdk/nextjs';
 import { useState, useRef, useMemo, useEffect } from 'react';
 import React from 'react';
 import { useI18n } from 'next-localization';
+import { Facebook, Twitter, Youtube, Instagram, Linkedin, ArrowRight, Share2, ArrowLeft, Phone, Plane, Bed, Camera, Navigation, CalendarDays, Clock, MapPin, Star, Thermometer, X, Menu, Heart, Calendar } from 'lucide-react';
 import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
-import { ArrowRight, Share2, ArrowLeft, Phone, Plane, Bed, Camera, Navigation, CalendarDays, Clock, MapPin, Star, Thermometer, X, Menu, Heart } from 'lucide-react';
 import { LayoutStyles, PromoFlags, TitleSectionFlags } from '@/types/styleFlags';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/shadcn/components/ui/dropdown-menu';
 import { EmailIcon, EmailShareButton, FacebookIcon, FacebookShareButton, LinkedinIcon, LinkedinShareButton, PinterestIcon, PinterestShareButton, TwitterIcon, TwitterShareButton } from 'react-share';
@@ -51,6 +51,7 @@ const importMap = [
       { name: 'RichText', value: RichText },
       { name: 'NextImage', value: NextImage },
       { name: 'Placeholder', value: Placeholder },
+      { name: 'Image', value: Image },
       { name: 'CdpHelper', value: CdpHelper },
       { name: 'withDatasourceCheck', value: withDatasourceCheck },
       { name: 'DateField', value: DateField },
@@ -73,14 +74,13 @@ const importMap = [
     ]
   },
   {
-    module: 'next/link',
-    exports: [
-      { name: 'default', value: Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 },
-    ]
-  },
-  {
     module: 'lucide-react',
     exports: [
+      { name: 'Facebook', value: Facebook },
+      { name: 'Twitter', value: Twitter },
+      { name: 'Youtube', value: Youtube },
+      { name: 'Instagram', value: Instagram },
+      { name: 'Linkedin', value: Linkedin },
       { name: 'ArrowRight', value: ArrowRight },
       { name: 'Share2', value: Share2 },
       { name: 'ArrowLeft', value: ArrowLeft },
@@ -97,6 +97,13 @@ const importMap = [
       { name: 'X', value: X },
       { name: 'Menu', value: Menu },
       { name: 'Heart', value: Heart },
+      { name: 'Calendar', value: Calendar },
+    ]
+  },
+  {
+    module: 'next/link',
+    exports: [
+      { name: 'default', value: Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 },
     ]
   },
   {
