@@ -65,12 +65,11 @@ const Footer = (props: FooterProps): JSX.Element => {
   return (
     <div className={`bg-foreground py-12 text-white ${sxaStyles}`} id={id}>
       <div className="container mx-auto">
-        
         {/* content section */}
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           {/* footer content data */}
           <div>
-            <div className="flex space-x-2 mb-4 max-w-40">
+            <div className="mb-4 flex max-w-40 space-x-2">
               <ContentSdkImage field={props.fields.Logo} />
             </div>
             <div className="**:text-accent-gray mb-4">
@@ -82,31 +81,31 @@ const Footer = (props: FooterProps): JSX.Element => {
           {/* footer link lists */}
           {sections.map(({ key, title, content }) => (
             <div key={key}>
-              <div className="text-lg font-semibold mb-4">{title}</div>
+              <div className="mb-4 text-lg font-semibold">{title}</div>
               <div>{content}</div>
             </div>
           ))}
         </div>
 
         {/* seperator */}
-        <hr className="my-8 bg-foreground-light" />
+        <hr className="bg-foreground-light my-8" />
 
         {/* copyright section */}
         <div className="flex flex-col items-center justify-between md:flex-row">
-          <p className="text-sm text-accent-gray">
+          <p className="text-accent-gray text-sm">
             <ContentSdkText field={props.fields.CopyrightText} />
           </p>
           <div className="mt-4 flex justify-between gap-6 md:mt-0">
             <ContentSdkLink
-              className="text-sm text-accent-gray hover:text-white"
+              className="text-accent-gray text-sm hover:text-white"
               field={props.fields.PolicyText}
             />
             <ContentSdkLink
-              className="text-sm text-accent-gray hover:text-white"
+              className="text-accent-gray text-sm hover:text-white"
               field={props.fields.TermsText}
             />
             <ContentSdkLink
-              className="text-sm text-accent-gray hover:text-white"
+              className="text-accent-gray text-sm hover:text-white"
               field={props.fields.CookiesText}
             />
           </div>

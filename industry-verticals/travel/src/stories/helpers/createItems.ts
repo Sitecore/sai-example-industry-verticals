@@ -23,16 +23,15 @@ export const createIconLinkItems = (count: number) =>
 
     return {
       id: `iconlink-${i}`,
-      link: createIGQLField(
-        createLinkField(texts[i % texts.length])
-      ),
+      link: createIGQLField(createLinkField(texts[i % texts.length])),
       iconName: {
         jsonValue: {
           value: icons[i % icons.length],
         },
       },
       iconImage: {
-        jsonValue: createImageField('logo')},
+        jsonValue: createImageField('logo'),
+      },
     };
   });
 

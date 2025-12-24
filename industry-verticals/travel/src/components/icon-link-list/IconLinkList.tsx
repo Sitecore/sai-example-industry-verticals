@@ -10,6 +10,9 @@ import {
 } from '@sitecore-content-sdk/nextjs';
 import { IGQLImageField, IGQLLinkField, IGQLTextField } from '@/types/igql';
 import * as LucidIcons from 'lucide-react';
+import type { ComponentType } from 'react';
+
+type LucideIcon = ComponentType<LucidIcons.LucideProps>;
 
 interface IconLink {
   iconName: IGQLTextField;
@@ -56,17 +59,13 @@ const ListItem = ({
     .filter(Boolean)
     .join(' ');
 
-    const IconComponent = iconName ? (LucidIcons as any)[iconName] : undefined;
+  const icons = LucidIcons as unknown as Record<string, LucideIcon>;
+  const IconComponent = iconName ? icons[iconName] : undefined;
 
   return (
     <li className={classNames}>
       <div className="field-link flex items-center space-x-3">
-        {iconField?.value && (
-          <ContentSdkImage
-            field={iconField}
-            className="icon w-5 h-5"
-          />
-        )}
+        {iconField?.value && <ContentSdkImage field={iconField} className="icon h-5 w-5" />}
         <div className="text-accent-midlight">{IconComponent && <IconComponent size={20} />}</div>
         <ContentSdkLink field={field} />
       </div>
