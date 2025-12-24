@@ -18,7 +18,7 @@ SharedFields:
     <image mediaid="{83E047CE-4388-4F9C-A397-2C25785A25E4}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "6b5b3e84-d293-4b4b-9029-b02999ab4854"
+  Value: "ab846392-e2c4-4887-b154-525c4e8a6b45"
 Languages:
 - Language: en
   Fields:
@@ -65,17 +65,17 @@ Languages:
       Value: Learn how to select the ideal modern sofa for your home. Explore tips on size, configuration, fabric choices, and styling with pillows, throws, and coffee tables to make your sofa the design hero.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e294c672-dc8e-4355-965a-48050e3a8bdd"
+      Value: "8003bea6-bbfe-4fb0-9389-e40282087462"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "Lounge in Style: Choosing the Right Modern Sofa for Your Space"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251217T153125Z
+      Value: 20251223T145810Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: "Lounge in Style: Choosing the Right Modern Sofa for Your Space"
@@ -145,6 +145,69 @@ Languages:
     - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
       Hint: metadataKeywords
       Value: diseño de sofá moderno, guía de tamaños de sofá, ideas de configuración de sofá, consejos para sofá seccional, diseño de sofá único, diseño de dos sofás enfrentados, sofás de tela de alto rendimiento, sofá de cuero de plena flor, materiales de sofá atemporales, estilo de sofá de perfil bajo, diseño de sofá de brazos limpios, base expuesta de sofá, asientos modernos para sala de estar, consejos de estilo para sofá, cojines de textura contrastante, mantas decorativas para sofás, combinación de mesa de centro moderna, ideas de distribución de sala de estar, concepto de sofá héroe del diseño, tendencias de sofá contemporáneo
+- Language: "fr-CA"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "b17167ee-e519-4817-a11c-ef23492926be"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Détendez-vous avec style : Choisir le bon canapé moderne pour votre espace"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: Apprenez à sélectionner le canapé moderne idéal pour votre maison. Découvrez des conseils sur la taille, la configuration, les choix de tissus et le style avec des coussins, des plaids et des tables basses pour faire de votre canapé le héros du design.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T084006Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Sélectionner le canapé parfait
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p><span style="background-color:rgb(255,255,255);color:rgb(80,80,80);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:Manrope, sans-serif;font-size:18px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Le canapé ancre l'espace de vie—alors faites-le bien. Commencez par la taille : laissez au moins 30”-36” derrière s'il est contre un mur, et dégagez les passages autour. Décidez de la configuration : canapé simple, deux canapés face à face, sectionnel... selon votre style de vie. La sélection du tissu est essentielle—tissus performants pour les familles, cuir pleine fleur pour l'intemporalité. Le style moderne privilégie un profil bas, des accoudoirs épurés et une base ou des pieds apparents. Ensuite, superposez : quelques coussins en texture contrastante, un plaid pour la chaleur, une table basse pour compléter la région. Avec des choix réfléchis, votre canapé devient non seulement un siège—mais le héros du design.</span></span></p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: De l'échelle au tissu, voici comment faire le bon choix de canapé.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: Apprenez à sélectionner le canapé moderne idéal pour votre maison. Découvrez des conseils sur la taille, la configuration, les choix de tissus et le style avec des coussins, des plaids et des tables basses pour faire de votre canapé le héros du design.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f35af039-d5da-4a16-af45-8f9eae37d383"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "Détendez-vous avec style : Choisir le bon canapé moderne pour votre espace"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T110138Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: "Détendez-vous avec style : Choisir le bon canapé moderne pour votre espace"
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: design de canapé moderne, guide des tailles de canapé, idées de configuration de canapé, conseils pour canapé sectionnel, disposition de canapé simple, design de deux canapés face à face, canapés en tissu performant, canapé en cuir pleine fleur, matériaux de canapé intemporels, style de canapé à profil bas, design de canapé à accoudoirs épurés, base de canapé apparente, sièges de salon modernes, conseils de style pour canapé, coussins en texture contrastante, plaids décoratifs pour canapés, association de table basse moderne, idées de disposition de salon, concept de canapé héros du design, tendances de canapé contemporain
 - Language: "fr-FR"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
