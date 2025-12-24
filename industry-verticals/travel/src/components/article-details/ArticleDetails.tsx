@@ -57,9 +57,6 @@ export const Default = ({ params, fields, rendering }: ArticleDetailsProps) => {
   const fullWidthPlaceholderKey = `article-details-full-width-${DynamicPlaceholderId}`;
   const isPageEditing = page.mode.isEditing;
 
-  console.log(fields);
-  console.log(fields.Category?.fields?.Category);
-
   if (!fields) {
     return isPageEditing ? (
       <div className={`component article-details ${styles}`} id={id}>
@@ -97,7 +94,7 @@ export const Default = ({ params, fields, rendering }: ArticleDetailsProps) => {
             </div>
 
             {/* Meta data Section */}
-            <div className="mb-6 flex flex-wrap items-center gap-6 text-sm text-gray-500">
+            <div className="mb-6 flex flex-wrap items-center gap-6 text-sm text-foreground-muted">
               <div className="flex items-center space-x-2">
                 <ContentSdkImage
                   field={fields?.Author?.fields?.Avatar}
