@@ -83,35 +83,38 @@ export const Default = (props: DealsProps) => {
               validity?.value;
 
             return (
-              <div
-                key={index}
-                className={`flex flex-col rounded-lg transition-colors ${
-                  hasContent || isPageEditing ? 'border-accent-light border-2' : ''
-                }`}
-              >
-                <div className="flex min-h-24 items-start justify-between gap-6 p-4">
-                  <h3 className="flex-1 text-xl font-bold">
-                    <Text field={title} />
-                  </h3>
-                  {(offer?.value || isPageEditing) && (
-                    <span className="bg-danger text-background self-start rounded px-2 py-1 text-base font-semibold">
-                      <Text field={offer} />
-                    </span>
-                  )}
-                </div>
+              (hasContent || isPageEditing) && (
+                <div
+                  key={index}
+                  className="border-accent-light flex flex-col rounded-lg border-2 transition-colors"
+                >
+                  <div className="flex min-h-24 items-start justify-between gap-6 p-4">
+                    <h3 className="flex-1 text-xl font-bold">
+                      <Text field={title} />
+                    </h3>
 
-                <div className="flex flex-1 flex-col p-4 pt-0">
-                  <p className="mb-4">
-                    <Text field={description} />
-                  </p>
-                  <p className="text-accent mb-4 text-sm font-medium">
-                    <Text field={validity} />
-                  </p>
-                  <div className="bg-foreground text-background mt-auto w-full rounded-md py-2 text-center transition hover:opacity-90">
-                    <Link field={link} />
+                    {(offer?.value || isPageEditing) && (
+                      <span className="bg-danger text-background self-start rounded px-2 py-1 text-base font-semibold">
+                        <Text field={offer} />
+                      </span>
+                    )}
+                  </div>
+
+                  <div className="flex flex-1 flex-col p-4 pt-0">
+                    <p className="mb-4">
+                      <Text field={description} />
+                    </p>
+
+                    <p className="text-accent mb-4 text-sm font-medium">
+                      <Text field={validity} />
+                    </p>
+
+                    <div className="bg-foreground text-background mt-auto w-full rounded-md py-2 text-center transition hover:opacity-90">
+                      <Link field={link} />
+                    </div>
                   </div>
                 </div>
-              </div>
+              )
             );
           })}
         </div>

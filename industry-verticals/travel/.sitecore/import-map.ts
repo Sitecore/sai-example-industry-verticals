@@ -7,16 +7,15 @@ import {
 } from '@sitecore-content-sdk/nextjs/codegen';
 // end of built-in imports
 
-import { Link, Text, useSitecore, RichText, Placeholder, NextImage, Image, CdpHelper, withDatasourceCheck } from '@sitecore-content-sdk/nextjs';
-import { useState, useRef, useEffect } from 'react';
+import { Link, Text, useSitecore, RichText, NextImage, Placeholder, CdpHelper, withDatasourceCheck } from '@sitecore-content-sdk/nextjs';
+import { useState, useRef, useMemo, useEffect } from 'react';
 import React from 'react';
 import { useI18n } from 'next-localization';
-import { Facebook, Twitter, Youtube, Instagram, Share2, ArrowLeft, Phone, Plane, Bed, Camera, Navigation, X, Menu, Heart, Star } from 'lucide-react';
-import * as LucidIcons from 'lucide-react';
-import { LayoutStyles, PromoFlags } from '@/types/styleFlags';
+import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
+import { ArrowRight, Share2, ArrowLeft, Phone, Plane, Bed, Camera, Navigation, CalendarDays, Clock, MapPin, Star, Thermometer, X, Menu, Heart } from 'lucide-react';
+import { LayoutStyles, PromoFlags, TitleSectionFlags } from '@/types/styleFlags';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/shadcn/components/ui/dropdown-menu';
 import { EmailIcon, EmailShareButton, FacebookIcon, FacebookShareButton, LinkedinIcon, LinkedinShareButton, PinterestIcon, PinterestShareButton, TwitterIcon, TwitterShareButton } from 'react-share';
-import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/shadcn/components/ui/tabs';
 import { useClickAway } from '@/hooks/useClickAway';
@@ -26,6 +25,7 @@ import { getLinkContent, getLinkField, isNavLevel, isNavRootItem, prepareFields 
 import clsx from 'clsx';
 import { isParamEnabled } from '@/helpers/isParamEnabled';
 import { Drawer, DrawerTrigger, DrawerContent, DrawerClose } from '@/shadcn/components/ui/drawer';
+import DestinationCard from 'src/components/non-sitecore/DestinationCard';
 import Head from 'next/head';
 import SocialShare from 'src/components/non-sitecore/SocialShare';
 import { DestinationHighlights } from 'src/components/non-sitecore/DestinationHighlights';
@@ -47,9 +47,8 @@ const importMap = [
       { name: 'Text', value: Text },
       { name: 'useSitecore', value: useSitecore },
       { name: 'RichText', value: RichText },
-      { name: 'Placeholder', value: Placeholder },
       { name: 'NextImage', value: NextImage },
-      { name: 'Image', value: Image },
+      { name: 'Placeholder', value: Placeholder },
       { name: 'CdpHelper', value: CdpHelper },
       { name: 'withDatasourceCheck', value: withDatasourceCheck },
     ]
@@ -59,6 +58,7 @@ const importMap = [
     exports: [
       { name: 'useState', value: useState },
       { name: 'useRef', value: useRef },
+      { name: 'useMemo', value: useMemo },
       { name: 'useEffect', value: useEffect },
       { name: 'default', value: React },
     ]
@@ -70,12 +70,15 @@ const importMap = [
     ]
   },
   {
+    module: 'next/link',
+    exports: [
+      { name: 'default', value: Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 },
+    ]
+  },
+  {
     module: 'lucide-react',
     exports: [
-      { name: 'Facebook', value: Facebook },
-      { name: 'Twitter', value: Twitter },
-      { name: 'Youtube', value: Youtube },
-      { name: 'Instagram', value: Instagram },
+      { name: 'ArrowRight', value: ArrowRight },
       { name: 'Share2', value: Share2 },
       { name: 'ArrowLeft', value: ArrowLeft },
       { name: 'Phone', value: Phone },
@@ -83,11 +86,14 @@ const importMap = [
       { name: 'Bed', value: Bed },
       { name: 'Camera', value: Camera },
       { name: 'Navigation', value: Navigation },
+      { name: 'CalendarDays', value: CalendarDays },
+      { name: 'Clock', value: Clock },
+      { name: 'MapPin', value: MapPin },
+      { name: 'Star', value: Star },
+      { name: 'Thermometer', value: Thermometer },
       { name: 'X', value: X },
       { name: 'Menu', value: Menu },
       { name: 'Heart', value: Heart },
-      { name: 'Star', value: Star },
-      { name: '*', value: LucidIcons },
     ]
   },
   {
@@ -95,6 +101,7 @@ const importMap = [
     exports: [
       { name: 'LayoutStyles', value: LayoutStyles },
       { name: 'PromoFlags', value: PromoFlags },
+      { name: 'TitleSectionFlags', value: TitleSectionFlags },
     ]
   },
   {
@@ -119,12 +126,6 @@ const importMap = [
       { name: 'PinterestShareButton', value: PinterestShareButton },
       { name: 'TwitterIcon', value: TwitterIcon },
       { name: 'TwitterShareButton', value: TwitterShareButton },
-    ]
-  },
-  {
-    module: 'next/link',
-    exports: [
-      { name: 'default', value: Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 },
     ]
   },
   {
@@ -189,6 +190,12 @@ const importMap = [
       { name: 'DrawerTrigger', value: DrawerTrigger },
       { name: 'DrawerContent', value: DrawerContent },
       { name: 'DrawerClose', value: DrawerClose },
+    ]
+  },
+  {
+    module: 'src/components/non-sitecore/DestinationCard',
+    exports: [
+      { name: 'default', value: DestinationCard },
     ]
   },
   {
