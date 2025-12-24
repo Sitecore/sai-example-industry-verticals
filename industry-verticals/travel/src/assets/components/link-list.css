@@ -9,7 +9,7 @@
   }
 
   ul {
-    @apply flex flex-row flex-wrap gap-2 text-accent-gray;
+    @apply text-accent-gray flex flex-row flex-wrap gap-2;
   }
 
   a:hover {

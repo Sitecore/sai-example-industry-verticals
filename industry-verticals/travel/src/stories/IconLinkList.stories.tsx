@@ -65,13 +65,15 @@ export const Default: Story = {
           styles: `${baseParams.styles} ${args.vertical ? 'list-vertical' : ''}`,
         }}
         rendering={baseRendering}
-        fields={createIGQLData({
-          count: args.numberOfItems,
-          createItems: createIconLinkItems,
-          topLevelFields: {
-            title: createTextField('Services'),
-          },
-        }) as unknown as ComponentProps<typeof IconLinkList>['fields']}
+        fields={
+          createIGQLData({
+            count: args.numberOfItems,
+            createItems: createIconLinkItems,
+            topLevelFields: {
+              title: createTextField('Services'),
+            },
+          }) as unknown as ComponentProps<typeof IconLinkList>['fields']
+        }
       />
     );
   },
@@ -89,13 +91,15 @@ export const Vertical: Story = {
           styles: `${baseParams.styles} ${args.vertical ? 'list-vertical' : ''}`,
         }}
         rendering={baseRendering}
-        fields={createIGQLData({
-          count: args.numberOfItems,
-          createItems: createIconLinkItems,
-          topLevelFields: {
-            title: createTextField('Services'),
-          },
-        }) as unknown as ComponentProps<typeof IconLinkList>['fields']}
+        fields={
+          createIGQLData({
+            count: args.numberOfItems,
+            createItems: createIconLinkItems,
+            topLevelFields: {
+              title: createTextField('Services'),
+            },
+          }) as unknown as ComponentProps<typeof IconLinkList>['fields']
+        }
       />
     );
   },
@@ -113,13 +117,15 @@ export const LucidIcons: Story = {
           styles: `${baseParams.styles} ${args.vertical ? 'list-vertical' : ''}`,
         }}
         rendering={baseRendering}
-        fields={createIGQLData({
-          count: args.numberOfItems,
-          createItems: createIconLinkItems,
-          topLevelFields: {
-            title: createTextField('Services'),
-          },
-        }) as unknown as ComponentProps<typeof IconLinkList>['fields']}
+        fields={
+          createIGQLData({
+            count: args.numberOfItems,
+            createItems: createIconLinkItems,
+            topLevelFields: {
+              title: createTextField('Services'),
+            },
+          }) as unknown as ComponentProps<typeof IconLinkList>['fields']
+        }
       />
     );
   },
