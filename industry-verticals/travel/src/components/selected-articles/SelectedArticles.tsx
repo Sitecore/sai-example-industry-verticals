@@ -41,7 +41,7 @@ export const Default = (props: CarouselProps) => {
             <h2 className="mb-4">
               <ContentSdkText field={props.fields.Title} />
             </h2>
-            <p className="text-foreground-light text-xl line-clamp-2">
+            <p className="text-foreground-light line-clamp-2 text-xl">
               <ContentSdkRichText field={props.fields.Description} />
             </p>
           </div>
