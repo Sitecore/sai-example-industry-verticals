@@ -28,7 +28,7 @@ SharedFields:
     <image mediaid="{1265691C-6EE9-49B3-8131-FDEA5E9EE0F7}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "24eb817a-0138-4fd1-b536-42aea015aa22"
+  Value: "ff282f6b-f89e-49b0-a6a4-01fdcc27610d"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -215,17 +215,17 @@ Languages:
       Value: "Explore Forma Lux’s luxurious furniture collections: heritage craftsmanship meets modern, sustainable design for elegant living spaces."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "afa8f89e-1fe7-4d9b-a201-1bdda7e518a3"
+      Value: "04971112-2622-4406-a56c-000bf609992f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
       Hint: pageSummary
       Value: Forma Lux unites artisan heritage with contemporary design to create modular, sustainable furniture for elegant, livable spaces.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251217T150948Z
+      Value: 20251223T145809Z
 - Language: "es-ES"
   Versions:
   - Version: 1

@@ -18,7 +18,7 @@ SharedFields:
     <image mediaid="{F4B3408A-B7DF-42A0-9923-748A90067F37}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "94d5ad91-dbf0-41a5-a882-e0ddcbb0c132"
+  Value: "c9a43a5e-3744-407a-92e9-2d0d115e11e6"
 Languages:
 - Language: en
   Fields:
@@ -65,17 +65,17 @@ Languages:
       Value: "So you’ve got a living room that works—but doesn’t inspire. That changes today. Start by choosing one standout piece—maybe a sleek sectional in a bold color or an architectural coffee table with clean lines. Let that piece drive your palette. Then layer in contrast: soft textiles, sculptural accessories, a geometric rug. Balance is key: pair warm wood tones with cool metal finishes; mix high gloss with matte surfaces. And don’t forget scale—large furniture invites comfort, but open space keeps things airy. Finally, personalize: add a meaningful object, an unusual art piece, or a plant with character. The result? A living space that reflects your style and makes you feel modern."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0b6372c5-c52c-4b29-b59a-1b50992dd4a6"
+      Value: "9147583a-de3b-42dd-b359-078009dede39"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "From Blank Slate to Bold Space: How to Kick-Off Your Modern Living Room Makeover"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251217T153055Z
+      Value: 20251223T145810Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: "From Blank Slate to Bold Space: How to Kick-Off Your Modern Living Room Makeover"
@@ -147,6 +147,71 @@ Languages:
     - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
       Hint: metadataKeywords
       Value: sala de estar moderna, muebles modernos, diseño de sala de estar, decoración del hogar, inspiración de diseño de interiores, sofá seccional elegante, paleta de colores audaz, mesa de centro arquitectónica, líneas limpias, alfombra geométrica, accesorios escultóricos, textiles suaves, tonos de madera cálidos, acabados metálicos fríos, superficies de alto brillo, superficies mate, equilibrio de muebles, capas de texturas, decoración llamativa, estilo de hogar personalizado, espacio de vida contemporáneo, diseño de habitación aireada
+- Language: "fr-CA"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "c3cf2709-520b-43a4-82d6-b1b03f4fc076"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: De l'ardoise vierge à l'espace audacieux Comment démarrer la transformation de votre salon moderne
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: "Vous avez un salon qui fonctionne, mais qui n'inspire pas. Cela change aujourd'hui. Commencez par choisir une pièce maîtresse - peut-être un canapé d'angle élégant dans une couleur audacieuse ou une table basse architecturale aux lignes épurées. Laissez cette pièce guider votre palette. Ensuite, superposez les contrastes : textiles doux, accessoires sculpturaux, tapis géométrique. L'équilibre est essentiel : associez des tons de bois chauds à des finitions métalliques froides ; mélangez des surfaces brillantes avec des surfaces mates. Et n'oubliez pas l'échelle - de grands meubles invitent au confort, mais un espace ouvert garde les choses aérées. Enfin, personnalisez : ajoutez un objet significatif, une œuvre d'art inhabituelle ou une plante avec du caractère. Le résultat ? Un espace de vie qui reflète votre style et vous fait sentir moderne."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251128T084006Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Sélectionner le canapé parfait
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p><span style="background-color:rgb(255,255,255);color:rgb(80,80,80);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:Manrope, sans-serif;font-size:18px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Vous avez un salon qui fonctionne, mais qui n'inspire pas. Cela change aujourd'hui. Commencez par choisir une pièce maîtresse - peut-être un canapé d'angle élégant dans une couleur audacieuse ou une table basse architecturale aux lignes épurées. Laissez cette pièce guider votre palette. Ensuite, superposez les contrastes : textiles doux, accessoires sculpturaux, tapis géométrique. L'équilibre est essentiel : associez des tons de bois chauds à des finitions métalliques froides ; mélangez des surfaces brillantes avec des surfaces mates. Et n'oubliez pas l'échelle - de grands meubles invitent au confort, mais un espace ouvert garde les choses aérées. Enfin, personnalisez : ajoutez un objet significatif, une œuvre d'art inhabituelle ou une plante avec du caractère. Le résultat ? Un espace de vie qui reflète votre style et vous fait </span></span><em style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);border:0px solid rgb(232, 232, 232);box-sizing:border-box;color:rgb(80, 80, 80);font-family:Manrope, sans-serif;font-size:18px;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;max-width:100%;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;" data-start="1248" data-end="1254"><em>sentir</em></em><span style="background-color:rgb(255,255,255);color:rgb(80,80,80);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:Manrope, sans-serif;font-size:18px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;"> moderne.</span></span></p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: |
+        Transformez une pièce neutre et fatiguée en un havre moderne et soigné avec quelques gestes intelligents.
+        
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: "Vous avez un salon qui fonctionne, mais qui n'inspire pas. Cela change aujourd'hui. Commencez par choisir une pièce maîtresse - peut-être un canapé d'angle élégant dans une couleur audacieuse ou une table basse architecturale aux lignes épurées. Laissez cette pièce guider votre palette. Ensuite, superposez les contrastes : textiles doux, accessoires sculpturaux, tapis géométrique. L'équilibre est essentiel : associez des tons de bois chauds à des finitions métalliques froides ; mélangez des surfaces brillantes avec des surfaces mates. Et n'oubliez pas l'échelle - de grands meubles invitent au confort, mais un espace ouvert garde les choses aérées. Enfin, personnalisez : ajoutez un objet significatif, une œuvre d'art inhabituelle ou une plante avec du caractère. Le résultat ? Un espace de vie qui reflète votre style et vous fait sentir moderne."
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b4aff518-edb7-4c9f-8226-f608e4da4664"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "De l'ardoise vierge à l'espace audacieux : Comment démarrer la transformation de votre salon moderne"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T110138Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: "De l'ardoise vierge à l'espace audacieux : Comment démarrer la transformation de votre salon moderne"
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: salon moderne, mobilier moderne, design de salon, décoration intérieure, inspiration de design intérieur, canapé d'angle élégant, palette de couleurs audacieuses, table basse architecturale, lignes épurées, tapis géométrique, accessoires sculpturaux, textiles doux, tons de bois chauds, finitions métalliques froides, surfaces brillantes, surfaces mates, équilibre du mobilier, superposition de textures, décoration de caractère, style de maison personnalisé, espace de vie contemporain, design de pièce aérée
 - Language: "fr-FR"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

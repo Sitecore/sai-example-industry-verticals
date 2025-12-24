@@ -6,16 +6,16 @@ Path: "/sitecore/templates/Project/industry-verticals/Components/Destinations/Se
 SharedFields:
 - ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
   Hint: Source
-  Value: "query:$xaRichTextProfile"
+  Value: 
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: Rich Text
+  Value: "Multi-Line Text"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 300
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "466fc47c-b797-401d-a4b3-c210813fc962"
+  Value: "db678a50-10ec-452e-9d81-5b74f3a1d70b"
 Languages:
 - Language: en
   Fields:
@@ -41,11 +41,11 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7beca907-aa6b-4e67-b95b-4bfd822525d6"
+      Value: "fc558455-4be7-4877-bca2-9c10e0f65bad"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251222T125344Z
+      Value: 20251222T131620Z
