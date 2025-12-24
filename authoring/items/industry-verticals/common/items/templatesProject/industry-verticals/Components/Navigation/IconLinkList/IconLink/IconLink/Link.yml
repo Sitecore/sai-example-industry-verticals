@@ -68,14 +68,14 @@ Languages:
       Value: 20111206T110700
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "066306ca-ddb1-4b47-a921-33c07f4487aa"
+      Value: "bc94b524-7a34-49f2-a879-d5e974f91d55"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251216T054827Z
+      Value: 20251223T100330Z
     - ID: "fa622538-0c13-4130-a001-45984241aa00"
       Hint: Enable Language Fallback
       Value: 1
