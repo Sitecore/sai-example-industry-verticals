@@ -92,10 +92,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Illuminate your space with the Orion Floor Lamp by Forma Lux – a tall, sleek metal design with an adjustable head that provides focused light for reading or relaxation.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="28d22a05-db68-4315-a155-ef51922ef528" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "0be6ebe2-99b5-4e0b-8346-349da1405255"
@@ -151,10 +147,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: "Ilumina tu espacio con la Lámpara de Pie Orion de Forma Lux: un diseño alto y elegante de metal con un cabezal ajustable que proporciona luz focalizada para leer o relajarse."
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="28d22a05-db68-4315-a155-ef51922ef528" alt="orion-floor-lamp-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "4f5034ec-07b2-4253-b91b-3d8ef7683c1c"
@@ -213,10 +205,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Illuminez votre espace avec la Lampe de Plancher Orion par Forma Lux – un design métallique haut et élégant avec une tête réglable qui fournit une lumière ciblée pour la lecture ou la détente.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="28d22a05-db68-4315-a155-ef51922ef528" alt="orion-floor-lamp-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "6f0c5c56-7d0e-46b0-b343-1da93c769de9"
@@ -275,10 +263,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Illuminez votre espace avec la lampe de sol Orion de Forma Lux – un design métallique haut et élégant avec une tête réglable qui fournit une lumière ciblée pour la lecture ou la détente.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="28d22a05-db68-4315-a155-ef51922ef528" alt="orion-floor-lamp-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "03db7f24-b3cd-4fa1-8c9e-b63768ccc317"

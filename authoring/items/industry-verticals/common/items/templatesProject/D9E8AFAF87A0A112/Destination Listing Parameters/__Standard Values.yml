@@ -1,8 +1,8 @@
 ﻿---
-ID: "965fb147-c589-4fb6-922f-c03896810e57"
-Parent: "055dea01-e9fb-4077-8011-de3aff17c27f"
-Template: "055dea01-e9fb-4077-8011-de3aff17c27f"
-Path: "/sitecore/templates/Project/industry-verticals/Rendering Parameters/IconLinkList Parameters/__Standard Values"
+ID: "170c57a3-ec55-4515-aa22-5a366c61790f"
+Parent: "d152bca4-9b1b-4316-ab22-3e8c0f9dd45e"
+Template: "d152bca4-9b1b-4316-ab22-3e8c0f9dd45e"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Destinations/Destination Listing/Rendering Parameters/Destination Listing Parameters/__Standard Values"
 Languages:
 - Language: en
   Versions:
@@ -17,11 +17,11 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b3b915d2-04e4-4289-9003-739bf2f6a49a"
+      Value: "5b93f928-16d3-4206-bf1e-803cf1776f87"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251215T170003Z
+      Value: 20251223T104207Z

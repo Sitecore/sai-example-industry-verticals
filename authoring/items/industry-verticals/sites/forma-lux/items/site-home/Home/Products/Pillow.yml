@@ -14,7 +14,7 @@ SharedFields:
     <image mediaid="{00FC395A-2254-4EF5-9698-2477824A3512}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "058b08a9-3609-4ae0-8408-6b6fe454c677"
+  Value: "e5ee59ae-c442-4656-b6e7-7980e4b715fd"
 Languages:
 - Language: en
   Versions:
@@ -51,17 +51,17 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3af21d25-b942-44c0-92d9-d08be19be2f9"
+      Value: "e2a7ce1d-299e-4bc2-aa64-f8d3878fb8c8"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "ca87ddf9-ad6a-47ad-aaea-f411377684a1"
       Hint: metadataDescription
       Value: Discover pillows that combine comfort and design. Soft textures, timeless colors, and simple forms come together to add depth and warmth to any living space.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251217T151521Z
+      Value: 20251223T145809Z
     - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
       Hint: CategoryName
       Value: Pillow

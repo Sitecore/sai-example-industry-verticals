@@ -160,10 +160,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: The Asgaard Sofa by Forma Lux combines modern modular design with artisan craftsmanship. Elegant lines, premium materials, and deep comfort make it the centerpiece of any contemporary living space.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/31a316d620ad4889be07b6fcd53b0a01?v=cf5479b9" dam-id="vt1PtpUmQSaBu8nyn2lncA" width="4024" height="3270" alt="Asgaard sofa 3.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66860/thumbnail" />
     - ID: "67259fe9-9fcd-46f4-b330-5865618a3b8c"
       Hint: Width
       Value: 265.32 cm
@@ -302,10 +298,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: El Sofá Asgaard de Forma Lux combina un diseño modular moderno con artesanía artesanal. Líneas elegantes, materiales de primera calidad y una comodidad profunda lo convierten en el centro de cualquier espacio de vida contemporáneo.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/31a316d620ad4889be07b6fcd53b0a01?v=cf5479b9" dam-id="vt1PtpUmQSaBu8nyn2lncA" width="4024" height="3270" alt="Asgaard sofa 3.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66860/thumbnail" />
     - ID: "67259fe9-9fcd-46f4-b330-5865618a3b8c"
       Hint: Width
       Value: 265,32 cm
@@ -415,10 +407,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Le sofa Asgaard de Forma Lux combine un design modulaire moderne avec un artisanat d'artisan. Des lignes élégantes, des matériaux de qualité supérieure et un confort profond en font le point central de tout espace de vie contemporain.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="34259610-0d61-4e86-8f34-5e5c1a3ff065" alt="asgaard-sofa-1" />
     - ID: "67259fe9-9fcd-46f4-b330-5865618a3b8c"
       Hint: Width
       Value: 265,32 cm
