@@ -1,18 +1,8 @@
 ﻿---
-ID: "60c9d163-2898-49e3-a3b4-60f8e743062a"
-Parent: "1d615f60-76ec-49c6-b111-3b99a61766d0"
-Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
-Path: "/sitecore/layout/Renderings/Project/industry-verticals/Search/SearchResults"
-SharedFields:
-- ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
-  Hint: componentName
-  Value: SearchResults
-- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
-  Hint: __Icon
-  Value: Office/32x32/magnifying_glass.png
-- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
-  Hint: __Shared revision
-  Value: "2c389d64-17b1-47eb-ad53-de38ff9f96da"
+ID: "ef73f52f-360a-43c4-be74-79710f8d74d8"
+Parent: "4e5ef9cc-8cd0-41e1-8190-71d91f75e901"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: "/sitecore/media library/Project/industry-verticals/skywings/System/5"
 Languages:
 - Language: en
   Versions:
@@ -20,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20251217T130913Z
+      Value: 20251224T140540Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -31,11 +21,11 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "eaee237f-9d97-4438-9c7b-e182da5587ed"
+      Value: "28844194-3618-447c-93bf-2078de1c7e28"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251224T140046Z
+      Value: 20251224T140540Z
