@@ -11,6 +11,9 @@ import {
 } from '@sitecore-content-sdk/nextjs';
 import { Article } from '@/types/article';
 import { newsDateFormatter } from '@/helpers/dateHelper';
+import { ArrowRight } from 'lucide-react';
+import Link from 'next/link';
+import { useI18n } from 'next-localization';
 
 interface Fields {
   Title: Field<string>;
@@ -24,6 +27,7 @@ export type CarouselProps = ComponentProps & {
 };
 
 export const Default = (props: CarouselProps) => {
+  const { t } = useI18n();
   const id = props.params.RenderingIdentifier;
   const styles = props.params.styles || [];
   const articles = props.fields?.Articles || [];
@@ -37,19 +41,19 @@ export const Default = (props: CarouselProps) => {
             <h2 className="mb-4">
               <ContentSdkText field={props.fields.Title} />
             </h2>
-            <p>
+            <p className="text-foreground-light text-xl line-clamp-2">
               <ContentSdkRichText field={props.fields.Description} />
             </p>
           </div>
         </div>
 
-        {/* carousel section */}
+        {/* article list section */}
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
           {articles.map((article, index) => {
             return (
-              <div className="info-card flex h-full flex-col !px-0" key={index}>
+              <div className="info-card flex h-full flex-col overflow-hidden p-0!" key={index}>
                 <div className="relative shrink-0">
-                  <p className="bg-accent absolute top-4 left-4 z-10 max-w-max rounded px-2 py-1 text-xs text-white">
+                  <p className="bg-accent text-background absolute top-4 left-4 z-10 max-w-max rounded px-2 py-1 text-xs">
                     <ContentSdkText field={article.fields.Category.fields.Category} />
                   </p>
                   <ContentSdkImage
@@ -82,12 +86,13 @@ export const Default = (props: CarouselProps) => {
                         <ContentSdkText field={article.fields.ReadTime} />
                       </p>
                       <p className="text-accent font-semibold">
-                        <ContentSdkLink
-                          field={article.fields.ReadMoreLink}
-                          className="text-accent inline-flex items-center gap-2 font-semibold after:content-['→']"
+                        <Link
+                          href={article.url}
+                          className="text-accent inline-flex items-center text-sm font-medium transition-colors"
                         >
-                          <span>{article.fields.ReadMoreLink.value.text}</span>
-                        </ContentSdkLink>
+                          {t('read_more') || 'Read More'}
+                          <ArrowRight className="h-4 w-5" />
+                        </Link>
                       </p>
                     </div>
                   </div>

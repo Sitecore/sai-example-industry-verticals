@@ -35,7 +35,6 @@ export const createMockArticles = (count: number) =>
         },
       },
       ReadTime: createTextField(`${5 + i} min read`),
-      ReadMoreLink: createLinkField(`Read more`),
       Author: {
         id: `author-${i}`,
         name: `author-${i}`,
