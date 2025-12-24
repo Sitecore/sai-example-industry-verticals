@@ -88,10 +88,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: The Havana Rocking Chair by Forma Lux blends classic craftsmanship with contemporary style. Made from solid teak wood and featuring plush cushions, it offers comfort and elegance in any room.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="b12fc9fc-a7a5-4ada-aba4-fc5a693afb27" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "33db449e-a469-448a-96c2-dd2e99c20f7a"
@@ -147,10 +143,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: La Mecedora Havana de Forma Lux combina la artesanía clásica con un estilo contemporáneo. Hecha de madera de teca maciza y con cojines mullidos, ofrece comodidad y elegancia en cualquier habitación.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="b12fc9fc-a7a5-4ada-aba4-fc5a693afb27" alt="mecedora-havana-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "3d3effbb-23c3-4ab2-ab82-fbeec7ad42fd"
@@ -209,10 +201,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: La chaise berçante Havana de Forma Lux allie l'artisanat classique au style contemporain. Fabriquée en bois de teck massif et dotée de coussins moelleux, elle offre confort et élégance dans n'importe quelle pièce.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="b12fc9fc-a7a5-4ada-aba4-fc5a693afb27" alt="chaise-bercante-havana-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "a9630ca2-c234-4915-a7a7-4747ac62dd7d"
@@ -271,10 +259,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Le fauteuil à bascule Havana de Forma Lux allie artisanat classique et style contemporain. Fabriqué en bois de teck massif et doté de coussins moelleux, il offre confort et élégance dans n'importe quelle pièce.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="b12fc9fc-a7a5-4ada-aba4-fc5a693afb27" alt="havana-rocking-chair-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "4d02ba26-ad63-4883-9aa3-048e8184d677"

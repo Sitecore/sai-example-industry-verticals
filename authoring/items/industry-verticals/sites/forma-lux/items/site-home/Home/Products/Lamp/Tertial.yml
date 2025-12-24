@@ -84,10 +84,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Discover the Tertial Lamp by Forma Lux — a modern adjustable lamp with a sleek silhouette, designed for precision lighting and timeless style in any room.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="bb7b4b43-7e13-4e4c-830d-6e2a1b7fea5f" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "af369493-7001-401f-8e7a-8fd548810034"
@@ -144,10 +140,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: "Descubre la Lámpara Tertial de Forma Lux: una lámpara moderna ajustable con una silueta elegante, diseñada para una iluminación precisa y un estilo atemporal en cualquier habitación."
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="bb7b4b43-7e13-4e4c-830d-6e2a1b7fea5f" alt="tertial-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "b9f7fcd0-99c7-43d3-bcd9-e6b945661fbb"
@@ -207,10 +199,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Découvrez la Lampe Tertial de Forma Lux — une lampe moderne ajustable avec une silhouette élégante, conçue pour un éclairage de précision et un style intemporel dans n'importe quelle pièce.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="bb7b4b43-7e13-4e4c-830d-6e2a1b7fea5f" alt="tertial-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "eb002147-6767-41f4-ad4a-03cdc8072e15"
@@ -270,10 +258,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Découvrez la Lampe Tertial de Forma Lux — une lampe moderne réglable avec une silhouette élégante, conçue pour un éclairage de précision et un style intemporel dans n'importe quelle pièce.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="bb7b4b43-7e13-4e4c-830d-6e2a1b7fea5f" alt="tertial-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "ba720909-7920-4580-8415-2f2213689b87"

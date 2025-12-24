@@ -109,10 +109,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: The Sakarias Armchair by Forma Lux combines contemporary design with plush comfort. Its sleek silhouette, premium upholstery, and sturdy frame create a sophisticated seating experience for any home.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="82b66367-0640-42fa-ac54-164898c35b94" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "f6d379d0-1110-49ab-98c6-4b8b8db2f3be"
@@ -210,10 +206,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: El Sillón Sakarias de Forma Lux combina diseño contemporáneo con comodidad lujosa. Su silueta elegante, tapicería de primera calidad y estructura resistente crean una experiencia de asiento sofisticada para cualquier hogar.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="82b66367-0640-42fa-ac54-164898c35b94" alt="sakarias-armchair-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "1bb7a5a5-6a71-4162-ada5-ec7c3afc2a8b"
@@ -282,10 +274,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Le fauteuil Sakarias de Forma Lux combine un design contemporain avec un confort moelleux. Sa silhouette épurée, son revêtement de qualité supérieure et son cadre robuste créent une expérience d'assise sophistiquée pour toute maison.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="82b66367-0640-42fa-ac54-164898c35b94" alt="fauteuil-sakarias-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "499c2c91-139f-4067-b3a1-87bbe9f738cd"

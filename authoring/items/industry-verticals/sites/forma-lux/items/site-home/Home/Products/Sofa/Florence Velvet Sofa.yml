@@ -90,10 +90,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: The Florence Velvet Sofa by Forma Lux brings refined luxury to modern interiors. Featuring deep tufting, rolled arms, and rich velvet upholstery, it’s a timeless statement of comfort and sophistication.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="1c61dd7f-3f6b-4aef-b89d-a1f26c77e446" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "8f813dac-19ff-4aa7-8ebe-d5177f5eb788"
@@ -146,10 +142,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: El Sofá de Terciopelo Florence de Forma Lux aporta lujo refinado a los interiores modernos. Con un profundo capitoné, brazos enrollados y una rica tapicería de terciopelo, es una declaración atemporal de comodidad y sofisticación.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="1c61dd7f-3f6b-4aef-b89d-a1f26c77e446" alt="sofa-terciopelo-florence-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "17d6ac92-07b7-4dca-8523-8289b3c3a143"
@@ -205,10 +197,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Le sofa en velours Florence de Forma Lux apporte un luxe raffiné aux intérieurs modernes. Doté de capitonnage profond, d'accoudoirs roulés et d'un riche revêtement en velours, c'est une déclaration intemporelle de confort et de sophistication.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="1c61dd7f-3f6b-4aef-b89d-a1f26c77e446" alt="sofa-en-velours-florence-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "7ea8672e-c8fa-4235-81da-f54f752bb480"
@@ -264,10 +252,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Le canapé en velours Florence de Forma Lux apporte un luxe raffiné aux intérieurs modernes. Doté de capitonnage profond, d'accoudoirs roulés et d'un riche revêtement en velours, c'est une déclaration intemporelle de confort et de sophistication.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="1c61dd7f-3f6b-4aef-b89d-a1f26c77e446" alt="florence-velvet-sofa-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "f695a49f-9c59-47c2-a409-e8dba3b1e766"

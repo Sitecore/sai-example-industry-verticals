@@ -88,10 +88,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: "The Capri Table Lamp by Forma Lux features a hand-glazed ceramic base and neutral linen shade — a versatile lighting piece that adds warmth and elegance to any room."
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="242eb51b-97aa-45ec-a103-ee881b93b790" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "06b89697-de5e-4071-bb31-f7b2f8da9510"
@@ -147,10 +143,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: La Lámpara de Mesa Capri de Forma Lux presenta una base de cerámica esmaltada a mano y una pantalla de lino neutra, una pieza de iluminación versátil que añade calidez y elegancia a cualquier habitación.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="242eb51b-97aa-45ec-a103-ee881b93b790" alt="capr-table-lamp-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "0bff4931-6ce0-4080-b9c4-80730998be98"
@@ -209,10 +201,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: "La Lampe de Table Capri par Forma Lux présente une base en céramique émaillée à la main et un abat-jour en lin neutre — une pièce d'éclairage polyvalente qui ajoute chaleur et élégance à n'importe quelle pièce."
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="242eb51b-97aa-45ec-a103-ee881b93b790" alt="lampe-de-table-capri-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "bc8ee315-8a32-4ed0-b438-a02da4cf4e4c"
@@ -271,10 +259,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: "La Lampe de Table Capri par Forma Lux présente une base en céramique émaillée à la main et un abat-jour en lin neutre — une pièce d'éclairage polyvalente qui ajoute chaleur et élégance à n'importe quelle pièce."
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="242eb51b-97aa-45ec-a103-ee881b93b790" alt="capr-table-lamp-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "d071c4ea-85f6-4f5a-84ed-bbf7e59bb27b"

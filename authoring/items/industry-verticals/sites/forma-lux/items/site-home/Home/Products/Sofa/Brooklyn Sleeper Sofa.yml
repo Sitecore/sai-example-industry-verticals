@@ -85,10 +85,6 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="7143ce2d-5fa6-4c30-bcd3-ac5375185602" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "04b7c4d4-d865-407a-bb0e-410f169c575f"
@@ -141,10 +137,6 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="7143ce2d-5fa6-4c30-bcd3-ac5375185602" alt="sofá-cama-brooklyn" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "40df7e4d-2055-411d-9f7e-07251df853c7"
@@ -200,10 +192,6 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="7143ce2d-5fa6-4c30-bcd3-ac5375185602" alt="canapé-lit-brooklyn" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "30b9c169-601b-451d-92dd-0eaab323f41a"
@@ -259,10 +247,6 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="7143ce2d-5fa6-4c30-bcd3-ac5375185602" alt="canapé-lit-brooklyn" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "f47e739c-253a-4f6c-9b49-49f6bfda895a"
