@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, JSX } from 'react';
+import React, { useState, useMemo, JSX } from 'react';
 import { Field, useSitecore } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from '@/lib/component-props';
 import { useI18n } from 'next-localization';
@@ -27,7 +27,6 @@ export const Simple = ({ params, fields }: ItemFinderProps): JSX.Element => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Handle search logic here
-    console.log('Searching for:', searchQuery);
   };
 
   if (!fields && !isPageEditing) {
@@ -76,24 +75,28 @@ export const Large = ({ params, fields }: ItemFinderProps): JSX.Element => {
   const [passengers, setPassengers] = useState(1);
   const [showPassengerDropdown, setShowPassengerDropdown] = useState(false);
 
-  const passengerOptions = [
-    { label: '1 Adult', value: 1 },
-    { label: '2 Adults', value: 2 },
-    { label: '3 Adults', value: 3 },
-    { label: '4+ Adults', value: 4 },
-  ];
+  const passengerOptions = useMemo(
+    () => [
+      { label: t('1adult') || '1 Adult', value: 1 },
+      { label: t('2adults') || '2 Adults', value: 2 },
+      { label: t('3adults'), value: 3 },
+      { label: t('4adults') || '4 Adults', value: 4 },
+    ],
+    [t]
+  );
+
+  const tripTypeOptions = useMemo(
+    () => [
+      { value: 'round-trip' as const, dictKey: 'round_trip_label', defaultLabel: 'Round Trip' },
+      { value: 'one-way' as const, dictKey: 'one_way_label', defaultLabel: 'One Way' },
+      { value: 'multi-city' as const, dictKey: 'multi_city_label', defaultLabel: 'Multi-city' },
+    ],
+    []
+  );
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Handle flight search logic here
-    console.log('Searching flights:', {
-      tripType,
-      from,
-      to,
-      departureDate,
-      returnDate,
-      passengers,
-    });
   };
 
   if (!fields && !isPageEditing) {
@@ -113,39 +116,20 @@ export const Large = ({ params, fields }: ItemFinderProps): JSX.Element => {
           <div className="flight-booking-card w-full rounded-xl p-6 shadow-xl">
             {/* Trip Type Selection */}
             <div className="mb-6 flex gap-2">
-              <button
-                type="button"
-                onClick={() => setTripType('round-trip')}
-                className={`trip-type-btn border-border rounded-md border px-2.5 py-1.5 text-sm font-medium transition-all ${
-                  tripType === 'round-trip'
-                    ? 'bg-foreground text-background border-foreground shadow-sm'
-                    : 'text-foreground-muted hover:bg-background-muted hover:border-foreground-muted bg-transparent'
-                }`}
-              >
-                {t('round_trip_label') || 'Round Trip'}
-              </button>
-              <button
-                type="button"
-                onClick={() => setTripType('one-way')}
-                className={`trip-type-btn border-border rounded-md border px-2.5 py-1.5 text-sm font-medium transition-all ${
-                  tripType === 'one-way'
-                    ? 'bg-foreground text-background border-foreground shadow-sm'
-                    : 'text-foreground-muted hover:bg-background-muted hover:border-foreground-muted bg-transparent'
-                }`}
-              >
-                {t('one_way_label') || 'One Way'}
-              </button>
-              <button
-                type="button"
-                onClick={() => setTripType('multi-city')}
-                className={`trip-type-btn border-border rounded-md border px-2.5 py-1.5 text-sm font-medium transition-all ${
-                  tripType === 'multi-city'
-                    ? 'bg-foreground text-background border-foreground shadow-sm'
-                    : 'text-foreground-muted hover:bg-background-muted hover:border-foreground-muted bg-transparent'
-                }`}
-              >
-                {t('multi_city_label') || 'Multi-city'}
-              </button>
+              {tripTypeOptions.map((option) => (
+                <button
+                  key={option.value}
+                  type="button"
+                  onClick={() => setTripType(option.value)}
+                  className={`trip-type-btn border-border rounded-md border px-2.5 py-1.5 text-sm font-medium transition-all ${
+                    tripType === option.value
+                      ? 'bg-foreground text-background border-foreground shadow-sm'
+                      : 'text-foreground-muted hover:bg-background-muted hover:border-foreground-muted bg-transparent'
+                  }`}
+                >
+                  {t(option.dictKey) || option.defaultLabel}
+                </button>
+              ))}
             </div>
 
             {/* Input Fields Grid */}
@@ -230,7 +214,9 @@ export const Large = ({ params, fields }: ItemFinderProps): JSX.Element => {
                     onClick={() => setShowPassengerDropdown(!showPassengerDropdown)}
                     className="flight-input border-border text-foreground focus:border-accent focus:ring-accent/20 focus:bg-background w-full rounded-lg border bg-transparent py-2 pr-8 pl-9 text-left text-sm focus:ring-2 focus:outline-none"
                   >
-                    {passengerOptions.find((opt) => opt.value === passengers)?.label || '1 Adult'}
+                    {passengerOptions.find((opt) => opt.value === passengers)?.label ||
+                      t('1adult') ||
+                      '1 Adult'}
                   </button>
                   <div className="text-foreground-muted pointer-events-none absolute top-1/2 right-3 z-10 -translate-y-1/2">
                     <ChevronDown size={16} />
@@ -288,4 +274,3 @@ export const Large = ({ params, fields }: ItemFinderProps): JSX.Element => {
 
 // Default variant - uses Simple
 export const Default = Simple;
-
