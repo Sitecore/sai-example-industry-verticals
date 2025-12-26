@@ -122,20 +122,17 @@ export const Default = (props: ArticleListingProps) => {
 
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {filteredArticles.map((article, index) => (
-            <div
-              className="info-card flex h-full flex-col overflow-hidden p-0!"
-              key={index}
-            >
+            <div className="info-card flex h-full flex-col overflow-hidden p-0!" key={index}>
               {/* upper section */}
               <div className="group relative">
                 <ContentSdkImage
-                  field={article.fields.Image}
+                  field={article?.fields?.Image}
                   width={400}
                   height={300}
                   className="h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />
                 <p className="bg-accent absolute top-4 left-4 z-10 max-w-max rounded px-2 py-1 text-xs text-white">
-                  <ContentSdkText field={article.fields.Category.fields.Category} />
+                  <ContentSdkText field={article?.fields?.Category?.fields?.Category} />
                 </p>
               </div>
               <div className="flex flex-1 flex-col gap-2 p-6">
@@ -145,14 +142,14 @@ export const Default = (props: ArticleListingProps) => {
                     <div className="flex items-center space-x-1">
                       <User className="h-3 w-3" />
                       <span>
-                        <ContentSdkText field={article.fields.Author.fields.AuthorName} />
+                        <ContentSdkText field={article?.fields?.Author?.fields?.AuthorName} />
                       </span>
                     </div>
                     <div className="flex items-center space-x-1">
                       <Calendar className="h-3 w-3" />
                       <span>
                         <DateField
-                          field={article.fields.PublishedDate}
+                          field={article?.fields?.PublishedDate}
                           render={newsDateFormatter}
                         />
                       </span>
@@ -160,21 +157,21 @@ export const Default = (props: ArticleListingProps) => {
                     <div className="flex items-center space-x-1">
                       <Clock className="h-3 w-3" />
                       <span>
-                        <ContentSdkText field={article.fields.ReadTime} />
+                        <ContentSdkText field={article?.fields?.ReadTime} />
                       </span>
                     </div>
                   </div>
                   <h3 className="text-foreground mb-2 line-clamp-2 text-lg font-semibold">
-                    <ContentSdkText field={article.fields.Title} />
+                    <ContentSdkText field={article?.fields?.Title} />
                   </h3>
                   <div className="text-foreground-muted mb-4 line-clamp-3 text-sm">
-                    <ContentSdkRichText field={article.fields.ShortDescription} />
+                    <ContentSdkRichText field={article?.fields?.ShortDescription} />
                   </div>
                 </div>
                 {/* card cta section */}
                 <div className="mt-auto flex items-center justify-between">
                   {
-                    <Link href={article.url}>
+                    <Link href={article?.url}>
                       <button className="simple-btn">{t('read_more') || 'Read More'}</button>
                     </Link>
                   }
