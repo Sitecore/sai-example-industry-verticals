@@ -7,7 +7,6 @@ import {
   RichText as ContentSdkRichText,
   NextImage as ContentSdkImage,
   Text as ContentSdkText,
-  Link as ContentSdkLink,
   DateField,
   TextField,
   LinkField,
@@ -72,8 +71,10 @@ export const Default = (props: ArticleListingProps) => {
     });
   }, [props.fields.items, selectedCategory]);
 
+  console.log(props);
+
   return (
-    <section className={`bg-gray-50 py-8 ${sxaStyles}`} id={id}>
+    <section className={`bg-background-muted py-8 ${sxaStyles}`} id={id}>
       <div className="container mx-auto px-4">
         {/* Category Filter */}
         <div className="mx-auto mb-16 flex flex-wrap justify-center gap-2">
@@ -93,15 +94,15 @@ export const Default = (props: ArticleListingProps) => {
         </div>
 
         <div className="mb-8">
-          <h2 className="mb-2 text-2xl font-bold text-gray-900">
+          <h2 className="mb-2 text-2xl font-bold text-foreground">
             {t('title') || 'Latest Articles'}
           </h2>
-          <p className="text-gray-600">{t('description') || 'Fresh travel inspiration and tips'}</p>
+          <p className="text-foreground-muted">{t('description') || 'Fresh travel inspiration and tips'}</p>
         </div>
 
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {filteredArticles.map((article, index) => (
-            <div className="info-card flex h-full flex-col px-0!" key={index}>
+            <div className="info-card flex h-full flex-col p-0! overflow-hidden" key={index}>
               {/* upper section */}
               <div className="relative">
                 <ContentSdkImage
@@ -117,7 +118,7 @@ export const Default = (props: ArticleListingProps) => {
               <div className="flex flex-1 flex-col gap-2 p-6">
                 {/* content section */}
                 <div className="">
-                  <div className="mb-3 flex items-center space-x-4 text-sm text-gray-500">
+                  <div className="mb-3 flex items-center space-x-4 text-sm text-accent-gray">
                     <div className="flex items-center space-x-1">
                       <User className="h-3 w-3" />
                       <span>
@@ -140,27 +141,29 @@ export const Default = (props: ArticleListingProps) => {
                       </span>
                     </div>
                   </div>
-                  <h3 className="mb-2 line-clamp-2 text-lg font-semibold text-gray-900">
+                  <h3 className="mb-2 line-clamp-2 text-lg font-semibold text-foreground">
                     <ContentSdkText field={article.fields.Title} />
                   </h3>
-                  <div className="mb-4 line-clamp-3 text-sm text-gray-600">
+                  <div className="mb-4 line-clamp-3 text-sm text-foreground-muted">
                     <ContentSdkRichText field={article.fields.ShortDescription} />
                   </div>
                 </div>
                 {/* card cta section */}
                 <div className="mt-auto flex items-center justify-between">
-                  <Link href={article.url}>
-                    <button className="simple-btn">
-                      <ContentSdkLink field={article.fields.ReadMoreLink} />
-                    </button>
-                  </Link>
+                  {
+                    <Link href={article.url}>
+                      <button className="simple-btn">
+                        {t('read_more') || 'Read More'}
+                      </button>
+                    </Link>
+                  }
                   <div className="flex items-center space-x-1">
                     <button
                       type="button"
                       role="presentation"
                       aria-hidden="true"
                       tabIndex={-1}
-                      className="bg-primary text-primary-foreground hover:bg-primary/90 items-center justify-center rounded-md p-2 transition-all outline-none hover:bg-gray-100"
+                      className="bg-primary text-primary-foreground hover:bg-primary/90 items-center justify-center rounded-md p-2 transition-all outline-none hover:bg-background-surface"
                     >
                       <Heart className="h-4 w-4" />
                     </button>
@@ -169,7 +172,7 @@ export const Default = (props: ArticleListingProps) => {
                       role="presentation"
                       aria-hidden="true"
                       tabIndex={-1}
-                      className="bg-primary text-primary-foreground hover:bg-primary/90 items-center justify-center rounded-md p-2 transition-all outline-none hover:bg-gray-100"
+                      className="bg-primary text-primary-foreground hover:bg-primary/90 items-center justify-center rounded-md p-2 transition-all outline-none hover:bg-background-surface"
                     >
                       <Share2 className="h-4 w-4" />
                     </button>
