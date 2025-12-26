@@ -38,7 +38,7 @@
     }
   },
   "deployItems": {
-    "modules": ["Project.IndustryVerticles"]
+    "modules": ["Project.IndustryVerticals"]
   },
   "postActions": {
     "actions": {
@@ -51,7 +51,7 @@
           "Project.Essentials-Content",
           "Project.Essentials-Media",
           "Project.Travel-Media",
-          "Project.Travel-Media"
+          "Project.Travel-Content"
         ]
       },
       "warmUpCm": {

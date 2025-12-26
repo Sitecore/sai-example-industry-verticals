@@ -1,6 +1,6 @@
 {
   "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
-  "namespace": "Project.IndustryVerticles",
+  "namespace": "Project.IndustryVerticals",
   "items": {
     "includes": [
       {
