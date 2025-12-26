@@ -7,7 +7,7 @@ SharedFields:
 - ID: "01ea8292-a476-44b5-b883-8841134989ba"
   Hint: Image5
   Value: |
-    <image mediaid="e6b176e0-831b-40e5-8825-98584f41209a" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/79556-HomepagePromoCTAs-1100x740?v=2f5c8118" dam-id="MekujoXCQhefmMUrDCfvkw" width="1100" height="740" alt="unsplash_h2_3dL9yLpU.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79556/thumbnail" />
 - ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
   Hint: Tags
   Value: "{7AFDCBA4-D6AA-4AF4-9CE8-C404256E7702}"
@@ -29,7 +29,7 @@ SharedFields:
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <image mediaid="3b49401c-f84f-47f0-bfb4-cd33f13722cb" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c4d4a93fc7924cff9b9ff3b63bf3791a?v=e31e1096" dam-id="q3dLvWH8TyWWkX-AdXVqvA" width="3469" height="3079" alt="pilspinnare-1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79571/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -39,7 +39,7 @@ SharedFields:
   Value: "{95692043-DF4D-4E60-9271-511BE5096297}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "de7dd8bf-2aea-43f2-8f72-efd182cc7437"
+  Value: "7f7f84d0-42f3-4bd7-a7c8-e38747a653d7"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -113,17 +113,17 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e6bf65de-f17b-4624-9f85-e7763dec4412"
+      Value: "7ebab417-ed5c-4d59-a82c-90826e6e2b4e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Pilspinnare
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251210T080049Z
+      Value: 20251226T151552Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: "<p>Discover unparalleled comfort with our premium soft cotton pillow. Each pillow is meticulously crafted with a generous filling composed of 90% high-quality feathers, designed to gently contour to the unique shape of your head and neck. This ensures that you achieve a genuinely restful and uninterrupted sleep.&nbsp;</p><p>The use of breathable materials in its design guarantees exceptional air circulation, keeping the pillow cool and offering a refreshing sleep environment all night long. Tailored with a low loft, this pillow provides ideal support, particularly for stomach sleepers who seek maximum comfort without any added strain on their neck or spine.</p>"
