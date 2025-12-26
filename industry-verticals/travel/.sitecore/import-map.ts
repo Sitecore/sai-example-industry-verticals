@@ -13,7 +13,7 @@ import React from 'react';
 import { useI18n } from 'next-localization';
 import { LayoutStyles, PromoFlags } from '@/types/styleFlags';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/shadcn/components/ui/dropdown-menu';
-import { Share2, ArrowLeft, Phone, Plane, Bed, Camera, Navigation, Calendar, ChevronLeft, ChevronRight, X, Search, MapPin, Users, ChevronDown, Check, Menu, Heart, Star } from 'lucide-react';
+import { Share2, ArrowLeft, Phone, Plane, Bed, Camera, Navigation, X, Search, MapPin, Users, ChevronDown, Check, Menu, Heart, Star } from 'lucide-react';
 import { EmailIcon, EmailShareButton, FacebookIcon, FacebookShareButton, LinkedinIcon, LinkedinShareButton, PinterestIcon, PinterestShareButton, TwitterIcon, TwitterShareButton } from 'react-share';
 import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -95,9 +95,6 @@ const importMap = [
       { name: 'Bed', value: Bed },
       { name: 'Camera', value: Camera },
       { name: 'Navigation', value: Navigation },
-      { name: 'Calendar', value: Calendar },
-      { name: 'ChevronLeft', value: ChevronLeft },
-      { name: 'ChevronRight', value: ChevronRight },
       { name: 'X', value: X },
       { name: 'Search', value: Search },
       { name: 'MapPin', value: MapPin },

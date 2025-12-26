@@ -127,4 +127,3 @@ export const CenteredLarge = ({ params, fields, rendering }: HeroBannerProps) =>
     </div>
   );
 };
-

@@ -16,6 +16,7 @@ import * as Navigation from 'src/components/navigation/Navigation';
 import * as LinkList from 'src/components/link-list/LinkList';
 import * as ItemFinder from 'src/components/item-finder/ItemFinder';
 import * as Image from 'src/components/image/Image';
+import * as HeroBanner from 'src/components/hero-banner/HeroBanner';
 import * as Header from 'src/components/header/Header';
 import * as Features from 'src/components/features/Features';
 import * as DestinationDetails from 'src/components/destination-details/DestinationDetails';
@@ -23,7 +24,6 @@ import * as Deals from 'src/components/deals/Deals';
 import * as ContentBlock from 'src/components/content-block/ContentBlock';
 import * as Container from 'src/components/container/Container';
 import * as ColumnSplitter from 'src/components/column-splitter/ColumnSplitter';
-import * as HeroBanner from 'src/components/hero-banner/HeroBanner';
 
 export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['BYOCWrapper', BYOCWrapper],
@@ -41,6 +41,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['LinkList', { ...LinkList }],
   ['ItemFinder', { ...ItemFinder, componentType: 'client' }],
   ['Image', { ...Image }],
+  ['HeroBanner', { ...HeroBanner }],
   ['Header', { ...Header, componentType: 'client' }],
   ['Features', { ...Features }],
   ['DestinationDetails', { ...DestinationDetails }],
@@ -48,7 +49,6 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['ContentBlock', { ...ContentBlock }],
   ['Container', { ...Container }],
   ['ColumnSplitter', { ...ColumnSplitter }],
-  ['HeroBanner', { ...HeroBanner }],
 ]);
 
 export default componentMap;

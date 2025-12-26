@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 import {
   Default as ItemFinder,
-  Simple,
+  Medium as MediumComponent,
   Large as LargeComponent,
 } from '../components/item-finder/ItemFinder';
 import { ComponentProps } from 'react';
@@ -45,7 +45,24 @@ export const Default: Story = {
     };
 
     return (
-      <Simple
+      <ItemFinder
+        params={baseParams}
+        fields={fields}
+        rendering={{ ...baseRendering, placeholders: {} }}
+      />
+    );
+  },
+};
+
+export const Medium: Story = {
+  render: () => {
+    const fields = {
+      ...baseFields,
+      PlaceholderText: createTextField('Search destinations...'),
+    };
+
+    return (
+      <MediumComponent
         params={baseParams}
         fields={fields}
         rendering={{ ...baseRendering, placeholders: {} }}
@@ -70,4 +87,3 @@ export const Large: Story = {
     );
   },
 };
-

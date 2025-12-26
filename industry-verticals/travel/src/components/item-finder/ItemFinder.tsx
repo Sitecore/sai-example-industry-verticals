@@ -452,4 +452,3 @@ export const Large = ({ params, fields }: ItemFinderProps): JSX.Element => {
     </div>
   );
 };
-

@@ -1,16 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
-import {
-  Default as HeroBanner,
-  Centered,
-  CenteredLarge,
-} from '../components/hero-banner/HeroBanner';
+import { Default as HeroBanner, CenteredLarge } from '../components/hero-banner/HeroBanner';
 import { ComponentProps } from 'react';
 import { CommonParams, CommonRendering } from './common/commonData';
 import { createImageField, createRichTextField, createTextField } from './helpers/createFields';
 import { renderStorybookPlaceholder } from './helpers/renderStorybookPlaceholder';
 
 type StoryProps = ComponentProps<typeof HeroBanner> & {
-  variant: 'Centered' | 'CenteredLarge';
+  variant: 'Default' | 'CenteredLarge';
   hasVideo: boolean;
 };
 
@@ -59,7 +55,7 @@ export const Default: Story = {
       },
     };
 
-    const Component = args.variant === 'CenteredLarge' ? CenteredLarge : Centered;
+    const Component = args.variant === 'CenteredLarge' ? CenteredLarge : HeroBanner;
     return <Component params={baseParams} rendering={rendering} fields={fields} />;
   },
 };
