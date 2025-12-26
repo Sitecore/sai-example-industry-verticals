@@ -23,8 +23,16 @@ Retail is a simple website with sample Component implementation showcasing data 
    `cd industry-verticals\retail`
 3. Copy the environment file `.env.remote.example`
 4. Rename the copied file to `.env.local`
-5. Edit `.env.local` and provide a value for `SITECORE_EDGE_CONTEXT_ID`, `NEXT_PUBLIC_DEFAULT_SITE_NAME`, `NEXT_PUBLIC_SITECORE_EDGE_CONTEXT_ID`, `SITECORE_EDITING_SECRET`. (More info: [Environment variables in XM Cloud](https://doc.sitecore.com/xmc/en/developers/xm-cloud/get-the-environment-variables-for-a-site.html))
-
+5. Edit `.env.local` and provide a value for
+   - SITECORE_EDGE_CONTEXT_ID
+   - NEXT_PUBLIC_DEFAULT_SITE_NAME
+   - NEXT_PUBLIC_SITECORE_EDGE_CONTEXT_ID
+   - SITECORE_EDITING_SECRET
+   - NEXT_PUBLIC_SEARCH_ENV
+   - NEXT_PUBLIC_SEARCH_CUSTOMER_KEY
+   - NEXT_PUBLIC_SEARCH_API_KEY
+   - NEXT_PUBLIC_SEARCH_SOURCE
+   - NEXT_PUBLIC_BASE_URL
 6. Install dependencies:
    from `industry-verticals\retail` run `npm install`
 7. Run the site locally:
@@ -34,7 +42,7 @@ Retail is a simple website with sample Component implementation showcasing data 
 
 ## Add Editing host to XM Cloud
 
-If you have not enabled the split deployment feature your edting hosts are automatically created based on the xmcloud.build.json if enabled is set to true. The following steps are not required. Only if you have enabled the split deployment feature, continue with the next steps.
+If you have not enabled the split deployment feature your editing hosts are automatically created based on the xmcloud.build.json if enabled is set to true. The following steps are not required. Only if you have enabled the split deployment feature, continue with the next steps.
 
 1. Go to Sitecore Cloud Portal https://portal.sitecorecloud.io
 2. Open XM Cloud Deploy
@@ -42,15 +50,15 @@ If you have not enabled the split deployment feature your edting hosts are autom
 4. Switch to tab "Editing Hosts"
 5. Click "Add editing host"
 6. Provide Editing host name `nextjsstarter` as per xmcloud.build.json
-7. Check if the link to authoring environment is set correctly (should be by default)
-8. Check if the source code provider is set correctly (should be by default)
-9. Check if the GitHub Account is set correctly (should be by default)
-10. Check if repository is set correctly (should be by default)
-11. Check if Branch is set correctly (should be by default)
-12. Set the Auto deploy option (recommended)
-13. No custom environment variables are required
-14. Click "Save"
-15. On the new new editing host click the ... and hit "Build and deploy"
+7. Include search related environment variables
+8. Check if the link to authoring environment is set correctly (should be by default)
+9. Check if the source code provider is set correctly (should be by default)
+10. Check if the GitHub Account is set correctly (should be by default)
+11. Check if repository is set correctly (should be by default)
+12. Check if Branch is set correctly (should be by default)
+13. Set the Auto deploy option (recommended)
+15. Click "Save"
+16. On the new new editing host click the ... and hit "Build and deploy"
 
 Additional Info: You do not have to create rendering host items in XM Cloud as those are created automatically for you when creating a rendering host. Mapping of sites using site templates to editing hosts is also done automatically.
 
@@ -94,6 +102,9 @@ It distinguishes between IAR (Item-As-Resources) modules and SCS (Sitecore Conte
 Use the following Sitecore CLI commands to manage serialization and deployment:
 
 ```bash
+# Login with sitecore CLI
+dotnet sitecore cloud login
+
 # Connect your local project to a specific XM Cloud environment and allow write operations:
 dotnet sitecore cloud environment connect --environment-id <envId> --allow-write true
 
@@ -105,3 +116,21 @@ sitecore ser push
 ```
 
 [Documentation](https://doc.sitecore.com/xmc/en/developers/xm-cloud/serialization-in-sitecore.html)
+
+## Search Configuration
+
+There are two options you can use for search integration
+1. Use existing forma-lux search source
+2. Create new source in CEC portal and link to your application
+
+# Use existing forma-lux search source
+Set the envs as follows
+   - NEXT_PUBLIC_SEARCH_ENV=prod
+   - NEXT_PUBLIC_SEARCH_CUSTOMER_KEY=<Can be taken from cec portal>
+   - NEXT_PUBLIC_SEARCH_API_KEY=<Can be taken from cec portal>
+   - NEXT_PUBLIC_SEARCH_SOURCE=1193018
+   - NEXT_PUBLIC_BASE_URL=<Include Hosted Domain>
+
+# Create new source in CEC portal and link to your application
+
+
