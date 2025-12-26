@@ -123,7 +123,7 @@ export const Default = (props: ArticleListingProps) => {
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {filteredArticles.map((article, index) => (
             <div
-              className="info-card flex h-full cursor-pointer flex-col overflow-hidden p-0!"
+              className="info-card flex h-full flex-col overflow-hidden p-0!"
               key={index}
             >
               {/* upper section */}
