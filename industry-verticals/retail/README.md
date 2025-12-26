@@ -119,18 +119,20 @@ sitecore ser push
 
 ## Search Configuration
 
-There are two options you can use for search integration
-1. Use existing forma-lux search source
-2. Create new source in CEC portal and link to your application
+There are two options for you can try for search configuration:
+1. Use the existing forma-lux search source
+2. Create a new source in the CEC portal and link it to your application
 
-# Use existing forma-lux search source
+### Use existing forma-lux search source
 Set the envs as follows
+```bash
    - NEXT_PUBLIC_SEARCH_ENV=prod
    - NEXT_PUBLIC_SEARCH_CUSTOMER_KEY=<Can be taken from cec portal>
    - NEXT_PUBLIC_SEARCH_API_KEY=<Can be taken from cec portal>
    - NEXT_PUBLIC_SEARCH_SOURCE=1193018
    - NEXT_PUBLIC_BASE_URL=<Include Hosted Domain>
+```
 
-# Create new source in CEC portal and link to your application
-
+### Create new source in CEC portal and link to your application
+https://sitecore.atlassian.net/wiki/x/ZwAengE
 
