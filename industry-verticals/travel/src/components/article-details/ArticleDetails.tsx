@@ -73,7 +73,7 @@ export const Default = ({ params, fields, rendering }: ArticleDetailsProps) => {
       <div className={`container mx-auto flex items-center py-4 ${styles}`} id={id}>
         <ArrowLeft className="text-accent mr-2 h-4 w-4" />
         <ContentSdkLink
-          field={fields.BackLink}
+          field={fields?.BackLink}
           className="text-accent hover:text-accent-dark inline-flex items-center"
         />
       </div>
@@ -89,7 +89,7 @@ export const Default = ({ params, fields, rendering }: ArticleDetailsProps) => {
                 <ContentSdkText field={fields.Category?.fields?.Category} />
               </p>
               <h1 className="text-foreground mb-4 text-3xl font-bold md:text-4xl">
-                <ContentSdkText field={fields.Title} />
+                <ContentSdkText field={fields?.Title} />
               </h1>
             </div>
 
@@ -98,7 +98,7 @@ export const Default = ({ params, fields, rendering }: ArticleDetailsProps) => {
               <div className="flex items-center space-x-2">
                 <ContentSdkImage
                   field={fields?.Author?.fields?.Avatar}
-                  className="w-10 rounded-full object-cover"
+                  className="h-10 w-10 rounded-full object-cover"
                 />
                 <span className="font-medium">
                   <ContentSdkText field={fields?.Author?.fields?.AuthorName} />
@@ -109,14 +109,14 @@ export const Default = ({ params, fields, rendering }: ArticleDetailsProps) => {
                 <DateField
                   tag="p"
                   className="news-date"
-                  field={fields.PublishedDate}
+                  field={fields?.PublishedDate}
                   render={newsDateFormatter}
                 />
               </div>
               <div className="flex items-center space-x-1">
                 <Clock className="h-4 w-4" />
                 <span>
-                  <ContentSdkText field={fields.ReadTime} />
+                  <ContentSdkText field={fields?.ReadTime} />
                 </span>
               </div>
             </div>
@@ -126,11 +126,11 @@ export const Default = ({ params, fields, rendering }: ArticleDetailsProps) => {
               <div className="flex items-center space-x-4">
                 <button className="simple-btn">
                   <Heart className="mr-2 h-4 w-4" />
-                  <ContentSdkText field={fields.Likes} /> Likes
+                  <ContentSdkText field={fields?.Likes} /> Likes
                 </button>
                 <button className="simple-btn">
                   <Share2 className="mr-2 h-4 w-4" />
-                  <ContentSdkText field={fields.Shares} /> Shares
+                  <ContentSdkText field={fields?.Shares} /> Shares
                 </button>
               </div>
 
@@ -142,7 +142,7 @@ export const Default = ({ params, fields, rendering }: ArticleDetailsProps) => {
           {/* Featured Image */}
           <div className="mb-8">
             <ContentSdkImage
-              field={fields.Image}
+              field={fields?.Image}
               className="h-64 w-full rounded-lg object-cover md:h-96"
             />
           </div>
@@ -150,7 +150,7 @@ export const Default = ({ params, fields, rendering }: ArticleDetailsProps) => {
           {/* Article Content */}
           <div className="prose prose-lg mb-12 max-w-none">
             <div className="space-y-6 leading-relaxed text-gray-700">
-              <ContentSdkRichText field={fields.Content} />
+              <ContentSdkRichText field={fields?.Content} />
             </div>
           </div>
         </div>
@@ -168,7 +168,7 @@ export const Default = ({ params, fields, rendering }: ArticleDetailsProps) => {
             params={params}
             placeholderKey={placeholderAuthorKey}
             rendering={rendering}
-            fields={fields.Author?.fields}
+            fields={fields?.Author?.fields}
           />
         </div>
       </div>
