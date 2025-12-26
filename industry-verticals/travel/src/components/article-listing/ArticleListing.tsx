@@ -40,7 +40,7 @@ interface ArticleListingProps extends ComponentProps {
   };
 }
 
-const ITEMS_PER_PAGE = 3;
+const ITEMS_PER_PAGE = 6;
 
 export const Default = (props: ArticleListingProps) => {
   const { t } = useI18n();
@@ -74,18 +74,13 @@ export const Default = (props: ArticleListingProps) => {
     return ['All', ...Array.from(categorySet)];
   }, [props.fields.items]);
 
-  const articles = useMemo(() => {
-    return props.fields.items.filter(
-      (article) => article.fields && Object.keys(article.fields).length > 0
-    );
-  }, [props.fields.items]);
-
   const [currentPage, setCurrentPage] = useState(1);
-  const displayedArticles = useMemo(() => {
-    return articles.slice(0, currentPage * ITEMS_PER_PAGE);
-  }, [currentPage, articles]);
 
-  const hasMore = displayedArticles.length < articles.length;
+  const paginatedArticles = useMemo(() => {
+    return filteredArticles.slice(0, currentPage * ITEMS_PER_PAGE);
+  }, [filteredArticles, currentPage]);
+
+  const hasMore = paginatedArticles.length < filteredArticles.length;
 
   const handleLoadMore = () => {
     if (hasMore) setCurrentPage((prev) => prev + 1);
@@ -121,7 +116,7 @@ export const Default = (props: ArticleListingProps) => {
         )}
 
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {filteredArticles.map((article, index) => (
+          {paginatedArticles.map((article, index) => (
             <div className="info-card flex h-full flex-col overflow-hidden p-0!" key={index}>
               {/* upper section */}
               <div className="group relative">
@@ -131,9 +126,11 @@ export const Default = (props: ArticleListingProps) => {
                   height={300}
                   className="h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />
-                <p className="bg-accent absolute top-4 left-4 z-10 max-w-max rounded px-2 py-1 text-xs text-white">
-                  <ContentSdkText field={article?.fields?.Category?.fields?.Category} />
-                </p>
+                {article?.fields?.Category?.fields?.Category && (
+                  <p className="bg-accent absolute top-4 left-4 z-10 max-w-max rounded px-2 py-1 text-xs text-white">
+                    <ContentSdkText field={article?.fields?.Category?.fields?.Category} />
+                  </p>
+                )}
               </div>
               <div className="flex flex-1 flex-col gap-2 p-6">
                 {/* content section */}
@@ -141,9 +138,11 @@ export const Default = (props: ArticleListingProps) => {
                   <div className="text-accent-gray mb-3 flex flex-col space-y-1 text-sm xl:flex-row xl:justify-between">
                     <div className="flex items-center space-x-1">
                       <User className="h-3 w-3" />
-                      <span>
-                        <ContentSdkText field={article?.fields?.Author?.fields?.AuthorName} />
-                      </span>
+                      {article?.fields?.Author?.fields?.AuthorName && (
+                        <span>
+                          <ContentSdkText field={article?.fields?.Author?.fields?.AuthorName} />
+                        </span>
+                      )}
                     </div>
                     <div className="flex items-center space-x-1">
                       <Calendar className="h-3 w-3" />
@@ -204,9 +203,7 @@ export const Default = (props: ArticleListingProps) => {
         {/* cta section */}
         <div className="flex justify-center py-8">
           <button onClick={handleLoadMore} className="btn-outline w-auto!" disabled={!hasMore}>
-            {hasMore
-              ? t('load_more_destinations') || 'Load More Articles'
-              : t('all_destinations_loaded') || 'All Articles Loaded'}
+            {hasMore ? t('cta') || 'Load More Articles' : t('cta_loaded') || 'All Articles Loaded'}
           </button>
         </div>
       </div>
