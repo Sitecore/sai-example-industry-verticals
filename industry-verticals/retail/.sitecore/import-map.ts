@@ -8,7 +8,7 @@ import {
 // end of built-in imports
 
 import { Link, Text, useSitecore, RichText, NextImage, Placeholder, Image as Image_8a80e63291fea86e0744df19113dc44bec187216, CdpHelper, withDatasourceCheck, DateField } from '@sitecore-content-sdk/nextjs';
-import { useMemo, useState, useEffect, useId, useCallback, useRef } from 'react';
+import { useMemo, useRef, useState, useEffect, useId, useCallback } from 'react';
 import React from 'react';
 import Head from 'next/head';
 import { useI18n } from 'next-localization';
@@ -19,11 +19,14 @@ import { isParamEnabled } from '@/helpers/isParamEnabled';
 import AccentLine from '@/assets/icons/accent-line/AccentLine';
 import ProductCarousel from 'src/components/non-sitecore/ProductCarousel';
 import { CommonStyles, LayoutStyles, PromoFlags, HeroBannerStyles } from '@/types/styleFlags';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Pagination, Navigation, A11y, Keyboard } from 'swiper/modules';
+import { ArrowRight, ChevronLeft, ChevronRight, ChevronDown, Heart, Plus, Star, User, X, Check, Loader2, LoaderCircle, ShoppingCart, Search, Globe, MoreHorizontal, Home } from 'lucide-react';
+import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
+import { cn } from '@/shadcn/lib/utils';
 import { useSearchParams, useRouter } from 'next/navigation';
 import QuestionsAnswers from 'src/components/non-sitecore/search/QuestionsAnswers';
 import SearchResultsWidget from 'src/components/non-sitecore/search/SearchResultsComponent';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Autoplay, A11y, Keyboard } from 'swiper/modules';
 import CarouselButton from 'src/components/non-sitecore/CarouselButton';
 import ReviewCard from 'src/components/non-sitecore/ReviewCard';
 import clsx from 'clsx';
@@ -31,7 +34,6 @@ import { Quote } from '@/assets/icons/quote/Quote';
 import { usePagination } from '@/hooks/usePagination';
 import { ProductCard } from '@/components/non-sitecore/ProductCard';
 import { Pagination as Pagination_25a2ac6977db7c44c4c657d8bc0b397259e5032a } from 'src/components/non-sitecore/Pagination';
-import { ChevronDown, Heart, Plus, ChevronLeft, ChevronRight, Star, User, X, Check, Loader2, LoaderCircle, ShoppingCart, Search, Globe, MoreHorizontal, Home, ArrowRight } from 'lucide-react';
 import { calculateAverageRatingFromIGQL, calculateAverageRating } from '@/helpers/productUtils';
 import { ProductTabs } from 'src/components/non-sitecore/ProductTabs';
 import QuantityControl from 'src/components/non-sitecore/QuantityControl';
@@ -47,7 +49,6 @@ import { ProductReviews } from 'src/components/non-sitecore/ProductReviews';
 import SocialShare from 'src/components/non-sitecore/SocialShare';
 import { useLocale } from '@/hooks/useLocaleOptions';
 import { ProductCard as ProductCard_1c3beebee643aa9e58bfc4ec64964849bfb9dc1b } from 'src/components/non-sitecore/ProductCard';
-import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
 import { getCart } from '@/lib/cart';
 import { useCartAction } from '@/hooks/useCartAction';
 import { PopoverClose } from '@radix-ui/react-popover';
@@ -89,7 +90,6 @@ import { pageView } from '@sitecore-cloudsdk/events/browser';
 import config from 'sitecore.config';
 import { faUser, faCalendar, faTag } from '@fortawesome/free-solid-svg-icons';
 import { sortByDateDesc, getCategoryCounts } from '@/helpers/articleUtils';
-import { cn } from '@/shadcn/lib/utils';
 
 const importMap = [
   {
@@ -111,11 +111,11 @@ const importMap = [
     module: 'react',
     exports: [
       { name: 'useMemo', value: useMemo },
+      { name: 'useRef', value: useRef },
       { name: 'useState', value: useState },
       { name: 'useEffect', value: useEffect },
       { name: 'useId', value: useId },
       { name: 'useCallback', value: useCallback },
-      { name: 'useRef', value: useRef },
       { name: 'default', value: React },
     ]
   },
@@ -185,6 +185,57 @@ const importMap = [
     ]
   },
   {
+    module: 'swiper/react',
+    exports: [
+      { name: 'Swiper', value: Swiper },
+      { name: 'SwiperSlide', value: SwiperSlide },
+    ]
+  },
+  {
+    module: 'swiper/modules',
+    exports: [
+      { name: 'Autoplay', value: Autoplay },
+      { name: 'Pagination', value: Pagination },
+      { name: 'Navigation', value: Navigation },
+      { name: 'A11y', value: A11y },
+      { name: 'Keyboard', value: Keyboard },
+    ]
+  },
+  {
+    module: 'lucide-react',
+    exports: [
+      { name: 'ArrowRight', value: ArrowRight },
+      { name: 'ChevronLeft', value: ChevronLeft },
+      { name: 'ChevronRight', value: ChevronRight },
+      { name: 'ChevronDown', value: ChevronDown },
+      { name: 'Heart', value: Heart },
+      { name: 'Plus', value: Plus },
+      { name: 'Star', value: Star },
+      { name: 'User', value: User },
+      { name: 'X', value: X },
+      { name: 'Check', value: Check },
+      { name: 'Loader2', value: Loader2 },
+      { name: 'LoaderCircle', value: LoaderCircle },
+      { name: 'ShoppingCart', value: ShoppingCart },
+      { name: 'Search', value: Search },
+      { name: 'Globe', value: Globe },
+      { name: 'MoreHorizontal', value: MoreHorizontal },
+      { name: 'Home', value: Home },
+    ]
+  },
+  {
+    module: 'next/link',
+    exports: [
+      { name: 'default', value: Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 },
+    ]
+  },
+  {
+    module: '@/shadcn/lib/utils',
+    exports: [
+      { name: 'cn', value: cn },
+    ]
+  },
+  {
     module: 'next/navigation',
     exports: [
       { name: 'useSearchParams', value: useSearchParams },
@@ -201,23 +252,6 @@ const importMap = [
     module: 'src/components/non-sitecore/search/SearchResultsComponent',
     exports: [
       { name: 'default', value: SearchResultsWidget },
-    ]
-  },
-  {
-    module: 'swiper/react',
-    exports: [
-      { name: 'Swiper', value: Swiper },
-      { name: 'SwiperSlide', value: SwiperSlide },
-    ]
-  },
-  {
-    module: 'swiper/modules',
-    exports: [
-      { name: 'Navigation', value: Navigation },
-      { name: 'Pagination', value: Pagination },
-      { name: 'Autoplay', value: Autoplay },
-      { name: 'A11y', value: A11y },
-      { name: 'Keyboard', value: Keyboard },
     ]
   },
   {
@@ -260,28 +294,6 @@ const importMap = [
     module: 'src/components/non-sitecore/Pagination',
     exports: [
       { name: 'Pagination', value: Pagination_25a2ac6977db7c44c4c657d8bc0b397259e5032a },
-    ]
-  },
-  {
-    module: 'lucide-react',
-    exports: [
-      { name: 'ChevronDown', value: ChevronDown },
-      { name: 'Heart', value: Heart },
-      { name: 'Plus', value: Plus },
-      { name: 'ChevronLeft', value: ChevronLeft },
-      { name: 'ChevronRight', value: ChevronRight },
-      { name: 'Star', value: Star },
-      { name: 'User', value: User },
-      { name: 'X', value: X },
-      { name: 'Check', value: Check },
-      { name: 'Loader2', value: Loader2 },
-      { name: 'LoaderCircle', value: LoaderCircle },
-      { name: 'ShoppingCart', value: ShoppingCart },
-      { name: 'Search', value: Search },
-      { name: 'Globe', value: Globe },
-      { name: 'MoreHorizontal', value: MoreHorizontal },
-      { name: 'Home', value: Home },
-      { name: 'ArrowRight', value: ArrowRight },
     ]
   },
   {
@@ -382,12 +394,6 @@ const importMap = [
     module: 'src/components/non-sitecore/ProductCard',
     exports: [
       { name: 'ProductCard', value: ProductCard_1c3beebee643aa9e58bfc4ec64964849bfb9dc1b },
-    ]
-  },
-  {
-    module: 'next/link',
-    exports: [
-      { name: 'default', value: Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 },
     ]
   },
   {
@@ -675,12 +681,6 @@ const importMap = [
     exports: [
       { name: 'sortByDateDesc', value: sortByDateDesc },
       { name: 'getCategoryCounts', value: getCategoryCounts },
-    ]
-  },
-  {
-    module: '@/shadcn/lib/utils',
-    exports: [
-      { name: 'cn', value: cn },
     ]
   }
 ] as ImportEntry[];
