@@ -94,7 +94,7 @@ export const Default = ({ params, fields, rendering }: ArticleDetailsProps) => {
             </div>
 
             {/* Meta data Section */}
-            <div className="mb-6 flex flex-wrap items-center gap-6 text-sm text-foreground-muted">
+            <div className="text-foreground-muted mb-6 flex flex-wrap items-center gap-6 text-sm">
               <div className="flex items-center space-x-2">
                 <ContentSdkImage
                   field={fields?.Author?.fields?.Avatar}
