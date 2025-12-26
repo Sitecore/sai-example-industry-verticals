@@ -6,7 +6,9 @@ import { Form } from '@sitecore-content-sdk/nextjs';
 // end of built-in components
 import * as Title from 'src/components/title/Title';
 import * as Subscribe from 'src/components/subscribe/Subscribe';
+import * as SocialFollow from 'src/components/social-follow/SocialFollow';
 import * as SelectedDestinations from 'src/components/selected-destinations/SelectedDestinations';
+import * as SelectedArticles from 'src/components/selected-articles/SelectedArticles';
 import * as SectionWrapper from 'src/components/section-wrapper/SectionWrapper';
 import * as RowSplitter from 'src/components/row-splitter/RowSplitter';
 import * as RichText from 'src/components/rich-text/RichText';
@@ -16,7 +18,9 @@ import * as PageContent from 'src/components/page-content/PageContent';
 import * as Navigation from 'src/components/navigation/Navigation';
 import * as LinkList from 'src/components/link-list/LinkList';
 import * as Image from 'src/components/image/Image';
+import * as IconLinkList from 'src/components/icon-link-list/IconLinkList';
 import * as Header from 'src/components/header/Header';
+import * as Footer from 'src/components/footer/Footer';
 import * as Features from 'src/components/features/Features';
 import * as DestinationListing from 'src/components/destination-listing/DestinationListing';
 import * as DestinationDetails from 'src/components/destination-details/DestinationDetails';
@@ -32,7 +36,9 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Form', Form],
   ['Title', { ...Title }],
   ['Subscribe', { ...Subscribe }],
+  ['SocialFollow', { ...SocialFollow }],
   ['SelectedDestinations', { ...SelectedDestinations, componentType: 'client' }],
+  ['SelectedArticles', { ...SelectedArticles }],
   ['SectionWrapper', { ...SectionWrapper }],
   ['RowSplitter', { ...RowSplitter }],
   ['RichText', { ...RichText }],
@@ -42,7 +48,9 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Navigation', { ...Navigation, componentType: 'client' }],
   ['LinkList', { ...LinkList }],
   ['Image', { ...Image }],
+  ['IconLinkList', { ...IconLinkList }],
   ['Header', { ...Header, componentType: 'client' }],
+  ['Footer', { ...Footer }],
   ['Features', { ...Features }],
   ['DestinationListing', { ...DestinationListing, componentType: 'client' }],
   ['DestinationDetails', { ...DestinationDetails }],
