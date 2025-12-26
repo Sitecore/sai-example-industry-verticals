@@ -23,7 +23,7 @@ interface ItemFinderProps extends ComponentProps {
 }
 
 // Simple variant - Simple search bar
-export const Simple = ({ params, fields }: ItemFinderProps): JSX.Element => {
+export const Default = ({ params, fields }: ItemFinderProps): JSX.Element => {
   const { page } = useSitecore();
   const { t } = useI18n();
   const { styles, RenderingIdentifier: id } = params;
@@ -452,7 +452,4 @@ export const Large = ({ params, fields }: ItemFinderProps): JSX.Element => {
     </div>
   );
 };
-
-// Default variant - uses Simple
-export const Default = Simple;
 

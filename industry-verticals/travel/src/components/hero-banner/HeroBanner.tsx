@@ -21,7 +21,7 @@ interface HeroBannerProps extends ComponentProps {
 }
 
 // Centered variant - Centered content with gradient overlay and search bar
-export const Centered = ({ params, fields, rendering }: HeroBannerProps) => {
+export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
   const { page } = useSitecore();
   const { styles, RenderingIdentifier: id } = params;
   const isPageEditing = page.mode.isEditing;
@@ -127,7 +127,4 @@ export const CenteredLarge = ({ params, fields, rendering }: HeroBannerProps) =>
     </div>
   );
 };
-
-// Default variant - uses Centered as default
-export const Default = Centered;
 
