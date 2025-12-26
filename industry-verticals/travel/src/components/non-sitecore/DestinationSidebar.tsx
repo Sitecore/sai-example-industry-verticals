@@ -22,11 +22,11 @@ export const DestinationSidebar = ({ destination }: { destination: DestinationFi
         <hr />
         <div className="grid grid-cols-[auto_1fr] gap-x-6 gap-y-2">
           <p>{t('flight_time_label') || 'Flight time:'}</p>
-          <span className="text-foreground justify-self-end font-semibold">
+          <span className="text-foreground w-full justify-self-end font-semibold">
             <Text field={destination.FlightTime} />
           </span>
           <p>{t('airports_label') || 'Airports:'}</p>
-          <span className="text-foreground justify-self-end font-semibold">
+          <span className="text-foreground w-full justify-self-end font-semibold">
             <Text field={destination.Airports} />
           </span>
         </div>
@@ -40,19 +40,19 @@ export const DestinationSidebar = ({ destination }: { destination: DestinationFi
         <h5 className="info-card-title">{t('quick_facts_label') || 'Quick Facts'}</h5>
         <div className="grid grid-cols-[auto_1fr] gap-2">
           <p>{t('language_label') || 'Language:'}</p>
-          <span className="text-foreground justify-self-end font-semibold">
+          <span className="text-foreground justify-self-end text-right font-semibold">
             <Text field={destination.Language} />
           </span>
           <p>{t('currency_label') || 'Currency:'}</p>
-          <span className="text-foreground justify-self-end font-semibold">
+          <span className="text-foreground justify-self-end text-right font-semibold">
             <Text field={destination.Currency} />
           </span>
           <p>{t('time_zone_label') || 'Time Zone:'}</p>
-          <span className="text-foreground justify-self-end font-semibold">
+          <span className="text-foreground justify-self-end text-right font-semibold">
             <Text field={destination.TimeZone} />
           </span>
           <p>{t('visa_label') || 'Visa:'}</p>
-          <span className="text-foreground justify-self-end font-semibold">
+          <span className="text-foreground justify-self-end text-right font-semibold">
             <Text field={destination.Visa} />
           </span>
         </div>

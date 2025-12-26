@@ -21,7 +21,7 @@ export const DestinationLinkedContent = ({ destination }: { destination: Destina
               <Camera />
               <Text field={a.fields.Title} />
             </h5>
-            <div className="rich-text ck-content">
+            <div className="rich-text ck-content marker:text-accent">
               <RichText field={a.fields.Description} />
             </div>
           </div>
@@ -61,7 +61,7 @@ export const DestinationLinkedContent = ({ destination }: { destination: Destina
               <Navigation />
               <Text field={t.fields.Title} />
             </h5>
-            <div className="rich-text ck-content">
+            <div className="rich-text ck-content marker:text-accent">
               <RichText field={t.fields.Description} />
             </div>
           </div>
