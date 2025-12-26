@@ -233,6 +233,68 @@ Languages:
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
       Value: Diseñada para el confort y elaborada con cuidado, la Almohada Pilspinnare eleva el descanso diario a una experiencia de lujo silencioso. Su funda de algodón suave y su relleno de 90% plumas ofrecen un equilibrio perfecto de suavidad y transpirabilidad, manteniendo un clima de sueño fresco y refrescante. Diseñada con una baja altura para apoyar a los que duermen boca abajo, Pilspinnare refleja la filosofía de diseño consciente de Forma Lux, donde los materiales, la artesanía y el confort convergen para crear un verdadero descanso. Disponible en blanco, y en tamaños pequeño, mediano y grande, es el toque final para un dormitorio moderno y sereno.
+- Language: "fr-CA"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "b6688995-bd44-47ed-bb8f-06b7bccb883b"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Pilspinnare
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250922T091111Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Oreiller Pilspinnare | Forma Lux – Oreiller en plumes de coton doux pour un sommeil réparateur
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Un oreiller en coton doux avec un garnissage parfaitement dodu à 90 % de plumes. Les matériaux permettent à l'air de circuler, vous offrant un environnement de sommeil confortable. La faible épaisseur est la plus confortable pour les dormeurs sur le ventre.
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: oreiller Pilspinnare, oreiller en plumes, oreiller en coton, literie respirante, oreiller de luxe, oreiller pour dormeur sur le ventre, décoration intérieure Forma Lux, confort de sommeil
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 15
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Pilspinnare
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ca175939-f1d6-481c-ab1c-f00573100abf"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Pilspinnare
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T110241Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>Découvrez un confort inégalé avec notre oreiller en coton doux de qualité supérieure. Chaque oreiller est méticuleusement fabriqué avec un garnissage généreux composé de 90 % de plumes de haute qualité, conçu pour épouser délicatement la forme unique de votre tête et de votre cou. Cela garantit que vous obtenez un sommeil véritablement reposant et ininterrompu.&nbsp;</p><p>L'utilisation de matériaux respirants dans sa conception garantit une circulation d'air exceptionnelle, gardant l'oreiller frais et offrant un environnement de sommeil rafraîchissant toute la nuit. Conçu avec une faible épaisseur, cet oreiller offre un soutien idéal, en particulier pour les dormeurs sur le ventre qui recherchent un confort maximal sans aucune tension supplémentaire sur leur cou ou leur colonne vertébrale.</p>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: Conçu pour le confort et fabriqué avec soin, l'oreiller Pilspinnare élève le repos quotidien à une expérience de luxe discret. Sa housse en coton doux et son garnissage à 90 % de plumes offrent un équilibre parfait entre moelleux et respirabilité, maintenant un climat de sommeil frais et rafraîchissant. Conçu avec une faible épaisseur pour soutenir les dormeurs sur le ventre, Pilspinnare reflète la philosophie de Forma Lux en matière de design réfléchi — où les matériaux, l'artisanat et le confort convergent pour créer un véritable repos. Disponible en blanc, et en tailles petite, moyenne et grande, c'est la touche finale pour une chambre moderne et sereine.
 - Language: "fr-FR"
   Versions:
   - Version: 1

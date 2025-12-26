@@ -172,6 +172,64 @@ Languages:
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
       Value: "La forma se une a la función en la Cama con Almacenamiento Hudson, una celebración del diseño moderno para espacios más pequeños. Fabricada con madera duradera y acabada en rico nogal, Hudson ofrece cuatro cajones ocultos que aportan orden sin comprometer. Disponible en Negro o Blanco, y en tamaños Mediano o Grande, ejemplifica la visión de Forma Lux de la artesanía contemporánea: elegante, inteligente y de belleza perdurable."
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T130527Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Lit de rangement Hudson | Forma Lux – Lit moderne avec tiroirs de rangement intégrés
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Un lit moderne avec tiroirs de rangement intégrés.
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Lit de rangement Hudson, lit de rangement, design de lit moderne, lit en noyer, lit en bois d'ingénierie, mobilier peu encombrant, rangement de chambre, boutique Forma Lux
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 1197
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Lit de rangement Hudson
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: Découvrez le lit de rangement Hudson par Forma Lux – fabriqué en bois d'ingénierie avec placage de noyer, doté de quatre tiroirs spacieux sous le lit pour un mode de vie élégant et peu encombrant.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d8f0671a-0bc3-4fd0-ab28-b71909be2cbb"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Lit de rangement Hudson
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T110231Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>Le lit de rangement Hudson maximise l'espace avec ses quatre tiroirs sous le lit. Fabriqué en bois d'ingénierie avec un placage de noyer, il allie praticité et style. Idéal pour les appartements et les chambres compactes.</p>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: La forme rencontre la fonction dans le lit de rangement Hudson, une célébration du design moderne pour les petits espaces. Conçu en bois durable et fini en noyer riche, Hudson offre quatre tiroirs cachés qui apportent de l'ordre sans compromis. Disponible en noir ou blanc, et en tailles moyenne ou grande, il incarne la vision de Forma Lux de l'artisanat contemporain—élégant, intelligent et d'une beauté durable.
 - Language: "fr-FR"
   Versions:
   - Version: 1

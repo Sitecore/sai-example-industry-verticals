@@ -20,7 +20,7 @@ SharedFields:
     <image mediaid="{0B081450-C058-43DA-9F4C-A6083D93066D}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "f3fb5085-d28d-46af-b923-22dcbea25d06"
+  Value: "28323abb-d9a2-47df-9413-db02c65dff76"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -115,17 +115,17 @@ Languages:
       Value: Learn how Forma Lux blends artisan craftsmanship, premium materials and modern design philosophy to create timeless furniture.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6d1a7821-f182-42f3-830d-6b5a9f7fcd0b"
+      Value: "53376d1a-963b-4b7f-820d-105f776d6292"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
       Hint: pageSummary
       Value: Our heritage, materials, and design ethos—Forma Lux is where tradition meets modernity for pieces that last.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251222T123624Z
+      Value: 20251223T145810Z
 - Language: "es-ES"
   Versions:
   - Version: 1

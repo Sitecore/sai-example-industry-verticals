@@ -11,14 +11,14 @@ SharedFields:
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
-    <image mediaid="852ff56e-88d2-4e8d-ace2-6d47ad46f207" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/76484-LandingPageHero-2000x600?v=bc4e15f8" dam-id="m9bg2u5WQtqiqzMhxKjPDg" width="2000" height="600" alt="small-space-article.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76484/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{C629B8C2-73E2-46C7-AEF7-5067351697A8}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "c13340a3-e549-48a4-8df4-31ff045c4115"
+  Value: "c3bd4464-0aef-4dc2-99e7-f25a4306f82f"
 Languages:
 - Language: en
   Fields:
@@ -60,7 +60,7 @@ Languages:
       Value: Live large in a small space. Explore clever, modern furniture ideas that maximize every inch — from hidden storage to sleek, multifunctional designs.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f43192cb-79f1-434c-a9e1-8f26c6876dd9"
+      Value: "1564e906-7992-4818-bac6-01165d4baa7d"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "Small Space, Big Impact: Smart Furniture Choices for Compact Homes"
@@ -70,7 +70,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251217T153804Z
+      Value: 20251226T113655Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: "Small Space, Big Impact: Smart Furniture Choices for Compact Homes"

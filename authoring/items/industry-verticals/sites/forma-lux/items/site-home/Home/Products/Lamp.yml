@@ -14,7 +14,7 @@ SharedFields:
     <image mediaid="{389827BE-A450-4F40-803F-E0E9ACD39074}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "4b216928-384e-440e-9c37-f01875cb3637"
+  Value: "ae1f9ef3-e8a6-4575-996d-7a4e397d86c9"
 Languages:
 - Language: en
   Versions:
@@ -51,17 +51,17 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "51dc5d40-190f-45da-9f39-1e643c96123d"
+      Value: "80ce1419-6b91-4638-b06f-da224e3b33fc"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "ca87ddf9-ad6a-47ad-aaea-f411377684a1"
       Hint: metadataDescription
       Value: Explore modern lamps that bring warmth, balance, and atmosphere to any space. Thoughtfully designed for beauty and function, each piece enhances the art of living through light.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251217T151430Z
+      Value: 20251223T145809Z
     - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
       Hint: CategoryName
       Value: Lamp

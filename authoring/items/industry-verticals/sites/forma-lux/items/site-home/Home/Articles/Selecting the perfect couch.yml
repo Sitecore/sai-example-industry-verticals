@@ -11,14 +11,14 @@ SharedFields:
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
-    <image mediaid="cae9b6a1-ddd1-47e6-983a-b45c3f95a99b" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/76485-HomepagePromoCTAs-1100x740?v=41875711" dam-id="jKr4hBcpT8Kx2jWw-u5ECw" width="1100" height="740" alt="selecting-the-perfect-couch-article.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76485/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{7D455C1D-E594-4F77-8D7B-7FF624FDA0AA}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "c8a85ebe-4e24-4df2-8af6-c70a06651032"
+  Value: "f0008cb3-53fa-496e-9c73-3639bee9a1e4"
 Languages:
 - Language: en
   Versions:
@@ -65,7 +65,7 @@ Languages:
       Value: In pursuit of tranquil sophistication, Forma Lux offers couches embodying elegance and functionality. Our pieces blend modern European design, craftsmanship, and minimalism, creating refined living spaces.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "37b32a4d-11dd-4deb-bd57-025194b8cbdd"
+      Value: "c3bb8683-25af-441d-9322-154d43b395e8"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: Selecting the perfect couch
@@ -75,7 +75,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251217T153655Z
+      Value: 20251226T113542Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: Selecting the perfect couch

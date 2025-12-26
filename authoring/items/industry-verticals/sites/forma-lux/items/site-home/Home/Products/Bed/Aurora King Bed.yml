@@ -175,6 +175,64 @@ Languages:
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
       Value: La Cama King Aurora representa la cúspide de la artesanía de Forma Lux, donde el lujo se encuentra con la serenidad. Diseñada para ser tanto una declaración como un santuario, su grandioso cabecero acolchado y su acabado de terciopelo evocan la sofisticación de un hotel boutique. Disponible en Oro o Negro, y en tamaños Grande o Extra Grande, Aurora transforma el descanso diario en una experiencia de indulgencia y arte, anclando los interiores modernos en calidez, textura y calidad duradera.
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T125955Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Lit King Aurora | Forma Lux – Lit en velours de luxe avec tête de lit capitonnée
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: "Un lit king-size luxueux avec une tête de lit capitonnée."
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Lit King Aurora, mobilier de chambre de luxe, tête de lit capitonnée, lit en velours, lit king or, lit en velours noir, design de lit moderne, boutique Forma Lux
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 1299
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Lit King Aurora
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: Dormez avec style avec le lit King Aurora de Forma Lux. Une haute tête de lit capitonnée, un revêtement en velours de qualité supérieure et un cadre en bois massif apportent confort raffiné et élégance intemporelle à votre chambre.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0844c586-33d2-43a9-b926-fc86f2147bed"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Lit King Aurora
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T110231Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>Le lit King Aurora est conçu pour un confort et une élégance ultimes. Sa haute tête de lit capitonnée ajoute une touche de grandeur, tandis que le cadre en bois robuste assure la durabilité. Rembourré en velours de qualité supérieure, il transforme toute chambre en sanctuaire.</p>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: "Le lit King Aurora représente le summum de l'artisanat de Forma Lux—où le luxe rencontre la sérénité. Conçu pour être à la fois une déclaration et un sanctuaire, sa grande tête de lit capitonnée et sa finition en velours somptueux évoquent la sophistication des hôtels-boutiques. Disponible en or ou noir, et en tailles grande ou très grande, Aurora transforme le repos quotidien en une expérience d'indulgence et d'art, ancrant les intérieurs modernes dans la chaleur, la texture et la qualité durable."
 - Language: "fr-FR"
   Versions:
   - Version: 1

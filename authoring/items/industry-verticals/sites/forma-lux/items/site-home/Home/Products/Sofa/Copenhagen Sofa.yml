@@ -162,6 +162,61 @@ Languages:
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
       Value: Sutil y elegantemente sencillo, el Sofá Copenhague encarna la armonía del diseño escandinavo y la artesanía de Forma Lux. Su base de roble macizo ancla una silueta definida por el equilibrio y la proporción, mientras que los cojines de lino mullidos invitan al confort diario. Perfecto para salones modernos, Copenhague ofrece calidez, simplicidad y textura natural en igual medida. Disponible en negro y blanco, este sofá de tres plazas es una celebración del lujo discreto, diseñado para envejecer con gracia junto al hogar que completa.
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T130812Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Sofa Copenhagen | Forma Lux – Canapé trois places scandinave avec base en chêne
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Un canapé trois places avec des lignes scandinaves épurées.
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Sofa Copenhagen, canapé scandinave, canapé trois places, revêtement en lin, meuble base en chêne, design de sofa moderne, boutique Forma Lux, mobilier minimaliste
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 899
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Sofa Copenhagen
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f994a3a8-abb3-49b3-8e69-33c4f32dff35"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Sofa Copenhagen
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T110242Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>Le Sofa Copenhagen est recouvert d'un tissu en lin doux avec une base en chêne massif. Son design minimaliste et ses coussins moelleux en font une pièce polyvalente pour les salons modernes.</p>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: "Sobre et élégante sans effort, le Sofa Copenhagen incarne l'harmonie du design scandinave et le savoir-faire de Forma Lux. Sa base en chêne massif ancre une silhouette définie par l'équilibre et la proportion, tandis que les coussins en lin moelleux invitent au confort quotidien. Parfait pour les salons modernes, le Copenhagen offre chaleur, simplicité et texture naturelle à parts égales. Disponible en noir et blanc, ce canapé trois places est une célébration du luxe discret — conçu pour vieillir gracieusement avec la maison qu'il complète."
 - Language: "fr-FR"
   Versions:
   - Version: 1

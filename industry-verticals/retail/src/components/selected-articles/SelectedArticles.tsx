@@ -21,9 +21,9 @@ import { cn } from '@/shadcn/lib/utils';
 import { CommonStyles, LayoutStyles } from '@/types/styleFlags';
 
 interface Fields {
-  CarouselTitle: Field<string>;
-  CarouselDescription: RichTextField;
-  CarouselExplore: LinkField;
+  Title: Field<string>;
+  Description: RichTextField;
+  ExploreLink: LinkField;
   Articles: Array<Article>;
 }
 
@@ -82,15 +82,15 @@ export const Default = (props: CarouselProps) => {
         >
           <div className="w-full space-y-5 md:w-1/3">
             <h2 className="inline-block max-w-md">
-              <Text field={props.fields.CarouselTitle} />
+              <Text field={props.fields.Title} />
               {!hideAccentLine && <AccentLine className="w-full max-w-xs" />}
             </h2>
 
             <div className="max-w-md">
-              <ContentSdkRichText field={props.fields.CarouselDescription} />
+              <ContentSdkRichText field={props.fields.Description} />
             </div>
 
-            <ContentSskLink field={props.fields.CarouselExplore} className="arrow-btn" />
+            <ContentSskLink field={props.fields.ExploreLink} className="arrow-btn" />
           </div>
 
           <div className={cn('w-full', 'md:w-2/3', 'lg:transform', translateClass)}>

@@ -29,6 +29,8 @@ export interface DestinationFields {
   Weather: SitecoreItem<Weather>[];
 }
 
+export type Destination = SitecoreItem<DestinationFields>;
+
 export interface Activity {
   Title: Field<string>;
   Description: RichTextField;

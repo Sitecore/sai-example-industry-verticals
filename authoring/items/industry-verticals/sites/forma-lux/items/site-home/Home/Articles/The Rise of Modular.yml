@@ -11,14 +11,14 @@ SharedFields:
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
-    <image mediaid="de283ceb-e2c1-467f-ac9f-b91057dfed5e" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/76479-HomepagePromoCTAs-1100x740?v=40b1ba5b" dam-id="xy8twTkNSUKZS2OVNyKHCg" width="1100" height="740" alt="the-rise-of-modular-article.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76479/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{08957D32-562E-4480-B010-746DA4F48F6A}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "3108056f-1b4f-4232-9ae4-9ee286a4bb8b"
+  Value: "472d6fb7-48a6-41df-84bb-ece5d6afb374"
 Languages:
 - Language: en
   Fields:
@@ -63,7 +63,7 @@ Languages:
       Value: Discover the power of modular furniture. From sectionals to storage systems, explore adaptable designs that evolve with your modern lifestyle.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f8b8a5ad-8785-46f7-821d-8738ae71d2aa"
+      Value: "06ddd6b9-a060-476f-a317-54cc4a3c9611"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "The Rise of Modular: Adaptable Furniture for Modern Living"
@@ -73,7 +73,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251217T154106Z
+      Value: 20251226T114708Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: "The Rise of Modular: Adaptable Furniture for Modern Living"

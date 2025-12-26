@@ -11,14 +11,14 @@ SharedFields:
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
-    <image mediaid="b6d141b0-01f1-4264-a5b8-e914ec236317" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/76512-LandingPageHero-2000x600?v=5b04c6d0" dam-id="nlrOdwl9RkOdpH24S81uag" width="2000" height="600" alt="classic.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76512/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{83E047CE-4388-4F9C-A397-2C25785A25E4}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "6b5b3e84-d293-4b4b-9029-b02999ab4854"
+  Value: "c8d09ebc-31e6-4f1e-b191-6a376dc69b1e"
 Languages:
 - Language: en
   Fields:
@@ -65,7 +65,7 @@ Languages:
       Value: Learn how to select the ideal modern sofa for your home. Explore tips on size, configuration, fabric choices, and styling with pillows, throws, and coffee tables to make your sofa the design hero.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e294c672-dc8e-4355-965a-48050e3a8bdd"
+      Value: "40f3f137-95b8-49bf-bf60-a874c21ca6e9"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "Lounge in Style: Choosing the Right Modern Sofa for Your Space"
@@ -75,7 +75,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251217T153125Z
+      Value: 20251226T113409Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: "Lounge in Style: Choosing the Right Modern Sofa for Your Space"

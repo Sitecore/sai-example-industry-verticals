@@ -169,6 +169,64 @@ Languages:
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
       Value: "La Mecedora Havana reimagina una forma atemporal a través de la lente de la artesanía moderna. Construida con madera de teca maciza, ofrece un movimiento de balanceo suave y equilibrado y una resistencia duradera. El asiento y el respaldo acolchados brindan una comodidad acogedora, mientras que la simplicidad escultural del diseño se adapta tanto a las habitaciones infantiles, salas de estar o porches cubiertos. Disponible en Negro y tamaño Mediano, Havana encarna la filosofía de diseño de Forma Lux: tradición refinada por la sensibilidad moderna, donde cada curva invita al descanso y al ritmo."
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T125659Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Chaise berçante Havana | Forma Lux – Chaise berçante moderne en bois de teck
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Une chaise berçante en bois classique avec une touche contemporaine.
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Chaise berçante Havana, chaise berçante en bois, chaise en teck, chaise berçante moderne, mobilier de chambre de bébé, design de chaise classique, boutique Forma Lux, mobilier fait à la main
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 319.75
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Chaise berçante Havana
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: La chaise berçante Havana de Forma Lux allie l'artisanat classique au style contemporain. Fabriquée en bois de teck massif et dotée de coussins moelleux, elle offre confort et élégance dans n'importe quelle pièce.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a9630ca2-c234-4915-a7a7-4747ac62dd7d"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Chaise berçante Havana
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T110254Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>La chaise berçante Havana est fabriquée en bois de teck massif avec un mouvement de balancement fluide. Son siège et son dossier rembourrés offrent un confort, tandis que son design intemporel en fait un ajout polyvalent aux chambres de bébé, aux salons ou aux porches.</p>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: "La chaise berçante Havana réinvente une forme intemporelle à travers le prisme de l'artisanat moderne. Construite en bois de teck massif, elle offre un mouvement de balancement fluide et équilibré ainsi qu'une résistance durable. Le siège et le dossier rembourrés offrent un confort accueillant, tandis que la simplicité sculpturale du design convient aussi bien aux chambres de bébé, aux salons qu'aux porches couverts. Disponible en noir et en taille moyenne, Havana incarne la philosophie de design de Forma Lux : la tradition raffinée par la sensibilité moderne — où chaque courbe invite au repos et au rythme."
 - Language: "fr-FR"
   Versions:
   - Version: 1

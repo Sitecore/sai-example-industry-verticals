@@ -7,10 +7,10 @@ SharedFields:
 - ID: "b441a09f-ddb2-41a8-84cc-2533686541f4"
   Hint: PromoImageOne
   Value: |
-    <image mediaid="1fa58ab4-17d2-4544-902d-a86e090ed444" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/78879-HomePageHero-2000x800?v=d98966d0" dam-id="qsfwT6UYSFStyEqZv3u_zA" width="2000" height="800" alt="group-doctors-cooperating.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/78879/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "263dbb61-e054-4812-bb6b-30bbd57c8f8b"
+  Value: "9d5f4cce-e694-4623-9513-c63399cb21a9"
 Languages:
 - Language: en
   Versions:
@@ -40,14 +40,14 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5d5c64b4-2231-4c94-95df-7f0576232309"
+      Value: "df85e828-b619-468d-aa46-b6591c6d3963"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251124T093950Z
+      Value: 20251226T093404Z
     - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
       Hint: PromoTitle
       Value: About us

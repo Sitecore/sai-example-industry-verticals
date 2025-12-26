@@ -1,9 +1,9 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 import { CommonParams, CommonRendering } from './common/commonData';
 import {
-  Default as ArticleCarousel,
+  Default as SelectedArticles,
   CarouselProps,
-} from '../components/article-carousel/ArticleCarousel';
+} from '../components/selected-articles/SelectedArticles';
 import { createLinkField, createRichTextField, createTextField } from './helpers/createFields';
 import { createMockArticles } from './helpers/createItems';
 import {
@@ -24,8 +24,8 @@ type StoryProps = CarouselProps &
   };
 
 const meta = {
-  title: 'Articles/Article Carousel',
-  component: ArticleCarousel,
+  title: 'Articles/SelectedArticles',
+  component: SelectedArticles,
   parameters: {
     layout: 'padded',
   },
@@ -78,9 +78,9 @@ const baseRendering = {
 };
 
 const baseFields = {
-  CarouselTitle: createTextField('We provide you the best experience'),
-  CarouselDescription: createRichTextField(1, 'paragraphs'),
-  CarouselExplore: createLinkField('Read More'),
+  Title: createTextField('We provide you the best experience'),
+  Description: createRichTextField(1, 'paragraphs'),
+  ExploreLink: createLinkField('Read More'),
 };
 
 export const Default: Story = {
@@ -91,7 +91,7 @@ export const Default: Story = {
       Articles: createMockArticles(args.numberOfArticles),
     };
 
-    const articleCarouselStyles = clsx(
+    const selectedArticlesStyles = clsx(
       baseParams.styles,
       args.BackgroundColor,
       args.reversed && LayoutStyles.Reversed,
@@ -100,10 +100,10 @@ export const Default: Story = {
 
     const params = {
       ...baseParams,
-      styles: articleCarouselStyles,
+      styles: selectedArticlesStyles,
     };
 
-    return <ArticleCarousel params={params} rendering={baseRendering} fields={fields} />;
+    return <SelectedArticles params={params} rendering={baseRendering} fields={fields} />;
   },
   play: async ({ canvasElement, args }) => {
     const canvas = within(canvasElement);
