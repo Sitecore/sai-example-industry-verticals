@@ -8,7 +8,7 @@ import {
 // end of built-in imports
 
 import { Link, Text, useSitecore, RichText, Placeholder, NextImage, CdpHelper, withDatasourceCheck } from '@sitecore-content-sdk/nextjs';
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useMemo, useEffect } from 'react';
 import React from 'react';
 import { useI18n } from 'next-localization';
 import { LayoutStyles, PromoFlags } from '@/types/styleFlags';
@@ -18,7 +18,6 @@ import { EmailIcon, EmailShareButton, FacebookIcon, FacebookShareButton, Linkedi
 import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/shadcn/components/ui/tabs';
-import DatePicker from 'react-datepicker';
 import { useClickAway } from '@/hooks/useClickAway';
 import { useStopResponsiveTransition } from '@/hooks/useStopResponsiveTransition';
 import { extractMediaUrl } from '@/helpers/extractMediaUrl';
@@ -26,7 +25,7 @@ import { getLinkContent, getLinkField, isNavLevel, isNavRootItem, prepareFields 
 import clsx from 'clsx';
 import { isParamEnabled } from '@/helpers/isParamEnabled';
 import { Drawer, DrawerTrigger, DrawerContent, DrawerClose } from '@/shadcn/components/ui/drawer';
-import Calendar_319ca33bfed84873fb0adbc31f3f4120ac210185 from '@/components/non-sitecore/CustomCalendar';
+import { DatePicker } from '@/shadcn/components/ui/date-picker';
 import Head from 'next/head';
 import SocialShare from 'src/components/non-sitecore/SocialShare';
 import { DestinationHighlights } from 'src/components/non-sitecore/DestinationHighlights';
@@ -59,6 +58,7 @@ const importMap = [
     exports: [
       { name: 'useState', value: useState },
       { name: 'useRef', value: useRef },
+      { name: 'useMemo', value: useMemo },
       { name: 'useEffect', value: useEffect },
       { name: 'default', value: React },
     ]
@@ -146,12 +146,6 @@ const importMap = [
     ]
   },
   {
-    module: 'react-datepicker',
-    exports: [
-      { name: 'default', value: DatePicker },
-    ]
-  },
-  {
     module: '@/hooks/useClickAway',
     exports: [
       { name: 'useClickAway', value: useClickAway },
@@ -201,9 +195,9 @@ const importMap = [
     ]
   },
   {
-    module: '@/components/non-sitecore/CustomCalendar',
+    module: '@/shadcn/components/ui/date-picker',
     exports: [
-      { name: 'default', value: Calendar_319ca33bfed84873fb0adbc31f3f4120ac210185 },
+      { name: 'DatePicker', value: DatePicker },
     ]
   },
   {
