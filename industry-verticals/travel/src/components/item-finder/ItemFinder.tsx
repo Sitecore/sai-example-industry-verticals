@@ -58,7 +58,7 @@ export const Simple = ({ params, fields }: ItemFinderProps): JSX.Element => {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder={t('search_articles_placeholder') || 'Search articles...'}
-              className="item-finder-input bg-background text-foreground placeholder:text-foreground-muted focus:ring-accent w-full rounded-lg px-12 py-3 focus:ring-2 focus:outline-none"
+              className="border-border bg-background text-foreground placeholder:text-foreground-muted focus:border-accent w-full rounded-lg border px-12 py-3 text-base transition-all duration-200 ease-in-out focus:outline-none"
             />
           </div>
         </form>
@@ -284,7 +284,7 @@ export const Large = ({ params, fields }: ItemFinderProps): JSX.Element => {
       )}
       {(!isPageEditing || fields) && (
         <form onSubmit={handleSubmit} className="w-full">
-          <div className="flight-booking-card w-full rounded-xl p-6 shadow-xl">
+          <div className="w-full max-w-full rounded-xl bg-[rgba(255,255,255,0.93)] pt-[2.8rem] pr-6 pb-[2.8rem] pl-6 shadow-xl">
             {/* Trip Type Selection */}
             <div className="mb-6 flex gap-2">
               {tripTypeOptions.map((option) => (
@@ -292,7 +292,7 @@ export const Large = ({ params, fields }: ItemFinderProps): JSX.Element => {
                   key={option.value}
                   type="button"
                   onClick={() => setTripType(option.value)}
-                  className={`trip-type-btn border-border rounded-md border px-2.5 py-1.5 text-sm font-medium transition-all ${
+                  className={`border-border cursor-pointer rounded-md border px-2.5 py-1.5 text-sm font-semibold transition-all ${
                     tripType === option.value
                       ? 'bg-foreground text-background border-foreground shadow-sm'
                       : 'text-foreground-muted hover:bg-background-muted hover:border-foreground-muted bg-transparent'
@@ -307,7 +307,9 @@ export const Large = ({ params, fields }: ItemFinderProps): JSX.Element => {
             <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-[1.15fr_1.15fr_1fr_1fr_0.85fr]">
               {/* From */}
               <div className="flight-input-group">
-                <label className="flight-input-label">{t('from_label') || 'From'}</label>
+                <label className="text-foreground-light mb-1.5 block text-[0.8125rem] font-bold">
+                  {t('from_label') || 'From'}
+                </label>
                 <div className="relative">
                   <div className="text-foreground-muted absolute top-1/2 left-3 z-10 -translate-y-1/2">
                     <MapPin size={16} />
@@ -317,14 +319,16 @@ export const Large = ({ params, fields }: ItemFinderProps): JSX.Element => {
                     value={from}
                     onChange={(e) => setFrom(e.target.value)}
                     placeholder={t('departure_city_placeholder') || 'Departure city'}
-                    className="flight-input border-border text-foreground placeholder:text-foreground-muted focus:border-accent focus:ring-accent/20 focus:bg-background w-full rounded-lg border bg-transparent py-2 pr-3 pl-9 text-sm placeholder:text-xs focus:ring-2 focus:outline-none"
+                    className="border-border text-foreground placeholder:text-foreground-muted focus:border-accent focus:ring-accent/20 focus:bg-background w-full rounded-lg border bg-transparent py-2 pr-3 pl-9 text-sm leading-normal transition-all duration-200 ease-in-out placeholder:text-[0.82rem] focus:ring-2 focus:outline-none"
                   />
                 </div>
               </div>
 
               {/* To */}
               <div className="flight-input-group">
-                <label className="flight-input-label">{t('to_label') || 'To'}</label>
+                <label className="text-foreground-light mb-1.5 block text-[0.8125rem] font-bold">
+                  {t('to_label') || 'To'}
+                </label>
                 <div className="relative">
                   <div className="text-foreground-muted absolute top-1/2 left-3 z-10 -translate-y-1/2">
                     <MapPin size={16} />
@@ -334,14 +338,16 @@ export const Large = ({ params, fields }: ItemFinderProps): JSX.Element => {
                     value={to}
                     onChange={(e) => setTo(e.target.value)}
                     placeholder={t('destination_city_placeholder') || 'Destination city'}
-                    className="flight-input border-border text-foreground placeholder:text-foreground-muted focus:border-accent focus:ring-accent/20 focus:bg-background w-full rounded-lg border bg-transparent py-2 pr-3 pl-9 text-sm placeholder:text-xs focus:ring-2 focus:outline-none"
+                    className="border-border text-foreground placeholder:text-foreground-muted focus:border-accent focus:ring-accent/20 focus:bg-background w-full rounded-lg border bg-transparent py-2 pr-3 pl-9 text-sm leading-normal transition-all duration-200 ease-in-out placeholder:text-[0.82rem] focus:ring-2 focus:outline-none"
                   />
                 </div>
               </div>
 
               {/* Departure Date */}
               <div className="flight-input-group">
-                <label className="flight-input-label">{t('departure_label') || 'Departure'}</label>
+                <label className="text-foreground-light mb-1.5 block text-[0.8125rem] font-bold">
+                  {t('departure_label') || 'Departure'}
+                </label>
                 <Calendar
                   selected={departureDate}
                   onChange={(date: Date | null) => {
@@ -350,14 +356,16 @@ export const Large = ({ params, fields }: ItemFinderProps): JSX.Element => {
                   placeholderText={t('select_date_placeholder') || 'Select date'}
                   dateFormat="MMM d, yyyy"
                   minDate={new Date()}
-                  inputClassName="flight-input"
+                  inputClassName="text-sm leading-normal transition-all duration-200 ease-in-out border-border text-foreground placeholder:text-foreground-muted placeholder:text-[0.82rem] focus:border-accent focus:ring-accent/20 focus:bg-background w-full rounded-lg border bg-transparent py-2 pr-3 pl-9 focus:ring-2 focus:outline-none"
                 />
               </div>
 
               {/* Return Date */}
               {tripType === 'round-trip' && (
                 <div className="flight-input-group">
-                  <label className="flight-input-label">{t('return_label') || 'Return'}</label>
+                  <label className="text-foreground-light mb-1.5 block text-[0.8125rem] font-bold">
+                    {t('return_label') || 'Return'}
+                  </label>
                   <Calendar
                     selected={returnDate}
                     onChange={(date: Date | null) => {
@@ -366,14 +374,14 @@ export const Large = ({ params, fields }: ItemFinderProps): JSX.Element => {
                     placeholderText={t('select_date_placeholder') || 'Select date'}
                     dateFormat="MMM d, yyyy"
                     minDate={departureDate || new Date()}
-                    inputClassName="flight-input"
+                    inputClassName="text-sm leading-normal transition-all duration-200 ease-in-out border-border text-foreground placeholder:text-foreground-muted placeholder:text-[0.82rem] focus:border-accent focus:ring-accent/20 focus:bg-background w-full rounded-lg border bg-transparent py-2 pr-3 pl-9 focus:ring-2 focus:outline-none"
                   />
                 </div>
               )}
 
               {/* Passengers */}
               <div className="flight-input-group relative">
-                <label className="flight-input-label">
+                <label className="text-foreground-light mb-1.5 block text-[0.8125rem] font-bold">
                   {t('passengers_label') || 'Passengers'}
                 </label>
                 <div className="relative w-full">
@@ -383,7 +391,7 @@ export const Large = ({ params, fields }: ItemFinderProps): JSX.Element => {
                   <button
                     type="button"
                     onClick={() => setShowPassengerDropdown(!showPassengerDropdown)}
-                    className="flight-input border-border text-foreground focus:border-accent focus:ring-accent/20 focus:bg-background w-full rounded-lg border bg-transparent py-2 pr-8 pl-9 text-left text-sm focus:ring-2 focus:outline-none"
+                    className="border-border text-foreground placeholder:text-foreground-muted focus:border-accent focus:ring-accent/20 focus:bg-background w-full rounded-lg border bg-transparent py-2 pr-8 pl-9 text-left text-sm leading-normal transition-all duration-200 ease-in-out placeholder:text-[0.82rem] focus:ring-2 focus:outline-none"
                   >
                     {passengerOptions.find((opt) => opt.value === passengers)?.label ||
                       t('1adult') ||
@@ -430,7 +438,7 @@ export const Large = ({ params, fields }: ItemFinderProps): JSX.Element => {
             <div className="mt-6">
               <button
                 type="submit"
-                className="flight-search-btn bg-accent text-background hover:bg-accent-dark focus:ring-accent flex items-center gap-2 rounded-lg text-sm font-semibold shadow-md transition-all hover:shadow-lg focus:ring-2 focus:ring-offset-2 focus:outline-none"
+                className="bg-accent text-background hover:bg-accent-dark focus:ring-accent flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-semibold shadow-md transition-all hover:shadow-lg focus:ring-2 focus:ring-offset-2 focus:outline-none"
               >
                 <Plane size={16} />
                 <span>{t('search_button_text') || 'Search'}</span>
