@@ -1,5 +1,3 @@
-'use client';
-
 import { useState, useMemo } from 'react';
 import {
   Field,
@@ -9,7 +7,6 @@ import {
   Text as ContentSdkText,
   DateField,
   TextField,
-  LinkField,
   RichTextField,
 } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from '@/lib/component-props';
@@ -45,17 +42,6 @@ interface ArticleListingProps extends ComponentProps {
 
 const ITEMS_PER_PAGE = 3;
 
-const CATEGORIES = [
-  'All',
-  'Destinations',
-  'Travel Tips',
-  'Food & Culture',
-  'Sustainable Travel',
-  'Family Travel',
-  'Nightlife',
-  'Culture',
-];
-
 export const Default = (props: ArticleListingProps) => {
   const { t } = useI18n();
   const id = props.params.RenderingIdentifier;
@@ -73,6 +59,20 @@ export const Default = (props: ArticleListingProps) => {
       return categoryValue === selectedCategory;
     });
   }, [props.fields.items, selectedCategory]);
+
+  const categories = useMemo<string[]>(() => {
+    const categorySet = new Set<string>();
+
+    props.fields.items.forEach((article) => {
+      const categoryValue = article.fields.Category?.fields?.Category?.value;
+
+      if (categoryValue) {
+        categorySet.add(categoryValue);
+      }
+    });
+
+    return ['All', ...Array.from(categorySet)];
+  }, [props.fields.items]);
 
   const articles = useMemo(() => {
     return props.fields.items.filter(
@@ -96,7 +96,7 @@ export const Default = (props: ArticleListingProps) => {
       <div className="container mx-auto px-4">
         {/* Category Filter */}
         <div className="mx-auto mb-16 flex flex-wrap justify-center gap-2">
-          {CATEGORIES.map((category) => (
+          {categories.map((category) => (
             <button
               key={category}
               onClick={() => setSelectedCategory(category)}
