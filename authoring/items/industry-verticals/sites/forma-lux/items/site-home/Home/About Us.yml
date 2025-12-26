@@ -106,7 +106,7 @@ Languages:
       Value: About us
     - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
       Hint: Title
-      Value: About Us
+      Value: Shaping Spaces with Soul and Substance
     - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
       Hint: Content
       Value: "<p>At Forma Lux, we blend timeless design with modern expression to create interiors that reflect individuality and elegance. Guided by a passion for curated living, we design furnishings that go beyond trend — crafted for those who live boldly and style deeply. Our philosophy is rooted in balance: between form and function, subtlety and statement, simplicity and richness.</p>"
@@ -213,6 +213,58 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251219T104259Z
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
+      Hint: metadataKeywords
+      Value: Histoire de Forma Lux, marque de meubles de luxe, héritage de l'artisanat, matériaux durables
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250821T102854Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: À propos de Forma Lux – Héritage & Artisanat Moderne
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: À propos de nous
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: Façonner des espaces avec âme et substance
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
+      Hint: Content
+      Value: "<p>Chez Forma Lux, nous mélangeons le design intemporel avec l'expression moderne pour créer des intérieurs qui reflètent l'individualité et l'élégance. Guidés par une passion pour la vie bien conçue, nous concevons des meubles qui vont au-delà des tendances — conçus pour ceux qui vivent audacieusement et stylent profondément. Notre philosophie est ancrée dans l'équilibre : entre forme et fonction, subtilité et déclaration, simplicité et richesse.</p>"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: Découvrez comment Forma Lux allie artisanat, matériaux de qualité supérieure et philosophie de design moderne pour créer des meubles intemporels.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a5492243-d586-4451-80f6-09a0697ce748"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: Notre héritage, nos matériaux et notre éthique de design—Forma Lux est là où la tradition rencontre la modernité pour des pièces qui durent.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T110105Z
 - Language: "fr-FR"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

@@ -12,10 +12,6 @@ SharedFields:
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
   Value: BED0001
-- ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-  Hint: ogImage
-  Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/73087de9d7f74ecf9c39b90dc3b637d3?v=3d9f3ffe" dam-id="v6LssTd4QcmFIYND3nogVQ" width="1536" height="1024" alt="aspen-bed-1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79363/thumbnail" />
 - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
   Hint: Color
   Value: |
@@ -34,7 +30,7 @@ SharedFields:
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/73087de9d7f74ecf9c39b90dc3b637d3?v=3d9f3ffe" dam-id="v6LssTd4QcmFIYND3nogVQ" width="1536" height="1024" alt="aspen-bed-1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79363/thumbnail" />
+    <image mediaid="b1e0c368-b796-498c-9ced-4cbb32939f67" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -44,7 +40,7 @@ SharedFields:
   Value: "{16807766-6013-4944-9550-EBC3216AD248}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "2f657ffe-9105-4da6-9e40-ec00c0942885"
+  Value: "2294e05f-e50b-48b2-ac52-5f093cd4dd34"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -99,7 +95,7 @@ Languages:
       Value: "Discover the Aspen Bunk Bed by Forma Lux – a durable pine-wood design with natural finish, safety rails, and built-in ladder. The perfect blend of craftsmanship, safety, and timeless style for shared or guest bedrooms."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d6821abd-0ff9-4b07-94aa-463eec733578"
+      Value: "129c0f53-7c36-4c29-8106-5fbdf528fba0"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -109,7 +105,7 @@ Languages:
       Value: Aspen Bunk Bed
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251223T083733Z
+      Value: 20251210T075130Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: "<p>The Aspen Bunk Bed is crafted from durable pine wood and finished in a natural tone. With safety rails and a built-in ladder, it’s designed for both safety and style. Ideal for shared bedrooms or sleepovers.</p>"

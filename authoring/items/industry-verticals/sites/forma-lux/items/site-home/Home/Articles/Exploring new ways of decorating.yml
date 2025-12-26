@@ -201,6 +201,66 @@ Languages:
     - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
       Hint: metadataKeywords
       Value: diseño de interiores, decoración moderna del hogar, estilo de muebles, interiores contemporáneos, revista Forma Lux, inspiración en diseño, artesanía artesanal, tendencias del hogar
+- Language: "fr-CA"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "9699a43e-cf45-4146-ba75-972cbc7a1594"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Explorer de nouvelles façons de décorer
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: Forma Lux vous invite à repenser comment les pièces prennent vie. Explorer de nouvelles façons de décorer examine le design comme une conversation—entre structure et douceur, héritage et innovation. L'éclairage sculptural, les textures de bois flotté et la poterie artisanale ancrent l'espace dans une beauté tactile, tandis qu'une retenue réfléchie garde chaque détail intentionnel. Cet article célèbre les intérieurs non pas comme des expositions statiques, mais comme des expressions évolutives de l'artisanat, de l'émotion et de l'harmonie moderne.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250917T090300Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Explorer de nouvelles façons de décorer
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <figure class="image image_resized image-style-align-right" style="width:42.48%;"><img class="image_resized" style="aspect-ratio:520/282;" src="-/media/949C1CB9D30246B0AB197E5E2F4B611C.ashx" alt="pexels-vecislavas-popa-1571453 1" width="520" height="282" /></figure><h3>Pièces maîtresses qui suscitent la conversation</h3><p>Un luminaire en fer suspendu attire le regard, planant au-dessus d'une table basse profilée en bois flotté. À proximité, une bibliothèque sculpturale abrite un mélange de pièces d'art, de plantes et de céramiques, offrant à la fois fonctionnalité et style.</p><p>C'est une disposition bien pensée qui guide naturellement le regard à travers la pièce. Chaque élément de design—qu'il soit structurel ou décoratif—semble intentionnel, contribuant à l'ambiance harmonieuse de la pièce. Une palette neutre domine, mais des touches de terracotta et de marine ajoutent de la personnalité sans submerger les sens. Des détails artisanaux, comme la poterie faite à la main et les panneaux muraux texturés, insufflent chaleur et authenticité.</p><p>C'est une disposition bien pensée qui guide naturellement le regard à travers la pièce. Chaque élément de design—qu'il soit structurel ou décoratif—semble intentionnel, contribuant à l'ambiance harmonieuse de la pièce. Une palette neutre domine, mais des touches de terracotta et de marine ajoutent de la personnalité sans submerger les sens. Des détails artisanaux, comme la poterie faite à la main et les panneaux muraux texturés, insufflent chaleur et authenticité.</p><figure class="image image_resized image-style-align-right" style="width:42.48%;"><img class="image_resized" style="aspect-ratio:520/282;" src="-/media/949C1CB9D30246B0AB197E5E2F4B611C.ashx" alt="pexels-vecislavas-popa-1571453 1" width="520" height="282" /></figure><h3>Pièces maîtresses qui suscitent la conversation</h3><p>Un luminaire en fer suspendu attire le regard, planant au-dessus d'une table basse profilée en bois flotté. À proximité, une bibliothèque sculpturale abrite un mélange de pièces d'art, de plantes et de céramiques, offrant à la fois fonctionnalité et style.</p><p>C'est une disposition bien pensée qui guide naturellement le regard à travers la pièce. Chaque élément de design—qu'il soit structurel ou décoratif—semble intentionnel, contribuant à l'ambiance harmonieuse de la pièce. Une palette neutre domine, mais des touches de terracotta et de marine ajoutent de la personnalité sans submerger les sens. Des détails artisanaux, comme la poterie faite à la main et les panneaux muraux texturés, insufflent chaleur et authenticité.</p><p>C'est une disposition bien pensée qui guide naturellement le regard à travers la pièce. Chaque élément de design—qu'il soit structurel ou décoratif—semble intentionnel, contribuant à l'ambiance harmonieuse de la pièce. Une palette neutre domine, mais des touches de terracotta et de marine ajoutent de la personnalité sans submerger les sens. Des détails artisanaux, comme la poterie faite à la main et les panneaux muraux texturés, insufflent chaleur et authenticité.</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "34c8c7f7-af1d-4bbb-b5bd-2eca8d35a6ac"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: Explorer de nouvelles façons de décorer
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T110127Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: Explorer de nouvelles façons de décorer | Journal Forma Lux – Perspectives modernes sur le design d'intérieur
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: design d'intérieur, décoration moderne, stylisme de meubles, intérieurs contemporains, journal Forma Lux, inspiration design, artisanat, tendances maison
 - Language: "fr-FR"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

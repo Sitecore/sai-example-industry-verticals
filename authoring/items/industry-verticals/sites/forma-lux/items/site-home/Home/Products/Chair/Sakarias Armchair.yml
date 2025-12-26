@@ -6,7 +6,8 @@ Path: "/sitecore/content/industry-verticals/forma-lux/Home/Products/Chair/Sakari
 SharedFields:
 - ID: "01ea8292-a476-44b5-b883-8841134989ba"
   Hint: Image5
-  Value: 
+  Value: |
+    <image mediaid="425126a2-6e66-41d4-9379-0c1277dd1b11" />
 - ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
   Hint: Tags
   Value: |
@@ -16,10 +17,6 @@ SharedFields:
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
   Value: CHR0004
-- ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-  Hint: ogImage
-  Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/676990cc1a264f95afede460b5601bb3?v=9b6666bd" dam-id="H_gcSUJbQpKr2BvPSMZQjA" width="1400" height="1400" alt="sakarias-armchair-1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79517/thumbnail" />
 - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
   Hint: Color
   Value: |
@@ -34,7 +31,7 @@ SharedFields:
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/676990cc1a264f95afede460b5601bb3?v=9b6666bd" dam-id="H_gcSUJbQpKr2BvPSMZQjA" width="1400" height="1400" alt="sakarias-armchair-1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79517/thumbnail" />
+    <image mediaid="82b66367-0640-42fa-ac54-164898c35b94" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -44,7 +41,7 @@ SharedFields:
   Value: "{8DD59D14-31A7-4B85-A547-77B03C68AC32}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "a5a6b1af-97bd-4ff9-83f9-5651736d6d9d"
+  Value: "eaa79afa-2b56-4a53-a4ff-6e9b46cc218c"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -114,7 +111,7 @@ Languages:
       Value: The Sakarias Armchair by Forma Lux combines contemporary design with plush comfort. Its sleek silhouette, premium upholstery, and sturdy frame create a sophisticated seating experience for any home.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1deda83c-a812-44a4-a451-7184ad9319a6"
+      Value: "f6d379d0-1110-49ab-98c6-4b8b8db2f3be"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -124,7 +121,7 @@ Languages:
       Value: Sakarias Armchair
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251223T092602Z
+      Value: 20251210T083926Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: <p>Introducing the Sakarias Armchair, a perfect blend of style and comfort that elevates any living space. Crafted with precision, this armchair features a sleek design that complements both modern and traditional decor. Its sturdy frame and plush cushioning provide exceptional support and relaxation, making it the ideal spot for unwinding after a long day.</p><p>&nbsp;Experience unparalleled luxury with the Sakarias Armchair’s premium upholstery, available in a range of colors to match your personal style. Whether you're enjoying a quiet moment with a book or entertaining guests, this armchair not only meets but exceeds expectations for durability and elegance. The Sakarias Armchair is truly an exquisite addition to any home, offering both aesthetic appeal and practical comfort.</p>

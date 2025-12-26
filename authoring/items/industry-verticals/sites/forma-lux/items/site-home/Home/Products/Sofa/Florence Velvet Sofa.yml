@@ -13,10 +13,6 @@ SharedFields:
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
   Value: SOF0004
-- ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-  Hint: ogImage
-  Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/5a5670cd4d5b4476bb12f9c91c596147?v=39a0be2d" dam-id="9uBPD88JTjiejcmKTkkYrg" width="360" height="360" alt="florence-velvet-sofa-1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79394/thumbnail" />
 - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
   Hint: Color
   Value: "{75E874D3-C7B4-466B-B9F1-F305D5B67E85}"
@@ -31,7 +27,7 @@ SharedFields:
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/5a5670cd4d5b4476bb12f9c91c596147?v=39a0be2d" dam-id="9uBPD88JTjiejcmKTkkYrg" width="360" height="360" alt="florence-velvet-sofa-1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79394/thumbnail" />
+    <image mediaid="1c61dd7f-3f6b-4aef-b89d-a1f26c77e446" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -41,7 +37,7 @@ SharedFields:
   Value: "{078D4751-D125-408A-9FF2-F5417844B877}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "b9deea28-8e01-4713-9f2c-a0d29d17c2ea"
+  Value: "d91ca0b7-9c47-4b50-b4d9-95f83c3da00a"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -96,7 +92,7 @@ Languages:
       Value: The Florence Velvet Sofa by Forma Lux brings refined luxury to modern interiors. Featuring deep tufting, rolled arms, and rich velvet upholstery, it’s a timeless statement of comfort and sophistication.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "23d7f1ae-71d0-42dc-af38-0fae3f280723"
+      Value: "8f813dac-19ff-4aa7-8ebe-d5177f5eb788"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -106,7 +102,7 @@ Languages:
       Value: Florence Velvet Sofa
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251223T090109Z
+      Value: 20251210T080916Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: "<p>The Florence Velvet Sofa exudes sophistication with its Chesterfield-inspired design. Upholstered in rich velvet, it features rolled arms, deep tufting, and a sturdy hardwood frame.</p>"

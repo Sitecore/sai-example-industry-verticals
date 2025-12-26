@@ -12,10 +12,6 @@ SharedFields:
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
   Value: BED0002
-- ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-  Hint: ogImage
-  Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/b6ceb74e50dc40c8a771061ddc2b3514?v=d0d53db1" dam-id="sLZX5duPTseD3f5CbXq8mQ" width="1536" height="1024" alt="aurora-king-bed-1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79374/thumbnail" />
 - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
   Hint: Color
   Value: |
@@ -32,7 +28,7 @@ SharedFields:
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/b6ceb74e50dc40c8a771061ddc2b3514?v=d0d53db1" dam-id="sLZX5duPTseD3f5CbXq8mQ" width="1536" height="1024" alt="aurora-king-bed-1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79374/thumbnail" />
+    <image mediaid="8a17859e-7d79-4a9f-b5d7-88b9d3c6b0df" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -42,7 +38,7 @@ SharedFields:
   Value: "{16807766-6013-4944-9550-EBC3216AD248}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "70d43926-84f3-42a4-b4fe-2da551268471"
+  Value: "c967d2f6-75be-41d4-a20b-bd28d0d4a0c8"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -100,7 +96,7 @@ Languages:
       Value: Sleep in style with the Aurora King Bed by Forma Lux. A tall tufted headboard, premium velvet upholstery, and a solid wooden frame bring refined comfort and timeless elegance to your bedroom.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d7d86acc-ff6b-4e11-9ad9-c6d40963f407"
+      Value: "2422d0e5-62f9-4a91-8448-b35bb9a4759c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -110,7 +106,7 @@ Languages:
       Value: Aurora King Bed
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251223T084000Z
+      Value: 20251210T075221Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: <p>The Aurora King Bed is designed for ultimate comfort and elegance. Its tall, tufted headboard adds a touch of grandeur, while the sturdy wooden frame ensures durability. Upholstered in premium velvet, it transforms any bedroom into a sanctuary.</p>
