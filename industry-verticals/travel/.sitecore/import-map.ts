@@ -11,7 +11,7 @@ import { Link, Text, useSitecore, RichText, NextImage, Image, DateField, Placeho
 import { useState, useCallback, useRef, useEffect, useMemo } from 'react';
 import React from 'react';
 import { useI18n } from 'next-localization';
-import { Facebook, Twitter, Youtube, Instagram, ArrowRight, Share2, ArrowLeft, Phone, Plane, Bed, Camera, Navigation, CalendarDays, Clock, MapPin, Star, Thermometer, LoaderCircle, ChevronLeft, ChevronRight, X, Menu, Search, Heart } from 'lucide-react';
+import { Facebook, Twitter, Youtube, Instagram, Linkedin, ArrowRight, Share2, ArrowLeft, Phone, Plane, Bed, Camera, Navigation, CalendarDays, Clock, MapPin, Star, Thermometer, LoaderCircle, ChevronLeft, ChevronRight, X, Menu, Search, Heart, Calendar } from 'lucide-react';
 import * as LucidIcons from 'lucide-react';
 import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
 import { LayoutStyles, PromoFlags, TitleSectionFlags } from '@/types/styleFlags';
@@ -59,7 +59,8 @@ import * as FEAAS from '@sitecore-feaas/clientside/react';
 import nextConfig from 'next.config';
 import { pageView } from '@sitecore-cloudsdk/events/browser';
 import config from 'sitecore.config';
-import { newsDateFormatter } from '@/helpers/dateHelper';
+import { newsDateFormatter as newsDateFormatter_77fef27f114da656b11a70d96f9a0ef7725fc8c6 } from 'src/helpers/dateHelper';
+import { Author } from 'src/components/non-sitecore/Author';
 
 const importMap = [
   {
@@ -102,6 +103,7 @@ const importMap = [
       { name: 'Twitter', value: Twitter },
       { name: 'Youtube', value: Youtube },
       { name: 'Instagram', value: Instagram },
+      { name: 'Linkedin', value: Linkedin },
       { name: 'ArrowRight', value: ArrowRight },
       { name: 'Share2', value: Share2 },
       { name: 'ArrowLeft', value: ArrowLeft },
@@ -122,6 +124,7 @@ const importMap = [
       { name: 'Menu', value: Menu },
       { name: 'Search', value: Search },
       { name: 'Heart', value: Heart },
+      { name: 'Calendar', value: Calendar },
       { name: '*', value: LucidIcons },
     ]
   },
@@ -462,9 +465,15 @@ const importMap = [
     ]
   },
   {
-    module: '@/helpers/dateHelper',
+    module: 'src/helpers/dateHelper',
     exports: [
-      { name: 'newsDateFormatter', value: newsDateFormatter },
+      { name: 'newsDateFormatter', value: newsDateFormatter_77fef27f114da656b11a70d96f9a0ef7725fc8c6 },
+    ]
+  },
+  {
+    module: 'src/components/non-sitecore/Author',
+    exports: [
+      { name: 'Author', value: Author },
     ]
   }
 ] as ImportEntry[];
