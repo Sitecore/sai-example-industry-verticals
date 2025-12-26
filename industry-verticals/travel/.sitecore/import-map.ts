@@ -11,7 +11,7 @@ import { Link, Text, useSitecore, RichText, NextImage, Image, DateField, Placeho
 import { useState, useCallback, useRef, useEffect, useMemo } from 'react';
 import React from 'react';
 import { useI18n } from 'next-localization';
-import { Facebook, Twitter, Youtube, Instagram, ArrowRight, Share2, ArrowLeft, Phone, Plane, Bed, Camera, Navigation, CalendarDays, Clock, MapPin, Star, Thermometer, LoaderCircle, ChevronLeft, ChevronRight, X, Menu, Search, Heart } from 'lucide-react';
+import { Facebook, Twitter, Youtube, Instagram, Linkedin, ArrowRight, Share2, ArrowLeft, Phone, Plane, Bed, Camera, Navigation, CalendarDays, Clock, MapPin, Star, Thermometer, LoaderCircle, ChevronLeft, ChevronRight, X, Menu, Search, Heart, Calendar } from 'lucide-react';
 import * as LucidIcons from 'lucide-react';
 import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
 import { LayoutStyles, PromoFlags, TitleSectionFlags } from '@/types/styleFlags';
