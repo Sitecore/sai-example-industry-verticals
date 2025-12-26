@@ -18,7 +18,7 @@ SharedFields:
     <image mediaid="{35902DFA-0A50-43E6-92DA-646B602A2A1C}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "a0d0333d-8c8c-49a2-a151-f34f642d4f52"
+  Value: "0d86e131-0413-4da2-b292-7670703b9e07"
 Languages:
 - Language: en
   Fields:
@@ -63,17 +63,17 @@ Languages:
       Value: Create a modern home office that blends style and productivity. Discover tips for ergonomic chairs, sleek desks, smart storage, natural lighting, and minimal accessories for a calm, uncluttered workspace.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "373b6700-4c37-42d9-bf31-998b6b8257d2"
+      Value: "3c44806f-38b1-4181-ae12-19f54ebc4fbf"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "The Work-From-Home Upgrade: Designing a Modern Home Office That Inspires"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251217T154258Z
+      Value: 20251223T145811Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: "Modern Home Office Design: Stylish, Functional, and Focused"

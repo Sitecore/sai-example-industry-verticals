@@ -20,7 +20,7 @@ SharedFields:
     <image mediaid="{14163266-EC02-4CCF-AD57-90239FD85E3C}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "d8a330ac-5ca2-415b-920f-5b49e5513527"
+  Value: "7722f752-07b7-4c46-8da1-ecbe0bb4d707"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -87,14 +87,14 @@ Languages:
         <p style="text-align:center;">This page is part of a demo experience.&nbsp;</p><p style="text-align:center;">Right now, the website isn’t connected to a live e-commerce system — but it can be fully integrated with one.&nbsp;</p><p style="text-align:center;">When it is, this is where your visitors will land to review their selected products and complete their purchase.</p><p style="text-align:center;">&nbsp;</p>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0df4e174-7ddd-4ad5-847f-e9e34f360940"
+      Value: "88bf3003-0d0e-447b-b54a-eeb9f7471e41"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251217T154433Z
+      Value: 20251223T145811Z
 - Language: "es-ES"
   Versions:
   - Version: 1

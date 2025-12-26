@@ -1,0 +1,36 @@
+﻿---
+ID: "6508350e-b512-4761-b39f-9a57bc6659a2"
+Parent: "a5457510-79c8-4b58-ba65-bf278c10f192"
+Template: "a5457510-79c8-4b58-ba65-bf278c10f192"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Destinations/Selected Destinations/Selected Destinations Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {E0D630C5-41D5-4356-AEB0-BE35B8D41AB9}
+    {A5457510-79C8-4B58-BA65-BF278C10F192}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "367fd27f-b085-485f-971f-a2e40aa2de4c"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3cff7b19-a055-410f-ae01-f9e1d4b70ea6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251222T114555Z

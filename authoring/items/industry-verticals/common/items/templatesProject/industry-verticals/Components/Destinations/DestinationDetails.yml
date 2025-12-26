@@ -3,6 +3,13 @@ ID: "c84dcfa1-0c73-4f1b-88ba-ca1eb860fe4c"
 Parent: "461df951-7f47-4ce3-857d-965d052fa2bb"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
 Path: "/sitecore/templates/Project/industry-verticals/Components/Destinations/DestinationDetails"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "df68688b-5772-4d5e-a547-5a83fb6a7bfb"
 Languages:
 - Language: en
   Versions:
@@ -21,11 +28,11 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "22de9b93-ae23-482a-b16a-aaf7dc36decd"
+      Value: "8e82ef50-8aa4-4893-87fe-6a961b3038ad"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251218T110436Z
+      Value: 20251222T114847Z

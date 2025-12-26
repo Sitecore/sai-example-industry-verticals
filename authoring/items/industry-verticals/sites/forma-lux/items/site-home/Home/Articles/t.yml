@@ -18,7 +18,7 @@ SharedFields:
     <image mediaid="{966BAE0C-A670-476A-8695-84442B37752A}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "d19b90fc-4485-430a-b193-6b01c9100ea4"
+  Value: "05cdf866-5056-4a9a-8c90-158dc5c0ea40"
 Languages:
 - Language: en
   Fields:
@@ -63,17 +63,17 @@ Languages:
       Value: "Discover how to use bold colors like teal, burnt orange, and chartreuse in modern furniture without overwhelming your space. Learn the 60-30-10 rule, anchoring techniques, and tips for creating fresh, intentional color palettes."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "71d86aec-f201-4b9d-b455-01f8db23960f"
+      Value: "d48b2866-ae27-44c8-90c2-f7cd2893b980"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "From Blank Slate to Bold Space: How to Kick-Off Your Modern Living Room Makeover"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251217T154004Z
+      Value: 20251223T145811Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: "Color Confidence: Bold Hues in Modern Furniture Without Overdoing It"

@@ -93,10 +93,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: "Discover the Aspen Bunk Bed by Forma Lux – a durable pine-wood design with natural finish, safety rails, and built-in ladder. The perfect blend of craftsmanship, safety, and timeless style for shared or guest bedrooms."
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="b1e0c368-b796-498c-9ced-4cbb32939f67" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "129c0f53-7c36-4c29-8106-5fbdf528fba0"
@@ -152,10 +148,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: "Descubre la Cama Litera Aspen de Forma Lux: un diseño duradero de madera de pino con acabado natural, barandillas de seguridad y escalera incorporada. La combinación perfecta de artesanía, seguridad y estilo atemporal para habitaciones compartidas o de invitados."
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="b1e0c368-b796-498c-9ced-4cbb32939f67" alt="aspen-bed-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "75554f7a-4038-4006-8829-3d6a41a95887"
@@ -214,10 +206,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Découvrez le lit superposé Aspen de Forma Lux – un design en bois de pin durable avec une finition naturelle, des barrières de sécurité et une échelle intégrée. Le parfait mélange d'artisanat, de sécurité et de style intemporel pour les chambres partagées ou d'amis.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="b1e0c368-b796-498c-9ced-4cbb32939f67" alt="lit-aspen-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "3cd9f29a-8d7e-4e08-a6f3-1f7eeae17282"
@@ -276,10 +264,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Découvrez le lit superposé Aspen de Forma Lux – un design en bois de pin durable avec une finition naturelle, des barrières de sécurité et une échelle intégrée. Le parfait mélange d'artisanat, de sécurité et de style intemporel pour les chambres partagées ou d'amis.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="b1e0c368-b796-498c-9ced-4cbb32939f67" alt="aspen-bed-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "70ec6b66-8f1f-4501-b0ec-d67dfe3bf04e"

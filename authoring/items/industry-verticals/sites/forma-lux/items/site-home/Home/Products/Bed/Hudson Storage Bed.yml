@@ -91,10 +91,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: "Discover the Hudson Storage Bed by Forma Lux – crafted from engineered wood with walnut veneer, featuring four spacious under-bed drawers for elegant, space-saving living."
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="ffe1936f-1433-4ed5-9fa5-dfecaea76c52" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "d889950f-ee5d-4662-81d5-661a4f8d443b"
@@ -150,10 +146,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Descubre la Cama con Almacenamiento Hudson de Forma Lux – fabricada con madera industrializada con chapa de nogal, con cuatro espaciosos cajones debajo de la cama para una vida elegante y que ahorra espacio.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="ffe1936f-1433-4ed5-9fa5-dfecaea76c52" alt="hudson-storage-bed-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "6616e5f8-10ba-4b08-8d92-3534962bfbf4"
@@ -212,10 +204,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Découvrez le lit de rangement Hudson par Forma Lux – fabriqué en bois d'ingénierie avec placage de noyer, doté de quatre tiroirs spacieux sous le lit pour un mode de vie élégant et peu encombrant.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="ffe1936f-1433-4ed5-9fa5-dfecaea76c52" alt="hudson-storage-bed-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "d8f0671a-0bc3-4fd0-ab28-b71909be2cbb"
@@ -274,10 +262,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Découvrez le lit Hudson avec rangement par Forma Lux – fabriqué en bois d'ingénierie avec placage en noyer, doté de quatre tiroirs spacieux sous le lit pour un habitat élégant et peu encombrant.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="ffe1936f-1433-4ed5-9fa5-dfecaea76c52" alt="hudson-storage-bed-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "5eb8cce7-254e-4f0e-afcd-45925ff4c2ed"

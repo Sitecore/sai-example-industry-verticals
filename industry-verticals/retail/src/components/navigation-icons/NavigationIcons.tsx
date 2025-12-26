@@ -8,6 +8,7 @@ import { PopoverClose } from '@radix-ui/react-popover';
 import { MiniCart } from '../non-sitecore/MiniCart';
 import { LinkField } from '@sitecore-content-sdk/nextjs';
 import PreviewSearch from '../non-sitecore/search/PreviewSearch';
+import { PREVIEW_WIDGET_ID } from '@/constants/search';
 
 export type NavigationIconsProps = ComponentProps & {
   fields: {
@@ -82,18 +83,18 @@ export const Default = (props: NavigationIconsProps): JSX.Element => {
         </div>
       </div>
       {isSearchOpen && (
-        <div className="absolute top-full right-0 left-0 z-50 border-b border-gray-200 bg-white shadow-lg">
+        <div className="border-border bg-background absolute top-full right-0 left-0 z-50 border-b shadow-lg">
           <div className="mx-auto max-w-7xl px-4 py-4">
             <div className="flex items-center gap-2">
               <PreviewSearch
-                rfkId="formalux_preview_search"
+                rfkId={PREVIEW_WIDGET_ID}
                 isOpen={isSearchOpen}
                 setIsSearchOpen={setIsSearchOpen}
               />
 
               <button
                 onClick={() => setIsSearchOpen(false)}
-                className="p-3 text-gray-500 transition-colors hover:text-gray-700"
+                className="text-foreground-muted hover:text-foreground p-3 transition-colors"
               >
                 <X className="size-5" />
               </button>
