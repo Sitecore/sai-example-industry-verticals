@@ -7,25 +7,11 @@ import {
 } from '@sitecore-content-sdk/nextjs/codegen';
 // end of built-in imports
 
-import {
-  Link,
-  Text,
-  useSitecore,
-  RichText,
-  Placeholder,
-  NextImage,
-  CdpHelper,
-  withDatasourceCheck,
-  Image,
-  DateField,
-} from '@sitecore-content-sdk/nextjs';
-import { useState, useRef, useMemo, useCallback, useEffect } from 'react';
+import { Link, Text, useSitecore, RichText, NextImage, Image, DateField, Placeholder, CdpHelper, withDatasourceCheck } from '@sitecore-content-sdk/nextjs';
+import { useState, useCallback, useRef, useEffect, useMemo } from 'react';
 import React from 'react';
 import { useI18n } from 'next-localization';
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/shadcn/components/ui/dropdown-menu';
-import { Share2, ArrowLeft, Phone, Plane, Bed, Camera, Navigation, X, Search, MapPin, Users, ChevronDown, Check, Menu, Heart, Star } from 'lucide-react';
-import { EmailIcon, EmailShareButton, FacebookIcon, FacebookShareButton, LinkedinIcon, LinkedinShareButton, PinterestIcon, PinterestShareButton, TwitterIcon, TwitterShareButton } from 'react-share';
-import {  CalendarDays, Clock, Thermometer, LoaderCircle, ChevronLeft, ChevronRight, Calendar } from 'lucide-react';
+import { Facebook, Twitter, Youtube, Instagram, Linkedin, ArrowRight, Share2, ArrowLeft, Phone, Plane, Bed, Camera, Navigation, CalendarDays, Clock, MapPin, Star, Thermometer, LoaderCircle, ChevronLeft, ChevronRight, X, Search, Users, ChevronDown, Check, Menu, Heart, Calendar } from 'lucide-react';
 import * as LucidIcons from 'lucide-react';
 import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
 import { LayoutStyles, PromoFlags, TitleSectionFlags } from '@/types/styleFlags';
@@ -33,6 +19,8 @@ import { newsDateFormatter } from '@/helpers/dateHelper';
 import { useSearchParams, usePathname, useRouter } from 'next/navigation';
 import QuestionsAnswers from 'src/components/non-sitecore/search/QuestionsAnswers';
 import SearchResultsWidget from 'src/components/non-sitecore/search/SearchResultsComponent';
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/shadcn/components/ui/dropdown-menu';
+import { EmailIcon, EmailShareButton, FacebookIcon, FacebookShareButton, LinkedinIcon, LinkedinShareButton, PinterestIcon, PinterestShareButton, TwitterIcon, TwitterShareButton } from 'react-share';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/shadcn/components/ui/tabs';
 import { usePreviewSearchActions, useSearchResultsActions, WidgetDataType, useSearchResults, widget, useQuestions, usePreviewSearch, FilterEqual } from '@sitecore-search/react';
 import { PreviewSearch, SortSelect, Pagination, AccordionFacets, FacetItem, RangeFacet, SearchResultsAccordionFacets, SearchResultsFacetValueRange, Select, ArticleCard, CardViewSwitcher as CardViewSwitcher_b6c381477cbf12fc0dc4f9aeb9e8e41e943b6ea7 } from '@sitecore-search/ui';
@@ -98,7 +86,6 @@ const importMap = [
       { name: 'useState', value: useState },
       { name: 'useCallback', value: useCallback },
       { name: 'useRef', value: useRef },
-      { name: 'useMemo', value: useMemo },
       { name: 'useEffect', value: useEffect },
       { name: 'useMemo', value: useMemo },
       { name: 'default', value: React },
@@ -113,12 +100,12 @@ const importMap = [
   {
     module: 'lucide-react',
     exports: [
-      { name: 'Facebook', value: LucidIcons.Facebook },
-      { name: 'Twitter', value: LucidIcons.Twitter },
-      { name: 'Youtube', value: LucidIcons.Youtube },
-      { name: 'Instagram', value: LucidIcons.Instagram },
-      { name: 'Linkedin', value: LucidIcons.Linkedin },
-      { name: 'ArrowRight', value: LucidIcons.ArrowRight },
+      { name: 'Facebook', value: Facebook },
+      { name: 'Twitter', value: Twitter },
+      { name: 'Youtube', value: Youtube },
+      { name: 'Instagram', value: Instagram },
+      { name: 'Linkedin', value: Linkedin },
+      { name: 'ArrowRight', value: ArrowRight },
       { name: 'Share2', value: Share2 },
       { name: 'ArrowLeft', value: ArrowLeft },
       { name: 'Phone', value: Phone },
@@ -135,8 +122,11 @@ const importMap = [
       { name: 'ChevronLeft', value: ChevronLeft },
       { name: 'ChevronRight', value: ChevronRight },
       { name: 'X', value: X },
-      { name: 'Menu', value: Menu },
       { name: 'Search', value: Search },
+      { name: 'Users', value: Users },
+      { name: 'ChevronDown', value: ChevronDown },
+      { name: 'Check', value: Check },
+      { name: 'Menu', value: Menu },
       { name: 'Heart', value: Heart },
       { name: 'Calendar', value: Calendar },
       { name: '*', value: LucidIcons },
@@ -189,27 +179,6 @@ const importMap = [
       { name: 'DropdownMenuContent', value: DropdownMenuContent },
       { name: 'DropdownMenuItem', value: DropdownMenuItem },
       { name: 'DropdownMenuTrigger', value: DropdownMenuTrigger },
-    ]
-  },
-  {
-    module: 'lucide-react',
-    exports: [
-      { name: 'Share2', value: Share2 },
-      { name: 'ArrowLeft', value: ArrowLeft },
-      { name: 'Phone', value: Phone },
-      { name: 'Plane', value: Plane },
-      { name: 'Bed', value: Bed },
-      { name: 'Camera', value: Camera },
-      { name: 'Navigation', value: Navigation },
-      { name: 'X', value: X },
-      { name: 'Search', value: Search },
-      { name: 'MapPin', value: MapPin },
-      { name: 'Users', value: Users },
-      { name: 'ChevronDown', value: ChevronDown },
-      { name: 'Check', value: Check },
-      { name: 'Menu', value: Menu },
-      { name: 'Heart', value: Heart },
-      { name: 'Star', value: Star },
     ]
   },
   {
