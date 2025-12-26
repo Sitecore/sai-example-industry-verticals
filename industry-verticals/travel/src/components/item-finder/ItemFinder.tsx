@@ -6,6 +6,12 @@ import { ComponentProps } from '@/lib/component-props';
 import { useI18n } from 'next-localization';
 import { Search, MapPin, Users, Plane, ChevronDown, Check } from 'lucide-react';
 import Calendar from '@/components/non-sitecore/CustomCalendar';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from '@/shadcn/components/ui/dropdown-menu';
 
 interface Fields {
   PlaceholderText?: Field<string>;
@@ -54,6 +60,171 @@ export const Simple = ({ params, fields }: ItemFinderProps): JSX.Element => {
               placeholder={t('search_articles_placeholder') || 'Search articles...'}
               className="item-finder-input bg-background text-foreground placeholder:text-foreground-muted focus:ring-accent w-full rounded-lg px-12 py-3 focus:ring-2 focus:outline-none"
             />
+          </div>
+        </form>
+      )}
+    </div>
+  );
+};
+
+// Medium variant - Search with filters (Continent, Type, Activities)
+export const Medium = ({ params, fields }: ItemFinderProps): JSX.Element => {
+  const { page } = useSitecore();
+  const { styles, RenderingIdentifier: id } = params;
+  const { t } = useI18n();
+  const isPageEditing = page.mode.isEditing;
+  const [searchQuery, setSearchQuery] = useState('');
+  const [selectedContinent, setSelectedContinent] = useState<string>('');
+  const [selectedType, setSelectedType] = useState<string>('');
+  const [selectedActivity, setSelectedActivity] = useState<string>('');
+
+  const continentOptions = useMemo(
+    () => [
+      { label: t('all_label') || 'All', value: 'All' },
+      { label: t('europe_label') || 'Europe', value: 'Europe' },
+      { label: t('asia_label') || 'Asia', value: 'Asia' },
+      { label: t('north_america_label') || 'North America', value: 'North America' },
+      { label: t('south_america_label') || 'South America', value: 'South America' },
+      { label: t('africa_label') || 'Africa', value: 'Africa' },
+      { label: t('oceania_label') || 'Oceania', value: 'Oceania' },
+    ],
+    [t]
+  );
+
+  const typeOptions = useMemo(
+    () => [
+      { label: t('all_label') || 'All', value: 'All' },
+      { label: t('city_label') || 'City', value: 'City' },
+      { label: t('beach_label') || 'Beach', value: 'Beach' },
+      { label: t('mountain_label') || 'Mountain', value: 'Mountain' },
+      { label: t('adventure_label') || 'Adventure', value: 'Adventure' },
+      { label: t('cultural_label') || 'Cultural', value: 'Cultural' },
+    ],
+    [t]
+  );
+
+  const activityOptions = useMemo(
+    () => [
+      { label: t('all_label') || 'All', value: 'All' },
+      { label: t('culture_label') || 'Culture', value: 'Culture' },
+      { label: t('adventure_label') || 'Adventure', value: 'Adventure' },
+      { label: t('beach_label') || 'Beach', value: 'Beach' },
+      { label: t('food_label') || 'Food', value: 'Food' },
+      { label: t('history_label') || 'History', value: 'History' },
+      { label: t('nature_label') || 'Nature', value: 'Nature' },
+    ],
+    [t]
+  );
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    // Handle search logic here
+  };
+
+  if (!fields && !isPageEditing) {
+    return <></>;
+  }
+
+  const FilterDropdown = ({
+    options,
+    selectedValue,
+    onSelect,
+    placeholder,
+  }: {
+    options: { label: string; value: string }[];
+    selectedValue: string;
+    onSelect: (value: string) => void;
+    placeholder: string;
+  }) => {
+    const selectedLabel = selectedValue
+      ? options.find((opt) => opt.value === selectedValue)?.label
+      : null;
+    const displayText = selectedLabel || placeholder;
+    const isPlaceholder = !selectedValue;
+
+    return (
+      <DropdownMenu>
+        <DropdownMenuTrigger asChild>
+          <button
+            type="button"
+            className={`border-border inline-flex h-9 w-auto items-center gap-2 rounded-md border bg-transparent px-4 py-1 text-xs whitespace-nowrap shadow-xs focus:outline-none ${
+              isPlaceholder ? 'text-foreground-muted' : 'text-foreground'
+            }`}
+          >
+            <span>{displayText}</span>
+            <ChevronDown size={16} className="text-foreground-muted shrink-0" />
+          </button>
+        </DropdownMenuTrigger>
+        <DropdownMenuContent align="start" className="min-w-[140px]">
+          {options.map((option) => (
+            <DropdownMenuItem
+              key={option.value}
+              onClick={() => onSelect(option.value)}
+              className="flex items-center justify-between text-xs"
+            >
+              <span>{option.label}</span>
+              {selectedValue === option.value && <Check size={16} className="ml-2 shrink-0" />}
+            </DropdownMenuItem>
+          ))}
+        </DropdownMenuContent>
+      </DropdownMenu>
+    );
+  };
+
+  return (
+    <div
+      className={`component item-finder destination-search bg-background mx-auto max-w-4xl rounded-lg p-6 shadow-lg ${styles || ''}`}
+      id={id || undefined}
+    >
+      {isPageEditing && !fields && (
+        <div className="text-foreground-muted p-4 text-center">[ITEM FINDER - MEDIUM]</div>
+      )}
+      {(!isPageEditing || fields) && (
+        <form onSubmit={handleSubmit}>
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-4">
+            {/* Search Input */}
+            <div className="relative">
+              <div className="text-foreground-muted pointer-events-none absolute top-1/2 left-3 z-10 -translate-y-1/2">
+                <Search size={20} />
+              </div>
+              <input
+                type="text"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                placeholder={t('search_destinations_placeholder') || 'Search destinations...'}
+                className="text-foreground placeholder:text-foreground-muted focus:border-foreground-muted/30 h-9 w-full rounded-md border bg-transparent py-1 pr-6 pl-10 text-xs shadow-xs placeholder:text-xs focus:border-[3px] focus:outline-none"
+              />
+            </div>
+
+            {/* Continent Dropdown */}
+            <div className="shrink-0">
+              <FilterDropdown
+                options={continentOptions}
+                selectedValue={selectedContinent}
+                onSelect={setSelectedContinent}
+                placeholder={t('continent_label') || 'Continent'}
+              />
+            </div>
+
+            {/* Type Dropdown */}
+            <div className="shrink-0">
+              <FilterDropdown
+                options={typeOptions}
+                selectedValue={selectedType}
+                onSelect={setSelectedType}
+                placeholder={t('type_label') || 'Type'}
+              />
+            </div>
+
+            {/* Activities Dropdown */}
+            <div className="shrink-0">
+              <FilterDropdown
+                options={activityOptions}
+                selectedValue={selectedActivity}
+                onSelect={setSelectedActivity}
+                placeholder={t('activities_label') || 'Activities'}
+              />
+            </div>
           </div>
         </form>
       )}
@@ -274,3 +445,4 @@ export const Large = ({ params, fields }: ItemFinderProps): JSX.Element => {
 
 // Default variant - uses Simple
 export const Default = Simple;
+
