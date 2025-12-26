@@ -37,6 +37,7 @@ const ArticleHorizontalItemCard = ({ className = '', article }: ArticleCardItemC
               alt="alt"
               width={500}
               height={115}
+              unoptimized
             />
           </div>
         )}
