@@ -47,18 +47,18 @@ Languages:
       Value: Alina Moreau
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c0d4b0ac-b780-4786-b8b5-3d0335aa3f72"
+      Value: "edeb03be-53a9-4cc6-9216-1b7e97da761f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251114T113445Z
+      Value: 20251226T095954Z
     - ID: "ea706e77-5d62-426e-bbb3-68805298e75c"
       Hint: Photo
       Value: |
-        <image mediaid="faa459b1-bf0f-4d5d-82cd-a97581cd822b" />
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/78911-HomePageHero-2000x800?v=cf76dc28" dam-id="1AUPIfGESUOKst1uq2ywzg" width="2000" height="800" alt="AlinaMoreau.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/78911/thumbnail" />
     - ID: "fb359b0f-3087-41f2-aae3-2dd492eb2c60"
       Hint: Title
       Value: Alina Moreau

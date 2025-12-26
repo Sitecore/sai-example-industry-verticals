@@ -11,14 +11,14 @@ SharedFields:
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
-    <image mediaid="0403bb06-cdda-4227-a4c4-8c1239b15952" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/76482-HomePageHero-2000x800?v=557dc5cc" dam-id="BcW8636eTdGkiQprINl2kg" width="2000" height="800" alt="sustainable-style-modern-furniture-article.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76482/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{CF28F9CA-EF7C-400A-BE5A-6451276C64E1}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "87501219-b741-4e18-bd19-a4d1a82c69cc"
+  Value: "b1a854a8-1865-455a-a141-46ad9c03931a"
 Languages:
 - Language: en
   Fields:
@@ -63,17 +63,17 @@ Languages:
       Value: "Discover how to choose furniture that looks good and does good. Explore responsibly-sourced wood, low-VOC finishes, recycled materials, and durable construction for a stylish, sustainable home."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3ab6f37a-45ac-4ec5-9092-5245cfe1ac07"
+      Value: "2f4705e7-5b4e-43be-8015-6c055c92a840"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "Sustainable Style: Modern Furniture That’s Good for the Planet"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251223T145811Z
+      Value: 20251226T113754Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: "Sustainable Furniture Choices: Modern Design That Reflects Your Values"
