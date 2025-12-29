@@ -130,7 +130,7 @@ Set the envs as follows
    - NEXT_PUBLIC_SEARCH_CUSTOMER_KEY=<Can be taken from cec portal>
    - NEXT_PUBLIC_SEARCH_API_KEY=<Can be taken from cec portal>
    - NEXT_PUBLIC_SEARCH_SOURCE=1193018
-   - NEXT_PUBLIC_BASE_URL=<Include Hosted Domain>
+   - NEXT_PUBLIC_BASE_URL=<Hosted Domain URL>
 ```
 
 ### Create new source in CEC portal and link to your application
