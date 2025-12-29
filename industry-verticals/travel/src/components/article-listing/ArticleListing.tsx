@@ -118,27 +118,33 @@ export const Default = (props: ArticleListingProps) => {
                 {/* content section */}
                 <div className="">
                   <div className="mb-3 flex items-center space-x-4 text-sm text-gray-500">
-                    <div className="flex items-center space-x-1">
-                      <User className="h-3 w-3" />
-                      <span>
-                        <ContentSdkText field={article.fields.Author.fields.AuthorName} />
-                      </span>
-                    </div>
-                    <div className="flex items-center space-x-1">
-                      <Calendar className="h-3 w-3" />
-                      <span>
-                        <DateField
-                          field={article.fields.PublishedDate}
-                          render={newsDateFormatter}
-                        />
-                      </span>
-                    </div>
-                    <div className="flex items-center space-x-1">
-                      <Clock className="h-3 w-3" />
-                      <span>
-                        <ContentSdkText field={article.fields.ReadTime} />
-                      </span>
-                    </div>
+                    {article?.fields?.Author?.fields?.AuthorName && (
+                      <div className="flex items-center space-x-1">
+                        <User className="h-3 w-3" />
+                        <span>
+                          <ContentSdkText field={article.fields.Author.fields.AuthorName} />
+                        </span>
+                      </div>
+                    )}
+                    {article?.fields?.PublishedDate && (
+                      <div className="flex items-center space-x-1">
+                        <Calendar className="h-3 w-3" />
+                        <span>
+                          <DateField
+                            field={article.fields.PublishedDate}
+                            render={newsDateFormatter}
+                          />
+                        </span>
+                      </div>
+                    )}
+                    {article?.fields?.ReadTime && (
+                      <div className="flex items-center space-x-1">
+                        <Clock className="h-3 w-3" />
+                        <span>
+                          <ContentSdkText field={article.fields.ReadTime} />
+                        </span>
+                      </div>
+                    )}
                   </div>
                   <h3 className="mb-2 line-clamp-2 text-lg font-semibold text-gray-900">
                     <ContentSdkText field={article.fields.Title} />
