@@ -2,12 +2,11 @@
 
 ## Overview
 
-Luxury retail is a simple website with sample Component implementation showcasing data source handling and other essentials. This demo site is built to showcase XM Cloud capabilities using the Content SDK.
+Luxury Retail is a demo website created to showcase a modern retail experience.The site is designed to demonstrate how a luxury brand can deliver a seamless and personalized experience to its customers.
 
 ## Developer Expectations:
 
 - Tailwind-based styling (Shadcn)
-- Personalized homepage via URL parameters
 - Modular components for reuse
 - Localization support 
 
@@ -20,7 +19,7 @@ Luxury retail is a simple website with sample Component implementation showcasin
 1. Clone the repository (if not yet done)
    `git clone https://github.com/Sitecore/Sitecore.Demo.XMCloud.IndustryVerticals.SiteTemplates`
 2. Starting from the root of the repository navigate to site app folder
-   `cd industry-verticals\retail`
+   `cd industry-verticals\luxury-retail`
 3. Copy the environment file `.env.remote.example`
 4. Rename the copied file to `.env.local`
 5. Edit `.env.local` and provide a value for
@@ -29,7 +28,7 @@ Luxury retail is a simple website with sample Component implementation showcasin
    - NEXT_PUBLIC_SITECORE_EDGE_CONTEXT_ID
    - SITECORE_EDITING_SECRET
 6. Install dependencies:
-   from `industry-verticals\travel` run `npm install`
+   from `industry-verticals\luxury-retail` run `npm install`
 7. Run the site locally:
    `npm run dev`
 8. Access the site:
@@ -111,8 +110,3 @@ sitecore ser push
 ```
 
 [Documentation](https://doc.sitecore.com/xmc/en/developers/xm-cloud/serialization-in-sitecore.html)
-
-
-
-- After adding the new languages, update the locales array in the next.config.js file to include the new language codes.
-- To display languages in language switcher, go to src/constants/localeOptions.ts and update the localeOptions array with code,label,currency and currencySymbol for specific locale.
