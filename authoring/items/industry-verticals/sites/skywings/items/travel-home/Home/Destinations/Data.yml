@@ -3,6 +3,13 @@ ID: "71fb6dcc-15a0-46e3-83f5-dba397af7dc3"
 Parent: "fccdbc60-12fe-4d07-8479-cc511790409e"
 Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
 Path: "/sitecore/content/industry-verticals/skywings/Home/Destinations/Data"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "df0850a2-0653-4da8-87ad-8381dbc242e2"
 Languages:
 - Language: en
   Versions:
@@ -21,11 +28,11 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "820ca715-287a-483c-ab24-b2c361ff2874"
+      Value: "4846cd96-c78e-4e06-860d-e569119912e4"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251223T101511Z
+      Value: 20251229T114953Z

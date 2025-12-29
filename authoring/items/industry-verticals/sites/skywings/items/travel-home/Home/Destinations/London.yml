@@ -30,7 +30,7 @@ SharedFields:
     <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/f982b46b409c4854b7e6d6a1963eba33?v=3618b311" dam-id="tCqC8XHbQUuSonHvLojRIA" width="800" height="600" alt="london.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68797/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 900
+  Value: 188
 - ID: "c63df59f-64e0-4fb1-80f0-ec3925574c0d"
   Hint: Activities
   Value: |
@@ -50,7 +50,7 @@ SharedFields:
     {DACFF542-7FC0-48D3-AAA5-6CF6C0DC7BB3}
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "a7a67019-7b03-4418-8cce-c8bad4ce7a6a"
+  Value: "763cab67-0c14-4277-a756-700e875205be"
 - ID: "e2414def-999b-439a-b071-ff6a86838924"
   Hint: Highlights
   Value: |
@@ -125,7 +125,7 @@ Languages:
       Value: City
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "861c2216-2013-4e9e-bdf4-c80e81f85011"
+      Value: "cfe450f4-0a45-4979-afec-95ad4fd0eaf3"
     - ID: "8dd6625c-72c1-4780-8c4a-caca6e16c39a"
       Hint: TripDuration
       Value: "4-7 days"
@@ -147,7 +147,7 @@ Languages:
       Value: No
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251226T161357Z
+      Value: 20251229T115022Z
     - ID: "df3123e3-ca29-48e7-a4eb-ceeba8226574"
       Hint: Language
       Value: English 

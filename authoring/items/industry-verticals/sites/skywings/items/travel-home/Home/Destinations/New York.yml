@@ -30,7 +30,7 @@ SharedFields:
     <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/9eecf52176064678bb27365b6b6fccfe?v=703aba8a" dam-id="6ZtcWQ0fTiCbPCuDALXPAg" width="800" height="600" alt="newyork.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68794/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 800
+  Value: 175
 - ID: "c63df59f-64e0-4fb1-80f0-ec3925574c0d"
   Hint: Activities
   Value: |
@@ -50,7 +50,7 @@ SharedFields:
     {419C3BA2-72D0-4502-A6A4-883035BF53E1}
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "c4e79fa9-312d-4d63-865d-4fc64ca41745"
+  Value: "0d2726ec-0a13-4067-a4ff-42cc26ab6628"
 - ID: "e2414def-999b-439a-b071-ff6a86838924"
   Hint: Highlights
   Value: |
@@ -125,7 +125,7 @@ Languages:
       Value: City
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3cc47956-3157-4b34-b42f-e7c5450be2e0"
+      Value: "56e23610-a6f9-4952-8022-345e3ca268b4"
     - ID: "8dd6625c-72c1-4780-8c4a-caca6e16c39a"
       Hint: TripDuration
       Value: "4-8 days"
@@ -147,7 +147,7 @@ Languages:
       Value: No
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251226T142255Z
+      Value: 20251229T115000Z
     - ID: "df3123e3-ca29-48e7-a4eb-ceeba8226574"
       Hint: Language
       Value: English 

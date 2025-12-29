@@ -25,6 +25,9 @@ SharedFields:
   Hint: ogImage
   Value: |
     <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/79256-HomepagePromoCTAs-1100x740?v=548da97a" dam-id="i77GXIfoT9q1AbUNDNs3cw" width="1100" height="740" alt="tokyo.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79256/thumbnail" />
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 150
 - ID: "c63df59f-64e0-4fb1-80f0-ec3925574c0d"
   Hint: Activities
   Value: |
@@ -41,7 +44,7 @@ SharedFields:
     {BEFC89F3-C66D-4747-9771-73CD2B600341}
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "186942eb-5b50-4cb8-92b8-005b7afcd67b"
+  Value: "ae23d1b3-8ac3-4699-acb1-662d06c8225f"
 - ID: "e2414def-999b-439a-b071-ff6a86838924"
   Hint: Highlights
   Value: |
@@ -111,7 +114,7 @@ Languages:
       Value: Modern Tradition
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3674d795-be4e-48d6-bcb4-488e3f8e1c3b"
+      Value: "e90e83cc-3977-4a1d-a4aa-73321425d6d9"
     - ID: "8dd6625c-72c1-4780-8c4a-caca6e16c39a"
       Hint: TripDuration
       Value: "5-10 days"
@@ -133,7 +136,7 @@ Languages:
       Value: Yes (30, 60 or 90 days)
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251226T162820Z
+      Value: 20251229T114955Z
     - ID: "df3123e3-ca29-48e7-a4eb-ceeba8226574"
       Hint: Language
       Value: Japanese, English

@@ -248,7 +248,7 @@
       {
         "name": "CustomScripts",
         "path": "/sitecore/system/Modules/PowerShell/Script Library/Custom Tools",
-        "scope": "ItemAndChildren"
+        "scope": "ItemAndDescendants"
       },
       {
         "name": "Languages",

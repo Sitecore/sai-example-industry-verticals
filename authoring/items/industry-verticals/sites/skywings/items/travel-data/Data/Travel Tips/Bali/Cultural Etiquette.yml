@@ -1,0 +1,44 @@
+﻿---
+ID: "3cf3f295-39f5-40bd-9b89-a65cc714ac19"
+Parent: "6fb86039-da63-4a3c-ac97-af3536961d3d"
+Template: "b020ee7a-b8a1-4850-91c0-c65e46ebaef1"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Travel Tips/Bali/Cultural Etiquette"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251229T112105Z
+    - ID: "472facf1-ba62-45e1-a18e-a0641c900725"
+      Hint: Title
+      Value: Cultural Etiquette
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "184862c1-4bc2-4421-a043-9277351692a9"
+    - ID: "8e528e88-8c6c-48ce-bf83-577c8dbdf804"
+      Hint: Description
+      Value: |
+        <ul>
+            <li style="color: #000000; line-height: 20px;">Dress modestly inside temples</li>
+            <li style="color: #000000; line-height: 20px;">Do not touch people&rsquo;s heads, including children</li>
+            <li style="color: #000000; line-height: 20px;">Offer and receive items using your right hand</li>
+            <li style="color: #000000; line-height: 20px;">Respect ceremonies and avoid blocking temple areas</li>
+            <li style="color: #000000; line-height: 20px;">Learn simple greetings like &ldquo;Terima kasih&rdquo; (thank you)</li>
+        </ul>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251229T112123Z

@@ -12,7 +12,7 @@ SharedFields:
 - ID: "29db1d43-1ca3-4936-8add-f0ae3546faa5"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/79304-HomePageHero-2000x800?v=62ec648d" dam-id="cyLLx0ysSqOCSs0ZET0bfw" width="2000" height="800" alt="Phuket.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79304/thumbnail" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/4e6a1e03f37b484eb6320b431c737fde?v=242aaaa3" dam-id="cyLLx0ysSqOCSs0ZET0bfw" width="1344" height="768" alt="Phuket.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79304/thumbnail" />
 - ID: "3e3bc290-3383-41c1-b7a6-e969010b0209"
   Hint: NumberOfReviews
   Value: 10
@@ -25,6 +25,9 @@ SharedFields:
   Hint: ogImage
   Value: |
     <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/4e6a1e03f37b484eb6320b431c737fde?v=242aaaa3" dam-id="cyLLx0ysSqOCSs0ZET0bfw" width="1344" height="768" alt="Phuket.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79304/thumbnail" />
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
 - ID: "c63df59f-64e0-4fb1-80f0-ec3925574c0d"
   Hint: Activities
   Value: |
@@ -41,7 +44,7 @@ SharedFields:
     {F3C9B922-4E69-4966-85EE-D0D4CFE857E1}
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "ee9db40f-538c-42dc-9112-44f55e368408"
+  Value: "88d26f16-5ac4-4af8-8c57-48e357d71e1a"
 - ID: "e2414def-999b-439a-b071-ff6a86838924"
   Hint: Highlights
   Value: |
@@ -121,7 +124,7 @@ Languages:
       Value: Beach
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b2a8e30b-f780-4e1a-adf2-1a7665530e29"
+      Value: "ff499e25-3e93-4f3f-aeb2-a7d5ecf635de"
     - ID: "8dd6625c-72c1-4780-8c4a-caca6e16c39a"
       Hint: TripDuration
       Value: 5 –7 days
@@ -143,7 +146,7 @@ Languages:
       Value: "Mostly 30 days visa-free (varies by nationality)"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251226T162846Z
+      Value: 20251229T114953Z
     - ID: "df3123e3-ca29-48e7-a4eb-ceeba8226574"
       Hint: Language
       Value: Thai

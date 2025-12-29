@@ -12,7 +12,7 @@ SharedFields:
 - ID: "29db1d43-1ca3-4936-8add-f0ae3546faa5"
   Hint: Image
   Value: |
-    <image mediaid="4328cc6e-d3cb-49dc-91cb-7ecac8c61ad5" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/79154-HomepagePromoCTAs-1100x740?v=dd8b5a42" dam-id="cdQ9mZRxS_iwxkVczlHQSw" width="1100" height="740" alt="chris-karidis-nnzkZNYWHaU-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79154/thumbnail" />
 - ID: "3e3bc290-3383-41c1-b7a6-e969010b0209"
   Hint: NumberOfReviews
   Value: 34
@@ -25,6 +25,9 @@ SharedFields:
   Hint: ogImage
   Value: |
     <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/799524361ad641c892613c6fa6f7996d?v=d767dc0b" dam-id="WuLvY57HS3eSVeCurvl1lw" width="1024" height="1024" alt="paris.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68758/thumbnail" />
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
 - ID: "c63df59f-64e0-4fb1-80f0-ec3925574c0d"
   Hint: Activities
   Value: |
@@ -41,7 +44,7 @@ SharedFields:
     {18C5CEFB-3901-40E0-9409-E41B6C141020}
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "1d8a7f72-b034-4eb3-88a0-f734e664451b"
+  Value: "df9e159e-65c5-4b9a-a89c-8c2ff7d25419"
 - ID: "e2414def-999b-439a-b071-ff6a86838924"
   Hint: Highlights
   Value: |
@@ -105,7 +108,7 @@ Languages:
       Value: Romantic Escape
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "43baff25-99af-4c9f-bbb8-ad0a195e961a"
+      Value: "2d1183b6-1757-4d1a-afd7-d1329fd83fa8"
     - ID: "8dd6625c-72c1-4780-8c4a-caca6e16c39a"
       Hint: TripDuration
       Value: "4-7  Days"
@@ -127,7 +130,7 @@ Languages:
       Value: No
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251226T162535Z
+      Value: 20251229T114953Z
     - ID: "df3123e3-ca29-48e7-a4eb-ceeba8226574"
       Hint: Language
       Value: French

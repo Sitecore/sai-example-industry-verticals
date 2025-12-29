@@ -31,7 +31,7 @@ SharedFields:
     <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/ce13f57470b24f739a169f7ffabb3591?v=7a825e2e" dam-id="a9UlYcj3Q4KbvrRm1H95Qg" width="1344" height="768" alt="vancouver.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/71378/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 1100
+  Value: 800
 - ID: "c63df59f-64e0-4fb1-80f0-ec3925574c0d"
   Hint: Activities
   Value: |
@@ -51,7 +51,7 @@ SharedFields:
     {7EFC035F-9F14-4769-B187-79EB7D78C6E7}
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "8745ba5c-bc91-46b3-8716-2ff7eb6817dd"
+  Value: "90f70f58-d746-4c9f-ba11-5836a44c0051"
 - ID: "e2414def-999b-439a-b071-ff6a86838924"
   Hint: Highlights
   Value: |
@@ -125,7 +125,7 @@ Languages:
       Value: City
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a86d578b-a353-4a61-b72c-68f7f710b09c"
+      Value: "f81fb149-44ff-4529-9831-d19d573996fc"
     - ID: "8dd6625c-72c1-4780-8c4a-caca6e16c39a"
       Hint: TripDuration
       Value: 5
@@ -147,7 +147,7 @@ Languages:
       Value: No
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251229T104508Z
+      Value: 20251229T114955Z
     - ID: "df3123e3-ca29-48e7-a4eb-ceeba8226574"
       Hint: Language
       Value: English, French

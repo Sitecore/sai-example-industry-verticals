@@ -15,7 +15,7 @@ SharedFields:
     <image mediaid="{6982D63B-8FE0-4FA7-A75D-3B0319D4B957}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "21ed7529-2b3c-43c2-b382-93985af3fc99"
+  Value: "6b34dda6-b70a-449b-8dbd-be2855ae3705"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -101,29 +101,15 @@ SharedFields:
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles=%7C%7B5727E298-B962-4A00-976D-2852AB65CD5C%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=12"
           s:ph="headless-main" />
         <r
-          uid="{DD353299-A4D1-4E5B-8039-07849C626E35}"
-          p:after="r[@uid='{928A5C4E-BB6A-4C60-8E1D-50989E678725}']"
-          s:ds="bbfff85e-c819-4de1-8ad5-c973c87ce5b2"
-          s:id="{B49CF2D7-7CB2-4918-8F38-2607D956D995}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B1666B121-2334-42E0-ADC4-F2AF556A5E7D%7D&amp;Styles=%7C%7BCF94162F-6E0A-40BA-B99B-856C660CBAEA%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=23"
-          s:ph="headless-main" />
-        <r
           uid="{854DE307-4151-4CC4-892E-96BA3B85D3B4}"
-          p:after="r[@uid='{DD353299-A4D1-4E5B-8039-07849C626E35}']"
+          p:after="r[@uid='{928A5C4E-BB6A-4C60-8E1D-50989E678725}']"
           s:ds="166bebfe-3d4f-43be-91c4-be69e3300085"
           s:id="{9233D899-603E-4E35-BC0B-F1CD64CD7ED1}"
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B83AA7A83-EDD8-4175-AE54-F63A3E1C136C%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=13"
           s:ph="headless-main" />
         <r
-          uid="{B77BD812-1BCD-4667-B7EE-182357DF48D4}"
-          p:after="r[@uid='{854DE307-4151-4CC4-892E-96BA3B85D3B4}']"
-          s:ds="bbfff85e-c819-4de1-8ad5-c973c87ce5b2"
-          s:id="{B49CF2D7-7CB2-4918-8F38-2607D956D995}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B1666B121-2334-42E0-ADC4-F2AF556A5E7D%7D&amp;Styles=%7C%7BCF94162F-6E0A-40BA-B99B-856C660CBAEA%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=21"
-          s:ph="headless-main" />
-        <r
           uid="{75D53C51-4F88-45EF-B6B2-07D61A2B0995}"
-          p:after="r[@uid='{B77BD812-1BCD-4667-B7EE-182357DF48D4}']"
+          p:after="r[@uid='{854DE307-4151-4CC4-892E-96BA3B85D3B4}']"
           s:ds="c23358e6-08d7-46ac-a81c-41f0f5bc2042"
           s:id="{E3CCF1D0-7855-4898-8BDE-77F83C6A487C}"
           s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D"
@@ -143,45 +129,19 @@ SharedFields:
           s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=2"
           s:ph="headless-main" />
         <r
-          uid="{EB63912C-E85B-4DFE-AB9D-7CB191CFA459}"
-          p:after="r[@uid='{A65A96BE-2924-4071-9DCA-E90BC154343C}']"
-          s:ds="95d71961-647d-4ffa-b7bd-c591e70291a1"
-          s:id="{CCD11802-22A3-462F-92FC-821515E2AEC8}"
-          s:par="FieldNames=%7BA6D3D740-A319-43F9-844F-9E349F2711C8%7D&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=3"
-          s:ph="headless-main" />
-        <r
           uid="{56E6B49A-88D7-43C0-BF9B-5480A62F270D}"
-          p:after="r[@uid='{EB63912C-E85B-4DFE-AB9D-7CB191CFA459}']"
+          p:after="r[@uid='{A65A96BE-2924-4071-9DCA-E90BC154343C}']"
           s:ds="337ed1d1-c8d3-4240-b58a-ce26fa20b611"
           s:id="{50D05F00-5D16-4684-8B7C-173162F8A4DB}"
           s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D"
           s:ph="headless-main" />
         <r
-          uid="{3F1B04C8-B88E-4598-B477-6802C98DA126}"
-          p:after="r[@uid='{56E6B49A-88D7-43C0-BF9B-5480A62F270D}']"
-          s:ds="09d14916-6ac3-4a0d-a970-6384300e6c9d"
-          s:id="{C7FDF764-5C05-4544-BB1F-A0E11F37E222}"
-          s:par="FieldNames&amp;RenderingIdentifier&amp;Styles=%7C%7B2F8392A6-9259-4FC1-8AD8-AAAE81A352E7%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=1"
-          s:ph="headless-main" />
-        <r
-          uid="{571F24DD-F621-4302-AAF9-D958CF73599E}"
-          p:after="r[@uid='{3F1B04C8-B88E-4598-B477-6802C98DA126}']"
+          uid="{35A56909-F833-4B3D-97A3-95F7722E385E}"
+          p:after="*[1=2]"
           s:ds="d0d4a3ba-72ab-440f-9e94-a4457816f2d4"
           s:id="{96E7CF65-48A4-47BE-9BB7-DCE50CF7AEA1}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=9"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=21"
           s:ph="headless-main" />
-        <r
-          uid="{DE06054B-1B90-4568-9C25-21D9B226A783}"
-          p:after="r[@uid='{571F24DD-F621-4302-AAF9-D958CF73599E}']"
-          s:id="{E6C8038F-B3EA-46E4-9F2C-89C562CE21F5}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BFD4A1E3E-CE05-4E60-8C99-299F41D44FB5%7D&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=22"
-          s:ph="/headless-main/hero-banner-search-bar-21" />
-        <r
-          uid="{1052DD2D-DB35-4478-B07B-E9F63841F7E4}"
-          p:after="*[1=2]"
-          s:id="{E6C8038F-B3EA-46E4-9F2C-89C562CE21F5}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B2378EBF4-F8AC-43FD-ABF3-15A1D973CC61%7D&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=24"
-          s:ph="/headless-main/hero-banner-search-bar-23" />
       </d>
     </r>
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
@@ -220,11 +180,11 @@ Languages:
       Value: Discover destinations, plan trips, and experience cultural travel with Skywings. Explore inspiring locations, manage your journeys, and embrace travel that connects you to the world.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "cf3f9049-f406-4b8b-88a9-8927db08f3bf"
+      Value: "0c690665-d9d9-42df-854c-55c76117de68"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251229T080145Z
+      Value: 20251229T113337Z

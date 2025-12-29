@@ -25,6 +25,9 @@ SharedFields:
   Hint: ogImage
   Value: |
     <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/79292-HomePageHero-2000x800?v=cdf03aa1" dam-id="za5Vv-aqQ2GlBMEkaS6qbg" width="2000" height="800" alt="singapore.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79292/thumbnail" />
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
 - ID: "c63df59f-64e0-4fb1-80f0-ec3925574c0d"
   Hint: Activities
   Value: |
@@ -41,7 +44,7 @@ SharedFields:
     {82BB0E1A-F7C5-41BD-84C4-08A717790E6C}
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "25b7f26b-67a2-4966-981c-435685bd18d6"
+  Value: "ed0c5380-6aeb-480e-b780-dfec08edcfc3"
 - ID: "e2414def-999b-439a-b071-ff6a86838924"
   Hint: Highlights
   Value: |
@@ -121,7 +124,7 @@ Languages:
       Value: Urban Luxury
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "38224ca3-c965-4071-b243-cc2bd1409f6b"
+      Value: "04a449c1-b9cb-4560-b094-82a10f82b421"
     - ID: "8dd6625c-72c1-4780-8c4a-caca6e16c39a"
       Hint: TripDuration
       Value: 3–5 days
@@ -134,7 +137,7 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "bb6b8d9a-3e61-4f1f-972d-48fca292f456"
       Hint: metadataKeywords
       Value: Singapore city travel, Southeast Asia, modern city
@@ -143,7 +146,7 @@ Languages:
       Value: "Most travelers receive 30–90 days visa-free"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251226T172037Z
+      Value: 20251229T114954Z
     - ID: "df3123e3-ca29-48e7-a4eb-ceeba8226574"
       Hint: Language
       Value: English, Mandarin, Malay

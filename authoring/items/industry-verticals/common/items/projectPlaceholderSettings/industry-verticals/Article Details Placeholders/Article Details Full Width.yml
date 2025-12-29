@@ -9,12 +9,12 @@ SharedFields:
   Value: "article-details-full-width-{*}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "79a88bda-1b20-44f9-be6e-83873ab56b3b"
+  Value: "39d69c0a-379a-4f9a-946c-4eaeca4417fb"
 - ID: "e391b526-d0c5-439d-803e-17512eae6222"
   Hint: Allowed Controls
   Value: |
     {96E7CF65-48A4-47BE-9BB7-DCE50CF7AEA1}
-    {2492BAC4-DA07-4C86-87F0-9873D40E2276}
+    {CCD11802-22A3-462F-92FC-821515E2AEC8}
 Languages:
 - Language: en
   Versions:
@@ -33,11 +33,11 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0a43dc49-f7b2-4e2e-a7ac-41eec03f8f5f"
+      Value: "f395095a-7165-4d9f-a6f1-c9ec8d5f5247"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251218T133054Z
+      Value: 20251229T120313Z

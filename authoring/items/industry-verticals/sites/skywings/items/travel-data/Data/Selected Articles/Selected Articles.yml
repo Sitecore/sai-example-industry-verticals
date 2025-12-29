@@ -31,18 +31,22 @@ Languages:
       Value: Get Inspired
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b891da4f-ae79-44f7-8cbd-82d8ea859718"
+      Value: "b6ffd6dd-394b-4def-b659-85f660986772"
     - ID: "9097fa39-7bba-4e25-92f0-0b25d187509d"
       Hint: ExploreLink
       Value: |
         <link linktype="internal" id="{4205BA63-338E-4A96-9163-036C9BCC6573}" anchor="" querystring="" target="_blank" class="" text="View All Articles" title=""/>
     - ID: "a6a4a7d3-4017-4996-9264-27b1d3030273"
       Hint: Articles
-      Value: "{B57C2F0C-F853-46E6-80DA-F92E4C485A98}"
+      Value: |
+        {3BE10761-43DC-427B-A322-832D1C3BC50D}
+        {1B1DD551-5E43-4103-8B94-C86661479DA9}
+        {5A985162-028D-432B-AD70-68747CC23E0D}
+        {9B105A20-062F-45DE-919A-E66706561D65}
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251226T180428Z
+      Value: 20251229T113422Z

@@ -31,7 +31,7 @@ SharedFields:
     <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c2e364f0e0d045e2916b8462bb203ec2?v=b7bedaf4" dam-id="gIT5_e5NRkS9TVtvJ2_FIw" width="1344" height="768" alt="barcelona.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/71321/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 1000
+  Value: 700
 - ID: "c63df59f-64e0-4fb1-80f0-ec3925574c0d"
   Hint: Activities
   Value: |
@@ -51,7 +51,7 @@ SharedFields:
     {BF4C931B-347A-439E-88C2-1E6EAE7EF8AC}
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "f4703ffa-2c55-4d04-95b9-8858a0eec610"
+  Value: "95937cd0-1cf3-4694-9565-4ac1c956e9f9"
 - ID: "e2414def-999b-439a-b071-ff6a86838924"
   Hint: Highlights
   Value: |
@@ -125,7 +125,7 @@ Languages:
       Value: City
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "26e2dd09-bd03-484e-8464-999479ef9aea"
+      Value: "ab0a765c-6f62-41cd-8567-0be1aa3d0a50"
     - ID: "8dd6625c-72c1-4780-8c4a-caca6e16c39a"
       Hint: TripDuration
       Value: 5
@@ -147,7 +147,7 @@ Languages:
       Value: up to 90 days
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251229T091932Z
+      Value: 20251229T114955Z
     - ID: "df3123e3-ca29-48e7-a4eb-ceeba8226574"
       Hint: Language
       Value: Spanish, Catalan

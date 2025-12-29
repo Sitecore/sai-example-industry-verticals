@@ -7,13 +7,13 @@ SharedFields:
 - ID: "83bc80ee-e97a-474b-8c05-a2559394eebe"
   Hint: FeatureImage
   Value: |
-    <image mediaid="31580946-68d2-495b-a81d-216f2dcc5712" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/79123-HomepagePromoCTAs-1100x740?v=26c31866" dam-id="tWosi8YqQw-Jgw13ngRCbw" width="1100" height="740" alt="marek-lumi--B-E8-XeBWo-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79123/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 50
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "264d8614-04c2-43b8-aac2-57a2a53581f9"
+  Value: "3131b7c6-6db5-4737-9991-b6946f686037"
 Languages:
 - Language: en
   Versions:
@@ -46,11 +46,11 @@ Languages:
       Value: First Class
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4e30a0e8-981d-4dbe-8d59-ef59a08739f0"
+      Value: "ef149210-9aa4-404a-9209-0acdb2c3851c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\tharuka.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251224T145535Z
+      Value: 20251229T113930Z
