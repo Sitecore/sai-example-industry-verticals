@@ -5,7 +5,7 @@
   "items": {
     "includes": [
       {
-        "name": "travel-media",
+        "name": "skywings-media",
         "path": "/sitecore/Media Library/Project/industry-verticals/skywings",
         "scope": "DescendantsOnly",
         "allowedPushOperations": "CreateUpdateAndDelete"
