@@ -1,0 +1,155 @@
+﻿---
+ID: "af3b2b85-d5cb-4241-bceb-213cbeef84c7"
+Parent: "fccdbc60-12fe-4d07-8479-cc511790409e"
+Template: "b79b5166-c106-4f82-a8ca-11cec6032d52"
+Path: "/sitecore/content/industry-verticals/skywings/Home/Destinations/Phuket"
+SharedFields:
+- ID: "0ee127ef-4943-4a47-bb2d-b7029df4bada"
+  Hint: Weather
+  Value: |
+    {78BB8785-B7F0-47FE-B417-F2DFD4C0D9A6}
+    {67B25217-3391-4B00-A83F-7F594A721722}
+- ID: "29db1d43-1ca3-4936-8add-f0ae3546faa5"
+  Hint: Image
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/79304-HomePageHero-2000x800?v=62ec648d" dam-id="cyLLx0ysSqOCSs0ZET0bfw" width="2000" height="800" alt="Phuket.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79304/thumbnail" />
+- ID: "3e3bc290-3383-41c1-b7a6-e969010b0209"
+  Hint: NumberOfReviews
+  Value: 10
+- ID: "5ce5a1ad-82e6-45fe-bccb-34027a375b95"
+  Hint: Hotels
+  Value: |
+    {0A1ABB6D-234D-4E05-B5AC-A003BABA5579}
+    {9FA7A66F-4B52-4A81-9A94-F9D35A3B4A82}
+- ID: "7eb8d23c-80de-448b-9793-a330f5702fae"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/4e6a1e03f37b484eb6320b431c737fde?v=242aaaa3" dam-id="cyLLx0ysSqOCSs0ZET0bfw" width="1344" height="768" alt="Phuket.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79304/thumbnail" />
+- ID: "c63df59f-64e0-4fb1-80f0-ec3925574c0d"
+  Hint: Activities
+  Value: |
+    {5ED7AE22-8E05-4A66-940B-0F793DE0C751}
+    {8D411CEF-59D3-4EE1-8285-313F6B8BEF6F}
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{5C46335E-7E29-4BA4-AB1A-002EFE2EB66B}" />
+- ID: "cf4ea93a-fde6-4d4e-ab15-c50cc0293b9d"
+  Hint: TravelTips
+  Value: |
+    {D4ACC7A6-E2CC-46B4-A32F-0D54918828C6}
+    {F3C9B922-4E69-4966-85EE-D0D4CFE857E1}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "ee9db40f-538c-42dc-9112-44f55e368408"
+- ID: "e2414def-999b-439a-b071-ff6a86838924"
+  Hint: Highlights
+  Value: |
+    {46A98016-1114-4BF2-86EF-8C8652B96B45}
+    {4E364D24-906B-45C9-AE2F-945AF482C518}
+- ID: "f7da7647-fa52-4ecc-bf5a-11347feb88dd"
+  Hint: Rating
+  Value: 4.9
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "b6e87f56-9ec4-4d49-84d2-472b8c5af9f8"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Phuket
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "15454ce5-794d-48eb-80f0-bb35ec96aefb"
+      Hint: TimeZone
+      Value: GMT +7
+    - ID: "19900d61-0524-4146-a964-d8d8c0ca8cbe"
+      Hint: metadataDescription
+      Value: Experience the vibrant coastal beauty of Phuket with SkyWings.
+    - ID: "1b0d5663-48fb-404a-963c-a5fe2cc34e89"
+      Hint: ShortDescription
+      Value: "Phuket is Thailand’s largest island, famous for its stunning beaches, vibrant nightlife, and island-hopping adventures. It offers a perfect blend of relaxation, culture, and tropical scenery."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251222T115623Z
+    - ID: "26887bde-6c0a-4019-9805-441ef27a5fcd"
+      Hint: Continent
+      Value: Asia
+    - ID: "35b9241d-b7a7-41fb-9ba9-1e766ffe3086"
+      Hint: pageSummary
+      Value: A warm, energetic beach escape with culture and coastal charm.
+    - ID: "3b89dd3e-ac3d-4bb3-a9fa-91dfcc78fcd4"
+      Hint: Country
+      Value: Thailand
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Tokyo
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "532aef3a-e5f2-485b-8359-3bec0c5328db"
+      Hint: Temperatures
+      Value: 25–32°C
+    - ID: "56856428-f4ee-4092-9dec-ef5e667fc807"
+      Hint: Title
+      Value: Phuket
+    - ID: "589589f9-86f3-48b8-858a-d54dda1b48ee"
+      Hint: FlightTime
+      Value: 18–22 hours from the US West Coast (with layovers)
+    - ID: "5b13ff6e-5172-4f46-aa34-649da6d4f367"
+      Hint: metadataTitle
+      Value: Phuket Travel | SkyWings
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "6dd286a2-9d05-4b27-82a3-d348c989ac4c"
+      Hint: Airports
+      Value: Phuket International Airport (HKT)
+    - ID: "7019640c-5c00-4037-92cf-377ddb14d0b0"
+      Hint: Content
+      Value: |
+        <p data-start="252" data-end="535">Phuket is Thailand’s largest island and one of Southeast Asia’s most popular beach destinations, known for its turquoise waters, white-sand beaches, and dramatic limestone cliffs. Located in the Andaman Sea, the island offers a mix of lively beach towns and peaceful coastal escapes.</p><p data-start="537" data-end="847">Patong Beach is the heart of Phuket’s nightlife and entertainment, while areas like Kata, Karon, and Kamala are better suited for relaxed beach holidays. Beyond the beaches, Phuket has a rich cultural side, with colorful Sino-Portuguese architecture in Old Phuket Town and historic temples such as Wat Chalong.</p><p data-start="849" data-end="1104">The island is also a gateway to some of Thailand’s most famous nearby attractions, including Phi Phi Islands, Phang Nga Bay, and James Bond Island. These destinations are easily accessible by boat and are popular for snorkeling, kayaking, and sightseeing.</p><p data-start="1106" data-end="1337">Phuket’s food scene is another highlight, blending Thai, Chinese, and Malay influences. From street food stalls to upscale seaside dining, visitors can enjoy fresh seafood, spicy curries, and tropical flavors throughout the island.</p><p data-start="1339" data-end="1510">Whether you’re seeking adventure, relaxation, or cultural exploration, Phuket offers a versatile tropical getaway suitable for couples, families, and solo travelers alike.</p>
+    - ID: "7af13bfe-c8c6-47c9-8a69-ad3271d1bfdb"
+      Hint: Label
+      Value: Beach
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b2a8e30b-f780-4e1a-adf2-1a7665530e29"
+    - ID: "8dd6625c-72c1-4780-8c4a-caca6e16c39a"
+      Hint: TripDuration
+      Value: 5 –7 days
+    - ID: "ad5d9f53-4cfa-4908-95e8-e3b643fc26af"
+      Hint: TripPeriods
+      Value: November – April
+    - ID: "b2bf7f55-015a-4a25-bf70-ccf182e87284"
+      Hint: Price
+      Value: from $799
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "bb6b8d9a-3e61-4f1f-972d-48fca292f456"
+      Hint: metadataKeywords
+      Value: Phuket, Thailand beach, island vacation
+    - ID: "c3fc1ebe-a314-4469-b8e2-cc107eee9479"
+      Hint: Visa
+      Value: "Mostly 30 days visa-free (varies by nationality)"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251226T162846Z
+    - ID: "df3123e3-ca29-48e7-a4eb-ceeba8226574"
+      Hint: Language
+      Value: Thai
+    - ID: "e3c69007-60a6-4434-865e-b8e47857ac17"
+      Hint: Currency
+      Value: Thai Baht (THB)
+    - ID: "f8227036-7201-4083-9155-529529222f9f"
+      Hint: DirectFlights
+      Value: Direct flights available from Singapore, Kuala Lumpur, Hong Kong, Bangkok

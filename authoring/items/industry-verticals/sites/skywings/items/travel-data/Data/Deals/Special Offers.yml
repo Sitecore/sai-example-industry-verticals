@@ -1,0 +1,37 @@
+﻿---
+ID: "337ed1d1-c8d3-4240-b58a-ce26fa20b611"
+Parent: "98935dae-c6a2-4930-9286-034043ec2b8a"
+Template: "b044a953-455a-4f8d-b99a-730f9d1818e2"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Deals/Special Offers"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251218T132758Z
+    - ID: "4ae4b992-f71a-451b-9e17-e03cd7f00b2b"
+      Hint: Description
+      Value: "Don't miss out on these limited-time deals"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "13958028-6e01-4989-add3-f04b08b79106"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251219T170111Z
+    - ID: "ee6b988e-62a8-49fd-b5d2-0ce67fe0f611"
+      Hint: Title
+      Value: Special Offers

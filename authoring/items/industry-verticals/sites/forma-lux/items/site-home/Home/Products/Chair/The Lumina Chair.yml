@@ -29,7 +29,7 @@ SharedFields:
   Value: "{1F4F7164-0F0C-4CAB-8F44-7B7C85AD9C1A}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "f839cf59-39de-4355-9661-d8558e725314"
+  Value: "bb3e9133-f2cd-42d1-b135-04fffa44c399"
 Languages:
 - Language: en
   Versions:
@@ -67,23 +67,19 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Limina Chair, Forma Lux, luxury furniture, modern design, European craftsmanship, minimalist style, elegant seating, sustainable materials, timeless elegance, artful elegance, mindful living, architectural design, tranquil spaces, soul and substance, aesthetic excellence, Urban Visionary, Conscious Minimalist, Elevated Homemaker, Modern Collector, premium experiences, quiet design, art of living beautifully
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/a40cc117f6bc43b584576379e57d5352?v=0831c28d" dam-id="_6HhKmO1SFWVcvVHiNnphg" width="1024" height="1024" alt="TheLuminaChair.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68204/thumbnail" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1ef252fc-0ede-4c54-b749-f9c7b46d5d37"
+      Value: "e5f36dc4-fce2-4b73-90ae-bd17826fe89f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: The Lumina Chair
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251217T151904Z
+      Value: 20251223T145810Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: |
@@ -128,10 +124,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Silla Limina, Forma Lux, muebles de lujo, diseño moderno, artesanía europea, estilo minimalista, asientos elegantes, materiales sostenibles, elegancia atemporal, elegancia artística, vida consciente, diseño arquitectónico, espacios tranquilos, alma y sustancia, excelencia estética, Visionario Urbano, Minimalista Consciente, Ama de Casa Elevada, Coleccionista Moderno, experiencias premium, diseño silencioso, el arte de vivir bellamente
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/a40cc117f6bc43b584576379e57d5352?v=0831c28d" dam-id="_6HhKmO1SFWVcvVHiNnphg" width="1024" height="1024" alt="TheLuminaChair.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68204/thumbnail" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "cc98c65e-6b61-4c44-bb94-0480a5f2bae3"
@@ -192,10 +184,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: "Chaise Limina, Forma Lux, mobilier de luxe, design moderne, savoir-faire européen, style minimaliste, assise élégante, matériaux durables, élégance intemporelle, élégance artistique, vie consciente, design architectural, espaces tranquilles, âme et substance, excellence esthétique, Visionnaire Urbain, Minimaliste Conscient, Créateur Élevé, Collectionneur Moderne, expériences premium, design silencieux, l'art de vivre magnifiquement"
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="ae0c4b01-db06-4c77-914a-482444f300de" alt="chaise-lumina-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "acf23e9e-6ed8-4376-8370-037c4ad546b3"
@@ -256,10 +244,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Chaise Limina, Forma Lux, mobilier de luxe, design moderne, artisanat européen, style minimaliste, sièges élégants, matériaux durables, élégance intemporelle, élégance artistique, vie consciente, design architectural, espaces tranquilles, âme et substance, excellence esthétique, Visionnaire Urbain, Minimaliste Conscient, Créateur Élevé, Collectionneur Moderne, expériences premium, design silencieux, art de vivre magnifiquement
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="ae0c4b01-db06-4c77-914a-482444f300de" alt="lumina-chair-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "8c08a743-192f-41fc-8e96-1a8f7e958517"

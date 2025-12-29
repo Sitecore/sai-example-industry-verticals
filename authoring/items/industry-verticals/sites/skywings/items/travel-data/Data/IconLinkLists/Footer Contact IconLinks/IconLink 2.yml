@@ -1,0 +1,41 @@
+﻿---
+ID: "c281cf89-16ea-4a60-a986-70cfe0f32b35"
+Parent: "f11ce250-55d5-4e2a-9496-d22de4cefdfe"
+Template: "4369b92a-53f5-4fe4-bf3b-bae965133a61"
+Path: "/sitecore/content/industry-verticals/skywings/Data/IconLinkLists/Footer Contact IconLinks/IconLink 2"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251215T174930Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "083ce8f0-b1bd-48a7-ad75-56be82ab578e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "c46424c6-a7ef-4f70-9ff5-5cbfb196faa7"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="#" target="" text="support@skywings.com" title="" class=""/>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251216T083400Z
+    - ID: "f4dc9dd1-fbf8-4b66-8b07-4a6d25acb012"
+      Hint: IconName
+      Value: Mail

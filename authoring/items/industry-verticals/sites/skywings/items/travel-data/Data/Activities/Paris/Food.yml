@@ -1,0 +1,48 @@
+﻿---
+ID: "f599264d-e23d-4abd-b793-c87bdea82c99"
+Parent: "85e16346-b019-496d-96fd-86382b9af038"
+Template: "7061e950-7828-45cf-814b-e96a417b195f"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Activities/Paris/Food"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251218T082527Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "74af5ce0-13ac-44e2-8c89-1412d1fc74f1"
+      Hint: Title
+      Value: Food & Dining
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9cafa237-6452-4d32-9d5a-97c8148fb1ce"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "bef31628-feae-4402-95e1-c53cee4478a7"
+      Hint: Description
+      Value: |
+        <ul>
+            <li>Try classic dishes like croissants, boeuf bourguignon, and cr&egrave;me br&ucirc;l&eacute;e
+            </li>
+            <li>Dine at Parisian bistros and brasseries
+            </li>
+            <li>Enjoy caf&eacute;s and patisseries across the city
+            </li>
+            <li>Take a French food or wine tasting tour
+            </li>
+            <li>Experience a Seine dinner cruise or a traditional French restaurant</li>
+        </ul>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251218T082556Z

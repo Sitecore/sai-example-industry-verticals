@@ -1,0 +1,48 @@
+﻿---
+ID: "d0d4a3ba-72ab-440f-9e94-a4457816f2d4"
+Parent: "4540ded5-d0ef-409a-b0d8-925cd01e4742"
+Template: "30a718e4-b5b1-49df-aea6-ad761528b5c5"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Selected Articles/Selected Articles"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "173353d6-b07d-442c-b2f0-5b95c498f794"
+      Hint: Description
+      Value: |
+        <div class="ck-content"><p style="text-align:center;">Discover amazing destinations and travel tips from out latest stories</p></div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251222T093731Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "7e4e530b-eb83-4515-801c-4cc914d2605a"
+      Hint: Title
+      Value: Get Inspired
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b891da4f-ae79-44f7-8cbd-82d8ea859718"
+    - ID: "9097fa39-7bba-4e25-92f0-0b25d187509d"
+      Hint: ExploreLink
+      Value: |
+        <link linktype="internal" id="{4205BA63-338E-4A96-9163-036C9BCC6573}" anchor="" querystring="" target="_blank" class="" text="View All Articles" title=""/>
+    - ID: "a6a4a7d3-4017-4996-9264-27b1d3030273"
+      Hint: Articles
+      Value: "{B57C2F0C-F853-46E6-80DA-F92E4C485A98}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251226T180428Z

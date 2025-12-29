@@ -8,13 +8,13 @@ SharedFields:
 - ID: "83bc80ee-e97a-474b-8c05-a2559394eebe"
   Hint: FeatureImage
   Value: |
-    <image mediaid="{0C0FE849-AAE4-4134-98A0-6DC9C55D8371}" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/78722-HomepagePromoCTAs-1100x740?v=faba6913" dam-id="KJJ1GmdgR-aJVAjmI0aWHw" width="1100" height="740" alt="Feature_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/78722/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 0
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "2bb9caa1-2475-46a7-9307-9e42f1978e1d"
+  Value: "f4847374-a6d4-4b08-8cf8-8e99eec1b9ad"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{FC2A5072-99B8-4D58-B5E0-B96C40680096}"
@@ -23,6 +23,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250915T102914Z
@@ -46,11 +49,11 @@ Languages:
         <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{63ABF4A1-D28B-4ABC-956E-6640B058ABFE}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3e312610-3e60-4edc-9599-02b4dd6b9a6b"
+      Value: "ecfb1558-d2a8-402f-bcbd-d08214189c96"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251202T085110Z
+      Value: 20251229T095952Z

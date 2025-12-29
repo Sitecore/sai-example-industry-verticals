@@ -1,0 +1,49 @@
+﻿---
+ID: "6852ef77-c693-4163-aa51-d492884c9728"
+Parent: "e547a073-73a7-47a4-b23f-f4de8100bb57"
+Template: "757a5048-08e4-400c-82c7-4da989eb5f7c"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Hotels/Luxury Resorts"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "20a64591-006a-4dbe-8ad8-4db97e01a5ab"
+      Hint: Title
+      Value: Luxury Resorts
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251217T122612Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "7a3cef2c-713c-4192-91d8-a79f3d62e157"
+      Hint: PopularOptions
+      Value: |
+        <h4 class="font-medium text-gray-900" style="color: oklch(0.21 0.034 264.665); background-color: oklch(1 0 0); margin: 0px; padding: 0px; border: 0px solid oklch(0.922 0 0);">Popular Options:</h4>
+        <ul class="space-y-1" style="color: oklch(0.145 0 0); background-color: oklch(1 0 0); margin: 0px; padding: 0px; border: 0px solid oklch(0.922 0 0); list-style-type: none; list-style-image: initial;">
+            <li class="text-gray-700 text-sm" style="color: oklch(0.373 0.034 259.733); margin: 0px; padding: 0px; border: 0px solid oklch(0.922 0 0); line-height: 1.42857;">&bull;&nbsp;Four Seasons Resort Bali</li>
+            <li class="text-gray-700 text-sm" style="color: oklch(0.373 0.034 259.733); margin: 0px; padding: 0px; border: 0px solid oklch(0.922 0 0); line-height: 1.42857;">&bull;&nbsp;AYANA Resort</li>
+            <li class="text-gray-700 text-sm" style="color: oklch(0.373 0.034 259.733); margin: 0px; padding: 0px; border: 0px solid oklch(0.922 0 0); line-height: 1.42857;">&bull;&nbsp;Mandapa, a Ritz-Carlton Reserve</li>
+        </ul>
+    - ID: "898354da-70eb-406b-94e5-5c073d26aab3"
+      Hint: PriceRange
+      Value: 3,000,000–7,000,000
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f409d48d-45f6-4304-b828-b902b7f3a974"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T122842Z
+    - ID: "fc97cff8-4e62-432b-a8e3-15d4aa628705"
+      Hint: Description
+      Value: Lavish amenities with beachfront or jungle settings

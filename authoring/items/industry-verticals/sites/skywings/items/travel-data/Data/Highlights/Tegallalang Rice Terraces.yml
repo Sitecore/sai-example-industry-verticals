@@ -1,0 +1,44 @@
+﻿---
+ID: "6a68aef2-d277-432c-a02d-033245cc0f9a"
+Parent: "4772a0bc-37eb-4810-812f-b28c9e246e2a"
+Template: "f07b5b0d-b37d-4dc6-a14d-00523b08c69d"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Highlights/Tegallalang Rice Terraces"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "108003cb-7d95-48f7-bf24-885374e61ae9"
+      Hint: Description
+      Value: Famous stepped rice fields in Ubud with stunning scenery
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251217T121305Z
+    - ID: "29e4ddb7-fafd-43b3-89aa-90ca0e93ce56"
+      Hint: Label
+      Value: Landscape
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "79ec90cf-1596-4e5f-baa7-daed63627f3c"
+      Hint: Title
+      Value: Tegallalang Rice Terraces
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5dd7e06b-fcf7-4f1f-b04f-9f7a51d3f4c6"
+    - ID: "a38e449c-2d54-4b00-894c-8b84f7952a15"
+      Hint: Image
+      Value: |
+        <image mediaid="{163A19EA-9042-4A2C-9096-8D179C9D6C3C}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T121839Z

@@ -1,0 +1,155 @@
+﻿---
+ID: "9f75e149-9659-487e-a3e8-d403341fe40a"
+Parent: "fccdbc60-12fe-4d07-8479-cc511790409e"
+Template: "b79b5166-c106-4f82-a8ca-11cec6032d52"
+Path: "/sitecore/content/industry-verticals/skywings/Home/Destinations/Singapore"
+SharedFields:
+- ID: "0ee127ef-4943-4a47-bb2d-b7029df4bada"
+  Hint: Weather
+  Value: |
+    {7E778844-AE0F-4BFF-A44A-938E5DE1F80C}
+    {9EBB1D4D-BA26-4F25-9D60-5779024CF2D0}
+- ID: "29db1d43-1ca3-4936-8add-f0ae3546faa5"
+  Hint: Image
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/79292-HomePageHero-2000x800?v=cdf03aa1" dam-id="za5Vv-aqQ2GlBMEkaS6qbg" width="2000" height="800" alt="singapore.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79292/thumbnail" />
+- ID: "3e3bc290-3383-41c1-b7a6-e969010b0209"
+  Hint: NumberOfReviews
+  Value: 37
+- ID: "5ce5a1ad-82e6-45fe-bccb-34027a375b95"
+  Hint: Hotels
+  Value: |
+    {3AC85E07-CE50-41FA-B8F1-F1EC16F819BD}
+    {4F03D74B-2C93-43BE-9364-8DC82857E130}
+- ID: "7eb8d23c-80de-448b-9793-a330f5702fae"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/79292-HomePageHero-2000x800?v=cdf03aa1" dam-id="za5Vv-aqQ2GlBMEkaS6qbg" width="2000" height="800" alt="singapore.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79292/thumbnail" />
+- ID: "c63df59f-64e0-4fb1-80f0-ec3925574c0d"
+  Hint: Activities
+  Value: |
+    {4CDEAF83-8AA2-4A9D-9F61-4CC094129826}
+    {5937AC2D-DBCE-4748-97A5-520253E32526}
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{61393AC0-C1D1-4FEC-8E4C-A0B27AB1DC8D}" />
+- ID: "cf4ea93a-fde6-4d4e-ab15-c50cc0293b9d"
+  Hint: TravelTips
+  Value: |
+    {7CAADC32-8297-493B-A6F9-DC3E4A633852}
+    {82BB0E1A-F7C5-41BD-84C4-08A717790E6C}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "25b7f26b-67a2-4966-981c-435685bd18d6"
+- ID: "e2414def-999b-439a-b071-ff6a86838924"
+  Hint: Highlights
+  Value: |
+    {3EBD6232-742C-4209-9BDF-4EFEA17A1E53}
+    {4C72C8E6-9E3A-44C9-B1D4-756508C5967F}
+- ID: "f7da7647-fa52-4ecc-bf5a-11347feb88dd"
+  Hint: Rating
+  Value: 5
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "ce8104b7-02f0-47a1-854f-397bcf0f2c57"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Singapore
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "15454ce5-794d-48eb-80f0-bb35ec96aefb"
+      Hint: TimeZone
+      Value: GMT +8
+    - ID: "19900d61-0524-4146-a964-d8d8c0ca8cbe"
+      Hint: metadataDescription
+      Value: Experience Singapore’s refined blend of culture and innovation.
+    - ID: "1b0d5663-48fb-404a-963c-a5fe2cc34e89"
+      Hint: ShortDescription
+      Value: "Singapore is a dynamic city-state known for its modern skyline, cultural diversity, and world-famous food scene. It’s ideal for short city breaks and luxury travel."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251222T115623Z
+    - ID: "26887bde-6c0a-4019-9805-441ef27a5fcd"
+      Hint: Continent
+      Value: Asia
+    - ID: "35b9241d-b7a7-41fb-9ba9-1e766ffe3086"
+      Hint: pageSummary
+      Value: A sleek, welcoming, culturally diverse city of light and greenery.
+    - ID: "3b89dd3e-ac3d-4bb3-a9fa-91dfcc78fcd4"
+      Hint: Country
+      Value: Singapore
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Tokyo
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "532aef3a-e5f2-485b-8359-3bec0c5328db"
+      Hint: Temperatures
+      Value: 25–31°C
+    - ID: "56856428-f4ee-4092-9dec-ef5e667fc807"
+      Hint: Title
+      Value: Singapore
+    - ID: "589589f9-86f3-48b8-858a-d54dda1b48ee"
+      Hint: FlightTime
+      Value: 16–20 hours from the US West Coast (with layovers)
+    - ID: "5b13ff6e-5172-4f46-aa34-649da6d4f367"
+      Hint: metadataTitle
+      Value: Singapore Flights | SkyWings
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "6dd286a2-9d05-4b27-82a3-d348c989ac4c"
+      Hint: Airports
+      Value: Singapore Changi Airport (SIN)
+    - ID: "7019640c-5c00-4037-92cf-377ddb14d0b0"
+      Hint: Content
+      Value: |
+        <p data-start="4317" data-end="4513">Singapore is a global city located at the crossroads of Asia, offering a unique blend of tradition and innovation. Despite its compact size, it delivers world-class attractions and infrastructure.</p><p data-start="4515" data-end="4681">Iconic landmarks such as Marina Bay Sands and Gardens by the Bay highlight the city’s futuristic vision, while heritage neighborhoods reflect its multicultural roots.</p><p data-start="4683" data-end="4807">Food is central to Singaporean life, with hawker centers offering affordable local dishes alongside fine dining experiences.</p><p data-start="4809" data-end="4917">Shopping, entertainment, and family-friendly attractions make Singapore suitable for all types of travelers.</p><p data-start="4919" data-end="4998">Efficient transport, safety, and cleanliness ensure a smooth travel experience.</p>
+    - ID: "7af13bfe-c8c6-47c9-8a69-ad3271d1bfdb"
+      Hint: Label
+      Value: Urban Luxury
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "38224ca3-c965-4071-b243-cc2bd1409f6b"
+    - ID: "8dd6625c-72c1-4780-8c4a-caca6e16c39a"
+      Hint: TripDuration
+      Value: 3–5 days
+    - ID: "ad5d9f53-4cfa-4908-95e8-e3b643fc26af"
+      Hint: TripPeriods
+      Value: February – April
+    - ID: "b2bf7f55-015a-4a25-bf70-ccf182e87284"
+      Hint: Price
+      Value: from $540
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "bb6b8d9a-3e61-4f1f-972d-48fca292f456"
+      Hint: metadataKeywords
+      Value: Singapore city travel, Southeast Asia, modern city
+    - ID: "c3fc1ebe-a314-4469-b8e2-cc107eee9479"
+      Hint: Visa
+      Value: "Most travelers receive 30–90 days visa-free"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251226T172037Z
+    - ID: "df3123e3-ca29-48e7-a4eb-ceeba8226574"
+      Hint: Language
+      Value: English, Mandarin, Malay
+    - ID: "e3c69007-60a6-4434-865e-b8e47857ac17"
+      Hint: Currency
+      Value: Singapore Dollar (SGD)
+    - ID: "f8227036-7201-4083-9155-529529222f9f"
+      Hint: DirectFlights
+      Value: Direct flights available from London, Sydney, Tokyo, New York, Dubai

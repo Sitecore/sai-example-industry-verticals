@@ -1,0 +1,42 @@
+﻿---
+ID: "76db1c0e-a148-4638-ae7e-b80847797ee9"
+Parent: "353f3e10-9895-4adb-ab3d-c31322df4491"
+Template: "3b22a3fa-18d2-47c7-a467-74c984a65ca4"
+Path: "/sitecore/content/industry-verticals/skywings/Presentation/Page Designs"
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+SharedFields:
+- ID: "ba1f60d6-3deb-40cc-bb61-eec772279ee1"
+  Hint: TemplatesMapping
+  Value: "%7b98E60957-0783-4A9A-85CC-77DAD30E9711%7d%3d%257B0143CB84-0C28-4083-ADD4-B7C4C6D07533%257D%26%7b412BF445-B1A6-4AFF-8054-0B21A1FEBC47%7d%3d%257B9A62BBD0-9A38-4D37-87FD-51B9C881752D%257D%26%7bB79B5166-C106-4F82-A8CA-11CEC6032D52%7d%3d%257BC6348ECB-8696-4D46-8261-A7D73D553048%257D"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "4ac35839-96d9-4432-9bd4-decb1b1b85fd"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{2EA756FA-AED6-4599-83B7-36FEFE229B31}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251210T131537Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fdfe4651-63e7-4c3c-885b-f0f51c6cb395"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251210T134442Z

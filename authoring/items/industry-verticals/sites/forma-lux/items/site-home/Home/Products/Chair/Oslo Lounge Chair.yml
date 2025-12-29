@@ -25,7 +25,7 @@ SharedFields:
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <image mediaid="9204e7bb-d14b-4489-bf04-9a869766e19f" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/9e04cf71ba5c467ab9cb73da5d51164c?v=a708261c" dam-id="2HPszFMNS4iRsMQ4RmakWQ" width="1024" height="910" alt="oslo-lounge-chair-1.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79495/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -35,7 +35,7 @@ SharedFields:
   Value: "{8DD59D14-31A7-4B85-A547-77B03C68AC32}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "098e16da-1013-4bd0-aeee-5c3747a7ced9"
+  Value: "d3223b3d-4df0-4c79-8462-754b4e46e7e7"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -88,23 +88,19 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: The Oslo Lounge Chair by Forma Lux combines Nordic simplicity with premium comfort. Featuring a solid oak frame and plush linen cushions, it’s a timeless addition to modern interiors.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="9204e7bb-d14b-4489-bf04-9a869766e19f" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e357393b-2667-4dc7-a732-6b8eee12af03"
+      Value: "f6551c23-037a-4340-9890-2572e52e65a1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Oslo Lounge Chair
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251210T084046Z
+      Value: 20251229T055612Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: <p>The Oslo Lounge Chair blends minimalist Nordic design with modern comfort. Crafted from solid oak and upholstered in premium linen, it offers a timeless silhouette that fits seamlessly into any living space. Its ergonomic backrest and deep seat make it perfect for long hours of relaxation.</p>
@@ -144,10 +140,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: El Sillón Oslo de Forma Lux combina la simplicidad nórdica con el confort premium. Con una estructura de roble macizo y cojines de lino mullidos, es una adición atemporal a los interiores modernos.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="9204e7bb-d14b-4489-bf04-9a869766e19f" alt="oslo-lounge-chair-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "3bd2f1ec-20a3-410d-9356-5dc87541bed1"
@@ -203,10 +195,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Le fauteuil Oslo de Forma Lux combine la simplicité nordique avec un confort supérieur. Doté d'un cadre en chêne massif et de coussins en lin moelleux, c'est un ajout intemporel aux intérieurs modernes.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="9204e7bb-d14b-4489-bf04-9a869766e19f" alt="oslo-lounge-chair-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "a5c3057a-71e0-496e-84b8-4b56c5f4a025"
@@ -262,10 +250,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Le fauteuil Oslo de Forma Lux combine la simplicité nordique avec un confort premium. Doté d'un cadre en chêne massif et de coussins en lin moelleux, c'est un ajout intemporel aux intérieurs modernes.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="9204e7bb-d14b-4489-bf04-9a869766e19f" alt="oslo-lounge-chair-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "1c367533-4f2a-4882-9f42-5596d8e838d4"

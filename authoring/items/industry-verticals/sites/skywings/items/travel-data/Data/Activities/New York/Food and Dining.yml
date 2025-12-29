@@ -1,0 +1,44 @@
+﻿---
+ID: "d8d0b5a7-fd0d-44cb-9f5e-f9b55392166a"
+Parent: "0d70da9e-b8b1-4264-a811-107c7bb0e1e4"
+Template: "7061e950-7828-45cf-814b-e96a417b195f"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Activities/New York/Food and Dining"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251226T132525Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "74af5ce0-13ac-44e2-8c89-1412d1fc74f1"
+      Hint: Title
+      Value: Food & Dining
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "055a9907-44e4-4ee3-953d-e1c21c3bfaf6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "bef31628-feae-4402-95e1-c53cee4478a7"
+      Hint: Description
+      Value: |
+        <ul>
+            <li>Taste classic NYC pizza (Neapolitan, slice shops, and coal-fired institutions).</li>
+            <li>Explore Chinatown (Manhattan, Flushing) and Koreatown for Asian cuisines.</li>
+            <li>Reserve Michelin‑star experiences in Midtown or Brooklyn fine dining hot spots.</li>
+            <li>Sample bagels, delicatessens, and Jewish bakeries on the Lower East Side.</li>
+            <li>Join a neighborhood food tour (Queens Night Market, Arthur Avenue in the Bronx).</li>
+        </ul>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251226T132703Z

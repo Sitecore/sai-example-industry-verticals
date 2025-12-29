@@ -26,7 +26,7 @@ SharedFields:
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <image mediaid="272f1d49-d08b-41bf-87ff-07887002ba62" alt="lamp" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/78546-HomePageHero-2000x800?v=f0541cae" dam-id="6B_RTK0pRyOU63FppXB8Mg" width="2000" height="800" alt="lamp 3_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/78546/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -36,7 +36,7 @@ SharedFields:
   Value: "{7AE747F4-C10E-4F62-832F-60175CD742FD}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "742edd52-2589-4f1e-9c7e-a4d8fb4c5d97"
+  Value: "4c96959c-1e05-4bc7-84f1-af16fd062a38"
 Languages:
 - Language: en
   Versions:
@@ -67,14 +67,14 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5bbd0251-fc6c-4d4f-8616-bac0a5efba17"
+      Value: "ffcd172e-09a3-4f40-ada6-0f12ec1af86a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: AstraLux
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251125T141529Z
+      Value: 20251229T105437Z

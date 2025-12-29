@@ -1,0 +1,44 @@
+﻿---
+ID: "4a767a94-3302-4bb0-b967-63275ce9cd1b"
+Parent: "8aab6d74-928d-49d5-b3a8-d92640180baa"
+Template: "7061e950-7828-45cf-814b-e96a417b195f"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Activities/London/Culture and Temples"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251226T152904Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "74af5ce0-13ac-44e2-8c89-1412d1fc74f1"
+      Hint: Title
+      Value: Culture & Temples
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3d05554e-9583-4feb-af5c-1edf03aecb87"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "bef31628-feae-4402-95e1-c53cee4478a7"
+      Hint: Description
+      Value: |
+        <ul>
+            <li>Explore world-class museums like the British Museum, Victoria &amp; Albert Museum, and National Gallery</li>
+            <li>Watch a performance in the West End theatre district</li>
+            <li>Visit historic churches such as St. Paul&rsquo;s Cathedral and Westminster Abbey</li>
+            <li>Discover multicultural neighborhoods including Chinatown and Southall</li>
+            <li>Explore free public art installations across Trafalgar Square and the South Bank</li>
+        </ul>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251226T153142Z

@@ -47,18 +47,18 @@ Languages:
       Value: David Vassilakis
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e1992511-2161-4ccc-912c-513fc4cf6ea7"
+      Value: "409bf164-ff16-4022-84b6-a0f933465180"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251114T113435Z
+      Value: 20251226T095932Z
     - ID: "ea706e77-5d62-426e-bbb3-68805298e75c"
       Hint: Photo
       Value: |
-        <image mediaid="8561a305-0d73-4b41-81ff-0cfb9164bd1e" />
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/78923-HomePageHero-2000x800?v=76c301a4" dam-id="aqWtD1TxTO6RspQ8prP7kA" width="2000" height="800" alt="DavidVassilakis.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/78923/thumbnail" />
     - ID: "fb359b0f-3087-41f2-aae3-2dd492eb2c60"
       Hint: Title
       Value: David Vassilakis

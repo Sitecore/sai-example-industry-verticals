@@ -1,0 +1,44 @@
+﻿---
+ID: "28eab71d-374e-48c4-97cd-abe5552e8a29"
+Parent: "e1101e8a-4fd2-4f0d-ad02-6a8b19f7b8ac"
+Template: "b020ee7a-b8a1-4850-91c0-c65e46ebaef1"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Travel Tips/New York/Transportation"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251226T133606Z
+    - ID: "472facf1-ba62-45e1-a18e-a0641c900725"
+      Hint: Title
+      Value: Transportation
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "02b5c4b7-210d-4fe8-802e-7bdc72bf9ab6"
+    - ID: "8e528e88-8c6c-48ce-bf83-577c8dbdf804"
+      Hint: Description
+      Value: |
+        <ul>
+            <li>Use Subway &amp; Buses (MTA)&mdash;fastest and most economical for getting around.</li>
+            <li>OMNY contactless payment works on subway and buses (tap with card/phone).</li>
+            <li>Citi Bike offers short rides; helmets recommended.</li>
+            <li>Yellow cabs and ride-hailing apps (Uber, Lyft) are widely available.</li>
+            <li>Consider LIRR/NJ Transit/Metro‑North for regional trips; AirTrain to JFK &amp; Newark.</li>
+        </ul>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251226T133629Z

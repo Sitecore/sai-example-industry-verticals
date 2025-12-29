@@ -1,0 +1,41 @@
+﻿---
+ID: "5f3e7d5b-b2d1-4267-b58a-62985a40da2b"
+Parent: "bc2ff91f-ea09-407e-aab3-e074395757ba"
+Template: "7061e950-7828-45cf-814b-e96a417b195f"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Activities/Tokyo/Explore Street Food"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251222T121414Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "74af5ce0-13ac-44e2-8c89-1412d1fc74f1"
+      Hint: Title
+      Value: Explore Street Food
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "074c33f7-7f7c-4a24-896d-676e3cb259f8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "bef31628-feae-4402-95e1-c53cee4478a7"
+      Hint: Description
+      Value: |
+        <ul><li data-start="778" data-end="805"><p data-start="780" data-end="805">Visit observation decks</p></li><li data-start="806" data-end="838"><p data-start="808" data-end="838">Enjoy skyline views at night</p></li><li data-start="839" data-end="868"><p data-start="841" data-end="868">Great photo opportunities</p></li><li data-start="869" data-end="901"><p data-start="871" data-end="901">Relax with city cafés nearby</p></li></ul>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251222T122628Z

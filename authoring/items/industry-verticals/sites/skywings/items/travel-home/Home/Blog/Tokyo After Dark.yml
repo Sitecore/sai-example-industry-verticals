@@ -1,0 +1,129 @@
+﻿---
+ID: "df5791b5-46aa-4c9c-89f7-8cd8272ab149"
+Parent: "4205ba63-338e-4a96-9163-036c9bcc6573"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/skywings/Home/Blog/Tokyo After Dark"
+SharedFields:
+- ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
+  Hint: Author
+  Value: "{277F3098-11F5-4588-9E78-67584008C228}"
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20251219T000000Z
+- ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/79256-HomePageHero-2000x800?v=53bffefe" dam-id="i77GXIfoT9q1AbUNDNs3cw" width="2000" height="800" alt="tokyo.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79256/thumbnail" />
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/79256-HomePageHero-2000x800?v=53bffefe" dam-id="i77GXIfoT9q1AbUNDNs3cw" width="2000" height="800" alt="tokyo.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79256/thumbnail" />
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1800
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{5955BC45-3041-440C-94B9-0CA4B9DE57FD}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "650860ef-efbd-4c77-8de8-ff4f0fb79d69"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{0D60D25E-A079-4342-B57C-82C7813EC934}"
+          p:before="*"
+          s:id="{3EF239BA-A9CC-4BEC-B343-B9ABB9A9C94A}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;HideShareWidget&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{EDB1E716-08D4-4824-8175-2D9EFE53BBE2}"
+          p:after="r[@uid='{0D60D25E-A079-4342-B57C-82C7813EC934}']"
+          s:ds="023c2129-aa22-4399-9dbf-91f5b167c78e"
+          s:id="{32E7FD88-4E5D-4AAB-A15F-61DCEBA1EE6F}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BC18CFAB6-BFD2-4347-BB31-F8A152627344%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="/headless-main/article-details-1" />
+        <r
+          uid="{11846911-F84E-47E6-838B-BB0F0B45EB49}"
+          p:after="*[1=2]"
+          s:ds="af2b4fe7-ed5e-4a65-9fe1-e0165ec1cd3c"
+          s:id="{32E7FD88-4E5D-4AAB-A15F-61DCEBA1EE6F}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B8A370F7A-D24B-497C-BA63-CAE02445F477%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="/headless-main/article-details-author-1" />
+      </d>
+    </r>
+- ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+  Hint: Category
+  Value: "{C1F2AD56-3AD7-4E18-A1C7-C70B9768BD72}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: "When the sun sets over Tokyo, the neon lights flicker to life and the city transforms into a food lover’s paradise. Beyond the glitzy bars and Michelin-starred restaurants lies a delicious undercurrent of culinary culture: night markets and late-night street food stalls where locals and savvy travelers gather to eat, drink, and soak up the city’s after-hours energy."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251226T202045Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Tokyo After Dark
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <p>When the sun sets over Tokyo, the neon lights flicker to life and the city transforms into a food lover’s paradise. Beyond the glitzy bars and Michelin-starred restaurants lies a delicious undercurrent of culinary culture: <strong data-start="286" data-end="303">night markets</strong> and late-night street food stalls where locals and savvy travelers gather to eat, drink, and soak up the city’s after-hours energy.</p><p>Whether you're a ramen addict, an izakaya hopper, or just someone chasing midnight bites, this guide to Tokyo's night markets will take you through the must-visit spots and the must-try dishes of the city after dark.</p><h3><strong>1. Ameya-Yokocho (Ueno)</strong></h3><p><strong>Open late (some stalls until 10–11 PM)</strong></p><p>Known as “Ameyoko” to locals, this bustling alleyway market stretches between Ueno and Okachimachi stations. Once a black market post-WWII, it’s now a lively mix of street food, discount goods, and local characters.</p><p><strong>What to eat:</strong></p><ul><li>Grilled seafood skewers</li><li>Takoyaki (octopus balls)</li><li>Karaage (Japanese fried chicken)</li><li>Matcha soft serve</li></ul><p><strong>Pro tip:</strong> Some stalls close early, but the izakayas under the train tracks stay buzzing late into the night.</p><h3><strong>2. Omoide Yokocho (Shinjuku)</strong></h3><p><strong>Open late (most until midnight or later)</strong></p><p>Tucked just west of Shinjuku Station, “Memory Lane” (or affectionately, “Piss Alley”) is a maze of lantern-lit alleyways lined with tiny food stalls and yakitori joints, many with fewer than 10 seats.</p><p><strong>What to eat:</strong></p><ul><li>Yakitori (grilled chicken skewers)</li><li>Nikomi (slow-simmered beef stew)</li><li>Sake and shochu samplers</li></ul><p><strong>Vibe:</strong> Smoky, gritty, nostalgic. A favorite for both salarymen and culture-hungry travelers.</p><h3><strong>3. Ebisu Yokocho (Ebisu)</strong></h3><p><strong>Open until 2 AM</strong></p><p>A more modern, upbeat take on the yokocho experience, this indoor alley is a collection of vibrant stalls and mini-restaurants. It’s a social hotspot for locals in their 20s and 30s.</p><p><strong>What to eat:</strong></p><ul><li>Wagyu beef skewers</li><li>Fresh sashimi</li><li>Okinawan-style tacos</li><li>Japanese craft beer</li></ul><p><strong>Don’t miss:</strong> The "cheers" culture here—tables often toast with neighbors, making it great for solo travelers looking to connect.</p><h3><strong>4. Tsukiji Outer Market (Tsukiji)</strong></h3><p><strong>Some stalls open early and close by 9 PM, but nearby izakayas stay open late</strong></p><p>Though the famed inner fish market has moved to Toyosu, Tsukiji’s outer market remains a vibrant hub for fresh seafood and traditional snacks.</p><p><strong>What to eat:</strong></p><ul><li>Uni-don (sea urchin rice bowl)</li><li>Grilled scallops with butter</li><li>Tamagoyaki (sweet rolled omelet)</li><li>Tuna sushi sets</li></ul><p><strong>Late-night tip:</strong> While the stalls close early, nearby izakayas and sushi bars around Tsukiji keep the seafood party going well into the evening.</p><h3><strong>5. Nakano Broadway &amp; Sun Mall (Nakano)</strong></h3><p><strong>Shops close by 8–9 PM, but the surrounding alleyways stay open late</strong></p><p>Nakano is known for anime and collectibles, but step outside the mall and into the surrounding yokocho and you’ll find cozy, crowd-free izakayas and ramen shops.</p><p><strong>What to eat:</strong></p><ul><li>Miso ramen</li><li>Kushikatsu (fried skewers)</li><li>Horumon (grilled offal)</li></ul><p><strong>Vibe:</strong> Retro, authentic, and ideal for a quieter night out with serious flavor.</p><h3><strong>6. Shimokitazawa Night Bites</strong></h3><p><strong>Open late (most food joints open until midnight or later)</strong></p><p>Known for its artsy, indie vibe, Shimokitazawa offers a laid-back mix of bars and street eats. While not a traditional night market, the area’s bohemian streets are packed with food treasures.</p><p><strong>What to eat:</strong></p><ul><li>Gyoza from hole-in-the-wall spots</li><li>Japanese-style curry</li><li>Craft cocktails with Japanese ingredients</li><li>Vegan and gluten-free options (rare gems in Tokyo!)</li></ul><h3><strong>Tokyo Night Market Etiquette &amp; Tips:</strong></h3><ul><li><strong>Cash is king</strong> at many stalls, though more are starting to accept IC cards like Suica or Pasmo.</li><li><strong>Be patient and polite</strong>—small vendors often have just one cook and a long line.</li><li><strong>Drink responsibly</strong>: Open container laws are relaxed, but public drunkenness is still frowned upon.</li><li><strong>Slurping is not rude</strong>—it’s a compliment to the chef, especially with noodles.</li><li><strong>Try something new</strong>—Tokyo’s night food scene thrives on discovery.</li></ul><h3><strong>Final Bite</strong></h3><p>Tokyo after dark is a whole different flavor of adventure. Whether you're wandering through smoky alleyways or perched at a lively izakaya counter, the city’s night markets offer a sensory journey into Japan’s culinary heart. So skip the chain restaurants, follow the scent of grilled meats, and dive mouth-first into the late-night magic of Tokyo’s street food scene.</p><p><strong>Kanpai, and happy eating!</strong></p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Explore Tokyo's vibrant night food scene, from street vendors to hidden izakayas.
+    - ID: "7867860d-70ef-4cef-b3b0-d41de36989d9"
+      Hint: BackLink
+      Value: |
+        <link linktype="internal" id="4205ba63-338e-4a96-9163-036c9bcc6573" anchor="" querystring="" target="" class="" text="Back to Blog" title=""/>
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: "When the sun sets over Tokyo, the neon lights flicker to life and the city transforms into a food lover’s paradise. Beyond the glitzy bars and Michelin-starred restaurants lies a delicious undercurrent of culinary culture: night markets and late-night street food stalls where locals and savvy travelers gather to eat, drink, and soak up the city’s after-hours energy."
+    - ID: "844baf54-2f0e-42a5-8cab-5f596ea60c3e"
+      Hint: ReadTime
+      Value: 5 min
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e1044405-050c-4157-8828-8689df00ed91"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "Tokyo After Dark: A Food Lover's Guide to Night Markets"
+    - ID: "b7bb63c4-ac9e-4536-9d96-c3c5e9d14ced"
+      Hint: Shares
+      Value: 34
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251226T202429Z
+    - ID: "de1b043b-cddd-48a7-b9c4-98251e188b30"
+      Hint: Likes
+      Value: 12
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: "Tokyo After Dark: A Food Lover's Guide to Night Markets"
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: "Ameya-Yokocho, Ebisu, Ebisu Yokocho, Japan, Japanese craft beer, Japanese-style curry, Michelin-starred restaurants, Nakano, Nakano Broadway, Okachimachi, Okinawan-style tacos, Omoide Yokocho, Pasmo, Shimokitazawa, Shinjuku, Suica, Sun Mall, Tokyo, Tsukiji, Tsukiji Outer Market, Ueno, after-hours energy, authentic flavor, bohemian streets, craft cocktails, culinary culture, gluten-free options, grilled scallops, gyoza, horumon, izakaya, karaage, kushikatsu, lantern-lit alleyways, late-night bites, matcha soft serve, miso ramen, night markets, open container laws, ramen, retro vibe, sake, salarymen, sashimi, shochu, slurping etiquette, solo travelers, street food, takoyaki, tamagoyaki, tuna sushi, uni-don, vegan options, wagyu beef, yakitori"

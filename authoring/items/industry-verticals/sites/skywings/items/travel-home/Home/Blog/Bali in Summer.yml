@@ -1,0 +1,128 @@
+﻿---
+ID: "5a985162-028d-432b-ad70-68747cc23e0d"
+Parent: "4205ba63-338e-4a96-9163-036c9bcc6573"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/skywings/Home/Blog/Bali in Summer"
+SharedFields:
+- ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
+  Hint: Author
+  Value: "{363F82C5-85AB-44E1-9801-1BCD9386BA58}"
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20251224T000000Z
+- ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/abc743853a2d4ea3b59ebd9fa39a26e2?v=bf12293b" dam-id="VrpMf5-NTSCe7XCH76U1iA" width="1100" height="733" alt="GettyImages-545857793.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/41164/thumbnail" />
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/abc743853a2d4ea3b59ebd9fa39a26e2?v=bf12293b" dam-id="VrpMf5-NTSCe7XCH76U1iA" width="1100" height="733" alt="GettyImages-545857793.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/41164/thumbnail" />
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{84FB620F-1826-46F3-8ED2-15F85CE62027}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "fba9a754-aace-429a-a2a9-f4835de10cbf"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{608ACCDB-3AA1-4664-B3A1-59CA5D9E3574}"
+          p:before="*"
+          s:id="{3EF239BA-A9CC-4BEC-B343-B9ABB9A9C94A}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;HideShareWidget&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{97EC6CE1-AB73-47A5-A9B4-9E3C1FD49051}"
+          p:after="r[@uid='{608ACCDB-3AA1-4664-B3A1-59CA5D9E3574}']"
+          s:ds="023c2129-aa22-4399-9dbf-91f5b167c78e"
+          s:id="{32E7FD88-4E5D-4AAB-A15F-61DCEBA1EE6F}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BC18CFAB6-BFD2-4347-BB31-F8A152627344%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="/headless-main/article-details-1" />
+        <r
+          uid="{5A696995-4551-47A4-BE72-F539B712FC62}"
+          p:after="*[1=2]"
+          s:ds="af2b4fe7-ed5e-4a65-9fe1-e0165ec1cd3c"
+          s:id="{32E7FD88-4E5D-4AAB-A15F-61DCEBA1EE6F}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B7E568908-849F-43BB-9174-EBF50749E19F%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="/headless-main/article-details-author-1" />
+      </d>
+    </r>
+- ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+  Hint: Category
+  Value: "{2D85DC0F-B140-4BD9-A2C8-A994502D6C22}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: A warm and inviting look at summer in Bali, focusing on ocean calm, golden evenings, and effortless outdoor living.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251226T183845Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Bali in Summer
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: "<p>Summer in Bali brings warm air, long daylight hours, and a gentle coastal breeze that encourages slow movement and open-air living. The ocean is calm and inviting, its warm shallows perfect for early-morning swims and late-afternoon wading. Sunlight glows across the water, creating a peaceful rhythm that carries effortlessly through each day.</p><p>Coastal cafés and beachside restaurants extend into the evening, where the horizon turns shades of amber and lavender. Meals are shared outdoors beneath soft lights strung overhead, with music drifting from nearby terraces. The feeling in summer is simple and uplifting — days are spacious, and nights are warm and social.</p><p>For travelers seeking balance, summer in Bali offers both energy and ease. Surf lessons at sunrise, slow bike rides through rice fields, quiet beaches away from the crowds, and time spent simply walking, talking, and breathing in the warm ocean air. It’s a season that invites joy without rush.</p>"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: "Experience the warmth, light, and ease of Bali in summer from ocean days to open-air dining and coastal exploration."
+    - ID: "7867860d-70ef-4cef-b3b0-d41de36989d9"
+      Hint: BackLink
+      Value: |
+        <link linktype="internal" id="4205ba63-338e-4a96-9163-036c9bcc6573" anchor="" querystring="" target="" class="" text="Back to Blog" title=""/>
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: "Experience the warmth, light, and ease of Bali in summer — from ocean days to open-air dining and coastal exploration."
+    - ID: "844baf54-2f0e-42a5-8cab-5f596ea60c3e"
+      Hint: ReadTime
+      Value: 5 min
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4206ee9a-9aea-40ef-9938-e600d8f146cb"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "Bali in Summer: Long Days, Warm Evenings, and Ocean Calm"
+    - ID: "b7bb63c4-ac9e-4536-9d96-c3c5e9d14ced"
+      Hint: Shares
+      Value: 10
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251226T184352Z
+    - ID: "de1b043b-cddd-48a7-b9c4-98251e188b30"
+      Hint: Likes
+      Value: 14
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: Bali Summer Travel Inspiration | SkyWings
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: Bali summer, warm weather travel, beaches in Bali, tropical holidays, SkyWings

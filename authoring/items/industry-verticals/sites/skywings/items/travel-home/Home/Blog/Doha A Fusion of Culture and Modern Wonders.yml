@@ -1,0 +1,125 @@
+﻿---
+ID: "9b47e0b5-48df-4fa7-a458-bcc1745e464e"
+Parent: "4205ba63-338e-4a96-9163-036c9bcc6573"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/skywings/Home/Blog/Doha A Fusion of Culture and Modern Wonders"
+SharedFields:
+- ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
+  Hint: Author
+  Value: "{363F82C5-85AB-44E1-9801-1BCD9386BA58}"
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20251218T000000Z
+- ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/904972d607ff401b894014842c718953?v=9f1974dc" dam-id="fd1xNcZfTKeTi1QErXE2fg" width="4237" height="2825" alt="radoslaw-prekurat-a-kdjff86zE-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/69499/thumbnail" />
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/904972d607ff401b894014842c718953?v=9f1974dc" dam-id="fd1xNcZfTKeTi1QErXE2fg" width="4237" height="2825" alt="radoslaw-prekurat-a-kdjff86zE-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/69499/thumbnail" />
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{6B912590-7096-4F37-A6A5-16C81FA3E5D1}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "aed4c0d0-46f9-4a5b-8f6e-4cb9d2015be3"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{8D3FA217-B234-47B7-ABE0-653F2B96C3D9}"
+          p:before="*"
+          s:id="{3EF239BA-A9CC-4BEC-B343-B9ABB9A9C94A}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;HideShareWidget&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{81DBA226-9EBA-4AB6-A11F-CC161E39BB0D}"
+          p:after="r[@uid='{8D3FA217-B234-47B7-ABE0-653F2B96C3D9}']"
+          s:ds="023c2129-aa22-4399-9dbf-91f5b167c78e"
+          s:id="{32E7FD88-4E5D-4AAB-A15F-61DCEBA1EE6F}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BC18CFAB6-BFD2-4347-BB31-F8A152627344%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="/headless-main/article-details-1" />
+        <r
+          uid="{D7E3859C-2045-4CB5-8AFC-C6E9EE54C404}"
+          p:after="*[1=2]"
+          s:ds="af2b4fe7-ed5e-4a65-9fe1-e0165ec1cd3c"
+          s:id="{32E7FD88-4E5D-4AAB-A15F-61DCEBA1EE6F}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B8A370F7A-D24B-497C-BA63-CAE02445F477%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="/headless-main/article-details-author-1" />
+      </d>
+    </r>
+- ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+  Hint: Category
+  Value: "{29C6087A-94B7-40D2-8AA2-21D252C23207}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: "Experience Doha, where tradition and innovation blend seamlessly. Visit the Museum of Islamic Art, shop at Souq Waqif, and enjoy desert safaris and world-class cuisine."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251226T184505Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Doha A Fusion of Culture and Modern Wonders
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: "<p>Explore Qatar’s capital where the past and present intertwine in stunning harmony.</p><p>Doha is a city of contrasts: gleaming skyscrapers rise alongside traditional souks, and cultural treasures sit comfortably beside luxury hotels. Start with the <strong>Museum of Islamic Art</strong>, a breathtaking structure perched on the Corniche, showcasing centuries of artistry from across the Islamic world.</p><p>Explore the winding streets of <strong>Souq Waqif</strong>, where spices, textiles, and handicrafts tempt your senses. For a taste of the desert, hop on a safari or sandboard down the dunes just outside the city. Sports enthusiasts and architecture fans alike will marvel at the <strong>Stadium 974</strong>, an engineering marvel from the FIFA World Cup.</p><p>Doha’s culinary scene is another highlight, offering everything from gourmet dining to traditional Qatari cuisine. Whether you’re wandering along the waterfront or exploring a desert oasis, Doha provides an authentic yet modern Arabian adventure.</p>"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: "Experience Doha, where tradition and innovation blend seamlessly. Visit the Museum of Islamic Art, shop at Souq Waqif, and enjoy desert safaris and world-class cuisine."
+    - ID: "7867860d-70ef-4cef-b3b0-d41de36989d9"
+      Hint: BackLink
+      Value: |
+        <link linktype="internal" id="4205ba63-338e-4a96-9163-036c9bcc6573" anchor="" querystring="" target="" class="" text="Back to Blog" title=""/>
+    - ID: "844baf54-2f0e-42a5-8cab-5f596ea60c3e"
+      Hint: ReadTime
+      Value: 6 min
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "27f783dd-c3a0-47cd-8c19-8ab831562f87"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: Doha – A Fusion of Culture and Modern Wonders
+    - ID: "b7bb63c4-ac9e-4536-9d96-c3c5e9d14ced"
+      Hint: Shares
+      Value: 10
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251226T185126Z
+    - ID: "de1b043b-cddd-48a7-b9c4-98251e188b30"
+      Hint: Likes
+      Value: 15
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: Doha – A Fusion of Culture and Modern Wonders
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: Doha travel, Museum of Islamic Art, Souq Waqif shopping, Doha desert safari, Stadium 974 Qatar, Qatari cuisine, Doha cultural attractions, Qatar tourism, modern architecture Doha, Arabian Gulf travel

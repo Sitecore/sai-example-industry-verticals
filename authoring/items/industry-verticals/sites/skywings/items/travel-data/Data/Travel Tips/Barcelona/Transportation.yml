@@ -1,0 +1,44 @@
+﻿---
+ID: "f5f2363d-3006-4098-9e36-e8a178663996"
+Parent: "f2ff2cd4-e8de-4f9b-9bf0-d620de292362"
+Template: "b020ee7a-b8a1-4850-91c0-c65e46ebaef1"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Travel Tips/Barcelona/Transportation"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251229T091135Z
+    - ID: "472facf1-ba62-45e1-a18e-a0641c900725"
+      Hint: Title
+      Value: Transportation
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b33db9b8-d614-4363-a3fb-bb7817b2f87c"
+    - ID: "8e528e88-8c6c-48ce-bf83-577c8dbdf804"
+      Hint: Description
+      Value: |
+        <ul>
+            <li style="color: #000000; line-height: 20px;">Use the metro and buses for fast, affordable travel</li>
+            <li style="color: #000000; line-height: 20px;">Walking is ideal within central districts</li>
+            <li style="color: #000000; line-height: 20px;">Taxis and ride‑hailing apps are widely available</li>
+            <li style="color: #000000; line-height: 20px;">Buy a T‑Casual or Hola Barcelona pass for discounted transit</li>
+            <li style="color: #000000; line-height: 20px;">Biking is popular along designated cycling lanes and beachfronts</li>
+        </ul>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251229T091207Z
