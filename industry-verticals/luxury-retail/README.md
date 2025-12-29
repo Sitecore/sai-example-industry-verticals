@@ -2,7 +2,7 @@
 
 ## Overview
 
-Luxury Retail is a demo website created to showcase a modern retail experience.The site is designed to demonstrate how a luxury brand can deliver a seamless and personalized experience to its customers.
+Essential Living is a demo website created to showcase a modern retail experience.The site is designed to demonstrate how a luxury brand can deliver a seamless and personalized experience to its customers.
 
 ## Developer Expectations:
 
