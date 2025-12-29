@@ -8,6 +8,7 @@ import {
   DateField,
   TextField,
   RichTextField,
+  useSitecore,
 } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from '@/lib/component-props';
 import Link from 'next/link';
@@ -44,6 +45,8 @@ const ITEMS_PER_PAGE = 6;
 
 export const Default = (props: ArticleListingProps) => {
   const { t } = useI18n();
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
   const id = props.params.RenderingIdentifier;
   const sxaStyles = `${props.params?.styles || ''}`;
   const hideTitleSection = props.params?.styles?.includes(TitleSectionFlags.HideTitleSection);
@@ -144,7 +147,7 @@ export const Default = (props: ArticleListingProps) => {
                         </span>
                       </div>
                     )}
-                    {article?.fields?.PublishedDate && (
+                    {(article?.fields?.PublishedDate?.value || isPageEditing) && (
                       <div className="flex items-center space-x-1">
                         <Calendar className="h-3 w-3" />
                         <span>
@@ -155,7 +158,7 @@ export const Default = (props: ArticleListingProps) => {
                         </span>
                       </div>
                     )}
-                    {article?.fields?.ReadTime && (
+                    {(article?.fields?.ReadTime?.value || isPageEditing) && (
                       <div className="flex items-center space-x-1">
                         <Clock className="h-3 w-3" />
                         <span>

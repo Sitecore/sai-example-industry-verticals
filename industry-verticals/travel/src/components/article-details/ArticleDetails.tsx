@@ -79,7 +79,7 @@ export const Default = ({ params, fields, rendering }: ArticleDetailsProps) => {
       </div>
 
       {/* Article Header */}
-      <article className="container py-8">
+      <article className="container">
         <div className="mx-auto max-w-4xl">
           {/* Article Meta */}
           <div className="mb-6">
@@ -104,21 +104,25 @@ export const Default = ({ params, fields, rendering }: ArticleDetailsProps) => {
                   <ContentSdkText field={fields?.Author?.fields?.AuthorName} />
                 </span>
               </div>
-              <div className="flex items-center space-x-1">
-                <Calendar className="h-4 w-4" />
-                <DateField
-                  tag="p"
-                  className="news-date"
-                  field={fields?.PublishedDate}
-                  render={newsDateFormatter}
-                />
-              </div>
-              <div className="flex items-center space-x-1">
-                <Clock className="h-4 w-4" />
-                <span>
-                  <ContentSdkText field={fields?.ReadTime} />
-                </span>
-              </div>
+              {(fields?.PublishedDate?.value || isPageEditing) && (
+                <div className="flex items-center space-x-1">
+                  <Calendar className="h-4 w-4" />
+                  <DateField
+                    tag="p"
+                    className="news-date"
+                    field={fields?.PublishedDate}
+                    render={newsDateFormatter}
+                  />
+                </div>
+              )}
+              {(fields?.ReadTime?.value || isPageEditing) && (
+                <div className="flex items-center space-x-1">
+                  <Clock className="h-4 w-4" />
+                  <span>
+                    <ContentSdkText field={fields?.ReadTime} />
+                  </span>
+                </div>
+              )}
             </div>
 
             <div className="flex flex-col gap-6 border-y py-4 md:flex md:flex-row md:items-center md:justify-between">
@@ -156,7 +160,7 @@ export const Default = ({ params, fields, rendering }: ArticleDetailsProps) => {
         </div>
       </article>
 
-      <div className="container py-8">
+      <div className="container">
         <div className="mx-auto max-w-4xl">
           <Placeholder rendering={rendering} name={fullWidthPlaceholderKey} />
         </div>
