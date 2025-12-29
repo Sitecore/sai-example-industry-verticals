@@ -2,12 +2,11 @@
 
 ## Overview
 
-Travel is a simple website with sample Component implementation showcasing data source handling and other essentials. This demo site is built to showcase XM Cloud capabilities using the Content SDK.
+Skywings is a demo website created to illustrate a modern travel experience. It focuses on inspiring destinations, easy trip planning, and user-friendly navigation. The site demonstrates how travel brands can provide a seamless and engaging platform that helps users explore options, book trips, and access essential travel information effortlessly.
 
 ## Developer Expectations:
 
 - Tailwind-based styling (Shadcn)
-- Personalized homepage via URL parameters
 - Modular components for reuse
 - Localization support 
 
@@ -123,7 +122,7 @@ There are two options for you can try for search configuration:
 1. Use the existing skywings search source
 2. Create a new source in the CEC portal and link it to your application
 
-### Use existing forma-lux search source
+### Use existing skywings search source
 Set the envs as follows
 ```bash
    - NEXT_PUBLIC_SEARCH_ENV=prod
@@ -135,7 +134,3 @@ Set the envs as follows
 
 ### Create new source in CEC portal and link to your application
 https://sitecore.atlassian.net/wiki/x/ZwAengE
-
-
-- After adding the new languages, update the locales array in the next.config.js file to include the new language codes.
-- To display languages in language switcher, go to src/constants/localeOptions.ts and update the localeOptions array with code,label,currency and currencySymbol for specific locale.
