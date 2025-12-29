@@ -28,7 +28,7 @@ Here's a quick overview of the major folders and their purpose:
   This is the primary configuration file for building and deploying rendering hosts in your XM Cloud environment.
   Key Sections:
   - renderingHosts: Defines one or more front-end apps to build. Each entry includes:
-  - path: where the app is located (e.g., ./industry-verticals/industry-verticals)
+  - path: where the app is located (e.g., ./industry-verticals/<industry-vertical>)
   - nodeVersion: Node.js version used during build
   - jssDeploymentSecret: Deployment auth key for JSS
   - enabled: Whether the rendering host is active
@@ -58,15 +58,15 @@ For developers new to XM Cloud you can follow the Getting Started Guide on the [
 > - [travel](https://github.com/Sitecore/Sitecore.Demo.XMCloud.IndustryVerticals.SiteTemplates/blob/main/industry-verticals/travel/README.md)
 
 
-### The following outlines the general steps to run the app locally:
+### The following outlines the general steps for running a specific industry vertical locally:
 
 - Log into the Sitecore XM Cloud Deploy Portal, locate your Environment and select the `Developer Settings` tab.
 - Ensure that the `Preview` toggle is enabled.
 - In the `Local Development` section, click to copy the sample `.env` file contents to your clipboard.
-- Create a new `.env.local` file in the `./industry-verticals/industry-verticals` folder of this repository and paste the contents from your clipboard.
+- Create a new `.env.local` file in the `./industry-verticals/<industry-vertical>` folder of this repository and paste the contents from your clipboard.
 - Run the following commands in the root of the repository to start the NextJs application:
   ```bash
-  cd industry-verticals/industry-verticals
+  cd industry-verticals/retail
   npm install
   npm run dev
   ```
