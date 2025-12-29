@@ -11,10 +11,10 @@ import { Link, Text, useSitecore, RichText, NextImage, Image, DateField, Placeho
 import { useState, useCallback, useRef, useEffect, useMemo } from 'react';
 import React from 'react';
 import { useI18n } from 'next-localization';
-import { Facebook, Twitter, Youtube, Instagram, Linkedin, ArrowRight, Share2, ArrowLeft, ChevronLeft, ChevronRight, Phone, Plane, Bed, Camera, Navigation, CalendarDays, Clock, MapPin, Star, Thermometer, LoaderCircle, X, Menu, Search, Heart, Calendar, User, Users, ChevronDown, Check } from 'lucide-react';
+import { Facebook, Twitter, Youtube, Instagram, Linkedin, ArrowRight, Share2, ArrowLeft, ChevronLeft, ChevronRight, Phone, Plane, Bed, Camera, Navigation, CalendarDays, Clock, MapPin, Star, Thermometer, LoaderCircle, X, Search, Users, ChevronDown, Check, Menu, Heart, Calendar, User } from 'lucide-react';
 import * as LucidIcons from 'lucide-react';
 import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
-import { LayoutStyles, PromoFlags, TitleSectionFlags } from '@/types/styleFlags';
+import { LayoutStyles, PromoFlags, HeroBannerStyles, TitleSectionFlags } from '@/types/styleFlags';
 import { newsDateFormatter } from '@/helpers/dateHelper';
 import { useSearchParams, usePathname, useRouter } from 'next/navigation';
 import QuestionsAnswers from 'src/components/non-sitecore/search/QuestionsAnswers';
@@ -145,6 +145,7 @@ const importMap = [
     exports: [
       { name: 'LayoutStyles', value: LayoutStyles },
       { name: 'PromoFlags', value: PromoFlags },
+      { name: 'HeroBannerStyles', value: HeroBannerStyles },
       { name: 'TitleSectionFlags', value: TitleSectionFlags },
     ]
   },
