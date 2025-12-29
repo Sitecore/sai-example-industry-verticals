@@ -11,14 +11,14 @@ SharedFields:
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
-    <image mediaid="7b69d3a1-be0a-40a4-bc63-8dfc3d8f8c7f" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/76633-HomepagePromoCTAs-1100x740?v=8a7a5fc0" dam-id="Lk_r5NN0TNWG2HNI4f0OmA" width="1100" height="740" alt="work-from-home-article.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76633/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{35902DFA-0A50-43E6-92DA-646B602A2A1C}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "0d86e131-0413-4da2-b292-7670703b9e07"
+  Value: "ba9e9980-a545-4f7a-935c-fb596356e39d"
 Languages:
 - Language: en
   Fields:
@@ -63,17 +63,17 @@ Languages:
       Value: Create a modern home office that blends style and productivity. Discover tips for ergonomic chairs, sleek desks, smart storage, natural lighting, and minimal accessories for a calm, uncluttered workspace.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3c44806f-38b1-4181-ae12-19f54ebc4fbf"
+      Value: "008ffa4b-94bd-4809-a415-c39df0a1260b"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "The Work-From-Home Upgrade: Designing a Modern Home Office That Inspires"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251223T145811Z
+      Value: 20251226T115749Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: "Modern Home Office Design: Stylish, Functional, and Focused"

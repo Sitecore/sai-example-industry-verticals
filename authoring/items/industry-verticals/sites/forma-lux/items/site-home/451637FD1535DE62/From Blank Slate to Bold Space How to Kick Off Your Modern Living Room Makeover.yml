@@ -11,14 +11,14 @@ SharedFields:
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
-    <image mediaid="a99d7387-e8db-491d-ad92-a84e7cc3939b" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c2f4307295744911a58659791d759fc4?v=e5ef8d66" dam-id="M-NIE4yuSDSZ9ZUu_ZE5hw" width="1024" height="600" alt="color-conf.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76496/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{F4B3408A-B7DF-42A0-9923-748A90067F37}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "c9a43a5e-3744-407a-92e9-2d0d115e11e6"
+  Value: "48424016-caec-4438-8763-bbcecee7d561"
 Languages:
 - Language: en
   Fields:
@@ -65,17 +65,17 @@ Languages:
       Value: "So you’ve got a living room that works—but doesn’t inspire. That changes today. Start by choosing one standout piece—maybe a sleek sectional in a bold color or an architectural coffee table with clean lines. Let that piece drive your palette. Then layer in contrast: soft textiles, sculptural accessories, a geometric rug. Balance is key: pair warm wood tones with cool metal finishes; mix high gloss with matte surfaces. And don’t forget scale—large furniture invites comfort, but open space keeps things airy. Finally, personalize: add a meaningful object, an unusual art piece, or a plant with character. The result? A living space that reflects your style and makes you feel modern."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9147583a-de3b-42dd-b359-078009dede39"
+      Value: "cfa7e9f4-001a-4a87-9bf6-d43eeee871e9"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "From Blank Slate to Bold Space: How to Kick-Off Your Modern Living Room Makeover"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251223T145810Z
+      Value: 20251226T113304Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: "From Blank Slate to Bold Space: How to Kick-Off Your Modern Living Room Makeover"

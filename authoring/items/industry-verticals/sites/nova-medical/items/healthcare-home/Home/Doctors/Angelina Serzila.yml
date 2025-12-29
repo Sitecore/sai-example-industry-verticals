@@ -47,18 +47,18 @@ Languages:
       Value: Angelina Serzila
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "867b6d92-97e9-4839-8940-db1e6524719b"
+      Value: "4bc5d985-b402-43f6-8906-23f003d1836a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251114T113305Z
+      Value: 20251226T095831Z
     - ID: "ea706e77-5d62-426e-bbb3-68805298e75c"
       Hint: Photo
       Value: |
-        <image mediaid="48e1dcec-fba2-44a6-bb05-60a9a8b729d8" />
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/78913-HomePageHero-2000x800?v=399382b9" dam-id="Kk4UUTmIRqS50Qhlz2_R9g" width="2000" height="800" alt="AngelinaSerzila.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/78913/thumbnail" />
     - ID: "fb359b0f-3087-41f2-aae3-2dd492eb2c60"
       Hint: Title
       Value: Angelina Serzila

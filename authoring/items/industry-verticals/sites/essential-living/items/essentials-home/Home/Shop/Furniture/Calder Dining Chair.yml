@@ -29,11 +29,11 @@ SharedFields:
 - ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
   Hint: Image2
   Value: |
-    <image mediaid="b46e6b5d-7936-4c52-9dd8-0d62ebc1f51a" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/78229-HomePageHero-2000x800?v=c2615af0" dam-id="IVhr3_B4RAqih4r_KnM0_w" width="2000" height="800" alt="chair_wood (3).jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/78229/thumbnail" />
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <image mediaid="7e94e94a-72a9-4da1-901d-83f8b37ede2f" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/78221-HomePageHero-2000x800?v=3ff1f478" dam-id="lCiWA729RIqP-4NoJ5ypoQ" width="2000" height="800" alt="chair_wood (1).jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/78221/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -44,10 +44,10 @@ SharedFields:
 - ID: "d9c8ae87-80fc-460b-9140-3db7358b1c8e"
   Hint: Image3
   Value: |
-    <image mediaid="e808379b-d2bf-4017-948e-63f9b8c365b8" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/78222-HomePageHero-2000x800?v=bc2d6711" dam-id="oxCmRgERRDizTvuI_0K7jA" width="2000" height="800" alt="chair_wood (2).jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/78222/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "f706913d-1b73-4032-a847-6ec32b161620"
+  Value: "f6943e5c-a27d-44eb-abf8-861384691ebb"
 Languages:
 - Language: en
   Versions:
@@ -70,14 +70,14 @@ Languages:
       Value: Calder Dining Chair
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a0cc8314-39fc-4983-b225-1dd1a77487c7"
+      Value: "ae6f26ef-77b9-442c-aa3f-ce51a4cc7273"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Calder Dining Chair
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251124T104455Z
+      Value: 20251229T103635Z
