@@ -7,10 +7,10 @@ SharedFields:
 - ID: "0d9bfa5d-ac4d-4dca-8477-78801227cf5c"
   Hint: PromoImageTwo
   Value: |
-    <image mediaid="74834700-cbdd-4216-b2d6-7778b3aabca9" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/79689-HomepagePromoCTAs-1100x740?v=705bcc69" dam-id="nzuNhIQGT3mNgSmPl0sh2A" width="1100" height="740" alt="1f8b61c1c7ceb91b8d5d355cc97758366096d9e9.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79689/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "e95a8abb-7d34-463e-8a58-5fce7e033ec1"
+  Value: "390663f3-6ad6-4d8e-a1c7-24cac1e161ac"
 Languages:
 - Language: en
   Versions:
@@ -43,14 +43,14 @@ Languages:
       Value: How WE WORK
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5e8d1a84-2504-4dc1-a216-74cb071df58b"
+      Value: "e3a1e833-e4d8-42ad-9a22-b360435fcad9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250908T120648Z
+      Value: 20251229T083800Z
     - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
       Hint: PromoTitle
       Value: Where Craft Meets Concept

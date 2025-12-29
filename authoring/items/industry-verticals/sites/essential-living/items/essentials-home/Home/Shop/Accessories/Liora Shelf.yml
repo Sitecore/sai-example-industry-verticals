@@ -18,15 +18,15 @@ SharedFields:
 - ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
   Hint: Image2
   Value: |
-    <image mediaid="98f9d52a-3891-4ff3-bdb5-73aec3baac90" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/77956-HomePageHero-2000x800?v=7170738b" dam-id="ySlxTQTDSE-zFGCRFoIcKQ" width="2000" height="800" alt="ShelfZ_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/77956/thumbnail" />
 - ID: "9a62ea92-04df-49e2-ab37-00d251d0cc22"
   Hint: Image4
   Value: |
-    <image mediaid="8017e46f-350e-476c-84ce-e4bde865f1e9" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/77957-HomePageHero-2000x800?v=0020b0cc" dam-id="ixh_kv-oRr-G4__uNMC4Cw" width="2000" height="800" alt="ShelfZ_3.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/77957/thumbnail" />
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <image mediaid="ba5a6167-fead-49db-ba3d-de83a7069227" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/77955-LandingPageHero-2000x600?v=3b94a6da" dam-id="jmwK5kwhT32NoNnl-4j_0Q" width="2000" height="600" alt="ShelfZ_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/77955/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -37,10 +37,10 @@ SharedFields:
 - ID: "d9c8ae87-80fc-460b-9140-3db7358b1c8e"
   Hint: Image3
   Value: |
-    <image mediaid="5d085bcf-9809-4108-a2fd-a6348a3ed263" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/77961-HomepagePromoCTAs-1100x740?v=29506242" dam-id="Jf1g02RWSK6NtYkP28NnFg" width="1100" height="740" alt="ShelfZ_4.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/77961/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "785b1c8b-62a6-451e-9588-1009c3596585"
+  Value: "9b25d6f1-de67-4983-8649-ad3401dc64a6"
 Languages:
 - Language: en
   Versions:
@@ -63,14 +63,14 @@ Languages:
       Value: Liora Shelf
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e1f058f5-c609-446d-a4a6-42ea246c4c09"
+      Value: "7e5fc2f5-db20-4991-88e2-3ab8b9faf3dc"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Liora Shelf
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251117T140440Z
+      Value: 20251229T103055Z

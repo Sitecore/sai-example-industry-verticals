@@ -18,11 +18,11 @@ SharedFields:
 - ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
   Hint: Image2
   Value: |
-    <image mediaid="eb77be46-e924-4e1b-87f6-183409b046fd" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/77987-HomepagePromoCTAs-1100x740?v=0ec0c0fd" dam-id="CpChAaoeSamMmoRO9EJSgw" width="1100" height="740" alt="Vase_1_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/77987/thumbnail" />
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <image mediaid="bddd4906-d44e-467a-b05a-f58f46433e24" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/77991-HomePageHero-2000x800?v=5f0046ad" dam-id="20rMb2tfTuCbMwd7SXTXxA" width="2000" height="800" alt="Vase_1_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/77991/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -33,10 +33,10 @@ SharedFields:
 - ID: "d9c8ae87-80fc-460b-9140-3db7358b1c8e"
   Hint: Image3
   Value: |
-    <image mediaid="afbe1ada-a0c8-4f29-b1c5-7c58760f60ce" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/77988-HomePageHero-2000x800?v=6aeb8951" dam-id="4Pe9esU5S22CY9tFZJf9fw" width="2000" height="800" alt="Vase_1_3.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/77988/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "566aabd1-b12e-48fc-927e-b8938d0e7e86"
+  Value: "7c48447d-8a4a-42ef-b5f0-539666b1bc76"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -74,14 +74,14 @@ Languages:
       Value: Eira Vase
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "37f8c273-c1a6-449a-9fce-88731526a893"
+      Value: "18d22299-39cf-4a52-9a94-bd4a1594b383"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Eira Vase
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251124T110504Z
+      Value: 20251229T102901Z

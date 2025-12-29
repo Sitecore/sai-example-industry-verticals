@@ -16,11 +16,11 @@ SharedFields:
 - ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
   Hint: Image2
   Value: |
-    <image mediaid="8eed332e-c208-437b-91a6-1e3e7844d6e2" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/77858-HomePageHero-2000x800?v=b9536553" dam-id="N10AcWnARMaRlKmWg0W3BA" width="2000" height="800" alt="neutrail-pillows-3.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/77858/thumbnail" />
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <image mediaid="31df980d-3daf-4a5e-84c1-05645b08972e" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/77860-HomePageHero-2000x800?v=2b603062" dam-id="Ga6DJ9dSTrWlsM6nVg5PbA" width="2000" height="800" alt="neutrail-pillows-1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/77860/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -31,10 +31,10 @@ SharedFields:
 - ID: "d9c8ae87-80fc-460b-9140-3db7358b1c8e"
   Hint: Image3
   Value: |
-    <image mediaid="7a4e3807-3c75-437d-9d80-3e491dab3780" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/77859-HomepagePromoCTAs-1100x740?v=cd46aa9c" dam-id="6qPbHgAQTuafC4TlGQA4Bg" width="1100" height="740" alt="neutrail-pillows-2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/77859/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "68a491dd-74fc-4cfd-be7d-01745f635636"
+  Value: "d2a2ba60-2fc2-4cf5-a837-33b04d90ff8a"
 Languages:
 - Language: en
   Versions:
@@ -57,14 +57,14 @@ Languages:
       Value: Calma Pillow Set
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "296e0dc4-ae37-4093-a3eb-1c902d6fb278"
+      Value: "c4ae7adc-aff7-4027-8af2-63fc73b192cc"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Calma Pillow Set
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251117T130215Z
+      Value: 20251229T102519Z

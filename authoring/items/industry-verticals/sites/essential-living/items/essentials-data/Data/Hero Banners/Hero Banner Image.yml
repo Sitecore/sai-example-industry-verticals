@@ -7,13 +7,13 @@ SharedFields:
 - ID: "00b71f70-411d-4ea1-a423-74ed20b60157"
   Hint: Image
   Value: |
-    <image mediaid="{193D440B-71B0-4706-961C-7D0B3760DD38}" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/78688-HomepagePromoCTAs-1100x740?v=fc04ae76" dam-id="8zMxA5rETTy0nHgxAffhHg" width="1100" height="740" alt="Hero_Banner_1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/78688/thumbnail" />
 - ID: "d74790ee-7289-4a66-b921-71da75df6cde"
   Hint: Video
   Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "dc65e599-d091-4b10-a01b-7fef0093a3dc"
+  Value: "3c51a5e4-7f1d-46fc-b5c7-cad883016dcb"
 Languages:
 - Language: en
   Versions:
@@ -39,14 +39,14 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9d9224a1-e57f-41e8-97f7-c4b9fab3b14b"
+      Value: "24039e9a-4a1e-4476-bc3f-67df8ee8d130"
     - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
       Hint: Title
       Value: New Collection
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251201T130206Z
+      Value: 20251229T095734Z

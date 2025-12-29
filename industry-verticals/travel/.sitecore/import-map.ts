@@ -11,10 +11,10 @@ import { Link, Text, useSitecore, RichText, NextImage, Image, DateField, Placeho
 import { useState, useCallback, useRef, useEffect, useMemo } from 'react';
 import React from 'react';
 import { useI18n } from 'next-localization';
-import { Facebook, Twitter, Youtube, Instagram, Linkedin, ArrowRight, Share2, ArrowLeft, ChevronLeft, ChevronRight, Phone, Plane, Bed, Camera, Navigation, CalendarDays, Clock, MapPin, Star, Thermometer, LoaderCircle, X, Menu, Search, Heart, Calendar, User } from 'lucide-react';
+import { Facebook, Twitter, Youtube, Instagram, Linkedin, ArrowRight, Share2, ArrowLeft, ChevronLeft, ChevronRight, Phone, Plane, Bed, Camera, Navigation, CalendarDays, Clock, MapPin, Star, Thermometer, LoaderCircle, X, Search, Users, ChevronDown, Check, Menu, Heart, Calendar, User } from 'lucide-react';
 import * as LucidIcons from 'lucide-react';
 import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
-import { LayoutStyles, PromoFlags, TitleSectionFlags } from '@/types/styleFlags';
+import { LayoutStyles, PromoFlags, HeroBannerStyles, TitleSectionFlags } from '@/types/styleFlags';
 import { newsDateFormatter } from '@/helpers/dateHelper';
 import { useSearchParams, usePathname, useRouter } from 'next/navigation';
 import QuestionsAnswers from 'src/components/non-sitecore/search/QuestionsAnswers';
@@ -48,6 +48,7 @@ import { getLinkContent, getLinkField, isNavLevel, isNavRootItem, prepareFields 
 import clsx from 'clsx';
 import { isParamEnabled } from '@/helpers/isParamEnabled';
 import { Drawer, DrawerTrigger, DrawerContent, DrawerClose } from '@/shadcn/components/ui/drawer';
+import { DatePicker } from '@/shadcn/components/ui/date-picker';
 import PreviewSearch_938f3b0320996fc3fe6ab3d953daf2e708e085ca from 'src/components/non-sitecore/search/PreviewSearch';
 import DestinationCard from 'src/components/non-sitecore/DestinationCard';
 import Head from 'next/head';
@@ -122,8 +123,11 @@ const importMap = [
       { name: 'Thermometer', value: Thermometer },
       { name: 'LoaderCircle', value: LoaderCircle },
       { name: 'X', value: X },
-      { name: 'Menu', value: Menu },
       { name: 'Search', value: Search },
+      { name: 'Users', value: Users },
+      { name: 'ChevronDown', value: ChevronDown },
+      { name: 'Check', value: Check },
+      { name: 'Menu', value: Menu },
       { name: 'Heart', value: Heart },
       { name: 'Calendar', value: Calendar },
       { name: 'User', value: User },
@@ -141,6 +145,7 @@ const importMap = [
     exports: [
       { name: 'LayoutStyles', value: LayoutStyles },
       { name: 'PromoFlags', value: PromoFlags },
+      { name: 'HeroBannerStyles', value: HeroBannerStyles },
       { name: 'TitleSectionFlags', value: TitleSectionFlags },
     ]
   },
@@ -392,6 +397,12 @@ const importMap = [
       { name: 'DrawerTrigger', value: DrawerTrigger },
       { name: 'DrawerContent', value: DrawerContent },
       { name: 'DrawerClose', value: DrawerClose },
+    ]
+  },
+  {
+    module: '@/shadcn/components/ui/date-picker',
+    exports: [
+      { name: 'DatePicker', value: DatePicker },
     ]
   },
   {
