@@ -8,6 +8,7 @@ import {
   Placeholder,
 } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from '@/lib/component-props';
+import { HeroBannerStyles } from '@/types/styleFlags';
 
 interface Fields {
   Image: ImageField;
@@ -25,7 +26,7 @@ export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
   const { page } = useSitecore();
   const { styles, RenderingIdentifier: id } = params;
   const isPageEditing = page.mode.isEditing;
-  const showGradientBackground = styles?.includes('show-gradient-background');
+  const showGradientBackground = styles?.includes(HeroBannerStyles.ShowGradientOverlay);
   const searchBarPlaceholderKey = `hero-banner-search-bar-${params.DynamicPlaceholderId}`;
 
   if (!fields) {
@@ -41,8 +42,10 @@ export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
   return (
     <div className={`component hero-banner ${styles} relative flex items-center`} id={id}>
       {/* Gradient Overlay */}
-      {showGradientBackground && (
+      {showGradientBackground ? (
         <div className="from-accent-dark to-accent absolute inset-0 z-0 bg-linear-to-r"></div>
+      ) : (
+        <div className="bg-accent absolute inset-0 z-0"></div>
       )}
 
       {/* Content Container */}

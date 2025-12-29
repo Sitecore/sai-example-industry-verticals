@@ -10,3 +10,7 @@ export enum PromoFlags {
 export enum TitleSectionFlags {
   HideTitleSection = 'hide-title-section',
 }
+
+export enum HeroBannerStyles {
+  ShowGradientOverlay = 'show-gradient-overlay',
+}
