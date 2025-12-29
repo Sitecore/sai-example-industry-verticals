@@ -17,14 +17,14 @@ SharedFields:
 - ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
   Hint: Image2
   Value: |
-    <image mediaid="200e2897-2352-4a77-b9fd-a3027c7ef0ee" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/78283-HomePageHero-2000x800?v=8b491f0c" dam-id="9cSt8D26QRuHrZltAm7JCA" width="2000" height="800" alt="sidetables_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/78283/thumbnail" />
 - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
   Hint: Size
   Value: "{695F20C6-97B1-4C86-A62D-03C880B038B3}"
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <image mediaid="e1ba7372-af9d-41de-b4bf-290ff2e25b02" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/78281-HomepagePromoCTAs-1100x740?v=fe8dabee" dam-id="6my8DhoxSzWiBSbOtseqmA" width="1100" height="740" alt="sidetables_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/78281/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -35,10 +35,10 @@ SharedFields:
 - ID: "d9c8ae87-80fc-460b-9140-3db7358b1c8e"
   Hint: Image3
   Value: |
-    <image mediaid="1b30f009-1031-4651-b9f7-e9e25888dc5d" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/78285-HomepagePromoCTAs-1100x740?v=9502d31c" dam-id="9FSh4cYeT4yK8akX4XZfBA" width="1100" height="740" alt="sidetables_3.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/78285/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "99234e63-1169-49a3-91d4-59d85a0ae5fe"
+  Value: "53266f09-31ce-441d-9c88-4a0e4cb523cd"
 Languages:
 - Language: en
   Versions:
@@ -61,14 +61,14 @@ Languages:
       Value: Ridge Side Table Set
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6589b8bc-fea1-4636-9d7c-a3e1acebc211"
+      Value: "7fe4ef86-495d-4158-97cf-d9c4f8bb30d9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Ridge Side Table Set
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251117T130448Z
+      Value: 20251229T104754Z

@@ -24,11 +24,11 @@ SharedFields:
 - ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
   Hint: Image2
   Value: |
-    <image mediaid="7be1658c-7d5f-430e-9a9e-fee1fe5320a9" alt="Cocoon Armchair" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/78177-HomepagePromoCTAs-1100x740?v=49c090f4" dam-id="y_QhOA8bTaiD79e0WzetFg" width="1100" height="740" alt="white_armchair_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/78177/thumbnail" />
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <image mediaid="38e2d7e8-3b81-4851-b02a-719de495c77b" alt="Cocoon Armchair" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/78175-HomepagePromoCTAs-1100x740?v=62d1c443" dam-id="1SiI4VdLSDu68sjTxLhMTA" width="1100" height="740" alt="white_armchair_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/78175/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -38,7 +38,7 @@ SharedFields:
   Value: "{30D02D41-0A02-43EE-B98A-06B5383AC5CB}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "41783b01-9fe5-4b30-854a-d2a29ce9462d"
+  Value: "2af97af9-0954-4f28-9b89-becd8a5ea61e"
 Languages:
 - Language: en
   Versions:
@@ -61,14 +61,14 @@ Languages:
       Value: Cocoon Armchair
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f2e336d5-ec62-4231-8324-88543c9af0c3"
+      Value: "320698df-9d91-4f72-8af3-bb94dfc23134"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Cocoon Armchair
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251124T104812Z
+      Value: 20251229T103752Z

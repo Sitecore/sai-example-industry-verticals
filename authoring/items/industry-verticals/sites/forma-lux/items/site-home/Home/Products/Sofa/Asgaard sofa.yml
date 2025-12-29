@@ -7,7 +7,7 @@ SharedFields:
 - ID: "01ea8292-a476-44b5-b883-8841134989ba"
   Hint: Image5
   Value: |
-    <image mediaid="d6114837-c32b-42c4-b574-a3b3ecafc459" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/79325-HomePageHero-2000x800?v=e73d670c" dam-id="anOgfQDATaCQyYMiGNrshA" width="2000" height="800" alt="86ca2d40e5cc03367af5eb6766025000d1108f3d.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79325/thumbnail" />
 - ID: "2cfb917c-9876-4edb-82c0-1c9acd6965d4"
   Hint: Reviews
   Value: 
@@ -29,7 +29,7 @@ SharedFields:
 - ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
   Hint: Image2
   Value: |
-    <image mediaid="57a2a95a-f25e-4b8c-ab46-49573cc74455" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/e79dfa4da5cf4b18a8d03a010bacde5d?v=0ad3ac89" dam-id="OpETNgGBTm-2rroUZ6vWZA" width="4096" height="2725" alt="asgaard-sofa-2.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79348/thumbnail" />
 - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
   Hint: Size
   Value: |
@@ -46,7 +46,7 @@ SharedFields:
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <image mediaid="34259610-0d61-4e86-8f34-5e5c1a3ff065" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/e2962e4ca5254520a5182d4d41a99763?v=ba41905e" dam-id="LCoC7UMeS5qhN_LvRRND5g" width="4024" height="3270" alt="asgaard-sofa-1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79352/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -57,10 +57,10 @@ SharedFields:
 - ID: "d9c8ae87-80fc-460b-9140-3db7358b1c8e"
   Hint: Image3
   Value: |
-    <image mediaid="2fa486fb-5a39-485f-b5a3-2f950e03e94d" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/82926ae579f24fbc95925ed2b6a0948e?v=58dfdba9" dam-id="pS2b73_mQ5WFG2Kmm82qpw" width="4096" height="2725" alt="asgaard-sofa-3.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79346/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "3f6a1aad-f9ff-4dbc-8208-950d9f9eabc0"
+  Value: "3b67def3-abfb-47b8-936d-49eeaa2cf82c"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -168,7 +168,7 @@ Languages:
       Value: 167 cm
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "639b042b-4d40-4305-be35-4ea345ccf60d"
+      Value: "64f27761-8d7f-4e41-b63b-5f39e5a36c6e"
     - ID: "acbcb630-e684-43ae-bb85-9fc89052c8a9"
       Hint: Weight
       Value: 45 KG
@@ -181,13 +181,13 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Asgaard sofa
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251217T152248Z
+      Value: 20251226T152345Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: |
