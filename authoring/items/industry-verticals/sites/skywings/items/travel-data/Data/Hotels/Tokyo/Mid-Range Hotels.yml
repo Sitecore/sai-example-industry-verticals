@@ -1,0 +1,47 @@
+﻿---
+ID: "4d19c1e7-5770-4362-af34-fd96211d004d"
+Parent: "a54eb7ac-221a-4ee2-850d-f558eeb91119"
+Template: "757a5048-08e4-400c-82c7-4da989eb5f7c"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Hotels/Tokyo/Mid-Range Hotels"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "20a64591-006a-4dbe-8ad8-4db97e01a5ab"
+      Hint: Title
+      Value: "Mid-Range Hotels"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251222T121930Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "7a3cef2c-713c-4192-91d8-a79f3d62e157"
+      Hint: PopularOptions
+      Value: |
+        <p data-start="1878" data-end="1984">• <span class="hover:entity-accent entity-underline inline cursor-pointer align-baseline whitespace-normal">Hotel Gracery Shinjuku</span><br />• <span class="hover:entity-accent entity-underline inline cursor-pointer align-baseline whitespace-normal">Mitsui Garden Hotel</span></p>
+    - ID: "898354da-70eb-406b-94e5-5c073d26aab3"
+      Hint: PriceRange
+      Value: JPY 20,000–45,000/night
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "084aca3d-138d-45fa-b805-64a41da447ec"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251222T122727Z
+    - ID: "fc97cff8-4e62-432b-a8e3-15d4aa628705"
+      Hint: Description
+      Value: Comfortable, modern hotels close to transport and shopping areas

@@ -1,0 +1,47 @@
+﻿---
+ID: "4c72c8e6-9e3a-44c9-b1d4-756508c5967f"
+Parent: "932ed2b0-d35b-438c-97df-d612a2c96f63"
+Template: "f07b5b0d-b37d-4dc6-a14d-00523b08c69d"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Highlights/Singapore/Hawker Centres"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "108003cb-7d95-48f7-bf24-885374e61ae9"
+      Hint: Description
+      Value: Enjoy Singapore’s diverse street food culture at affordable prices.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251226T170610Z
+    - ID: "29e4ddb7-fafd-43b3-89aa-90ca0e93ce56"
+      Hint: Label
+      Value: Local Cuisine
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "79ec90cf-1596-4e5f-baa7-daed63627f3c"
+      Hint: Title
+      Value: Hawker Centres
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e4d4fcf8-07ee-4b5a-aaed-ec1ab5874043"
+    - ID: "a38e449c-2d54-4b00-894c-8b84f7952a15"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/80338-HomepagePromoCTAs-1100x740?v=9484bd84" dam-id="wk9EEcZGS_GOrczvN3tHxQ" width="1100" height="740" alt="Hawker Centres.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/80338/thumbnail" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251226T172546Z

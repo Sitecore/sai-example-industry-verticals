@@ -1,0 +1,50 @@
+﻿---
+ID: "162ef66e-ab56-481e-af25-90e9149fc0c6"
+Parent: "0f060228-027e-4f4f-b7c1-d8e280ae9863"
+Template: "38ce758e-1324-4c58-a125-04d73c6ec5c4"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Weathers/Tokyo/Summer Season"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251222T121631Z
+    - ID: "2d8e9ae8-3705-4425-a1ac-f0dc096ddbc5"
+      Hint: Title
+      Value: Summer Season
+    - ID: "50040dbd-90fb-44cc-925a-08e370b73dcf"
+      Hint: Duration
+      Value: Jun–Aug
+    - ID: "508bd818-cabf-44dc-aca8-edcffacc3dcc"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/80296-HomepagePromoCTAs-1100x740?v=d057fa49" dam-id="jKI2eQKDTWqfin_6feNltw" width="1100" height="740" alt="sun.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/80296/thumbnail" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "314eed78-dd10-4ad5-acaf-d2bcd34cad0f"
+    - ID: "95f330aa-700a-466a-97ba-b2c18b0b24e1"
+      Hint: Temperature
+      Value: 23–31°C
+    - ID: "b5bc3cfb-41a0-4061-8e90-ce69524e202c"
+      Hint: Description
+      Value: Warm, humid, and lively festival season
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251226T164908Z

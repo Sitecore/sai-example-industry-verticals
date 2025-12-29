@@ -1,0 +1,42 @@
+﻿---
+ID: "d2976dfc-54bb-48bb-9fc1-a6fd08d7fdb5"
+Parent: "6fb86039-da63-4a3c-ac97-af3536961d3d"
+Template: "b020ee7a-b8a1-4850-91c0-c65e46ebaef1"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Travel Tips/Bali/Transportation"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251229T112039Z
+    - ID: "472facf1-ba62-45e1-a18e-a0641c900725"
+      Hint: Title
+      Value: Transportation
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7cd3bc6d-1116-48c3-8f23-fcb842715b7a"
+    - ID: "8e528e88-8c6c-48ce-bf83-577c8dbdf804"
+      Hint: Description
+      Value: |
+        <div style="color: #000000; line-height: 20px;">Taxis and ride‑hailing apps widely available<br />
+        Rent scooters only if confident with local traffic<br />
+        Private drivers are common for full‑day tours<br />
+        Shuttle buses available to major tourist zones<br />
+        Walking is practical in compact neighborhoods like Ubud or Seminyak</div>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251229T112058Z

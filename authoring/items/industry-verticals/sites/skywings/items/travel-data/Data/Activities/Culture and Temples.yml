@@ -1,0 +1,46 @@
+﻿---
+ID: "0cfffebd-76a1-44c1-9355-249be0905743"
+Parent: "189b102e-12ae-4bbb-8bbb-0ec7faa95a26"
+Template: "7061e950-7828-45cf-814b-e96a417b195f"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Activities/Culture and Temples"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251217T115322Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "74af5ce0-13ac-44e2-8c89-1412d1fc74f1"
+      Hint: Title
+      Value: Culture & Temples
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4a56efec-1a33-42f3-912a-e6d03342722b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "bef31628-feae-4402-95e1-c53cee4478a7"
+      Hint: Description
+      Value: |
+        <p class="flex items-start space-x-2" style="margin: 0px; padding: 0px; border: 0px solid oklch(0.922 0 0);"><span class="text-gray-700" style="margin: 0px; padding: 0px; border: 0px solid oklch(0.922 0 0); color: oklch(0.373 0.034 259.733);">Visit Uluwatu and Tanah Lot Temples<br />
+        </span></p>
+        <p class="flex items-start space-x-2" style="margin: 0px; padding: 0px; border: 0px solid oklch(0.922 0 0);"><span class="text-gray-700" style="margin: 0px; padding: 0px; border: 0px solid oklch(0.922 0 0); color: oklch(0.373 0.034 259.733);">Watch a Kecak fire dance performance<br />
+        </span></p>
+        <p class="flex items-start space-x-2" style="margin: 0px; padding: 0px; border: 0px solid oklch(0.922 0 0);"><span class="text-gray-700" style="margin: 0px; padding: 0px; border: 0px solid oklch(0.922 0 0); color: oklch(0.373 0.034 259.733);">Explore traditional Balinese villages<br />
+        </span></p>
+        <p class="flex items-start space-x-2" style="margin: 0px; padding: 0px; border: 0px solid oklch(0.922 0 0);"><span class="text-gray-700" style="margin: 0px; padding: 0px; border: 0px solid oklch(0.922 0 0); color: oklch(0.373 0.034 259.733);">Participate in a Balinese cooking class<br />
+        </span></p>
+        <p class="flex items-start space-x-2" style="margin: 0px; padding: 0px; border: 0px solid oklch(0.922 0 0);"><span class="text-gray-700" style="margin: 0px; padding: 0px; border: 0px solid oklch(0.922 0 0); color: oklch(0.373 0.034 259.733);">Discover Pura Tirta Empul holy spring temple</span></p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T115523Z

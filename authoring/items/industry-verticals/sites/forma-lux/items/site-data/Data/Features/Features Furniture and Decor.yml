@@ -26,14 +26,14 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3f9235c6-4e77-4d30-b4a6-cb4fadbd71be"
+      Value: "d51bda57-2eac-4ff8-bd9a-080879fb12cb"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251128T091333Z
+      Value: 20251229T083408Z
 - Language: "es-ES"
   Versions:
   - Version: 1

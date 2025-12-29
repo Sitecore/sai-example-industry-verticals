@@ -1,0 +1,34 @@
+﻿---
+ID: "4983e4d8-2e2c-4b5f-9c00-c53454534d19"
+Parent: "412bd443-f496-457c-bebb-a872ada29a96"
+Template: "143fcc53-64b6-4843-b963-7ead73b74368"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Icons/Twitter"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251216T083922Z
+    - ID: "50165c7d-25f3-44aa-89e1-8c71d0e4ce19"
+      Hint: Icon
+      Value: Twitter
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "93ee7217-c923-4100-919a-d49cf4b3910f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251216T083925Z

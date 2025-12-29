@@ -1,0 +1,80 @@
+﻿---
+ID: "d7684758-7d28-49a7-9b00-4067cf2d92dd"
+Parent: "986ec06f-8b48-405c-9073-acb82e1f53ae"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: "/sitecore/content/industry-verticals/skywings/Presentation/Partial Designs/Header"
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: header
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{C2B074CC-4D4B-4FA1-9D84-5EEE44773A34}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "3206a9bb-d482-4b26-96f7-a83000b51c48"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{964E8872-1861-45A4-8BE7-C8E1B642CBF6}"
+          p:before="*"
+          s:id="{32138D34-7434-4CD1-BF7F-64DA1CEB8F33}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="headless-header" />
+        <r
+          uid="{2C48EAC2-9EB5-4E0E-B2B0-1E21F5375DDF}"
+          p:after="r[@uid='{964E8872-1861-45A4-8BE7-C8E1B642CBF6}']"
+          s:ds="local:/Data/Image 1"
+          s:id="{AB2EDBA0-3960-4F12-B765-579DC231894A}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B0AC48B96-32B8-467B-9E8B-B44E83CC91B7%7D&amp;Styles=%7C%7B8A00C890-CBF2-4810-BC26-FAE3B77048A4%7D%7C%7BDB64DB13-7BBD-4594-B7A2-25FE8027EFEE%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="/headless-header/header-left-1" />
+        <r
+          uid="{72CCDAF9-AEB9-400D-881D-995F02054591}"
+          p:after="r[@uid='{2C48EAC2-9EB5-4E0E-B2B0-1E21F5375DDF}']"
+          s:id="{9F65621E-1102-461C-BBEE-3FADCE8E0509}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BBE3C6BE5-CA5D-4F2D-B652-57685CAAA021%7D&amp;Styles&amp;NavigationRoot&amp;LevelFrom=%7B1BB88840-5FB3-4353-AD8D-81136F6FF75A%7D&amp;LevelTo=%7B1BB88840-5FB3-4353-AD8D-81136F6FF75A%7D&amp;Filter=%7BD063E9D1-C7B5-4B1E-B31E-69886C9C59F5%7D&amp;Flattened&amp;AddRoot&amp;SerializerFieldNames&amp;SimpleLayout&amp;Logo=%3Cimage%20mediaid%3D%22f59bdf13-6fe6-4b4b-b80f-cddb7f79b8b2%22%20%2F%3E&amp;RenderingIdentifier&amp;CSSStyles"
+          s:ph="/headless-header/header-nav-1" />
+        <r
+          uid="{2612F61B-2E4C-4169-8485-E50D8EC7EE80}"
+          p:after="*[1=2]"
+          s:ds="3584bd51-f462-47d5-a83d-49254f9cadbc"
+          s:id="{4956263D-1195-4D6E-931B-800EA625FF6F}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B2CE15274-E5C0-46CC-AC6E-22B7A1E2394A%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles"
+          s:ph="/headless-header/header-right-1" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251210T133751Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dfb28490-f9b5-4d86-b661-1d2df5d746c3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251219T103815Z

@@ -1,0 +1,49 @@
+﻿---
+ID: "e14284bc-883d-44e8-b5a8-0b402b020099"
+Parent: "2d7e5e86-bdb9-42e9-9a1d-13ef6b2bd0f5"
+Template: "757a5048-08e4-400c-82c7-4da989eb5f7c"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Hotels/New York/Luxury Resorts and Grand Hotels"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "20a64591-006a-4dbe-8ad8-4db97e01a5ab"
+      Hint: Title
+      Value: Luxury Resorts & Grand Hotels
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251226T133835Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "7a3cef2c-713c-4192-91d8-a79f3d62e157"
+      Hint: PopularOptions
+      Value: |
+        <ul>
+            <li>The Plaza </li>
+            <li>The Peninsula New York</li>
+            <li>St. Regis New York</li>
+            <li>Four Seasons Hotel New York Downtown</li>
+        </ul>
+    - ID: "898354da-70eb-406b-94e5-5c073d26aab3"
+      Hint: PriceRange
+      Value: $600–1,500/night
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5be4022a-0598-44b9-aeed-736245f395be"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251226T134004Z
+    - ID: "fc97cff8-4e62-432b-a8e3-15d4aa628705"
+      Hint: Description
+      Value: "High-end stays with iconic settings, refined service, and premium amenities."

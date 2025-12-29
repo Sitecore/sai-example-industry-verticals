@@ -1,0 +1,46 @@
+﻿---
+ID: "af2b4fe7-ed5e-4a65-9fe1-e0165ec1cd3c"
+Parent: "da798344-7bcc-4211-85b7-163aa5be3650"
+Template: "f6930608-d385-4c04-9bb1-6d1053448867"
+Path: "/sitecore/content/industry-verticals/skywings/Data/SocialFollow/Social Follow Author"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "20c5fd56-620f-43ea-9ac9-962a19ff4615"
+      Hint: FacebookLink
+      Value: |
+        <link linktype="external" url="www.facebook.com" target="_blank" text="Facebook"/>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251226T182259Z
+    - ID: "4c020db1-8c7e-4576-9fad-2c44483c5954"
+      Hint: TwitterLink
+      Value: |
+        <link linktype="external" url="www.x.com" target="_blank" text="Linkedin" title="" class="" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6942f39d-b7aa-4b6a-86ce-1fd013a9ecb1"
+    - ID: "8eb52c3f-0da7-4370-97b4-6660650496c5"
+      Hint: LinkedinLink
+      Value: |
+        <link linktype="external" url="www.linkedin.com" target="_blank" text="Linkedin" title="" class=""/>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251226T185039Z

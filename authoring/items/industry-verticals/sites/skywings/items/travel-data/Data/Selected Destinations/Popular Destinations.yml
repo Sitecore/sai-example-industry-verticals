@@ -1,0 +1,47 @@
+﻿---
+ID: "116447a5-ee80-4330-9892-17a78601eaf3"
+Parent: "24f7962d-e4af-4451-971e-96fec0ca588e"
+Template: "e0d630c5-41d5-4356-aeb0-be35b8d41ab9"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Selected Destinations/Popular Destinations"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251222T115417Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "5bae3343-b99c-47b8-a315-fd829e369d21"
+      Hint: Destinations
+      Value: |
+        {E26BC04D-7247-44E8-997A-FB96A3453181}
+        {C2AA2926-B258-4BBD-B169-F90EA783F007}
+        {0ADCB105-ECC3-48AD-8EC3-45E7DCA108C9}
+        {40762307-9158-44C8-98FD-4E2645BAA156}
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "6c78de0a-5285-4b97-b8a1-8168c0f5710f"
+      Hint: Title
+      Value: Get Inspired
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4299c823-6f1e-4038-b810-dc2aba87fb70"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "cabe4f6b-c4fc-449f-ab9b-cf9367387e24"
+      Hint: Description
+      Value: Discover amazing products and articles from our latest stories
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251229T113610Z

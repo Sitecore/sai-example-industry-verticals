@@ -1,0 +1,142 @@
+﻿---
+ID: "be403f78-3bc6-4979-885c-cf28d4b4b387"
+Parent: "fccdbc60-12fe-4d07-8479-cc511790409e"
+Template: "b79b5166-c106-4f82-a8ca-11cec6032d52"
+Path: "/sitecore/content/industry-verticals/skywings/Home/Destinations/Paris"
+SharedFields:
+- ID: "0ee127ef-4943-4a47-bb2d-b7029df4bada"
+  Hint: Weather
+  Value: |
+    {94D776C1-E292-4487-923E-5FB1F6016CEA}
+    {23609745-76EC-44A7-AD50-DF020B865A84}
+- ID: "29db1d43-1ca3-4936-8add-f0ae3546faa5"
+  Hint: Image
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/79154-HomepagePromoCTAs-1100x740?v=dd8b5a42" dam-id="cdQ9mZRxS_iwxkVczlHQSw" width="1100" height="740" alt="chris-karidis-nnzkZNYWHaU-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79154/thumbnail" />
+- ID: "3e3bc290-3383-41c1-b7a6-e969010b0209"
+  Hint: NumberOfReviews
+  Value: 34
+- ID: "5ce5a1ad-82e6-45fe-bccb-34027a375b95"
+  Hint: Hotels
+  Value: |
+    {296FEB19-EED9-42E1-8763-7BDAD8DCA3F5}
+    {0F13144F-2045-4D8C-B1FF-7396D8909D45}
+- ID: "7eb8d23c-80de-448b-9793-a330f5702fae"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/799524361ad641c892613c6fa6f7996d?v=d767dc0b" dam-id="WuLvY57HS3eSVeCurvl1lw" width="1024" height="1024" alt="paris.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68758/thumbnail" />
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "c63df59f-64e0-4fb1-80f0-ec3925574c0d"
+  Hint: Activities
+  Value: |
+    {6FF2253B-E37F-48CB-8014-CBE2020144CC}
+    {F599264D-E23D-4ABD-B793-C87BDEA82C99}
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{2D04C510-0832-47D9-B9E3-51DEAD8C954F}" />
+- ID: "cf4ea93a-fde6-4d4e-ab15-c50cc0293b9d"
+  Hint: TravelTips
+  Value: |
+    {59352B24-4CFA-46E5-9609-F2784218686E}
+    {18C5CEFB-3901-40E0-9409-E41B6C141020}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "df9e159e-65c5-4b9a-a89c-8c2ff7d25419"
+- ID: "e2414def-999b-439a-b071-ff6a86838924"
+  Hint: Highlights
+  Value: |
+    {5AE974BD-1E55-4193-9F1C-B321B1A1D1F2}
+    {68310EDD-7FB9-41EC-800E-4E73AF7235E6}
+- ID: "f7da7647-fa52-4ecc-bf5a-11347feb88dd"
+  Hint: Rating
+  Value: 4.8
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "15454ce5-794d-48eb-80f0-bb35ec96aefb"
+      Hint: TimeZone
+      Value: GMT+1
+    - ID: "19900d61-0524-4146-a964-d8d8c0ca8cbe"
+      Hint: metadataDescription
+      Value: Explore Paris’s iconic landmarks, celebrated museums, and rich cultural traditions. Discover the city’s timeless beauty and contemporary artistic spirit with Skywings.
+    - ID: "1b0d5663-48fb-404a-963c-a5fe2cc34e89"
+      Hint: ShortDescription
+      Value: "The City of Light enchants with its iconic landmarks, world-class museums, and romantic atmosphere."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251215T091730Z
+    - ID: "26887bde-6c0a-4019-9805-441ef27a5fcd"
+      Hint: Continent
+      Value: Europe
+    - ID: "35b9241d-b7a7-41fb-9ba9-1e766ffe3086"
+      Hint: pageSummary
+      Value: "Paris blends historic elegance with a thriving contemporary arts scene. From world-renowned museums and iconic landmarks to intimate cafés and creative neighborhoods, the city offers meaningful cultural experiences at every turn. Skywings helps travelers connect with both the heritage and living culture of Paris."
+    - ID: "3b89dd3e-ac3d-4bb3-a9fa-91dfcc78fcd4"
+      Hint: Country
+      Value: France
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Paris
+    - ID: "532aef3a-e5f2-485b-8359-3bec0c5328db"
+      Hint: Temperatures
+      Value: "5-25C"
+    - ID: "56856428-f4ee-4092-9dec-ef5e667fc807"
+      Hint: Title
+      Value: Paris
+    - ID: "589589f9-86f3-48b8-858a-d54dda1b48ee"
+      Hint: FlightTime
+      Value: "18-22 hours from US West Coast"
+    - ID: "5b13ff6e-5172-4f46-aa34-649da6d4f367"
+      Hint: metadataTitle
+      Value: Paris Art, Culture & Historic Landmarks | Skywings
+    - ID: "6dd286a2-9d05-4b27-82a3-d348c989ac4c"
+      Hint: Airports
+      Value: Charles de Gaulle Airport (CDG)
+    - ID: "7019640c-5c00-4037-92cf-377ddb14d0b0"
+      Hint: Content
+      Value: "<p>Paris is a city where beauty and meaning are woven into daily life. Its character is defined not only by the grand avenues and historic architecture that shape its skyline but also by the quiet intimacy of its cafés, gardens, and riverside paths.</p><p>&nbsp;Here, art and culture are not simply preserved—they continue to evolve, inspire, and draw the world into conversation. The city’s skyline is punctuated by landmarks that have become universal symbols. The Eiffel Tower rises as an ode to architectural ingenuity and imagination, while the Notre-Dame Cathedral stands as a testament to centuries of devotion, craftsmanship, and resilience. The Arc de Triomphe, poised at the heart of Place Charles de Gaulle, reflects a legacy of national history and remembrance, forming one of the most iconic views in Europe. Paris is home to some of the world’s most influential cultural institutions.&nbsp;</p><p>The Louvre, one of humanity’s greatest repositories of artistic heritage, invites visitors to journey across civilizations and eras—from Egyptian antiquities to Renaissance masterpieces. Nearby, the Musée d’Orsay celebrates the spirit of artistic revolution, housing some of the most cherished Impressionist works ever created. Each museum, gallery, and exhibition contributes to Paris’s role as a global center of artistic exploration.</p>"
+    - ID: "7af13bfe-c8c6-47c9-8a69-ad3271d1bfdb"
+      Hint: Label
+      Value: Romantic Escape
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2d1183b6-1757-4d1a-afd7-d1329fd83fa8"
+    - ID: "8dd6625c-72c1-4780-8c4a-caca6e16c39a"
+      Hint: TripDuration
+      Value: "4-7  Days"
+    - ID: "ad5d9f53-4cfa-4908-95e8-e3b643fc26af"
+      Hint: TripPeriods
+      Value: "Apr-Jun, Sep-Oct"
+    - ID: "b2bf7f55-015a-4a25-bf70-ccf182e87284"
+      Hint: Price
+      Value: from 799$
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "bb6b8d9a-3e61-4f1f-972d-48fca292f456"
+      Hint: metadataKeywords
+      Value: "Paris culture, Paris travel, Louvre Museum, Musée d’Orsay, Eiffel Tower, Notre-Dame Cathedral, French art, Paris history, Paris landmarks, Skywings"
+    - ID: "c3fc1ebe-a314-4469-b8e2-cc107eee9479"
+      Hint: Visa
+      Value: No
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251229T114953Z
+    - ID: "df3123e3-ca29-48e7-a4eb-ceeba8226574"
+      Hint: Language
+      Value: French
+    - ID: "e3c69007-60a6-4434-865e-b8e47857ac17"
+      Hint: Currency
+      Value: Euro (€)
+    - ID: "f8227036-7201-4083-9155-529529222f9f"
+      Hint: DirectFlights
+      Value: Direct flights available from New York, London, Tokyo, and Sydney.

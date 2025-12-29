@@ -1,0 +1,159 @@
+﻿---
+ID: "c2aa2926-b258-4bbd-b169-f90ea783f007"
+Parent: "fccdbc60-12fe-4d07-8479-cc511790409e"
+Template: "b79b5166-c106-4f82-a8ca-11cec6032d52"
+Path: "/sitecore/content/industry-verticals/skywings/Home/Destinations/Vancouver"
+SharedFields:
+- ID: "0ee127ef-4943-4a47-bb2d-b7029df4bada"
+  Hint: Weather
+  Value: |
+    {8C517725-F89B-4B18-9FA3-13EF36B75A02}
+    {6FEA60B8-7977-4D84-A4CA-98C58A4ECCC7}
+    {AC6A95BF-9C32-4162-B896-62CB2D55A8E0}
+    {9A672548-B6EC-471D-B116-04D0F3C152B6}
+- ID: "29db1d43-1ca3-4936-8add-f0ae3546faa5"
+  Hint: Image
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/ce13f57470b24f739a169f7ffabb3591?v=7a825e2e" dam-id="a9UlYcj3Q4KbvrRm1H95Qg" width="1344" height="768" alt="vancouver.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/71378/thumbnail" />
+- ID: "3e3bc290-3383-41c1-b7a6-e969010b0209"
+  Hint: NumberOfReviews
+  Value: 27
+- ID: "5ce5a1ad-82e6-45fe-bccb-34027a375b95"
+  Hint: Hotels
+  Value: |
+    {564BF043-7C30-4798-B3F4-E38E9B3C85AB}
+    {E9C45B1F-A6D3-4429-A929-C86C8578AFBB}
+    {9E86AF73-06EE-4306-8F7B-D40523A11442}
+    {08D5CB3F-A810-447B-8127-EABE47E81169}
+- ID: "7eb8d23c-80de-448b-9793-a330f5702fae"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/ce13f57470b24f739a169f7ffabb3591?v=7a825e2e" dam-id="a9UlYcj3Q4KbvrRm1H95Qg" width="1344" height="768" alt="vancouver.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/71378/thumbnail" />
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 800
+- ID: "c63df59f-64e0-4fb1-80f0-ec3925574c0d"
+  Hint: Activities
+  Value: |
+    {948A381C-55CC-4B85-B0BC-4BAB4FB082A3}
+    {29A89CA9-7B3C-4C87-9DC7-75E2B2E62D85}
+    {EB23E736-BDAD-4096-AFC8-54C8D5AF3900}
+    {ECA7D75A-DAC8-4ECF-8923-D88F93817E34}
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{A7B9345F-A08F-44B8-B8BB-738FEA538867}" />
+- ID: "cf4ea93a-fde6-4d4e-ab15-c50cc0293b9d"
+  Hint: TravelTips
+  Value: |
+    {263EDF9A-2AB7-4908-BBB8-5CA5C2675A52}
+    {DD554249-06CE-4A0C-BC4D-874A38AD9D72}
+    {7EFC035F-9F14-4769-B187-79EB7D78C6E7}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "90f70f58-d746-4c9f-ba11-5836a44c0051"
+- ID: "e2414def-999b-439a-b071-ff6a86838924"
+  Hint: Highlights
+  Value: |
+    {6875F3C7-1518-4952-9E3A-94035F12E9B1}
+    {016A4947-DB54-4572-9BF4-A824376928AB}
+    {B122BA7A-2FBB-4EA8-9317-F60E4902D1F0}
+    {57A7200F-5C0A-4074-94FF-0DCCB169645B}
+- ID: "f7da7647-fa52-4ecc-bf5a-11347feb88dd"
+  Hint: Rating
+  Value: 4.5
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "15454ce5-794d-48eb-80f0-bb35ec96aefb"
+      Hint: TimeZone
+      Value:  Pacific Time (PST)
+    - ID: "19900d61-0524-4146-a964-d8d8c0ca8cbe"
+      Hint: metadataDescription
+      Value: "Explore Vancouver, a vibrant city famed for its natural beauty, cultural diversity, and dynamic urban life. Discover top attractions, local events, and activities that make Vancouver a must-visit global destination."
+    - ID: "1b0d5663-48fb-404a-963c-a5fe2cc34e89"
+      Hint: ShortDescription
+      Value: "Nature-forward city living between ocean and mountains."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251229T093630Z
+    - ID: "26887bde-6c0a-4019-9805-441ef27a5fcd"
+      Hint: Continent
+      Value: North America
+    - ID: "35b9241d-b7a7-41fb-9ba9-1e766ffe3086"
+      Hint: pageSummary
+      Value: A balanced city escape with culture, water, and forest views.
+    - ID: "3b89dd3e-ac3d-4bb3-a9fa-91dfcc78fcd4"
+      Hint: Country
+      Value: Canada
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Vancouver
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "532aef3a-e5f2-485b-8359-3bec0c5328db"
+      Hint: Temperatures
+      Value: "17-27"
+    - ID: "56856428-f4ee-4092-9dec-ef5e667fc807"
+      Hint: Title
+      Value: Vancouver
+    - ID: "589589f9-86f3-48b8-858a-d54dda1b48ee"
+      Hint: FlightTime
+      Value: "5-8 hours from US West Coast (with layovers)"
+    - ID: "5b13ff6e-5172-4f46-aa34-649da6d4f367"
+      Hint: metadataTitle
+      Value: Explore Vancouver’s coastal calm and cultural vibrancy.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "6dd286a2-9d05-4b27-82a3-d348c989ac4c"
+      Hint: Airports
+      Value: Vancouver International Airport (YVR)
+    - ID: "7019640c-5c00-4037-92cf-377ddb14d0b0"
+      Hint: Content
+      Value: "<p>Vancouver sits between mountains, forest, and ocean — a city shaped by nature. Trails, parks, and waterfront paths offer room to pause, breathe, and take in wide open space. The city feels grounded, friendly, and open.</p><p>Neighborhoods are full of small cafés, creative shops, and fresh coastal flavors. Markets and street scenes reveal a culture built on diverse communities, curiosity, and connection. There’s an ease in how people live here — balanced, outdoors-oriented, and warm.</p><p>For active travelers, Vancouver is a playground: kayaking in calm bays, biking along seawalls, hiking forest paths with skyline views. The city welcomes movement, presence, and the joy of being outside.</p>"
+    - ID: "7af13bfe-c8c6-47c9-8a69-ad3271d1bfdb"
+      Hint: Label
+      Value: City
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f81fb149-44ff-4529-9831-d19d573996fc"
+    - ID: "8dd6625c-72c1-4780-8c4a-caca6e16c39a"
+      Hint: TripDuration
+      Value: 5
+    - ID: "ad5d9f53-4cfa-4908-95e8-e3b643fc26af"
+      Hint: TripPeriods
+      Value: "June-September"
+    - ID: "b2bf7f55-015a-4a25-bf70-ccf182e87284"
+      Hint: Price
+      Value: From $1140
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "bb6b8d9a-3e61-4f1f-972d-48fca292f456"
+      Hint: metadataKeywords
+      Value: A balanced city escape with culture, water, and forest views.
+    - ID: "c3fc1ebe-a314-4469-b8e2-cc107eee9479"
+      Hint: Visa
+      Value: No
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251229T114955Z
+    - ID: "df3123e3-ca29-48e7-a4eb-ceeba8226574"
+      Hint: Language
+      Value: English, French
+    - ID: "e3c69007-60a6-4434-865e-b8e47857ac17"
+      Hint: Currency
+      Value: Canadian Dollar (CAD)
+    - ID: "f8227036-7201-4083-9155-529529222f9f"
+      Hint: DirectFlights
+      Value: Direct flights available from United States, Mexico, China and more
