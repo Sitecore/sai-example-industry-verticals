@@ -42,7 +42,7 @@ export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
     <div className={`component hero-banner ${styles} relative flex items-center`} id={id}>
       {/* Gradient Overlay */}
       {showGradientBackground && (
-        <div className="from-accent-dark to-accent absolute inset-0 z-0 bg-gradient-to-r"></div>
+        <div className="from-accent-dark to-accent absolute inset-0 z-0 bg-linear-to-r"></div>
       )}
 
       {/* Content Container */}
