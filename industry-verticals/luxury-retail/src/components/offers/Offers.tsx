@@ -49,7 +49,12 @@ export const Default = (props: OfferProps) => {
             name="previous-offer"
             aria-label="Previous offer"
           >
-            <ChevronLeft />
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           <ChevronLeft />
           </button>
 
           <Swiper
