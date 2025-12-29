@@ -1,4 +1,4 @@
-# Retail - Demo Site (NextJS) - nextjsstarter
+# Retail
 
 ## Overview
 
@@ -9,13 +9,13 @@ Retail is a simple website with sample Component implementation showcasing data 
 - Tailwind-based styling (Shadcn)
 - Personalized homepage via URL parameters
 - Modular components for reuse
-- Localization support for English (en) and Canadian English (en-CA)
+- Localization support 
 
 ## Preconditions
 
 1. You have deployed your XM Cloud environment already. If not follow this link: [Deploy a Project and Environment](https://doc.sitecore.com/xmc/en/developers/xm-cloud/deploy-a-project-and-environment.html)
 
-## Build and run site locally
+## Run site locally
 
 1. Clone the repository (if not yet done)
    `git clone https://github.com/Sitecore/Sitecore.Demo.XMCloud.IndustryVerticals.SiteTemplates`
@@ -117,7 +117,7 @@ sitecore ser push
 
 [Documentation](https://doc.sitecore.com/xmc/en/developers/xm-cloud/serialization-in-sitecore.html)
 
-## Search Configuration
+## Sitecore Search Configuration
 
 There are two options for you can try for search configuration:
 1. Use the existing forma-lux search source
@@ -135,4 +135,17 @@ Set the envs as follows
 
 ### Create new source in CEC portal and link to your application
 https://sitecore.atlassian.net/wiki/x/ZwAengE
+
+### Localization Support
+
+#### By default, the retail site supports the following locales:
+- en (English)
+- fr-FR (French)
+- es-ES (Spanish)
+
+#### Add Additional Languages
+- Navigate to Channels → Click the three dots on the specific site → Settings → Languages.
+- Add the required languages and provide translations for the newly added languages.
+- After adding the new languages, update the locales array in the next.config.js file to include the new language codes.
+- To display languages in language switcher, go to src/constants/localeOptions.ts and update the localeOptions array with code,label,currency and currencySymbol for specific locale.
 
