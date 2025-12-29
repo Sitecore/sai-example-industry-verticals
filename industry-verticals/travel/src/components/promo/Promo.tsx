@@ -35,19 +35,18 @@ export const Default = (props: PromoProps): JSX.Element => {
   const isPageEditing = page.mode.isEditing;
 
   return (
-    <section
-      className={`${props.params.styles || ''} py-10 lg:min-h-screen lg:py-16`}
-      id={id ? id : undefined}
-    >
+    <section className={`${props.params.styles || ''} py-10 lg:py-16`} id={id ? id : undefined}>
       <div className="container">
         <div
-          className={`grid grid-cols-1 overflow-hidden rounded-lg border shadow transition-shadow hover:shadow-lg lg:h-screen lg:grid-cols-2 ${hideShadow ? '' : 'shadow hover:shadow-lg'} `}
+          className={`grid grid-cols-1 overflow-hidden rounded-lg border shadow transition-shadow hover:shadow-lg lg:grid-cols-2 ${hideShadow ? '' : 'shadow hover:shadow-lg'} `}
         >
           {/* Image Section */}
-          <div className={`${isPromoReversed} relative h-full w-full lg:h-screen`}>
+          <div className={`${isPromoReversed} relative h-full w-full`}>
             <ContentSdkImage
               field={props.fields.PromoImageOne}
-              className={`h-full w-full object-cover`}
+              className="h-full w-full object-cover"
+              width={600}
+              height={400}
             />
           </div>
 
