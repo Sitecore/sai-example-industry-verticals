@@ -1,10 +1,12 @@
 'use client';
 
-import React, { JSX } from 'react';
+import React, { JSX, useState } from 'react';
 import { ComponentProps } from '@/lib/component-props';
 import { Placeholder } from '@sitecore-content-sdk/nextjs';
 import { Drawer, DrawerTrigger, DrawerContent, DrawerClose } from '@/shadcn/components/ui/drawer';
-import { Menu, X } from 'lucide-react';
+import { Menu, Search, X } from 'lucide-react';
+import PreviewSearch from '../non-sitecore/search/PreviewSearch';
+import { PREVIEW_WIDGET_ID } from '@/constants/search';
 
 export type HeaderProps = ComponentProps & {
   params: { [key: string]: string };
@@ -12,6 +14,7 @@ export type HeaderProps = ComponentProps & {
 
 export const Default = (props: HeaderProps): JSX.Element => {
   const { styles, RenderingIdentifier: id, DynamicPlaceholderId } = props.params;
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
 
   return (
     <div className={`component header bg-background border-b ${styles}`} id={id}>
@@ -22,6 +25,15 @@ export const Default = (props: HeaderProps): JSX.Element => {
         <div className="hidden! lg:flex! lg:shrink lg:basis-full">
           <Placeholder name={`header-nav-${DynamicPlaceholderId}`} rendering={props.rendering} />
         </div>
+
+        {/* Search Button */}
+        <button
+          onClick={() => setIsSearchOpen(!isSearchOpen)}
+          className="text-gray-700 transition-colors hover:text-blue-600"
+        >
+          <Search className="size-5" />
+        </button>
+
         <div className="header-block hidden! lg:flex! lg:shrink-0">
           <Placeholder name={`header-right-${DynamicPlaceholderId}`} rendering={props.rendering} />
         </div>
@@ -66,6 +78,27 @@ export const Default = (props: HeaderProps): JSX.Element => {
           </Drawer>
         </div>
       </div>
+
+      {isSearchOpen && (
+        <div className="border-border bg-background absolute top-full right-0 left-0 z-50 border-b shadow-lg">
+          <div className="mx-auto max-w-7xl px-4 py-4">
+            <div className="flex items-center gap-2">
+              <PreviewSearch
+                rfkId={PREVIEW_WIDGET_ID}
+                isOpen={isSearchOpen}
+                setIsSearchOpen={setIsSearchOpen}
+              />
+
+              <button
+                onClick={() => setIsSearchOpen(false)}
+                className="text-foreground-muted hover:text-foreground p-3 transition-colors"
+              >
+                <X className="size-5" />
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

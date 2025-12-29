@@ -84,10 +84,6 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="2048d46c-43df-4214-a80d-d821ed9fc115" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "0470d608-076e-4f9d-bc8b-54db2e2fb3a1"
@@ -140,10 +136,6 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="2048d46c-43df-4214-a80d-d821ed9fc115" alt="sofa-copenhague-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "d5f01890-631a-4760-a71c-6f39f8eebcb4"
@@ -199,10 +191,6 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="2048d46c-43df-4214-a80d-d821ed9fc115" alt="copenhagen-sofa-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "f994a3a8-abb3-49b3-8e69-33c4f32dff35"
@@ -258,10 +246,6 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="2048d46c-43df-4214-a80d-d821ed9fc115" alt="canapé-copenhagen-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "760ca94c-8396-4a10-af27-ba8ab517a160"

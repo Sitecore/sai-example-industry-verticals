@@ -1,5 +1,3 @@
-'use client';
-
 import { useState, useMemo } from 'react';
 import {
   Field,
@@ -7,10 +5,8 @@ import {
   RichText as ContentSdkRichText,
   NextImage as ContentSdkImage,
   Text as ContentSdkText,
-  Link as ContentSdkLink,
   DateField,
   TextField,
-  LinkField,
   RichTextField,
 } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from '@/lib/component-props';
@@ -19,6 +15,7 @@ import { useI18n } from 'next-localization';
 import { Author, Category, Tag } from '@/types/article';
 import { newsDateFormatter } from '@/helpers/dateHelper';
 import { Calendar, Clock, Heart, Share2, User } from 'lucide-react';
+import { TitleSectionFlags } from '@/types/styleFlags';
 
 export interface Article {
   Title: Field<string>;
@@ -30,7 +27,6 @@ export interface Article {
   Tags: Tag[];
   Category: Category;
   ReadTime: TextField;
-  ReadMoreLink: LinkField;
 }
 
 interface ArticleListingProps extends ComponentProps {
@@ -44,21 +40,13 @@ interface ArticleListingProps extends ComponentProps {
   };
 }
 
-const CATEGORIES = [
-  'All',
-  'Destinations',
-  'Travel Tips',
-  'Food & Culture',
-  'Sustainable Travel',
-  'Family Travel',
-  'Nightlife',
-  'Culture',
-];
+const ITEMS_PER_PAGE = 6;
 
 export const Default = (props: ArticleListingProps) => {
   const { t } = useI18n();
   const id = props.params.RenderingIdentifier;
   const sxaStyles = `${props.params?.styles || ''}`;
+  const hideTitleSection = props.params?.styles?.includes(TitleSectionFlags.HideTitleSection);
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
 
   // Filter articles based on selected category
@@ -72,12 +60,38 @@ export const Default = (props: ArticleListingProps) => {
     });
   }, [props.fields.items, selectedCategory]);
 
+  const categories = useMemo<string[]>(() => {
+    const categorySet = new Set<string>();
+
+    props.fields.items.forEach((article) => {
+      const categoryValue = article.fields.Category?.fields?.Category?.value;
+
+      if (categoryValue) {
+        categorySet.add(categoryValue);
+      }
+    });
+
+    return ['All', ...Array.from(categorySet)];
+  }, [props.fields.items]);
+
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const paginatedArticles = useMemo(() => {
+    return filteredArticles.slice(0, currentPage * ITEMS_PER_PAGE);
+  }, [filteredArticles, currentPage]);
+
+  const hasMore = paginatedArticles.length < filteredArticles.length;
+
+  const handleLoadMore = () => {
+    if (hasMore) setCurrentPage((prev) => prev + 1);
+  };
+
   return (
-    <section className={`bg-gray-50 py-8 ${sxaStyles}`} id={id}>
+    <section className={`bg-background-muted py-8 ${sxaStyles}`} id={id}>
       <div className="container mx-auto px-4">
         {/* Category Filter */}
         <div className="mx-auto mb-16 flex flex-wrap justify-center gap-2">
-          {CATEGORIES.map((category) => (
+          {categories.map((category) => (
             <button
               key={category}
               onClick={() => setSelectedCategory(category)}
@@ -92,27 +106,31 @@ export const Default = (props: ArticleListingProps) => {
           ))}
         </div>
 
-        <div className="mb-8">
-          <h2 className="mb-2 text-2xl font-bold text-gray-900">
-            {t('title') || 'Latest Articles'}
-          </h2>
-          <p className="text-gray-600">{t('description') || 'Fresh travel inspiration and tips'}</p>
-        </div>
+        {!hideTitleSection && (
+          <div className="mb-10">
+            <h2 className="mb-2">{t('title') || 'Popular Articles'}</h2>
+            <p className="text-foreground-light text-xl">
+              {t('description') || 'Fresh travel inspiration and tips'}
+            </p>
+          </div>
+        )}
 
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {filteredArticles.map((article, index) => (
-            <div className="info-card flex h-full flex-col px-0!" key={index}>
+          {paginatedArticles.map((article, index) => (
+            <div className="info-card flex h-full flex-col overflow-hidden p-0!" key={index}>
               {/* upper section */}
-              <div className="relative">
+              <div className="group relative">
                 <ContentSdkImage
-                  field={article.fields.Image}
+                  field={article?.fields?.Image}
                   width={400}
                   height={300}
-                  className="h-48 w-full object-cover"
+                  className="h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />
-                <p className="bg-accent absolute top-4 left-4 z-10 max-w-max rounded px-2 py-1 text-xs text-white">
-                  <ContentSdkText field={article.fields.Category.fields.Category} />
-                </p>
+                {article?.fields?.Category?.fields?.Category && (
+                  <p className="bg-accent absolute top-4 left-4 z-10 max-w-max rounded px-2 py-1 text-xs text-white">
+                    <ContentSdkText field={article?.fields?.Category?.fields?.Category} />
+                  </p>
+                )}
               </div>
               <div className="flex flex-1 flex-col gap-2 p-6">
                 {/* content section */}
@@ -146,27 +164,27 @@ export const Default = (props: ArticleListingProps) => {
                       </div>
                     )}
                   </div>
-                  <h3 className="mb-2 line-clamp-2 text-lg font-semibold text-gray-900">
-                    <ContentSdkText field={article.fields.Title} />
+                  <h3 className="text-foreground mb-2 line-clamp-2 text-lg font-semibold">
+                    <ContentSdkText field={article?.fields?.Title} />
                   </h3>
-                  <div className="mb-4 line-clamp-3 text-sm text-gray-600">
-                    <ContentSdkRichText field={article.fields.ShortDescription} />
+                  <div className="text-foreground-muted mb-4 line-clamp-3 text-sm">
+                    <ContentSdkRichText field={article?.fields?.ShortDescription} />
                   </div>
                 </div>
                 {/* card cta section */}
                 <div className="mt-auto flex items-center justify-between">
-                  <Link href={article.url}>
-                    <button className="simple-btn">
-                      <ContentSdkLink field={article.fields.ReadMoreLink} />
-                    </button>
-                  </Link>
+                  {
+                    <Link href={article?.url}>
+                      <button className="simple-btn">{t('read_more') || 'Read More'}</button>
+                    </Link>
+                  }
                   <div className="flex items-center space-x-1">
                     <button
                       type="button"
                       role="presentation"
                       aria-hidden="true"
                       tabIndex={-1}
-                      className="bg-primary text-primary-foreground hover:bg-primary/90 items-center justify-center rounded-md p-2 transition-all outline-none hover:bg-gray-100"
+                      className="bg-primary text-primary-foreground hover:bg-primary/90 hover:bg-background-surface items-center justify-center rounded-md p-2 transition-all outline-none"
                     >
                       <Heart className="h-4 w-4" />
                     </button>
@@ -175,7 +193,7 @@ export const Default = (props: ArticleListingProps) => {
                       role="presentation"
                       aria-hidden="true"
                       tabIndex={-1}
-                      className="bg-primary text-primary-foreground hover:bg-primary/90 items-center justify-center rounded-md p-2 transition-all outline-none hover:bg-gray-100"
+                      className="bg-primary text-primary-foreground hover:bg-primary/90 hover:bg-background-surface items-center justify-center rounded-md p-2 transition-all outline-none"
                     >
                       <Share2 className="h-4 w-4" />
                     </button>
@@ -187,9 +205,9 @@ export const Default = (props: ArticleListingProps) => {
         </div>
 
         {/* cta section */}
-        <div className="mt-12 flex items-center justify-center text-center">
-          <button className="btn-outline text-foreground max-w-max">
-            {t('cta') || 'Load More Articles'}
+        <div className="flex justify-center py-8">
+          <button onClick={handleLoadMore} className="btn-outline w-auto!" disabled={!hasMore}>
+            {hasMore ? t('cta') || 'Load More Articles' : t('cta_loaded') || 'All Articles Loaded'}
           </button>
         </div>
       </div>

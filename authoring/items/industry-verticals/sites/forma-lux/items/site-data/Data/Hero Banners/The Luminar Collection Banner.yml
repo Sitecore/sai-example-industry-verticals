@@ -14,7 +14,7 @@ SharedFields:
     <file src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c7aaa856865c4c70b8dcc68772f93e28?v=24ecc0fb" title="TheLuminaSofa.mp4" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "bb48392f-5360-4889-98d3-2c3b15e131d2"
+  Value: "07ac0db3-8571-4aca-b778-21d953d46264"
 Languages:
 - Language: en
   Versions:
@@ -40,17 +40,17 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6b500004-7d24-427c-a701-0512e087c057"
+      Value: "ca50acc4-f6f3-4be4-b87b-74db37ce3451"
     - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
       Hint: Title
       Value: Experience Comfort Reimagined
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251222T104053Z
+      Value: 20251223T145811Z
     - ID: "e3c72e5d-cbf1-4af8-8a73-dc4d3c8590f3"
       Hint: CtaLink
       Value: |

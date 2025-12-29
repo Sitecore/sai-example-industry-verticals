@@ -87,10 +87,6 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="be737685-4430-452f-8895-4706ee42a2b8" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "68196627-71ca-4fae-8ebc-df91643d65b5"
@@ -140,10 +136,6 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="be737685-4430-452f-8895-4706ee42a2b8" alt="verona-dining-chair-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "550f6401-d864-49c9-9de8-132ac26c2218"
@@ -196,10 +188,6 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="be737685-4430-452f-8895-4706ee42a2b8" alt="verona-dining-chair-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "06938414-e9a3-4da5-9afc-14dd44f5eefa"
@@ -252,10 +240,6 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="be737685-4430-452f-8895-4706ee42a2b8" alt="verona-dining-chair-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "75d9541e-d9b0-4c20-9dd6-aa907b5c6ea9"

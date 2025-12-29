@@ -28,7 +28,7 @@ SharedFields:
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <image mediaid="d07360f8-8eed-44cf-a993-8c477d755902" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/ef3fbc21cae840eb9f6097d942d278d0?v=428ddf31" dam-id="48feWeGrSy-WuBxzKHge4g" width="1024" height="1536" alt="monaco-canopy-bed.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79486/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -38,7 +38,7 @@ SharedFields:
   Value: "{16807766-6013-4944-9550-EBC3216AD248}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "c34baa79-353f-40a7-8ec1-8d96379e4e42"
+  Value: "946a6b75-d519-4661-9456-35418f49c4d6"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -91,23 +91,19 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: The Monaco Canopy Bed by Forma Lux combines sleek metal design with timeless romance. Flowing drapes and refined proportions create a luxurious, intimate bedroom centerpiece.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="d07360f8-8eed-44cf-a993-8c477d755902" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5e9da52d-7cf7-42ff-9968-814405008276"
+      Value: "5c16aaf6-f0fd-4efc-b77e-e7286c7da402"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Monaco Canopy Bed
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251210T075514Z
+      Value: 20251226T150910Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: <p>The Monaco Canopy Bed brings elegance and charm to your bedroom. Its slim metal frame supports flowing drapes, creating a cozy and intimate atmosphere. Perfect for those who love a touch of drama in their interiors.</p>
@@ -150,10 +146,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: La Cama con Dosel Mónaco de Forma Lux combina un diseño metálico elegante con un romance atemporal. Las cortinas fluidas y las proporciones refinadas crean un lujoso y acogedor centro de atención en el dormitorio.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="d07360f8-8eed-44cf-a993-8c477d755902" alt="monaco-canopy-bed" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "c59267a6-5f72-450e-8a1a-b54c695e6b0a"
@@ -212,10 +204,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Le lit à baldaquin Monaco de Forma Lux combine un design métallique élégant avec une romance intemporelle. Des draperies fluides et des proportions raffinées créent une pièce maîtresse de chambre luxueuse et intime.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="d07360f8-8eed-44cf-a993-8c477d755902" alt="lit-à-baldaquin-monaco" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "cacaf344-4287-42ea-8418-b21847c7c7a3"
@@ -274,10 +262,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Le lit à baldaquin Monaco de Forma Lux combine un design métallique élégant avec une romance intemporelle. Des draperies fluides et des proportions raffinées créent une pièce maîtresse de chambre luxueuse et intime.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="d07360f8-8eed-44cf-a993-8c477d755902" alt="monaco-canopy-bed" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "441969f7-8e1b-4cd1-a540-bf201075ce7d"

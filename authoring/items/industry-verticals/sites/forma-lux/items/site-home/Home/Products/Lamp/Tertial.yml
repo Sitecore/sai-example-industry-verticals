@@ -21,7 +21,7 @@ SharedFields:
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <image mediaid="bb7b4b43-7e13-4e4c-830d-6e2a1b7fea5f" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/05be23d5f9704fb880f65cd08f229d66?v=fc705a03" dam-id="xiY93g87T3yfAzoFxc8bBA" width="2816" height="2257" alt="tertial-1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79561/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -31,7 +31,7 @@ SharedFields:
   Value: "{260CF295-7D6B-4E12-805C-2596FFD1C3D7}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "91db82f3-81a0-4363-80ed-0c3f24695cde"
+  Value: "160a4379-f078-49ef-b76d-34cc4e716a30"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -84,23 +84,19 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Discover the Tertial Lamp by Forma Lux — a modern adjustable lamp with a sleek silhouette, designed for precision lighting and timeless style in any room.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="bb7b4b43-7e13-4e4c-830d-6e2a1b7fea5f" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "af369493-7001-401f-8e7a-8fd548810034"
+      Value: "331d5876-abb9-47ee-87fe-fd872cad48c5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Tertial
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251210T075915Z
+      Value: 20251226T151320Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: |
@@ -144,10 +140,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: "Descubre la Lámpara Tertial de Forma Lux: una lámpara moderna ajustable con una silueta elegante, diseñada para una iluminación precisa y un estilo atemporal en cualquier habitación."
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="bb7b4b43-7e13-4e4c-830d-6e2a1b7fea5f" alt="tertial-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "b9f7fcd0-99c7-43d3-bcd9-e6b945661fbb"
@@ -207,10 +199,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Découvrez la Lampe Tertial de Forma Lux — une lampe moderne ajustable avec une silhouette élégante, conçue pour un éclairage de précision et un style intemporel dans n'importe quelle pièce.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="bb7b4b43-7e13-4e4c-830d-6e2a1b7fea5f" alt="tertial-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "eb002147-6767-41f4-ad4a-03cdc8072e15"
@@ -270,10 +258,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: Découvrez la Lampe Tertial de Forma Lux — une lampe moderne réglable avec une silhouette élégante, conçue pour un éclairage de précision et un style intemporel dans n'importe quelle pièce.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="bb7b4b43-7e13-4e4c-830d-6e2a1b7fea5f" alt="tertial-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "ba720909-7920-4580-8415-2f2213689b87"

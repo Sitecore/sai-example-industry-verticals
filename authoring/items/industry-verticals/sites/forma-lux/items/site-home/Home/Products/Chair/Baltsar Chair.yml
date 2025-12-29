@@ -150,10 +150,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: "The Baltsar Chair by Forma Lux combines modern sophistication with ergonomic design. Its sculpted form, durable frame, and high-quality upholstery deliver lasting comfort and timeless appeal."
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="ac31f8b5-1fdf-4669-a774-a8719f015a4d" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "b9a4cb5b-cd26-4d52-993c-bbf0ed42bdda"
@@ -273,10 +269,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: La Silla Baltsar de Forma Lux combina sofisticación moderna con diseño ergonómico. Su forma esculpida, estructura duradera y tapicería de alta calidad ofrecen comodidad duradera y atractivo atemporal.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="ac31f8b5-1fdf-4669-a774-a8719f015a4d" alt="silla-baltsar-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "d4da690e-92a8-425f-8715-38e947a9f3bb"
@@ -367,10 +359,6 @@ Languages:
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
       Value: La Chaise Baltsar de Forma Lux combine sophistication moderne et design ergonomique. Sa forme sculptée, son cadre durable et son revêtement de haute qualité offrent un confort durable et un attrait intemporel.
-    - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
-      Hint: ogImage
-      Value: |
-        <image mediaid="ac31f8b5-1fdf-4669-a774-a8719f015a4d" alt="baltsar-chair-1" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "3055be77-5705-41cb-92a5-23d57f28ba55"

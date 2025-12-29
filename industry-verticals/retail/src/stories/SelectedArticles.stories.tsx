@@ -1,0 +1,128 @@
+import type { Meta, StoryObj } from '@storybook/nextjs-vite';
+import { CommonParams, CommonRendering } from './common/commonData';
+import {
+  Default as SelectedArticles,
+  CarouselProps,
+} from '../components/selected-articles/SelectedArticles';
+import { createLinkField, createRichTextField, createTextField } from './helpers/createFields';
+import { createMockArticles } from './helpers/createItems';
+import {
+  backgroundColorArgTypes,
+  BackgroundColorArgs,
+  defaultBackgroundColorArgs,
+} from './common/commonControls';
+import { expect, userEvent, within } from 'storybook/test';
+import clsx from 'clsx';
+import { CommonStyles, LayoutStyles } from '@/types/styleFlags';
+import { boolToSitecoreCheckbox } from './helpers/boolToSitecoreCheckbox';
+
+type StoryProps = CarouselProps &
+  BackgroundColorArgs & {
+    numberOfArticles: number;
+    reversed: boolean;
+    hideAccentLine?: boolean;
+  };
+
+const meta = {
+  title: 'Articles/SelectedArticles',
+  component: SelectedArticles,
+  parameters: {
+    layout: 'padded',
+  },
+  argTypes: {
+    ...backgroundColorArgTypes,
+    numberOfArticles: {
+      name: 'Number of articles',
+      control: {
+        type: 'range',
+        min: 1,
+        max: 10,
+        step: 1,
+      },
+    },
+    reversed: {
+      name: 'Reversed',
+      control: {
+        type: 'boolean',
+      },
+    },
+    hideAccentLine: {
+      name: 'Hide Accent Line',
+      control: {
+        type: 'boolean',
+      },
+      defaultValue: false,
+    },
+  },
+  args: {
+    numberOfArticles: 5,
+    reversed: false,
+    ...defaultBackgroundColorArgs,
+    hideAccentLine: false,
+  },
+
+  tags: ['autodocs'],
+} satisfies Meta<StoryProps>;
+export default meta;
+
+type Story = StoryObj<StoryProps>;
+
+const baseParams = {
+  ...CommonParams,
+};
+
+const baseRendering = {
+  ...CommonRendering,
+  componentName: 'Article',
+  params: baseParams,
+};
+
+const baseFields = {
+  Title: createTextField('We provide you the best experience'),
+  Description: createRichTextField(1, 'paragraphs'),
+  ExploreLink: createLinkField('Read More'),
+};
+
+export const Default: Story = {
+  render: (args) => {
+    const fields = {
+      ...baseFields,
+      HideAccentLine: boolToSitecoreCheckbox(args.hideAccentLine),
+      Articles: createMockArticles(args.numberOfArticles),
+    };
+
+    const selectedArticlesStyles = clsx(
+      baseParams.styles,
+      args.BackgroundColor,
+      args.reversed && LayoutStyles.Reversed,
+      args.hideAccentLine && CommonStyles.HideAccentLine
+    );
+
+    const params = {
+      ...baseParams,
+      styles: selectedArticlesStyles,
+    };
+
+    return <SelectedArticles params={params} rendering={baseRendering} fields={fields} />;
+  },
+  play: async ({ canvasElement, args }) => {
+    const canvas = within(canvasElement);
+
+    const prevButton = canvas.getByRole('button', { name: /previous article/i });
+    const nextButton = canvas.getByRole('button', { name: /next article/i });
+
+    // Test 2: Previous button should be disabled on load (currentIndex = 0)
+    expect(prevButton).toBeDisabled();
+    expect(prevButton).toHaveClass('article-carousel-btn-disabled');
+
+    // Test 5: Navigate to the end by clicking next button multiple times
+    for (let i = 0; i < args.numberOfArticles - 1; i++) {
+      await userEvent.click(nextButton);
+      await new Promise((resolve) => setTimeout(resolve, 2000));
+    }
+
+    // Test 6: Next button should be disabled at the end
+    expect(nextButton).toBeDisabled();
+    expect(nextButton).toHaveClass('article-carousel-btn-disabled');
+  },
+};
