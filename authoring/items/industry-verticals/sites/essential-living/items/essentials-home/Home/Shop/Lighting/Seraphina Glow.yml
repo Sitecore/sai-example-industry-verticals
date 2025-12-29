@@ -22,14 +22,14 @@ SharedFields:
 - ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
   Hint: Image2
   Value: |
-    <image mediaid="fca13a63-1319-4d42-9716-e0abe944bc58" alt="lamp" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/78488-HomepagePromoCTAs-1100x740?v=1427c56e" dam-id="tUxRo5ncQIWoBkzyoMR6JQ" width="1100" height="740" alt="lamp 2_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/78488/thumbnail" />
 - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
   Hint: Size
   Value: "{3C6B2483-0CE5-425B-BBD7-DE4C5A9B32D6}"
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <image mediaid="230a9d77-6945-4747-975e-1d3214fb22e0" alt="lamp" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/78480-HomePageHero-2000x800?v=5d2f0ce9" dam-id="0Rcie5qxQJW8POnN4_nK0g" width="2000" height="800" alt="lamp 2_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/78480/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -39,7 +39,7 @@ SharedFields:
   Value: "{7AE747F4-C10E-4F62-832F-60175CD742FD}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "e3374a4a-ba65-4060-8ac6-581bf2d9b78a"
+  Value: "324f7aa8-e315-4d7f-b51c-d6d7ba612e62"
 Languages:
 - Language: en
   Versions:
@@ -70,14 +70,14 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2e21be6b-4a5b-4c1f-b8d1-0ef046d14025"
+      Value: "6f389b21-7691-40df-89e7-2fb43b707732"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Seraphina Glow
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251125T141915Z
+      Value: 20251229T114458Z

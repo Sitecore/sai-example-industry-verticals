@@ -19,11 +19,11 @@ SharedFields:
 - ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
   Hint: Image2
   Value: |
-    <image mediaid="f63e9824-f02e-4589-92d3-13a9b734a6b1" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/80929-HomepagePromoCTAs-1100x740?v=6ea00bab" dam-id="TiWOfkyBR_ieI5iQrwucpA" width="1100" height="740" alt="Sofa_C_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/80929/thumbnail" />
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <image mediaid="b8c49813-72fc-4ebb-a32c-da4c480d5ea9" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/80927-HomepagePromoCTAs-1100x740?v=a470f946" dam-id="039lhHaBQOSxKme34Nr7VA" width="1100" height="740" alt="Sofa_C_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/80927/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -33,7 +33,7 @@ SharedFields:
   Value: "{F9B0CE9C-60A5-4DBF-8D93-A18881A16098}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "2d630efb-feb1-4c4b-93ee-16a68a6a0d10"
+  Value: "7f125485-0a7e-4438-a77e-006ae3cc256b"
 Languages:
 - Language: en
   Versions:
@@ -56,14 +56,14 @@ Languages:
       Value: Sora Daybed
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a81638bd-e51b-4a97-9d7a-3bb4a530b1b6"
+      Value: "84e23423-cdf3-413f-8eaf-609a2dd7efa9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Sora Daybed
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251124T105618Z
+      Value: 20251229T121808Z
