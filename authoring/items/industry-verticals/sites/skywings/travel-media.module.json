@@ -1,12 +1,12 @@
 {
   "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
-  "namespace": "Project.Healthcare-Media",
+  "namespace": "Project.Travel-Media",
   "references": ["Project.IndustryVerticals"],
   "items": {
     "includes": [
       {
-        "name": "nova-media",
-        "path": "/sitecore/Media Library/Project/industry-verticals/nova-medical",
+        "name": "skywings-media",
+        "path": "/sitecore/Media Library/Project/industry-verticals/skywings",
         "scope": "DescendantsOnly",
         "allowedPushOperations": "CreateUpdateAndDelete"
       }

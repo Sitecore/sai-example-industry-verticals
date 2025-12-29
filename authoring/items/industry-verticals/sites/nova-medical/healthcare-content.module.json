@@ -1,7 +1,7 @@
 {
   "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
   "namespace": "Project.Healthcare-Content",
-  "references": ["Project.IndustryVerticles"],
+  "references": ["Project.IndustryVerticals"],
   "items": {
     "includes": [
       {

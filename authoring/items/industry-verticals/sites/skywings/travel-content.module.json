@@ -1,36 +1,36 @@
 {
   "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
-  "namespace": "Project.Essentials-Content",
+  "namespace": "Project.Travel-Content",
   "references": ["Project.IndustryVerticals"],
   "items": {
     "includes": [
       {
-        "name": "essentials-home",
-        "path": "/sitecore/content/industry-verticals/essential-living/home",
+        "name": "travel-home",
+        "path": "/sitecore/content/industry-verticals/skywings/home",
         "scope": "DescendantsOnly",
         "allowedPushOperations": "CreateAndUpdate"
       },
       {
-        "name": "essentials-media",
-        "path": "/sitecore/content/industry-verticals/essential-living/Media",
+        "name": "travel-media",
+        "path": "/sitecore/content/industry-verticals/skywings/Media",
         "scope": "DescendantsOnly",
         "allowedPushOperations": "CreateAndUpdate"
       },
       {
-        "name": "essentials-data",
-        "path": "/sitecore/content/industry-verticals/essential-living/Data",
+        "name": "travel-data",
+        "path": "/sitecore/content/industry-verticals/skywings/Data",
         "scope": "DescendantsOnly",
         "allowedPushOperations": "CreateAndUpdate"
       },
       {
-        "name": "essentials-dictionary",
-        "path": "/sitecore/content/industry-verticals/essential-living/Dictionary",
+        "name": "travel-dictionary",
+        "path": "/sitecore/content/industry-verticals/skywings/Dictionary",
         "scope": "DescendantsOnly",
         "allowedPushOperations": "CreateAndUpdate"
       },
       {
-        "name": "essentials-presentation",
-        "path": "/sitecore/content/industry-verticals/essential-living/Presentation",
+        "name": "travel-presentation",
+        "path": "/sitecore/content/industry-verticals/skywings/Presentation",
         "scope": "DescendantsOnly",
         "allowedPushOperations": "CreateAndUpdate"
       }
