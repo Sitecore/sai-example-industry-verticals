@@ -1,4 +1,4 @@
-# Luxury-retail
+# Luxury Retail
 
 ## Overview
 
