@@ -120,11 +120,12 @@ export function Calendar({ selected, onSelect, minDate, maxDate, className }: Ca
               onClick={() => handleDateClick(day)}
               disabled={isDisabled}
               className={cn(
-                'text-foreground hover:bg-background-muted relative flex h-7 w-7 items-center justify-center rounded-md text-xs transition-colors',
+                'text-foreground relative flex h-7 w-7 items-center justify-center rounded-md text-xs transition-colors',
                 !isCurrentMonth && 'text-foreground-muted opacity-50',
                 isSelected && 'bg-foreground text-background hover:bg-foreground',
                 isDisabled && 'cursor-not-allowed opacity-50 hover:bg-transparent',
-                isToday && !isSelected && 'text-foreground'
+                isToday && !isSelected && 'text-foreground',
+                !isDisabled && !isSelected && 'hover:bg-background-muted/30'
               )}
             >
               {format(day, 'd')}

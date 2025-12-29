@@ -192,7 +192,7 @@ export const Medium = ({ params, fields }: ItemFinderProps): JSX.Element => {
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder={t('search_destinations_placeholder') || 'Search destinations...'}
-                className="text-foreground placeholder:text-foreground-muted focus:border-foreground-muted/30 h-9 w-full rounded-md border bg-transparent py-1 pr-6 pl-10 text-xs shadow-xs placeholder:text-xs focus:border-4 focus:outline-none"
+                className="text-foreground placeholder:text-foreground-muted focus:outline-accent-gray/60 h-9 w-full rounded-md border bg-transparent py-1 pr-6 pl-10 text-xs shadow-xs placeholder:text-xs focus:outline-3"
               />
             </div>
 
@@ -319,7 +319,7 @@ export const Large = ({ params, fields }: ItemFinderProps): JSX.Element => {
                     value={from}
                     onChange={(e) => setFrom(e.target.value)}
                     placeholder={t('departure_city_placeholder') || 'Departure city'}
-                    className="border-border text-foreground placeholder:text-foreground-muted/80 focus:border-foreground-muted/40 w-full rounded-md border bg-transparent py-1.5 pr-3 pl-9 text-sm leading-normal font-semibold transition-all duration-200 ease-in-out placeholder:text-xs focus:border-4 focus:outline-none"
+                    className="border-border text-foreground placeholder:text-foreground-muted/80 focus:outline-accent-gray/60 w-full rounded-md bg-transparent py-1.5 pr-3 pl-9 text-sm leading-normal font-semibold placeholder:text-xs focus:outline-3"
                   />
                 </div>
               </div>
@@ -338,7 +338,7 @@ export const Large = ({ params, fields }: ItemFinderProps): JSX.Element => {
                     value={to}
                     onChange={(e) => setTo(e.target.value)}
                     placeholder={t('destination_city_placeholder') || 'Destination city'}
-                    className="border-border text-foreground placeholder:text-foreground-muted/80 focus:border-foreground-muted/40 w-full rounded-md border bg-transparent py-1.5 pr-3 pl-9 text-sm leading-normal font-semibold transition-all duration-200 ease-in-out placeholder:text-xs focus:border-4 focus:outline-none"
+                    className="border-border text-foreground placeholder:text-foreground-muted/80 focus:outline-accent-gray/60 w-full rounded-md bg-transparent py-1.5 pr-3 pl-9 text-sm leading-normal font-semibold placeholder:text-xs focus:outline-3"
                   />
                 </div>
               </div>
@@ -357,7 +357,7 @@ export const Large = ({ params, fields }: ItemFinderProps): JSX.Element => {
                   dateFormat="MMM d, yyyy"
                   minDate={new Date()}
                   showIcon={true}
-                  inputClassName="text-sm leading-normal transition-all duration-200 ease-in-out border-border text-foreground placeholder:text-foreground-muted placeholder:text-xs focus:border-accent focus:ring-accent/20 focus:bg-background"
+                  inputClassName="text-sm leading-normal transition-all duration-200 ease-in-out border-border text-foreground placeholder:text-foreground-muted placeholder:text-xs"
                 />
               </div>
 
@@ -376,7 +376,7 @@ export const Large = ({ params, fields }: ItemFinderProps): JSX.Element => {
                     dateFormat="MMM d, yyyy"
                     minDate={departureDate || new Date()}
                     showIcon={true}
-                    inputClassName="text-sm leading-normal transition-all duration-200 ease-in-out border-border text-foreground placeholder:text-foreground-muted placeholder:text-xs focus:border-accent focus:ring-accent/20 focus:bg-background"
+                    inputClassName="text-sm leading-normal transition-all duration-200 ease-in-out border-border text-foreground placeholder:text-foreground-muted placeholder:text-xs"
                   />
                 </div>
               )}
