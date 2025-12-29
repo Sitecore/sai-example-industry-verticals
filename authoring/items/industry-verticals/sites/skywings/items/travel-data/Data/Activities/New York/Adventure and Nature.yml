@@ -1,0 +1,44 @@
+﻿---
+ID: "7af5c839-8df9-4f52-b118-66a7a431f2a2"
+Parent: "0d70da9e-b8b1-4264-a811-107c7bb0e1e4"
+Template: "7061e950-7828-45cf-814b-e96a417b195f"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Activities/New York/Adventure and Nature"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251226T132712Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "74af5ce0-13ac-44e2-8c89-1412d1fc74f1"
+      Hint: Title
+      Value: Adventure & Nature
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "70e0d1d2-a3a4-4c28-8812-0b8d45eb4ffe"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "bef31628-feae-4402-95e1-c53cee4478a7"
+      Hint: Description
+      Value: |
+        <ul>
+            <li>Kayak on the Hudson River (seasonal) or cycle the Hudson River Greenway.</li>
+            <li>Hike in Inwood Hill Park or explore Prospect Park and Van Cortlandt Park.</li>
+            <li>Walk the High Line and waterfront promenades like Brooklyn Bridge Park.</li>
+            <li>Ice skate at Bryant Park or Wollman Rink in winter (seasonal).</li>
+            <li>Take a scenic helicopter tour for aerial views of Manhattan.</li>
+        </ul>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251226T132749Z

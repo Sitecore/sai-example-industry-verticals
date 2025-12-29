@@ -1,0 +1,49 @@
+﻿---
+ID: "dc2fa7de-ef3c-4209-9725-9a4cc7df122c"
+Parent: "2d7e5e86-bdb9-42e9-9a1d-13ef6b2bd0f5"
+Template: "757a5048-08e4-400c-82c7-4da989eb5f7c"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Hotels/New York/Budget Options"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "20a64591-006a-4dbe-8ad8-4db97e01a5ab"
+      Hint: Title
+      Value: Budget Options
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251226T134332Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "7a3cef2c-713c-4192-91d8-a79f3d62e157"
+      Hint: PopularOptions
+      Value: |
+        <ul>
+            <li>Pod 51</li>
+            <li>Pod 39</li>
+            <li>YOTEL New York </li>
+            <li>Holiday Inn Express</li>
+        </ul>
+    - ID: "898354da-70eb-406b-94e5-5c073d26aab3"
+      Hint: PriceRange
+      Value: $80–180/night
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "da06e515-f2c4-48ba-8b05-a8bbfd709147"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251226T134416Z
+    - ID: "fc97cff8-4e62-432b-a8e3-15d4aa628705"
+      Hint: Description
+      Value: Basic, convenient, and affordable stays in central locations

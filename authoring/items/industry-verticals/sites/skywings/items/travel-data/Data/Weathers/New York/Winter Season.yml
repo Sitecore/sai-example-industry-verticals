@@ -1,0 +1,50 @@
+﻿---
+ID: "8acd7186-79cb-4f2b-93a1-6ca2306976a1"
+Parent: "95033fc7-987d-4918-a2de-7eecb65dd186"
+Template: "38ce758e-1324-4c58-a125-04d73c6ec5c4"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Weathers/New York/Winter Season"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251226T133327Z
+    - ID: "2d8e9ae8-3705-4425-a1ac-f0dc096ddbc5"
+      Hint: Title
+      Value: Winter Season
+    - ID: "50040dbd-90fb-44cc-925a-08e370b73dcf"
+      Hint: Duration
+      Value: December–February
+    - ID: "508bd818-cabf-44dc-aca8-edcffacc3dcc"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/d76a5aae6af74f919d33b17c533bcad3?v=4baeb285" dam-id="dJFQ1m30S7CRn7-woIGNPw" width="24" height="24" alt="snowflake.svg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/80425/thumbnail" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "de3d3177-25fa-4860-abae-88c63ac915bc"
+    - ID: "95f330aa-700a-466a-97ba-b2c18b0b24e1"
+      Hint: Temperature
+      Value: −5–8°C
+    - ID: "b5bc3cfb-41a0-4061-8e90-ce69524e202c"
+      Hint: Description
+      Value: Cold with possible snow; cozy indoor culture; holiday lights and skating.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251229T074653Z

@@ -1,0 +1,41 @@
+﻿---
+ID: "befc89f3-c66d-4747-9771-73cd2b600341"
+Parent: "a896342a-0e6e-41ec-88bc-cdd849d77025"
+Template: "b020ee7a-b8a1-4850-91c0-c65e46ebaef1"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Travel Tips/Tokyo/Local Etiquette"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251222T121738Z
+    - ID: "472facf1-ba62-45e1-a18e-a0641c900725"
+      Hint: Title
+      Value: Local Etiquette
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b9cde777-0051-4a24-b984-70dccdf446c1"
+    - ID: "8e528e88-8c6c-48ce-bf83-577c8dbdf804"
+      Hint: Description
+      Value: |
+        <ul><li data-start="1340" data-end="1372"><p data-start="1342" data-end="1372">Be quiet on public transport</p></li><li data-start="1373" data-end="1402"><p data-start="1375" data-end="1402">Cash is still widely used</p></li><li data-start="1403" data-end="1429"><p data-start="1405" data-end="1429">Trash bins are limited</p></li><li data-start="1430" data-end="1461"><p data-start="1432" data-end="1461">Politeness is highly valued</p></li></ul>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251222T122648Z

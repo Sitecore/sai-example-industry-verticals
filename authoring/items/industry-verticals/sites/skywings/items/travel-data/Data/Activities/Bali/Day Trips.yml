@@ -1,0 +1,44 @@
+﻿---
+ID: "9573def2-8404-4943-8c2a-c2c4f7c0bf90"
+Parent: "e270aca4-6288-4594-a124-8739c8454692"
+Template: "7061e950-7828-45cf-814b-e96a417b195f"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Activities/Bali/Day Trips"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251229T111801Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "74af5ce0-13ac-44e2-8c89-1412d1fc74f1"
+      Hint: Title
+      Value: Day Trips
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9e57d7d8-3eb5-4456-b39d-93bff2b5e951"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "bef31628-feae-4402-95e1-c53cee4478a7"
+      Hint: Description
+      Value: |
+        <ul>
+            <li style="color: #000000; line-height: 20px;">Nusa Penida for cliffs and crystal‑clear waters</li>
+            <li style="color: #000000; line-height: 20px;">Nusa Lembongan for beaches and marine activities</li>
+            <li style="color: #000000; line-height: 20px;">Ubud for temples, rice terraces, and artisan markets</li>
+            <li style="color: #000000; line-height: 20px;">Munduk for waterfalls and cooler highland weather</li>
+            <li style="color: #000000; line-height: 20px;">Canggu for surf, caf&eacute;s, and lifestyle markets</li>
+        </ul>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251229T111826Z

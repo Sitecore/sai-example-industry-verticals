@@ -1,0 +1,42 @@
+﻿---
+ID: "f11ce250-55d5-4e2a-9496-d22de4cefdfe"
+Parent: "990fe170-66ee-482c-bb31-a93b6bc65b47"
+Template: "55c6da0f-cd60-4ef3-ae37-5dec60808216"
+Path: "/sitecore/content/industry-verticals/skywings/Data/IconLinkLists/Footer Contact IconLinks"
+BranchID: "3adf25e0-f28f-4777-ad84-e2b43a102a96"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{0432A186-DADF-4B34-97C6-EFB6E2A817C5}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251215T174309Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "128684ec-e2e4-4f72-bb7f-d9fb9cc6331e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "bdcc4cd1-9cd5-4640-8001-4677c95d7d8c"
+      Hint: Title
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251216T083400Z

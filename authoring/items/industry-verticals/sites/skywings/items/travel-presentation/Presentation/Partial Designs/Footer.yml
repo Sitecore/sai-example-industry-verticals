@@ -1,0 +1,89 @@
+﻿---
+ID: "25d30dca-8278-4052-9ae8-a3621a484542"
+Parent: "986ec06f-8b48-405c-9073-acb82e1f53ae"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: "/sitecore/content/industry-verticals/skywings/Presentation/Partial Designs/Footer"
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: footer
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{CFBCDC2E-69F8-4F74-B919-B6FEE51640F9}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "cbd57db9-0266-4c94-82cd-5c8f20f9c1a5"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{702C390C-4898-43E5-AC85-C92CE67B8911}"
+          p:before="*"
+          s:ds="ebc6020f-4ae2-4dc7-8a8f-42a54f032227"
+          s:id="{02654BA0-74AE-42A4-B384-BCA9B96ADF4B}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="headless-footer" />
+        <r
+          uid="{3D8D0B3B-F885-474A-BA3D-12C54F3EDEEA}"
+          p:after="r[@uid='{702C390C-4898-43E5-AC85-C92CE67B8911}']"
+          s:ds="83abfa54-825f-4350-b498-fc7768d69bdc"
+          s:id="{32E7FD88-4E5D-4AAB-A15F-61DCEBA1EE6F}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="/headless-footer/footer-list-fourth-1" />
+        <r
+          uid="{A3FF35A4-5016-41A8-B11B-905265F0E825}"
+          p:after="r[@uid='{3D8D0B3B-F885-474A-BA3D-12C54F3EDEEA}']"
+          s:ds="46d66b69-f8b8-46ff-ae14-44cf3fd3545f"
+          s:id="{4956263D-1195-4D6E-931B-800EA625FF6F}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B15BA8ABF-4F20-406D-B65E-5BCE6F5DBE6B%7D&amp;Styles=%7C%7B22CBF555-3F38-4CAF-9BF2-7CE65200525E%7D&amp;RenderingIdentifier&amp;CSSStyles"
+          s:ph="/headless-footer/footer-list-first-1" />
+        <r
+          uid="{0036769E-E2F5-41F3-AED7-63EA2F2F157D}"
+          p:after="r[@uid='{A3FF35A4-5016-41A8-B11B-905265F0E825}']"
+          s:ds="46c92c73-a8c8-4b4f-9d3e-37e4ef435abc"
+          s:id="{4956263D-1195-4D6E-931B-800EA625FF6F}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B15BA8ABF-4F20-406D-B65E-5BCE6F5DBE6B%7D&amp;Styles=%7C%7B22CBF555-3F38-4CAF-9BF2-7CE65200525E%7D&amp;RenderingIdentifier&amp;CSSStyles"
+          s:ph="/headless-footer/footer-list-second-1" />
+        <r
+          uid="{6C343486-EBDE-4D32-9453-C8C4A6231FD6}"
+          p:after="*[1=2]"
+          s:ds="f11ce250-55d5-4e2a-9496-d22de4cefdfe"
+          s:id="{982B130A-5CF9-4664-8B8C-F6778448EC7F}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BC98906CC-3D66-4862-A9A3-1D40AD623205%7D&amp;Styles=%7C%7B22CBF555-3F38-4CAF-9BF2-7CE65200525E%7D&amp;RenderingIdentifier&amp;CSSStyles"
+          s:ph="/headless-footer/footer-list-third-1" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251210T133802Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b82d5d25-95bb-45ab-b54b-baf552ab1714"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251224T131237Z

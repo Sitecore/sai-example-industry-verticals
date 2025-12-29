@@ -1,0 +1,50 @@
+﻿---
+ID: "63ea5377-3cc1-46b6-a90e-99c4d0f3d37b"
+Parent: "2e0f5530-9403-450c-9c93-e6f3aa4cc018"
+Template: "38ce758e-1324-4c58-a125-04d73c6ec5c4"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Weathers/London/Summer Season"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251226T154206Z
+    - ID: "2d8e9ae8-3705-4425-a1ac-f0dc096ddbc5"
+      Hint: Title
+      Value: Summer Season
+    - ID: "50040dbd-90fb-44cc-925a-08e370b73dcf"
+      Hint: Duration
+      Value: June – August
+    - ID: "508bd818-cabf-44dc-aca8-edcffacc3dcc"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/b3db082cfe5a4131af8045b548366a4c?v=9a1d97f0" dam-id="Jqaf1T5PStiDSTUjulVVxg" width="512" height="512" alt="sun.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/80246/thumbnail" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "11387f3f-c917-40d3-9d6c-aa7f17759b6e"
+    - ID: "95f330aa-700a-466a-97ba-b2c18b0b24e1"
+      Hint: Temperature
+      Value: 15–23°C
+    - ID: "b5bc3cfb-41a0-4061-8e90-ce69524e202c"
+      Hint: Description
+      Value: Warm, pleasant, and popular for festivals; occasional rain possible
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251229T084236Z

@@ -1,0 +1,44 @@
+﻿---
+ID: "a1276b00-4594-48af-a612-bf6d96e02162"
+Parent: "e270aca4-6288-4594-a124-8739c8454692"
+Template: "7061e950-7828-45cf-814b-e96a417b195f"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Activities/Bali/Food and Dining"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251229T111651Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "74af5ce0-13ac-44e2-8c89-1412d1fc74f1"
+      Hint: Title
+      Value: Food & Dining
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0fa789ba-48b8-41b0-8602-a875afa73ea0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "bef31628-feae-4402-95e1-c53cee4478a7"
+      Hint: Description
+      Value: |
+        <ul>
+            <li style="color: #000000; line-height: 20px;">Try Nasi Goreng, Babi Guling, and fresh seafood</li>
+            <li style="color: #000000; line-height: 20px;">Visit traditional night markets for authentic street food</li>
+            <li style="color: #000000; line-height: 20px;">Dine in Seminyak&rsquo;s fusion restaurants and cafes</li>
+            <li style="color: #000000; line-height: 20px;">Enjoy beachfront seafood dinners in Jimbaran</li>
+            <li style="color: #000000; line-height: 20px;">Explore vegan and wellness-focused eateries in Ubud</li>
+        </ul>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251229T111715Z

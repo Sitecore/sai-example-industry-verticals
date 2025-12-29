@@ -1,0 +1,48 @@
+﻿---
+ID: "277f3098-11f5-4588-9e78-67584008c228"
+Parent: "459684ea-9ce1-48b0-be4b-799f1a63d078"
+Template: "ae7c9fa3-f2cb-4a02-8781-789897e12044"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Authors/Michael Rodriguez"
+SharedFields:
+- ID: "3a9eb316-2f45-4f95-bae8-0c9b1e0aa8f1"
+  Hint: Avatar
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/d1bc2b148da849279aeee1c75b39a004?v=fa8a0f2d" dam-id="z1Z21yWQTjyVHDOvkB1Dmg" width="1100" height="740" alt="JoinTodayPromo.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/49425/thumbnail" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "76569ef8-2731-4a61-b98c-43ff1a82725e"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "10bfb2cd-d05a-4166-88a9-d325940f2b12"
+      Hint: AuthorName
+      Value: Michael Rodriguez
+    - ID: "1a916b63-1c71-41e3-b39c-c9942c4b76a7"
+      Hint: About
+      Value: Michael Rodriguez is a travel enthusiast and storyteller passionate about uncovering authentic cultural experiences, with a strong focus on local communities, immersive journeys, and meaningful connections around the world.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251226T200408Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "90089654-5f43-4fc2-a11a-ab6a7c538376"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251226T200705Z

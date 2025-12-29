@@ -1,0 +1,63 @@
+﻿---
+ID: "bded1f6e-5bf1-4688-ac19-61263d665b60"
+Parent: "d7961380-873f-49a2-84d5-153730c59660"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: "/sitecore/content/industry-verticals/skywings/Presentation/Available Renderings/Page Content"
+BranchID: "209f458a-5f7c-4024-9bbb-c78ad6d21abc"
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Value: |
+    {C5F905F8-FD1F-444E-A9E5-AC6B774FF0DE}
+    {2492BAC4-DA07-4C86-87F0-9873D40E2276}
+    {9C6D53E3-FE57-4638-AF7B-6D68304C7A94}
+    {3836D951-BB14-43AC-9231-649B7F245DC5}
+    {C7FDF764-5C05-4544-BB1F-A0E11F37E222}
+    {02654BA0-74AE-42A4-B384-BCA9B96ADF4B}
+    {32138D34-7434-4CD1-BF7F-64DA1CEB8F33}
+    {B49CF2D7-7CB2-4918-8F38-2607D956D995}
+    {E3CCF1D0-7855-4898-8BDE-77F83C6A487C}
+    {CCD11802-22A3-462F-92FC-821515E2AEC8}
+    {442E3EA4-DE9A-41B5-A917-0F589F79B1A0}
+    {32E7FD88-4E5D-4AAB-A15F-61DCEBA1EE6F}
+    {3EF239BA-A9CC-4BEC-B343-B9ABB9A9C94A}
+    {B9F1BAB2-6962-49FA-95E2-ABAE6765756E}
+    {50D05F00-5D16-4684-8B7C-173162F8A4DB}
+    {96E7CF65-48A4-47BE-9BB7-DCE50CF7AEA1}
+    {E6C8038F-B3EA-46E4-9F2C-89C562CE21F5}
+    {9233D899-603E-4E35-BC0B-F1CD64CD7ED1}
+    {66B804D4-B6B6-4342-987F-AC4987D6F900}
+    {E776D93C-00C8-466E-AAAC-A4F90B590A3A}
+    {60C9D163-2898-49E3-A3B4-60F8E743062A}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "1854581b-b204-481e-b692-b2f758af97c3"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{EDD5B21F-2BD2-4290-81A2-68428363D312}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251210T131617Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f4569599-c5a8-43d9-ae5e-696e2c1711bb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251224T140851Z

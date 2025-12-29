@@ -1,0 +1,44 @@
+﻿---
+ID: "bb55b62e-8c36-4566-b1c5-5992bc3de66f"
+Parent: "987ca662-cffd-40fc-97e9-a11e15fc13a3"
+Template: "b020ee7a-b8a1-4850-91c0-c65e46ebaef1"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Travel Tips/London/Transportation"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251226T155456Z
+    - ID: "472facf1-ba62-45e1-a18e-a0641c900725"
+      Hint: Title
+      Value: Transportation
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "82d57c27-5517-4f45-91be-6e24adf07713"
+    - ID: "8e528e88-8c6c-48ce-bf83-577c8dbdf804"
+      Hint: Description
+      Value: |
+        <ul>
+            <li style="color: #000000; line-height: 20px;">Use the London Underground (Tube) for fast travel across the city</li>
+            <li style="color: #000000; line-height: 20px;">Oyster and contactless cards offer the easiest payment</li>
+            <li style="color: #000000; line-height: 20px;">Buses are efficient and offer scenic city views</li>
+            <li style="color: #000000; line-height: 20px;">Black cabs and ride-hailing apps are widely available</li>
+            <li style="color: #000000; line-height: 20px;">National Rail services provide easy access to nearby cities and towns</li>
+        </ul>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251226T155703Z

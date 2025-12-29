@@ -1,0 +1,41 @@
+﻿---
+ID: "d4acc7a6-e2cc-46b4-a32f-0d54918828c6"
+Parent: "2705d563-89da-48a9-ae91-5ec8fb6f555c"
+Template: "b020ee7a-b8a1-4850-91c0-c65e46ebaef1"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Travel Tips/Phuket/Cultural Etiquette"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251226T131157Z
+    - ID: "472facf1-ba62-45e1-a18e-a0641c900725"
+      Hint: Title
+      Value: Cultural Etiquette
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d960d726-ecea-4c82-8496-9d7aa22108cd"
+    - ID: "8e528e88-8c6c-48ce-bf83-577c8dbdf804"
+      Hint: Description
+      Value: |
+        <ul><li data-start="2998" data-end="3025">Dress modestly at temples</li><li data-start="3026" data-end="3074"><p data-start="3028" data-end="3074">Remove shoes before entering religious sites</p></li><li data-start="3075" data-end="3108"><p data-start="3077" data-end="3108">Respect the Thai royal family</p></li><li data-start="3111" data-end="3145">Polite behavior is highly valued</li></ul>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251226T142505Z

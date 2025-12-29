@@ -1,0 +1,41 @@
+﻿---
+ID: "259a8e44-c648-4c40-a351-d814f17e76e4"
+Parent: "bc2ff91f-ea09-407e-aab3-e074395757ba"
+Template: "7061e950-7828-45cf-814b-e96a417b195f"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Activities/Tokyo/City Views from Above"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251222T121423Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "74af5ce0-13ac-44e2-8c89-1412d1fc74f1"
+      Hint: Title
+      Value: City Views from Above
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1a13f881-d269-453c-9552-31d87b55ec02"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "bef31628-feae-4402-95e1-c53cee4478a7"
+      Hint: Description
+      Value: |
+        <ul><li data-start="625" data-end="654"><p data-start="627" data-end="654">Try takoyaki and yakitori</p></li><li data-start="655" data-end="682"><p data-start="657" data-end="682">Visit local food stalls</p></li><li data-start="683" data-end="719"><p data-start="685" data-end="719">Experience casual dining culture</p></li><li data-start="720" data-end="748"><p data-start="722" data-end="748">Affordable and authentic</p></li></ul>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251222T122619Z
