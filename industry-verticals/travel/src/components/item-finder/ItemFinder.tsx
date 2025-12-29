@@ -319,7 +319,7 @@ export const Large = ({ params, fields }: ItemFinderProps): JSX.Element => {
                     value={from}
                     onChange={(e) => setFrom(e.target.value)}
                     placeholder={t('departure_city_placeholder') || 'Departure city'}
-                    className="border-border text-foreground placeholder:text-foreground-muted/80 focus:outline-accent-gray/60 w-full border rounded-md bg-transparent py-1.5 pr-3 pl-9 text-sm leading-normal font-semibold placeholder:text-xs focus:outline-3"
+                    className="border-border text-foreground placeholder:text-foreground-muted/80 focus:outline-accent-gray/60 w-full rounded-md border bg-transparent py-1.5 pr-3 pl-9 text-sm leading-normal font-semibold placeholder:text-xs focus:outline-3"
                   />
                 </div>
               </div>
@@ -338,7 +338,7 @@ export const Large = ({ params, fields }: ItemFinderProps): JSX.Element => {
                     value={to}
                     onChange={(e) => setTo(e.target.value)}
                     placeholder={t('destination_city_placeholder') || 'Destination city'}
-                    className="border-border text-foreground placeholder:text-foreground-muted/80 focus:outline-accent-gray/60 border w-full rounded-md bg-transparent py-1.5 pr-3 pl-9 text-sm leading-normal font-semibold placeholder:text-xs focus:outline-3"
+                    className="border-border text-foreground placeholder:text-foreground-muted/80 focus:outline-accent-gray/60 w-full rounded-md border bg-transparent py-1.5 pr-3 pl-9 text-sm leading-normal font-semibold placeholder:text-xs focus:outline-3"
                   />
                 </div>
               </div>
