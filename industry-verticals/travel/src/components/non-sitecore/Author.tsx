@@ -31,7 +31,12 @@ export const Author = (props: AuthorProps) => {
       <div className="mx-auto max-w-4xl">
         <div className="p-6">
           <div className="flex items-start space-x-4">
-            <Image field={props.fields.Avatar} width={80} height={80} className="rounded-full" />
+            <Image
+              field={props.fields.Avatar}
+              width={80}
+              height={80}
+              className="h-20 w-20 rounded-full"
+            />
             <div>
               <h2 className="text-foreground mb-2 text-xl font-semibold">
                 {t('about_field') || 'About'} <Text field={props.fields.AuthorName} />
