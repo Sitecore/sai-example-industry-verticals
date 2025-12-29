@@ -2,12 +2,11 @@
 
 ## Overview
 
-Retail is a simple website with sample Component implementation showcasing data source handling and other essentials. This demo site is built to showcase XM Cloud capabilities using the Content SDK.
+Forma Lux is a demo website created to showcase a modern shopping experience. It highlights key features such as intuitive navigation, multilingual support, and engaging content presentation. The site is designed to demonstrate how a retail brand can deliver a seamless and personalized experience to its customers.
 
 ## Developer Expectations:
 
 - Tailwind-based styling (Shadcn)
-- Personalized homepage via URL parameters
 - Modular components for reuse
 - Localization support 
 
