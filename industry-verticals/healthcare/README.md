@@ -2,7 +2,7 @@
 
 ## Overview
 
-Luxury retail is a simple website with sample Component implementation showcasing data source handling and other essentials. This demo site is built to showcase XM Cloud capabilities using the Content SDK.
+Healthcare is a demo website designed to represent a modern, patient-focused digital experience.The site demonstrates how healthcare providers can create a trustworthy and user-friendly platform that supports
 
 ## Developer Expectations:
 
