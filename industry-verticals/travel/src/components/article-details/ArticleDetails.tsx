@@ -161,7 +161,7 @@ export const Default = ({ params, fields, rendering }: ArticleDetailsProps) => {
       </article>
 
       <div className="container">
-        <div className="mx-auto max-w-4xl">
+        <div className="mx-auto max-w-232">
           <Placeholder rendering={rendering} name={fullWidthPlaceholderKey} />
         </div>
       </div>
