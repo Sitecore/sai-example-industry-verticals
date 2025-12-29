@@ -249,6 +249,11 @@
         "name": "CustomScripts",
         "path": "/sitecore/system/Modules/PowerShell/Script Library/Custom Tools",
         "scope": "ItemAndChildren"
+      },
+      {
+        "name": "Languages",
+        "path": "/sitecore/system/Languages",
+        "scope": "ItemAndChildren"
       }
     ]
   }
