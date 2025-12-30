@@ -8,7 +8,7 @@ Skywings is a demo website created to illustrate a modern travel experience. It 
 
 - Tailwind-based styling (Shadcn)
 - Modular components for reuse
-- Localization support 
+- Localization support
 
 ## Preconditions
 
@@ -30,7 +30,7 @@ Skywings is a demo website created to illustrate a modern travel experience. It 
    - NEXT_PUBLIC_SEARCH_ENV
    - NEXT_PUBLIC_SEARCH_CUSTOMER_KEY
    - NEXT_PUBLIC_SEARCH_API_KEY
-   - NEXT_PUBLIC_SEARCH_SOURCE
+   - NEXT_PUBLIC_SKYWINGS_SEARCH_SOURCE
    - NEXT_PUBLIC_BASE_URL
 6. Install dependencies:
    from `industry-verticals\travel` run `npm install`
@@ -56,8 +56,8 @@ If you have not enabled the split deployment feature your editing hosts are auto
 11. Check if repository is set correctly (should be by default)
 12. Check if Branch is set correctly (should be by default)
 13. Set the Auto deploy option (recommended)
-15. Click "Save"
-16. On the new new editing host click the ... and hit "Build and deploy"
+14. Click "Save"
+15. On the new new editing host click the ... and hit "Build and deploy"
 
 Additional Info: You do not have to create rendering host items in XM Cloud as those are created automatically for you when creating a rendering host. Mapping of sites using site templates to editing hosts is also done automatically.
 
@@ -66,18 +66,22 @@ Additional Info: You do not have to create rendering host items in XM Cloud as t
 ## Sitecore Search Configuration
 
 There are two options for you can try for search configuration:
+
 1. Use the existing skywings search source
 2. Create a new source in the CEC portal and link it to your application
 
 ### Use existing skywings search source
+
 Set the envs as follows
+
 ```bash
    - NEXT_PUBLIC_SEARCH_ENV=prod
    - NEXT_PUBLIC_SEARCH_CUSTOMER_KEY=<Can be taken from cec portal>
    - NEXT_PUBLIC_SEARCH_API_KEY=<Can be taken from cec portal>
-   - NEXT_PUBLIC_SEARCH_SOURCE=1197636
+   - NEXT_PUBLIC_SKYWINGS_SEARCH_SOURCE=1197636
    - NEXT_PUBLIC_BASE_URL=<Hosted Domain URL>
 ```
 
 ### Create new source in CEC portal and link to your application
+
 https://sitecore.atlassian.net/wiki/x/ZwAengE
