@@ -42,7 +42,7 @@ SharedFields:
   Value: "{C7828DBC-3F42-41AE-A75C-96C521BFEAD5}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "178a4e61-1b74-483b-9b4c-0248f55b45e5"
+  Value: "fd7bef68-2d10-43bc-93c0-3aff552c72b9"
 - ID: "e90a4413-c111-4951-9b6a-00c4ce7fb289"
   Hint: MediaLibrary
   Value: "{14E8F1A9-6EFB-48DA-950C-66F6E3D204F0}"
@@ -67,11 +67,11 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5972e5f4-92b2-4f84-97a8-c61212f759c1"
+      Value: "2618ea49-c77c-48c8-9fb2-489fc812ed75"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251201T132721Z
+      Value: 20251230T092159Z

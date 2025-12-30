@@ -12,7 +12,7 @@ import { DEFAULT_IMG_URL, PREVIEW_WIDGET_ID } from '@/constants/search';
 import { useSearchTracking, type Events } from '@/hooks/useSearchTracking';
 
 const SEARCH_CONFIG = {
-  source: process.env.NEXT_PUBLIC_SEARCH_SOURCE as string,
+  source: process.env.NEXT_PUBLIC_SKYWINGS_SEARCH_SOURCE as string,
 };
 
 type ArticleModel = {
