@@ -1,21 +1,20 @@
-# Retail - Demo Site (NextJS) - nextjsstarter
+# Retail
 
 ## Overview
 
-Retail is a simple website with sample Component implementation showcasing data source handling and other essentials. This demo site is built to showcase XM Cloud capabilities using the Content SDK.
+Forma Lux is a demo website created to showcase a modern shopping experience. It highlights key features such as intuitive navigation, multilingual support, and engaging content presentation. The site is designed to demonstrate how a retail brand can deliver a seamless and personalized experience to its customers.
 
 ## Developer Expectations:
 
 - Tailwind-based styling (Shadcn)
-- Personalized homepage via URL parameters
 - Modular components for reuse
-- Localization support for English (en) and Canadian English (en-CA)
+- Localization support 
 
 ## Preconditions
 
 1. You have deployed your XM Cloud environment already. If not follow this link: [Deploy a Project and Environment](https://doc.sitecore.com/xmc/en/developers/xm-cloud/deploy-a-project-and-environment.html)
 
-## Build and run site locally
+## Run site locally
 
 1. Clone the repository (if not yet done)
    `git clone https://github.com/Sitecore/Sitecore.Demo.XMCloud.IndustryVerticals.SiteTemplates`
@@ -23,8 +22,16 @@ Retail is a simple website with sample Component implementation showcasing data 
    `cd industry-verticals\retail`
 3. Copy the environment file `.env.remote.example`
 4. Rename the copied file to `.env.local`
-5. Edit `.env.local` and provide a value for `SITECORE_EDGE_CONTEXT_ID`, `NEXT_PUBLIC_DEFAULT_SITE_NAME`, `NEXT_PUBLIC_SITECORE_EDGE_CONTEXT_ID`, `SITECORE_EDITING_SECRET`. (More info: [Environment variables in XM Cloud](https://doc.sitecore.com/xmc/en/developers/xm-cloud/get-the-environment-variables-for-a-site.html))
-
+5. Edit `.env.local` and provide a value for
+   - SITECORE_EDGE_CONTEXT_ID
+   - NEXT_PUBLIC_DEFAULT_SITE_NAME
+   - NEXT_PUBLIC_SITECORE_EDGE_CONTEXT_ID
+   - SITECORE_EDITING_SECRET
+   - NEXT_PUBLIC_SEARCH_ENV
+   - NEXT_PUBLIC_SEARCH_CUSTOMER_KEY
+   - NEXT_PUBLIC_SEARCH_API_KEY
+   - NEXT_PUBLIC_SEARCH_SOURCE
+   - NEXT_PUBLIC_BASE_URL
 6. Install dependencies:
    from `industry-verticals\retail` run `npm install`
 7. Run the site locally:
@@ -34,7 +41,7 @@ Retail is a simple website with sample Component implementation showcasing data 
 
 ## Add Editing host to XM Cloud
 
-If you have not enabled the split deployment feature your edting hosts are automatically created based on the xmcloud.build.json if enabled is set to true. The following steps are not required. Only if you have enabled the split deployment feature, continue with the next steps.
+If you have not enabled the split deployment feature your editing hosts are automatically created based on the xmcloud.build.json if enabled is set to true. The following steps are not required. Only if you have enabled the split deployment feature, continue with the next steps.
 
 1. Go to Sitecore Cloud Portal https://portal.sitecorecloud.io
 2. Open XM Cloud Deploy
@@ -42,66 +49,49 @@ If you have not enabled the split deployment feature your edting hosts are autom
 4. Switch to tab "Editing Hosts"
 5. Click "Add editing host"
 6. Provide Editing host name `nextjsstarter` as per xmcloud.build.json
-7. Check if the link to authoring environment is set correctly (should be by default)
-8. Check if the source code provider is set correctly (should be by default)
-9. Check if the GitHub Account is set correctly (should be by default)
-10. Check if repository is set correctly (should be by default)
-11. Check if Branch is set correctly (should be by default)
-12. Set the Auto deploy option (recommended)
-13. No custom environment variables are required
-14. Click "Save"
-15. On the new new editing host click the ... and hit "Build and deploy"
+7. Include search related environment variables
+8. Check if the link to authoring environment is set correctly (should be by default)
+9. Check if the source code provider is set correctly (should be by default)
+10. Check if the GitHub Account is set correctly (should be by default)
+11. Check if repository is set correctly (should be by default)
+12. Check if Branch is set correctly (should be by default)
+13. Set the Auto deploy option (recommended)
+15. Click "Save"
+16. On the new new editing host click the ... and hit "Build and deploy"
 
 Additional Info: You do not have to create rendering host items in XM Cloud as those are created automatically for you when creating a rendering host. Mapping of sites using site templates to editing hosts is also done automatically.
 
 [Documentation](https://doc.sitecore.com/xmc/en/developers/content-sdk/sitecore-content-sdk-for-xm-cloud.html)
 
-## Serialization Structure
+## Sitecore Search Configuration
 
-### Overview
+There are two options for you can try for search configuration:
+1. Use the existing forma-lux search source
+2. Create a new source in the CEC portal and link it to your application
 
-This section explains how Sitecore items are serialized and deployed for the Retail Site Collection.
-It distinguishes between IAR (Item-As-Resources) modules and SCS (Sitecore Content Serialization) post-action modules.
-
-#### Serialization & Deployment Strategy
-
-| Category                             | Description                                                                                                        |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
-| IAR (Item-As-Resources)              | Items packaged and deployed with the rendering host build (`Project.retail`)                                       |
-| SCS (Sitecore Content Serialization) | Items pushed to Sitecore after deployment using post-actions (`Project.Retail-Content` and `Project.Retail-Media`) |
-| Excluded                             | OOB XM Cloud items                                                                                                 |
-
----
-
-#### Serialized Item Summary
-
-| Category                                    | Path                                                           | Serialized | Deployment Type |
-| ------------------------------------------- | -------------------------------------------------------------- | ---------- | --------------- |
-| Project Settings                            | `/sitecore/system/Settings/Project/industry-verticals`         | Yes        | IAR             |
-| Templates                                   | `/sitecore/templates/Project/industry-verticals`               | Yes        | IAR             |
-| Branch Templates                            | `/sitecore/templates/Branches/Project/industry-verticals`      | Yes        | IAR             |
-| Layouts / Renderings / Placeholder Settings | `/sitecore/layout/.../Project/industry-verticals`              | Yes        | IAR             |
-| Tenant Root                                 | `/sitecore/content/retail`                                     | Yes        | IAR             |
-| Site Root                                   | `/sitecore/content/retail/forma-lux`                           | Yes        | SCS             |
-| Home, Data, Dictionary, Presentation        | `/sitecore/content/retail/forma-lux/...`                       | Yes        | SCS             |
-| Media Library Folder (structure)            | `/sitecore/media library/Project/industry-verticals/forma-lux` | Yes        | SCS             |
-| Media Assets                                | `/sitecore/media library/.../*`                                | Yes        | IAR             |
-
----
-
-### Common CLI Commands for Serialized Items
-
-Use the following Sitecore CLI commands to manage serialization and deployment:
-
+### Use existing forma-lux search source
+Set the envs as follows
 ```bash
-# Connect your local project to a specific XM Cloud environment and allow write operations:
-dotnet sitecore cloud environment connect --environment-id <envId> --allow-write true
-
-# Pull the latest items from Sitecore to your local project
-sitecore ser pull
-
-# Push local serialized items to your Sitecore environment
-sitecore ser push
+   - NEXT_PUBLIC_SEARCH_ENV=prod
+   - NEXT_PUBLIC_SEARCH_CUSTOMER_KEY=<Can be taken from cec portal>
+   - NEXT_PUBLIC_SEARCH_API_KEY=<Can be taken from cec portal>
+   - NEXT_PUBLIC_SEARCH_SOURCE=1193018
+   - NEXT_PUBLIC_BASE_URL=<Hosted Domain URL>
 ```
 
-[Documentation](https://doc.sitecore.com/xmc/en/developers/xm-cloud/serialization-in-sitecore.html)
+### Create new source in CEC portal and link to your application
+https://sitecore.atlassian.net/wiki/x/ZwAengE
+
+### Localization Support
+
+#### By default, the retail site supports the following locales:
+- en (English)
+- fr-FR (French)
+- es-ES (Spanish)
+
+#### Add Additional Languages
+- Navigate to Channels → Click the three dots on the specific site → Settings → Languages.
+- Add the required languages and provide translations for the newly added languages.
+- After adding the new languages, update the locales array in the next.config.js file to include the new language codes.
+- To display languages in language switcher, go to src/constants/localeOptions.ts and update the localeOptions array with code,label,currency and currencySymbol for specific locale.
+
