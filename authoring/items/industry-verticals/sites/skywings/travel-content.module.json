@@ -1,0 +1,39 @@
+{
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Project.Travel-Content",
+  "references": ["Project.IndustryVerticals"],
+  "items": {
+    "includes": [
+      {
+        "name": "travel-home",
+        "path": "/sitecore/content/industry-verticals/skywings/home",
+        "scope": "DescendantsOnly",
+        "allowedPushOperations": "CreateAndUpdate"
+      },
+      {
+        "name": "travel-media",
+        "path": "/sitecore/content/industry-verticals/skywings/Media",
+        "scope": "DescendantsOnly",
+        "allowedPushOperations": "CreateAndUpdate"
+      },
+      {
+        "name": "travel-data",
+        "path": "/sitecore/content/industry-verticals/skywings/Data",
+        "scope": "DescendantsOnly",
+        "allowedPushOperations": "CreateAndUpdate"
+      },
+      {
+        "name": "travel-dictionary",
+        "path": "/sitecore/content/industry-verticals/skywings/Dictionary",
+        "scope": "DescendantsOnly",
+        "allowedPushOperations": "CreateAndUpdate"
+      },
+      {
+        "name": "travel-presentation",
+        "path": "/sitecore/content/industry-verticals/skywings/Presentation",
+        "scope": "DescendantsOnly",
+        "allowedPushOperations": "CreateAndUpdate"
+      }
+    ]
+  }
+}

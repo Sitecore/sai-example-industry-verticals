@@ -1,0 +1,157 @@
+﻿---
+ID: "e26bc04d-7247-44e8-997a-fb96a3453181"
+Parent: "fccdbc60-12fe-4d07-8479-cc511790409e"
+Template: "b79b5166-c106-4f82-a8ca-11cec6032d52"
+Path: "/sitecore/content/industry-verticals/skywings/Home/Destinations/Bali"
+SharedFields:
+- ID: "0ee127ef-4943-4a47-bb2d-b7029df4bada"
+  Hint: Weather
+  Value: |
+    {96305243-3A38-4BEB-A420-A72DC00D8F3E}
+    {D3BA55CB-ED7F-4370-A725-BB4162709BB5}
+- ID: "29db1d43-1ca3-4936-8add-f0ae3546faa5"
+  Hint: Image
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/eacf0b890ccb46a49990c3790f1face1?v=8ddf9959" dam-id="90MKs57rQ92tpcpYl7b8ww" width="6000" height="4000" alt="DistandtCouplePool.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/49433/thumbnail" />
+- ID: "3e3bc290-3383-41c1-b7a6-e969010b0209"
+  Hint: NumberOfReviews
+  Value: 33
+- ID: "5ce5a1ad-82e6-45fe-bccb-34027a375b95"
+  Hint: Hotels
+  Value: |
+    {493EE570-8092-4AED-9A0A-BB7355B5272A}
+    {ECF32DD9-4357-46BB-98B6-F69DFCBB5728}
+    {FCBA081D-6AB8-46F7-AD06-87FE64AC7A4F}
+    {B332169F-86C0-4056-AD36-245DCCDD77B6}
+- ID: "7eb8d23c-80de-448b-9793-a330f5702fae"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/bc4450e5add447338453888b75c4a036?v=bb40f9c8" dam-id="90MKs57rQ92tpcpYl7b8ww" width="2000" height="1333" alt="DistandtCouplePool.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/49433/thumbnail" />
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 194
+- ID: "c63df59f-64e0-4fb1-80f0-ec3925574c0d"
+  Hint: Activities
+  Value: |
+    {90E53466-9BB4-496F-9118-4E9EE5E41FA7}
+    {5BF4165B-4C73-4CC4-BD73-1A840250266F}
+    {A1276B00-4594-48AF-A612-BF6D96E02162}
+    {9573DEF2-8404-4943-8C2A-C2C4F7C0BF90}
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{1F8A394A-92E0-48DE-AD96-6EC8A73C0401}" />
+- ID: "cf4ea93a-fde6-4d4e-ab15-c50cc0293b9d"
+  Hint: TravelTips
+  Value: |
+    {D2976DFC-54BB-48BB-9FC1-A6FD08D7FDB5}
+    {3CF3F295-39F5-40BD-9B89-A65CC714AC19}
+    {F5AC5B1D-3CF5-4B5E-AC70-07255696A9A4}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "f4ab6298-c370-4791-bc28-d642ebe12bb6"
+- ID: "e2414def-999b-439a-b071-ff6a86838924"
+  Hint: Highlights
+  Value: |
+    {2D58F794-B17B-4A95-A7F7-E0F76D67DBD4}
+    {8AB2E804-63D1-4726-8909-15314E026B1E}
+    {354C92AA-9F84-4666-90C0-1B0C0D1D7A32}
+    {3C787E2B-7334-4BD0-A0DA-3C99EF2DD2DF}
+- ID: "f7da7647-fa52-4ecc-bf5a-11347feb88dd"
+  Hint: Rating
+  Value: 4.9
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "15454ce5-794d-48eb-80f0-bb35ec96aefb"
+      Hint: TimeZone
+      Value: WITA (UTC+8)
+    - ID: "19900d61-0524-4146-a964-d8d8c0ca8cbe"
+      Hint: metadataDescription
+      Value: "Discover Bali’s vibrant cultural heritage, from ancient temples and spiritual ceremonies to traditional Balinese dance. Explore the island’s deep-rooted traditions and immerse yourself in its timeless beauty with Skywings."
+    - ID: "1b0d5663-48fb-404a-963c-a5fe2cc34e89"
+      Hint: ShortDescription
+      Value: Tropical paradise with stunning beaches, ancient temples, and vibrant cultural traditions.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251229T104920Z
+    - ID: "26887bde-6c0a-4019-9805-441ef27a5fcd"
+      Hint: Continent
+      Value: Asia
+    - ID: "35b9241d-b7a7-41fb-9ba9-1e766ffe3086"
+      Hint: pageSummary
+      Value: Bali is a living tapestry of tradition, where ancient temples, sacred ceremonies, and expressive dance performances reflect a rich cultural legacy. From the iconic Tanah Lot Temple to the entrancing rhythms of gamelan music, Bali offers travelers a deep and immersive cultural experience. Skywings helps travelers connect with these traditions and experience the island’s heritage firsthand.
+    - ID: "3b89dd3e-ac3d-4bb3-a9fa-91dfcc78fcd4"
+      Hint: Country
+      Value: Indonesia
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Bali
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "532aef3a-e5f2-485b-8359-3bec0c5328db"
+      Hint: Temperatures
+      Value: "10-28C"
+    - ID: "56856428-f4ee-4092-9dec-ef5e667fc807"
+      Hint: Title
+      Value: Bali
+    - ID: "589589f9-86f3-48b8-858a-d54dda1b48ee"
+      Hint: FlightTime
+      Value: "18-22 hours from US West Coast (with layovers)"
+    - ID: "5b13ff6e-5172-4f46-aa34-649da6d4f367"
+      Hint: metadataTitle
+      Value: Bali Cultural Heritage & Traditions | Skywings Travel
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "6dd286a2-9d05-4b27-82a3-d348c989ac4c"
+      Hint: Airports
+      Value: Ngurah Rai International Airport (DPS)
+    - ID: "7019640c-5c00-4037-92cf-377ddb14d0b0"
+      Hint: Content
+      Value: "<p>Bali shines as a beacon of cultural vibrancy and abiding heritage, where traditional elements infuse everyday life with profundity and meaning. The island is home to numerous temples, the most iconic being the centuries-old Tanah Lot Temple, situated majestically atop a rock formation and famous for its sunset views. Temples are the epicenter of Balinese cultural activities; frequent ceremonies are held to honor spiritual deities, each accompanied by the mellifluous sounds of gamelan orchestras—a symphony of gongs and chimes creating an otherworldly ambiance.</p><p>Furthermore, traditional Balinese dance forms are quintessential, capturing the island’s ethos with their intricate movements and regal costumes. Dances such as Barong and Legong are deeply sacred, narrating stories of good and evil interwoven with mystical elements. Participation in these cultural festivities offers a profound connection to Bali's spiritual roots and provides a unique cultural immersion experience. United Airlines supports these experiences by ensuring travelers can dive deeply into Bali's historical and social tapestry, making cultural memories that unite people of diverse backgrounds.</p>"
+    - ID: "7af13bfe-c8c6-47c9-8a69-ad3271d1bfdb"
+      Hint: Label
+      Value: Beach
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fe46eb05-2ad4-48fb-8edd-28b1e5e89853"
+    - ID: "8dd6625c-72c1-4780-8c4a-caca6e16c39a"
+      Hint: TripDuration
+      Value: "5-10 days"
+    - ID: "ad5d9f53-4cfa-4908-95e8-e3b643fc26af"
+      Hint: TripPeriods
+      Value: "Mar-May, Sep-Nov"
+    - ID: "b2bf7f55-015a-4a25-bf70-ccf182e87284"
+      Hint: Price
+      Value: from $799
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "bb6b8d9a-3e61-4f1f-972d-48fca292f456"
+      Hint: metadataKeywords
+      Value: Bali culture, Balinese traditions, Tanah Lot Temple, Balinese dance, Barong, Legong, gamelan music, cultural travel Bali, Bali heritage, Skywings
+    - ID: "c3fc1ebe-a314-4469-b8e2-cc107eee9479"
+      Hint: Visa
+      Value: No (30 days for most countries)
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251229T115026Z
+    - ID: "df3123e3-ca29-48e7-a4eb-ceeba8226574"
+      Hint: Language
+      Value:  Indonesian (Bahasa Indonesia)
+    - ID: "e3c69007-60a6-4434-865e-b8e47857ac17"
+      Hint: Currency
+      Value: Indonesian Rupiah (IDR)
+    - ID: "f8227036-7201-4083-9155-529529222f9f"
+      Hint: DirectFlights
+      Value: Direct flights available from Singapore, Kuala Lumpur, Sydney, Tokyo

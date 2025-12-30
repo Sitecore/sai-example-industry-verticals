@@ -1,0 +1,56 @@
+﻿---
+ID: "57f36910-8a0a-4a40-a6e5-89da2fc28cfa"
+Parent: "9334337b-341f-4301-a2b5-bfd3e9fd83ad"
+Template: "0a39f168-834c-46c5-8866-65a60764c0a4"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Features/Flight Classes/Feature 3"
+SharedFields:
+- ID: "83bc80ee-e97a-474b-8c05-a2559394eebe"
+  Hint: FeatureImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/79122-HomePageHero-2000x800?v=8740ea68" dam-id="Gzr78QfWT4unNUBBSVimng" width="2000" height="800" alt="imgi_18_800_shot30yclafricanfamilyifelandscape-20221026-ekrefreshb777-sh01yclife-004812.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79122/thumbnail" />
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 75
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "67400c04-acfc-44d7-bc38-8bf305c7807f"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251216T101237Z
+    - ID: "35b07fa2-ce95-4459-8dd6-074203dda9a7"
+      Hint: FeatureDescription
+      Value: |
+        ✓ Comfortable travel with modern amenities, entertainment, and quality service
+        ✓ Ergonomic seats with extra legroom
+        ✓ Complimentary WiFi
+        ✓ Personal entertainment screen
+        
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "5f507c84-84f9-4033-81a2-90bca3d12606"
+      Hint: FeatureTitle
+      Value: Economy Class
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b52c8719-a2ff-4dd9-b8e9-24675ce17bda"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tharuka.bandara@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251229T114008Z

@@ -1,0 +1,47 @@
+﻿---
+ID: "5ae974bd-1e55-4193-9f1c-b321b1a1d1f2"
+Parent: "c4100c10-c78e-41c7-a886-8802aadb79c3"
+Template: "f07b5b0d-b37d-4dc6-a14d-00523b08c69d"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Highlights/Paris/Eiffel Tower"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "108003cb-7d95-48f7-bf24-885374e61ae9"
+      Hint: Description
+      Value: The iconic symbol of Paris, offering unforgettable city views by day and night. The iconic symbol of Paris, offering unforgettable city views by day and night.The iconic symbol of Paris, offering unforgettable city views by day and night.The iconic symbol of Paris, offering unforgettable city views by day and night.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251218T082024Z
+    - ID: "29e4ddb7-fafd-43b3-89aa-90ca0e93ce56"
+      Hint: Label
+      Value: Iconic
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "79ec90cf-1596-4e5f-baa7-daed63627f3c"
+      Hint: Title
+      Value: Eiffel Tower
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7859fba8-c485-4842-aefa-c8a1ec63cd53"
+    - ID: "a38e449c-2d54-4b00-894c-8b84f7952a15"
+      Hint: Image
+      Value: |
+        <image mediaid="389a6cf3-0244-4812-b72e-c76472c164af" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251226T120103Z

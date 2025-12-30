@@ -1,0 +1,42 @@
+﻿---
+ID: "2d444094-399b-4af7-b599-0a241cafa666"
+Parent: "8d74d60b-eb27-4d0c-81e2-8ae40c6f45aa"
+Template: "ad148487-7aae-4095-b602-7f9aeeb3f8b6"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Features/In Flight Experience"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "06c1be05-0572-4c4e-87db-519b03c19055"
+      Hint: Description
+      Value: |
+        Enjoy premium amenities designed for your comfort
+        
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251215T142806Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a36010d9-f402-4fe4-8353-c3f96861bad8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251215T145216Z
+    - ID: "ffb5aa63-114b-40f1-8e73-498e278a3ead"
+      Hint: Title
+      Value: "In-Flight Experience"

@@ -1,0 +1,44 @@
+﻿---
+ID: "29a89ca9-7b3c-4c87-9dc7-75e2b2e62d85"
+Parent: "bf33a118-729c-4219-a249-0e866aea28ee"
+Template: "7061e950-7828-45cf-814b-e96a417b195f"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Activities/Vancouver/Culture"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251229T101858Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "74af5ce0-13ac-44e2-8c89-1412d1fc74f1"
+      Hint: Title
+      Value: Culture
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d042f6c9-0945-409b-b138-aa10a730f887"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "bef31628-feae-4402-95e1-c53cee4478a7"
+      Hint: Description
+      Value: |
+        <ul>
+            <li style="color: #000000; line-height: 20px;">Explore the Museum of Anthropology for Indigenous art and culture</li>
+            <li style="color: #000000; line-height: 20px;">Visit Vancouver Art Gallery for rotating exhibitions</li>
+            <li style="color: #000000; line-height: 20px;">Walk historic Gastown and its cobblestone streets</li>
+            <li style="color: #000000; line-height: 20px;">Experience multicultural festivals throughout the year</li>
+            <li style="color: #000000; line-height: 20px;">Explore Chinatown&rsquo;s heritage streets and local shops</li>
+        </ul>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251229T101927Z

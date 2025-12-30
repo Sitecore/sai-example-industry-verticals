@@ -1,0 +1,54 @@
+﻿---
+ID: "0fb65ea9-388c-4df2-882d-45e8da904a12"
+Parent: "337ed1d1-c8d3-4240-b58a-ce26fa20b611"
+Template: "7116912b-af25-436f-98a4-8388a7c74d87"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Deals/Special Offers/Summer Sale"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "f160cae3-3c05-4528-a723-b68344093875"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251218T132832Z
+    - ID: "41738909-6063-45f2-a163-7413ef847222"
+      Hint: OfferText
+      Value: 40% Off
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "6495e4a8-178b-4ae5-a8b1-237c4f36aa6f"
+      Hint: DealDescription
+      Value: Save up to 40% on international flights
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "584df497-7636-4ff4-bf93-ede3864a2157"
+    - ID: "98301352-efe7-4081-8621-b071909afbfd"
+      Hint: DealCtaLink
+      Value: |
+        <link text="Book Now" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{8A89C018-B030-4D1D-8874-E29D3B412747}" />
+    - ID: "a69d66fd-c4aa-47f8-a1ed-f3a9c23dc003"
+      Hint: DealValidity
+      Value: Valid until Aug 31
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251219T072707Z
+    - ID: "eb6a0572-6994-474e-a1be-a7728a551346"
+      Hint: DealTitle
+      Value: Summer Sale

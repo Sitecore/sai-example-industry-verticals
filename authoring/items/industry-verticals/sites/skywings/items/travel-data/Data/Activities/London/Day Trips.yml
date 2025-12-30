@@ -1,0 +1,44 @@
+﻿---
+ID: "cf2f0b18-d662-4df7-8910-ada3bc5b92fa"
+Parent: "8aab6d74-928d-49d5-b3a8-d92640180baa"
+Template: "7061e950-7828-45cf-814b-e96a417b195f"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Activities/London/Day Trips"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251226T153322Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "74af5ce0-13ac-44e2-8c89-1412d1fc74f1"
+      Hint: Title
+      Value: Day Trips
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "38ac5c1e-8bc3-44dc-9eee-f26414eed3c4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "bef31628-feae-4402-95e1-c53cee4478a7"
+      Hint: Description
+      Value: |
+        <ul>
+            <li style="color: #000000; line-height: 20px;">Windsor Castle for royal heritage</li>
+            <li style="color: #000000; line-height: 20px;">Oxford or Cambridge for university architecture and culture</li>
+            <li style="color: #000000; line-height: 20px;">Stonehenge and Bath for ancient history and Roman baths</li>
+            <li style="color: #000000; line-height: 20px;">Brighton for beaches, food, and seaside charm</li>
+            <li style="color: #000000; line-height: 20px;">Canterbury for medieval cathedrals and historic townscapes</li>
+        </ul>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251226T153406Z

@@ -1,0 +1,47 @@
+﻿---
+ID: "b332169f-86c0-4056-ad36-245dccdd77b6"
+Parent: "66baf946-7189-473c-8e0a-ee9fcb372b5c"
+Template: "757a5048-08e4-400c-82c7-4da989eb5f7c"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Hotels/Bali/Budget Options"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "20a64591-006a-4dbe-8ad8-4db97e01a5ab"
+      Hint: Title
+      Value: Budget Options
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251229T112637Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "7a3cef2c-713c-4192-91d8-a79f3d62e157"
+      Hint: PopularOptions
+      Value: |
+        <ul>
+            <li style="color: #000000; line-height: 20px;">Grandmas Hotel</li>
+            <li style="color: #000000; line-height: 20px;">Champlung Mas Kuta</li>
+        </ul>
+    - ID: "898354da-70eb-406b-94e5-5c073d26aab3"
+      Hint: PriceRange
+      Value: IDR 350,000–1,200,000/night
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ba8e54a7-602f-46ca-9d7f-ae254dd8e39c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251229T112704Z
+    - ID: "fc97cff8-4e62-432b-a8e3-15d4aa628705"
+      Hint: Description
+      Value: Affordable and simple stays

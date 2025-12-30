@@ -66,7 +66,7 @@ import SearchFacets from 'src/components/non-sitecore/search/SearchFacets';
 import ResultsPerPage from 'src/components/non-sitecore/search/ResultsPerPage';
 import QueryResultsSummary from 'src/components/non-sitecore/search/QueryResultsSummary';
 import CardViewSwitcher from 'src/components/non-sitecore/search/CardViewSwitcher';
-import { HIGHLIGHTED_ARTICLES_RFKID, SEARCH_WIDGET_ID, PREVIEW_WIDGET_ID, HOMEHIGHLIGHTED_WIDGET_ID, DEFAULT_IMG_URL } from '@/constants/search';
+import { HIGHLIGHTED_ARTICLES_RFKID, SEARCH_WIDGET_ID, DEFAULT_IMG_URL, PREVIEW_WIDGET_ID, HOMEHIGHLIGHTED_WIDGET_ID } from '@/constants/search';
 import { useSearchTracking } from '@/hooks/useSearchTracking';
 import { Accordion, Content, Header, Item, Trigger } from '@radix-ui/react-accordion';
 import Image from 'next/image';
@@ -523,9 +523,9 @@ const importMap = [
     exports: [
       { name: 'HIGHLIGHTED_ARTICLES_RFKID', value: HIGHLIGHTED_ARTICLES_RFKID },
       { name: 'SEARCH_WIDGET_ID', value: SEARCH_WIDGET_ID },
+      { name: 'DEFAULT_IMG_URL', value: DEFAULT_IMG_URL },
       { name: 'PREVIEW_WIDGET_ID', value: PREVIEW_WIDGET_ID },
       { name: 'HOMEHIGHLIGHTED_WIDGET_ID', value: HOMEHIGHLIGHTED_WIDGET_ID },
-      { name: 'DEFAULT_IMG_URL', value: DEFAULT_IMG_URL },
     ]
   },
   {

@@ -1,0 +1,44 @@
+﻿---
+ID: "eec083e1-9703-4145-8fc2-b778482ac944"
+Parent: "8aab6d74-928d-49d5-b3a8-d92640180baa"
+Template: "7061e950-7828-45cf-814b-e96a417b195f"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Activities/London/Food and Dining"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251226T152956Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "74af5ce0-13ac-44e2-8c89-1412d1fc74f1"
+      Hint: Title
+      Value: Food & Dining
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "086de084-5a76-4dd1-b176-0bb325bcfbe4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "bef31628-feae-4402-95e1-c53cee4478a7"
+      Hint: Description
+      Value: |
+        <ul>
+            <li style="color: #000000; line-height: 20px;">Sample flavors from global cuisines at Borough Market</li>
+            <li style="color: #000000; line-height: 20px;">Try traditional dishes like fish and chips or a Sunday roast</li>
+            <li style="color: #000000; line-height: 20px;">Enjoy afternoon tea in elegant hotels or historic venues</li>
+            <li style="color: #000000; line-height: 20px;">Dine at Michelin-star restaurants across Mayfair, Soho, and Shoreditch</li>
+            <li style="color: #000000; line-height: 20px;">Explore pop-up food stalls and street markets offering global fusion dishes</li>
+        </ul>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251226T153218Z

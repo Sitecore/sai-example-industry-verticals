@@ -1,0 +1,40 @@
+﻿---
+ID: "2b1bd481-951d-403a-a460-6b6a46c2e318"
+Parent: "0d70da9e-b8b1-4264-a811-107c7bb0e1e4"
+Template: "7061e950-7828-45cf-814b-e96a417b195f"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Activities/New York/Culture"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251226T132219Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "74af5ce0-13ac-44e2-8c89-1412d1fc74f1"
+      Hint: Title
+      Value: Culture
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2e6b2dea-6ef3-4a31-bbe9-38f78af14101"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "bef31628-feae-4402-95e1-c53cee4478a7"
+      Hint: Description
+      Value: <ul><li>Tour The Met, MoMA, and the American Museum of Natural History for art and science.</li><li>See a Broadway show or explore Off‑Broadway theater for edgy new work.</li><li>Visit historic houses of worship like St. Patrick’s Cathedral and Trinity Church.</li><li>Explore Harlem for jazz, gospel, and Black cultural history.</li><li>Discover public art along the High Line and in Chelsea galleries.</li></ul>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251226T132458Z

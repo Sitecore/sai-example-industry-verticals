@@ -1,0 +1,136 @@
+﻿---
+ID: "425bb57f-93f4-48e4-9121-38d06010251a"
+Parent: "4205ba63-338e-4a96-9163-036c9bcc6573"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/skywings/Home/Blog/Its Summer In Bali"
+SharedFields:
+- ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
+  Hint: Author
+  Value: "{363F82C5-85AB-44E1-9801-1BCD9386BA58}"
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20251217T000000Z
+- ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/27304b13670845499c1888745a073fc8?v=39a80033" dam-id="cvySfhkVSwyeaRzZAWPdaw" width="1100" height="619" alt="sebastian-pena-lambarri-U_i6h9Y50wQ-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68827/thumbnail" />
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/27304b13670845499c1888745a073fc8?v=39a80033" dam-id="cvySfhkVSwyeaRzZAWPdaw" width="1100" height="619" alt="sebastian-pena-lambarri-U_i6h9Y50wQ-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68827/thumbnail" />
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 700
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{24A2DAA2-05EA-45F9-BE7D-908CA0FCC04E}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "e678a719-7dbc-4764-8f52-ae29b3817e6d"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{58FF75F0-0CD2-4A88-8E11-4B0F189A720C}"
+          p:before="*"
+          s:id="{3EF239BA-A9CC-4BEC-B343-B9ABB9A9C94A}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;HideShareWidget&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{C56BAFEC-3144-42F4-BFD1-92463DA2FD31}"
+          p:after="r[@uid='{58FF75F0-0CD2-4A88-8E11-4B0F189A720C}']"
+          s:ds="023c2129-aa22-4399-9dbf-91f5b167c78e"
+          s:id="{32E7FD88-4E5D-4AAB-A15F-61DCEBA1EE6F}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BC18CFAB6-BFD2-4347-BB31-F8A152627344%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="/headless-main/article-details-1" />
+        <r
+          uid="{285DCD54-7DE3-4F49-BD36-082B2FEF9CB9}"
+          p:after="r[@uid='{C56BAFEC-3144-42F4-BFD1-92463DA2FD31}']"
+          s:ds="af2b4fe7-ed5e-4a65-9fe1-e0165ec1cd3c"
+          s:id="{32E7FD88-4E5D-4AAB-A15F-61DCEBA1EE6F}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B8A370F7A-D24B-497C-BA63-CAE02445F477%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="/headless-main/article-details-author-1" />
+        <r
+          uid="{52790B55-3E25-42D5-8689-DF50F0ABB15F}"
+          p:after="*[1=2]"
+          s:ds="95d71961-647d-4ffa-b7bd-c591e70291a1"
+          s:id="{CCD11802-22A3-462F-92FC-821515E2AEC8}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BA6D3D740-A319-43F9-844F-9E349F2711C8%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
+          s:ph="/headless-main/article-details-full-width-1" />
+      </d>
+    </r>
+- ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+  Hint: Category
+  Value: "{8A1DFEDB-E10C-4C2E-A90D-D20E73F073E2}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: Bali travel, Bali sights, Bali attractions, Ubud jungle, Bali beaches, Bali temples, Seminyak, Canggu, Bali culture, Bali tourism
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251226T190901Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Its Summer In Bali
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><div class="prose prose-lg max-w-none mb-12" style="background-color:#ffffff;border:0px solid #e5e5e5;color:#0a0a0a;margin-bottom:3rem;"><div class="text-gray-700 italic font-bold leading-relaxed space-y-6" style="border:0px solid #e5e5e5;color:#374151;line-height:1.625;"><div style="border:0px solid #e5e5e5;"><div class="ck-content" style="border:0px solid #e5e5e5;"><p style="border:0px solid #e5e5e5;margin-left:0px;margin-right:0px;"><strong><em>Whether you're seeking a soulful retreat at a world-class spa, a cultural experience at traditional dance performances, or thrilling adventures like surfing and scuba diving, Bali has something for everyone. Indulge in the finest culinary delights, shop for exquisitely crafted souvenirs, and bask in breathtaking sunsets. Your dream holiday awaits in Bali, where every moment is crafted to perfection.</em></strong></p></div></div></div></div><div class="prose prose-lg max-w-none mb-12" style="background-color:#ffffff;border:0px solid #e5e5e5;color:#0a0a0a;margin-bottom:3rem;"><div class="text-gray-700 leading-relaxed space-y-6" style="border:0px solid #e5e5e5;color:#374151;line-height:1.625;"><div style="border:0px solid #e5e5e5;"><div class="ck-content" style="border:0px solid #e5e5e5;"><p style="border:0px solid #e5e5e5;margin-bottom:0px;margin-left:0px;margin-right:0px;">Escape the winter chill of the US and bask in the endless summer of Bali's tropical paradise. Known for its breathtaking landscapes, cultural diversity, and exquisite beaches, Bali is the perfect winter getaway. Imagine yourself lounging under the warm sun, exploring lush rice terraces, and experiencing the vibrant local culture.</p><h3 style="margin-left:0px;"><strong style="border:0px solid #e5e5e5;">Reasons to Visit Bali:</strong></h3><h4 style="margin-left:0px;"><span style="color:hsl( 221, 97%, 54% );"><strong style="border:0px solid #e5e5e5;">Stunning Beaches</strong></span></h4><p style="border:0px solid #e5e5e5;margin:0px;">From the lively shores of Kuta to the serene sands of Nusa Dua, Bali's beaches offer something for everyone. Relax, surf, or indulge in beachside massages.</p><h4 style="margin-left:0px;"><span style="color:hsl( 221, 97%, 54% );"><strong style="border:0px solid #e5e5e5;">Rich Culture and Heritage</strong></span></h4><p style="border:0px solid #e5e5e5;margin:0px;">Experience Bali's unique traditions with colorful ceremonies, traditional dances, and historical temples like Uluwatu and Tanah Lot that tell tales of the past.</p><h4 style="margin-left:0px;"><span style="color:hsl( 221, 97%, 54% );"><strong style="border:0px solid #e5e5e5;">Adventure and Exploration</strong></span></h4><p style="border:0px solid #e5e5e5;margin:0px;">Take a hike to the summit of Mount Batur for a sunrise view, or dive into vibrant coral reefs in the turquoise waters surrounding the island.</p><h4 style="margin-left:0px;"><span style="color:hsl( 221, 97%, 54% );"><strong style="border:0px solid #e5e5e5;">Wellness Retreats</strong></span></h4><p style="border:0px solid #e5e5e5;margin-left:0px;margin-right:0px;margin-top:0px;">Refresh your mind and body with world-class yoga and spa experiences amidst serene landscapes.</p></div></div></div></div></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Welcome to Bali, a tropical paradise where the pristine beaches meet vibrant culture and enchanting natural beauty. Known as the 'Island of the Gods', Bali offers a perfect blend of tranquility and adventure, making it an irresistible escape for every traveler. Explore the lush green rice terraces, dive into crystal clear waters, and immerse yourself in the warm hospitality of the Balinese people.
+    - ID: "7867860d-70ef-4cef-b3b0-d41de36989d9"
+      Hint: BackLink
+      Value: |
+        <link linktype="internal" id="4205ba63-338e-4a96-9163-036c9bcc6573" anchor="" querystring="" target="" class="" text="Back to Blog" title=""/>
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: Explore the diverse splendor of Bali, from lush jungles and iconic rice terraces to pristine beaches and vibrant cultural experiences. Discover the island's enchanting beauty and unforgettable sights.
+    - ID: "844baf54-2f0e-42a5-8cab-5f596ea60c3e"
+      Hint: ReadTime
+      Value: 7 min
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cab72105-8645-40fe-aaef-c5504bc2b56e"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: Its Summer In Bali
+    - ID: "b7bb63c4-ac9e-4536-9d96-c3c5e9d14ced"
+      Hint: Shares
+      Value: 34
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251229T131529Z
+    - ID: "de1b043b-cddd-48a7-b9c4-98251e188b30"
+      Hint: Likes
+      Value: 12
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: Its Summer In Bali
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: "This blog post offers a comprehensive guide to Bali's most inspirational sights, including natural wonders, cultural experiences, and popular destinations. Ideal for travelers seeking adventure, relaxation, and cultural immersion, the content highlights Bali's diverse attractions and enchanting beauty. Perfect for AI-driven travel platforms and search engines looking to enhance user experience with rich, informative content on Bali tourism."

@@ -1,0 +1,159 @@
+﻿---
+ID: "0adcb105-ecc3-48ad-8ec3-45e7dca108c9"
+Parent: "fccdbc60-12fe-4d07-8479-cc511790409e"
+Template: "b79b5166-c106-4f82-a8ca-11cec6032d52"
+Path: "/sitecore/content/industry-verticals/skywings/Home/Destinations/Barcelona"
+SharedFields:
+- ID: "0ee127ef-4943-4a47-bb2d-b7029df4bada"
+  Hint: Weather
+  Value: |
+    {E3B27590-8564-4C18-9A9F-461F0BAEBF66}
+    {0679AE9E-7F92-45E7-8952-51AFA879E55E}
+    {D24DCA3D-220A-4572-9ED0-0FAFDE522992}
+    {AE77C7C0-CD78-4D9F-87F7-DFD7C89FEB6D}
+- ID: "29db1d43-1ca3-4936-8add-f0ae3546faa5"
+  Hint: Image
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c2e364f0e0d045e2916b8462bb203ec2?v=b7bedaf4" dam-id="gIT5_e5NRkS9TVtvJ2_FIw" width="1344" height="768" alt="barcelona.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/71321/thumbnail" />
+- ID: "3e3bc290-3383-41c1-b7a6-e969010b0209"
+  Hint: NumberOfReviews
+  Value: 34
+- ID: "5ce5a1ad-82e6-45fe-bccb-34027a375b95"
+  Hint: Hotels
+  Value: |
+    {152F14D5-6019-4B5A-A988-DA8E45410312}
+    {FF451F8D-D1DC-4ABA-AA4B-FECA049C486A}
+    {4BD7A8E9-260E-48C2-82D3-4077FA81EF3E}
+    {9579C4DE-0AFB-4128-925D-A75E0EDBBF7F}
+- ID: "7eb8d23c-80de-448b-9793-a330f5702fae"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c2e364f0e0d045e2916b8462bb203ec2?v=b7bedaf4" dam-id="gIT5_e5NRkS9TVtvJ2_FIw" width="1344" height="768" alt="barcelona.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/71321/thumbnail" />
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 700
+- ID: "c63df59f-64e0-4fb1-80f0-ec3925574c0d"
+  Hint: Activities
+  Value: |
+    {12E8F88F-59AA-4226-B148-21B912FDD7AA}
+    {C4B9BECF-116E-47DB-B73D-C0DE9F95EDB6}
+    {0C63972C-4E66-4CA3-80F8-A692B35B2062}
+    {E6FE98A9-F082-4F01-A3DB-1DCA4C719D1B}
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{F6B8F67D-FEA6-4C91-9C3D-D05DA2C62E61}" />
+- ID: "cf4ea93a-fde6-4d4e-ab15-c50cc0293b9d"
+  Hint: TravelTips
+  Value: |
+    {F5F2363D-3006-4098-9E36-E8A178663996}
+    {491CA8CC-491F-494B-8A6F-4BDA1F5D4A86}
+    {BF4C931B-347A-439E-88C2-1E6EAE7EF8AC}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "95937cd0-1cf3-4694-9565-4ac1c956e9f9"
+- ID: "e2414def-999b-439a-b071-ff6a86838924"
+  Hint: Highlights
+  Value: |
+    {57ECA68E-7105-4662-9C3F-545CCEFDB137}
+    {23FE8C50-CD8E-4B03-AECE-87587A986D5D}
+    {CBACDA75-D77D-4F1B-8168-EA6974D735FD}
+    {CDB728E9-A619-4448-BD89-4F928CF3B032}
+- ID: "f7da7647-fa52-4ecc-bf5a-11347feb88dd"
+  Hint: Rating
+  Value: 4.6
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "15454ce5-794d-48eb-80f0-bb35ec96aefb"
+      Hint: TimeZone
+      Value: Central European Time (CET)
+    - ID: "19900d61-0524-4146-a964-d8d8c0ca8cbe"
+      Hint: metadataDescription
+      Value: Discover Barcelona’s color, creativity, and coastal spirit with SkyWings.
+    - ID: "1b0d5663-48fb-404a-963c-a5fe2cc34e89"
+      Hint: ShortDescription
+      Value: A city of art, sunshine, and Mediterranean rhythm.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251229T084845Z
+    - ID: "26887bde-6c0a-4019-9805-441ef27a5fcd"
+      Hint: Continent
+      Value: Europe
+    - ID: "35b9241d-b7a7-41fb-9ba9-1e766ffe3086"
+      Hint: pageSummary
+      Value: "A vibrant cultural city with sunshine, beaches, and world-class cuisine."
+    - ID: "3b89dd3e-ac3d-4bb3-a9fa-91dfcc78fcd4"
+      Hint: Country
+      Value: Spain
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Barcelona
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "532aef3a-e5f2-485b-8359-3bec0c5328db"
+      Hint: Temperatures
+      Value: "18-30C"
+    - ID: "56856428-f4ee-4092-9dec-ef5e667fc807"
+      Hint: Title
+      Value: Barcelona
+    - ID: "589589f9-86f3-48b8-858a-d54dda1b48ee"
+      Hint: FlightTime
+      Value: "14-18 hours from US West Coast (with layovers)"
+    - ID: "5b13ff6e-5172-4f46-aa34-649da6d4f367"
+      Hint: metadataTitle
+      Value: Barcelona Trips – SkyWings
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "6dd286a2-9d05-4b27-82a3-d348c989ac4c"
+      Hint: Airports
+      Value: Barcelona–El Prat Airport (BCN)
+    - ID: "7019640c-5c00-4037-92cf-377ddb14d0b0"
+      Hint: Content
+      Value: <p>Barcelona thrives with warmth, art, and effortless Mediterranean rhythm. Streets are filled with bright architecture, café tables spill into sunlit plazas, and the sea sits always within reach. The city feels colorful and expressive — alive with creativity and conversation.</p><p>Gaudí’s masterpieces shape the skyline, while neighborhood markets fill the air with the scent of fresh fruit, olive oil, and bread just pulled from the oven. Wander through Gothic alleyways to discover hidden courtyards, quiet cathedrals, and vibrant local life happening just out of view.</p><p>Evenings stretch long in Barcelona — rooftop dinners, seaside walks, and music echoing through historic streets. The city encourages intimacy and inspiration, whether you’re exploring with others or simply enjoying the pleasure of being somewhere full of beauty and movement.</p>
+    - ID: "7af13bfe-c8c6-47c9-8a69-ad3271d1bfdb"
+      Hint: Label
+      Value: City
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ab0a765c-6f62-41cd-8567-0be1aa3d0a50"
+    - ID: "8dd6625c-72c1-4780-8c4a-caca6e16c39a"
+      Hint: TripDuration
+      Value: 5
+    - ID: "ad5d9f53-4cfa-4908-95e8-e3b643fc26af"
+      Hint: TripPeriods
+      Value: "April-June, September-October"
+    - ID: "b2bf7f55-015a-4a25-bf70-ccf182e87284"
+      Hint: Price
+      Value: From $1050
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "bb6b8d9a-3e61-4f1f-972d-48fca292f456"
+      Hint: metadataKeywords
+      Value: Barcelona, Spain city break, Gaudi, Mediterranean
+    - ID: "c3fc1ebe-a314-4469-b8e2-cc107eee9479"
+      Hint: Visa
+      Value: up to 90 days
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251229T114955Z
+    - ID: "df3123e3-ca29-48e7-a4eb-ceeba8226574"
+      Hint: Language
+      Value: Spanish, Catalan
+    - ID: "e3c69007-60a6-4434-865e-b8e47857ac17"
+      Hint: Currency
+      Value: Euro (EUR)
+    - ID: "f8227036-7201-4083-9155-529529222f9f"
+      Hint: DirectFlights
+      Value: Direct flights available from United Kingdom, France, Germany and more

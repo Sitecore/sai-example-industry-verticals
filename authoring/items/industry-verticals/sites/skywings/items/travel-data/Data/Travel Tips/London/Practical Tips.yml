@@ -1,0 +1,43 @@
+﻿---
+ID: "dacff542-7fc0-48d3-aaa5-6cf6c0dc7bb3"
+Parent: "987ca662-cffd-40fc-97e9-a11e15fc13a3"
+Template: "b020ee7a-b8a1-4850-91c0-c65e46ebaef1"
+Path: "/sitecore/content/industry-verticals/skywings/Data/Travel Tips/London/Practical Tips"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251226T155752Z
+    - ID: "472facf1-ba62-45e1-a18e-a0641c900725"
+      Hint: Title
+      Value: Practical Tips
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9f2165cf-4a45-4408-b939-ca2f516d9aec"
+    - ID: "8e528e88-8c6c-48ce-bf83-577c8dbdf804"
+      Hint: Description
+      Value: |
+        <ul>
+            <li style="color: #000000; line-height: 20px;">Weather is unpredictable; carry a light jacket or umbrella</li>
+            <li style="color: #000000; line-height: 20px;">Many museums are free, making it easy to plan affordable days</li>
+            <li style="color: #000000; line-height: 20px;">Book major attractions ahead of time during peak season</li>
+            <li style="color: #000000; line-height: 20px;">London is walkable; comfortable shoes recommended</li>
+        </ul>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251226T155827Z
