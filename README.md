@@ -57,7 +57,6 @@ For developers new to XM Cloud you can follow the Getting Started Guide on the [
 > - [retail](https://github.com/Sitecore/Sitecore.Demo.XMCloud.IndustryVerticals.SiteTemplates/blob/main/industry-verticals/retail/README.md)
 > - [travel](https://github.com/Sitecore/Sitecore.Demo.XMCloud.IndustryVerticals.SiteTemplates/blob/main/industry-verticals/travel/README.md)
 
-
 ### The following outlines the general steps for running a specific industry vertical locally:
 
 - Log into the Sitecore XM Cloud Deploy Portal, locate your Environment and select the `Developer Settings` tab.
@@ -71,3 +70,66 @@ For developers new to XM Cloud you can follow the Getting Started Guide on the [
   npm run dev
   ```
 - You should now be able to access your site on `http://localhost:3000` and see your changes in real-time as you make them.
+
+## Serialization Structure
+
+### Overview
+
+This section explains how Sitecore items are serialized and deployed for the Retail Site Collection.
+It distinguishes between IAR (Item-As-Resources) modules and SCS (Sitecore Content Serialization) post-action modules.
+
+#### Serialization & Deployment Strategy
+
+| Category                             | Description                                                                                                        |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
+| IAR (Item-As-Resources)              | Items packaged and deployed with the rendering host build (eg: `Project.retail`)                                       |
+| SCS (Sitecore Content Serialization) | Items pushed to Sitecore after deployment using post-actions (eg: `Project.Retail-Content` and `Project.Retail-Media`) |
+| Excluded                             | OOB XM Cloud items                                                                                                 |
+
+---
+
+#### Serialized Item Summary
+
+| Category                                    | Path                                                           | Serialized | Deployment Type |
+| ------------------------------------------- | -------------------------------------------------------------- | ---------- | --------------- |
+| Project Settings                            | `/sitecore/system/Settings/Project/industry-verticals`         | Yes        | IAR             |
+| Templates                                   | `/sitecore/templates/Project/industry-verticals`               | Yes        | IAR             |
+| Branch Templates                            | `/sitecore/templates/Branches/Project/industry-verticals`      | Yes        | IAR             |
+| Layouts / Renderings / Placeholder Settings | `/sitecore/layout/.../Project/industry-verticals`              | Yes        | IAR             |
+| Tenant Root                                 | `/sitecore/content/industry-verticals`                                     | Yes        | IAR             |
+| Site Root                                   | `/sitecore/content/industry-verticals/{site}`                           | Yes        | SCS             |
+| Home, Data, Dictionary, Presentation        | `/sitecore/content/industry-verticals/{site}/...`                       | Yes        | SCS             |
+| Media Library Folder (structure)            | `/sitecore/media library/Project/industry-verticals/{site}` | Yes        | SCS             |
+| Media Assets                                | `/sitecore/media library/.../*`                                | Yes        | IAR             |
+
+---
+
+### Common CLI Commands for Serialized Items
+
+Use the following Sitecore CLI commands to manage serialization and deployment:
+
+```bash
+# Login with sitecore CLI
+dotnet sitecore cloud login
+
+# Connect your local project to a specific XM Cloud environment and allow write operations:
+dotnet sitecore cloud environment connect --environment-id <envId> --allow-write true
+
+# Pull the latest items from Sitecore to your local project
+sitecore ser pull
+
+# Push local serialized items to your Sitecore environment
+sitecore ser push
+```
+
+[Documentation](https://doc.sitecore.com/xmc/en/developers/xm-cloud/serialization-in-sitecore.html)
+
+## Content Hub Configuration
+
+### Use the starter-verticals if you are using the central instance 
+Set the envs as follows
+```bash
+   - Sitecore_ConnectionStrings_DAM_dot_ContentHub=<Your Instance>
+   - SITECORE_AppSettings_damEnabled__define=yes
+   - Sitecore_ConnectionStrings_DAM_dot_SearchPage=<Your Instance>
+```
