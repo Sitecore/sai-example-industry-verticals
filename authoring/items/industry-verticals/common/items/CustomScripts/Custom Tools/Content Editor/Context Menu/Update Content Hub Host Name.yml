@@ -2,7 +2,7 @@
 ID: "c01b3c38-db86-4f1a-a2fa-6cea43e969bf"
 Parent: "277f7c07-f249-43fb-896c-5bde84cfb71b"
 Template: "dd22f1b3-bd87-4db2-9e7d-f7a496888d43"
-Path: /sitecore/system/Modules/PowerShell/Script Library/Custom Tools/Content Editor/Context Menu/Update Content Hub Hostname
+Path: /sitecore/system/Modules/PowerShell/Script Library/Custom Tools/Content Editor/Context Menu/Update Content Hub Host Name
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
