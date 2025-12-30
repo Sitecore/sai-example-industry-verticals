@@ -12,7 +12,6 @@ import {
 import { Globe } from 'lucide-react';
 import { ComponentProps } from '@/lib/component-props';
 import { useSitecore } from '@sitecore-content-sdk/nextjs';
-import { AppLocale } from '@/types/locale';
 import { localeOptions } from '@/constants/localeOptions';
 
 export type LanguageSwitcherProps = ComponentProps & {
@@ -26,10 +25,10 @@ export default function LanguageSwitcher(props: LanguageSwitcherProps) {
   const { pathname, asPath, query } = router;
 
   const { page } = useSitecore();
-  const activeLocale = useMemo<AppLocale>(() => page?.locale as AppLocale, [page?.locale]);
+  const activeLocale = useMemo<string>(() => page?.locale as string, [page?.locale]);
 
   const changeLanguage = useCallback(
-    (langCode: AppLocale) => {
+    (langCode: string) => {
       if (pathname && asPath && query) {
         router.push(
           {
@@ -47,13 +46,13 @@ export default function LanguageSwitcher(props: LanguageSwitcherProps) {
     [asPath, pathname, query, router]
   );
 
-  const selectedLocale: AppLocale = localeOptions.some((l) => l.code === activeLocale)
+  const selectedLocale: string = localeOptions.some((l) => l.code === activeLocale)
     ? activeLocale
     : 'en';
 
   return (
     <div className={`component language-switcher ${styles}`} id={id}>
-      <Select value={selectedLocale} onValueChange={(value) => changeLanguage(value as AppLocale)}>
+      <Select value={selectedLocale} onValueChange={(value) => changeLanguage(value as string)}>
         <SelectTrigger
           id="language-select"
           aria-label={`Current Language: ${selectedLocale}`}

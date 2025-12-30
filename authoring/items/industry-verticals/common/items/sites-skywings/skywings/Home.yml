@@ -15,7 +15,7 @@ SharedFields:
     <image mediaid="{6982D63B-8FE0-4FA7-A75D-3B0319D4B957}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "3583676e-eff4-44ec-b853-e2ff912da34a"
+  Value: "5fe5f629-5733-42c0-a74b-192e3d4b5978"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -94,15 +94,8 @@ SharedFields:
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BA78F899D-FE6C-4D47-87AA-0CCC3E842167%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=17"
           s:ph="headless-main" />
         <r
-          uid="{378B64FA-2A7C-45C4-B215-1C44CD4D3602}"
-          p:after="r[@uid='{58F2811B-D23A-4131-B5F0-1BA3D2B170B3}']"
-          s:ds="bbfff85e-c819-4de1-8ad5-c973c87ce5b2"
-          s:id="{B49CF2D7-7CB2-4918-8F38-2607D956D995}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B1666B121-2334-42E0-ADC4-F2AF556A5E7D%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=22"
-          s:ph="headless-main" />
-        <r
           uid="{928A5C4E-BB6A-4C60-8E1D-50989E678725}"
-          p:after="r[@uid='{378B64FA-2A7C-45C4-B215-1C44CD4D3602}']"
+          p:after="r[@uid='{58F2811B-D23A-4131-B5F0-1BA3D2B170B3}']"
           s:ds="116447a5-ee80-4330-9892-17a78601eaf3"
           s:id="{9233D899-603E-4E35-BC0B-F1CD64CD7ED1}"
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles=%7C%7B5727E298-B962-4A00-976D-2852AB65CD5C%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=12"
@@ -144,17 +137,11 @@ SharedFields:
           s:ph="headless-main" />
         <r
           uid="{35A56909-F833-4B3D-97A3-95F7722E385E}"
-          p:after="r[@uid='{56E6B49A-88D7-43C0-BF9B-5480A62F270D}']"
+          p:after="*[1=2]"
           s:ds="d0d4a3ba-72ab-440f-9e94-a4457816f2d4"
           s:id="{96E7CF65-48A4-47BE-9BB7-DCE50CF7AEA1}"
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=21"
           s:ph="headless-main" />
-        <r
-          uid="{E941EF2A-D05D-4E6F-9177-3E683DF6DDF3}"
-          p:after="*[1=2]"
-          s:id="{E6C8038F-B3EA-46E4-9F2C-89C562CE21F5}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B2378EBF4-F8AC-43FD-ABF3-15A1D973CC61%7D&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=23"
-          s:ph="/headless-main/hero-banner-search-bar-22" />
       </d>
     </r>
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
@@ -193,11 +180,11 @@ Languages:
       Value: Discover destinations, plan trips, and experience cultural travel with Skywings. Explore inspiring locations, manage your journeys, and embrace travel that connects you to the world.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a864c7c6-8c87-41c9-9463-064704336e37"
+      Value: "9363d0bf-8348-48d7-b4a8-2ecc9b0e6bc7"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\tharuka.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251229T142144Z
+      Value: 20251229T145532Z
