@@ -3,7 +3,7 @@ import { ChevronDownIcon } from '@radix-ui/react-icons';
 import { WidgetDataType, useQuestions, widget } from '@sitecore-search/react';
 
 const SEARCH_CONFIG = {
-  source: process.env.NEXT_PUBLIC_SEARCH_SOURCE as string,
+  source: process.env.NEXT_PUBLIC_SKYWINGS_SEARCH_SOURCE as string,
 };
 
 type Question = {
