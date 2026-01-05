@@ -54,13 +54,17 @@ export const Default = (props: ArticleListingProps) => {
 
   // Filter articles based on selected category
   const filteredArticles = useMemo(() => {
-    if (selectedCategory === 'All') {
-      return props.fields.items;
-    }
-    return props.fields.items.filter((article) => {
-      const categoryValue = article.fields.Category?.fields?.Category?.value || '';
-      return categoryValue === selectedCategory;
-    });
+    return props.fields.items
+      .filter((item) => item.fields && Object.keys(item.fields).length > 0)
+      .filter((article) => {
+        if (selectedCategory === 'All') {
+          return true;
+        }
+
+        const categoryValue = article.fields.Category?.fields?.Category?.value || '';
+
+        return categoryValue === selectedCategory;
+      });
   }, [props.fields.items, selectedCategory]);
 
   const categories = useMemo<string[]>(() => {
