@@ -37,7 +37,7 @@ SharedFields:
         CancelButtonName = "Cancel"
         Parameters = @(
             @{ Name = "oldHost"; Value="starter-verticals.sitecoresandbox.cloud"; Title="Current Hostname (Old)"; Tooltip="Enter the hostname you want to find."},
-            @{ Name = "newHost"; Value=""; Title="New Hostname"; Tooltip="Enter the new Content Hub hostname."; Placeholder="e.g. ranula-test.sitecore.cloud"}
+            @{ Name = "newHost"; Value=""; Title="New Hostname"; Tooltip="Enter the new Content Hub hostname."; Placeholder="e.g. your-instance.sitecore.cloud"}
         )
     }
     
@@ -81,7 +81,7 @@ SharedFields:
     Show-Alert "Finished! $updateCount items were updated under $($contextItem.Name). "
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "466f3114-d882-423c-ab8c-25020cae9095"
+  Value: "e0f80605-ada1-4a5c-8bf7-02d996972050"
 Languages:
 - Language: en
   Versions:
@@ -100,11 +100,11 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8b3b7c38-5feb-4161-a484-f6c8356b2b9e"
+      Value: "56bd4f85-abbe-4211-b7d6-366042c0daea"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251223T192705Z
+      Value: 20251230T141549Z
