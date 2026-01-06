@@ -88,6 +88,10 @@
   svg {
     @apply size-4;
   }
+
+  &.inverted {
+    @apply bg-foreground text-background hover:bg-foreground/90;
+  }
 }
 
 .info-card {

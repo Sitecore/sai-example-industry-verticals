@@ -167,7 +167,7 @@ export const NumberedGrid = (props: FeaturesProps) => {
               </h1>
               {/* Title and Description */}
               <div>
-                <div className="text-accent group-hover:text-background mb-4 text-2xl leading-8 font-[700]">
+                <div className="text-accent group-hover:text-background mb-4 text-2xl leading-8 font-bold">
                   <Text field={title} />
                 </div>
                 <div className="text-background-muted-dark group-hover:text-background leading-7">
