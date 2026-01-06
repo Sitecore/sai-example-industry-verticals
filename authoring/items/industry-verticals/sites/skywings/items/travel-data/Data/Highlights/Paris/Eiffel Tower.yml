@@ -13,7 +13,7 @@ Languages:
       Value: <r />
     - ID: "108003cb-7d95-48f7-bf24-885374e61ae9"
       Hint: Description
-      Value: The iconic symbol of Paris, offering unforgettable city views by day and night. The iconic symbol of Paris, offering unforgettable city views by day and night.The iconic symbol of Paris, offering unforgettable city views by day and night.The iconic symbol of Paris, offering unforgettable city views by day and night.
+      Value: The iconic symbol of Paris, offering unforgettable city views by day and night.
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251218T082024Z
@@ -33,7 +33,7 @@ Languages:
       Value: Eiffel Tower
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7859fba8-c485-4842-aefa-c8a1ec63cd53"
+      Value: "33a9305e-5bac-4f5a-b297-e5c368882f28"
     - ID: "a38e449c-2d54-4b00-894c-8b84f7952a15"
       Hint: Image
       Value: |
@@ -44,4 +44,4 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251226T120103Z
+      Value: 20260105T094534Z

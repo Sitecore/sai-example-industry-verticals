@@ -20,7 +20,7 @@ SharedFields:
     <image mediaid="{C748A307-2070-420C-B9C7-574DE9CE66E6}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "a8d63201-f0d1-47e2-8bf5-f7c242b13f25"
+  Value: "fbb65a72-c433-42c6-bd9f-f7f8feefb440"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -29,10 +29,24 @@ SharedFields:
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
         <r
+          uid="{12BCDFB8-CD8E-4727-B776-B6E47E1F4E04}"
+          p:before="*"
+          s:ds="bbfff85e-c819-4de1-8ad5-c973c87ce5b2"
+          s:id="{B49CF2D7-7CB2-4918-8F38-2607D956D995}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B1666B121-2334-42E0-ADC4-F2AF556A5E7D%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="headless-main" />
+        <r
           uid="{5C694614-8E35-4FF9-A7C5-E28B03C502A9}"
+          p:after="r[@uid='{12BCDFB8-CD8E-4727-B776-B6E47E1F4E04}']"
           s:id="{E776D93C-00C8-466E-AAAC-A4F90B590A3A}"
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
           s:ph="headless-main" />
+        <r
+          uid="{C2F5878D-5D95-4AC2-BE64-FDF1ABF19809}"
+          p:after="*[1=2]"
+          s:id="{E6C8038F-B3EA-46E4-9F2C-89C562CE21F5}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BFD4A1E3E-CE05-4E60-8C99-299F41D44FB5%7D&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="/headless-main/hero-banner-search-bar-2" />
       </d>
     </r>
 Languages:
@@ -63,14 +77,14 @@ Languages:
       Value: Discover inspiring destinations across the globe with Skywings. Browse cultural cities, scenic landscapes, and immersive travel experiences to plan your next journey.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "92ff9023-6252-4df9-ba6e-a2c4ffc48b29"
+      Value: "956f2c0c-2162-44da-9d0a-891e2e67840d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\tharuka.bandara@sitecore.com
     - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
       Hint: pageSummary
       Value: The Destinations page invites travelers to explore locations around the world, each offering unique cultural, scenic, and experiential opportunities. Skywings provides guidance and inspiration to help travelers find and plan meaningful journeys.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251226T162431Z
+      Value: 20251231T155444Z
