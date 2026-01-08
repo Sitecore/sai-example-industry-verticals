@@ -6,16 +6,16 @@ import {
   NextImage as ContentSdkImage,
   Text as ContentSdkText,
   RichText as ContentSdkRichText,
-  Link as ContentSdkLink,
   Placeholder,
   useSitecore,
   TextField,
-  LinkField,
   DateField,
 } from '@sitecore-content-sdk/nextjs';
-import { ArrowLeft, Calendar, Clock, Heart, Share2 } from 'lucide-react';
+import { Calendar, Clock, Heart, Share2 } from 'lucide-react';
 import { newsDateFormatter } from '../../helpers/dateHelper';
 import { Author } from '../non-sitecore/Author';
+import { ParentPathLink } from '../non-sitecore/ParentPathLink';
+import { useI18n } from 'next-localization';
 
 interface AuthorFields {
   fields: {
@@ -41,7 +41,6 @@ interface Fields {
   ReadTime: TextField;
   Likes: TextField;
   Shares: TextField;
-  BackLink: LinkField;
   Category: CategoryFields;
 }
 
@@ -56,6 +55,7 @@ export const Default = ({ params, fields, rendering }: ArticleDetailsProps) => {
   const placeholderAuthorKey = `article-details-author-${DynamicPlaceholderId}`;
   const fullWidthPlaceholderKey = `article-details-full-width-${DynamicPlaceholderId}`;
   const isPageEditing = page.mode.isEditing;
+  const { t } = useI18n();
 
   if (!fields) {
     return isPageEditing ? (
@@ -71,11 +71,7 @@ export const Default = ({ params, fields, rendering }: ArticleDetailsProps) => {
     <>
       {/* Back Section */}
       <div className={`container mx-auto flex items-center py-4 ${styles}`} id={id}>
-        <ArrowLeft className="text-accent mr-2 h-4 w-4" />
-        <ContentSdkLink
-          field={fields?.BackLink}
-          className="text-accent hover:text-accent-dark inline-flex items-center"
-        />
+        <ParentPathLink text={t('back_to_blog') || 'Back to Blog'} />
       </div>
 
       {/* Article Header */}
