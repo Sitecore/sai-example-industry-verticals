@@ -16,6 +16,8 @@ import { newsDateFormatter } from '../../helpers/dateHelper';
 import { Author } from '../non-sitecore/Author';
 import { ParentPathLink } from '../non-sitecore/ParentPathLink';
 import { useI18n } from 'next-localization';
+import SocialShare from '../non-sitecore/SocialShare';
+import { useEffect, useState } from 'react';
 
 interface AuthorFields {
   fields: {
@@ -32,7 +34,7 @@ interface CategoryFields {
 }
 
 interface Fields {
-  Title: TextField;
+  Title: Field<string>;
   ShortDescription: Field<string>;
   Content: RichTextField;
   Image: ImageField;
@@ -50,12 +52,18 @@ interface ArticleDetailsProps extends ComponentProps {
 
 export const Default = ({ params, fields, rendering }: ArticleDetailsProps) => {
   const { page } = useSitecore();
+  const [currentUrl, setCurrentUrl] = useState('');
   const { styles, RenderingIdentifier: id, DynamicPlaceholderId } = params;
-  const placeholderKey = `article-details-${DynamicPlaceholderId}`;
   const placeholderAuthorKey = `article-details-author-${DynamicPlaceholderId}`;
   const fullWidthPlaceholderKey = `article-details-full-width-${DynamicPlaceholderId}`;
   const isPageEditing = page.mode.isEditing;
   const { t } = useI18n();
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setCurrentUrl(window.location.href);
+    }
+  }, []);
 
   if (!fields) {
     return isPageEditing ? (
@@ -135,7 +143,13 @@ export const Default = ({ params, fields, rendering }: ArticleDetailsProps) => {
               </div>
 
               {/* Social Actions */}
-              <Placeholder rendering={rendering} name={placeholderKey} />
+              <SocialShare
+                useCustomIcons
+                url={currentUrl}
+                title={fields?.Title?.value || ''}
+                description={fields?.ShortDescription?.value || ''}
+                mediaUrl={fields?.Image?.value?.src || ''}
+              />
             </div>
           </div>
 

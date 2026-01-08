@@ -35,7 +35,7 @@ export const Author = (props: AuthorProps) => {
               field={props.fields.Avatar}
               width={80}
               height={80}
-              className="h-20 w-20 rounded-full"
+              className="h-20 w-20 rounded-full object-cover"
             />
             <div>
               <h2 className="text-foreground mb-2 text-xl font-semibold">

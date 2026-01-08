@@ -4,6 +4,14 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from '@/shadcn/components/ui/dropdown-menu';
+import {
+  faFacebookF,
+  faLinkedinIn,
+  faPinterestP,
+  faTwitter,
+} from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Share2 } from 'lucide-react';
 import { useI18n } from 'next-localization';
 import {
@@ -30,6 +38,7 @@ interface SocialShareProps {
   className?: string;
   iconClassName?: string;
   platforms?: SocialPlatform[];
+  useCustomIcons?: boolean;
 }
 
 const SocialShare = ({
@@ -41,9 +50,10 @@ const SocialShare = ({
   className = '',
   iconClassName = '',
   platforms = ['facebook', 'twitter', 'linkedin', 'pinterest', 'email'],
+  useCustomIcons = false,
 }: SocialShareProps) => {
   const { t } = useI18n();
-  const iconClass = `size-7 md:size-8 rounded-sm ${iconClassName || ''}`;
+  const iconClass = `size-7 md:size-8 ${useCustomIcons ? '' : 'rounded-sm'} ${iconClassName || ''}`;
 
   const renderSocialButton = (platform: SocialPlatform) => {
     switch (platform) {
@@ -56,7 +66,11 @@ const SocialShare = ({
             key={platform}
             className="flex gap-2"
           >
-            <FacebookIcon className={iconClass} round={round} />
+            {useCustomIcons ? (
+              <FontAwesomeIcon icon={faFacebookF} className={iconClass} />
+            ) : (
+              <FacebookIcon className={iconClass} round={round} />
+            )}
           </FacebookShareButton>
         );
       case 'twitter':
@@ -67,7 +81,11 @@ const SocialShare = ({
             aria-label={`Share "${title}" on Twitter`}
             key={platform}
           >
-            <TwitterIcon className={iconClass} round={round} />
+            {useCustomIcons ? (
+              <FontAwesomeIcon icon={faTwitter} className={iconClass} />
+            ) : (
+              <TwitterIcon className={iconClass} round={round} />
+            )}
           </TwitterShareButton>
         );
       case 'linkedin':
@@ -79,7 +97,11 @@ const SocialShare = ({
             aria-label={`Share "${title}" on LinkedIn`}
             key={platform}
           >
-            <LinkedinIcon className={iconClass} round={round} />
+            {useCustomIcons ? (
+              <FontAwesomeIcon icon={faLinkedinIn} className={iconClass} />
+            ) : (
+              <LinkedinIcon className={iconClass} round={round} />
+            )}
           </LinkedinShareButton>
         );
       case 'pinterest':
@@ -90,7 +112,11 @@ const SocialShare = ({
             aria-label={`Share "${title}" on Pinterest`}
             key={platform}
           >
-            <PinterestIcon className={iconClass} round={round} />
+            {useCustomIcons ? (
+              <FontAwesomeIcon icon={faPinterestP} className={iconClass} />
+            ) : (
+              <PinterestIcon className={iconClass} round={round} />
+            )}
           </PinterestShareButton>
         );
       case 'email':
@@ -102,7 +128,11 @@ const SocialShare = ({
             aria-label={`Share "${title}" via Email`}
             key={platform}
           >
-            <EmailIcon className={iconClass} round={round} />
+            {useCustomIcons ? (
+              <FontAwesomeIcon icon={faEnvelope} className={iconClass} />
+            ) : (
+              <EmailIcon className={iconClass} round={round} />
+            )}
           </EmailShareButton>
         );
       default:
@@ -112,18 +142,25 @@ const SocialShare = ({
 
   return (
     <div className={className}>
-      <DropdownMenu>
-        <DropdownMenuTrigger asChild>
-          <button className="simple-btn" aria-label="Share">
-            <Share2 /> {t('share_label') || 'Share'}
-          </button>
-        </DropdownMenuTrigger>
-        <DropdownMenuContent className="min-w-none">
-          {platforms.map((platform) => (
-            <DropdownMenuItem key={platform}>{renderSocialButton(platform)}</DropdownMenuItem>
-          ))}
-        </DropdownMenuContent>
-      </DropdownMenu>
+      {useCustomIcons ? (
+        <div className="flex items-center gap-4">
+          <p className="text-foreground-light">{t('share_label') || 'Share'}: </p>
+          {platforms.map((platform) => renderSocialButton(platform))}
+        </div>
+      ) : (
+        <DropdownMenu>
+          <DropdownMenuTrigger asChild>
+            <button className="simple-btn" aria-label="Share">
+              <Share2 /> {t('share_label') || 'Share'}
+            </button>
+          </DropdownMenuTrigger>
+          <DropdownMenuContent className="min-w-none">
+            {platforms.map((platform) => (
+              <DropdownMenuItem key={platform}>{renderSocialButton(platform)}</DropdownMenuItem>
+            ))}
+          </DropdownMenuContent>
+        </DropdownMenu>
+      )}
     </div>
   );
 };
