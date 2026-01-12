@@ -1,5 +1,5 @@
-const ACCENT_COLOR = '#c1a25f';
-const FOREGROUND_COLOR = '#1e1e1e';
+const ACCENT_COLOR = '#3cbed1';
+const FOREGROUND_COLOR = '#111828';
 
 export const LOGO_SVG = `
 <svg xmlns='http://www.w3.org/2000/svg' width='220' height='40' fill='none' viewBox='0 0 220 40'>

@@ -1,24 +1,22 @@
 @theme {
-  --color-foreground: #1e1e1e;
-  --color-foreground-light: #505050;
-  --color-foreground-muted: #9f9f9f;
+  --color-foreground: #111828;
+  --color-foreground-light: #4a5565;
+  --color-foreground-muted: #384354;
 
   --color-background: #fff;
-  --color-background-accent: #faf3ea;
-  --color-background-muted: #f7f7f7;
-  --color-background-muted-light: #7a7a7a;
-  --color-background-muted-dark: #666;
-  --color-background-surface: #fafafa;
+  --color-background-accent: #dbf3f5;
+  --color-background-muted: #f5f5f5;
 
-  --color-accent: #c1a25f;
+  --color-accent: #3cbed1;
+  --color-accent-dark: #228091;
 
   --color-success: #2ec1ac;
-  --color-danger: #e97171;
+  --color-danger: #e7000b;
 
-  --color-border: #e8e8e8;
+  --color-border: #e5e5e5;
 
-  --font-heading: 'Manrope', sans-serif;
-  --font-body: 'Manrope', sans-serif;
+  --font-heading: 'Open Sans', sans-serif;
+  --font-body: 'Open Sans', sans-serif;
 
   --radius-base: 0.5rem;
 
