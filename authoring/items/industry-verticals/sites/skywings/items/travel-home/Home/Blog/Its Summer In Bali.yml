@@ -99,10 +99,6 @@ Languages:
     - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
       Hint: ShortDescription
       Value: Welcome to Bali, a tropical paradise where the pristine beaches meet vibrant culture and enchanting natural beauty. Known as the 'Island of the Gods', Bali offers a perfect blend of tranquility and adventure, making it an irresistible escape for every traveler. Explore the lush green rice terraces, dive into crystal clear waters, and immerse yourself in the warm hospitality of the Balinese people.
-    - ID: "7867860d-70ef-4cef-b3b0-d41de36989d9"
-      Hint: BackLink
-      Value: |
-        <link linktype="internal" id="4205ba63-338e-4a96-9163-036c9bcc6573" anchor="" querystring="" target="" class="" text="Back to Blog" title=""/>
     - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
       Hint: metadataDescription
       Value: Explore the diverse splendor of Bali, from lush jungles and iconic rice terraces to pristine beaches and vibrant cultural experiences. Discover the island's enchanting beauty and unforgettable sights.

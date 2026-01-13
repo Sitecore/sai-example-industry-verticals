@@ -91,10 +91,6 @@ Languages:
     - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
       Hint: ShortDescription
       Value: "Experience Doha, where tradition and innovation blend seamlessly. Visit the Museum of Islamic Art, shop at Souq Waqif, and enjoy desert safaris and world-class cuisine."
-    - ID: "7867860d-70ef-4cef-b3b0-d41de36989d9"
-      Hint: BackLink
-      Value: |
-        <link linktype="internal" id="4205ba63-338e-4a96-9163-036c9bcc6573" anchor="" querystring="" target="" class="" text="Back to Blog" title=""/>
     - ID: "844baf54-2f0e-42a5-8cab-5f596ea60c3e"
       Hint: ReadTime
       Value: 6 min
