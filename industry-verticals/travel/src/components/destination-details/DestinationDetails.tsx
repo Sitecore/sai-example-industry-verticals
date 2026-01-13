@@ -30,7 +30,7 @@ export const Default = ({ params, fields }: DestinationDetailsProps) => {
 
   if (!fields) {
     return isPageEditing ? (
-      <div className={`component article-details ${styles}`} id={id}>
+      <div className={`component destination-details ${styles}`} id={id}>
         [DESTINATION DETAILS]
       </div>
     ) : (
@@ -41,15 +41,24 @@ export const Default = ({ params, fields }: DestinationDetailsProps) => {
   return (
     <>
       <Head>
-        <meta property="og:url" content={currentUrl} />
-        <meta property="og:name" content={fields?.Title?.value} />
-        <meta property="og:title" content={fields?.Title?.value} />
-        <meta property="og:description" content={fields?.ShortDescription?.value} />
-        <meta property="og:image" content={fields?.Image?.value?.src} />
         <meta property="og:type" content="article" />
       </Head>
 
-      <article className={`component destination-details ${styles}`} id={id}>
+      <article
+        className={`component destination-details ${styles}`}
+        id={id}
+        data-label={fields.Label.value}
+        data-country={fields.Country.value}
+        data-rating={fields.Rating.value}
+        data-price={fields.Price.value}
+        data-continent={fields.Continent.value}
+        data-description={fields.ShortDescription.value}
+        data-trip-periods={fields.TripPeriods.value}
+        data-trip-duration={fields.TripDuration.value}
+        data-temperatures={fields.Temperatures.value}
+        data-highlights={fields.Highlights?.map((h) => h.fields.Title?.value).join(', ') || ''}
+        data-activities={fields.Activities?.map((a) => a.fields.Title?.value).join(', ') || ''}
+      >
         <div className="container">
           <ParentPathLink text={t('back_to_destinations') || 'Back to Destinations'} />
         </div>
