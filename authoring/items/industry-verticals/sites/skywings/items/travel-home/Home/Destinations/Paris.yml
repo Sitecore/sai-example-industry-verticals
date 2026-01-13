@@ -108,10 +108,10 @@ Languages:
       Value: Romantic Escape
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2d1183b6-1757-4d1a-afd7-d1329fd83fa8"
+      Value: "4296a5fe-344f-4e4e-a54d-3188e6f55d19"
     - ID: "8dd6625c-72c1-4780-8c4a-caca6e16c39a"
       Hint: TripDuration
-      Value: "4-7  Days"
+      Value: "4-7 Days"
     - ID: "ad5d9f53-4cfa-4908-95e8-e3b643fc26af"
       Hint: TripPeriods
       Value: "Apr-Jun, Sep-Oct"
@@ -121,7 +121,7 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "bb6b8d9a-3e61-4f1f-972d-48fca292f456"
       Hint: metadataKeywords
       Value: "Paris culture, Paris travel, Louvre Museum, Musée d’Orsay, Eiffel Tower, Notre-Dame Cathedral, French art, Paris history, Paris landmarks, Skywings"
@@ -130,7 +130,7 @@ Languages:
       Value: No
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251229T114953Z
+      Value: 20260113T100748Z
     - ID: "df3123e3-ca29-48e7-a4eb-ceeba8226574"
       Hint: Language
       Value: French
