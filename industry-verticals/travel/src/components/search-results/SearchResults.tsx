@@ -25,7 +25,7 @@ export const SearchResults = (props: SearchResultsProps): JSX.Element => {
         defaultKeyphrase={query}
         defaultRelatedQuestions={3}
       />
-      <SearchResultsWidget rfkId="formalux_search_results" defaultKeyphrase={query} />
+      <SearchResultsWidget rfkId="skywings_search_results" defaultKeyphrase={query} />
     </div>
   );
 };
