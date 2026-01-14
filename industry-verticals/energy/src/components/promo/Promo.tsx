@@ -10,7 +10,7 @@ import {
   TextField,
 } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from 'lib/component-props';
-import { isParamEnabled } from '@/helpers/isParamEnabled';
+import { LayoutStyles } from '@/types/styleFlags';
 
 interface Fields {
   PromoImageOne: ImageField;
@@ -27,16 +27,20 @@ export type PromoProps = ComponentProps & {
 export const Default = (props: PromoProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
   const sxaStyles = `${props.params?.styles || ''}`;
-  const isPromoReversed = !isParamEnabled(props.params.Reversed) ? '' : 'order-last';
+  const isPromoReversed = props?.params?.styles?.includes(LayoutStyles.Reversed)
+    ? 'lg:order-last'
+    : '';
+
+  console.log(props.params.styles);
 
   return (
     <div className={`${sxaStyles}`} id={id}>
       <div className="container">
         <div
-          className={`my-12 flex flex-col overflow-hidden rounded-xl border shadow transition-shadow hover:shadow-lg md:flex-row`}
+          className={`cursor-pointer my-12 grid lg:max-h-120 overflow-hidden rounded-xl border shadow transition-shadow hover:shadow-lg lg:grid-cols-2`}
         >
           {/* Image Section */}
-          <div className="flex max-h-120 flex-1 items-stretch">
+          <div className={`flex lg:max-h-120 items-stretch ${isPromoReversed}`}>
             <ContentSdkImage
               field={props.fields.PromoImageOne}
               alt={props.fields.PromoImageOne.value?.src}
@@ -47,17 +51,19 @@ export const Default = (props: PromoProps): JSX.Element => {
             />
           </div>
           {/* Content Section */}
-          <div className="flex flex-1 flex-col justify-center gap-10 p-6">
+          <div className="flex lg:max-h-120 flex-col justify-center gap-5 p-6 lg:py-6 lg:px-12 xl:pl-20">
             {/* Eyebrow */}
             <ContentSdkText
               field={props.fields.PromoSubTitle}
-              className="text-foreground-muted p-0 text-sm font-medium"
+              className="text-foreground-light p-0 text-sm font-medium"
             />
             {/* Title */}
-            <ContentSdkText
-              field={props.fields.PromoTitle}
-              className="text-foreground mb-2 p-0 text-2xl font-bold"
-            />
+            <h4>
+              <ContentSdkText
+                field={props.fields.PromoTitle}
+                className="text-foreground mb-2 p-0 text-2xl font-bold"
+              />
+            </h4>
             {/* Description */}
             <ContentSdkRichText
               field={props.fields.PromoDescription}
