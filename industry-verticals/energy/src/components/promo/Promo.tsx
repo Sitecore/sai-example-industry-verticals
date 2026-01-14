@@ -31,8 +31,6 @@ export const Default = (props: PromoProps): JSX.Element => {
     ? 'lg:order-last'
     : '';
 
-  console.log(props.params.styles);
-
   return (
     <div className={`${sxaStyles}`} id={id}>
       <div className="container">
