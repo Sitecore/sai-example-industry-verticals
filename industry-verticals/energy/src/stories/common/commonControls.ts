@@ -91,6 +91,29 @@ export const defaultContentAlignmentArgs: ContentAlignmentArgs = {
   ContentAlignment: [''],
 };
 
+// TITLE ALIGNMENT
+export type TitleAlignmentArgs = {
+  TitleAlignment: string;
+};
+
+export const TitleAlignmentArgTypes: ArgTypes = {
+  TitleAlignment: {
+    control: 'select',
+    name: 'Title alignment',
+    options: ['', 'Align title left', 'Align title right', 'Align title center'],
+    mapping: {
+      '': '',
+      'Align title left': 'title-position-left',
+      'Align title right': 'title-position-right',
+      'Align title center': 'title-position-center',
+    },
+  },
+};
+
+export const defaultTitleAlignmentArgs: TitleAlignmentArgs = {
+  TitleAlignment: '',
+};
+
 // LAYOUT COMBINED
 export type LayoutArgs = IndentArgs & ContentAlignmentArgs;
 export const LayoutArgTypes: ArgTypes = {
