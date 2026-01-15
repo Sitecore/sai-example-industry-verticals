@@ -18,7 +18,7 @@ export const Default = ({ params, fields, rendering }: SectionWrapperProps) => {
   return (
     <section className={`component section-wrapper py-10 lg:py-16 ${styles}`} id={id}>
       <div className="container">
-        <div className="mb-12 space-y-4 text-center">
+        <div className="mb-12 space-y-4 in-[.header-text-position-center]:text-center in-[.header-text-position-left]:text-left in-[.header-text-position-right]:text-right">
           <h2>
             <Text field={fields.Title} />
           </h2>
