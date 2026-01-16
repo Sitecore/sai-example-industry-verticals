@@ -9,7 +9,7 @@
   }
 
   ul {
-    @apply flex flex-row flex-wrap gap-4 text-accent-light;
+    @apply flex flex-row flex-wrap gap-4;
   }
 
   a:hover {

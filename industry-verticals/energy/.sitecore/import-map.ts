@@ -10,8 +10,10 @@ import {
 import { Link, Text, useSitecore, Placeholder, RichText, NextImage, CdpHelper, withDatasourceCheck } from '@sitecore-content-sdk/nextjs';
 import { useState, useRef, useEffect } from 'react';
 import React from 'react';
-import { Facebook, Twitter, Instagram, Linkedin, Youtube, ChevronDown } from 'lucide-react';
+import { faFacebookF, faInstagram, faLinkedinIn, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { isParamEnabled } from '@/helpers/isParamEnabled';
+import { ChevronDown } from 'lucide-react';
 import HamburgerIcon from '@/components/non-sitecore/HamburgerIcon';
 import { useClickAway } from '@/hooks/useClickAway';
 import { useStopResponsiveTransition } from '@/hooks/useStopResponsiveTransition';
@@ -50,20 +52,31 @@ const importMap = [
     ]
   },
   {
-    module: 'lucide-react',
+    module: '@fortawesome/free-brands-svg-icons',
     exports: [
-      { name: 'Facebook', value: Facebook },
-      { name: 'Twitter', value: Twitter },
-      { name: 'Instagram', value: Instagram },
-      { name: 'Linkedin', value: Linkedin },
-      { name: 'Youtube', value: Youtube },
-      { name: 'ChevronDown', value: ChevronDown },
+      { name: 'faFacebookF', value: faFacebookF },
+      { name: 'faInstagram', value: faInstagram },
+      { name: 'faLinkedinIn', value: faLinkedinIn },
+      { name: 'faTwitter', value: faTwitter },
+      { name: 'faYoutube', value: faYoutube },
+    ]
+  },
+  {
+    module: '@fortawesome/react-fontawesome',
+    exports: [
+      { name: 'FontAwesomeIcon', value: FontAwesomeIcon },
     ]
   },
   {
     module: '@/helpers/isParamEnabled',
     exports: [
       { name: 'isParamEnabled', value: isParamEnabled },
+    ]
+  },
+  {
+    module: 'lucide-react',
+    exports: [
+      { name: 'ChevronDown', value: ChevronDown },
     ]
   },
   {
