@@ -69,10 +69,7 @@ export const Default: Story = {
       Articles: createMockArticles(args.numberOfArticles),
     };
 
-    const selectedArticlesStyles = clsx(
-      baseParams.styles,
-      args.BackgroundColor,
-    );
+    const selectedArticlesStyles = clsx(baseParams.styles, args.BackgroundColor);
 
     const params = {
       ...baseParams,
