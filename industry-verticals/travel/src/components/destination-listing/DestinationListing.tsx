@@ -20,12 +20,7 @@ import {
   DropdownMenuTrigger,
 } from '@/shadcn/components/ui/dropdown-menu';
 import { Check, ChevronDown, Search } from 'lucide-react';
-import {
-  AccordionFacets,
-  // FacetItem,
-  SearchResultsAccordionFacets,
-  Select,
-} from '@sitecore-search/ui';
+import { AccordionFacets, FacetItem, SearchResultsAccordionFacets } from '@sitecore-search/ui';
 
 export interface DestinationListingProps extends ComponentProps {
   params: { [key: string]: string };
@@ -103,7 +98,7 @@ const DestinationListingInner = (props: DestinationListingProps) => {
     facetValueId: string;
   };
 
-  const getFacetOptions = (facets: any[], facetName: string, tAllLabel?: string): FacetOption[] => {
+  const getFacetOptions = (facets: any[], facetName: string): FacetOption[] => {
     const facet = facets.find((f) => f.name === facetName);
 
     if (!facet) return [];
@@ -117,30 +112,14 @@ const DestinationListingInner = (props: DestinationListingProps) => {
       facetValueId: v.id,
     }));
 
-    return [
-      {
-        label: tAllLabel || 'All',
-        value: 'All',
-        id: '',
-        facetId: facetName,
-        facetIndex: -1,
-        facetValueId: '',
-      },
-      ...options,
-    ];
+    return [...options];
   };
 
-  const continentOptions = useMemo(
-    () => getFacetOptions(facets, 'continent', t('all_label')),
-    [facets, t]
-  );
+  const continentOptions = useMemo(() => getFacetOptions(facets, 'continent'), [facets, t]);
 
-  const typeOptions = useMemo(() => getFacetOptions(facets, 'label', t('all_label')), [facets, t]);
+  const typeOptions = useMemo(() => getFacetOptions(facets, 'label'), [facets, t]);
 
-  const activityOptions = useMemo(
-    () => getFacetOptions(facets, 'activities', t('all_label')),
-    [facets, t]
-  );
+  const activityOptions = useMemo(() => getFacetOptions(facets, 'activities'), [facets, t]);
 
   const FilterDropdown = ({
     options,
@@ -176,25 +155,25 @@ const DestinationListingInner = (props: DestinationListingProps) => {
         <DropdownMenuContent align="start" className="min-w-36">
           <SearchResultsAccordionFacets onFacetValueClick={onFacetClick} className="w-full">
             <AccordionFacets.Facet facetId={facetId}>
-              <Select.Content className="flex flex-col space-y-1">
+              <AccordionFacets.ValueList className="flex flex-col space-y-1">
                 {options.map((option, index) => (
-                  <Select.Item
+                  <FacetItem
                     key={option.id}
                     value={option.value}
                     {...{ index, facetValueId: option.id }}
-                    className="flex cursor-pointer items-center px-2 py-1 text-xs hover:bg-gray-100"
+                    className="hover:bg-foreground-muted/10 has-[data-state=checked]:bg-accent-light/10 flex cursor-pointer items-center px-1 py-1 text-xs"
                   >
-                    <AccordionFacets.ItemCheckbox className="form-checkbox h-4 w-4 flex-none cursor-pointer rounded border border-gray-300">
+                    <AccordionFacets.ItemCheckbox className="form-checkbox h-4 w-4 flex-none cursor-pointer rounded">
                       <AccordionFacets.ItemCheckboxIndicator className="text-accent">
-                        <Check className="size-3" />
+                        <Check className="size-3" strokeWidth={4} />
                       </AccordionFacets.ItemCheckboxIndicator>
                     </AccordionFacets.ItemCheckbox>
                     <AccordionFacets.ItemLabel className="ms-2">
                       {option.label}
                     </AccordionFacets.ItemLabel>
-                  </Select.Item>
+                  </FacetItem>
                 ))}
-              </Select.Content>
+              </AccordionFacets.ValueList>
             </AccordionFacets.Facet>
           </SearchResultsAccordionFacets>
         </DropdownMenuContent>
