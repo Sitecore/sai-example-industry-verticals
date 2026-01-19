@@ -8,13 +8,13 @@ import {
 // end of built-in imports
 
 import { Link, Text, useSitecore, RichText, NextImage, Image, DateField, Placeholder, CdpHelper, withDatasourceCheck } from '@sitecore-content-sdk/nextjs';
-import { useState, useCallback, useRef, useEffect, useMemo } from 'react';
+import { useMemo, useCallback, useState, useRef, useEffect } from 'react';
 import React from 'react';
 import { useI18n } from 'next-localization';
 import { faFacebookF, faInstagram, faLinkedinIn, faTwitter, faYoutube, faPinterestP } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
-import { ArrowRight, Share2, ArrowLeft, ChevronLeft, ChevronRight, Phone, Plane, Bed, Camera, Navigation, CalendarDays, Clock, MapPin, Star, Thermometer, LoaderCircle, X, Search, Users, ChevronDown, Check, Menu, Heart, Calendar, User } from 'lucide-react';
+import { ArrowRight, Share2, ArrowLeft, ChevronLeft, ChevronRight, Phone, Plane, Search, ChevronDown, Check, Bed, Camera, Navigation, CalendarDays, Clock, MapPin, Star, Thermometer, LoaderCircle, X, Users, Menu, Heart, Calendar, User } from 'lucide-react';
 import * as LucidIcons from 'lucide-react';
 import { LayoutStyles, PromoFlags, HeroBannerStyles, TitleSectionFlags } from '@/types/styleFlags';
 import { newsDateFormatter } from '@/helpers/dateHelper';
@@ -26,6 +26,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { EmailIcon, EmailShareButton, FacebookIcon, FacebookShareButton, LinkedinIcon, LinkedinShareButton, PinterestIcon, PinterestShareButton, TwitterIcon, TwitterShareButton } from 'react-share';
 import { usePagination } from '@/hooks/usePagination';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/shadcn/components/ui/tabs';
+import Image_5d8ce56058442d94361877e28c501c951a554a6a from 'next/image';
 import { usePreviewSearchActions, useSearchResultsActions, WidgetDataType, useSearchResults, widget, useQuestions, usePreviewSearch, FilterEqual } from '@sitecore-search/react';
 import { PreviewSearch, SortSelect, Pagination, AccordionFacets, FacetItem, RangeFacet, SearchResultsAccordionFacets, SearchResultsFacetValueRange, Select, ArticleCard, CardViewSwitcher as CardViewSwitcher_b6c381477cbf12fc0dc4f9aeb9e8e41e943b6ea7 } from '@sitecore-search/ui';
 import { GridIcon, ListBulletIcon, CheckIcon, ChevronDownIcon } from '@radix-ui/react-icons';
@@ -42,7 +43,6 @@ import CardViewSwitcher from 'src/components/non-sitecore/search/CardViewSwitche
 import { HIGHLIGHTED_ARTICLES_RFKID, SEARCH_WIDGET_ID, DEFAULT_IMG_URL, PREVIEW_WIDGET_ID, HOMEHIGHLIGHTED_WIDGET_ID } from '@/constants/search';
 import { useSearchTracking } from '@/hooks/useSearchTracking';
 import { Accordion, Content, Header, Item, Trigger } from '@radix-ui/react-accordion';
-import Image_5d8ce56058442d94361877e28c501c951a554a6a from 'next/image';
 import SuggestionBlock from 'src/components/non-sitecore/search/SuggestionBlock';
 import { useClickAway } from '@/hooks/useClickAway';
 import { useStopResponsiveTransition } from '@/hooks/useStopResponsiveTransition';
@@ -87,11 +87,11 @@ const importMap = [
   {
     module: 'react',
     exports: [
-      { name: 'useState', value: useState },
+      { name: 'useMemo', value: useMemo },
       { name: 'useCallback', value: useCallback },
+      { name: 'useState', value: useState },
       { name: 'useRef', value: useRef },
       { name: 'useEffect', value: useEffect },
-      { name: 'useMemo', value: useMemo },
       { name: 'default', value: React },
     ]
   },
@@ -134,6 +134,9 @@ const importMap = [
       { name: 'ChevronRight', value: ChevronRight },
       { name: 'Phone', value: Phone },
       { name: 'Plane', value: Plane },
+      { name: 'Search', value: Search },
+      { name: 'ChevronDown', value: ChevronDown },
+      { name: 'Check', value: Check },
       { name: 'Bed', value: Bed },
       { name: 'Camera', value: Camera },
       { name: 'Navigation', value: Navigation },
@@ -144,10 +147,7 @@ const importMap = [
       { name: 'Thermometer', value: Thermometer },
       { name: 'LoaderCircle', value: LoaderCircle },
       { name: 'X', value: X },
-      { name: 'Search', value: Search },
       { name: 'Users', value: Users },
-      { name: 'ChevronDown', value: ChevronDown },
-      { name: 'Check', value: Check },
       { name: 'Menu', value: Menu },
       { name: 'Heart', value: Heart },
       { name: 'Calendar', value: Calendar },
@@ -233,6 +233,12 @@ const importMap = [
       { name: 'TabsContent', value: TabsContent },
       { name: 'TabsList', value: TabsList },
       { name: 'TabsTrigger', value: TabsTrigger },
+    ]
+  },
+  {
+    module: 'next/image',
+    exports: [
+      { name: 'default', value: Image_5d8ce56058442d94361877e28c501c951a554a6a },
     ]
   },
   {
@@ -357,12 +363,6 @@ const importMap = [
       { name: 'Header', value: Header },
       { name: 'Item', value: Item },
       { name: 'Trigger', value: Trigger },
-    ]
-  },
-  {
-    module: 'next/image',
-    exports: [
-      { name: 'default', value: Image_5d8ce56058442d94361877e28c501c951a554a6a },
     ]
   },
   {
