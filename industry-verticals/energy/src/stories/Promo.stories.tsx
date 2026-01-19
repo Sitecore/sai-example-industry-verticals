@@ -63,7 +63,7 @@ export const Default: Story = {
     const promoStyles = clsx(
       baseParams.styles,
       args.BackgroundColor,
-      args.Reversed && LayoutStyles.Reversed,
+      args.Reversed && LayoutStyles.Reversed
     );
 
     const params = {

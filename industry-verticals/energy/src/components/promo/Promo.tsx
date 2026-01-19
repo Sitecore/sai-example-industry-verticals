@@ -27,18 +27,16 @@ export type PromoProps = ComponentProps & {
 export const Default = (props: PromoProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
   const sxaStyles = `${props.params?.styles || ''}`;
-  const isPromoReversed = props?.params?.styles?.includes(LayoutStyles.Reversed)
-    ? 'lg:order-last'
-    : '';
+  const isPromoReversed = sxaStyles?.includes(LayoutStyles.Reversed) ? 'lg:order-last' : '';
 
   return (
     <div className={`${sxaStyles}`} id={id}>
       <div className="container">
         <div
-          className={`cursor-pointer my-12 grid lg:max-h-120 overflow-hidden rounded-xl border shadow transition-shadow hover:shadow-lg lg:grid-cols-2`}
+          className={`my-12 grid cursor-pointer overflow-hidden rounded-xl border shadow transition-shadow hover:shadow-lg lg:max-h-120 lg:grid-cols-2`}
         >
           {/* Image Section */}
-          <div className={`flex lg:max-h-120 items-stretch ${isPromoReversed}`}>
+          <div className={`flex items-stretch lg:max-h-120 ${isPromoReversed}`}>
             <ContentSdkImage
               field={props.fields.PromoImageOne}
               alt={props.fields.PromoImageOne.value?.src}
@@ -49,7 +47,7 @@ export const Default = (props: PromoProps): JSX.Element => {
             />
           </div>
           {/* Content Section */}
-          <div className="flex lg:max-h-120 flex-col justify-center gap-5 p-6 lg:py-6 lg:px-12 xl:pl-20">
+          <div className="flex flex-col justify-center gap-5 p-6 lg:max-h-120 lg:px-12 lg:py-6 xl:pl-20">
             {/* Eyebrow */}
             <ContentSdkText
               field={props.fields.PromoSubTitle}
@@ -68,10 +66,7 @@ export const Default = (props: PromoProps): JSX.Element => {
               className="text-foreground-light mb-4 p-0"
             />
             {/* Link */}
-            <ContentSdkLink
-              field={props.fields.PromoMoreInfo}
-              className="main-btn"
-            />
+            <ContentSdkLink field={props.fields.PromoMoreInfo} className="main-btn" />
           </div>
         </div>
       </div>
