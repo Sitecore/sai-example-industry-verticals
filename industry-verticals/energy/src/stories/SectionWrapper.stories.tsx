@@ -15,9 +15,7 @@ import {
 
 type StoryProps = ComponentProps<typeof SectionWrapper> &
   BackgroundColorArgs &
-  TitleAlignmentArgs & {
-    hideAccentLine?: boolean;
-  };
+  TitleAlignmentArgs;
 
 const meta = {
   title: 'Page Content/Section Wrapper',

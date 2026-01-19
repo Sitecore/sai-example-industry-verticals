@@ -14,7 +14,7 @@ interface SectionWrapperProps extends ComponentProps {
 export const Default = ({ params, fields, rendering }: SectionWrapperProps) => {
   const { styles, RenderingIdentifier: id } = params;
   const componentPlaceholderKey = `section-wrapper-content-${params.DynamicPlaceholderId}`;
-  console.log(styles);
+
   return (
     <section className={`component section-wrapper py-10 lg:py-16 ${styles}`} id={id}>
       <div className="container">
