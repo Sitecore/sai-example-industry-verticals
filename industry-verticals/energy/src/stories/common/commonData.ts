@@ -11,3 +11,10 @@ export const CommonRendering = {
   componentName: 'ComponentName',
   dataSource: '0002',
 };
+
+export const CommonSitecoreItem = {
+  id: 'field-1',
+  displayName: '',
+  name: '',
+  url: '',
+};
