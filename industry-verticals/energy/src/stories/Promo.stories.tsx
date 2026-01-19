@@ -7,21 +7,17 @@ import {
   createRichTextField,
   createTextField,
 } from './helpers/createFields';
-import { boolToSitecoreCheckbox } from './helpers/boolToSitecoreCheckbox';
 import {
   BackgroundColorArgs,
   backgroundColorArgTypes,
   defaultBackgroundColorArgs,
 } from './common/commonControls';
+import clsx from 'clsx';
+import { LayoutStyles } from '@/types/styleFlags';
 
 type StoryProps = PromoProps &
   BackgroundColorArgs & {
-    ShowMultipleImages: boolean;
     Reversed: boolean;
-    HideCurveLine: boolean;
-    HideShapes: boolean;
-    HideShadows: boolean;
-    HideQuote: boolean;
   };
 
 const meta = {
@@ -56,8 +52,6 @@ const baseRendering = {
 
 const baseFields = {
   PromoImageOne: createImageField('placeholder'),
-  PromoImageTwo: createImageField('placeholder'),
-  PromoImageThree: createImageField('placeholder'),
   PromoTitle: createTextField('We provide you the best experience'),
   PromoDescription: createRichTextField(1, 'paragraphs'),
   PromoSubTitle: createTextField('Materials'),
@@ -66,10 +60,15 @@ const baseFields = {
 
 export const Default: Story = {
   render: (args) => {
+    const promoStyles = clsx(
+      baseParams.styles,
+      args.BackgroundColor,
+      args.Reversed && LayoutStyles.Reversed
+    );
+
     const params = {
       ...baseParams,
-      styles: `${baseParams.styles} ${args.BackgroundColor}`,
-      Reversed: boolToSitecoreCheckbox(args.Reversed),
+      styles: promoStyles,
     };
     return <Promo params={params} rendering={baseRendering} fields={baseFields} />;
   },

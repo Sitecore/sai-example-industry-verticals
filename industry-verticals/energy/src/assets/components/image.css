@@ -18,3 +18,9 @@
     @apply w-auto! max-w-full;
   }
 }
+
+.image-hide-caption {
+  .image-caption {
+    @apply hidden!;
+  }
+}
