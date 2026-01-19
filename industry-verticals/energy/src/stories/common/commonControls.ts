@@ -99,13 +99,13 @@ export type TitleAlignmentArgs = {
 export const TitleAlignmentArgTypes: ArgTypes = {
   TitleAlignment: {
     control: 'select',
-    name: 'Title alignment',
-    options: ['', 'Align title left', 'Align title right', 'Align title center'],
+    name: 'Header text alignment',
+    options: ['', 'Align header text left', 'Align header text right', 'Align header text center'],
     mapping: {
       '': '',
-      'Align title left': 'title-position-left',
-      'Align title right': 'title-position-right',
-      'Align title center': 'title-position-center',
+      'Align header text left': 'header-text-position-left',
+      'Align header text right': 'header-text-position-right',
+      'Align header text center': 'header-text-position-center',
     },
   },
 };
