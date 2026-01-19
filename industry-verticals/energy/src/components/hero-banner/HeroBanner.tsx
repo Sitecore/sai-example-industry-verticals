@@ -71,29 +71,19 @@ export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
           </h1>
 
           {/* Description/Tagline - white text */}
-          <div className="**:text-background mt-4 max-w-7/12 **:text-center text-xl">
+          <div className="**:text-background mt-4 max-w-7/12 text-xl **:text-center">
             <ContentSdkRichText field={fields.Description} />
           </div>
 
           {/* CTA Buttons */}
           {(fields?.CtaLink || fields?.SecondaryCtaLink) && (
             <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center">
-              {fields?.CtaLink && (
-                <Link field={fields.CtaLink} className="main-btn min-w-[200px] px-6 py-2" />
-              )}
+              {fields?.CtaLink && <Link field={fields.CtaLink} className="main-btn px-6!" />}
               {fields?.SecondaryCtaLink && (
-                <Link
-                  field={fields.SecondaryCtaLink}
-                  className="border-foreground bg-background text-foreground hover:bg-background-muted flex min-w-[180px] items-center justify-center rounded-md border-2 px-6 py-2 text-center text-lg font-semibold transition-all hover:shadow-md"
-                />
+                <Link field={fields.SecondaryCtaLink} className="secondary-btn" />
               )}
             </div>
           )}
-
-          {/* Placeholder */}
-          <div className="mt-8 w-full max-w-5xl px-4">
-            <Placeholder name={flightSearchPlaceholderKey} rendering={rendering} />
-          </div>
         </div>
       </div>
     </div>

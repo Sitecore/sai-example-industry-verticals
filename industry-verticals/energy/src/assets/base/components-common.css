@@ -31,7 +31,15 @@
 }
 
 .main-btn {
-  @apply bg-accent text-background hover:bg-accent/95 flex items-center justify-center rounded-md p-3 text-center text-lg font-semibold transition-all hover:shadow-md;
+   @apply bg-accent text-background hover:bg-accent/95 flex items-center justify-center rounded-md p-3 text-center text-lg font-semibold transition-all hover:shadow-md;
+
+  &[disabled] {
+    @apply pointer-events-none opacity-60;
+  }
+}
+
+.secondary-btn {
+  @apply border-foreground bg-background text-foreground hover:bg-background-muted flex items-center justify-center rounded-md border-2 px-8 py-2 text-center text-lg font-semibold transition-all hover:shadow-md;
 
   &[disabled] {
     @apply pointer-events-none opacity-60;
