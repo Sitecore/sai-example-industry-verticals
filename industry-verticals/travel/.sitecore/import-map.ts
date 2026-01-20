@@ -14,7 +14,7 @@ import { useI18n } from 'next-localization';
 import { faFacebookF, faInstagram, faLinkedinIn, faTwitter, faYoutube, faPinterestP } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
-import { ArrowRight, Share2, ArrowLeft, ChevronLeft, ChevronRight, Phone, Plane, Bed, Camera, Navigation, CalendarDays, Clock, MapPin, Star, Thermometer, LoaderCircle, X, Search, Users, ChevronDown, Check, Menu, Heart, Calendar, User } from 'lucide-react';
+import { ArrowRight, Share2, ArrowLeft, ChevronLeft, ChevronRight, Phone, Plane, Bed, Camera, Navigation, CalendarDays, Clock, MapPin, Star, Thermometer, LoaderCircle, Check, ChevronDown, X, Search, Users, Menu, Heart, Calendar, User } from 'lucide-react';
 import * as LucidIcons from 'lucide-react';
 import { LayoutStyles, PromoFlags, HeroBannerStyles, TitleSectionFlags } from '@/types/styleFlags';
 import { newsDateFormatter } from '@/helpers/dateHelper';
@@ -27,7 +27,7 @@ import { EmailIcon, EmailShareButton, FacebookIcon, FacebookShareButton, Linkedi
 import { usePagination } from '@/hooks/usePagination';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/shadcn/components/ui/tabs';
 import Image_5d8ce56058442d94361877e28c501c951a554a6a from 'next/image';
-import { usePreviewSearchActions, useSearchResultsActions, WidgetDataType, useSearchResults, widget, useQuestions, usePreviewSearch, FilterEqual } from '@sitecore-search/react';
+import { usePreviewSearchActions, useSearchResultsActions, WidgetDataType, useSearchResults, widget, useQuestions, usePreviewSearch, FilterEqual, useSearchResultsSelectedFacets } from '@sitecore-search/react';
 import { PreviewSearch, SortSelect, Pagination, AccordionFacets, FacetItem, RangeFacet, SearchResultsAccordionFacets, SearchResultsFacetValueRange, Select, ArticleCard, CardViewSwitcher as CardViewSwitcher_b6c381477cbf12fc0dc4f9aeb9e8e41e943b6ea7 } from '@sitecore-search/ui';
 import { GridIcon, ListBulletIcon, CheckIcon, ChevronDownIcon } from '@radix-ui/react-icons';
 import HomeHighlighted from 'src/components/non-sitecore/search/HomeHighlighted';
@@ -54,6 +54,7 @@ import { Drawer, DrawerTrigger, DrawerContent, DrawerClose } from '@/shadcn/comp
 import { DatePicker } from '@/shadcn/components/ui/date-picker';
 import PreviewSearch_938f3b0320996fc3fe6ab3d953daf2e708e085ca from 'src/components/non-sitecore/search/PreviewSearch';
 import DestinationCard from 'src/components/non-sitecore/DestinationCard';
+import FilterDropdown from 'src/components/non-sitecore/search/FilterDropdown';
 import Head from 'next/head';
 import SocialShare from 'src/components/non-sitecore/SocialShare';
 import { DestinationHighlights } from 'src/components/non-sitecore/DestinationHighlights';
@@ -143,11 +144,11 @@ const importMap = [
       { name: 'Star', value: Star },
       { name: 'Thermometer', value: Thermometer },
       { name: 'LoaderCircle', value: LoaderCircle },
+      { name: 'Check', value: Check },
+      { name: 'ChevronDown', value: ChevronDown },
       { name: 'X', value: X },
       { name: 'Search', value: Search },
       { name: 'Users', value: Users },
-      { name: 'ChevronDown', value: ChevronDown },
-      { name: 'Check', value: Check },
       { name: 'Menu', value: Menu },
       { name: 'Heart', value: Heart },
       { name: 'Calendar', value: Calendar },
@@ -252,6 +253,7 @@ const importMap = [
       { name: 'useQuestions', value: useQuestions },
       { name: 'usePreviewSearch', value: usePreviewSearch },
       { name: 'FilterEqual', value: FilterEqual },
+      { name: 'useSearchResultsSelectedFacets', value: useSearchResultsSelectedFacets },
     ]
   },
   {
@@ -436,6 +438,12 @@ const importMap = [
     module: 'src/components/non-sitecore/DestinationCard',
     exports: [
       { name: 'default', value: DestinationCard },
+    ]
+  },
+  {
+    module: 'src/components/non-sitecore/search/FilterDropdown',
+    exports: [
+      { name: 'default', value: FilterDropdown },
     ]
   },
   {

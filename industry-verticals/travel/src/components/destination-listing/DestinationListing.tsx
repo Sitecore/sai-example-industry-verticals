@@ -1,13 +1,12 @@
 'use client';
 
-import { useState, useMemo, useRef, useEffect } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { Destination, DestinationSearchResult } from '@/types/destination';
 import DestinationCard from '../non-sitecore/DestinationCard';
 import { ComponentProps } from '@/lib/component-props';
 import { useI18n } from 'next-localization';
 import {
   useSearchResults,
-  useSearchResultsActions,
   widget,
   WidgetDataType,
   type SearchResultsInitialState,
@@ -15,13 +14,8 @@ import {
 } from '@sitecore-search/react';
 import Spinner from '../non-sitecore/search/Spinner';
 import { HeroBannerStyles, TitleSectionFlags } from '@/types/styleFlags';
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuTrigger,
-} from '@/shadcn/components/ui/dropdown-menu';
-import { Check, ChevronDown, Search } from 'lucide-react';
-import { AccordionFacets, FacetItem, SearchResultsAccordionFacets } from '@sitecore-search/ui';
+import { Search } from 'lucide-react';
+import FilterDropdown from '../non-sitecore/search/FilterDropdown';
 
 export interface DestinationListingProps extends ComponentProps {
   params: { [key: string]: string };
@@ -127,79 +121,6 @@ const DestinationListingInner = (props: DestinationListingProps) => {
   const activityOptions = useMemo(() => getFacetOptions(facets, 'activities'), [facets, t]);
 
   const selectedFacets = useSearchResultsSelectedFacets();
-
-  const FilterDropdown = ({
-    options,
-    selectedValues = [],
-    placeholder,
-    facetId,
-    onFacetClick,
-  }: {
-    options: { label: string; value: string; id: string }[];
-    selectedValues: string[];
-    placeholder: string;
-    facetId: string;
-    onFacetClick: ReturnType<typeof useSearchResultsActions>['onFacetClick'];
-  }) => {
-    const triggerRef = useRef<HTMLButtonElement>(null);
-    const [triggerWidth, setTriggerWidth] = useState<number>(0);
-
-    useEffect(() => {
-      if (triggerRef.current) {
-        setTriggerWidth(triggerRef.current.offsetWidth);
-      }
-    }, []);
-
-    return (
-      <DropdownMenu>
-        <DropdownMenuTrigger asChild>
-          <button
-            ref={triggerRef}
-            type="button"
-            className={`border-border inline-flex h-9 w-full items-center justify-between gap-2 rounded-md border bg-transparent px-4 py-1 text-xs whitespace-nowrap shadow-xs focus:outline-none ${
-              selectedValues?.length > 0 ? 'text-foreground' : 'text-foreground-muted'
-            }`}
-          >
-            <span>{placeholder}</span>{' '}
-            <div className="flex items-center gap-2">
-              {selectedValues?.length > 0 && (
-                <span className="bg-accent/20 text-accent ml-1 rounded-full px-2 py-0.5 text-xs font-bold">
-                  {selectedValues.length}
-                </span>
-              )}
-              <ChevronDown size={16} className="text-foreground-muted shrink-0" />
-            </div>
-          </button>
-        </DropdownMenuTrigger>
-
-        <DropdownMenuContent align="start" style={{ minWidth: `${triggerWidth}px` }}>
-          <SearchResultsAccordionFacets onFacetValueClick={onFacetClick} className="w-full">
-            <AccordionFacets.Facet facetId={facetId}>
-              <AccordionFacets.ValueList className="flex flex-col space-y-1">
-                {options.map((option, index) => (
-                  <FacetItem
-                    key={option.id}
-                    value={option.value}
-                    {...{ index, facetValueId: option.id }}
-                    className="hover:bg-foreground-muted/10 [&:has([data-state=checked])]:bg-accent/20 flex cursor-pointer items-center px-1 py-1 text-xs"
-                  >
-                    <AccordionFacets.ItemCheckbox className="form-checkbox h-4 w-4 flex-none cursor-pointer rounded">
-                      <AccordionFacets.ItemCheckboxIndicator className="text-accent">
-                        <Check className="size-3" strokeWidth={4} />
-                      </AccordionFacets.ItemCheckboxIndicator>
-                    </AccordionFacets.ItemCheckbox>
-                    <AccordionFacets.ItemLabel className="ms-2 flex-1">
-                      {option.label}
-                    </AccordionFacets.ItemLabel>
-                  </FacetItem>
-                ))}
-              </AccordionFacets.ValueList>
-            </AccordionFacets.Facet>
-          </SearchResultsAccordionFacets>
-        </DropdownMenuContent>
-      </DropdownMenu>
-    );
-  };
 
   return (
     <>
