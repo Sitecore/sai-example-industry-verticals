@@ -11,6 +11,8 @@ import {
   WidgetDataType,
   type SearchResultsInitialState,
   useSearchResultsSelectedFacets,
+  SearchResponseFacet,
+  SearchResponseFacetItem,
 } from '@sitecore-search/react';
 import Spinner from '../non-sitecore/search/Spinner';
 import { HeroBannerStyles, TitleSectionFlags } from '@/types/styleFlags';
@@ -99,12 +101,12 @@ const DestinationListingInner = (props: DestinationListingProps) => {
     facetValueId: string;
   };
 
-  const getFacetOptions = (facets: any[], facetName: string): FacetOption[] => {
+  const getFacetOptions = (facets: SearchResponseFacet[], facetName: string): FacetOption[] => {
     const facet = facets.find((f) => f.name === facetName);
 
     if (!facet) return [];
 
-    const options = facet.value.map((v: any, index: number) => ({
+    const options = facet.value.map((v: SearchResponseFacetItem, index: number) => ({
       label: `${v.text} (${v.count})`,
       value: v.text,
       id: v.id,
