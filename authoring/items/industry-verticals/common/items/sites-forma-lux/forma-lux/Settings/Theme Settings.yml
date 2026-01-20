@@ -9,7 +9,7 @@ SharedFields:
   Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "a275e436-420c-4fd5-8692-c60257f83d49"
+  Value: "985b950c-d17e-4f79-ab6c-c8aca7aad115"
 - ID: "f4f80dc4-7985-4bba-a11e-4daebba94481"
   Hint: ThemeDefaults
   Value: |
@@ -181,14 +181,14 @@ Languages:
         
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e56ea9f6-3d32-4145-9d03-bff83a93d494"
+      Value: "06f26a16-9a7d-4876-9724-a22e1e563ce6"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\INIwVuCCf0fzziGGBdz0UepKJ8K6him7
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260107T224826Z
+      Value: 20260120T125042Z
 - Language: "es-ES"
   Versions:
   - Version: 1
