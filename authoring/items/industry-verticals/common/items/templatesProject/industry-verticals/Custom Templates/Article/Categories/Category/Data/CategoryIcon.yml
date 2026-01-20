@@ -2,7 +2,7 @@
 ID: "f258fdef-13ab-4614-93ff-ac8487d0e8ab"
 Parent: "7183ec92-714b-455a-a576-5dac1de42934"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: "/sitecore/templates/Project/industry-verticals/Custom Templates/Article/Categories/Category/Data/CategorIcon"
+Path: "/sitecore/templates/Project/industry-verticals/Custom Templates/Article/Categories/Category/Data/CategoryIcon"
 SharedFields:
 - ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
   Hint: Source
@@ -37,11 +37,11 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "39c0cc85-0e06-41a1-9530-1b570d5c80e3"
+      Value: "9c04626a-2698-4f87-9097-2e729469590a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260120T114724Z
+      Value: 20260120T115243Z
