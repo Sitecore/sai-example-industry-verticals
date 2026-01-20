@@ -43,8 +43,6 @@ export const Default = ({ params, fields, rendering }: ArticleDetailsProps) => {
     );
   }
 
-  console.log('Article Details Fields:', fields);
-
   return (
     <div className={`w-full space-y-6 py-6 ${styles}`} id={id}>
       <div className="container">
