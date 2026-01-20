@@ -20,6 +20,7 @@ import * as Footer from 'src/components/footer/Footer';
 import * as ContentBlock from 'src/components/content-block/ContentBlock';
 import * as Container from 'src/components/container/Container';
 import * as ColumnSplitter from 'src/components/column-splitter/ColumnSplitter';
+import * as ArticleDetails from 'src/components/article-details/ArticleDetails';
 
 export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['BYOCWrapper', BYOCWrapper],
@@ -41,6 +42,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['ContentBlock', { ...ContentBlock }],
   ['Container', { ...Container }],
   ['ColumnSplitter', { ...ColumnSplitter }],
+  ['ArticleDetails', { ...ArticleDetails }],
 ]);
 
 export default componentMap;

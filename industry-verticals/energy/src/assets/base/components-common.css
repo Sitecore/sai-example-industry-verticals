@@ -45,3 +45,23 @@
     @apply pointer-events-none opacity-60;
   }
 }
+
+.simple-btn {
+  @apply bg-background-muted flex items-center gap-2 rounded-md border px-2 py-1 text-sm font-semibold shadow-sm transition-all;
+
+  &:hover {
+    @apply shadow-md;
+  }
+
+  &[disabled] {
+    @apply pointer-events-none opacity-60;
+  }
+
+  svg {
+    @apply size-4;
+  }
+
+  &.inverted {
+    @apply bg-foreground text-background hover:bg-foreground/90;
+  }
+}
