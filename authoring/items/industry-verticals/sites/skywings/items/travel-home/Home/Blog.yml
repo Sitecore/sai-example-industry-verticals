@@ -16,7 +16,7 @@ SharedFields:
     <image mediaid="{C3A3C908-7AE2-48A0-8244-1CAE4F6885CD}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "2e66655f-18ad-46c1-8990-558613057584"
+  Value: "aa3532e2-1dab-4b87-860d-54ca7186e073"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -29,7 +29,7 @@ SharedFields:
           p:before="*"
           s:ds="bbfff85e-c819-4de1-8ad5-c973c87ce5b2"
           s:id="{B49CF2D7-7CB2-4918-8F38-2607D956D995}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B1666B121-2334-42E0-ADC4-F2AF556A5E7D%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B1666B121-2334-42E0-ADC4-F2AF556A5E7D%7D&amp;Styles=%7C%7BCF94162F-6E0A-40BA-B99B-856C660CBAEA%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
           s:ph="headless-main" />
         <r
           uid="{BC34B992-3A47-4B02-BAB3-3B6077948B04}"
@@ -67,11 +67,11 @@ Languages:
       Value: <p>Fresh travel inspiration and tips</p>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "683f1f4e-0e32-4f20-88a8-4078e4947d9f"
+      Value: "e51b86cf-6093-4eb6-bac8-f78fb7b0ef0a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\tharuka.bandara@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251231T155400Z
+      Value: 20260120T144420Z
