@@ -27,66 +27,61 @@ export const navRoot = {
 
 export const topLevelPages = [
   {
-    ...createNavItem('Furniture'),
+    ...createNavItem('Articles'),
     Styles: ['level1', 'item0', 'odd', 'first'],
   },
   {
-    ...createNavItem('Decor'),
+    ...createNavItem('Committees and Groups'),
     Styles: ['level1', 'item1', 'even'],
   },
   {
-    ...createNavItem('About us'),
+    ...createNavItem('Services'),
     Styles: ['level1', 'item1', 'even'],
     Children: [
       {
-        ...createNavItem('Our story'),
+        ...createNavItem('Service Name 1'),
         Styles: ['level2', 'item0', 'odd', 'first'],
       },
       {
-        ...createNavItem('Our team'),
+        ...createNavItem('Service Name 2'),
         Styles: ['level2', 'item1', 'even'],
       },
       {
-        ...createNavItem('Careers'),
+        ...createNavItem('Service Name 3'),
         Styles: ['level2', 'item2', 'odd', 'last'],
       },
     ],
   },
   {
-    ...createNavItem('Contact'),
-    Styles: ['level1', 'submenu', 'item2', 'odd', 'last'],
+    ...createNavItem('Alerts'),
+    Styles: ['level1', 'submenu', 'item2', 'odd'],
+  },
+  {
+    ...createNavItem('Grid Status'),
+    Styles: ['level1', 'submenu', 'item3', 'odd', 'last'],
   },
 ];
 
 export const flatTopLevelPages = [
   {
-    ...createNavItem('Furniture'),
+    ...createNavItem('Articles'),
     Styles: ['level0', 'item0', 'odd', 'first', 'flat-level1'],
   },
   {
-    ...createNavItem('Decor'),
+    ...createNavItem('Committees and Groups'),
     Styles: ['level0', 'item1', 'even', 'flat-level1'],
   },
   {
-    ...createNavItem('About us'),
+    ...createNavItem('Services'),
     Styles: ['level0', 'item1', 'even', 'flat-level1'],
   },
   {
-    ...createNavItem('Our story'),
+    ...createNavItem('Alerts'),
     Styles: ['level0', 'item0', 'odd', 'first', 'flat-level2'],
   },
   {
-    ...createNavItem('Our team'),
+    ...createNavItem('Grid Status'),
     Styles: ['level0', 'item1', 'even', 'flat-level2'],
-  },
-  {
-    ...createNavItem('Careers'),
-    Styles: ['level0', 'item2', 'odd', 'last', 'flat-level2'],
-  },
-
-  {
-    ...createNavItem('Contact'),
-    Styles: ['level0', 'submenu', 'item2', 'odd', 'last', 'flat-level1'],
   },
 ];
 

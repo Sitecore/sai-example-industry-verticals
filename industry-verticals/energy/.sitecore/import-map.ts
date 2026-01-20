@@ -10,19 +10,22 @@ import {
 import { Link, Text, useSitecore, Placeholder, RichText, NextImage, CdpHelper, withDatasourceCheck, DateField } from '@sitecore-content-sdk/nextjs';
 import { useState, useRef, useEffect } from 'react';
 import React from 'react';
-import { isParamEnabled } from '@/helpers/isParamEnabled';
+import { faFacebookF, faInstagram, faLinkedinIn, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { LayoutStyles } from '@/types/styleFlags';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/shadcn/components/ui/dropdown-menu';
-import { Share2, ChevronLeft, ChevronDown, Bookmark, Calendar, User } from 'lucide-react';
+import { Share2, ChevronLeft, ArrowLeft, X, Menu, Bookmark, Calendar, User } from 'lucide-react';
 import { useI18n } from 'next-localization';
 import { EmailIcon, EmailShareButton, FacebookIcon, FacebookShareButton, LinkedinIcon, LinkedinShareButton, PinterestIcon, PinterestShareButton, TwitterIcon, TwitterShareButton } from 'react-share';
 import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
 import { usePathname } from 'next/navigation';
-import HamburgerIcon from '@/components/non-sitecore/HamburgerIcon';
 import { useClickAway } from '@/hooks/useClickAway';
 import { useStopResponsiveTransition } from '@/hooks/useStopResponsiveTransition';
 import { extractMediaUrl } from '@/helpers/extractMediaUrl';
 import { getLinkContent, getLinkField, isNavLevel, isNavRootItem, prepareFields } from '@/helpers/navHelpers';
 import clsx from 'clsx';
+import { isParamEnabled } from '@/helpers/isParamEnabled';
+import { Drawer, DrawerTrigger, DrawerContent, DrawerClose } from '@/shadcn/components/ui/drawer';
 import Head from 'next/head';
 import client from 'lib/sitecore-client';
 import Image from 'next/image';
@@ -59,9 +62,25 @@ const importMap = [
     ]
   },
   {
-    module: '@/helpers/isParamEnabled',
+    module: '@fortawesome/free-brands-svg-icons',
     exports: [
-      { name: 'isParamEnabled', value: isParamEnabled },
+      { name: 'faFacebookF', value: faFacebookF },
+      { name: 'faInstagram', value: faInstagram },
+      { name: 'faLinkedinIn', value: faLinkedinIn },
+      { name: 'faTwitter', value: faTwitter },
+      { name: 'faYoutube', value: faYoutube },
+    ]
+  },
+  {
+    module: '@fortawesome/react-fontawesome',
+    exports: [
+      { name: 'FontAwesomeIcon', value: FontAwesomeIcon },
+    ]
+  },
+  {
+    module: '@/types/styleFlags',
+    exports: [
+      { name: 'LayoutStyles', value: LayoutStyles },
     ]
   },
   {
@@ -78,7 +97,9 @@ const importMap = [
     exports: [
       { name: 'Share2', value: Share2 },
       { name: 'ChevronLeft', value: ChevronLeft },
-      { name: 'ChevronDown', value: ChevronDown },
+      { name: 'ArrowLeft', value: ArrowLeft },
+      { name: 'X', value: X },
+      { name: 'Menu', value: Menu },
       { name: 'Bookmark', value: Bookmark },
       { name: 'Calendar', value: Calendar },
       { name: 'User', value: User },
@@ -118,12 +139,6 @@ const importMap = [
     ]
   },
   {
-    module: '@/components/non-sitecore/HamburgerIcon',
-    exports: [
-      { name: 'default', value: HamburgerIcon },
-    ]
-  },
-  {
     module: '@/hooks/useClickAway',
     exports: [
       { name: 'useClickAway', value: useClickAway },
@@ -155,6 +170,21 @@ const importMap = [
     module: 'clsx',
     exports: [
       { name: 'default', value: clsx },
+    ]
+  },
+  {
+    module: '@/helpers/isParamEnabled',
+    exports: [
+      { name: 'isParamEnabled', value: isParamEnabled },
+    ]
+  },
+  {
+    module: '@/shadcn/components/ui/drawer',
+    exports: [
+      { name: 'Drawer', value: Drawer },
+      { name: 'DrawerTrigger', value: DrawerTrigger },
+      { name: 'DrawerContent', value: DrawerContent },
+      { name: 'DrawerClose', value: DrawerClose },
     ]
   },
   {
