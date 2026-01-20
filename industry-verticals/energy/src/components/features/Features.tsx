@@ -1,9 +1,8 @@
 'use client';
 
-import { IGQLImageField, IGQLRichTextField, IGQLTextField } from 'src/types/igql';
+import { IGQLImageField, IGQLRichTextField, IGQLTextField, IGQLLinkField } from 'src/types/igql';
 import {
   Text as ContentSdkText,
-  RichText as ContentSdkRichText,
   NextImage as ContentSdkImage,
   Link as ContentSdkLink,
   withDatasourceCheck,
@@ -30,7 +29,7 @@ interface FeatureFields {
   featureDescription: IGQLTextField;
   featureImage: IGQLImageField;
   featureImageDark?: IGQLImageField;
-  featureLink?: IGQLTextField;
+  featureLink?: IGQLLinkField;
 }
 
 type FeaturesProps = {
@@ -61,10 +60,7 @@ const FeatureItem = ({
         </p>
         {feature?.featureLink?.jsonValue ? (
           <div className="mt-2">
-            <ContentSdkLink
-              field={feature.featureLink.jsonValue as any}
-              className="border-border hover:bg-background-muted rounded-md border px-4 py-1.5 text-sm transition-colors"
-            />
+            <ContentSdkLink field={feature.featureLink.jsonValue} className="outline-btn" />
           </div>
         ) : null}
       </li>
@@ -138,4 +134,3 @@ const CardFeatures = ({ fields, params }: FeaturesProps) => {
 
 export const Default = withDatasourceCheck()<FeaturesProps>(DefaultFeatures);
 export const Card = withDatasourceCheck()<FeaturesProps>(CardFeatures);
-

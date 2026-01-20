@@ -17,6 +17,8 @@ type StoryProps = ComponentProps<typeof Default> &
     numberOfItems: number;
   };
 
+type FieldsType = ComponentProps<typeof Default>['fields'];
+
 const meta = {
   title: 'Page Content/Features',
   component: Default,
@@ -66,8 +68,9 @@ export const DefaultFeatures: Story = {
             count: args.numberOfItems,
             topLevelFields: {
               title: createIGQLField(createTextField('Tips for Energy Conservation')),
+              description: createIGQLField(createRichTextField(1)),
             },
-          }) as any
+          }) as unknown as FieldsType
         }
         params={params}
         rendering={baseRendering}
@@ -97,7 +100,7 @@ export const CardFeatures: Story = {
               title: createIGQLField(createTextField('Quick Actions')),
               description: createIGQLField(createRichTextField(1)),
             },
-          }) as any
+          }) as unknown as FieldsType
         }
         params={params}
         rendering={baseRendering}
@@ -105,4 +108,3 @@ export const CardFeatures: Story = {
     );
   },
 };
-

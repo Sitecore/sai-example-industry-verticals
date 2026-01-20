@@ -22,4 +22,3 @@ export const createFeatureItems = (count: number) =>
     featureImageDark: createIGQLField(createImageField()),
     featureLink: createIGQLField(createLinkField('Sign Up')),
   }));
-

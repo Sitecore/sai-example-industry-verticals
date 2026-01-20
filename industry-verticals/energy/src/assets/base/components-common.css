@@ -37,3 +37,7 @@
     @apply pointer-events-none opacity-60;
   }
 }
+
+.outline-btn {
+  @apply border-border hover:bg-background-muted rounded-md border px-4 py-1.5 text-sm transition-colors;
+}
