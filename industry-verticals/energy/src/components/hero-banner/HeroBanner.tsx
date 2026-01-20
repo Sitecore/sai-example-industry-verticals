@@ -6,7 +6,6 @@ import {
   Text as ContentSdkText,
   RichText as ContentSdkRichText,
   useSitecore,
-  Placeholder,
   Link,
 } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from '@/lib/component-props';
@@ -24,11 +23,10 @@ interface HeroBannerProps extends ComponentProps {
   fields: Fields;
 }
 
-export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
+export const Default = ({ params, fields }: HeroBannerProps) => {
   const { page } = useSitecore();
   const { styles, RenderingIdentifier: id } = params;
   const isPageEditing = page.mode.isEditing;
-  const flightSearchPlaceholderKey = `hero-banner-search-bar-${params.DynamicPlaceholderId}`;
 
   if (!fields) {
     return isPageEditing ? (
