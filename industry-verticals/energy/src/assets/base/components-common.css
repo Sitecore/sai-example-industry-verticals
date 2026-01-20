@@ -31,7 +31,7 @@
 }
 
 .main-btn {
-   @apply bg-accent text-background hover:bg-accent/95 flex items-center justify-center rounded-md p-3 text-center text-lg font-semibold transition-all hover:shadow-md;
+  @apply bg-accent text-background hover:bg-accent/95 flex items-center justify-center rounded-md px-6 py-3 text-center text-lg font-semibold transition-all hover:shadow-md;
 
   &[disabled] {
     @apply pointer-events-none opacity-60;

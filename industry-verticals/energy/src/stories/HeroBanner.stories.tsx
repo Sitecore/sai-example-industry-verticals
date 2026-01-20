@@ -2,7 +2,6 @@ import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 import { ComponentProps } from 'react';
 import { Default as HeroBanner } from '../components/hero-banner/HeroBanner';
 import { CommonParams, CommonRendering } from './common/commonData';
-import { renderStorybookPlaceholder } from './helpers/renderStorybookPlaceholder';
 import {
   createImageField,
   createLinkField,
@@ -48,16 +47,7 @@ export const Default: Story = {
   render: () => {
     const fields = createHeroBannerFields();
 
-    const placeholderKey = `hero-banner-search-bar-${baseParams.DynamicPlaceholderId}`;
-
-    const rendering = {
-      ...baseRendering,
-      placeholders: {
-        [placeholderKey]: [renderStorybookPlaceholder()],
-      },
-    };
-
-    return <HeroBanner params={baseParams} rendering={rendering} fields={fields} />;
+    return <HeroBanner params={baseParams} rendering={baseRendering} fields={fields} />;
   },
 };
 
@@ -68,16 +58,7 @@ export const WithVideo: Story = {
       Video: createImageField('placeholder'),
     };
 
-    const placeholderKey = `hero-banner-search-bar-${baseParams.DynamicPlaceholderId}`;
-
-    const rendering = {
-      ...baseRendering,
-      placeholders: {
-        [placeholderKey]: [renderStorybookPlaceholder()],
-      },
-    };
-
-    return <HeroBanner params={baseParams} rendering={rendering} fields={fields} />;
+    return <HeroBanner params={baseParams} rendering={baseRendering} fields={fields} />;
   },
 };
 
@@ -100,15 +81,6 @@ export const WithSingleCTA: Story = {
       },
     };
 
-    const placeholderKey = `hero-banner-search-bar-${baseParams.DynamicPlaceholderId}`;
-
-    const rendering = {
-      ...baseRendering,
-      placeholders: {
-        [placeholderKey]: [renderStorybookPlaceholder()],
-      },
-    };
-
-    return <HeroBanner params={baseParams} rendering={rendering} fields={fields} />;
+    return <HeroBanner params={baseParams} rendering={baseRendering} fields={fields} />;
   },
 };

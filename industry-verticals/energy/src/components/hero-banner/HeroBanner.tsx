@@ -76,7 +76,7 @@ export const Default = ({ params, fields }: HeroBannerProps) => {
           {/* CTA Buttons */}
           {(fields?.CtaLink || fields?.SecondaryCtaLink) && (
             <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center">
-              {fields?.CtaLink && <Link field={fields.CtaLink} className="main-btn px-6!" />}
+              {fields?.CtaLink && <Link field={fields.CtaLink} className="main-btn" />}
               {fields?.SecondaryCtaLink && (
                 <Link field={fields.SecondaryCtaLink} className="secondary-btn" />
               )}
