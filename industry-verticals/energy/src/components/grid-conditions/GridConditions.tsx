@@ -70,7 +70,7 @@ const SectionGrid = () => {
 
         <div className="info-card">
           <h6 className="flex items-center justify-between gap-4 text-sm font-semibold">
-            {t('grid_avaliable_capacity') || 'Available Capacity'}
+            {t('grid_available_capacity') || 'Available Capacity'}
             <Activity className="text-accent-dark size-4" />
           </h6>
           <p className="text-foreground">
