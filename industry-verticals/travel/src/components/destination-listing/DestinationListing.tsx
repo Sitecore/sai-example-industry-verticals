@@ -17,7 +17,7 @@ import {
 import { HeroBannerStyles, TitleSectionFlags } from '@/types/styleFlags';
 import { LoaderCircle, Search } from 'lucide-react';
 import FilterDropdown from '../non-sitecore/search/FilterDropdown';
-import { SEARCH_WIDGET_ID } from '@/constants/search';
+import { DESTINATIONS_WIDGET_ID, SEARCH_WIDGET_ID } from '@/constants/search';
 
 export interface DestinationListingProps extends ComponentProps {
   params: { [key: string]: string };
@@ -254,7 +254,7 @@ export const Default = (props: DestinationListingProps) => {
       className={`component destination-listing ${props?.params?.styles?.trimEnd()}`}
       id={id}
     >
-      <DestinationListingWidget rfkId={SEARCH_WIDGET_ID} {...props} />
+      <DestinationListingWidget rfkId={DESTINATIONS_WIDGET_ID} {...props} />
     </section>
   );
 };
