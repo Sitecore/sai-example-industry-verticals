@@ -1,0 +1,27 @@
+.grid-load-status {
+  @apply inline-flex items-center gap-2 rounded-md border px-2 py-1 text-xs font-bold uppercase;
+
+  &[data-status='normal'] {
+    @apply text-success bg-success/5 border-success/50;
+  }
+
+  &[data-status='warning'] {
+    @apply text-warning bg-warning/5 border-warning/50;
+  }
+
+  &[data-status='critical'] {
+    @apply text-danger bg-danger/5 border-danger/50;
+  }
+}
+
+.grid-outage-status {
+  @apply inline-flex items-center gap-2 rounded-md px-2 py-1 text-xs font-bold;
+
+  &[data-status='restored'] {
+    @apply text-foreground-light bg-background-muted;
+  }
+
+  &[data-status='active'] {
+    @apply text-background bg-danger;
+  }
+}

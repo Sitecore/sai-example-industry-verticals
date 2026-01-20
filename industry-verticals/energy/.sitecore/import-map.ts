@@ -13,7 +13,7 @@ import React from 'react';
 import { faFacebookF, faInstagram, faLinkedinIn, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { LayoutStyles } from '@/types/styleFlags';
-import { ArrowLeft, X, Menu } from 'lucide-react';
+import { ArrowLeft, X, Menu, Activity, Thermometer, TrendingDown, TrendingUp, Unplug, Zap } from 'lucide-react';
 import { useClickAway } from '@/hooks/useClickAway';
 import { useStopResponsiveTransition } from '@/hooks/useStopResponsiveTransition';
 import { extractMediaUrl } from '@/helpers/extractMediaUrl';
@@ -21,6 +21,9 @@ import { getLinkContent, getLinkField, isNavLevel, isNavRootItem, prepareFields 
 import clsx from 'clsx';
 import { isParamEnabled } from '@/helpers/isParamEnabled';
 import { Drawer, DrawerTrigger, DrawerContent, DrawerClose } from '@/shadcn/components/ui/drawer';
+import { useI18n } from 'next-localization';
+import { Progress } from '@/shadcn/components/ui/progress';
+import { GRID_CONDITIONS_DATA } from 'src/components/grid-conditions/gridData';
 import Head from 'next/head';
 import client from 'lib/sitecore-client';
 import Image from 'next/image';
@@ -80,6 +83,12 @@ const importMap = [
       { name: 'ArrowLeft', value: ArrowLeft },
       { name: 'X', value: X },
       { name: 'Menu', value: Menu },
+      { name: 'Activity', value: Activity },
+      { name: 'Thermometer', value: Thermometer },
+      { name: 'TrendingDown', value: TrendingDown },
+      { name: 'TrendingUp', value: TrendingUp },
+      { name: 'Unplug', value: Unplug },
+      { name: 'Zap', value: Zap },
     ]
   },
   {
@@ -129,6 +138,24 @@ const importMap = [
       { name: 'DrawerTrigger', value: DrawerTrigger },
       { name: 'DrawerContent', value: DrawerContent },
       { name: 'DrawerClose', value: DrawerClose },
+    ]
+  },
+  {
+    module: 'next-localization',
+    exports: [
+      { name: 'useI18n', value: useI18n },
+    ]
+  },
+  {
+    module: '@/shadcn/components/ui/progress',
+    exports: [
+      { name: 'Progress', value: Progress },
+    ]
+  },
+  {
+    module: 'src/components/grid-conditions/gridData',
+    exports: [
+      { name: 'GRID_CONDITIONS_DATA', value: GRID_CONDITIONS_DATA },
     ]
   },
   {
