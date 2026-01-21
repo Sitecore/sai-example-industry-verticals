@@ -14,7 +14,7 @@ import { faFacebookF, faInstagram, faLinkedinIn, faTwitter, faYoutube } from '@f
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { LayoutStyles } from '@/types/styleFlags';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/shadcn/components/ui/dropdown-menu';
-import { Share2, ChevronLeft, ArrowLeft, X, Menu, Bookmark, Calendar, User } from 'lucide-react';
+import { Share2, ChevronLeft, ArrowLeft, X, Menu, Activity, Thermometer, TrendingDown, TrendingUp, Unplug, Zap, Bookmark, Calendar, User } from 'lucide-react';
 import { useI18n } from 'next-localization';
 import { EmailIcon, EmailShareButton, FacebookIcon, FacebookShareButton, LinkedinIcon, LinkedinShareButton, PinterestIcon, PinterestShareButton, TwitterIcon, TwitterShareButton } from 'react-share';
 import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
@@ -26,6 +26,8 @@ import { getLinkContent, getLinkField, isNavLevel, isNavRootItem, prepareFields 
 import clsx from 'clsx';
 import { isParamEnabled } from '@/helpers/isParamEnabled';
 import { Drawer, DrawerTrigger, DrawerContent, DrawerClose } from '@/shadcn/components/ui/drawer';
+import { Progress } from '@/shadcn/components/ui/progress';
+import { GRID_CONDITIONS_DATA } from 'src/components/grid-conditions/gridData';
 import Head from 'next/head';
 import client from 'lib/sitecore-client';
 import Image from 'next/image';
@@ -100,6 +102,12 @@ const importMap = [
       { name: 'ArrowLeft', value: ArrowLeft },
       { name: 'X', value: X },
       { name: 'Menu', value: Menu },
+      { name: 'Activity', value: Activity },
+      { name: 'Thermometer', value: Thermometer },
+      { name: 'TrendingDown', value: TrendingDown },
+      { name: 'TrendingUp', value: TrendingUp },
+      { name: 'Unplug', value: Unplug },
+      { name: 'Zap', value: Zap },
       { name: 'Bookmark', value: Bookmark },
       { name: 'Calendar', value: Calendar },
       { name: 'User', value: User },
@@ -185,6 +193,18 @@ const importMap = [
       { name: 'DrawerTrigger', value: DrawerTrigger },
       { name: 'DrawerContent', value: DrawerContent },
       { name: 'DrawerClose', value: DrawerClose },
+    ]
+  },
+  {
+    module: '@/shadcn/components/ui/progress',
+    exports: [
+      { name: 'Progress', value: Progress },
+    ]
+  },
+  {
+    module: 'src/components/grid-conditions/gridData',
+    exports: [
+      { name: 'GRID_CONDITIONS_DATA', value: GRID_CONDITIONS_DATA },
     ]
   },
   {

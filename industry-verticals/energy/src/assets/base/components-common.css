@@ -65,3 +65,15 @@
     @apply bg-foreground text-background hover:bg-foreground/90;
   }
 }
+
+.info-card {
+  @apply bg-background space-y-4 rounded-lg border p-6 text-sm shadow-sm;
+
+  .info-card-title {
+    @apply text-foreground mb-6 flex items-center gap-2 text-base font-bold;
+
+    svg {
+      @apply size-5;
+    }
+  }
+}
