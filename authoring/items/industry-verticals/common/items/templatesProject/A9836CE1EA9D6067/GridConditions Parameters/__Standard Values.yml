@@ -1,0 +1,23 @@
+﻿---
+ID: "24f01acd-108d-4422-a190-3a4a4dd9fc6f"
+Parent: "a2a0bf72-12a8-4d35-8df7-e1a53e2dc240"
+Template: "a2a0bf72-12a8-4d35-8df7-e1a53e2dc240"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Energy Grid/Grid Conditions/Rendering Parameters/GridConditions Parameters/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211020T140508Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ba25316b-cce9-4cb4-8bb5-0cbef24da0f4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260120T080120Z
