@@ -54,6 +54,7 @@ const baseFields = {
     ...CommonSitecoreItem,
     fields: {
       Category: createTextField('Grid Operations'),
+      CategoryIcon: createImageField('placeholder'),
     },
   },
   Tags: [

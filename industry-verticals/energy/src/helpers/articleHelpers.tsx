@@ -1,4 +1,5 @@
 import { ArticleFields } from '@/types/article';
+import { ImageField } from '@sitecore-content-sdk/nextjs';
 
 export const getArticlesCountsByCategory = (articles: { fields: ArticleFields }[]) =>
   Object.values(
@@ -16,6 +17,6 @@ export const getArticlesCountsByCategory = (articles: { fields: ArticleFields }[
 
         return acc;
       },
-      {} as Record<string, { name: string; count: number; icon: any }>
+      {} as Record<string, { name: string; count: number; icon: ImageField }>
     )
   );

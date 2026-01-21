@@ -7,18 +7,19 @@ import {
 } from '@sitecore-content-sdk/nextjs/codegen';
 // end of built-in imports
 
-import { Link, Text, useSitecore, Placeholder, RichText, NextImage, CdpHelper, withDatasourceCheck, DateField } from '@sitecore-content-sdk/nextjs';
-import { useState, useRef, useEffect } from 'react';
+import { Link, Text, useSitecore, Placeholder, RichText, NextImage, DateField, CdpHelper, withDatasourceCheck } from '@sitecore-content-sdk/nextjs';
+import { useState, useRef, useEffect, useCallback, useMemo } from 'react';
 import React from 'react';
 import { faFacebookF, faInstagram, faLinkedinIn, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { LayoutStyles } from '@/types/styleFlags';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/shadcn/components/ui/dropdown-menu';
-import { Share2, ChevronLeft, ArrowLeft, X, Menu, Bookmark, Calendar, User } from 'lucide-react';
+import { Share2, ChevronLeft, ArrowRight, Calendar, User, ArrowLeft, X, Menu, Loader2, Bookmark } from 'lucide-react';
 import { useI18n } from 'next-localization';
 import { EmailIcon, EmailShareButton, FacebookIcon, FacebookShareButton, LinkedinIcon, LinkedinShareButton, PinterestIcon, PinterestShareButton, TwitterIcon, TwitterShareButton } from 'react-share';
 import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
 import { usePathname } from 'next/navigation';
+import { newsDateFormatter } from '@/helpers/dateHelper';
 import { useClickAway } from '@/hooks/useClickAway';
 import { useStopResponsiveTransition } from '@/hooks/useStopResponsiveTransition';
 import { extractMediaUrl } from '@/helpers/extractMediaUrl';
@@ -33,9 +34,11 @@ import * as FEAAS from '@sitecore-feaas/clientside/react';
 import nextConfig from 'next.config';
 import { pageView } from '@sitecore-cloudsdk/events/browser';
 import config from 'sitecore.config';
+import { getArticlesCountsByCategory } from '@/helpers/articleHelpers';
+import InfiniteScroll from '@/shadcn/components/ui/infiniteScroll';
+import Article from 'src/components/non-sitecore/Article';
 import { ParentPathLink } from 'src/components/non-sitecore/ParentPathLink';
 import SocialShare from 'src/components/non-sitecore/SocialShare';
-import { newsDateFormatter } from '@/helpers/dateHelper';
 
 const importMap = [
   {
@@ -47,9 +50,9 @@ const importMap = [
       { name: 'Placeholder', value: Placeholder },
       { name: 'RichText', value: RichText },
       { name: 'NextImage', value: NextImage },
+      { name: 'DateField', value: DateField },
       { name: 'CdpHelper', value: CdpHelper },
       { name: 'withDatasourceCheck', value: withDatasourceCheck },
-      { name: 'DateField', value: DateField },
     ]
   },
   {
@@ -58,6 +61,8 @@ const importMap = [
       { name: 'useState', value: useState },
       { name: 'useRef', value: useRef },
       { name: 'useEffect', value: useEffect },
+      { name: 'useCallback', value: useCallback },
+      { name: 'useMemo', value: useMemo },
       { name: 'default', value: React },
     ]
   },
@@ -97,12 +102,14 @@ const importMap = [
     exports: [
       { name: 'Share2', value: Share2 },
       { name: 'ChevronLeft', value: ChevronLeft },
+      { name: 'ArrowRight', value: ArrowRight },
+      { name: 'Calendar', value: Calendar },
+      { name: 'User', value: User },
       { name: 'ArrowLeft', value: ArrowLeft },
       { name: 'X', value: X },
       { name: 'Menu', value: Menu },
+      { name: 'Loader2', value: Loader2 },
       { name: 'Bookmark', value: Bookmark },
-      { name: 'Calendar', value: Calendar },
-      { name: 'User', value: User },
     ]
   },
   {
@@ -136,6 +143,12 @@ const importMap = [
     module: 'next/navigation',
     exports: [
       { name: 'usePathname', value: usePathname },
+    ]
+  },
+  {
+    module: '@/helpers/dateHelper',
+    exports: [
+      { name: 'newsDateFormatter', value: newsDateFormatter },
     ]
   },
   {
@@ -230,6 +243,24 @@ const importMap = [
     ]
   },
   {
+    module: '@/helpers/articleHelpers',
+    exports: [
+      { name: 'getArticlesCountsByCategory', value: getArticlesCountsByCategory },
+    ]
+  },
+  {
+    module: '@/shadcn/components/ui/infiniteScroll',
+    exports: [
+      { name: 'default', value: InfiniteScroll },
+    ]
+  },
+  {
+    module: 'src/components/non-sitecore/Article',
+    exports: [
+      { name: 'default', value: Article },
+    ]
+  },
+  {
     module: 'src/components/non-sitecore/ParentPathLink',
     exports: [
       { name: 'ParentPathLink', value: ParentPathLink },
@@ -239,12 +270,6 @@ const importMap = [
     module: 'src/components/non-sitecore/SocialShare',
     exports: [
       { name: 'default', value: SocialShare },
-    ]
-  },
-  {
-    module: '@/helpers/dateHelper',
-    exports: [
-      { name: 'newsDateFormatter', value: newsDateFormatter },
     ]
   }
 ] as ImportEntry[];
