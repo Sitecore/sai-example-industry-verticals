@@ -13,7 +13,7 @@ SharedFields:
     <image mediaid="{CFBCDC2E-69F8-4F74-B919-B6FEE51640F9}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "4658f8c1-b1fa-4bfb-a8e2-8a653e5e9b8a"
+  Value: "8ead206c-9e76-4f8e-8de4-c8f332807a3b"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -54,7 +54,7 @@ SharedFields:
           p:after="*[1=2]"
           s:ds="f11ce250-55d5-4e2a-9496-d22de4cefdfe"
           s:id="{982B130A-5CF9-4664-8B8C-F6778448EC7F}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BC98906CC-3D66-4862-A9A3-1D40AD623205%7D&amp;Styles=%7C%7B22CBF555-3F38-4CAF-9BF2-7CE65200525E%7D&amp;RenderingIdentifier&amp;CSSStyles"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BC98906CC-3D66-4862-A9A3-1D40AD623205%7D&amp;Styles=%7C%7B22CBF555-3F38-4CAF-9BF2-7CE65200525E%7D%7C%7B4CE85C06-7B9C-4072-BA2B-786C48BFD6EE%7D&amp;RenderingIdentifier&amp;CSSStyles"
           s:ph="/headless-footer/footer-list-third-1" />
       </d>
     </r>
@@ -79,11 +79,11 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "49c832cb-a8d9-4ac6-9e9b-550aa3de4e96"
+      Value: "2a92b811-cffc-4997-b254-3538d1dd7e7a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260121T133951Z
+      Value: 20260121T134054Z

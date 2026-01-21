@@ -9,13 +9,15 @@ SharedFields:
   Value: "hide-title"
 - ID: "69bb49f3-da64-4b0e-abd6-184b832ff6ab"
   Hint: Allowed Renderings
-  Value: "{4956263D-1195-4D6E-931B-800EA625FF6F}"
+  Value: |
+    {4956263D-1195-4D6E-931B-800EA625FF6F}
+    {982B130A-5CF9-4664-8B8C-F6778448EC7F}
 - ID: "95579875-484e-41f0-b9c2-804eafaf3ccc"
   Hint: IsVerifiedStyle
   Value: 1
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "2b454707-b0c9-46dd-8bfd-5da456a09955"
+  Value: "3b0a5ff3-70ab-4b19-b1bc-8344311be7c4"
 Languages:
 - Language: en
   Versions:
@@ -34,11 +36,11 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3bd65087-a482-4ada-a424-20271b68763d"
+      Value: "b3700470-f23d-4154-b241-5b4c5ccfc5c9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260121T133902Z
+      Value: 20260121T134044Z
