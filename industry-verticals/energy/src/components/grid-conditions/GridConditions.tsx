@@ -45,88 +45,59 @@ const SectionGrid = () => {
   const operatingCapacity =
     (GRID_CONDITIONS_DATA.grid.load.value / GRID_CONDITIONS_DATA.grid.capacity.value) * 100;
 
+  const gridMetrics = [
+    {
+      id: 'load',
+      title: t('grid_current_load') || 'Current Load',
+      icon: <TrendingUp className="text-danger size-4" />,
+      value: GRID_CONDITIONS_DATA.grid.load.value,
+      unit: 'MW',
+      status: GRID_CONDITIONS_DATA.grid.load.status,
+    },
+    {
+      id: 'capacity',
+      title: t('grid_available_capacity') || 'Available Capacity',
+      icon: <Activity className="text-accent-dark size-4" />,
+      value: GRID_CONDITIONS_DATA.grid.capacity.value,
+      unit: 'MW',
+      status: GRID_CONDITIONS_DATA.grid.capacity.status,
+    },
+    {
+      id: 'margin',
+      title: t('grid_reserve_margin') || 'Reserve Margin',
+      icon: <TrendingDown className="text-success size-4" />,
+      value: GRID_CONDITIONS_DATA.grid.margin.value,
+      unit: '%',
+      status: GRID_CONDITIONS_DATA.grid.margin.status,
+    },
+    {
+      id: 'frequency',
+      title: t('grid_frequency') || 'Frequency',
+      icon: <Activity className="text-accent-dark size-4" />,
+      value: GRID_CONDITIONS_DATA.grid.frequency.value,
+      unit: 'Hz',
+      status: GRID_CONDITIONS_DATA.grid.frequency.status,
+    },
+  ];
+
   return (
     <>
       <div className="grid grid-cols-4 gap-6">
-        <div className="info-card">
-          <h6 className="flex items-center justify-between gap-4 text-sm font-semibold">
-            {t('grid_current_load') || 'Current Load'}
-            <TrendingUp className="text-danger size-4" />
-          </h6>
-          <p className="text-foreground">
-            <span className="text-2xl font-bold">
-              {GRID_CONDITIONS_DATA.grid.load.value.toLocaleString()}
-            </span>{' '}
-            <span>MW</span>
-          </p>
-          <span
-            className="grid-load-status"
-            data-status={GRID_CONDITIONS_DATA.grid.load.status.value}
-          >
-            {t(GRID_CONDITIONS_DATA.grid.load.status.tLabel) ||
-              GRID_CONDITIONS_DATA.grid.load.status.value}
-          </span>
-        </div>
-
-        <div className="info-card">
-          <h6 className="flex items-center justify-between gap-4 text-sm font-semibold">
-            {t('grid_available_capacity') || 'Available Capacity'}
-            <Activity className="text-accent-dark size-4" />
-          </h6>
-          <p className="text-foreground">
-            <span className="text-2xl font-bold">
-              {GRID_CONDITIONS_DATA.grid.capacity.value.toLocaleString()}
-            </span>{' '}
-            <span>MW</span>
-          </p>
-          <span
-            className="grid-load-status"
-            data-status={GRID_CONDITIONS_DATA.grid.capacity.status.value}
-          >
-            {t(GRID_CONDITIONS_DATA.grid.capacity.status.tLabel) ||
-              GRID_CONDITIONS_DATA.grid.capacity.status.value}
-          </span>
-        </div>
-
-        <div className="info-card">
-          <h6 className="flex items-center justify-between gap-4 text-sm font-semibold">
-            {t('grid_reserve_margin') || 'Reserve Margin'}
-            <TrendingDown className="text-success size-4" />
-          </h6>
-          <p className="text-foreground">
-            <span className="text-2xl font-bold">
-              {GRID_CONDITIONS_DATA.grid.margin.value.toLocaleString()}
-            </span>{' '}
-            <span>%</span>
-          </p>
-          <span
-            className="grid-load-status"
-            data-status={GRID_CONDITIONS_DATA.grid.margin.status.value}
-          >
-            {t(GRID_CONDITIONS_DATA.grid.margin.status.tLabel) ||
-              GRID_CONDITIONS_DATA.grid.margin.status.value}
-          </span>
-        </div>
-
-        <div className="info-card">
-          <h6 className="flex items-center justify-between gap-4 text-sm font-semibold">
-            {t('grid_frequency') || 'Frequency'}
-            <Activity className="text-accent-dark size-4" />
-          </h6>
-          <p className="text-foreground">
-            <span className="text-2xl font-bold">
-              {GRID_CONDITIONS_DATA.grid.frequency.value.toLocaleString()}
-            </span>{' '}
-            <span>Hz</span>
-          </p>
-          <span
-            className="grid-load-status"
-            data-status={GRID_CONDITIONS_DATA.grid.frequency.status.value}
-          >
-            {t(GRID_CONDITIONS_DATA.grid.frequency.status.tLabel) ||
-              GRID_CONDITIONS_DATA.grid.frequency.status.value}
-          </span>
-        </div>
+        {gridMetrics.map((metric) => (
+          <div className="info-card" key={`grid-metric-${metric.id}`}>
+            <h6 className="flex items-center justify-between gap-4 text-sm font-semibold">
+              {metric.title}
+              {metric.icon}
+            </h6>
+            <p className="text-foreground">
+              <span className="text-2xl font-bold">{metric.value.toLocaleString()}</span>{' '}
+              <span>{metric.unit}</span>
+            </p>
+            <span className="grid-load-status" data-status={metric.status.value}>
+              {t(metric.status.tLabel) || metric.status.value}
+            </span>
+          </div>
+        ))}
       </div>
 
       <div className="info-card">
