@@ -14,7 +14,7 @@ import { faFacebookF, faInstagram, faLinkedinIn, faTwitter, faYoutube } from '@f
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { LayoutStyles } from '@/types/styleFlags';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/shadcn/components/ui/dropdown-menu';
-import { Share2, ChevronLeft,ArrowRight, ArrowLeft, X,Loader2, Menu, Activity, Thermometer, TrendingDown, TrendingUp, Unplug, Zap, Bookmark, Calendar, User } from 'lucide-react';
+import { Share2, ChevronLeft, ArrowRight, Calendar, User, ArrowLeft, X, Menu, Activity, Thermometer, TrendingDown, TrendingUp, Unplug, Zap, Loader2, Bookmark } from 'lucide-react';
 import { useI18n } from 'next-localization';
 import { EmailIcon, EmailShareButton, FacebookIcon, FacebookShareButton, LinkedinIcon, LinkedinShareButton, PinterestIcon, PinterestShareButton, TwitterIcon, TwitterShareButton } from 'react-share';
 import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
@@ -110,13 +110,13 @@ const importMap = [
       { name: 'ArrowLeft', value: ArrowLeft },
       { name: 'X', value: X },
       { name: 'Menu', value: Menu },
-      { name: 'Loader2', value: Loader2 },
       { name: 'Activity', value: Activity },
       { name: 'Thermometer', value: Thermometer },
       { name: 'TrendingDown', value: TrendingDown },
       { name: 'TrendingUp', value: TrendingUp },
       { name: 'Unplug', value: Unplug },
       { name: 'Zap', value: Zap },
+      { name: 'Loader2', value: Loader2 },
       { name: 'Bookmark', value: Bookmark },
     ]
   },
