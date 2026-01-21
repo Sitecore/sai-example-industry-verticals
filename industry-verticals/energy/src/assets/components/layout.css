@@ -107,19 +107,3 @@
 .position-center select {
   text-align-last: center !important;
 }
-
-/* Title alignment */
-.title-position-left h2,
-.title-position-left h2 * {
-  text-align: left !important;
-}
-
-.title-position-right h2,
-.title-position-right h2 * {
-  text-align: right !important;
-}
-
-.title-position-center h2,
-.title-position-center h2 * {
-  text-align: center !important;
-}

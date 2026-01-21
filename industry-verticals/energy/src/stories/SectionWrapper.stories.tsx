@@ -13,9 +13,7 @@ import {
   defaultTitleAlignmentArgs,
 } from './common/commonControls';
 
-type StoryProps = ComponentProps<typeof SectionWrapper> &
-  BackgroundColorArgs &
-  TitleAlignmentArgs;
+type StoryProps = ComponentProps<typeof SectionWrapper> & BackgroundColorArgs & TitleAlignmentArgs;
 
 const meta = {
   title: 'Page Content/Section Wrapper',
