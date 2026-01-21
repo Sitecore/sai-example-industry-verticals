@@ -31,10 +31,38 @@
 }
 
 .main-btn {
-  @apply bg-accent text-background hover:bg-accent/95 flex items-center justify-center rounded-md p-3 text-center text-lg font-semibold transition-all hover:shadow-md;
+  @apply bg-accent text-background hover:bg-accent/95 flex items-center justify-center rounded-md px-6 py-3 text-center text-lg font-semibold transition-all hover:shadow-md;
 
   &[disabled] {
     @apply pointer-events-none opacity-60;
+  }
+}
+
+.secondary-btn {
+  @apply border-foreground bg-background text-foreground hover:bg-background-muted flex items-center justify-center rounded-md border-2 px-8 py-2 text-center text-lg font-semibold transition-all hover:shadow-md;
+
+  &[disabled] {
+    @apply pointer-events-none opacity-60;
+  }
+}
+
+.simple-btn {
+  @apply bg-background-muted flex items-center gap-2 rounded-md border px-2 py-1 text-sm font-semibold shadow-sm transition-all;
+
+  &:hover {
+    @apply shadow-md;
+  }
+
+  &[disabled] {
+    @apply pointer-events-none opacity-60;
+  }
+
+  svg {
+    @apply size-4;
+  }
+
+  &.inverted {
+    @apply bg-foreground text-background hover:bg-foreground/90;
   }
 }
 
