@@ -45,6 +45,7 @@
     "react": "^19.1.2",
     "react-dom": "^19.1.2",
     "react-share": "^5.2.2",
+    "recharts": "^2.15.4",
     "sharp": "0.34.1",
     "swiper": "^11.2.10",
     "tailwind-bootstrap-grid": "^6.0.0",
