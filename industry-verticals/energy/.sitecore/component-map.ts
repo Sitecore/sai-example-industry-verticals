@@ -7,6 +7,7 @@ import { Form } from '@sitecore-content-sdk/nextjs';
 import * as Title from 'src/components/title/Title';
 import * as SocialFollow from 'src/components/social-follow/SocialFollow';
 import * as SelectedArticles from 'src/components/selected-articles/SelectedArticles';
+import * as SectionWrapper from 'src/components/section-wrapper/SectionWrapper';
 import * as RowSplitter from 'src/components/row-splitter/RowSplitter';
 import * as RichText from 'src/components/rich-text/RichText';
 import * as Promo from 'src/components/promo/Promo';
@@ -32,6 +33,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Title', { ...Title }],
   ['SocialFollow', { ...SocialFollow }],
   ['SelectedArticles', { ...SelectedArticles }],
+  ['SectionWrapper', { ...SectionWrapper }],
   ['RowSplitter', { ...RowSplitter }],
   ['RichText', { ...RichText }],
   ['Promo', { ...Promo }],
