@@ -23,3 +23,15 @@
     @apply flex-col;
   }
 }
+
+.link-list.hide-title {
+  h3 {
+    @apply hidden;
+  }
+}
+
+.social-follow.hide-title {
+  h5 {
+    @apply hidden;
+  }
+}
