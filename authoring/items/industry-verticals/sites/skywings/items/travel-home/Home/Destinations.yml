@@ -20,7 +20,7 @@ SharedFields:
     <image mediaid="{C748A307-2070-420C-B9C7-574DE9CE66E6}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "331b9dc8-4a1d-4aad-9f97-86037769af69"
+  Value: "53676225-abc2-4283-8ff7-e42dbbd21c90"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -63,7 +63,7 @@ Languages:
       Value: Discover inspiring destinations across the globe with Skywings. Browse cultural cities, scenic landscapes, and immersive travel experiences to plan your next journey.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "761cc523-c5b1-43aa-a0f6-885db5d43c39"
+      Value: "649b00c8-1d97-4ca7-a8b9-6935eef4708e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -73,4 +73,4 @@ Languages:
       Value: The Destinations page invites travelers to explore locations around the world, each offering unique cultural, scenic, and experiential opportunities. Skywings provides guidance and inspiration to help travelers find and plan meaningful journeys.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260120T144242Z
+      Value: 20260121T104427Z
