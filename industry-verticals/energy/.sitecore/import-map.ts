@@ -7,17 +7,17 @@ import {
 } from '@sitecore-content-sdk/nextjs/codegen';
 // end of built-in imports
 
-import { Link, Text, useSitecore, Placeholder, RichText, NextImage, CdpHelper, withDatasourceCheck, DateField } from '@sitecore-content-sdk/nextjs';
+import { Link, Text, useSitecore, RichText, Image, Placeholder, NextImage, CdpHelper, withDatasourceCheck, DateField } from '@sitecore-content-sdk/nextjs';
 import { useState, useRef, useEffect } from 'react';
 import React from 'react';
 import { faFacebookF, faInstagram, faLinkedinIn, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { ArrowRight, Share2, ChevronLeft, ArrowLeft, X, Menu, Activity, Thermometer, TrendingDown, TrendingUp, Unplug, Zap, Bookmark, Calendar, User } from 'lucide-react';
+import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
+import { useI18n } from 'next-localization';
 import { LayoutStyles } from '@/types/styleFlags';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/shadcn/components/ui/dropdown-menu';
-import { Share2, ChevronLeft, ArrowLeft, X, Menu, Activity, Thermometer, TrendingDown, TrendingUp, Unplug, Zap, Bookmark, Calendar, User } from 'lucide-react';
-import { useI18n } from 'next-localization';
 import { EmailIcon, EmailShareButton, FacebookIcon, FacebookShareButton, LinkedinIcon, LinkedinShareButton, PinterestIcon, PinterestShareButton, TwitterIcon, TwitterShareButton } from 'react-share';
-import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useClickAway } from '@/hooks/useClickAway';
 import { useStopResponsiveTransition } from '@/hooks/useStopResponsiveTransition';
@@ -81,23 +81,9 @@ const importMap = [
     ]
   },
   {
-    module: '@/types/styleFlags',
+    module: 'lucide-react',
     exports: [
-      { name: 'LayoutStyles', value: LayoutStyles },
-    ]
-  },
-  {
-    module: '@/shadcn/components/ui/dropdown-menu',
-    exports: [
-      { name: 'DropdownMenu', value: DropdownMenu },
-      { name: 'DropdownMenuContent', value: DropdownMenuContent },
-      { name: 'DropdownMenuItem', value: DropdownMenuItem },
-      { name: 'DropdownMenuTrigger', value: DropdownMenuTrigger },
-    ]
-  },
-  {
-    module: 'next/link',
-    exports: [
+      { name: 'ArrowRight', value: ArrowRight },
       { name: 'Share2', value: Share2 },
       { name: 'ChevronLeft', value: ChevronLeft },
       { name: 'ArrowLeft', value: ArrowLeft },
@@ -115,9 +101,30 @@ const importMap = [
     ]
   },
   {
+    module: 'next/link',
+    exports: [
+      { name: 'default', value: Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 },
+    ]
+  },
+  {
     module: 'next-localization',
     exports: [
       { name: 'useI18n', value: useI18n },
+    ]
+  },
+  {
+    module: '@/types/styleFlags',
+    exports: [
+      { name: 'LayoutStyles', value: LayoutStyles },
+    ]
+  },
+  {
+    module: '@/shadcn/components/ui/dropdown-menu',
+    exports: [
+      { name: 'DropdownMenu', value: DropdownMenu },
+      { name: 'DropdownMenuContent', value: DropdownMenuContent },
+      { name: 'DropdownMenuItem', value: DropdownMenuItem },
+      { name: 'DropdownMenuTrigger', value: DropdownMenuTrigger },
     ]
   },
   {
@@ -133,12 +140,6 @@ const importMap = [
       { name: 'PinterestShareButton', value: PinterestShareButton },
       { name: 'TwitterIcon', value: TwitterIcon },
       { name: 'TwitterShareButton', value: TwitterShareButton },
-    ]
-  },
-  {
-    module: 'next/link',
-    exports: [
-      { name: 'default', value: Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 },
     ]
   },
   {
