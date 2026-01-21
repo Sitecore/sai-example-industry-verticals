@@ -2,6 +2,7 @@
   --color-foreground: #111828;
   --color-foreground-light: #4a5565;
   --color-foreground-muted: #384354;
+  --color-foreground-secondary: #99a1af;
 
   --color-background: #fff;
   --color-background-accent: #dbf3f5;
@@ -11,6 +12,7 @@
   --color-accent-dark: #228091;
 
   --color-success: #2ec1ac;
+  --color-warning: #f5a623;
   --color-danger: #e7000b;
 
   --color-border: #e5e5e5;

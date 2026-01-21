@@ -1,4 +1,4 @@
-import { Field, ImageField, RichTextField, TextField } from '@sitecore-content-sdk/nextjs';
+import { Field, ImageField, RichTextField } from '@sitecore-content-sdk/nextjs';
 import { SitecoreItem } from './common';
 
 export interface ArticleFields {
@@ -10,9 +10,7 @@ export interface ArticleFields {
   Author: Author;
   Tags: Tag[];
   Category: Category;
-  ReadTime: TextField;
 }
-
 export type Article = SitecoreItem<ArticleFields>;
 
 export interface TagFields {
@@ -27,7 +25,5 @@ export type Category = SitecoreItem<CategoryFields>;
 
 export interface AuthorFields {
   AuthorName: Field<string>;
-  Avatar: Field<string>;
-  About: Field<string>;
 }
 export type Author = SitecoreItem<AuthorFields>;

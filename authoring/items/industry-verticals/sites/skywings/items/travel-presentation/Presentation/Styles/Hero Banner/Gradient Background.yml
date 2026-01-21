@@ -6,16 +6,18 @@ Path: "/sitecore/content/industry-verticals/skywings/Presentation/Styles/Hero Ba
 SharedFields:
 - ID: "09147fb2-ebfb-4949-8c8e-26a424409d5e"
   Hint: Value
-  Value: "show-gradient-background"
+  Value: "show-gradient-overlay"
 - ID: "69bb49f3-da64-4b0e-abd6-184b832ff6ab"
   Hint: Allowed Renderings
-  Value: "{B49CF2D7-7CB2-4918-8F38-2607D956D995}"
+  Value: |
+    {B49CF2D7-7CB2-4918-8F38-2607D956D995}
+    {E776D93C-00C8-466E-AAAC-A4F90B590A3A}
 - ID: "95579875-484e-41f0-b9c2-804eafaf3ccc"
   Hint: IsVerifiedStyle
   Value: 1
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "907f24cb-295c-4def-a2fe-e7caed22e6c6"
+  Value: "c48556ab-c3fd-4427-9144-32c7707e850c"
 Languages:
 - Language: en
   Versions:
@@ -34,11 +36,11 @@ Languages:
         sitecore\tharuka.bandara@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5a1bd2bf-c478-4b46-a112-994430772dac"
+      Value: "fbaaa9be-fe60-4f19-90d5-cb70ec273259"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\tharuka.bandara@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251225T200346Z
+      Value: 20260120T144108Z

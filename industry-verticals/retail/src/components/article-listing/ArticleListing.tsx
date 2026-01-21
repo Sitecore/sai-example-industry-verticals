@@ -6,6 +6,7 @@ import {
   Text as ContentSdkText,
   DateField,
   Placeholder,
+  useSitecore,
 } from '@sitecore-content-sdk/nextjs';
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -43,13 +44,15 @@ interface ArticleListingProps extends ComponentProps {
 
 export const Default = (props: ArticleListingProps) => {
   const { t } = useI18n();
+  const { page } = useSitecore();
   const id = props.params.RenderingIdentifier;
   const searchBarPlaceholderKey = `article-listing-search-bar-${props.params.DynamicPlaceholderId}`;
   const recentPostsPlaceholderKey = `article-listing-side-bar-${props.params.DynamicPlaceholderId}`;
+  const isPageEditing = page.mode.isEditing;
 
   // sort by latest published
-  const articles = props.fields.items
-    .filter((article) => article.fields && Object.keys(article.fields).length > 0)
+  const articles = props.fields?.items
+    .filter((article) => article.fields && Object.keys(article.fields)?.length > 0)
     .sort(sortByDateDesc);
 
   // categories with article counts
@@ -61,7 +64,7 @@ export const Default = (props: ArticleListingProps) => {
 
   const filteredArticles = selectedCategory
     ? articles.filter(
-        (article) => article.fields.Category.fields.Category.value === selectedCategory
+        (article) => article.fields?.Category?.fields?.Category?.value === selectedCategory
       )
     : articles;
 
@@ -89,7 +92,7 @@ export const Default = (props: ArticleListingProps) => {
               {/* Image */}
               <div className="relative aspect-3/2 w-full overflow-hidden rounded-lg md:aspect-9/4">
                 <ContentSdkImage
-                  field={article.fields.Image}
+                  field={article.fields?.Image}
                   className="h-full w-full object-cover"
                 />
               </div>
@@ -97,46 +100,70 @@ export const Default = (props: ArticleListingProps) => {
               {/* Content */}
               <div className="space-y-3">
                 <ContentSdkText
-                  field={article.fields.Title}
+                  field={article.fields?.Title}
                   tag="h3"
                   className="font-semibold transition-colors"
                 />
 
                 {/* Icons */}
                 <div className="text-foreground-light flex items-center gap-10 text-xs sm:text-sm">
-                  <span className="flex items-center gap-2">
-                    <FontAwesomeIcon icon={faUser as IconProp} />
-                    <ContentSdkText field={article.fields.Author.fields.AuthorName} />
-                  </span>
-                  <span className="flex items-center gap-2">
-                    <FontAwesomeIcon icon={faCalendar as IconProp} />
-                    <DateField
-                      field={article.fields.PublishedDate}
-                      render={(date) =>
-                        date
-                          ? new Date(date).toLocaleDateString('en-GB', {
-                              day: '2-digit',
-                              month: 'short',
-                              year: 'numeric',
-                            })
-                          : null
-                      }
-                    />
-                  </span>
-                  <span className="flex items-center gap-2">
-                    <FontAwesomeIcon icon={faTag as IconProp} />
-                    <ContentSdkText field={article.fields.Category.fields.Category} />
-                  </span>
+                  {/* Author */}
+                  {(article.fields?.Author?.fields?.AuthorName?.value || isPageEditing) && (
+                    <span className="flex items-center gap-2">
+                      <FontAwesomeIcon icon={faUser as IconProp} />
+                      <ContentSdkText field={article.fields?.Author?.fields?.AuthorName} />
+                    </span>
+                  )}
+
+                  {/* Published Date */}
+                  {(() => {
+                    const publishedDate = article.fields?.PublishedDate?.value;
+                    const hasValidDate = publishedDate && !publishedDate.startsWith('0001-01-01');
+
+                    if (!hasValidDate && !isPageEditing) {
+                      return null;
+                    }
+
+                    return (
+                      <span className="flex items-center gap-2">
+                        {hasValidDate && (
+                          <>
+                            <FontAwesomeIcon icon={faCalendar as IconProp} />
+                            <DateField
+                              field={article.fields?.PublishedDate}
+                              render={(date) =>
+                                date
+                                  ? new Date(date).toLocaleDateString('en-GB', {
+                                      day: '2-digit',
+                                      month: 'short',
+                                      year: 'numeric',
+                                    })
+                                  : null
+                              }
+                            />
+                          </>
+                        )}
+                      </span>
+                    );
+                  })()}
+
+                  {/* Category */}
+                  {(article.fields?.Category?.fields?.Category?.value || isPageEditing) && (
+                    <span className="flex items-center gap-2">
+                      <FontAwesomeIcon icon={faTag as IconProp} />
+                      <ContentSdkText field={article.fields?.Category?.fields?.Category} />
+                    </span>
+                  )}
                 </div>
 
                 {/* Short Description */}
                 <ContentSdkText
-                  field={article.fields.ShortDescription}
+                  field={article.fields?.ShortDescription}
                   tag="p"
                   className="line-clamp-5 text-justify text-lg"
                 />
 
-                {/* Read More Button*/}
+                {/* Read More Button */}
                 <Link href={article.url} className="arrow-btn" aria-label="Read full article">
                   {t('read_more_btn_text') || 'Read More'}
                 </Link>
