@@ -13,7 +13,7 @@ SharedFields:
     <image mediaid="{CFBCDC2E-69F8-4F74-B919-B6FEE51640F9}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "cbd57db9-0266-4c94-82cd-5c8f20f9c1a5"
+  Value: "8ead206c-9e76-4f8e-8de4-c8f332807a3b"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -40,21 +40,21 @@ SharedFields:
           p:after="r[@uid='{3D8D0B3B-F885-474A-BA3D-12C54F3EDEEA}']"
           s:ds="46d66b69-f8b8-46ff-ae14-44cf3fd3545f"
           s:id="{4956263D-1195-4D6E-931B-800EA625FF6F}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B15BA8ABF-4F20-406D-B65E-5BCE6F5DBE6B%7D&amp;Styles=%7C%7B22CBF555-3F38-4CAF-9BF2-7CE65200525E%7D&amp;RenderingIdentifier&amp;CSSStyles"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B15BA8ABF-4F20-406D-B65E-5BCE6F5DBE6B%7D&amp;Styles=%7C%7B22CBF555-3F38-4CAF-9BF2-7CE65200525E%7D%7C%7B4CE85C06-7B9C-4072-BA2B-786C48BFD6EE%7D&amp;RenderingIdentifier&amp;CSSStyles"
           s:ph="/headless-footer/footer-list-first-1" />
         <r
           uid="{0036769E-E2F5-41F3-AED7-63EA2F2F157D}"
           p:after="r[@uid='{A3FF35A4-5016-41A8-B11B-905265F0E825}']"
           s:ds="46c92c73-a8c8-4b4f-9d3e-37e4ef435abc"
           s:id="{4956263D-1195-4D6E-931B-800EA625FF6F}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B15BA8ABF-4F20-406D-B65E-5BCE6F5DBE6B%7D&amp;Styles=%7C%7B22CBF555-3F38-4CAF-9BF2-7CE65200525E%7D&amp;RenderingIdentifier&amp;CSSStyles"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B15BA8ABF-4F20-406D-B65E-5BCE6F5DBE6B%7D&amp;Styles=%7C%7B22CBF555-3F38-4CAF-9BF2-7CE65200525E%7D%7C%7B4CE85C06-7B9C-4072-BA2B-786C48BFD6EE%7D&amp;RenderingIdentifier&amp;CSSStyles"
           s:ph="/headless-footer/footer-list-second-1" />
         <r
           uid="{6C343486-EBDE-4D32-9453-C8C4A6231FD6}"
           p:after="*[1=2]"
           s:ds="f11ce250-55d5-4e2a-9496-d22de4cefdfe"
           s:id="{982B130A-5CF9-4664-8B8C-F6778448EC7F}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BC98906CC-3D66-4862-A9A3-1D40AD623205%7D&amp;Styles=%7C%7B22CBF555-3F38-4CAF-9BF2-7CE65200525E%7D&amp;RenderingIdentifier&amp;CSSStyles"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BC98906CC-3D66-4862-A9A3-1D40AD623205%7D&amp;Styles=%7C%7B22CBF555-3F38-4CAF-9BF2-7CE65200525E%7D%7C%7B4CE85C06-7B9C-4072-BA2B-786C48BFD6EE%7D&amp;RenderingIdentifier&amp;CSSStyles"
           s:ph="/headless-footer/footer-list-third-1" />
       </d>
     </r>
@@ -79,11 +79,11 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b82d5d25-95bb-45ab-b54b-baf552ab1714"
+      Value: "2a92b811-cffc-4997-b254-3538d1dd7e7a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251224T131237Z
+      Value: 20260121T134054Z

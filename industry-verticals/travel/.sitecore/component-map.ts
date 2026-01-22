@@ -5,6 +5,7 @@ import { Form } from '@sitecore-content-sdk/nextjs';
 
 // end of built-in components
 import * as Title from 'src/components/title/Title';
+import * as ThemeEditor from 'src/components/theme-editor/ThemeEditor';
 import * as Subscribe from 'src/components/subscribe/Subscribe';
 import * as SocialFollow from 'src/components/social-follow/SocialFollow';
 import * as SelectedDestinations from 'src/components/selected-destinations/SelectedDestinations';
@@ -27,6 +28,7 @@ import * as QuestionsAnswers from 'src/components/non-sitecore/search/QuestionsA
 import * as QueryResultsSummary from 'src/components/non-sitecore/search/QueryResultsSummary';
 import * as PreviewSearch from 'src/components/non-sitecore/search/PreviewSearch';
 import * as HomeHighlighted from 'src/components/non-sitecore/search/HomeHighlighted';
+import * as FilterDropdown from 'src/components/non-sitecore/search/FilterDropdown';
 import * as CardViewSwitcher from 'src/components/non-sitecore/search/CardViewSwitcher';
 import * as ArticleHorizontalCard from 'src/components/non-sitecore/search/ArticleHorizontalCard';
 import * as ArticleCard from 'src/components/non-sitecore/search/ArticleCard';
@@ -53,6 +55,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['FEaaSWrapper', FEaaSWrapper],
   ['Form', Form],
   ['Title', { ...Title }],
+  ['ThemeEditor', { ...ThemeEditor }],
   ['Subscribe', { ...Subscribe }],
   ['SocialFollow', { ...SocialFollow }],
   ['SelectedDestinations', { ...SelectedDestinations, componentType: 'client' }],
@@ -75,6 +78,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['QueryResultsSummary', { ...QueryResultsSummary }],
   ['PreviewSearch', { ...PreviewSearch }],
   ['HomeHighlighted', { ...HomeHighlighted }],
+  ['FilterDropdown', { ...FilterDropdown }],
   ['CardViewSwitcher', { ...CardViewSwitcher }],
   ['ArticleHorizontalCard', { ...ArticleHorizontalCard }],
   ['ArticleCard', { ...ArticleCard }],

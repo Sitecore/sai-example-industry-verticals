@@ -1,0 +1,36 @@
+﻿---
+ID: "ade7b33b-d8d5-46cd-80a0-851a9b5a923e"
+Parent: "570f57e2-5516-408b-a264-d4395bc55b87"
+Template: "570f57e2-5516-408b-a264-d4395bc55b87"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Energy Grid/Grid Demand/GridDemand Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {BD9C1E68-F3EE-4928-A719-87D597919076}
+    {570F57E2-5516-408B-A264-D4395BC55B87}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "bcde085d-486f-4f51-860c-021c36209a5c"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4ef325c1-1d15-42fe-adc2-a8b05fb48a75"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260121T163607Z

@@ -53,7 +53,7 @@ const FeatureItem = ({
             field={feature?.featureImage?.jsonValue}
             className="h-8 w-8 flex-shrink-0 object-contain"
           />
-          <h5 className="text-base font-bold leading-none">
+          <h5 className="text-base leading-none font-bold">
             <ContentSdkText field={feature?.featureTitle?.jsonValue} />
           </h5>
         </div>

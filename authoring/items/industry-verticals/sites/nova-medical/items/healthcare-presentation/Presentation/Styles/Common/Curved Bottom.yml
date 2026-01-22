@@ -9,10 +9,12 @@ SharedFields:
   Value: "curved-bottom"
 - ID: "69bb49f3-da64-4b0e-abd6-184b832ff6ab"
   Hint: Allowed Renderings
-  Value: "{CCD11802-22A3-462F-92FC-821515E2AEC8}"
+  Value: |
+    {CCD11802-22A3-462F-92FC-821515E2AEC8}
+    {442E3EA4-DE9A-41B5-A917-0F589F79B1A0}
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "1ca706e4-ad39-4c88-999c-23994e168c8b"
+  Value: "1f552c7e-852e-427f-bd45-3e9ce15215fa"
 Languages:
 - Language: en
   Versions:
@@ -31,11 +33,11 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "eea6a841-6bd3-4b39-9281-d52fb69df3f2"
+      Value: "13af9c04-87a1-4945-b0f6-67e4bb4c5713"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251121T084937Z
+      Value: 20260121T130711Z

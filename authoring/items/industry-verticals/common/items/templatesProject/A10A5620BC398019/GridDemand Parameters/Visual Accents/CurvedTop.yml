@@ -1,21 +1,18 @@
 ﻿---
-ID: "f258fdef-13ab-4614-93ff-ac8487d0e8ab"
-Parent: "7183ec92-714b-455a-a576-5dac1de42934"
+ID: "0c8b8807-bb93-41ed-b450-6adb6b02b5d9"
+Parent: "75634ba5-e3f5-4582-a99a-913a05fcba63"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: "/sitecore/templates/Project/industry-verticals/Custom Templates/Article/Categories/Category/Data/CategorIcon"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Energy Grid/Grid Demand/Rendering Parameters/GridDemand Parameters/Visual Accents/CurvedTop"
 SharedFields:
-- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
-  Hint: Source
-  Value: "query:$siteMedia"
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: Image
+  Value: Checkbox
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 200
+  Value: 100
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "ef4784e0-294b-4f29-9112-89cf45c360d3"
+  Value: "47545037-3987-4f27-a4c9-9da53b6fa89f"
 Languages:
 - Language: en
   Versions:
@@ -23,22 +20,22 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20260120T080409Z
+      Value: 20251117T123342Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\jeral.sandeeptha@sitecore.com
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\jeral.sandeeptha@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "30526640-7402-473d-bdee-f8ab92ac5a51"
+      Value: "1ab0f04e-9442-425c-86e5-c9702fa354e7"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\jeral.sandeeptha@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260120T080447Z
+      Value: 20251117T131944Z
