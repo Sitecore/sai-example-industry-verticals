@@ -28,6 +28,7 @@ import * as QuestionsAnswers from 'src/components/non-sitecore/search/QuestionsA
 import * as QueryResultsSummary from 'src/components/non-sitecore/search/QueryResultsSummary';
 import * as PreviewSearch from 'src/components/non-sitecore/search/PreviewSearch';
 import * as HomeHighlighted from 'src/components/non-sitecore/search/HomeHighlighted';
+import * as FilterDropdown from 'src/components/non-sitecore/search/FilterDropdown';
 import * as CardViewSwitcher from 'src/components/non-sitecore/search/CardViewSwitcher';
 import * as ArticleHorizontalCard from 'src/components/non-sitecore/search/ArticleHorizontalCard';
 import * as ArticleCard from 'src/components/non-sitecore/search/ArticleCard';
@@ -77,6 +78,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['QueryResultsSummary', { ...QueryResultsSummary }],
   ['PreviewSearch', { ...PreviewSearch }],
   ['HomeHighlighted', { ...HomeHighlighted }],
+  ['FilterDropdown', { ...FilterDropdown }],
   ['CardViewSwitcher', { ...CardViewSwitcher }],
   ['ArticleHorizontalCard', { ...ArticleHorizontalCard }],
   ['ArticleCard', { ...ArticleCard }],

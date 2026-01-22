@@ -1,8 +1,8 @@
 ﻿---
-ID: "0309f5d7-f5fb-41db-8dc8-df8402cee42a"
-Parent: "5fdd8c61-b5a8-4f0c-b855-5ed157ed470d"
+ID: "32d3138b-e2bb-4814-9011-3f1adb681448"
+Parent: "a589cc4e-1998-423a-a59c-f17ac00c1542"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
-Path: "/sitecore/templates/Project/industry-verticals/Rendering Parameters"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Energy Grid/Grid Status Gauge"
 Languages:
 - Language: en
   Versions:
@@ -10,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20260121T122933Z
+      Value: 20260121T163233Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,11 +21,11 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b4dd9734-afeb-4812-a3f6-b0e634657262"
+      Value: "ada1c23b-38d3-4d2c-97a9-ac481116060c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260121T122933Z
+      Value: 20260121T163233Z

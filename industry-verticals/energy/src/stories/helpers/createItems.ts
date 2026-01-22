@@ -1,3 +1,4 @@
+import { Article, Author, Category } from '@/types/article';
 import {
   createImageField,
   createLinkField,
@@ -13,39 +14,40 @@ export const createLinkItems = (count: number) =>
     },
   }));
 
-export const createMockArticles = (count: number) =>
+export const createMockArticles = (count: number): Article[] =>
   Array.from({ length: count }).map((_, i) => ({
     id: `article-${i + 1}`,
     displayName: `Article ${i + 1}`,
     name: `article${i + 1}`,
-    url: `/blog/article-${i + 1}`,
+    url: `/articles/article-${i + 1}`,
     fields: {
-      Title: createTextField(`Article Title ${i + 1}`),
-      ShortDescription: createRichTextField(),
-      Content: createRichTextField(i + 1),
-      Image: createImageField(),
-      PublishedDate: { value: new Date(2025, 8, 10 - i).toISOString() },
-      Category: {
-        id: `category-${i % 2}`,
-        displayName: i % 2 === 0 ? 'Category 1' : 'Category 2',
-        name: i % 2 === 0 ? 'Category 1' : 'Category 2',
-        url: `/categories/${i % 2 === 0 ? 'Category 1' : 'Category 2'}`,
-        fields: {
-          Category: createTextField(i % 2 === 0 ? 'Category 1' : 'Category 2'),
-        },
-      },
+      Title: createTextField('Behind the Scenes: How Gridwell Balances Supply and Demand'),
+      ShortDescription: createTextField(),
+      Content: createRichTextField(),
+      Image: createImageField('placeholder'),
+      PublishedDate: createTextField('Wed, December 25, 2025'),
       ReadTime: createTextField(`${5 + i} min read`),
       Author: {
-        id: `author-${i}`,
-        name: `author-${i}`,
+        id: `author-${i + 1}`,
         displayName: `Author ${i + 1}`,
-        url: `/authors/author-${i}`,
+        name: `Author ${i + 1}`,
+        url: `/authors/author-${i + 1}`,
         fields: {
           AuthorName: createTextField(`Author ${i + 1}`),
           About: createTextField(`About Author ${i + 1}`),
           Avatar: createTextField('logo'),
         },
-      },
+      } as Author,
       Tags: [],
+      Category: {
+        id: `category-${i % 2}`,
+        displayName: i % 2 === 0 ? 'Energy Tips' : 'Grid Operations',
+        name: i % 2 === 0 ? 'Energy Tips' : 'Grid Operations',
+        url: `/categories/${i % 2 === 0 ? 'energy-tips' : 'grid-operations'}`,
+        fields: {
+          Category: createTextField(i % 2 === 0 ? 'Energy Tips' : 'Grid Operations'),
+          CategoryIcon: createImageField('placeholder'),
+        },
+      } as Category,
     },
   }));
