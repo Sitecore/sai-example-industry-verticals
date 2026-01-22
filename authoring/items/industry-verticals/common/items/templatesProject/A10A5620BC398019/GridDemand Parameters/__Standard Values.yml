@@ -1,8 +1,8 @@
 ﻿---
-ID: "c13eed9a-b161-4042-9ac4-546a21746fc0"
-Parent: "7e71ef36-cca1-4748-8739-3653e64937fc"
-Template: "7e71ef36-cca1-4748-8739-3653e64937fc"
-Path: "/sitecore/templates/Project/industry-verticals/Rendering Parameters/GridStatusGauge Parameters/__Standard Values"
+ID: "79e2ca17-7475-41f2-b79d-1174c6929e47"
+Parent: "c4ed2903-ef83-4e44-bdc0-0559c8ba66b7"
+Template: "c4ed2903-ef83-4e44-bdc0-0559c8ba66b7"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Energy Grid/Grid Demand/Rendering Parameters/GridDemand Parameters/__Standard Values"
 Languages:
 - Language: en
   Versions:
@@ -17,11 +17,11 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a8459934-5732-4f0e-9a53-9e5ead9c1dd6"
+      Value: "8f260cef-647d-4f0d-aba7-ed52e58f7450"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260121T122935Z
+      Value: 20260121T163604Z

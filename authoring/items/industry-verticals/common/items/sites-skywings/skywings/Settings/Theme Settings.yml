@@ -1,15 +1,44 @@
 ﻿---
-ID: "60e14b3e-bb31-481b-8a61-5604352f56d8"
-Parent: "9f7eb765-4566-4dd5-b74f-8bba6a27ba17"
+ID: "efe02994-0017-4f0c-abb0-ebc1a7c0805c"
+Parent: "2646ac82-f2c4-4d7c-81a2-f5f1021a004a"
 Template: "9f7eb765-4566-4dd5-b74f-8bba6a27ba17"
-Path: "/sitecore/templates/Project/industry-verticals/Site Settings/__Standard Values"
+Path: "/sitecore/content/industry-verticals/skywings/Settings/Theme Settings"
 SharedFields:
 - ID: "bd13b584-36a1-4c4e-aa1c-b4689ee2fae8"
   Hint: CustomCSS
   Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "4d0fb917-9a8f-46ce-9384-8efca53725de"
+  Value: "97dec632-2c18-42f1-a5bb-c10218cc8613"
+- ID: "f4f80dc4-7985-4bba-a11e-4daebba94481"
+  Hint: ThemeDefaults
+  Value: |
+    --color-foreground: #101828;
+    --color-foreground-light: #364153;
+    --color-foreground-muted: #4a5565;
+    
+    --color-background: #fff;
+    --color-background-accent: #eff6ff;
+    --color-background-muted: #f9fafb;
+    --color-background-surface: #f5f5f5;
+    --color-background-hover: #ececec;
+    
+    --color-accent: #155dfc;
+    --color-accent-light: #bedbff;
+    --color-accent-midlight: #51a2ff;
+    --color-accent-dark: #193cb8;
+    --color-accent-gray: #99a1af;
+    
+    --color-success: #2ec1ac;
+    --color-danger: #e7000b;
+    
+    --color-border: #e5e5e5;
+    --color-label: #364153;
+    
+    --font-heading: 'Open Sans', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
+    
+    --radius-base: 0.5rem;
 Languages:
 - Language: en
   Versions:
@@ -17,7 +46,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20251117T220355Z
+      Value: 20251117T220631Z
     - ID: "38c79e1a-489b-431d-b04e-aefea3c09438"
       Hint: FontOptions
       Value: |
@@ -160,21 +189,13 @@ Languages:
           }
         ]
         
-    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
-      Hint: __Owner
-      Value: |
-        sitecore\jeffrey.isham@sitecore.com
-    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
-      Hint: __Created by
-      Value: |
-        sitecore\jeffrey.isham@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a8ba8dee-1432-493b-8aed-a8e8140b2cb8"
+      Value: "16697c0e-d17d-4665-ac72-53ee71fe60f6"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\INIwVuCCf0fzziGGBdz0UepKJ8K6him7
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260122T074213Z
+      Value: 20260122T074014Z
