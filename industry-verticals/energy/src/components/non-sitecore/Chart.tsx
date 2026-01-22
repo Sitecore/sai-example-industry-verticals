@@ -14,6 +14,14 @@ const chartConfig = {
 
 type chartDataType = { day: string; forecast1: number; forecast2: number }[];
 
+type LineCurveType =
+  | 'linear'
+  | 'monotone'
+  | 'basis'
+  | 'bump'
+  | 'natural'
+  | 'step';
+
 type ChartProps = {
   unit: string;
   var_one: string;
@@ -22,6 +30,7 @@ type ChartProps = {
   chartData: chartDataType;
   type?: 'line' | 'area';
   colors?: { forecast1?: string; forecast2?: string };
+  lineType?: LineCurveType | null;
 };
 
 export const Chart = (props: ChartProps) => {
@@ -29,11 +38,7 @@ export const Chart = (props: ChartProps) => {
   const sharedAreaProps = { strokeWidth: 2, dot: false };
   const width = useScreenWidth();
 
-  const fontSize =
-    width < 480 ? 10 :
-    width < 768 ? 12 :
-    width < 1024 ? 14 :
-    16;
+  const fontSize = width < 480 ? 10 : width < 768 ? 12 : width < 1024 ? 14 : 16;
 
   const renderChart = () => {
     switch (props.type) {
@@ -59,16 +64,16 @@ export const Chart = (props: ChartProps) => {
             <ChartTooltip cursor={false} content={<ChartTooltipContent />} />
             <Area
               dataKey="forecast1"
-              type="monotone"
+              type={props.lineType || 'monotone'}
               stroke={props.colors?.forecast1 || 'var(--color-accent)'}
-              fill={(props.colors?.forecast1 || 'var(--color-accent)')}
+              fill={props.colors?.forecast1 || 'var(--color-accent)'}
               {...sharedAreaProps}
             />
             <Area
               dataKey="forecast2"
-              type="monotone"
+              type={props.lineType || 'monotone'}
               stroke={props.colors?.forecast2 || 'var(--color-accent-dark)'}
-              fill={(props.colors?.forecast2 || 'var(--color-accent-dark)')}
+              fill={props.colors?.forecast2 || 'var(--color-accent-dark)'}
               {...sharedAreaProps}
             />
           </AreaChart>
@@ -97,13 +102,13 @@ export const Chart = (props: ChartProps) => {
             <ChartTooltip cursor={false} content={<ChartTooltipContent />} />
             <Line
               dataKey="forecast1"
-              type="linear"
+              type={props.lineType || 'linear'}
               stroke={props.colors?.forecast1 || 'var(--color-accent)'}
               {...sharedLineProps}
             />
             <Line
               dataKey="forecast2"
-              type="linear"
+              type={props.lineType || 'linear'}
               stroke={props.colors?.forecast2 || 'var(--color-accent-dark)'}
               {...sharedLineProps}
             />
@@ -115,22 +120,24 @@ export const Chart = (props: ChartProps) => {
   return (
     <div className="w-full">
       {/* Variables Section */}
-      <div className="flex flex-col md:flex-row items-end justify-end gap-2 md:gap-6 text-sm mb-2">
+      <div className="mb-2 flex flex-col items-end justify-end gap-2 text-sm md:flex-row md:gap-6">
         <div className="flex items-center gap-2">
-          <span className="h-1 w-4 rounded bg-accent" />
+          <span className="bg-accent h-1 w-4 rounded" />
           <span>{props.t(props.var_one) || props.var_one}</span>
         </div>
         <div className="flex items-center gap-2">
-          <span className="h-1 w-4 rounded bg-accent-dark" />
+          <span className="bg-accent-dark h-1 w-4 rounded" />
           <span>{props.t(props.var_two) || props.var_two}</span>
         </div>
       </div>
 
-      <div className="grid grid-col-1 md:grid-cols-[1fr_20fr] gap-4 py-5">
-        <div className="hidden md:visible md:flex items-center justify-center">
+      <div className="flex gap-4 py-5">
+        <div className="hidden items-center justify-center md:visible md:flex">
           <h6 className="-rotate-90">{props.unit}</h6>
         </div>
-        <ChartContainer config={chartConfig}>{renderChart()}</ChartContainer>
+        <div className="flex-1">
+          <ChartContainer config={chartConfig}>{renderChart()}</ChartContainer>
+        </div>
       </div>
     </div>
   );

@@ -1,3 +1,4 @@
+// chart data generator
 export const generateChartData = () => {
   const min1 = Math.floor(Math.random() * (125000 - 20000 + 1)) + 20000;
   const max1 = Math.floor(Math.random() * (150000 - 50000 + 1)) + 50000;
@@ -11,3 +12,31 @@ export const generateChartData = () => {
     forecast2: Math.floor(Math.random() * (max2 - min2 + 1)) + min2,
   }));
 };
+
+// chart line styles
+export type LineCurveType =
+  | 'linear'
+  | 'monotone'
+  | 'basis'
+  | 'bump'
+  | 'natural'
+  | 'step';
+
+const allowedStyles: readonly LineCurveType[] = [
+  'linear',
+  'monotone',
+  'basis',
+  'bump',
+  'natural',
+  'step',
+];
+
+export function filterStyle(
+  value?: string
+): LineCurveType | null {
+  if (!value) return null;
+
+  return allowedStyles.includes(value as LineCurveType)
+    ? (value as LineCurveType)
+    : null;
+}
