@@ -6,6 +6,8 @@ import { Form } from '@sitecore-content-sdk/nextjs';
 // end of built-in components
 import * as Title from 'src/components/title/Title';
 import * as SocialFollow from 'src/components/social-follow/SocialFollow';
+import * as SelectedArticles from 'src/components/selected-articles/SelectedArticles';
+import * as SectionWrapper from 'src/components/section-wrapper/SectionWrapper';
 import * as RowSplitter from 'src/components/row-splitter/RowSplitter';
 import * as RichText from 'src/components/rich-text/RichText';
 import * as Promo from 'src/components/promo/Promo';
@@ -22,6 +24,7 @@ import * as Footer from 'src/components/footer/Footer';
 import * as ContentBlock from 'src/components/content-block/ContentBlock';
 import * as Container from 'src/components/container/Container';
 import * as ColumnSplitter from 'src/components/column-splitter/ColumnSplitter';
+import * as ArticleListing from 'src/components/article-listing/ArticleListing';
 import * as ArticleDetails from 'src/components/article-details/ArticleDetails';
 
 export const componentMap = new Map<string, NextjsContentSdkComponent>([
@@ -30,6 +33,8 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Form', Form],
   ['Title', { ...Title }],
   ['SocialFollow', { ...SocialFollow }],
+  ['SelectedArticles', { ...SelectedArticles }],
+  ['SectionWrapper', { ...SectionWrapper }],
   ['RowSplitter', { ...RowSplitter }],
   ['RichText', { ...RichText }],
   ['Promo', { ...Promo }],
@@ -46,6 +51,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['ContentBlock', { ...ContentBlock }],
   ['Container', { ...Container }],
   ['ColumnSplitter', { ...ColumnSplitter }],
+  ['ArticleListing', { ...ArticleListing }],
   ['ArticleDetails', { ...ArticleDetails }],
 ]);
 

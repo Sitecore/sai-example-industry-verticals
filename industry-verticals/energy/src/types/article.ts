@@ -20,6 +20,7 @@ export type Tag = SitecoreItem<TagFields>;
 
 export interface CategoryFields {
   Category: Field<string>;
+  CategoryIcon: ImageField;
 }
 export type Category = SitecoreItem<CategoryFields>;
 
