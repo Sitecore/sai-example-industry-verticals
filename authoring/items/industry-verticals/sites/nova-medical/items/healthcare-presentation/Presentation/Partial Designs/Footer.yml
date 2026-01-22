@@ -13,7 +13,7 @@ SharedFields:
     <image mediaid="{D922C4A9-DCEA-4A2B-BB96-098A30F7774A}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "1ab04e2c-40b8-4daa-97ee-aab016d1099e"
+  Value: "d4a05cd2-a786-4200-9802-03cd19b68bdb"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -40,14 +40,14 @@ SharedFields:
           p:after="r[@uid='{1EB8AB50-211B-473F-8C3D-71FB5CC59476}']"
           s:ds="5dec6cec-d037-4916-baf7-77086b14c18a"
           s:id="{4956263D-1195-4D6E-931B-800EA625FF6F}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B48A07BA6-ADFC-4FD1-9B25-14F2B209B1A2%7D&amp;Styles=%7C%7B5CA8FE0F-B4AF-49B8-98AC-CE9582DF7FD6%7D&amp;RenderingIdentifier&amp;CSSStyles"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B48A07BA6-ADFC-4FD1-9B25-14F2B209B1A2%7D&amp;Styles=%7C%7B5CA8FE0F-B4AF-49B8-98AC-CE9582DF7FD6%7D%7C%7B98453209-512D-4AE6-8968-E1306D0E588B%7D&amp;RenderingIdentifier&amp;CSSStyles"
           s:ph="/headless-footer/footer-list-second-1" />
         <r
           uid="{A51D2DB4-5B2A-471A-B9F2-C3CF6A023D94}"
           p:after="r[@uid='{158018DB-15CE-495E-A8A0-4568994A6AEC}']"
           s:ds="978205ee-20bf-4572-b091-39a72cf184f1"
           s:id="{4956263D-1195-4D6E-931B-800EA625FF6F}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B48A07BA6-ADFC-4FD1-9B25-14F2B209B1A2%7D&amp;Styles=%7C%7B5CA8FE0F-B4AF-49B8-98AC-CE9582DF7FD6%7D&amp;RenderingIdentifier&amp;CSSStyles"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B48A07BA6-ADFC-4FD1-9B25-14F2B209B1A2%7D&amp;Styles=%7C%7B5CA8FE0F-B4AF-49B8-98AC-CE9582DF7FD6%7D%7C%7B98453209-512D-4AE6-8968-E1306D0E588B%7D&amp;RenderingIdentifier&amp;CSSStyles"
           s:ph="/headless-footer/footer-list-third-1" />
         <r
           uid="{716C8A8B-CBF1-4CF5-AD8D-9B6B8601D2C2}"
@@ -86,11 +86,11 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "50c6754a-2b3b-4c56-8909-5c7bc4af0846"
+      Value: "5db39105-60c7-4aac-bda6-e73ef52257ee"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251124T144308Z
+      Value: 20260121T122935Z

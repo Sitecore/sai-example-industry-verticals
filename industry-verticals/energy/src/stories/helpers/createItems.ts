@@ -26,12 +26,17 @@ export const createMockArticles = (count: number): Article[] =>
       Content: createRichTextField(),
       Image: createImageField('placeholder'),
       PublishedDate: createTextField('Wed, December 25, 2025'),
+      ReadTime: createTextField(`${5 + i} min read`),
       Author: {
         id: `author-${i + 1}`,
         displayName: `Author ${i + 1}`,
         name: `Author ${i + 1}`,
         url: `/authors/author-${i + 1}`,
-        fields: { AuthorName: createTextField(`Author ${i + 1}`) },
+        fields: {
+          AuthorName: createTextField(`Author ${i + 1}`),
+          About: createTextField(`About Author ${i + 1}`),
+          Avatar: createTextField('logo'),
+        },
       } as Author,
       Tags: [],
       Category: {
