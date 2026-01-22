@@ -45,7 +45,14 @@ export const Default = (props: GridDemandProps) => {
 
         {/* Chart */}
         <div className="mt-5">
-          <Chart t={t} unit={unit} var_one={var_one} var_two={var_two} chartData={chartData} type='line' />
+          <Chart
+            t={t}
+            unit={unit}
+            var_one={var_one}
+            var_two={var_two}
+            chartData={chartData}
+            type="line"
+          />
         </div>
       </div>
     </div>
@@ -74,7 +81,14 @@ export const Area = (props: GridDemandProps) => {
 
         {/* Chart */}
         <div className="mt-5">
-          <Chart t={t} unit={unit} var_one={var_one} var_two={var_two} chartData={chartData} type='area' />
+          <Chart
+            t={t}
+            unit={unit}
+            var_one={var_one}
+            var_two={var_two}
+            chartData={chartData}
+            type="area"
+          />
         </div>
       </div>
     </div>

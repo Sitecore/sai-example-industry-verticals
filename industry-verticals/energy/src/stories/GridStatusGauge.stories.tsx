@@ -6,7 +6,7 @@ import { CommonParams, CommonRendering } from './common/commonData';
 type StoryProps = ComponentProps<typeof GridStatusGauge>;
 
 const meta = {
-  title: 'Page Content/GridStatusGauge',
+  title: 'Grid/GridStatusGauge',
   component: GridStatusGauge,
   parameters: {
     layout: 'padded',
