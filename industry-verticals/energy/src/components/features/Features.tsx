@@ -9,7 +9,6 @@ import {
   ComponentRendering,
   ComponentParams,
 } from '@sitecore-content-sdk/nextjs';
-import { Bell } from 'lucide-react';
 
 interface Fields {
   data: {
@@ -49,9 +48,12 @@ const FeatureItem = ({
     // Card variant: horizontal layout with button
     return (
       <li key={feature?.id} className="border-border flex flex-col gap-4 rounded-lg border p-6">
-        <div className="mb-3.5 flex items-center gap-2">
-          <Bell className="text-accent h-6 w-6" />
-          <h5 className="text-base font-bold">
+        <div className="mb-3.5 flex items-center gap-1">
+          <ContentSdkImage
+            field={feature?.featureImage?.jsonValue}
+            className="h-8 w-8 flex-shrink-0 object-contain"
+          />
+          <h5 className="text-base font-bold leading-none">
             <ContentSdkText field={feature?.featureTitle?.jsonValue} />
           </h5>
         </div>
