@@ -5,7 +5,7 @@ import {
   ChartContainer,
   type ChartConfig,
 } from '@/shadcn/components/ui/chart';
-import { CartesianGrid, Line, Area, LineChart, AreaChart, XAxis, YAxis } from 'recharts';
+import { ResponsiveContainer, CartesianGrid, Line, Area, LineChart, AreaChart, XAxis, YAxis } from 'recharts';
 
 const chartConfig = {
   desktop: { label: 'Desktop', color: 'var(--chart-1)' },
@@ -131,12 +131,14 @@ export const Chart = (props: ChartProps) => {
         </div>
       </div>
 
-      <div className="flex gap-4 py-5">
-        <div className="hidden items-center justify-center md:visible md:flex">
+      <div className="flex gap-4 py-5 md:h-100 w-full">
+        <div className="hidden items-center justify-center lg:visible lg:flex">
           <h6 className="-rotate-90">{props.unit}</h6>
         </div>
-        <div className="flex-1">
-          <ChartContainer config={chartConfig}>{renderChart()}</ChartContainer>
+        <div className="flex-1 w-full">
+          <ResponsiveContainer className='w-full md:h-100 flex'>
+            <ChartContainer className='w-full' config={chartConfig}>{renderChart()}</ChartContainer>
+          </ResponsiveContainer>
         </div>
       </div>
     </div>
