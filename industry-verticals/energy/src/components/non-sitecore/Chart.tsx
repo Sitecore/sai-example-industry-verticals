@@ -4,7 +4,7 @@ import {
   ChartContainer,
   type ChartConfig,
 } from '@/shadcn/components/ui/chart';
-import { CartesianGrid, Line, LineChart, AreaChart, XAxis, YAxis, AreaProps, LineProps } from 'recharts';
+import { CartesianGrid, Line, Area, LineChart, AreaChart, XAxis, YAxis, AreaProps, LineProps } from 'recharts';
 
 const chartConfig = {
   desktop: { label: 'Desktop', color: 'var(--chart-1)' },
@@ -29,41 +29,41 @@ export const Chart = (props: ChartProps) => {
 
   const renderChart = () => {
     switch (props.type) {
-      // case 'area':
-      //   return (
-      //     <AreaChart data={props.chartData} margin={{ left: 12, right: 12 }}>
-      //       <CartesianGrid vertical={false} />
-      //       <YAxis
-      //         tickLine={false}
-      //         axisLine={false}
-      //         tickMargin={8}
-      //         width={60}
-      //         tickFormatter={(v) => `${Math.floor(v / 1000)}K`}
-      //       />
-      //       <XAxis
-      //         dataKey="day"
-      //         tickLine={false}
-      //         axisLine={false}
-      //         tickMargin={8}
-      //         tick={{ fill: 'black', fontSize: 16 }}
-      //       />
-      //       <ChartTooltip cursor={false} content={<ChartTooltipContent />} />
-      //       <Area
-      //         dataKey="forecast1"
-      //         type="monotone"
-      //         stroke={props.colors?.forecast1 || 'var(--color-accent)'}
-      //         fill={(props.colors?.forecast1 || 'var(--color-accent)')}
-      //         {...sharedAreaProps}
-      //       />
-      //       <Area
-      //         dataKey="forecast2"
-      //         type="monotone"
-      //         stroke={props.colors?.forecast2 || 'var(--color-accent-dark)'}
-      //         fill={(props.colors?.forecast2 || 'var(--color-accent-dark)')}
-      //         {...sharedAreaProps}
-      //       />
-      //     </AreaChart>
-      //   );
+      case 'area':
+        return (
+          <AreaChart data={props.chartData} margin={{ left: 12, right: 12 }}>
+            <CartesianGrid vertical={false} />
+            <YAxis
+              tickLine={false}
+              axisLine={false}
+              tickMargin={8}
+              width={60}
+              tickFormatter={(v) => `${Math.floor(v / 1000)}K`}
+            />
+            <XAxis
+              dataKey="day"
+              tickLine={false}
+              axisLine={false}
+              tickMargin={8}
+              tick={{ fill: 'black', fontSize: 16 }}
+            />
+            <ChartTooltip cursor={false} content={<ChartTooltipContent />} />
+            <Area
+              dataKey="forecast1"
+              type="monotone"
+              stroke={props.colors?.forecast1 || 'var(--color-accent)'}
+              fill={(props.colors?.forecast1 || 'var(--color-accent)')}
+              {...sharedAreaProps}
+            />
+            <Area
+              dataKey="forecast2"
+              type="monotone"
+              stroke={props.colors?.forecast2 || 'var(--color-accent-dark)'}
+              fill={(props.colors?.forecast2 || 'var(--color-accent-dark)')}
+              {...sharedAreaProps}
+            />
+          </AreaChart>
+        );
 
       case 'line':
       default:

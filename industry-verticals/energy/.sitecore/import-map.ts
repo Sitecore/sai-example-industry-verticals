@@ -19,6 +19,8 @@ import { useI18n } from 'next-localization';
 import { EmailIcon, EmailShareButton, FacebookIcon, FacebookShareButton, LinkedinIcon, LinkedinShareButton, PinterestIcon, PinterestShareButton, TwitterIcon, TwitterShareButton } from 'react-share';
 import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
 import { usePathname } from 'next/navigation';
+import { ChartTooltip, ChartTooltipContent, ChartContainer } from '@/shadcn/components/ui/chart';
+import { CartesianGrid, Line, LineChart, XAxis, YAxis } from 'recharts';
 import { useClickAway } from '@/hooks/useClickAway';
 import { useStopResponsiveTransition } from '@/hooks/useStopResponsiveTransition';
 import { extractMediaUrl } from '@/helpers/extractMediaUrl';
@@ -26,6 +28,8 @@ import { getLinkContent, getLinkField, isNavLevel, isNavRootItem, prepareFields 
 import clsx from 'clsx';
 import { isParamEnabled } from '@/helpers/isParamEnabled';
 import { Drawer, DrawerTrigger, DrawerContent, DrawerClose } from '@/shadcn/components/ui/drawer';
+import { generateChartData } from '@/helpers/chartDataHelper';
+import { Chart } from 'src/components/non-sitecore/Chart';
 import Head from 'next/head';
 import client from 'lib/sitecore-client';
 import Image from 'next/image';
@@ -139,6 +143,24 @@ const importMap = [
     ]
   },
   {
+    module: '@/shadcn/components/ui/chart',
+    exports: [
+      { name: 'ChartTooltip', value: ChartTooltip },
+      { name: 'ChartTooltipContent', value: ChartTooltipContent },
+      { name: 'ChartContainer', value: ChartContainer },
+    ]
+  },
+  {
+    module: 'recharts',
+    exports: [
+      { name: 'CartesianGrid', value: CartesianGrid },
+      { name: 'Line', value: Line },
+      { name: 'LineChart', value: LineChart },
+      { name: 'XAxis', value: XAxis },
+      { name: 'YAxis', value: YAxis },
+    ]
+  },
+  {
     module: '@/hooks/useClickAway',
     exports: [
       { name: 'useClickAway', value: useClickAway },
@@ -185,6 +207,18 @@ const importMap = [
       { name: 'DrawerTrigger', value: DrawerTrigger },
       { name: 'DrawerContent', value: DrawerContent },
       { name: 'DrawerClose', value: DrawerClose },
+    ]
+  },
+  {
+    module: '@/helpers/chartDataHelper',
+    exports: [
+      { name: 'generateChartData', value: generateChartData },
+    ]
+  },
+  {
+    module: 'src/components/non-sitecore/Chart',
+    exports: [
+      { name: 'Chart', value: Chart },
     ]
   },
   {
