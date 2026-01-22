@@ -8,8 +8,9 @@ import {
 // end of built-in imports
 
 import { Link, Text, useSitecore, RichText, Image, Placeholder, NextImage, CdpHelper, withDatasourceCheck, DateField } from '@sitecore-content-sdk/nextjs';
-import { useState, useRef, useEffect } from 'react';
+import { useMemo, useState, useRef, useEffect } from 'react';
 import React from 'react';
+import Head from 'next/head';
 import { faFacebookF, faInstagram, faLinkedinIn, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { ArrowRight, Share2, ChevronLeft, ArrowLeft, X, Menu, Activity, Thermometer, TrendingDown, TrendingUp, Unplug, Zap, Bookmark, Calendar, User } from 'lucide-react';
@@ -28,7 +29,6 @@ import { isParamEnabled } from '@/helpers/isParamEnabled';
 import { Drawer, DrawerTrigger, DrawerContent, DrawerClose } from '@/shadcn/components/ui/drawer';
 import { Progress } from '@/shadcn/components/ui/progress';
 import { GRID_CONDITIONS_DATA } from 'src/components/grid-conditions/gridData';
-import Head from 'next/head';
 import client from 'lib/sitecore-client';
 import Image_5d8ce56058442d94361877e28c501c951a554a6a from 'next/image';
 import * as FEAAS from '@sitecore-feaas/clientside/react';
@@ -58,10 +58,17 @@ const importMap = [
   {
     module: 'react',
     exports: [
+      { name: 'useMemo', value: useMemo },
       { name: 'useState', value: useState },
       { name: 'useRef', value: useRef },
       { name: 'useEffect', value: useEffect },
       { name: 'default', value: React },
+    ]
+  },
+  {
+    module: 'next/head',
+    exports: [
+      { name: 'default', value: Head },
     ]
   },
   {
@@ -207,12 +214,6 @@ const importMap = [
     module: 'src/components/grid-conditions/gridData',
     exports: [
       { name: 'GRID_CONDITIONS_DATA', value: GRID_CONDITIONS_DATA },
-    ]
-  },
-  {
-    module: 'next/head',
-    exports: [
-      { name: 'default', value: Head },
     ]
   },
   {
