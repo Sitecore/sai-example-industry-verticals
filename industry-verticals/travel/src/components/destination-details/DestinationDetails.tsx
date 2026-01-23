@@ -28,7 +28,7 @@ export const Default = ({ params, fields }: DestinationDetailsProps) => {
     }
   }, []);
 
-  if (!fields.Title) {
+  if (!fields?.Title) {
     return isPageEditing ? (
       <div className={`component destination-details ${styles}`} id={id}>
         [DESTINATION DETAILS]
