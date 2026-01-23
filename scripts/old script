@@ -1,0 +1,193 @@
+Import-Function Get-ItemByIdSafe
+
+# ----------------------------------------------------------------------------------
+# HELPER: Gets the correct style ID for the new site
+# ----------------------------------------------------------------------------------
+function Get-LocalStyle {
+    param ($Site, $styleIds)
+    $styles = Get-ChildItem -Path "$($Site.Paths.Path)/Presentation/Styles" -Recurse 
+    $styleIds | % {
+        $styleId = $_; $style = Get-ItemByIdSafe $styleId
+        $styles | ? { $_.Value -eq $style.Value } | % { $_.ID }
+    }
+}
+
+function Invoke-ModuleScriptBody {
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory = $true, Position = 0 )][Item]$Site,
+        [Parameter(Mandatory = $true, Position = 1 )][Item[]]$TenantTemplates        
+    )
+    
+    begin {
+        Import-Function Get-ProjectTemplateBasedOnBaseTemplate
+    }
+    
+    process {
+        $sitePath = $Site.Paths.Path
+        Write-Verbose "Configuring Nova Medical Site at: $sitePath"
+
+        # ==========================================================================
+        # 1. BOOTSTRAP: Styles, Modules, and Libraries (Standard SXA Setup)
+        # ==========================================================================
+        
+        # Ensure Styles folder exists
+        if (-not (Test-Path "$sitePath/Presentation/Styles")) {
+            Import-Function Invoke-AddItem
+            $action = Get-Item . -ID '{B2486523-7487-4526-978F-AD2E986B5CC4}'
+            Invoke-AddItem $Site $action
+        }
+        
+        # Install Required Modules
+        $requiredModules = "{4342A029-0186-4B0D-8959-FFEF4FD998C2}", "{F0EA389E-F78D-440B-9429-F04FE735344A}", "{1FD78E81-59A6-4513-90F1-165A95D4B16B}", "{385F31BE-FF0C-4D84-A627-9ECD21295AFD}", "{66B9C663-2602-42B1-A5A2-3D04DB6C506A}"
+        $scaffoldingService = [Sitecore.DependencyInjection.ServiceLocator]::ServiceProvider.GetService([Sitecore.XA.Foundation.Scaffolding.Services.IScaffoldingService])
+        $installedModules = $scaffoldingService.GetModules($Site).FeatureItemId
+        
+        if ($installedModules.Count -eq 0 -and $DefinitionItems -ne $null) {
+             $installedModules = $DefinitionItems.ID
+        }
+        $definitionItems = Compare-Object $installedModules $requiredModules | ? { $_.SideIndicator -eq "=>" } | % { $_.inputobject } | % { Get-ItemByIdSafe $_ }
+        if ($definitionItems.Count -gt 0) {
+            Add-SiteModule $SiteItem $definitionItems
+        }
+        
+        # Ensure Module Items exist
+        $requiredModules | % {
+            $actions = Get-ItemByIdSafe $_ | Get-Action | ? { $_.TemplateName -eq "AddItem" }
+            foreach ($action in $actions) { Invoke-AddItem $site $action }
+        }
+
+        # Copy Styles from Template
+        $styles = Get-ChildItem -Path "$sitePath/Presentation/Styles"
+        # Ensure this path matches your actual template location exactly
+        Get-ChildItem -Path "/sitecore/templates/Branches/Feature/Headless Experience Accelerator/Healthcare Site/Styles" | % {
+            $styleFolder = $_
+            $newParent = $styles | ? { $_.Name -eq $styleFolder.Name } | Select-Object -First 1
+            if ($newParent) {
+                $styleFolder.Children | ? { $_.TemplateName -eq "Style" } | Copy-Item -DestinationItem $newParent
+            } else {
+                $styleFolder | Copy-Item -Destination "$sitePath/Presentation/Styles" -Recurse
+            }
+        }
+
+        # ==========================================================================
+        # 2. PREPARE YOUR CUSTOM COMPONENTS (Definitions)
+        # ==========================================================================
+        
+        # --- A. Partial Design Components ---
+        $rHeader   = Get-Item -Path "master:" -ID "{32138D34-7434-4CD1-BF7F-64DA1CEB8F33}" | New-Rendering
+        $rFooter   = Get-Item -Path "master:" -ID "{02654BA0-74AE-42A4-B384-BCA9B96ADF4B}" | New-Rendering
+
+        # --- B. Home Page Components (From your Layout Details Screenshot) ---
+        $rHero     = Get-Item -Path "master:" -ID "{B49CF2D7-7CB2-4918-8F38-2607D956D995}" | New-Rendering
+        $rFeatures = Get-Item -Path "master:" -ID "{E3CCF1D0-7855-4898-8BDE-77F83C6A487C}" | New-Rendering
+        $rPromo    = Get-Item -Path "master:" -ID "{CCD11802-22A3-462F-92FC-821515E2AEC8}" | New-Rendering
+        $rSection  = Get-Item -Path "master:" -ID "{75A72FA7-693E-4ABF-8A24-D3B74D48EA20}" | New-Rendering
+        $rReviews  = Get-Item -Path "master:" -ID "{75A72FA7-693E-4ABF-8A24-D3B74D48EA20}" | New-Rendering
+        $rDoctors  = Get-Item -Path "master:" -ID "{810E5B86-932A-4160-8672-C126B545F034}" | New-Rendering
+
+        # ==========================================================================
+        # 3. ASSIGN RENDERINGS TO THE PAGES
+        # ==========================================================================
+
+        # --- A. CONFIGURE HEADER (Partial Design) ---
+        # We target the Partial Design item directly.
+        $partialHeader = Get-Item -Path "$sitePath/Presentation/Partial Designs/Header"
+        # Ensure 'Header Data' folder exists in your Branch Template Data
+        Add-Rendering -Item $partialHeader -PlaceHolder "headless-header" -Instance $rHeader -DataSource "local:/Data/Header Data"
+
+        # --- B. CONFIGURE FOOTER (Partial Design) ---
+        $partialFooter = Get-Item -Path "$sitePath/Presentation/Partial Designs/Footer"
+        Add-Rendering -Item $partialFooter -PlaceHolder "headless-footer" -Instance $rFooter -DataSource "local:/Data/Footer Data"
+
+        # --- C. CONFIGURE HOME PAGE (The Body) ---
+        $home = Get-Item -Path "$sitePath/Home" -Language $Site.Language
+
+        # 1. Hero Banner
+        Add-Rendering -Item $home -PlaceHolder "headless-main" -Instance $rHero -DataSource "local:/Data/Hero"
+        
+        # 2. Features
+        Add-Rendering -Item $home -PlaceHolder "headless-main" -Instance $rFeatures -DataSource "local:/Data/Features"
+        
+        # 3. Promo (Primary)
+        Add-Rendering -Item $home -PlaceHolder "headless-main" -Instance $rPromo -DataSource "local:/Data/Promo Main"
+        
+        # 4. Promo (Secondary - as seen in your screenshot)
+        Add-Rendering -Item $home -PlaceHolder "headless-main" -Instance $rPromo -DataSource "local:/Data/Promo Secondary"
+        
+        # 5. Content Section
+        Add-Rendering -Item $home -PlaceHolder "headless-main" -Instance $rSection -DataSource "local:/Data/Content Section"
+        
+        # 6. Reviews
+        Add-Rendering -Item $home -PlaceHolder "headless-main" -Instance $rReviews -DataSource "local:/Data/Reviews"
+        
+        # 7. Doctors Listing
+        # If this component just lists all doctors automatically, you may not need a DataSource. 
+        # If it does need one, ensure 'Doctors Config' exists in your Data folder.
+        Add-Rendering -Item $home -PlaceHolder "headless-main" -Instance $rDoctors -DataSource "local:/Data/Doctors Config"
+
+
+        # ==========================================================================
+        # 4. BUILD SUB-PAGES (Optional but recommended for Full Template)
+        # ==========================================================================
+        
+        function Ensure-Page {
+            param ($Name, $Parent)
+            if (-not (Test-Path "$($Parent.Paths.Path)/$Name")) {
+                $newPage = New-Item -Path "$($Parent.Paths.Path)/$Name" -ItemType $Parent.TemplateID
+                $newPage.Editing.BeginEdit()
+                $newPage["Title"] = $Name
+                $newPage["NavigationTitle"] = $Name
+                $newPage.Editing.EndEdit()
+                return $newPage
+            }
+            return Get-Item -Path "$($Parent.Paths.Path)/$Name"
+        }
+
+        # Create standard pages automatically
+        $pAbout    = Ensure-Page "About Us" $home
+        $pServices = Ensure-Page "Services" $home
+        $pDoctors  = Ensure-Page "Doctors" $home
+
+        # ==========================================================================
+        # 5. FINAL WIRING (Do Not Change)
+        # ==========================================================================
+        
+        # Link Partial Designs to Page Designs
+        $partialDesignIDs = (Get-ChildItem -path "$sitePath/Presentation/Partial Designs").ID
+        $pageDesign = Get-Item -path "$sitePath/Presentation/Page Designs/Default" -Language $Site.Language
+        $pageDesign.PartialDesigns = [System.String]::Join('|', $partialDesignIDs)
+    
+        $pageDesigns = Get-Item -path "$sitePath/Presentation/Page Designs" -Language $Site.Language
+        $map = [Sitecore.Text.UrlString]::new()
+        # Map Home Template to Default Page Design
+        $map["$($home.TemplateID)"] = "$($pageDesign.ID)"
+        $pageDesigns.TemplatesMapping = [System.Web.HttpUtility]::UrlEncode($map.toString())
+            
+        # Add Media Library Root
+        $virtualMedia = Get-Item -path "$sitePath/Media" -Language $Site.Language
+        $ids = $virtualMedia.AdditionalChildren.Split('|') | ? { [guid]::TryParse($_, [ref][guid]::Empty) }
+        $ids += "{B4D0BE7D-1DCD-4263-9EDE-9E6693DA8BCB}"
+        $virtualMedia.AdditionalChildren = ($ids | Select-Object -Unique) -join "|"
+
+        # Language Fallback Migration
+        $data = Get-Item -Path "$sitePath/Data" -Language '*'
+        $siteLanguage = $data.Language | ? { $_.Name -ne "en" } | Select-Object -First 1
+        if ($siteLanguage.Name -ne $null) {
+            # Update path if your template folder name is different
+            $branches = gci -path '/sitecore/system/Settings/Feature/Headless Experience Accelerator/Healthcare Site/Healthcare Site Setup' | ? { $_.TemplateId -eq '{3AEA335C-D06D-45B1-841A-CBC8D2D1CE40}' } | % { $_.Fields['Template'].Value.ToString() }
+            Get-ChildItem -Path $sitePath -Recurse | `
+                ? { $branches.Contains($_.BranchId.ToString()) } | `
+                ? { $_.TemplateName -ne 'Page Data' } | `
+                % {
+                $_ = $_.Versions.AddVersion()
+                Add-ItemLanguage -Item $_ -TargetLanguage $siteLanguage.Name -Language 'en' -IfExist OverwriteLatest | Out-Null
+                $_.Versions.RemoveAll($false)
+            }
+        }
+    }
+    
+    end {
+        Write-Verbose "Cmdlet Invoke-ModuleScriptBody - End"
+    }
+}
