@@ -27,7 +27,7 @@ SharedFields:
     <image mediaid="{84FB620F-1826-46F3-8ED2-15F85CE62027}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "b21f88cd-fb43-47ea-a65e-6eabde7231e8"
+  Value: "cfd3f32e-12e7-4c91-8416-fc5d941963f3"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -36,32 +36,19 @@ SharedFields:
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
         <r
-          uid="{608ACCDB-3AA1-4664-B3A1-59CA5D9E3574}"
-          p:before="*"
-          s:id="{3EF239BA-A9CC-4BEC-B343-B9ABB9A9C94A}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;HideShareWidget&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
-          s:ph="headless-main" />
-        <r
           uid="{97EC6CE1-AB73-47A5-A9B4-9E3C1FD49051}"
-          p:after="r[@uid='{608ACCDB-3AA1-4664-B3A1-59CA5D9E3574}']"
+          p:before="*"
           s:ds="023c2129-aa22-4399-9dbf-91f5b167c78e"
           s:id="{32E7FD88-4E5D-4AAB-A15F-61DCEBA1EE6F}"
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BC18CFAB6-BFD2-4347-BB31-F8A152627344%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
           s:ph="/headless-main/article-details-1" />
         <r
-          uid="{5A696995-4551-47A4-BE72-F539B712FC62}"
-          p:after="r[@uid='{97EC6CE1-AB73-47A5-A9B4-9E3C1FD49051}']"
+          uid="{31E6FB26-BA82-421B-ABAD-AD3112D3ADA3}"
+          p:after="*[1=2]"
           s:ds="af2b4fe7-ed5e-4a65-9fe1-e0165ec1cd3c"
           s:id="{32E7FD88-4E5D-4AAB-A15F-61DCEBA1EE6F}"
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B7E568908-849F-43BB-9174-EBF50749E19F%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
-          s:ph="/headless-main/article-details-author-1" />
-        <r
-          uid="{CDF230F8-F8A4-4FE5-B9F2-B3B13129FDF8}"
-          p:after="*[1=2]"
-          s:ds="95d71961-647d-4ffa-b7bd-c591e70291a1"
-          s:id="{CCD11802-22A3-462F-92FC-821515E2AEC8}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BA6D3D740-A319-43F9-844F-9E349F2711C8%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
-          s:ph="/headless-main/article-details-full-width-1" />
+          s:ph="/headless-main/sxa-articlecontent/article-details-author-1" />
       </d>
     </r>
 - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
@@ -106,7 +93,7 @@ Languages:
       Value: 5 min
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7d7a1a4f-b815-4f35-b001-9a4142015818"
+      Value: "81266e03-9fbe-45ae-8be5-024b9f42a664"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "Bali in Summer: Long Days, Warm Evenings, and Ocean Calm"
@@ -119,7 +106,7 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251229T121557Z
+      Value: 20260123T085327Z
     - ID: "de1b043b-cddd-48a7-b9c4-98251e188b30"
       Hint: Likes
       Value: 14

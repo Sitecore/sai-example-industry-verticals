@@ -27,7 +27,7 @@ SharedFields:
     <image mediaid="{CA42BE2F-90FE-42A2-A349-18970DB43F77}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "ecd19c1b-1ec4-4076-9fe1-6b6db3856eef"
+  Value: "445d470a-e1b2-4df9-8a45-2ce153feac75"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -36,25 +36,19 @@ SharedFields:
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
         <r
-          uid="{E2BD7535-994A-404A-A768-9442BE62AEBF}"
-          p:before="*"
-          s:id="{3EF239BA-A9CC-4BEC-B343-B9ABB9A9C94A}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;HideShareWidget&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
-          s:ph="headless-main" />
-        <r
           uid="{7ECEDAEE-8D73-4F32-8A9E-C4F741E7CEB0}"
-          p:after="r[@uid='{E2BD7535-994A-404A-A768-9442BE62AEBF}']"
+          p:before="*"
           s:ds="023c2129-aa22-4399-9dbf-91f5b167c78e"
           s:id="{32E7FD88-4E5D-4AAB-A15F-61DCEBA1EE6F}"
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BC18CFAB6-BFD2-4347-BB31-F8A152627344%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
           s:ph="/headless-main/article-details-1" />
         <r
-          uid="{2C1BE45B-F682-4CA0-9289-B48A64F96D30}"
+          uid="{D4C81637-2112-495D-81CB-2550D47F9789}"
           p:after="*[1=2]"
           s:ds="af2b4fe7-ed5e-4a65-9fe1-e0165ec1cd3c"
           s:id="{32E7FD88-4E5D-4AAB-A15F-61DCEBA1EE6F}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B8A370F7A-D24B-497C-BA63-CAE02445F477%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
-          s:ph="/headless-main/article-details-author-1" />
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B7E568908-849F-43BB-9174-EBF50749E19F%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="/headless-main/sxa-articlecontent/article-details-author-1" />
       </d>
     </r>
 - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
@@ -99,7 +93,7 @@ Languages:
       Value: 5 min
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3582eb21-8660-43f6-9fa0-0f63cbfcdd13"
+      Value: "17555bb3-3a5e-4778-9af3-b4e257dc5c4d"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "The Quiet Side of Bali: Finding Stillness Beyond the Crowds"
@@ -109,10 +103,10 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251226T200747Z
+      Value: 20260123T090731Z
     - ID: "de1b043b-cddd-48a7-b9c4-98251e188b30"
       Hint: Likes
       Value: 100
