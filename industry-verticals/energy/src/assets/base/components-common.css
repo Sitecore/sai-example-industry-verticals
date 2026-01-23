@@ -31,11 +31,23 @@
 }
 
 .main-btn {
-  @apply bg-accent text-background hover:bg-accent/95 flex items-center justify-center rounded-md p-3 text-center text-lg font-semibold transition-all hover:shadow-md;
+  @apply bg-accent text-background hover:bg-accent/95 flex items-center justify-center rounded-md px-6 py-3 text-center text-lg font-semibold transition-all hover:shadow-md;
 
   &[disabled] {
     @apply pointer-events-none opacity-60;
   }
+}
+
+.secondary-btn {
+  @apply border-foreground bg-background text-foreground hover:bg-background-muted flex items-center justify-center rounded-md border-2 px-8 py-2 text-center text-lg font-semibold transition-all hover:shadow-md;
+
+  &[disabled] {
+    @apply pointer-events-none opacity-60;
+  }
+}
+
+.outline-btn {
+  @apply border-border hover:bg-background-muted rounded-md border px-4 py-1.5 text-sm transition-colors;
 }
 
 .simple-btn {
@@ -55,5 +67,17 @@
 
   &.inverted {
     @apply bg-foreground text-background hover:bg-foreground/90;
+  }
+}
+
+.info-card {
+  @apply bg-background space-y-4 rounded-lg border p-6 text-sm shadow-sm;
+
+  .info-card-title {
+    @apply text-foreground mb-6 flex items-center gap-2 text-base font-bold;
+
+    svg {
+      @apply size-5;
+    }
   }
 }

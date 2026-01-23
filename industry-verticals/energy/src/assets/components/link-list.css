@@ -23,3 +23,9 @@
     @apply flex-col;
   }
 }
+
+.link-list.hide-title {
+  h3 {
+    @apply hidden;
+  }
+}

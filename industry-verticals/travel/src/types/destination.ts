@@ -62,3 +62,23 @@ export interface Weather {
   Description: Field<string>;
   Image: ImageField;
 }
+
+export type DestinationSearchResult = {
+  id: string;
+  activities: string[];
+  continent: string;
+  country: string;
+  description: string;
+  highlights: string[];
+  image_url: string;
+  label: string;
+  name: string;
+  price: string;
+  review_rating: number;
+  srouce_id: string;
+  temperatures: string;
+  type: string;
+  url: string;
+  trip_duration: string;
+  trip_periods: string;
+};

@@ -8,25 +8,28 @@ import {
 // end of built-in imports
 
 import { Link, Text, useSitecore, RichText, NextImage, Image, DateField, Placeholder, CdpHelper, withDatasourceCheck } from '@sitecore-content-sdk/nextjs';
-import { useState, useCallback, useRef, useEffect, useMemo } from 'react';
+import { useMemo, useState, useCallback, useRef, useEffect } from 'react';
 import React from 'react';
+import Head from 'next/head';
 import { useI18n } from 'next-localization';
 import { faFacebookF, faInstagram, faLinkedinIn, faTwitter, faYoutube, faPinterestP } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
-import { ArrowRight, Share2, ArrowLeft, ChevronLeft, ChevronRight, Phone, Plane, Bed, Camera, Navigation, CalendarDays, Clock, MapPin, Star, Thermometer, LoaderCircle, X, Search, Users, ChevronDown, Check, Menu, Heart, Calendar, User } from 'lucide-react';
+import { ArrowRight, Share2, ArrowLeft, ChevronLeft, ChevronRight, Phone, Plane, Bed, Camera, Navigation, CalendarDays, Clock, MapPin, Star, Thermometer, LoaderCircle, Check, ChevronDown, X, Search, Users, Menu, Heart, Calendar, User } from 'lucide-react';
 import * as LucidIcons from 'lucide-react';
 import { LayoutStyles, PromoFlags, HeroBannerStyles, TitleSectionFlags } from '@/types/styleFlags';
 import { newsDateFormatter } from '@/helpers/dateHelper';
 import { useSearchParams, usePathname, useRouter } from 'next/navigation';
 import QuestionsAnswers from 'src/components/non-sitecore/search/QuestionsAnswers';
 import SearchResultsWidget from 'src/components/non-sitecore/search/SearchResultsComponent';
+import { SEARCH_WIDGET_ID, HIGHLIGHTED_ARTICLES_RFKID, DEFAULT_IMG_URL, PREVIEW_WIDGET_ID, HOMEHIGHLIGHTED_WIDGET_ID, DESTINATIONS_WIDGET_ID } from '@/constants/search';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/shadcn/components/ui/dropdown-menu';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { EmailIcon, EmailShareButton, FacebookIcon, FacebookShareButton, LinkedinIcon, LinkedinShareButton, PinterestIcon, PinterestShareButton, TwitterIcon, TwitterShareButton } from 'react-share';
 import { usePagination } from '@/hooks/usePagination';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/shadcn/components/ui/tabs';
-import { usePreviewSearchActions, useSearchResultsActions, WidgetDataType, useSearchResults, widget, useQuestions, usePreviewSearch, FilterEqual } from '@sitecore-search/react';
+import Image_5d8ce56058442d94361877e28c501c951a554a6a from 'next/image';
+import { usePreviewSearchActions, useSearchResultsActions, WidgetDataType, useSearchResults, widget, useQuestions, usePreviewSearch, FilterEqual, useSearchResultsSelectedFacets } from '@sitecore-search/react';
 import { PreviewSearch, SortSelect, Pagination, AccordionFacets, FacetItem, RangeFacet, SearchResultsAccordionFacets, SearchResultsFacetValueRange, Select, ArticleCard, CardViewSwitcher as CardViewSwitcher_b6c381477cbf12fc0dc4f9aeb9e8e41e943b6ea7 } from '@sitecore-search/ui';
 import { GridIcon, ListBulletIcon, CheckIcon, ChevronDownIcon } from '@radix-ui/react-icons';
 import HomeHighlighted from 'src/components/non-sitecore/search/HomeHighlighted';
@@ -39,10 +42,8 @@ import SearchFacets from 'src/components/non-sitecore/search/SearchFacets';
 import ResultsPerPage from 'src/components/non-sitecore/search/ResultsPerPage';
 import QueryResultsSummary from 'src/components/non-sitecore/search/QueryResultsSummary';
 import CardViewSwitcher from 'src/components/non-sitecore/search/CardViewSwitcher';
-import { HIGHLIGHTED_ARTICLES_RFKID, SEARCH_WIDGET_ID, DEFAULT_IMG_URL, PREVIEW_WIDGET_ID, HOMEHIGHLIGHTED_WIDGET_ID } from '@/constants/search';
 import { useSearchTracking } from '@/hooks/useSearchTracking';
 import { Accordion, Content, Header, Item, Trigger } from '@radix-ui/react-accordion';
-import Image_5d8ce56058442d94361877e28c501c951a554a6a from 'next/image';
 import SuggestionBlock from 'src/components/non-sitecore/search/SuggestionBlock';
 import { useClickAway } from '@/hooks/useClickAway';
 import { useStopResponsiveTransition } from '@/hooks/useStopResponsiveTransition';
@@ -54,7 +55,7 @@ import { Drawer, DrawerTrigger, DrawerContent, DrawerClose } from '@/shadcn/comp
 import { DatePicker } from '@/shadcn/components/ui/date-picker';
 import PreviewSearch_938f3b0320996fc3fe6ab3d953daf2e708e085ca from 'src/components/non-sitecore/search/PreviewSearch';
 import DestinationCard from 'src/components/non-sitecore/DestinationCard';
-import Head from 'next/head';
+import FilterDropdown from 'src/components/non-sitecore/search/FilterDropdown';
 import SocialShare from 'src/components/non-sitecore/SocialShare';
 import { DestinationHighlights } from 'src/components/non-sitecore/DestinationHighlights';
 import { DestinationSidebar } from 'src/components/non-sitecore/DestinationSidebar';
@@ -87,12 +88,18 @@ const importMap = [
   {
     module: 'react',
     exports: [
+      { name: 'useMemo', value: useMemo },
       { name: 'useState', value: useState },
       { name: 'useCallback', value: useCallback },
       { name: 'useRef', value: useRef },
       { name: 'useEffect', value: useEffect },
-      { name: 'useMemo', value: useMemo },
       { name: 'default', value: React },
+    ]
+  },
+  {
+    module: 'next/head',
+    exports: [
+      { name: 'default', value: Head },
     ]
   },
   {
@@ -143,11 +150,11 @@ const importMap = [
       { name: 'Star', value: Star },
       { name: 'Thermometer', value: Thermometer },
       { name: 'LoaderCircle', value: LoaderCircle },
+      { name: 'Check', value: Check },
+      { name: 'ChevronDown', value: ChevronDown },
       { name: 'X', value: X },
       { name: 'Search', value: Search },
       { name: 'Users', value: Users },
-      { name: 'ChevronDown', value: ChevronDown },
-      { name: 'Check', value: Check },
       { name: 'Menu', value: Menu },
       { name: 'Heart', value: Heart },
       { name: 'Calendar', value: Calendar },
@@ -188,6 +195,17 @@ const importMap = [
     module: 'src/components/non-sitecore/search/SearchResultsComponent',
     exports: [
       { name: 'default', value: SearchResultsWidget },
+    ]
+  },
+  {
+    module: '@/constants/search',
+    exports: [
+      { name: 'SEARCH_WIDGET_ID', value: SEARCH_WIDGET_ID },
+      { name: 'HIGHLIGHTED_ARTICLES_RFKID', value: HIGHLIGHTED_ARTICLES_RFKID },
+      { name: 'DEFAULT_IMG_URL', value: DEFAULT_IMG_URL },
+      { name: 'PREVIEW_WIDGET_ID', value: PREVIEW_WIDGET_ID },
+      { name: 'HOMEHIGHLIGHTED_WIDGET_ID', value: HOMEHIGHLIGHTED_WIDGET_ID },
+      { name: 'DESTINATIONS_WIDGET_ID', value: DESTINATIONS_WIDGET_ID },
     ]
   },
   {
@@ -236,6 +254,12 @@ const importMap = [
     ]
   },
   {
+    module: 'next/image',
+    exports: [
+      { name: 'default', value: Image_5d8ce56058442d94361877e28c501c951a554a6a },
+    ]
+  },
+  {
     module: '@sitecore-search/react',
     exports: [
       { name: 'usePreviewSearchActions', value: usePreviewSearchActions },
@@ -246,6 +270,7 @@ const importMap = [
       { name: 'useQuestions', value: useQuestions },
       { name: 'usePreviewSearch', value: usePreviewSearch },
       { name: 'FilterEqual', value: FilterEqual },
+      { name: 'useSearchResultsSelectedFacets', value: useSearchResultsSelectedFacets },
     ]
   },
   {
@@ -334,16 +359,6 @@ const importMap = [
     ]
   },
   {
-    module: '@/constants/search',
-    exports: [
-      { name: 'HIGHLIGHTED_ARTICLES_RFKID', value: HIGHLIGHTED_ARTICLES_RFKID },
-      { name: 'SEARCH_WIDGET_ID', value: SEARCH_WIDGET_ID },
-      { name: 'DEFAULT_IMG_URL', value: DEFAULT_IMG_URL },
-      { name: 'PREVIEW_WIDGET_ID', value: PREVIEW_WIDGET_ID },
-      { name: 'HOMEHIGHLIGHTED_WIDGET_ID', value: HOMEHIGHLIGHTED_WIDGET_ID },
-    ]
-  },
-  {
     module: '@/hooks/useSearchTracking',
     exports: [
       { name: 'useSearchTracking', value: useSearchTracking },
@@ -357,12 +372,6 @@ const importMap = [
       { name: 'Header', value: Header },
       { name: 'Item', value: Item },
       { name: 'Trigger', value: Trigger },
-    ]
-  },
-  {
-    module: 'next/image',
-    exports: [
-      { name: 'default', value: Image_5d8ce56058442d94361877e28c501c951a554a6a },
     ]
   },
   {
@@ -439,9 +448,9 @@ const importMap = [
     ]
   },
   {
-    module: 'next/head',
+    module: 'src/components/non-sitecore/search/FilterDropdown',
     exports: [
-      { name: 'default', value: Head },
+      { name: 'default', value: FilterDropdown },
     ]
   },
   {
