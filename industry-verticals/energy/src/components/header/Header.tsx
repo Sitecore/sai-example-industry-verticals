@@ -24,7 +24,8 @@ export const Default = (props: HeaderProps): JSX.Element => {
         </div>
 
         <div className="header-block hidden! lg:flex! lg:shrink-0">
-          <Placeholder name={`header-right-${DynamicPlaceholderId}`} rendering={props.rendering} />
+          {/* TODO: Search to go here */}
+          {/* <Placeholder name={`header-right-${DynamicPlaceholderId}`} rendering={props.rendering} /> */}
         </div>
 
         {/* Mobile Drawer Trigger */}
@@ -57,10 +58,11 @@ export const Default = (props: HeaderProps): JSX.Element => {
                   />
                 </div>
                 <div className="flex flex-col gap-y-6 px-12">
-                  <Placeholder
+                  {/* TODO: Search to go here */}
+                  {/* <Placeholder
                     name={`header-right-${DynamicPlaceholderId}`}
                     rendering={props.rendering}
-                  />
+                  /> */}
                 </div>
               </div>
             </DrawerContent>
