@@ -33,7 +33,7 @@ export const Default = ({ params, fields, rendering }: ArticleDetailsProps) => {
     }
   }, []);
 
-  if (!fields) {
+  if (!fields?.Title) {
     return isPageEditing ? (
       <div className={`component article-details ${styles}`} id={id}>
         [ARTICLE DETAILS]
