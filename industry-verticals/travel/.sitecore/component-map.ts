@@ -5,6 +5,7 @@ import { Form } from '@sitecore-content-sdk/nextjs';
 
 // end of built-in components
 import * as Title from 'src/components/title/Title';
+import * as ThemeEditor from 'src/components/theme-editor/ThemeEditor';
 import * as Subscribe from 'src/components/subscribe/Subscribe';
 import * as SocialFollow from 'src/components/social-follow/SocialFollow';
 import * as SelectedDestinations from 'src/components/selected-destinations/SelectedDestinations';
@@ -54,6 +55,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['FEaaSWrapper', FEaaSWrapper],
   ['Form', Form],
   ['Title', { ...Title }],
+  ['ThemeEditor', { ...ThemeEditor }],
   ['Subscribe', { ...Subscribe }],
   ['SocialFollow', { ...SocialFollow }],
   ['SelectedDestinations', { ...SelectedDestinations, componentType: 'client' }],

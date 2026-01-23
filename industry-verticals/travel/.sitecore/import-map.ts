@@ -8,8 +8,9 @@ import {
 // end of built-in imports
 
 import { Link, Text, useSitecore, RichText, NextImage, Image, DateField, Placeholder, CdpHelper, withDatasourceCheck } from '@sitecore-content-sdk/nextjs';
-import { useState, useCallback, useRef, useEffect, useMemo } from 'react';
+import { useMemo, useState, useCallback, useRef, useEffect } from 'react';
 import React from 'react';
+import Head from 'next/head';
 import { useI18n } from 'next-localization';
 import { faFacebookF, faInstagram, faLinkedinIn, faTwitter, faYoutube, faPinterestP } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -55,7 +56,6 @@ import { DatePicker } from '@/shadcn/components/ui/date-picker';
 import PreviewSearch_938f3b0320996fc3fe6ab3d953daf2e708e085ca from 'src/components/non-sitecore/search/PreviewSearch';
 import DestinationCard from 'src/components/non-sitecore/DestinationCard';
 import FilterDropdown from 'src/components/non-sitecore/search/FilterDropdown';
-import Head from 'next/head';
 import SocialShare from 'src/components/non-sitecore/SocialShare';
 import { DestinationHighlights } from 'src/components/non-sitecore/DestinationHighlights';
 import { DestinationSidebar } from 'src/components/non-sitecore/DestinationSidebar';
@@ -88,12 +88,18 @@ const importMap = [
   {
     module: 'react',
     exports: [
+      { name: 'useMemo', value: useMemo },
       { name: 'useState', value: useState },
       { name: 'useCallback', value: useCallback },
       { name: 'useRef', value: useRef },
       { name: 'useEffect', value: useEffect },
-      { name: 'useMemo', value: useMemo },
       { name: 'default', value: React },
+    ]
+  },
+  {
+    module: 'next/head',
+    exports: [
+      { name: 'default', value: Head },
     ]
   },
   {
@@ -445,12 +451,6 @@ const importMap = [
     module: 'src/components/non-sitecore/search/FilterDropdown',
     exports: [
       { name: 'default', value: FilterDropdown },
-    ]
-  },
-  {
-    module: 'next/head',
-    exports: [
-      { name: 'default', value: Head },
     ]
   },
   {

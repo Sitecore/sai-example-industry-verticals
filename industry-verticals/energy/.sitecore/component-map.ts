@@ -5,6 +5,7 @@ import { Form } from '@sitecore-content-sdk/nextjs';
 
 // end of built-in components
 import * as Title from 'src/components/title/Title';
+import * as ThemeEditor from 'src/components/theme-editor/ThemeEditor';
 import * as SocialFollow from 'src/components/social-follow/SocialFollow';
 import * as SelectedArticles from 'src/components/selected-articles/SelectedArticles';
 import * as SectionWrapper from 'src/components/section-wrapper/SectionWrapper';
@@ -21,6 +22,7 @@ import * as Header from 'src/components/header/Header';
 import * as gridData from 'src/components/grid-conditions/gridData';
 import * as GridConditions from 'src/components/grid-conditions/GridConditions';
 import * as Footer from 'src/components/footer/Footer';
+import * as Features from 'src/components/features/Features';
 import * as ContentBlock from 'src/components/content-block/ContentBlock';
 import * as Container from 'src/components/container/Container';
 import * as ColumnSplitter from 'src/components/column-splitter/ColumnSplitter';
@@ -32,6 +34,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['FEaaSWrapper', FEaaSWrapper],
   ['Form', Form],
   ['Title', { ...Title }],
+  ['ThemeEditor', { ...ThemeEditor }],
   ['SocialFollow', { ...SocialFollow }],
   ['SelectedArticles', { ...SelectedArticles }],
   ['SectionWrapper', { ...SectionWrapper }],
@@ -48,6 +51,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['gridData', { ...gridData }],
   ['GridConditions', { ...GridConditions }],
   ['Footer', { ...Footer }],
+  ['Features', { ...Features, componentType: 'client' }],
   ['ContentBlock', { ...ContentBlock }],
   ['Container', { ...Container }],
   ['ColumnSplitter', { ...ColumnSplitter }],
