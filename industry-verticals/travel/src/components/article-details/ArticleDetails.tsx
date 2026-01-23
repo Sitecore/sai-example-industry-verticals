@@ -65,7 +65,7 @@ export const Default = ({ params, fields, rendering }: ArticleDetailsProps) => {
     }
   }, []);
 
-  if (!fields) {
+  if (!fields.Title) {
     return isPageEditing ? (
       <div className={`component article-details ${styles}`} id={id}>
         [ARTICLE DETAILS]
@@ -78,7 +78,10 @@ export const Default = ({ params, fields, rendering }: ArticleDetailsProps) => {
   return (
     <>
       {/* Back Section */}
-      <div className={`container mx-auto flex items-center py-4 ${styles}`} id={id}>
+      <div
+        className={`component article-details container mx-auto flex items-center py-4 ${styles}`}
+        id={id}
+      >
         <ParentPathLink text={t('back_to_blog') || 'Back to Blog'} />
       </div>
 
