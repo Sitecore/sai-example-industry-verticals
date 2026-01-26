@@ -26,15 +26,13 @@ export const Default = (props: HeaderProps): JSX.Element => {
           <Placeholder name={`header-nav-${DynamicPlaceholderId}`} rendering={props.rendering} />
         </div>
 
-        <div className="header-block hidden! lg:flex! lg:shrink-0">
-          {/* Search Button */}
-          <button
-            onClick={() => setIsSearchOpen(!isSearchOpen)}
-            className="text-gray-700 transition-colors hover:text-blue-600"
-          >
-            <Search className="size-5" />
-          </button>
-        </div>
+        {/* Search Button */}
+        <button
+          onClick={() => setIsSearchOpen(!isSearchOpen)}
+          className="text-gray-700 transition-colors hover:text-blue-600"
+        >
+          <Search className="size-5" />
+        </button>
 
         {/* Mobile Drawer Trigger */}
         <div className="lg:hidden">
@@ -64,13 +62,6 @@ export const Default = (props: HeaderProps): JSX.Element => {
                     name={`header-nav-${DynamicPlaceholderId}`}
                     rendering={props.rendering}
                   />
-                </div>
-                <div className="flex flex-col gap-y-6 px-12">
-                  {/* TODO: Search to go here */}
-                  {/* <Placeholder
-                    name={`header-right-${DynamicPlaceholderId}`}
-                    rendering={props.rendering}
-                  /> */}
                 </div>
               </div>
             </DrawerContent>
