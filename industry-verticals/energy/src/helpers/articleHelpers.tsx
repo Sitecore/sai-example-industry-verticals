@@ -19,4 +19,4 @@ export const getArticlesCountsByCategory = (articles: { fields: ArticleFields }[
       },
       {} as Record<string, { name: string; count: number; icon: ImageField }>
     )
-  );
+  ).sort((a, b) => a.name.localeCompare(b.name));

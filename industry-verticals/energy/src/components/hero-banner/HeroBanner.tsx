@@ -62,7 +62,7 @@ export const Default = ({ params, fields }: HeroBannerProps) => {
 
       {/* Content Container */}
       <div className="relative z-10 w-full">
-        <div className="container mx-auto flex flex-col items-center justify-center px-4 pt-24 pb-12">
+        <div className="container mx-auto flex flex-col items-center justify-center px-4 py-24">
           {/* Title - styled in accent/primary color */}
           <h1 className="text-accent text-center">
             <ContentSdkText field={fields.Title} />
