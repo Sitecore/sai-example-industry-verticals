@@ -10,7 +10,6 @@ import {
   Field,
   Placeholder,
 } from '@sitecore-content-sdk/nextjs';
-import { isParamEnabled } from '@/helpers/isParamEnabled';
 import BlobAccent from '../../assets/shapes/BlobAccent';
 import CurvedClip from '../../assets/shapes/CurvedClip';
 import { CommonStyles } from '@/types/styleFlags';
