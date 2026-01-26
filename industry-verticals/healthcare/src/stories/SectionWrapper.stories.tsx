@@ -2,11 +2,12 @@ import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 import { Default } from '../components/section-wrapper/SectionWrapper';
 import { ComponentProps } from 'react';
 import { renderStorybookPlaceholder } from 'src/stories/helpers/renderStorybookPlaceholder';
-import { boolToSitecoreCheckbox } from 'src/stories/helpers/boolToSitecoreCheckbox';
 import { CommonParams, CommonRendering } from './common/commonData';
 import { AppearanceArgs, appearanceArgTypes, defaultAppearanceArgs } from './common/commonControls';
 import { createDoctorItems } from './helpers/createItems';
 import { createRichTextField, createTextField } from './helpers/createFields';
+import { CommonStyles } from '@/types/styleFlags';
+import clsx from 'clsx';
 
 type StoryProps = ComponentProps<typeof Default> & AppearanceArgs;
 
@@ -40,6 +41,18 @@ const baseRendering = {
 
 export const ContentSection: Story = {
   render: (args) => {
+    const promoStyles = clsx(
+      baseParams.styles,
+      args.BackgroundColor,
+      args.BlobAccent && CommonStyles.HideBlobAccent,
+      args.CurvedBottom && CommonStyles.CurvedBottom,
+      args.CurvedTop && CommonStyles.CurvedTop
+    );
+
+    const params = {
+      ...baseParams,
+      styles: promoStyles,
+    };
     return (
       <Default
         fields={baseFields}
@@ -51,13 +64,7 @@ export const ContentSection: Story = {
             ],
           },
         }}
-        params={{
-          ...baseParams,
-          CurvedTop: boolToSitecoreCheckbox(args.CurvedTop),
-          CurvedBottom: boolToSitecoreCheckbox(args.CurvedBottom),
-          BlobAccent: boolToSitecoreCheckbox(args.BlobAccent),
-          styles: `${baseParams.styles} ${args.BackgroundColor}`,
-        }}
+        params={params}
       />
     );
   },
@@ -65,6 +72,18 @@ export const ContentSection: Story = {
 
 export const ContentSectionWithContent: Story = {
   render: (args) => {
+    const promoStyles = clsx(
+      baseParams.styles,
+      args.BackgroundColor,
+      args.BlobAccent && CommonStyles.HideBlobAccent,
+      args.CurvedBottom && CommonStyles.CurvedBottom,
+      args.CurvedTop && CommonStyles.CurvedTop
+    );
+
+    const params = {
+      ...baseParams,
+      styles: promoStyles,
+    };
     return (
       <Default
         fields={baseFields}
@@ -86,13 +105,7 @@ export const ContentSectionWithContent: Story = {
             ],
           },
         }}
-        params={{
-          ...baseParams,
-          CurvedTop: boolToSitecoreCheckbox(args.CurvedTop),
-          CurvedBottom: boolToSitecoreCheckbox(args.CurvedBottom),
-          BlobAccent: boolToSitecoreCheckbox(args.BlobAccent),
-          styles: `${baseParams.styles} ${args.BackgroundColor}`,
-        }}
+        params={params}
       />
     );
   },

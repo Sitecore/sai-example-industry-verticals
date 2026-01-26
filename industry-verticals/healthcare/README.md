@@ -8,7 +8,7 @@ Healthcare is a demo website designed to represent a modern, patient-focused dig
 
 - Tailwind-based styling (Shadcn)
 - Modular components for reuse
-- Localization support 
+- Localization support
 
 ## Preconditions
 
@@ -51,8 +51,8 @@ If you have not enabled the split deployment feature your editing hosts are auto
 11. Check if repository is set correctly (should be by default)
 12. Check if Branch is set correctly (should be by default)
 13. Set the Auto deploy option (recommended)
-15. Click "Save"
-16. On the new new editing host click the ... and hit "Build and deploy"
+14. Click "Save"
+15. On the new new editing host click the ... and hit "Build and deploy"
 
 Additional Info: You do not have to create rendering host items in XM Cloud as those are created automatically for you when creating a rendering host. Mapping of sites using site templates to editing hosts is also done automatically.
 

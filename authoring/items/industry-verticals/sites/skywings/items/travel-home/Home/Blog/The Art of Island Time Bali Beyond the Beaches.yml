@@ -24,7 +24,7 @@ SharedFields:
     <image mediaid="{E07B98C2-7AFC-43CD-9786-FDE6B1D81265}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "cd6d5cfd-2061-4495-83c9-76050aec3462"
+  Value: "b0b1fbdb-0079-4dfa-a628-6ed0d703bdd0"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -33,25 +33,19 @@ SharedFields:
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
         <r
-          uid="{B99F6B6E-EC8E-4B3F-AF2C-FBD522C6E041}"
-          p:before="*"
-          s:id="{3EF239BA-A9CC-4BEC-B343-B9ABB9A9C94A}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;HideShareWidget&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
-          s:ph="headless-main" />
-        <r
           uid="{2B877216-05CA-4A66-8F20-35997E9070DC}"
-          p:after="r[@uid='{B99F6B6E-EC8E-4B3F-AF2C-FBD522C6E041}']"
+          p:before="*"
           s:ds="023c2129-aa22-4399-9dbf-91f5b167c78e"
           s:id="{32E7FD88-4E5D-4AAB-A15F-61DCEBA1EE6F}"
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BC18CFAB6-BFD2-4347-BB31-F8A152627344%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
           s:ph="/headless-main/article-details-1" />
         <r
-          uid="{C8C3F4D4-C7C0-4FF7-8322-485B7F4F6C3B}"
+          uid="{222411F6-F022-4E15-8BA7-B824AED03660}"
           p:after="*[1=2]"
           s:ds="af2b4fe7-ed5e-4a65-9fe1-e0165ec1cd3c"
           s:id="{32E7FD88-4E5D-4AAB-A15F-61DCEBA1EE6F}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B8A370F7A-D24B-497C-BA63-CAE02445F477%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
-          s:ph="/headless-main/article-details-author-1" />
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B7E568908-849F-43BB-9174-EBF50749E19F%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
+          s:ph="/headless-main/sxa-articlecontent/article-details-author-1" />
       </d>
     </r>
 - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
@@ -96,7 +90,7 @@ Languages:
       Value: 10 min
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "86f75f53-19a3-4c8f-b8d1-b5b8b16e513c"
+      Value: "5879e5e0-af2f-466d-ade5-b52d6fa2fe0f"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "The Art of Island Time: Bali Beyond the Beaches"
@@ -106,10 +100,10 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251226T183619Z
+      Value: 20260123T083501Z
     - ID: "de1b043b-cddd-48a7-b9c4-98251e188b30"
       Hint: Likes
       Value: 17
