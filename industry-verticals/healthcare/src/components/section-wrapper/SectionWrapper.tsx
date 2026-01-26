@@ -37,8 +37,8 @@ const DefaultContentSection = ({ fields, params, rendering }: ContentSectionProp
       id={id || undefined}
     >
       {curvedTop && <CurvedClip className="top-0" pos="top" />}
-      {curvedBottom &&  <CurvedClip className="bottom-0" pos="bottom" />}
-      {!hideBlobAccent  && (
+      {curvedBottom && <CurvedClip className="bottom-0" pos="bottom" />}
+      {!hideBlobAccent && (
         <BlobAccent size="lg" className="absolute top-0 right-0 z-0 lg:right-4" />
       )}
       <div className="relative z-10 container">
