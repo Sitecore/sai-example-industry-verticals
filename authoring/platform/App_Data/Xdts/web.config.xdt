@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <location path="sitecore">
+    <system.webServer>
+      <httpProtocol>
+        <customHeaders>
+          <add xdt:Transform="SetAttributes" xdt:Locator="Match(name)" 
+               name="Content-Security-Policy" 
+               value="default-src 'self' 'unsafe-inline' 'unsafe-eval' https://apps.sitecore.net; img-src 'self' data: https://*.sitecoresandbox.cloud https://*.stylelabs.com https://*.stylelabs.cloud; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' 'unsafe-inline' https://fonts.gstatic.com; upgrade-insecure-requests; block-all-mixed-content; child-src 'self' https://*.sitecoresandbox.cloud https://*.stylelabs.com; frame-src 'self' https://*.sitecoresandbox.cloud https://*.stylelabs.com; connect-src 'self' https://*.sitecoresandbox.cloud https://*.stylelabs.com;" />
+        </customHeaders>
+      </httpProtocol>
+    </system.webServer>
+  </location>
+</configuration>
