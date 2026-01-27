@@ -3,6 +3,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { DEFAULT_IMG_URL } from '@/constants/search';
 import { EntityModel } from '@sitecore-search/react';
+import { ArrowRight } from 'lucide-react';
+import { useI18n } from 'next-localization';
 
 type ArticleItemCardProps = {
   className?: string;
@@ -12,6 +14,7 @@ type ArticleItemCardProps = {
 };
 
 const ArticleItemCard = ({ className = '', article }: ArticleItemCardProps) => {
+  const { t } = useI18n();
   const validImageUrl = article.image_url?.trim() ? article.image_url : DEFAULT_IMG_URL;
 
   return (
@@ -41,8 +44,8 @@ const ArticleItemCard = ({ className = '', article }: ArticleItemCardProps) => {
             {article.name || article.title}
           </ArticleCard.Title>
           <ArticleCard.Subtitle className="text-foreground-light mt-3 flex text-sm">
-            <div className="text-foreground-muted group-hover:text-accent right-0 text-sm font-medium">
-              View →
+            <div className="text-foreground-muted group-hover:text-accent right-0 flex items-center gap-1 text-sm font-medium transition-colors">
+              {t('view') || 'View'} <ArrowRight className="size-3" />
             </div>
           </ArticleCard.Subtitle>
         </div>

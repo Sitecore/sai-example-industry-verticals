@@ -71,7 +71,7 @@ export const Default = (props: ArticleListingProps) => {
               <div
                 key={category.name + index}
                 onClick={() => setSelectedCategory(category.name)}
-                className="bg-background flex aspect-square w-full cursor-pointer flex-col items-center justify-center rounded-lg border shadow-md"
+                className={`bg-background flex aspect-square w-full cursor-pointer flex-col items-center justify-center rounded-lg border shadow-md transition-colors hover:shadow-lg ${selectedCategory === category.name ? 'border-accent pointer-events-none shadow-lg' : ''}`}
               >
                 <div>
                   <ContentSdkImage
@@ -95,12 +95,9 @@ export const Default = (props: ArticleListingProps) => {
         <div>
           <div className="flex justify-between">
             <h5>{t('latest_articles_label') || 'Latest Articles'}</h5>
-            <div
-              className="border-foreground-secondary hover:text-accent-dark mt-2 inline-block cursor-pointer rounded-md border px-2 text-sm font-medium transition-colors"
-              onClick={handleSelectAllArticles}
-            >
-              {t('all_article_label') || ' View All articles'}
-            </div>
+            <button className="simple-btn" onClick={handleSelectAllArticles}>
+              {t('view_all_articles_label') || 'View All Articles'}
+            </button>
           </div>
           <div className="grid grid-cols-1 gap-5 py-5 md:grid-cols-2 lg:grid-cols-3">
             {visibleArticles?.map(({ fields, id, url }) => (

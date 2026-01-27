@@ -104,20 +104,22 @@ export const Default = ({ params, fields, rendering }: ArticleDetailsProps) => {
 
       <Placeholder rendering={rendering} name={fullWidthPlaceholderKey} />
 
-      <div className="container">
-        <div className="mx-auto max-w-4xl">
-          <div className="bg-background w-full space-y-4 rounded-lg border p-6 shadow-md">
-            <h6>{t('tags_label') || 'Tags'}</h6>
-            <div className="flex flex-wrap gap-4">
-              {fields.Tags.map((tag) => (
-                <span key={tag.id} className="bg-background-muted rounded-sm px-2 py-0.5 text-sm">
-                  <ContentSdkText field={tag.fields.Tag} />
-                </span>
-              ))}
+      {fields.Tags && fields.Tags.length > 0 && (
+        <div className="container">
+          <div className="mx-auto max-w-4xl">
+            <div className="bg-background w-full space-y-4 rounded-lg border p-6 shadow-md">
+              <h6>{t('tags_label') || 'Tags'}</h6>
+              <div className="flex flex-wrap gap-4">
+                {fields.Tags.map((tag) => (
+                  <span key={tag.id} className="bg-background-muted rounded-sm px-2 py-0.5 text-sm">
+                    <ContentSdkText field={tag.fields.Tag} />
+                  </span>
+                ))}
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      )}
     </div>
   );
 };
