@@ -82,7 +82,7 @@ const SectionGrid = () => {
 
   return (
     <>
-      <div className="grid grid-cols-4 gap-6">
+      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
         {gridMetrics.map((metric) => (
           <div className="info-card" key={`grid-metric-${metric.id}`}>
             <h6 className="flex items-center justify-between gap-4 text-sm font-semibold">
@@ -135,7 +135,7 @@ const SectionTemperature = () => {
         <Thermometer />
         {t('grid_temperature_impact') || 'Temperature Impact'}
       </h6>
-      <div className="grid grid-cols-3">
+      <div className="grid gap-6 md:grid-cols-3">
         <div className="text-center">
           <p className="text-danger text-3xl font-bold">
             {GRID_CONDITIONS_DATA.temperature.current}

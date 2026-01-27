@@ -1,0 +1,31 @@
+﻿---
+ID: "6940a7de-517d-4e67-b96c-ddbac50370a5"
+Parent: "98569457-efc8-4c5a-9d3c-c10cd7801df8"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Page Content/Content Section/Rendering Parameters"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251113T100221Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "880940ff-8901-473a-9b7c-f68d8b49fd87"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251113T111626Z

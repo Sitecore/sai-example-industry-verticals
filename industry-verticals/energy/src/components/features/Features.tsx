@@ -100,8 +100,8 @@ const DefaultFeatures = ({ fields, params }: FeaturesProps) => {
   const features = fields?.data?.datasource?.children?.results;
 
   return (
-    <section className={`relative px-10 pt-8 pb-16 ${params?.styles || ''}`} id={id || undefined}>
-      <div className="relative z-10 container">
+    <section className={`relative py-10 lg:py-16 ${params?.styles || ''}`} id={id || undefined}>
+      <div className="container">
         <h2 className="mb-4 text-center text-3xl font-bold">
           <ContentSdkText field={fields?.data?.datasource?.title?.jsonValue} />
         </h2>
@@ -121,15 +121,17 @@ const CardFeatures = ({ fields, params }: FeaturesProps) => {
   const features = fields?.data?.datasource?.children?.results;
 
   return (
-    <div className={`relative px-6 pt-8 pb-16 ${params?.styles || ''}`} id={id || undefined}>
-      <h2 className="mb-6 text-3xl font-bold">
-        <ContentSdkText field={fields?.data?.datasource?.title?.jsonValue} />
-      </h2>
-      <ul className="grid gap-6 lg:grid-cols-3">
-        {features?.map((feature) => (
-          <FeatureItem key={feature.id} feature={feature} layout="horizontal" />
-        ))}
-      </ul>
+    <div className={`relative py-10 lg:py-16 ${params?.styles || ''}`} id={id || undefined}>
+      <div className="container">
+        <h2 className="mb-6 text-3xl font-bold">
+          <ContentSdkText field={fields?.data?.datasource?.title?.jsonValue} />
+        </h2>
+        <ul className="grid gap-6 lg:grid-cols-3">
+          {features?.map((feature) => (
+            <FeatureItem key={feature.id} feature={feature} layout="horizontal" />
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };
