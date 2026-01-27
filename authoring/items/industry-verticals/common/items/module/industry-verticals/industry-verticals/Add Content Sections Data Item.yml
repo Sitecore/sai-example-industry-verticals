@@ -12,10 +12,10 @@ SharedFields:
   Value: Content Section
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "0997f301-d61f-4d00-8df1-11dd3a54957a"
+  Value: "e0f79afb-6bd5-453f-bea6-a159a854843d"
 - ID: "e62c28f0-9d3b-46e2-8bec-a5e120542499"
   Hint: Template
-  Value: "{CEEBF12E-C01A-4D9F-AB3E-EBB6BCB0C7DE}"
+  Value: 
 Languages:
 - Language: en
   Versions:
@@ -34,11 +34,11 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "95879c11-b176-45b4-bda5-6f0d7b30f6c3"
+      Value: "07de3ce7-23a8-4532-ad3f-b2ec08053dd8"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251113T100225Z
+      Value: 20260127T120804Z
