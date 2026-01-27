@@ -1,4 +1,4 @@
-# XM Cloud Front End Application Industry Verticals Starter Kits
+# SitecoreAI Industry Verticals Front End Sites
 
 ## Table of Contents
 
@@ -10,7 +10,7 @@
 
 ## Introduction
 
-This repository contains multiple industry verticals, and the SPA Starters monorepo (which includes a Node Proxy Application and and SPA starter apps) for Sitecore XM Cloud Development. It is intended to get developers up and running quickly with a new front end project that is integrated with Sitecore XM Cloud.
+This repository contains multiple industry verticals, and the SPA Starters monorepo (which includes a Node Proxy Application and and SPA starter apps) for SitecoreAI Development. It is intended to get developers up and running quickly with a new front end project that is integrated with SitecoreAI.
 
 Here's a quick overview of the major folders and their purpose:
 
@@ -25,7 +25,7 @@ Here's a quick overview of the major folders and their purpose:
   Contains starter front-end applications. Each subfolder is a working app
 
 - `xmcloud.build.json`:
-  This is the primary configuration file for building and deploying rendering hosts in your XM Cloud environment.
+  This is the primary configuration file for building and deploying rendering hosts in your SitecoreAI environment.
   Key Sections:
   - renderingHosts: Defines one or more front-end apps to build. Each entry includes:
   - path: where the app is located (e.g., ./industry-verticals/<industry-vertical>)
@@ -42,24 +42,24 @@ This Github repository is a template that can be used to create your own reposit
 
 ## Prerequisites
 
-- Access to an Sitecore XM Cloud Environment
+- Access to an SitecoreAI Environment
 - [Node.js LTS](https://nodejs.org/en/)
 
 ## Getting Started Guide
 
-For developers new to XM Cloud you can follow the Getting Started Guide on the [Sitecore Documentation Site](https://doc.sitecore.com/xmc) to get up and running with XM Cloud. This will walk you through the process of creating a new XM Cloud Project, provisioning an Environment, deploying the NextJs Starter Kit, and finally creating your first Component.
+For developers new to SitecoreAI you can follow the Getting Started Guide on the [Sitecore Documentation Site](https://doc.sitecore.com/sai) to get up and running with SitecoreAI. This will walk you through the process of creating a new SitecoreAI Project, provisioning an Environment, deploying the NextJs Starter Kit, and finally creating your first Component.
 
 ## Running the Industry Vertical Starter Kit
 
 > **Note:** Please refer to the `README.md` of the specific industry vertical you’re working with for detailed setup instructions.
-> - [healthcare](https://github.com/Sitecore/Sitecore.Demo.XMCloud.IndustryVerticals.SiteTemplates/blob/main/industry-verticals/healthcare/README.md)
-> - [luxury-retail](https://github.com/Sitecore/Sitecore.Demo.XMCloud.IndustryVerticals.SiteTemplates/blob/main/industry-verticals/luxury-retail/README.md)
-> - [retail](https://github.com/Sitecore/Sitecore.Demo.XMCloud.IndustryVerticals.SiteTemplates/blob/main/industry-verticals/retail/README.md)
-> - [travel](https://github.com/Sitecore/Sitecore.Demo.XMCloud.IndustryVerticals.SiteTemplates/blob/main/industry-verticals/travel/README.md)
+> - [healthcare](https://github.com/Sitecore/Sitecore.Demo.SitecoreAI.IndustryVerticals.SiteTemplates/blob/main/industry-verticals/healthcare/README.md)
+> - [luxury-retail](https://github.com/Sitecore/Sitecore.Demo.SitecoreAI.IndustryVerticals.SiteTemplates/blob/main/industry-verticals/luxury-retail/README.md)
+> - [retail](https://github.com/Sitecore/Sitecore.Demo.SitecoreAI.IndustryVerticals.SiteTemplates/blob/main/industry-verticals/retail/README.md)
+> - [travel](https://github.com/Sitecore/Sitecore.Demo.SitecoreAI.IndustryVerticals.SiteTemplates/blob/main/industry-verticals/travel/README.md)
 
 ### The following outlines the general steps for running a specific industry vertical locally:
 
-- Log into the Sitecore XM Cloud Deploy Portal, locate your Environment and select the `Developer Settings` tab.
+- Log into the SitecoreAI Deploy Portal, locate your Environment and select the `Developer Settings` tab.
 - Ensure that the `Preview` toggle is enabled.
 - In the `Local Development` section, click to copy the sample `.env` file contents to your clipboard.
 - Create a new `.env.local` file in the `./industry-verticals/<industry-vertical>` folder of this repository and paste the contents from your clipboard.
@@ -84,7 +84,7 @@ It distinguishes between IAR (Item-As-Resources) modules and SCS (Sitecore Conte
 | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
 | IAR (Item-As-Resources)              | Items packaged and deployed with the rendering host build (eg: `Project.retail`)                                       |
 | SCS (Sitecore Content Serialization) | Items pushed to Sitecore after deployment using post-actions (eg: `Project.Retail-Content` and `Project.Retail-Media`) |
-| Excluded                             | OOB XM Cloud items                                                                                                 |
+| Excluded                             | OOB SitecoreAI items                                                                                                 |
 
 ---
 
@@ -112,7 +112,7 @@ Use the following Sitecore CLI commands to manage serialization and deployment:
 # Login with sitecore CLI
 dotnet sitecore cloud login
 
-# Connect your local project to a specific XM Cloud environment and allow write operations:
+# Connect your local project to a specific SitecoreAI environment and allow write operations:
 dotnet sitecore cloud environment connect --environment-id <envId> --allow-write true
 
 # Pull the latest items from Sitecore to your local project
@@ -122,7 +122,7 @@ sitecore ser pull
 sitecore ser push
 ```
 
-[Documentation](https://doc.sitecore.com/xmc/en/developers/xm-cloud/serialization-in-sitecore.html)
+[Documentation](https://doc.sitecore.com/sai/en/developers/sitecoreai/serialization-in-sitecore.html)
 
 ## Content Hub Configuration
 

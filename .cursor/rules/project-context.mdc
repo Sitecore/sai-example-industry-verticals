@@ -1,0 +1,119 @@
+---
+description: SitecoreAI Industry Verticals repository context and constraints
+alwaysApply: true
+globs: []
+---
+
+# Project Context
+
+## Repository Overview
+
+This is the **SitecoreAI Front End Application Industry Verticals Sites** repository containing multiple Next.js starter applications and SPA examples for Sitecore XM Cloud development.
+
+Repository Structure:
+- `/industry-verticals/` - Contains front-end applications (Next.js and SPA)
+- `/authoring/` - Sitecore content items, templates, and deployment configurations  
+- `/local-containers/` - Docker setup for local development environments
+- `xmcloud.build.json` - Primary configuration for XM Cloud deployment
+
+## Industry Verticals Frontend Applications
+
+Available Sites:
+- `healthcare` - **Nova Medical** - Healthcare focused site template with physicians listing
+- `luxury-retail` - **Essential Living** - Retail focused site template for an upscale furniture brand with products and articles
+- `retail` - **FormaLux** - Retail focused site template for a furniture brand with products and articles
+- `starter` - **starter** - Simple Next.js starter with basic components
+- `travel` - **Skywings** - Travel focused site template with articles and destinations
+
+Each site demonstrates:
+- Tailwind-based styling with Shadcn/ui components
+- Personalized homepage via URL parameters
+- Modular component architecture with variants
+- Localization support for English (en), French (fr-FR), Spanish (es-ES)
+
+## Technology Stack
+
+Core Technologies:
+- **Next.js 15+** - React framework with App Router and Pages Router support
+- **TypeScript** - Strict type safety throughout all components
+- **Sitecore XM Cloud** - Headless content management and delivery
+- **Sitecore Content SDK** - Modern SDK for XM Cloud integration
+- **Tailwind CSS** - Utility-first CSS with container queries (@container)
+- **Shadcn/ui** - Modern component library with accessibility features
+
+Additional Libraries:
+
+
+Development Tools:
+- **Docker** - Containerized local development with Sitecore CM
+- **Node.js LTS** - JavaScript runtime environment
+- **npm** - Package management across all site applications
+
+## Development Principles
+
+Multi-Site Architecture:
+- Each example is a standalone application
+- Shared patterns and conventions across all Sites
+- Independent deployment and development workflows
+- Common SitecoreAI integration patterns
+
+Content-First Development:
+- Components are designed around Sitecore data structures
+- Field-driven rendering with proper fallbacks
+- Support for both connected and disconnected development modes
+- Proper handling of content authoring scenarios
+
+## Constraints and Guidelines
+
+File Organization:
+- Each site maintains its own `src/` directory structure
+- Shared utilities should be copied, not shared (no monorepo linking)
+- Configuration files specific to each site
+- Independent package.json for each site
+
+Development Workflow:
+
+DMZ git flow will be implemented in the future to support better development practices, scaling, efficiency and developer productivity.
+Below is an outline of the planned workflow and processes that will be followed:
+
+- Has a shared main repo (`upstream repository`) with two key branches: `main` and `dmz`
+- Each contributor uses their own fork as their workspace
+- Feature branches are sourced from `main` but Pull Requests (PRs) with changes are merged to `dmz` branch 
+- `main` branch in the `upstream repository` is always clean (deployable, branchable and reliable). It does not accept PRs created by developers.
+- Developers should push changes to feature branches in their own fork and then create PRs to `dmz` branch in the `upstream repository`.  
+- PRs are merged by reviewers to the `dmz` branch after review and validation. Conflicts should be resolved by rebasing onto main. 
+- Once a PR has been merged into `dmz` branch the code changes are validated through an automated full build of the `dmz` branch `HEAD` in the Continous Integration server.  
+- The `dmz` branch acts as a staging/integration branch and once sevearl chnages are integrated and tested in the `dmz` branch they can be manually merged to the `main` branch using merge commits (usually at the end of 1 or 2 weeks)
+- If the build fails, the changes are or issues are found in the `dmz` branch during integration, the problamatic commits can be reverted
+
+- Each site can be developed independently in its own directory
+- Copy `.env.remote.site` to `.env.local` for local development
+- Required environment variables: `SITECORE_EDGE_CONTEXT_ID`, `NEXT_PUBLIC_DEFAULT_SITE_NAME`, `SITECORE_EDITING_SECRET`
+- Docker containers available for full local Sitecore development stack
+
+Local Development Setup:
+```bash
+# Navigate to any site
+cd industry-verticals/retail
+
+# Copy environment template
+cp .env.remote.site .env.local
+
+# Edit .env.local with your SitecoreAI values
+# Install dependencies and start
+npm install
+npm run dev
+```
+
+Deployment:
+- Uses `xmcloud.build.json` for rendering host configuration
+- Each site can be enabled/disabled for deployment via `enabled` flag
+- Supports multiple rendering hosts in single repository
+- Automatic editing host creation when split deployment is disabled
+- Environment-specific configuration through SitecoreAI Deploy Portal
+
+Referenced:
+@examples/
+@xmcloud.build.json
+@authoring/
+@local-containers/
