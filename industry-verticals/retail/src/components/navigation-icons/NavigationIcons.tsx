@@ -1,8 +1,9 @@
-import React, { JSX, useState } from 'react';
+import React, { JSX, useState, useEffect } from 'react';
 import { User, Heart, ShoppingCart, X, Search } from 'lucide-react';
 import { ComponentProps } from '@/lib/component-props';
 import { isParamEnabled } from '@/helpers/isParamEnabled';
 import { useI18n } from 'next-localization';
+import { usePathname, useSearchParams } from 'next/navigation';
 import { Popover, PopoverContent, PopoverTrigger } from '@/shadcn/components/ui/popover';
 import { PopoverClose } from '@radix-ui/react-popover';
 import { MiniCart } from '../non-sitecore/MiniCart';
@@ -49,8 +50,15 @@ export const Default = (props: NavigationIconsProps): JSX.Element => {
   const showAccountIcon = !isParamEnabled(props.params.HideAccountIcon);
   const showCartIcon = !isParamEnabled(props.params.HideCartIcon);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
 
   const { t } = useI18n();
+
+  // Close search when route changes
+  useEffect(() => {
+    setIsSearchOpen(false);
+  }, [pathname, searchParams]);
 
   return (
     <>

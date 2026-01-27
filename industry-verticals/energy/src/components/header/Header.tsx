@@ -1,10 +1,11 @@
 'use client';
 
-import React, { JSX, useState } from 'react';
+import React, { JSX, useState, useEffect } from 'react';
 import { ComponentProps } from '@/lib/component-props';
 import { Placeholder } from '@sitecore-content-sdk/nextjs';
 import { Drawer, DrawerTrigger, DrawerContent, DrawerClose } from '@/shadcn/components/ui/drawer';
 import { Menu, Search, X } from 'lucide-react';
+import { usePathname, useSearchParams } from 'next/navigation';
 import PreviewSearch from '../non-sitecore/search/PreviewSearch';
 import { PREVIEW_WIDGET_ID } from '@/constants/search';
 
@@ -15,6 +16,13 @@ export type HeaderProps = ComponentProps & {
 export const Default = (props: HeaderProps): JSX.Element => {
   const { styles, RenderingIdentifier: id, DynamicPlaceholderId } = props.params;
   const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+
+  // Close search when route changes
+  useEffect(() => {
+    setIsSearchOpen(false);
+  }, [pathname, searchParams]);
 
   return (
     <div className={`component header bg-background border-b ${styles}`} id={id}>
