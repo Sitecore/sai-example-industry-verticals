@@ -1,0 +1,89 @@
+﻿---
+ID: "a7c8c609-b0e9-4f57-8f44-6c32212d35fb"
+Parent: "9b708dad-8e4d-4efd-9ff8-a929978ce342"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: "/sitecore/content/industry-verticals/gridwell/Presentation/Partial Designs/Footer"
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: footer
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{676A157B-47E4-49F2-A106-7DB5406B4ECA}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "50e5dd64-b5bf-4af8-b425-303bbcc82885"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{A2F3D5F6-0CB1-4C15-8396-433C48E973BD}"
+          p:before="*"
+          s:ds="2467425d-b4b4-40db-a6ff-304ea3c4243e"
+          s:id="{02654BA0-74AE-42A4-B384-BCA9B96ADF4B}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="headless-footer" />
+        <r
+          uid="{CCE9DC47-F92A-4B61-B63E-19A734C0C55A}"
+          p:after="r[@uid='{A2F3D5F6-0CB1-4C15-8396-433C48E973BD}']"
+          s:ds="f3ef1e52-003d-46c8-a6e2-92b6aaccc683"
+          s:id="{32E7FD88-4E5D-4AAB-A15F-61DCEBA1EE6F}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="/headless-footer/footer-list-fourth-1" />
+        <r
+          uid="{6FC4464F-A54D-4158-B6F3-3BD232E5127F}"
+          p:after="r[@uid='{CCE9DC47-F92A-4B61-B63E-19A734C0C55A}']"
+          s:ds="93d9a8e0-5458-40d0-8358-0c8f8a10ee40"
+          s:id="{4956263D-1195-4D6E-931B-800EA625FF6F}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B8CDEE937-18F4-41A4-AF19-8AA47523A70B%7D&amp;Styles=%7C%7BFDA07C5F-EA86-47D5-9C72-F76CE363A961%7D%7C%7B34A51289-6E1B-4A9A-9F9C-BDAC4D35B4F9%7D&amp;RenderingIdentifier&amp;CSSStyles"
+          s:ph="/headless-footer/footer-list-first-1" />
+        <r
+          uid="{7AA8F0E9-72D8-4F5B-AC8F-2EF72C6B1F03}"
+          p:after="r[@uid='{6FC4464F-A54D-4158-B6F3-3BD232E5127F}']"
+          s:ds="bec7c50a-a048-4b46-8e6c-2603da970bcf"
+          s:id="{4956263D-1195-4D6E-931B-800EA625FF6F}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B8CDEE937-18F4-41A4-AF19-8AA47523A70B%7D&amp;Styles=%7C%7BFDA07C5F-EA86-47D5-9C72-F76CE363A961%7D%7C%7B34A51289-6E1B-4A9A-9F9C-BDAC4D35B4F9%7D&amp;RenderingIdentifier&amp;CSSStyles"
+          s:ph="/headless-footer/footer-list-second-1" />
+        <r
+          uid="{CF7EACFE-EEFA-4A28-BCB6-2D00B123950B}"
+          p:after="*[1=2]"
+          s:ds="a9a52f3b-bf2f-4432-974b-074143e5e477"
+          s:id="{4956263D-1195-4D6E-931B-800EA625FF6F}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B8CDEE937-18F4-41A4-AF19-8AA47523A70B%7D&amp;Styles=%7C%7BFDA07C5F-EA86-47D5-9C72-F76CE363A961%7D%7C%7B34A51289-6E1B-4A9A-9F9C-BDAC4D35B4F9%7D&amp;RenderingIdentifier&amp;CSSStyles"
+          s:ph="/headless-footer/footer-list-third-1" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260112T110104Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f573fd56-4f53-40d7-b4fc-b435cb4a0550"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260121T112603Z

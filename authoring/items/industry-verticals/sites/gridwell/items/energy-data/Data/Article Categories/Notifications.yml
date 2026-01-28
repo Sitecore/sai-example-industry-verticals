@@ -1,0 +1,45 @@
+﻿---
+ID: "14b4871b-868b-4c50-b119-fcee6bd9f0d1"
+Parent: "44797b5c-1256-42bb-8819-175430766d75"
+Template: "3c4eae73-7e7f-4648-a863-bd250d76ccf8"
+Path: "/sitecore/content/industry-verticals/gridwell/Data/Article Categories/Notifications"
+SharedFields:
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "855b6761-cf72-4e97-af08-5e54932c6e01"
+- ID: "f258fdef-13ab-4614-93ff-ac8487d0e8ab"
+  Hint: CategoryIcon
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/82138-HomepagePromoCTAs-1100x740?v=ed4e8271" dam-id="y_X20elGRWKBP2SgqhEFyQ" width="1100" height="740" alt="bell.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/82138/thumbnail" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260120T080850Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2b5f761b-b252-4ed4-8668-0b9af138f21e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260120T134207Z
+    - ID: "f9fd853f-2691-40b4-81d1-00ccf1a6cc06"
+      Hint: Category
+      Value: Notifications

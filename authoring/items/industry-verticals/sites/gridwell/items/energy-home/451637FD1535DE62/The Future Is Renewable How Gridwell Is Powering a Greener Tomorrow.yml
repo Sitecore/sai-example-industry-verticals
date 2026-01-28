@@ -1,0 +1,76 @@
+﻿---
+ID: "8863d7e8-3cc1-47b1-a7be-24d5619bca61"
+Parent: "08737f6e-6ae0-4044-a550-05b98b9ccf69"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/gridwell/Home/Articles/The Future Is Renewable How Gridwell Is Powering a Greener Tomorrow"
+SharedFields:
+- ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
+  Hint: Author
+  Value: "{6FE9590F-D012-4D44-B863-07B9EA746F56}"
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20251105T000000Z
+- ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/70022-HomepagePromoCTAs-1100x740?v=fc7ab804" dam-id="5tF2vCogSWuwzz0wl_eUJA" width="1100" height="740" alt="zbynek-burival-V4ZYJZJ3W4M-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/70022/thumbnail" />
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/ead06104c372463fbed3934d669d5ce3?v=316fac4f" dam-id="5tF2vCogSWuwzz0wl_eUJA" width="1920" height="1272" alt="zbynek-burival-V4ZYJZJ3W4M-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/70022/thumbnail" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{5F0B8EBB-42BF-46AD-9A7E-8AFCB58F9979}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "f9e8030e-5be6-4e8c-b87c-1699ce538745"
+- ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+  Hint: Category
+  Value: "{13A31CB9-F14D-4DC4-9BA4-7AAADA59025D}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: renewable energy, clean energy, wind power, solar energy, sustainable grid, Gridwell renewables, green energy future
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260126T095538Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: The Future Is Renewable How Gridwell Is Powering a Greener Tomorrow
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>Clean energy isn’t just an idea—it’s a movement. And Gridwell is leading the charge.</p><p>The world is shifting toward cleaner, more responsible energy sources, and Gridwell is proud to be at the forefront. Our mission is simple: make renewable energy reliable, affordable, and accessible for everyone. From wind farms that harness nature’s power to solar panels that capture every ray of sunshine, Gridwell is transforming how communities power their homes and businesses.</p></div>
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: From solar to storage, discover how Gridwell is investing in renewable technologies to build a cleaner, more resilient energy future.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: Gridwell is leading the transition to renewable energy by making clean power reliable, affordable, and accessible. This article explores how wind, solar, and innovative grid operations are helping Gridwell power communities while building a more sustainable energy future.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fc79fdda-6fb6-4380-9c31-f364d9724602"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: The Future Is Renewable How Gridwell Is Powering a Greener Tomorrow
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260127T104730Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: "The Future Is Renewable: How Gridwell Is Powering a Greener Tomorrow"
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: Renewable energy is transforming how electricity is generated and delivered, and Gridwell is at the forefront of that change. This article explains how Gridwell integrates wind and solar resources into the grid, balances sustainability with reliability, and helps communities transition toward a cleaner, greener energy future.

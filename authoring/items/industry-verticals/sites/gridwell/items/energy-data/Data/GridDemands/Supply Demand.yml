@@ -1,0 +1,48 @@
+﻿---
+ID: "3619760d-54cc-4427-9233-e7c27a31c319"
+Parent: "1341f971-91ad-47fb-98fa-260f1ab5003e"
+Template: "bd9c1e68-f3ee-4928-a719-87d597919076"
+Path: "/sitecore/content/industry-verticals/gridwell/Data/GridDemands/Supply Demand"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/chart_line.png
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "f87915aa-5097-466b-aee1-73e73af0cf07"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260121T180007Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "6e94a638-8e7f-4222-934f-4bd29a37f9cf"
+      Hint: Title
+      Value: Supply and Demand
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7d205221-7fac-4a11-bb0f-59d12005d6f5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260122T125347Z
+    - ID: "e8b40f44-14c7-4c98-8883-e36400002d5c"
+      Hint: Description
+      Value: |
+        <div class="ck-content"><p>A visual comparison of the grid’s available power supply (capacity) and system demand. This view combines real-time conditions with short-term forecasts to highlight trends, peak periods, and potential capacity gaps across the day.</p></div>

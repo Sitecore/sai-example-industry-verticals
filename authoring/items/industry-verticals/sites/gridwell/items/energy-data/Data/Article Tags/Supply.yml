@@ -1,0 +1,26 @@
+﻿---
+ID: "63293df7-cb90-4bef-8fc4-739588a514c6"
+Parent: "23c91f5f-d8cd-4f45-8aa6-cea7d0bb3973"
+Template: "121ff042-8e7e-48e2-961d-d38d81e8edc6"
+Path: "/sitecore/content/industry-verticals/gridwell/Data/Article Tags/Supply"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260126T102320Z
+    - ID: "655ee303-9aad-459c-9deb-a26afa86b46d"
+      Hint: Tag
+      Value: Supply
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3bbc885e-2166-4013-88e9-74642ab7c1e1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260126T102320Z

@@ -1,0 +1,76 @@
+﻿---
+ID: "edf08a01-faf6-41a2-ae7c-cfc7ab87e4d8"
+Parent: "08737f6e-6ae0-4044-a550-05b98b9ccf69"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/gridwell/Home/Articles/Why Green Energy Means a Stronger Economy"
+SharedFields:
+- ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
+  Hint: Author
+  Value: "{08DF2AF6-C17A-45F1-B80B-123A9D10ADC9}"
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20251120T000000Z
+- ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/70026-HomepagePromoCTAs-1100x740?v=d6a20c60" dam-id="UrRuTU5HQ4mIwN4m0el1sw" width="1100" height="740" alt="sungrow-emea-VC-m6ULjJ6Y-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/70026/thumbnail" />
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c4c1293ee9fe471688cfbed3e96f9949?v=375682f2" dam-id="UrRuTU5HQ4mIwN4m0el1sw" width="1920" height="1080" alt="sungrow-emea-VC-m6ULjJ6Y-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/70026/thumbnail" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{3469CF0F-E10A-45B5-808A-C005E2B671E9}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "f212e280-f198-4013-9cf5-6a091eb592eb"
+- ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+  Hint: Category
+  Value: "{0EFFD00D-3DD8-4966-81C3-2C0FFCA87130}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: See how Gridwell’s green energy initiatives are fueling job creation, local investment, and sustainable growth for a stronger, cleaner economy.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260126T095647Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Why Green Energy Means a Stronger Economy
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>For decades, fossil fuels have driven economies around the world—but at a cost we can no longer ignore. Gridwell believes that transitioning to green energy isn’t just good for the planet—it’s good for people and progress. Renewable energy industries are creating thousands of new jobs, from solar technicians to wind turbine engineers.</p></div>
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Renewable energy isn’t just good for the planet—it’s good for business. Explore how green energy drives innovation, job creation, and economic resilience.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: See how Gridwell’s green energy initiatives are fueling job creation, local investment, and sustainable growth for a stronger, cleaner economy.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a16dd185-7f97-46fa-aeac-cbf85d9b18f4"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: Why Green Energy Means a Stronger Economy
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260127T105123Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: How Green Energy Boosts the Economy | Gridwell Sustainability Insights
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: green energy economy, renewable jobs, sustainable business growth, clean energy benefits

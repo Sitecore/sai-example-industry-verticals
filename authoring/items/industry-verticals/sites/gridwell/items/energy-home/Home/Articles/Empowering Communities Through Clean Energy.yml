@@ -1,0 +1,76 @@
+﻿---
+ID: "1958dc23-2e9f-4181-b340-4097626770c0"
+Parent: "08737f6e-6ae0-4044-a550-05b98b9ccf69"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/gridwell/Home/Articles/Empowering Communities Through Clean Energy"
+SharedFields:
+- ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
+  Hint: Author
+  Value: "{B066418D-7612-4747-87E6-3C43C468753F}"
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20251111T000000Z
+- ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/70023-HomepagePromoCTAs-1100x740?v=08a2db2a" dam-id="MCJg4Xj3RymfZocagYoA-A" width="1100" height="740" alt="andreas-gucklhorn-Ilpf2eUPpUE-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/70023/thumbnail" />
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/aad77838b2c7441e94351589eb249e05?v=e2afce27" dam-id="MCJg4Xj3RymfZocagYoA-A" width="1920" height="1439" alt="andreas-gucklhorn-Ilpf2eUPpUE-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/70023/thumbnail" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{61B3E5F5-77B9-4494-A1CA-294FD08FE561}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "1ae23282-4fce-4f15-b1ad-f7dcaeeef0b6"
+- ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+  Hint: Category
+  Value: "{13A31CB9-F14D-4DC4-9BA4-7AAADA59025D}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: Gridwell partners with local organizations to expand access to renewable power, creating sustainable, inclusive energy solutions for all.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260126T095327Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Empowering Communities Through Clean Energy
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p data-start="4420" data-end="4680">Gridwell believes clean energy should be for everyone—not just those who can afford to install panels or turbines. That’s why we’re working with local governments and nonprofits to bring renewable energy solutions to underserved communities.</p><p data-start="4682" data-end="5050">Through education, job training, and access to affordable solar programs, we’re helping families lower costs and create local opportunity. Sustainability shouldn’t be a privilege—it should be a shared pathway to a better, fairer future. With every community project, Gridwell is proving that green power can change more than just the environment—it can change lives.</p></div>
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Clean energy isn’t just about power—it’s about people. Discover how local renewable projects strengthen communities, create jobs, and improve energy access.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: Gridwell partners with local organizations to expand access to renewable power, creating sustainable, inclusive energy solutions for all.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "60e5699c-f21f-4a93-a342-abd2d9cbcfa0"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: Empowering Communities Through Clean Energy
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260127T103616Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: Empowering Communities Through Clean Energy
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: community renewable energy, clean energy access, sustainability equity, renewable programs for communities

@@ -5,7 +5,7 @@
   "items": {
     "includes": [
       {
-        "name": "energy-media",
+        "name": "gridwell-media",
         "path": "/sitecore/Media Library/Project/industry-verticals/gridwell",
         "scope": "DescendantsOnly",
         "allowedPushOperations": "CreateUpdateAndDelete"

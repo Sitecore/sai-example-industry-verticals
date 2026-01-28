@@ -93,14 +93,14 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "915eec09-1169-4038-b9bf-694912327aed"
+      Value: "43105c08-bb65-4570-a306-5cfccafa29e6"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\INIwVuCCf0fzziGGBdz0UepKJ8K6him7
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251230T091317Z
+      Value: 20260120T125042Z
 - Language: "es-ES"
   Versions:
   - Version: 1
@@ -141,17 +141,17 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8b1f0340-fec7-4725-bae2-8558513c540b"
+      Value: "57d40254-5be1-42f2-95ce-63845edeb0d4"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\INIwVuCCf0fzziGGBdz0UepKJ8K6him7
     - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
       Hint: __Valid from
       Value: 20251219T104232Z
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251226T105039Z
+      Value: 20260120T125042Z
 - Language: "fr-CA"
   Versions:
   - Version: 1
@@ -194,11 +194,11 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "71a5243f-972c-478d-9e1f-50538cdef77b"
+      Value: "2c06ce43-cc09-41a7-a552-44e7c6da0816"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\INIwVuCCf0fzziGGBdz0UepKJ8K6him7
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251226T105039Z
+      Value: 20260120T125042Z

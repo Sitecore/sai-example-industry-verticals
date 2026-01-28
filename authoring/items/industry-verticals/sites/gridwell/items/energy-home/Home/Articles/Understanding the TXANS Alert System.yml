@@ -1,0 +1,91 @@
+﻿---
+ID: "4f12d6d9-d6f3-4f27-9c41-688ca8ec0e3c"
+Parent: "08737f6e-6ae0-4044-a550-05b98b9ccf69"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/gridwell/Home/Articles/Understanding the TXANS Alert System"
+SharedFields:
+- ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
+  Hint: Author
+  Value: "{DBD12DCB-8BAA-481E-8D68-0572098FC421}"
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20250922T000000Z
+- ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/beb7b5afb3ba443b9d12dda52da6b61e?v=332c9c9b" dam-id="CoMfys3tSj6uIuPAsg6tAw" width="350" height="350" alt="smartphone-showing-txans-alert-notification.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76851/thumbnail" />
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/f9642ac28fc54dfd81184769545e9435?v=6a4550b9" dam-id="iDugleSpQ2CwYJIsmlerzQ" width="1024" height="683" alt="gridwell-transmission-lines-dawn.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/70183/thumbnail" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{C9C1BD24-A549-4A40-8983-818FF91E7D8F}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "be455104-d014-4081-98ab-407d821519b4"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{D567D9B9-23A0-44BD-97E5-77F4777BB250}"
+          s:ds="c08246ba-31ec-4436-95ed-864b99431a70"
+          s:id="{CCD11802-22A3-462F-92FC-821515E2AEC8}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B07B0ADF8-311F-4808-BBE6-39CEC4DC3089%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="/headless-main/sxa-articlecontent/article-details-full-width-1" />
+      </d>
+    </r>
+- ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+  Hint: Category
+  Value: "{14B4871B-868B-4C50-B119-FCEE6BD9F0D1}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: TXANS is Gridwell’s early advisory alert system designed to inform Texans when the power grid may experience stress. This article explains what TXANS alerts are, how they differ from Energy Emergency Alerts, and how subscribing helps households prepare early, conserve energy, and reduce pressure on the grid before conditions become critical.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260126T095551Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Understanding the TXANS Alert System
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>The Texas Advisory Notification System (TXANS) provides early awareness of potential grid stress conditions. Unlike Energy Emergency Alerts (EEAs), which are triggered only when the grid is already in critical need of conservation, TXANS serves as an advisory. It’s Gridwell’s way of preparing Texans ahead of time, giving them the knowledge they need to conserve energy and reduce stress on the grid.</p><p>By subscribing to TXANS alerts, residents receive timely updates directly to their phone or email. These updates might include conservation suggestions, grid condition summaries, or information about potential stress periods coming in the next few days. This early notification ensures that families can take voluntary action before the situation becomes urgent.</p><p>Understanding TXANS is an essential step in building confidence and trust in Gridwell’s communication. When Texans know the difference between TXANS and EEA alerts, they are better equipped to respond calmly and effectively. It also helps reduce misinformation and allows communities to feel reassured that their grid operator is being transparent and proactive.</p></div>
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: The Texas Advisory Notification System, or TXANS, is designed to keep Texans informed when the power grid could be under stress. While it is not a direct signal of an emergency, it gives households the chance to prepare early. Many residents still don’t know how TXANS fits into Gridwell’s communication process, which leads to unnecessary confusion during peak weather conditions. This article explains what TXANS is, how it differs from other alerts, and why subscribing is so important.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: The Texas Advisory Notification System (TXANS) helps Texans prepare for potential grid stress before an emergency occurs. This article explains how TXANS works, how it differs from Energy Emergency Alerts, and why early awareness and voluntary conservation play a critical role in grid reliability.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7c45cdf7-d033-4660-b905-872a9d957d54"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: Understanding the TXANS Alert System
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260127T104853Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: Understanding the TXANS Alert System
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: TXANS, Texas Advisory Notification System, Gridwell alerts, energy notifications, grid advisory alerts, energy conservation, grid reliability

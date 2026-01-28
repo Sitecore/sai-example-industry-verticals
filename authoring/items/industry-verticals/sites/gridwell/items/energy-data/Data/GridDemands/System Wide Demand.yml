@@ -1,0 +1,44 @@
+﻿---
+ID: "35ccfef4-99af-43b2-8d7d-878ae09e6c42"
+Parent: "1341f971-91ad-47fb-98fa-260f1ab5003e"
+Template: "bd9c1e68-f3ee-4928-a719-87d597919076"
+Path: "/sitecore/content/industry-verticals/gridwell/Data/GridDemands/System Wide Demand"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/chart_line.png
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "7829835d-b6f2-4678-bb47-b09b491e1444"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260121T180029Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "6e94a638-8e7f-4222-934f-4bd29a37f9cf"
+      Hint: Title
+      Value: "System-Wide Demand"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "527def97-e79e-4332-aade-d5a274d9260b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260121T180352Z
+    - ID: "e8b40f44-14c7-4c98-8883-e36400002d5c"
+      Hint: Description
+      Value: A detailed view of total electricity demand across the entire system. Displays current load alongside forecasted demand to help anticipate peak usage, assess system stress, and support operational planning.

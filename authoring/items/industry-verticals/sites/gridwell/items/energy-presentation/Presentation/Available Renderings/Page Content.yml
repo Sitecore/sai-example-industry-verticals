@@ -1,0 +1,61 @@
+﻿---
+ID: "c5ed68f0-2141-44c0-b21d-57ac6b141095"
+Parent: "9ce8f2bc-c650-498e-82aa-b32665438c94"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: "/sitecore/content/industry-verticals/gridwell/Presentation/Available Renderings/Page Content"
+BranchID: "209f458a-5f7c-4024-9bbb-c78ad6d21abc"
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Value: |
+    {C5F905F8-FD1F-444E-A9E5-AC6B774FF0DE}
+    {2492BAC4-DA07-4C86-87F0-9873D40E2276}
+    {9C6D53E3-FE57-4638-AF7B-6D68304C7A94}
+    {3836D951-BB14-43AC-9231-649B7F245DC5}
+    {02654BA0-74AE-42A4-B384-BCA9B96ADF4B}
+    {32E7FD88-4E5D-4AAB-A15F-61DCEBA1EE6F}
+    {CCD11802-22A3-462F-92FC-821515E2AEC8}
+    {32138D34-7434-4CD1-BF7F-64DA1CEB8F33}
+    {E3CCF1D0-7855-4898-8BDE-77F83C6A487C}
+    {B49CF2D7-7CB2-4918-8F38-2607D956D995}
+    {442E3EA4-DE9A-41B5-A917-0F589F79B1A0}
+    {3EF239BA-A9CC-4BEC-B343-B9ABB9A9C94A}
+    {66B804D4-B6B6-4342-987F-AC4987D6F900}
+    {96E7CF65-48A4-47BE-9BB7-DCE50CF7AEA1}
+    {4FA5F05F-4F21-43D3-B45F-D7149F2DD2EC}
+    {C604C3E4-A23D-47D3-A375-58D541DBE801}
+    {33A73E35-492C-4A60-A24C-1DE2024A6007}
+    {95A4BE1D-049A-40E1-A9E8-9D90AEA233E7}
+    {60C9D163-2898-49E3-A3B4-60F8E743062A}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "bb97205a-a833-4740-8300-9959c84e18bc"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{EDD5B21F-2BD2-4290-81A2-68428363D312}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260112T101032Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4eac28e4-c90f-4156-bf6a-62f38632f37f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260126T110302Z

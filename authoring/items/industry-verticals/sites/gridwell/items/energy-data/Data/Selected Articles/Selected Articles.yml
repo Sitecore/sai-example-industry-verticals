@@ -1,0 +1,48 @@
+﻿---
+ID: "5f980111-16f9-47fb-91e0-f5265cf9828b"
+Parent: "5dc05ba8-4da8-423a-87cf-c2385d3a131b"
+Template: "30a718e4-b5b1-49df-aea6-ad761528b5c5"
+Path: "/sitecore/content/industry-verticals/gridwell/Data/Selected Articles/Selected Articles"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "173353d6-b07d-442c-b2f0-5b95c498f794"
+      Hint: Description
+      Value: |
+        <div class="ck-content"><p style="text-align:center;">Discover amazing products and articles from our latest stories&nbsp;</p></div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260119T090219Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "7e4e530b-eb83-4515-801c-4cc914d2605a"
+      Hint: Title
+      Value: Get Inspired
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "eaf9bd15-aa66-489d-8ea5-6db852178f6c"
+    - ID: "a6a4a7d3-4017-4996-9264-27b1d3030273"
+      Hint: Articles
+      Value: |
+        {0115237B-6C7D-4CB4-9723-6CB749B06C55}
+        {4F12D6D9-D6F3-4F27-9C41-688CA8EC0E3C}
+        {E09C9CFD-916F-4512-9014-DB59948E1D72}
+        {47A021F6-102E-41F6-A57F-A0A83B52C20B}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260126T112225Z

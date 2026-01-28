@@ -35,14 +35,14 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7530e333-c497-4f02-aeda-f2b9e4415d80"
+      Value: "df53e705-91da-4da7-bb37-faf4477969d5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251017T102408Z
+      Value: 20260127T092347Z
 - Language: "es-ES"
   Versions:
   - Version: 1
@@ -83,7 +83,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ad5a190e-1af4-47bd-8f2b-081bd9ea6afb"
+      Value: "2796edf6-0cf1-4e16-8cd7-a2c3fafd0008"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -93,7 +93,7 @@ Languages:
       Value: 20251219T104205Z
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251219T104418Z
+      Value: 20260127T092347Z
 - Language: "fr-FR"
   Versions:
   - Version: 1
@@ -111,11 +111,11 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e785bbcb-312a-4868-b507-681e36587644"
+      Value: "59969a59-dcd8-4e83-8831-83be1150e4e8"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251217T104056Z
+      Value: 20260127T092347Z

@@ -1,0 +1,118 @@
+﻿---
+ID: "a3a58074-c4b7-478b-b0b4-386243e7e48e"
+Parent: "a90b3dab-ec23-469c-a86d-dae7ba6fcb2b"
+Template: "98e60957-0783-4a9a-85cc-77dad30e9711"
+Path: "/sitecore/content/industry-verticals/gridwell/Home"
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+SharedFields:
+- ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/97db38d49a62459f83191e735886ae2a?v=9fe039a8" dam-id="ZqjOxS9TRFaV-4ngXBArtg" width="200" height="200" alt="Screenshot 2025-10-28 140143.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/70010/thumbnail" />
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{A5FFD910-03DE-4685-9245-43F7088A3B29}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "977cf72f-7eea-4cbb-a120-1ba0363acb45"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{F76EF556-94B4-4F85-B9DA-E8B7D189F2D5}"
+          p:before="*"
+          s:id="{4FA5F05F-4F21-43D3-B45F-D7149F2DD2EC}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=5&amp;HideGridSection&amp;HideTemperatureSection&amp;HideOutagesSection"
+          s:ph="/headless-main/section-wrapper-content-2" />
+        <r
+          uid="{8C0039B8-BD66-4FA2-8571-ACC4F34A1B19}"
+          p:after="r[@uid='{F76EF556-94B4-4F85-B9DA-E8B7D189F2D5}']"
+          s:ds="8ea2fff9-42c4-46e2-ac66-7a1573bcfb50"
+          s:id="{B49CF2D7-7CB2-4918-8F38-2607D956D995}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="headless-main" />
+        <r
+          uid="{EB25FA0E-FFAD-4733-B282-979619544ADD}"
+          p:after="r[@uid='{8C0039B8-BD66-4FA2-8571-ACC4F34A1B19}']"
+          s:ds="5f980111-16f9-47fb-91e0-f5265cf9828b"
+          s:id="{96E7CF65-48A4-47BE-9BB7-DCE50CF7AEA1}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
+          s:ph="headless-main" />
+        <r
+          uid="{85D40DC7-F6C6-4271-971C-4731C0B8F075}"
+          p:after="r[@uid='{EB25FA0E-FFAD-4733-B282-979619544ADD}']"
+          s:ds="7b366f32-cfc3-4266-8663-a3a0ec8235fe"
+          s:id="{442E3EA4-DE9A-41B5-A917-0F589F79B1A0}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles=%7C%7B13FE8831-0C19-43A3-8BB3-8AC0E0B73D11%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="headless-main" />
+        <r
+          uid="{97447677-76BA-47BF-B4DB-4ED627BB5460}"
+          p:after="r[@uid='{85D40DC7-F6C6-4271-971C-4731C0B8F075}']"
+          s:ds="35511083-b275-4b1b-967a-4bf3159f75e7"
+          s:id="{E3CCF1D0-7855-4898-8BDE-77F83C6A487C}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B5A864EDD-4224-4131-9176-0307BBD668D5%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{AC74C0C0-20C3-4B75-B86C-BA52918A0781}"
+          p:after="*[1=2]"
+          s:ds="7224e201-f42a-4ecf-93b0-4e7006448a4b"
+          s:id="{E3CCF1D0-7855-4898-8BDE-77F83C6A487C}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B556139BC-FA1F-41FD-A6DD-04B9B6D825A4%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles"
+          s:ph="headless-main" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F558BEC9-C602-4D7A-B9A1-D0411C946EA4}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
+      Hint: metadataKeywords
+      Value: Gridwell, Texas power grid, energy reliability, grid operations, energy alerts, TXANS, energy emergency alerts, power conservation, electricity market, grid transparency, energy preparedness, Texas energy
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260112T100950Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: Gridwell | Reliable, Transparent Energy for Texas Communities
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: Home
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: "Gridwell ensures the reliable flow of electricity across Texas through real-time grid coordination, clear public communication, and innovative energy solutions. By combining advanced technology with transparency and preparedness, Gridwell empowers residents, businesses, and market participants to stay informed, conserve energy during critical periods, and trust the systems that keep their communities powered."
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2e1ee7fc-2061-47b0-b70f-d471464e4960"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: Gridwell is the trusted operator of Texas’s power grid, responsible for balancing electricity supply and demand, maintaining system reliability, and communicating clearly with the public during normal operations and grid emergencies. Through timely alerts, energy conservation guidance, and transparent data, Gridwell helps Texans understand grid conditions, take informed action during extreme weather, and stay confident in the reliability of their energy system.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260127T101915Z

@@ -1,0 +1,74 @@
+﻿---
+ID: "2467425d-b4b4-40db-a6ff-304ea3c4243e"
+Parent: "981cedab-56b5-45f4-a873-3236ff91f96b"
+Template: "7e3a2360-40fa-456d-8061-307338dd39e0"
+Path: "/sitecore/content/industry-verticals/gridwell/Data/Footers/Global Footer"
+SharedFields:
+- ID: "2895a16e-c1b8-4e79-959a-802d5bc81a5a"
+  Hint: Logo
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/6dd78aa2fc7b4dfa8f0ec3699b4e32a9?v=f36ae7dd" dam-id="jCMds1N0Q8WFy1I6YZgwUg" width="88" height="22" alt="Gridwell Logo.svg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/81368/thumbnail" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "c502ef2b-d93b-4567-bf60-6a4e952ff96b"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260113T114314Z
+    - ID: "40096e29-7ffe-4148-902f-2e64d17f3f2b"
+      Hint: TitleThree
+      Value: Quick Links
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5894222a-d687-4fc4-ad5e-2ee852172011"
+      Hint: CookiesText
+      Value: |
+        <link linktype="external" url="#" target="" text="Accessibility" title="" class=""/>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "6e545c55-70f1-49ef-b75f-e10257f0845a"
+      Hint: Description
+      Value: |
+        <div class="ck-content"><p>Empowering minds, shaping futures, and building tomorrow's leaders through excellence in education and research.</p></div>
+    - ID: "775b58bb-13a1-426d-86e5-765ad797e407"
+      Hint: TitleOne
+      Value: About Gridwell
+    - ID: "79d2d2a7-b0d5-421c-89fb-b7d040f56d26"
+      Hint: CopyrightText
+      Value: © 2026 Gridwell. All rights reserved.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5420b0a4-1d13-43b9-80e6-83b6dc8eb2a2"
+    - ID: "9f2b5ebe-6b3a-4128-b6e9-6b7adf4e86da"
+      Hint: PolicyText
+      Value: |
+        <link linktype="external" url="#" target="" text="Privacy Policy" title="" class=""/>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "d12db112-ac8e-4701-9186-1c25d7c2c148"
+      Hint: TitleTwo
+      Value: Contact Us
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260114T110640Z
+    - ID: "ec567a2a-8549-4add-93c2-d26ed076e45b"
+      Hint: ContactText
+      Value: |
+        <link linktype="external" url="#" target="" text="Contact Us" title="" class=""/>
+    - ID: "ff56e380-2171-49bf-a693-84ee1bc9413b"
+      Hint: TermsText
+      Value: |
+        <link linktype="external" url="#" target="" text="Terms of Service" title="" class=""/>
