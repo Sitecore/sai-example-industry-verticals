@@ -17,14 +17,14 @@ SharedFields:
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/ead06104c372463fbed3934d669d5ce3?v=316fac4f" dam-id="5tF2vCogSWuwzz0wl_eUJA" width="1920" height="1272" alt="zbynek-burival-V4ZYJZJ3W4M-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/70022/thumbnail" />
+    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/70022-HomepagePromoCTAs-1100x740?v=fc7ab804" dam-id="5tF2vCogSWuwzz0wl_eUJA" width="1100" height="740" alt="zbynek-burival-V4ZYJZJ3W4M-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/70022/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{5F0B8EBB-42BF-46AD-9A7E-8AFCB58F9979}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "d4edfe72-53b9-4736-92e1-de50275adace"
+  Value: "d459b8c5-1e05-4336-aae9-0821747b30e1"
 - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
   Hint: Category
   Value: "{13A31CB9-F14D-4DC4-9BA4-7AAADA59025D}"
@@ -57,17 +57,17 @@ Languages:
       Value: Gridwell is leading the transition to renewable energy by making clean power reliable, affordable, and accessible. This article explores how wind, solar, and innovative grid operations are helping Gridwell power communities while building a more sustainable energy future.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6b3285c4-97f1-4335-b484-e5679683a7df"
+      Value: "94d21c14-21e7-4eb7-99f2-066eec3fbc3b"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: The Future Is Renewable How Gridwell Is Powering a Greener Tomorrow
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105846Z
+      Value: 20260129T161359Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: "The Future Is Renewable: How Gridwell Is Powering a Greener Tomorrow"

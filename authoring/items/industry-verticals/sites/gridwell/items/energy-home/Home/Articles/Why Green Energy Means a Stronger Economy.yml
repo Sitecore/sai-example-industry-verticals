@@ -17,14 +17,14 @@ SharedFields:
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/c4c1293ee9fe471688cfbed3e96f9949?v=375682f2" dam-id="UrRuTU5HQ4mIwN4m0el1sw" width="1920" height="1080" alt="sungrow-emea-VC-m6ULjJ6Y-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/70026/thumbnail" />
+    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/70026-HomepagePromoCTAs-1100x740?v=d6a20c60" dam-id="UrRuTU5HQ4mIwN4m0el1sw" width="1100" height="740" alt="sungrow-emea-VC-m6ULjJ6Y-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/70026/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{3469CF0F-E10A-45B5-808A-C005E2B671E9}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "85c98bf9-2a67-4fa1-99fa-ee5bd3f62094"
+  Value: "1a458729-3ef6-46c6-8c0e-47a1ea575379"
 - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
   Hint: Category
   Value: "{0EFFD00D-3DD8-4966-81C3-2C0FFCA87130}"
@@ -57,17 +57,17 @@ Languages:
       Value: See how Gridwell’s green energy initiatives are fueling job creation, local investment, and sustainable growth for a stronger, cleaner economy.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "25a0b4e4-24dc-41fc-949e-03e301099a6a"
+      Value: "b32dfc9e-859d-4d73-aaef-1e73545c1f75"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: Why Green Energy Means a Stronger Economy
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105847Z
+      Value: 20260129T161521Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: How Green Energy Boosts the Economy | Gridwell Sustainability Insights

@@ -17,14 +17,14 @@ SharedFields:
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/6e1d2d4f5089492bbb85e19d279ff8cf?v=55ba2c2c" dam-id="CjznTsFbQiuDuq0tEATaqQ" width="1920" height="1080" alt="thomas-reaubourg-JRUVbgJJTBM-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/69665/thumbnail" />
+    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/b9ee584ac6eb4b7395ab8847e2edf795?v=1f9f2eab" dam-id="CjznTsFbQiuDuq0tEATaqQ" width="4048" height="2277" alt="thomas-reaubourg-JRUVbgJJTBM-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/69665/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{6D2246DF-50EC-4915-A723-C24A352D7FBC}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "5a224646-3693-4fc8-88d2-61f06baa4cb4"
+  Value: "39336ddc-a19d-43ad-8863-cef9c877e6da"
 - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
   Hint: Category
   Value: "{0EFFD00D-3DD8-4966-81C3-2C0FFCA87130}"
@@ -57,17 +57,17 @@ Languages:
       Value: Discover simple, everyday steps to live more sustainably. Gridwell shares easy ways to save energy, cut waste, and make greener choices at home.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e19da45a-fd8e-401c-b211-25bd7933d81e"
+      Value: "2e7f4217-30d5-4086-9d58-ee8926698789"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "Small Changes, Big Impact: Everyday Ways to Live More Sustainably"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105846Z
+      Value: 20260129T161233Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: "Small Changes, Big Impact: Everyday Ways to Live More Sustainably"

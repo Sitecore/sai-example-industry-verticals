@@ -13,7 +13,7 @@ SharedFields:
 - ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/76692-LandingPageHero-2000x600?v=cfa06d5a" dam-id="VwISYcNlRGiiqWFo96-N1Q" width="2000" height="600" alt="articles-meta.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76692/thumbnail" />
+    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/76692-LandingPageHero-2000x600?v=cfa06d5a" dam-id="VwISYcNlRGiiqWFo96-N1Q" width="2000" height="600" alt="articles-meta.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/76692/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 700
@@ -23,7 +23,7 @@ SharedFields:
     <image mediaid="{5FA79714-AC55-4EEB-B05B-B7E1E00CB5D8}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "21b3063a-79a8-458e-9966-c537b7152f74"
+  Value: "32cb3fb3-2acd-4f34-abaf-e1a1c1b80e47"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -89,7 +89,7 @@ Languages:
       Value: Discover Forma Lux articles on interiors, materials, and modern craftsmanship.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "572a229e-8002-4e55-bcdc-d97f200d14d0"
+      Value: "531099f4-e490-4e0a-90aa-c6d060e99bef"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -99,7 +99,7 @@ Languages:
       Value: Ideas and inspiration from the Forma Lux Journal—on design, materials, and living well.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T112116Z
+      Value: 20260129T163936Z
 - Language: "es-ES"
   Versions:
   - Version: 1

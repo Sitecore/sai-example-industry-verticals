@@ -13,7 +13,7 @@ SharedFields:
 - ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/76645-LandingPageHero-2000x600?v=73ec6612" dam-id="-7WQV-NRRkCpMe8JV60RlQ" width="2000" height="600" alt="products-meta.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76645/thumbnail" />
+    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/76645-LandingPageHero-2000x600?v=73ec6612" dam-id="-7WQV-NRRkCpMe8JV60RlQ" width="2000" height="600" alt="products-meta.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/76645/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 400
@@ -23,7 +23,7 @@ SharedFields:
     <image mediaid="{072CD27A-6AC9-457E-9649-37051EFC336C}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "7ca12fdc-d249-4943-8188-908c1f37fff7"
+  Value: "0fc0a740-6a44-46b7-b5c8-3e3ed0405bd7"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -74,7 +74,7 @@ Languages:
       Value: Explore Forma Lux’s full range of sustainable furniture collections — timeless sofas, chairs, and tables crafted with precision, natural materials, and enduring elegance. Designed to bring warmth, balance, and sophistication to every space.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "77f047cc-6c60-40cd-a8e9-5a09644e34bb"
+      Value: "4fff4f06-d321-47a7-884c-822d7a552ac4"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -84,7 +84,7 @@ Languages:
       Value: Forma Lux offers a curated selection of sustainable luxury furniture designed to elevate modern living. Each collection — from modular sofas to sculptural tables — reflects a commitment to craftsmanship, quality, and intentional design. Every piece is made to endure, bringing refined simplicity and lasting beauty to the spaces people call home.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T112112Z
+      Value: 20260129T163933Z
 - Language: "es-ES"
   Versions:
   - Version: 1

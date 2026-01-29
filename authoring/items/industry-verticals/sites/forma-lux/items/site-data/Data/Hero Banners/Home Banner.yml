@@ -7,13 +7,13 @@ SharedFields:
 - ID: "00b71f70-411d-4ea1-a423-74ed20b60157"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/dd145e888d304e39817304f66b3a63e3?v=e5bb2c96" dam-id="SCgtuRczTe62TfoX9UnSAw" width="1536" height="1024" alt="Rectangle 1441.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/67095/thumbnail" />
+    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/dd145e888d304e39817304f66b3a63e3?v=e5bb2c96" dam-id="SCgtuRczTe62TfoX9UnSAw" width="1536" height="1024" alt="Rectangle 1441.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/67095/thumbnail" />
 - ID: "d74790ee-7289-4a66-b921-71da75df6cde"
   Hint: Video
   Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "6f42cdab-da2f-4ee8-837b-1312169e6044"
+  Value: "ce10c991-8d08-473d-8bbe-e96bd1ec1694"
 Languages:
 - Language: en
   Versions:
@@ -39,7 +39,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "81488ae2-741f-4560-8cd8-602102c2f474"
+      Value: "c8d59417-e32c-4d66-a78b-687b1c269997"
     - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
       Hint: Title
       Value: Discover Design That Speaks to You
@@ -49,7 +49,7 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T112119Z
+      Value: 20260129T163938Z
     - ID: "e3c72e5d-cbf1-4af8-8a73-dc4d3c8590f3"
       Hint: CtaLink
       Value: |

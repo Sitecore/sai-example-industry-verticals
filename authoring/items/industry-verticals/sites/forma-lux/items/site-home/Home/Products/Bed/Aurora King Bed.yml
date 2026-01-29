@@ -28,7 +28,7 @@ SharedFields:
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/b6ceb74e50dc40c8a771061ddc2b3514?v=d0d53db1" dam-id="sLZX5duPTseD3f5CbXq8mQ" width="1536" height="1024" alt="aurora-king-bed-1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79374/thumbnail" />
+    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/b6ceb74e50dc40c8a771061ddc2b3514?v=d0d53db1" dam-id="sLZX5duPTseD3f5CbXq8mQ" width="1536" height="1024" alt="aurora-king-bed-1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/79374/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -38,7 +38,7 @@ SharedFields:
   Value: "{16807766-6013-4944-9550-EBC3216AD248}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "f4f30caa-4a33-47bc-b715-5b3dc8f516e6"
+  Value: "41cded58-42f3-4c35-8df3-b59e211ba7c9"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -96,7 +96,7 @@ Languages:
       Value: Sleep in style with the Aurora King Bed by Forma Lux. A tall tufted headboard, premium velvet upholstery, and a solid wooden frame bring refined comfort and timeless elegance to your bedroom.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "72623b5d-0b39-45b8-aac9-3baa87fa06df"
+      Value: "33432ac4-7994-4724-9af6-6ebb9c2db6bb"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -106,7 +106,7 @@ Languages:
       Value: Aurora King Bed
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T112113Z
+      Value: 20260129T163933Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: <p>The Aurora King Bed is designed for ultimate comfort and elegance. Its tall, tufted headboard adds a touch of grandeur, while the sturdy wooden frame ensures durability. Upholstered in premium velvet, it transforms any bedroom into a sanctuary.</p>

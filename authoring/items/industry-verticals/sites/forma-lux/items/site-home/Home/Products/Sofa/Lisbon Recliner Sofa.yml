@@ -29,7 +29,7 @@ SharedFields:
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/29af480cf0bb477eb9ea5f8297a76cc0?v=9fe304d2" dam-id="zOx4fsaqQla2IK3RtKBKCw" width="1946" height="1946" alt="lisbon-recliner-sofa-1.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79418/thumbnail" />
+    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/29af480cf0bb477eb9ea5f8297a76cc0?v=9fe304d2" dam-id="zOx4fsaqQla2IK3RtKBKCw" width="1946" height="1946" alt="lisbon-recliner-sofa-1.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/79418/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -39,7 +39,7 @@ SharedFields:
   Value: "{078D4751-D125-408A-9FF2-F5417844B877}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "68b099e4-6f1c-4038-9696-7710993e56fb"
+  Value: "8ffc0f72-7a34-4c6f-9218-42479a33a4fd"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -94,7 +94,7 @@ Languages:
       Value: "Relax in style with the Lisbon Recliner Sofa by Forma Lux. Featuring built-in recliners, plush cushions, and integrated cup holders, it brings modern comfort to home theaters and cozy living spaces."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "424e368d-0bfc-4026-8f75-d4a47ac207f2"
+      Value: "76c27fae-dc1d-4cf6-9012-fc61db3c96e7"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -104,7 +104,7 @@ Languages:
       Value: Lisbon Recliner Sofa
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T112114Z
+      Value: 20260129T163935Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: "<p>The Lisbon Recliner Sofa combines comfort and convenience. With built-in recliners and cup holders, it’s perfect for home theaters and cozy nights in.</p>"

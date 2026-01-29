@@ -28,7 +28,7 @@ SharedFields:
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/7addb20509e349eb986a5a2ae5e99b84?v=7287a7b2" dam-id="miUYP3WnQZKPc6wh9m1TKA" width="1000" height="1000" alt="atlas-desk-lamp-1.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79362/thumbnail" />
+    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/7addb20509e349eb986a5a2ae5e99b84?v=7287a7b2" dam-id="miUYP3WnQZKPc6wh9m1TKA" width="1000" height="1000" alt="atlas-desk-lamp-1.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/79362/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -38,7 +38,7 @@ SharedFields:
   Value: "{260CF295-7D6B-4E12-805C-2596FFD1C3D7}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "9c0c0b1c-c972-437a-a129-74479d296648"
+  Value: "684278aa-96e5-426b-b899-a7f20c902865"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -93,7 +93,7 @@ Languages:
       Value: Brighten your workspace with the Atlas Desk Lamp by Forma Lux — an adjustable industrial lamp with pivoting arms that combines precision lighting and sculptural design.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9877021b-e80c-48a9-a6ce-fe898153656b"
+      Value: "bdcd7fdf-4a3e-452a-a3ff-3c4021fcb5f5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -103,7 +103,7 @@ Languages:
       Value: Atlas Desk Lamp
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T112113Z
+      Value: 20260129T163934Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: <p>The Atlas Desk Lamp is designed for productivity. With adjustable arms and a pivoting head, it provides focused task lighting. Its industrial design adds character to workspaces.</p>

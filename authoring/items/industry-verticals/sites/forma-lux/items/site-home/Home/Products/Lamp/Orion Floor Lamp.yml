@@ -29,7 +29,7 @@ SharedFields:
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/96fbab97f1bb40848acf3e3fbff09b35?v=1f8bf997" dam-id="ZEZTCqo7T1CXNBewA5UNYQ" width="665" height="665" alt="orion-floor-lamp-1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79491/thumbnail" />
+    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/96fbab97f1bb40848acf3e3fbff09b35?v=1f8bf997" dam-id="ZEZTCqo7T1CXNBewA5UNYQ" width="665" height="665" alt="orion-floor-lamp-1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/79491/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -39,7 +39,7 @@ SharedFields:
   Value: "{260CF295-7D6B-4E12-805C-2596FFD1C3D7}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "de072be8-f1d3-4e9b-9e12-2c8ebc584346"
+  Value: "1e530a2b-7f99-4d94-b214-b2ec39a2f6ae"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -94,7 +94,7 @@ Languages:
       Value: Illuminate your space with the Orion Floor Lamp by Forma Lux – a tall, sleek metal design with an adjustable head that provides focused light for reading or relaxation.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "44655b25-1226-4b32-942f-64e5375294d4"
+      Value: "ad3233db-0260-4201-9cc1-238183388732"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -104,7 +104,7 @@ Languages:
       Value: Orion Floor Lamp
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T112113Z
+      Value: 20260129T163934Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: <p>The Orion Floor Lamp features a slim, minimalist design with an adjustable head for directional lighting. Perfect for reading corners or modern living rooms.</p>

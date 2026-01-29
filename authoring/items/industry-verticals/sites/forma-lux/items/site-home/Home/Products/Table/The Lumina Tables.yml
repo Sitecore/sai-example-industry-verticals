@@ -10,7 +10,7 @@ SharedFields:
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/79465-LandingPageHero-2000x600?v=629807a2" dam-id="QDDcedxjRy-_jaCb8W3AmA" width="2000" height="600" alt="lumina-table-1.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79465/thumbnail" />
+    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/79465-LandingPageHero-2000x600?v=629807a2" dam-id="QDDcedxjRy-_jaCb8W3AmA" width="2000" height="600" alt="lumina-table-1.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/79465/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -20,7 +20,7 @@ SharedFields:
   Value: "{6EB2E9EB-0CAE-4B98-9A9B-7A960A0DBE1A}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "102ce863-cb85-4c1b-854c-c1d44953360c"
+  Value: "c2a11a8a-9c0b-4354-a54a-05d8e8049b36"
 Languages:
 - Language: en
   Versions:
@@ -57,7 +57,7 @@ Languages:
       Value: Discover The Lumina Tables from Forma Lux — a pair of handcrafted nesting tables designed with timeless simplicity and sustainable materials. Elegant proportions, natural oak, and enduring craftsmanship define this modern living essential.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2ce4850c-a7e2-46a1-b67c-eff1f97140c8"
+      Value: "ebd21df3-4592-44e8-b46f-6b3c4890120c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -67,7 +67,7 @@ Languages:
       Value: The Lumina Tables
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T112116Z
+      Value: 20260129T163936Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: |

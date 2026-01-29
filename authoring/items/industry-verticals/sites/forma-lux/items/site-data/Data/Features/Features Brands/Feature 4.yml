@@ -7,13 +7,13 @@ SharedFields:
 - ID: "83bc80ee-e97a-474b-8c05-a2559394eebe"
   Hint: FeatureImage
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/0d4b4a35144b4f75b6ef85140016c2f4?v=1a808fd0" dam-id="y8Xbc2rITQK3zmovzTZOng" width="154" height="48" alt="Airbnb Logo.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76718/thumbnail" />
+    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/0d4b4a35144b4f75b6ef85140016c2f4?v=1a808fd0" dam-id="y8Xbc2rITQK3zmovzTZOng" width="154" height="48" alt="Airbnb Logo.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/76718/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 300
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "0238e6be-0d57-496e-9828-0962570a00e5"
+  Value: "65fbe00d-fe4c-4004-aa2c-c95a1626b0b3"
 Languages:
 - Language: en
   Versions:
@@ -35,14 +35,14 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5b00d9e0-3cd2-462f-8ad8-268009b5f8cc"
+      Value: "dd4890c1-542a-4a5f-bd53-cab0b2e940a9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T112118Z
+      Value: 20260129T163938Z
 - Language: "es-ES"
   Versions:
   - Version: 1

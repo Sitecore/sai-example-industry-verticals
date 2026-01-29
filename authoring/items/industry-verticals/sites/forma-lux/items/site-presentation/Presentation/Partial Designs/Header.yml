@@ -13,7 +13,7 @@ SharedFields:
     <image mediaid="{1C2BA88C-07EA-4753-9123-23AAD9527B7D}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "dbd0b695-8b00-4ccd-babe-a8eddda5651c"
+  Value: "44519918-8210-41f2-be2b-931b847259e2"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -52,7 +52,7 @@ SharedFields:
           p:after="r[@uid='{2FF900ED-9106-4949-8ED0-E6A6EA82B06F}']"
           s:ds="4e869961-efef-4b47-bb69-170a251d689b"
           s:id="{9F65621E-1102-461C-BBEE-3FADCE8E0509}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BCFF73B2F-EC37-4A98-A032-154A8741FA50%7D&amp;Styles&amp;NavigationRoot&amp;LevelFrom=%7B1BB88840-5FB3-4353-AD8D-81136F6FF75A%7D&amp;LevelTo=%7BA59325BB-5A27-46F9-8110-9D499715F3BE%7D&amp;Filter=%7BD063E9D1-C7B5-4B1E-B31E-69886C9C59F5%7D&amp;Flattened&amp;AddRoot=1&amp;SerializerFieldNames&amp;SimpleLayout&amp;Logo=%3CImage%20src%3D%22https%3A%2F%2Fstarter-verticals.sitecoresandbox.cloud%2Fapi%2Fpublic%2Fcontent%2Fe396484042124934a5d4e42d3919d4f4%3Fv%3D759210eb%22%20dam-id%3D%22BjmtfBn_QsuaXxnEkNc_MA%22%20width%3D%22139%22%20height%3D%2225%22%20alt%3D%22Forma%20Lux.svg%22%20dam-content-type%3D%22Image%22%20thumbnailsrc%3D%22https%3A%2F%2Fstarter-verticals.sitecoresandbox.cloud%2Fapi%2Fgateway%2F76710%2Fthumbnail%22%20%2F%3E&amp;RenderingIdentifier&amp;CSSStyles"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BCFF73B2F-EC37-4A98-A032-154A8741FA50%7D&amp;Styles&amp;NavigationRoot&amp;LevelFrom=%7B1BB88840-5FB3-4353-AD8D-81136F6FF75A%7D&amp;LevelTo=%7BA59325BB-5A27-46F9-8110-9D499715F3BE%7D&amp;Filter=%7BD063E9D1-C7B5-4B1E-B31E-69886C9C59F5%7D&amp;Flattened&amp;AddRoot=1&amp;SerializerFieldNames&amp;SimpleLayout&amp;Logo=%3CImage%20src%3D%22https%3A%2F%2Fstarter-verticals-v2.sitecoresandbox.cloud%2Fapi%2Fpublic%2Fcontent%2Fe396484042124934a5d4e42d3919d4f4%3Fv%3D759210eb%22%20dam-id%3D%22BjmtfBn_QsuaXxnEkNc_MA%22%20width%3D%22139%22%20height%3D%2225%22%20alt%3D%22Forma%20Lux.svg%22%20dam-content-type%3D%22Image%22%20thumbnailsrc%3D%22https%3A%2F%2Fstarter-verticals-v2.sitecoresandbox.cloud%2Fapi%2Fgateway%2F76710%2Fthumbnail%22%20%2F%3E&amp;RenderingIdentifier&amp;CSSStyles"
           s:ph="/headless-header/header-nav-1" />
         <r
           uid="{AF7D44CF-5B1F-4D08-B346-A0BB3E08D156}"
@@ -93,14 +93,14 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7d48bcfd-aeb6-4f55-a554-c27b14ea7190"
+      Value: "757b1ecd-7389-4a2e-8ad0-72af2ecc6555"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T112119Z
+      Value: 20260129T163939Z
 - Language: "es-ES"
   Versions:
   - Version: 1

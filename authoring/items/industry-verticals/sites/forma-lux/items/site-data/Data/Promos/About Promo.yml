@@ -7,10 +7,10 @@ SharedFields:
 - ID: "0d9bfa5d-ac4d-4dca-8477-78801227cf5c"
   Hint: PromoImageTwo
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/79689-HomepagePromoCTAs-1100x740?v=705bcc69" dam-id="nzuNhIQGT3mNgSmPl0sh2A" width="1100" height="740" alt="1f8b61c1c7ceb91b8d5d355cc97758366096d9e9.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79689/thumbnail" />
+    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/79689-HomepagePromoCTAs-1100x740?v=705bcc69" dam-id="nzuNhIQGT3mNgSmPl0sh2A" width="1100" height="740" alt="1f8b61c1c7ceb91b8d5d355cc97758366096d9e9.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/79689/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "4badd76e-e8c3-440b-83a6-00623a1b438f"
+  Value: "a2319656-3f59-4c99-9f2b-87a04a539448"
 Languages:
 - Language: en
   Versions:
@@ -43,14 +43,14 @@ Languages:
       Value: How WE WORK
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1d5eb7ea-2e13-404d-8706-86a8e4175093"
+      Value: "c5adef52-2695-4d2f-a898-ce646e1211c9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T112119Z
+      Value: 20260129T163939Z
     - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
       Hint: PromoTitle
       Value: Where Craft Meets Concept

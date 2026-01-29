@@ -10,14 +10,14 @@ SharedFields:
 - ID: "c17f3d69-c947-45a0-b4f5-cbcdf58e805c"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/76684-HomePageHero-2000x800?v=531cee18" dam-id="RVpmO47SRf23V15z6NE3YQ" width="2000" height="800" alt="beds-meta.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76684/thumbnail" />
+    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/76684-HomePageHero-2000x800?v=531cee18" dam-id="RVpmO47SRf23V15z6NE3YQ" width="2000" height="800" alt="beds-meta.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/76684/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{D7EFEC39-0118-4288-9D44-84ACBC6DFD2E}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "2f68944b-3cda-4af3-b715-2ee925880170"
+  Value: "61086a05-edd0-4fa8-8420-f972483cee97"
 Languages:
 - Language: en
   Versions:
@@ -54,7 +54,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "34d78a5c-0c9a-456a-89b0-42509ffef569"
+      Value: "8dff56c5-627a-4318-a433-ca554e473481"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -64,7 +64,7 @@ Languages:
       Value: Explore modern beds crafted with natural materials and refined design. Each piece brings balance, serenity, and enduring comfort to the contemporary bedroom.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T112112Z
+      Value: 20260129T163933Z
     - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
       Hint: CategoryName
       Value: Bed

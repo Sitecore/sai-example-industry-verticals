@@ -15,7 +15,7 @@ SharedFields:
     <image mediaid="{6982D63B-8FE0-4FA7-A75D-3B0319D4B957}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "b7715de6-fe1a-4d3c-a150-947c8dd6ae65"
+  Value: "8dd38b10-ba70-45cf-8bcc-cec4acd71f22"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -180,11 +180,11 @@ Languages:
       Value: Discover destinations, plan trips, and experience cultural travel with Skywings. Explore inspiring locations, manage your journeys, and embrace travel that connects you to the world.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "47c665b1-29e0-46b9-8b1f-b9d246c47083"
+      Value: "08fc38e5-15bb-4503-a9b5-8b21fb322323"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105946Z
+      Value: 20260129T145207Z

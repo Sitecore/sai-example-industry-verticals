@@ -7,18 +7,18 @@ SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/69019-LandingPageHero-2000x600?v=8b2bc564" dam-id="IDmiap0IQb6NMaJCrpTmJg" width="2000" height="600" alt="ChatGPT Image Oct 27, 2025, 10_29_38 AM.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/69019/thumbnail" />
+    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/69019-LandingPageHero-2000x600?v=8b2bc564" dam-id="IDmiap0IQb6NMaJCrpTmJg" width="2000" height="600" alt="ChatGPT Image Oct 27, 2025, 10_29_38 AM.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/69019/thumbnail" />
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/69019-LandingPageHero-2000x600?v=8b2bc564" dam-id="IDmiap0IQb6NMaJCrpTmJg" width="2000" height="600" alt="ChatGPT Image Oct 27, 2025, 10_29_38 AM.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/69019/thumbnail" />
+    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/69019-LandingPageHero-2000x600?v=8b2bc564" dam-id="IDmiap0IQb6NMaJCrpTmJg" width="2000" height="600" alt="ChatGPT Image Oct 27, 2025, 10_29_38 AM.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/69019/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{966BAE0C-A670-476A-8695-84442B37752A}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "c331ffc3-1d56-412c-a899-49ab9bead7c7"
+  Value: "66a307d4-facc-4f61-8ca0-f249d6d1dd43"
 Languages:
 - Language: en
   Fields:
@@ -63,7 +63,7 @@ Languages:
       Value: "Discover how to use bold colors like teal, burnt orange, and chartreuse in modern furniture without overwhelming your space. Learn the 60-30-10 rule, anchoring techniques, and tips for creating fresh, intentional color palettes."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d4f076fd-ed52-4cf9-a97e-be4306691390"
+      Value: "50b4fec1-5a26-43bf-895b-32fbeed7d4e8"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "From Blank Slate to Bold Space: How to Kick-Off Your Modern Living Room Makeover"
@@ -73,7 +73,7 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T112117Z
+      Value: 20260129T163937Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: "Color Confidence: Bold Hues in Modern Furniture Without Overdoing It"

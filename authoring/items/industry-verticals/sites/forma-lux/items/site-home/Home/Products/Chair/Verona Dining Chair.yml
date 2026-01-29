@@ -27,7 +27,7 @@ SharedFields:
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/21a291f6d21648ceb0bddafe5a0d31a6?v=e0f75568" dam-id="4TWXtUpsSb-DU5JI4o5mSA" width="1024" height="910" alt="verona-dining-chair-1.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79566/thumbnail" />
+    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/21a291f6d21648ceb0bddafe5a0d31a6?v=e0f75568" dam-id="4TWXtUpsSb-DU5JI4o5mSA" width="1024" height="910" alt="verona-dining-chair-1.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/79566/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -37,7 +37,7 @@ SharedFields:
   Value: "{8DD59D14-31A7-4B85-A547-77B03C68AC32}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "2add5b69-ca39-4b9c-818d-c2cfb4648b85"
+  Value: "0a7c2dce-db19-4c53-b0e9-5e354946a2aa"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -89,7 +89,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5076bd41-21bb-4f8d-b6c8-20f2cd459311"
+      Value: "cea9436e-8bb2-485f-85e1-47c12816b064"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -99,7 +99,7 @@ Languages:
       Value: Verona Dining Chair
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T112115Z
+      Value: 20260129T163935Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: "<p>The Verona Dining Chair is designed for both comfort and sophistication. Its curved backrest provides excellent lumbar support, while the cushioned seat ensures long-lasting comfort during meals. The walnut finish adds warmth to any dining room.</p>"

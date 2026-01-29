@@ -18,7 +18,7 @@ SharedFields:
     <image mediaid="{A5FFD910-03DE-4685-9245-43F7088A3B29}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "59516bd3-b983-4c80-bea9-fa6d059f8e56"
+  Value: "85004a45-5278-4a8b-af56-e784f4f5aa98"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -105,7 +105,7 @@ Languages:
       Value: "Gridwell ensures the reliable flow of electricity across Texas through real-time grid coordination, clear public communication, and innovative energy solutions. By combining advanced technology with transparency and preparedness, Gridwell empowers residents, businesses, and market participants to stay informed, conserve energy during critical periods, and trust the systems that keep their communities powered."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c342b741-84e7-402a-903a-1f50264cee10"
+      Value: "6dabe7c4-fb43-453b-9d9a-72ca10795a45"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -115,4 +115,4 @@ Languages:
       Value: Gridwell is the trusted operator of Texas’s power grid, responsible for balancing electricity supply and demand, maintaining system reliability, and communicating clearly with the public during normal operations and grid emergencies. Through timely alerts, energy conservation guidance, and transparent data, Gridwell helps Texans understand grid conditions, take informed action during extreme weather, and stay confident in the reliability of their energy system.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105846Z
+      Value: 20260129T144351Z

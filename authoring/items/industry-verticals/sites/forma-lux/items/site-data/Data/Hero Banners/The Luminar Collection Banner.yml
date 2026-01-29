@@ -7,14 +7,14 @@ SharedFields:
 - ID: "00b71f70-411d-4ea1-a423-74ed20b60157"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/25db8e2d2235416db7b6ddb86e1fc713?v=d88855b3" dam-id="jyjFB-hOSvefNrzGwYnaFA" width="1017" height="635" alt="TheLuminaSofa.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66633/thumbnail" />
+    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/25db8e2d2235416db7b6ddb86e1fc713?v=d88855b3" dam-id="jyjFB-hOSvefNrzGwYnaFA" width="1017" height="635" alt="TheLuminaSofa.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/66633/thumbnail" />
 - ID: "d74790ee-7289-4a66-b921-71da75df6cde"
   Hint: Video
   Value: |
-    <file src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c7aaa856865c4c70b8dcc68772f93e28?v=24ecc0fb" title="TheLuminaSofa.mp4" />
+    <file src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/c7aaa856865c4c70b8dcc68772f93e28?v=24ecc0fb" title="TheLuminaSofa.mp4" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "2c38287f-5b15-4ab2-8888-400298517558"
+  Value: "75c7c708-176e-478d-966b-90617f9d100d"
 Languages:
 - Language: en
   Versions:
@@ -40,7 +40,7 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "83cea5bb-2a1c-45fb-b74f-e5484ae2875c"
+      Value: "e229d057-f550-4385-a2a5-ce96a0c9d1fe"
     - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
       Hint: Title
       Value: Experience Comfort Reimagined
@@ -50,7 +50,7 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T112119Z
+      Value: 20260129T163939Z
     - ID: "e3c72e5d-cbf1-4af8-8a73-dc4d3c8590f3"
       Hint: CtaLink
       Value: |

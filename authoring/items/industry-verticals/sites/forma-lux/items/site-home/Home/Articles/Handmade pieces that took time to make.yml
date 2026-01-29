@@ -18,11 +18,11 @@ SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/49689e980528431b86086dc363721e0d?v=f0cd6908" dam-id="NuPqTaaSRP2KkZ6K1sMv9g" width="3840" height="2160" alt="Rectangle 68 (2).jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/67023/thumbnail" />
+    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/49689e980528431b86086dc363721e0d?v=f0cd6908" dam-id="NuPqTaaSRP2KkZ6K1sMv9g" width="3840" height="2160" alt="Rectangle 68 (2).jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/67023/thumbnail" />
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/56ed3da761284587a81b95612169f224?v=482e83fc" dam-id="JvO38VzSTBOaEPi8_cRk0g" width="3840" height="2160" alt="article4.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76598/thumbnail" />
+    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/56ed3da761284587a81b95612169f224?v=482e83fc" dam-id="JvO38VzSTBOaEPi8_cRk0g" width="3840" height="2160" alt="article4.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/76598/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 50
@@ -32,7 +32,7 @@ SharedFields:
     <image mediaid="{E65E4578-2747-482C-B25A-E1C1CF6760EF}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "aaf638e8-bcac-442a-b7c2-c9decd359153"
+  Value: "31e86e16-b307-4a43-ad61-633f27f66c91"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -100,7 +100,7 @@ Languages:
       Value: Explore how patience and precision define Handmade Pieces That Took Time to Make. Forma Lux celebrates slow design—crafted furniture and home décor where every curve, texture, and finish reflects human touch.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "658aa10f-35d9-44a5-a7e8-92462b18dc86"
+      Value: "797b2d91-0430-4260-a35d-0da42be5261f"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: Handmade pieces that took time to make
@@ -110,7 +110,7 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T112116Z
+      Value: 20260129T163936Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: Handmade Pieces That Took Time to Make | Forma Lux Journal – The Beauty of Patience in Design

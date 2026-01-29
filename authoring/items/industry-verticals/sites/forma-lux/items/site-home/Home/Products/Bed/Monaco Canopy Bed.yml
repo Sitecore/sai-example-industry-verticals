@@ -28,7 +28,7 @@ SharedFields:
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/ef3fbc21cae840eb9f6097d942d278d0?v=428ddf31" dam-id="48feWeGrSy-WuBxzKHge4g" width="1024" height="1536" alt="monaco-canopy-bed.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79486/thumbnail" />
+    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/ef3fbc21cae840eb9f6097d942d278d0?v=428ddf31" dam-id="48feWeGrSy-WuBxzKHge4g" width="1024" height="1536" alt="monaco-canopy-bed.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/79486/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -38,7 +38,7 @@ SharedFields:
   Value: "{16807766-6013-4944-9550-EBC3216AD248}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "1f81e549-eed8-4431-b0e0-9e725b8623d7"
+  Value: "6670d7dd-40be-4bc0-b6a8-042c39473015"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -93,7 +93,7 @@ Languages:
       Value: The Monaco Canopy Bed by Forma Lux combines sleek metal design with timeless romance. Flowing drapes and refined proportions create a luxurious, intimate bedroom centerpiece.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "452d076b-e361-4719-9107-e46175338c44"
+      Value: "a52da62e-e798-45cd-bb9c-a6054776b5ca"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -103,7 +103,7 @@ Languages:
       Value: Monaco Canopy Bed
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T112113Z
+      Value: 20260129T163933Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: <p>The Monaco Canopy Bed brings elegance and charm to your bedroom. Its slim metal frame supports flowing drapes, creating a cozy and intimate atmosphere. Perfect for those who love a touch of drama in their interiors.</p>

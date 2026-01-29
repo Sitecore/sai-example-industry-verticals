@@ -24,7 +24,7 @@ SharedFields:
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c351a539af5a4df09e4c4e65df7a50bb?v=f7915e1b" dam-id="_ZqoDy2iQVaUh5VmGOOqdQ" width="1800" height="1600" alt="copenhagen-sofa-1.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79393/thumbnail" />
+    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/c351a539af5a4df09e4c4e65df7a50bb?v=f7915e1b" dam-id="_ZqoDy2iQVaUh5VmGOOqdQ" width="1800" height="1600" alt="copenhagen-sofa-1.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/79393/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -34,7 +34,7 @@ SharedFields:
   Value: "{078D4751-D125-408A-9FF2-F5417844B877}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "ef9a3c0e-58af-4ded-af85-e75479caf6f8"
+  Value: "802d3376-6f6b-4886-bb2b-99c5434ad197"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -86,7 +86,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ffdc558f-ada8-4699-9edf-af5befc5881e"
+      Value: "b25f3193-4247-4928-a14a-14dfd055f445"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -96,7 +96,7 @@ Languages:
       Value: Copenhagen Sofa
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T112114Z
+      Value: 20260129T163934Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: <p>The Copenhagen Sofa is upholstered in soft linen fabric with a solid oak base. Its minimalist design and plush cushions make it a versatile piece for modern living rooms.</p>
