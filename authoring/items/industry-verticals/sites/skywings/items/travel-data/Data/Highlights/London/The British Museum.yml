@@ -33,15 +33,15 @@ Languages:
       Value: The British Museum
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "906ec0f1-13fc-4d65-bf10-c5bea89e8918"
+      Value: "746a7d85-4085-4eaf-97ab-66dfe79a3ec9"
     - ID: "a38e449c-2d54-4b00-894c-8b84f7952a15"
       Hint: Image
       Value: |
-        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/80167-HomePageHero-2000x800?v=0b985df8" dam-id="BP2svn2VRs-daRetxFeI3w" width="2000" height="800" alt="the_british_museum_london.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/80167/thumbnail" />
+        <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/80167-HomePageHero-2000x800?v=0b985df8" dam-id="BP2svn2VRs-daRetxFeI3w" width="2000" height="800" alt="the_british_museum_london.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/80167/thumbnail" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251226T162002Z
+      Value: 20260129T105951Z

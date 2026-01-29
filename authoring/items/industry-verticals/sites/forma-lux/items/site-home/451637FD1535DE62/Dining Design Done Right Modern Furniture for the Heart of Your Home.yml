@@ -18,7 +18,7 @@ SharedFields:
     <image mediaid="{EDEC4492-23DB-491F-B4DB-300DFAEA81F3}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "794b2d9e-3274-441c-a973-4398ddf5706f"
+  Value: "c4246bd1-b79f-4def-aa0b-68162681a575"
 Languages:
 - Language: en
   Fields:
@@ -65,7 +65,7 @@ Languages:
       Value: "Dining is more than meals—it’s shaping memories. Start with a table that suits your space: clean lines, durable material, room for expansion. Pair with chairs that are comfortable but defined—slim profiles, quality upholstery or shell material. Lighting should hover at 30-36” above the table for optimal ambiance. Add a rug to anchor the area and soften acoustics. For accessories: keep it minimal—a sculptural bowl, a simple runner, a piece of art—but meaningful. The goal: a modern dining space that says “come together” whether it’s family pizza night or dinner for six with friends."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "42946e84-8d7c-4316-9413-8500c7b41de4"
+      Value: "44ea81bd-38e7-47f6-bdb1-a84d75bd29ea"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "Dining Design Done Right: Modern Furniture for the Heart of Your Home"
@@ -75,7 +75,7 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260128T140846Z
+      Value: 20260129T112116Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: Dining Design Done Right Modern Furniture for the Heart of Your Home

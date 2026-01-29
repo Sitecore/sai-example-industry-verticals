@@ -33,15 +33,15 @@ Languages:
       Value: La Rambla & La Boqueria Market
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a1f5229e-f3a5-4ce2-a5c1-f9808c7feaa3"
+      Value: "c28da9c7-e290-4b6b-9020-5979583d365b"
     - ID: "a38e449c-2d54-4b00-894c-8b84f7952a15"
       Hint: Image
       Value: |
-        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/80526-LandingPageHero-2000x600?v=02683ffd" dam-id="7KFuXSyHRDa3DWvt1zxi8Q" width="2000" height="600" alt="La Rambla &amp; La Boqueria Market.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/80526/thumbnail" />
+        <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/80526-LandingPageHero-2000x600?v=02683ffd" dam-id="7KFuXSyHRDa3DWvt1zxi8Q" width="2000" height="600" alt="La Rambla &amp; La Boqueria Market.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/80526/thumbnail" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251229T092837Z
+      Value: 20260129T105951Z

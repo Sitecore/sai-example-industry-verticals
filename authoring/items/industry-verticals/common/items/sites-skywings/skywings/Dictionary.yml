@@ -35,14 +35,14 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f8ffdeaa-23df-493e-9e41-ae48a1429cbe"
+      Value: "63c30d6e-ded9-4230-a7dc-ed0f1c4523fa"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\tharuka.bandara@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251226T130000Z
+      Value: 20260127T092501Z
 - Language: "es-ES"
   Versions:
   - Version: 1
@@ -60,14 +60,14 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "20b73584-38d9-4d3d-8f1f-d159733a7f4b"
+      Value: "2e6d284e-22c8-4480-8e0c-ec53df9df86a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\tharuka.bandara@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251226T130000Z
+      Value: 20260127T092501Z
 - Language: "fr-FR"
   Versions:
   - Version: 1
@@ -85,11 +85,11 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b98a227f-929a-4a08-aef4-fda55f44e701"
+      Value: "22d84893-5f7c-45fe-ab13-8ee1557ef6ef"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\tharuka.bandara@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251226T130000Z
+      Value: 20260127T092501Z

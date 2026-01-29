@@ -60,7 +60,7 @@ SharedFields:
     <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/82926ae579f24fbc95925ed2b6a0948e?v=58dfdba9" dam-id="pS2b73_mQ5WFG2Kmm82qpw" width="4096" height="2725" alt="asgaard-sofa-3.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79346/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "b374b1c1-0081-43d0-a703-257e76798ae0"
+  Value: "d5e8671a-edc4-4ca5-a31f-aa67598e3d7f"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -168,7 +168,7 @@ Languages:
       Value: 167 cm
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5f4052ea-b634-4bd7-b50c-34caa788ed63"
+      Value: "e3386fdc-e4ff-4d75-91ba-25c767057219"
     - ID: "acbcb630-e684-43ae-bb85-9fc89052c8a9"
       Hint: Weight
       Value: 45 KG
@@ -187,7 +187,7 @@ Languages:
       Value: Asgaard sofa
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260128T140844Z
+      Value: 20260129T112114Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: |

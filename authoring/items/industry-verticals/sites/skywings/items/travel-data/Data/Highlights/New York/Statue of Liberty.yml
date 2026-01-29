@@ -33,15 +33,15 @@ Languages:
       Value: Statue of Liberty
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1bf81113-c1d1-4b17-8a33-90d8678f7bb1"
+      Value: "8350c994-4bb0-4a18-9f55-0515c1a5a3b0"
     - ID: "a38e449c-2d54-4b00-894c-8b84f7952a15"
       Hint: Image
       Value: |
-        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/80101-HomepagePromoCTAs-1100x740?v=48686f2e" dam-id="GLl2kuy8ROaIjl2KQOuYsA" width="1100" height="740" alt="statue-of-libery-new-york.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/80101/thumbnail" />
+        <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/80101-HomepagePromoCTAs-1100x740?v=48686f2e" dam-id="GLl2kuy8ROaIjl2KQOuYsA" width="1100" height="740" alt="statue-of-libery-new-york.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/80101/thumbnail" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251226T140840Z
+      Value: 20260129T105952Z

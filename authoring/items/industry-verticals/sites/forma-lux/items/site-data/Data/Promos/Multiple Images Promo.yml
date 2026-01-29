@@ -18,7 +18,7 @@ SharedFields:
     <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/5088bfb43f814f57bd15548a6f7b38c5?v=ea9d86c1" dam-id="O9R-vEgER8GZHbOh0UNb7g" width="2500" height="1667" alt="Rectangle 1447.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/67106/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "a0bb8c20-bb6b-44ed-8cee-a0a75467b286"
+  Value: "c10a3742-c569-4af2-93ee-695ee82e1689"
 Languages:
 - Language: en
   Versions:
@@ -51,14 +51,14 @@ Languages:
       Value: Materials
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "766ad40e-8500-4694-95f6-5cdd6df5599d"
+      Value: "7ca25cfc-52e5-4e8f-9152-1474229505bc"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260128T140848Z
+      Value: 20260129T112119Z
     - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
       Hint: PromoTitle
       Value: Our Promise  to furniture 

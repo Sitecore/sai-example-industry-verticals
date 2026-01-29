@@ -1,0 +1,31 @@
+﻿---
+ID: "63b3e3fd-9026-4d9b-b39a-32722f81db77"
+Parent: "bc6825c2-e473-49ff-b7fd-a2454ef2b138"
+Template: "8fe7f8dc-cb5d-42c2-99f8-76608c243f10"
+Path: "/sitecore/content/industry-verticals/gridwell/Data/Promos"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260112T101033Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7901d3e6-c61f-4f18-a285-8d759ad02bce"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260112T101033Z

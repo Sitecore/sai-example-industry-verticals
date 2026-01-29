@@ -33,15 +33,15 @@ Languages:
       Value: Seminyak Beach
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "123c22f9-20ce-4b85-9d31-7481b4dd247a"
+      Value: "df4db1e3-7bb1-4931-a9bf-7157a0f8bf7f"
     - ID: "a38e449c-2d54-4b00-894c-8b84f7952a15"
       Hint: Image
       Value: |
-        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/80726-HomepagePromoCTAs-1100x740?v=bbb19059" dam-id="8IahpoF3SOCds3sJS8zlfQ" width="1100" height="740" alt="Seminyak Beach.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/80726/thumbnail" />
+        <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/80726-HomepagePromoCTAs-1100x740?v=bbb19059" dam-id="8IahpoF3SOCds3sJS8zlfQ" width="1100" height="740" alt="Seminyak Beach.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/80726/thumbnail" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251229T113442Z
+      Value: 20260129T105951Z

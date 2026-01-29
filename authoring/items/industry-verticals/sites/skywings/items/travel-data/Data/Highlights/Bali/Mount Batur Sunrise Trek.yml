@@ -33,15 +33,15 @@ Languages:
       Value: Mount Batur Sunrise Trek
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b1eb071a-2b4a-40cb-9e32-22a843e971e5"
+      Value: "a56a63e9-cb8d-4b22-a45d-85708687015d"
     - ID: "a38e449c-2d54-4b00-894c-8b84f7952a15"
       Hint: Image
       Value: |
-        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/80730-HomepagePromoCTAs-1100x740?v=26731f95" dam-id="hy4tWnbkRLWc9zufRpuhfQ" width="1100" height="740" alt="Mount Batur Sunrise Trek.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/80730/thumbnail" />
+        <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/80730-HomepagePromoCTAs-1100x740?v=26731f95" dam-id="hy4tWnbkRLWc9zufRpuhfQ" width="1100" height="740" alt="Mount Batur Sunrise Trek.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/80730/thumbnail" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251229T113503Z
+      Value: 20260129T105950Z

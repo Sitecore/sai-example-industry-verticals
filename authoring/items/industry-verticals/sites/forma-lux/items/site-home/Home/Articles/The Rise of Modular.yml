@@ -18,7 +18,7 @@ SharedFields:
     <image mediaid="{08957D32-562E-4480-B010-746DA4F48F6A}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "903ce223-10b0-45f4-9ede-c4644eebb2f3"
+  Value: "2e5edf15-71e9-4a6c-94e9-8088e70d87dd"
 Languages:
 - Language: en
   Fields:
@@ -63,7 +63,7 @@ Languages:
       Value: Discover the power of modular furniture. From sectionals to storage systems, explore adaptable designs that evolve with your modern lifestyle.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "71163c8f-f329-40ab-bce2-dea60df218f1"
+      Value: "2412f035-e707-4e81-aec3-7aeb0b1cca10"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "The Rise of Modular: Adaptable Furniture for Modern Living"
@@ -73,7 +73,7 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260128T140846Z
+      Value: 20260129T112117Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: "The Rise of Modular: Adaptable Furniture for Modern Living"

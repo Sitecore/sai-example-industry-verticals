@@ -1,0 +1,26 @@
+﻿---
+ID: "2b043f7b-d9eb-4717-844a-173aa119beec"
+Parent: "23c91f5f-d8cd-4f45-8aa6-cea7d0bb3973"
+Template: "121ff042-8e7e-48e2-961d-d38d81e8edc6"
+Path: "/sitecore/content/industry-verticals/gridwell/Data/Article Tags/Grid Operations"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260115T130643Z
+    - ID: "655ee303-9aad-459c-9deb-a26afa86b46d"
+      Hint: Tag
+      Value: Grid Operations
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0adcc4d2-4d19-4147-9e4e-366524482d84"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260115T130643Z

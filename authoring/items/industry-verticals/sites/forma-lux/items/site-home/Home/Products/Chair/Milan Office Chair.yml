@@ -41,7 +41,7 @@ SharedFields:
   Value: "{8DD59D14-31A7-4B85-A547-77B03C68AC32}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "548206e7-936f-4dde-9c2b-32506264d75a"
+  Value: "9fed8731-5296-428a-9993-27b87cf6bfba"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -96,7 +96,7 @@ Languages:
       Value: The Milan Office Chair by Forma Lux merges ergonomic function with modern elegance. Adjustable height, tilt, and armrests deliver personalized comfort, while a breathable mesh back keeps you cool and focused.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "53810d32-57c7-456e-aa9a-468a8b4ef59b"
+      Value: "37565d85-2649-429d-9828-cb9c4e4c0077"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -106,7 +106,7 @@ Languages:
       Value: Milan Office Chair
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260128T140845Z
+      Value: 20260129T112115Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: <p>The Milan Office Chair combines sleek design with functionality. Featuring adjustable height, tilt, and armrests, it ensures maximum comfort during long work hours. The breathable mesh back promotes airflow, keeping you cool and focused.</p>

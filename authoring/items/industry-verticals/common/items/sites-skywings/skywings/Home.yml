@@ -8,14 +8,14 @@ SharedFields:
 - ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/b63df08870704e0cb033db26268c16e2?v=fe4cae95" dam-id="_ycc3UWXQkCF0eqrdHdGsw" width="150" height="31" alt="SkyWingsLogo.png" dam-content-type="Other" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79127/thumbnail" />
+    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/b63df08870704e0cb033db26268c16e2?v=fe4cae95" dam-id="_ycc3UWXQkCF0eqrdHdGsw" width="150" height="31" alt="SkyWingsLogo.png" dam-content-type="Other" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/79127/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{6982D63B-8FE0-4FA7-A75D-3B0319D4B957}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "6222445d-b534-48d6-905a-9ba8c21051fd"
+  Value: "b7715de6-fe1a-4d3c-a150-947c8dd6ae65"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -180,11 +180,11 @@ Languages:
       Value: Discover destinations, plan trips, and experience cultural travel with Skywings. Explore inspiring locations, manage your journeys, and embrace travel that connects you to the world.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b59bf6af-e65e-42e2-bc03-2265516e1582"
+      Value: "47c665b1-29e0-46b9-8b1f-b9d246c47083"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260123T111017Z
+      Value: 20260129T105946Z

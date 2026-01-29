@@ -38,7 +38,7 @@ SharedFields:
   Value: "{16807766-6013-4944-9550-EBC3216AD248}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "2a05ddb8-36c6-4dde-bd4c-49c51a799233"
+  Value: "622b577b-d005-4a70-ba97-f0829d0f99cb"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -93,7 +93,7 @@ Languages:
       Value: "Discover the Hudson Storage Bed by Forma Lux – crafted from engineered wood with walnut veneer, featuring four spacious under-bed drawers for elegant, space-saving living."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f8b58312-b952-4de4-a525-b8efb71fa4c1"
+      Value: "17960890-c2ca-4d4c-af52-65ad521ab83c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -103,7 +103,7 @@ Languages:
       Value: Hudson Storage Bed
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260128T140843Z
+      Value: 20260129T112113Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: "<p>The Hudson Storage Bed maximizes space with its four under-bed drawers. Crafted from engineered wood with a walnut veneer, it combines practicality with style. Ideal for apartments and compact bedrooms.</p>"

@@ -1,0 +1,26 @@
+﻿---
+ID: "504caa0a-8356-4734-ab95-d974c86ef2f3"
+Parent: "a0ff4646-ffeb-4646-8054-80eee95ac040"
+Template: "ae7c9fa3-f2cb-4a02-8781-789897e12044"
+Path: "/sitecore/content/industry-verticals/gridwell/Data/Authors/Dr Amanda Foster"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "10bfb2cd-d05a-4166-88a9-d325940f2b12"
+      Hint: AuthorName
+      Value: Dr Amanda Foster
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260126T102152Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "61cf9491-98a5-48a0-9973-3150b8fa7bb0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260126T102152Z

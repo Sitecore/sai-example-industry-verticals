@@ -1,0 +1,45 @@
+﻿---
+ID: "472cc8cc-d9d7-48ee-848f-d4db2b52c33b"
+Parent: "44797b5c-1256-42bb-8819-175430766d75"
+Template: "3c4eae73-7e7f-4648-a863-bd250d76ccf8"
+Path: "/sitecore/content/industry-verticals/gridwell/Data/Article Categories/Policy Updates"
+SharedFields:
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "1327a582-21d7-415f-b481-a8994e92b26c"
+- ID: "f258fdef-13ab-4614-93ff-ac8487d0e8ab"
+  Hint: CategoryIcon
+  Value: |
+    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/82145-HomePageHero-2000x800?v=9bf6422d" dam-id="Em8GJ4agQ6Cl5jxKcFZM2w" width="2000" height="800" alt="file-text.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/82145/thumbnail" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260120T080910Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3d24a4e6-62d8-456a-882e-7a6d94997d15"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260129T105848Z
+    - ID: "f9fd853f-2691-40b4-81d1-00ccf1a6cc06"
+      Hint: Category
+      Value: Policy Updates

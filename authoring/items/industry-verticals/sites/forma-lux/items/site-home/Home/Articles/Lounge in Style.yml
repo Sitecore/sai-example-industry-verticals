@@ -18,7 +18,7 @@ SharedFields:
     <image mediaid="{83E047CE-4388-4F9C-A397-2C25785A25E4}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "8ea160b5-4233-4d33-902b-7b79ddb204d5"
+  Value: "714a30a0-1f87-435a-ba3c-410628fadbf6"
 Languages:
 - Language: en
   Fields:
@@ -65,7 +65,7 @@ Languages:
       Value: Learn how to select the ideal modern sofa for your home. Explore tips on size, configuration, fabric choices, and styling with pillows, throws, and coffee tables to make your sofa the design hero.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e7b8cddc-4d4d-4429-84ac-dc381bb03152"
+      Value: "dcb2deb4-11f9-43d3-95b5-0c2b9cedd8d5"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "Lounge in Style: Choosing the Right Modern Sofa for Your Space"
@@ -75,7 +75,7 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260128T140846Z
+      Value: 20260129T112117Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: "Lounge in Style: Choosing the Right Modern Sofa for Your Space"

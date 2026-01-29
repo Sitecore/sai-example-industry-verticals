@@ -13,7 +13,7 @@ SharedFields:
   Value: 400
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "29f0225f-75db-4825-8459-02a1214b3d14"
+  Value: "9de9799d-6697-4cb4-ae15-b3e1e57e0e9b"
 Languages:
 - Language: en
   Versions:
@@ -35,14 +35,14 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7ba27659-24e7-4b97-863b-cbebf36a138e"
+      Value: "d322310d-3512-43b6-8487-bf1622f04c25"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260128T140847Z
+      Value: 20260129T112119Z
 - Language: "es-ES"
   Versions:
   - Version: 1

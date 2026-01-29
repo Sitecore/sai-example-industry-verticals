@@ -17,7 +17,7 @@ SharedFields:
     <image mediaid="{FE9288F0-C03F-4408-A671-65629A8B7866}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "4cc4b015-80ea-4598-aa54-7db3b13fe160"
+  Value: "5b6da7e5-d1fe-4461-9699-9c9b3ddd4c4f"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -99,14 +99,14 @@ Languages:
       Value: Get in touch with Forma Lux for design consultations, custom furniture solutions or to explore our collections and dealers.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "90e302e7-9ad3-4849-9834-861386dbd08c"
+      Value: "1df3b4ea-96d2-41a8-a2a7-c8026086dbaa"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260128T140846Z
+      Value: 20260129T112118Z
 - Language: "es-ES"
   Versions:
   - Version: 1

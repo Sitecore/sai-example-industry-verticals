@@ -36,7 +36,7 @@ SharedFields:
   Value: "{260CF295-7D6B-4E12-805C-2596FFD1C3D7}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "8b0d78f6-ab20-412d-bc3b-a2e928d3d2c5"
+  Value: "dcaa804f-4c29-4ced-baaf-da7438e42dcd"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -88,7 +88,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b6d0248f-05b1-4679-a3bd-da3225507c1a"
+      Value: "a44280cc-8f4f-4610-8149-cf38b23fcb53"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -98,7 +98,7 @@ Languages:
       Value: Nova Pendant Lamp
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260128T140843Z
+      Value: 20260129T112113Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: <p>The Nova Pendant Lamp features a frosted glass globe suspended from a brass fixture. It provides soft, ambient lighting, ideal for dining areas or kitchens.</p>

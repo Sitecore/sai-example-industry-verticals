@@ -18,7 +18,7 @@ SharedFields:
     <image mediaid="{CF28F9CA-EF7C-400A-BE5A-6451276C64E1}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "600b894f-5683-49bc-a9ad-475e31e01e70"
+  Value: "370d6ed7-ad93-4d17-8769-443d55281328"
 Languages:
 - Language: en
   Fields:
@@ -63,7 +63,7 @@ Languages:
       Value: "Discover how to choose furniture that looks good and does good. Explore responsibly-sourced wood, low-VOC finishes, recycled materials, and durable construction for a stylish, sustainable home."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2e05b190-e74c-4dbd-98f7-87f2e2bab0f3"
+      Value: "3b4791f8-bce7-4193-b0fd-021fb4633b6c"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "Sustainable Style: Modern Furniture That’s Good for the Planet"
@@ -73,7 +73,7 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260128T140846Z
+      Value: 20260129T112117Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: "Sustainable Furniture Choices: Modern Design That Reflects Your Values"

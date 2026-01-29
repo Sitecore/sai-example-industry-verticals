@@ -1,0 +1,55 @@
+﻿---
+ID: "0ee96097-0fb8-42d6-9cd4-65567bf9eedd"
+Parent: "35511083-b275-4b1b-967a-4bf3159f75e7"
+Template: "0a39f168-834c-46c5-8866-65a60764c0a4"
+Path: "/sitecore/content/industry-verticals/gridwell/Data/Features/Actionable Features/Feature 2"
+SharedFields:
+- ID: "83bc80ee-e97a-474b-8c05-a2559394eebe"
+  Hint: FeatureImage
+  Value: |
+    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/81896-HomepagePromoCTAs-1100x740?v=c7760146" dam-id="qrdBTpuLSWKJ1-PUf6jn5g" width="1100" height="740" alt="Bell Icon.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/81896/thumbnail" />
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "29a8a452-743b-40cf-86f8-cbb0758842eb"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260119T172328Z
+    - ID: "35b07fa2-ce95-4459-8dd6-074203dda9a7"
+      Hint: FeatureDescription
+      Value: Get critical Energy Emergency Alert notifications directly.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\tharuka.bandara@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\tharuka.bandara@sitecore.com
+    - ID: "5f507c84-84f9-4033-81a2-90bca3d12606"
+      Hint: FeatureTitle
+      Value: EEA Notifications
+    - ID: "69536d16-4033-4ebf-9416-436f0f5a3cb6"
+      Hint: FeatureLink
+      Value: |
+        <link text="Sign Up" linktype="anchor" url="#sign-up" anchor="#sign-up" title="" class="" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2e5d2d49-2450-4df0-a8fc-451ffa91c8b0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260129T105848Z

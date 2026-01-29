@@ -18,7 +18,7 @@ SharedFields:
     <image mediaid="{7D455C1D-E594-4F77-8D7B-7FF624FDA0AA}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "0475844f-627f-4f95-90a3-5a8c9c8ccabd"
+  Value: "b8c6befc-3177-49fc-a47a-71c8541ca099"
 Languages:
 - Language: en
   Versions:
@@ -65,7 +65,7 @@ Languages:
       Value: In pursuit of tranquil sophistication, Forma Lux offers couches embodying elegance and functionality. Our pieces blend modern European design, craftsmanship, and minimalism, creating refined living spaces.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "88424388-7493-47c6-9cd3-502b6df21447"
+      Value: "139c92f2-6947-4283-8630-7501c0784bdf"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: Selecting the perfect couch
@@ -75,7 +75,7 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260128T140846Z
+      Value: 20260129T112117Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: Selecting the perfect couch

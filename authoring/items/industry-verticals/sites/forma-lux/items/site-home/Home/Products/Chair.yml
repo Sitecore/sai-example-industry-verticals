@@ -17,7 +17,7 @@ SharedFields:
     <image mediaid="{C71493A5-69AE-423E-8D6F-F38B1CA2A335}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "909be5f3-72d0-4ba9-8ead-11c4cd892d84"
+  Value: "fd67e065-4410-4dd6-a77b-f1f98feee70f"
 Languages:
 - Language: en
   Versions:
@@ -54,7 +54,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "75c4f349-d564-42dd-9c37-78a332b08a10"
+      Value: "c51feccd-a055-4878-8ad7-f934c9d5b49e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -64,7 +64,7 @@ Languages:
       Value: Discover chairs that combine sculptural form and ergonomic comfort. Designed with refined proportions and natural materials, each piece complements modern interiors beautifully.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260128T140844Z
+      Value: 20260129T112115Z
     - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
       Hint: CategoryName
       Value: Chair

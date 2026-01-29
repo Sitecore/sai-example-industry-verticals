@@ -15,10 +15,10 @@ SharedFields:
 - ID: "b441a09f-ddb2-41a8-84cc-2533686541f4"
   Hint: PromoImageOne
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/08eb9321be954e00a7ababfdea262187?v=d3178ddd" dam-id="Q4TfgHIUQXCnOZ-ze_Eo1A" width="3024" height="4032" alt="d54520b354604ff3b1ebe47c3a5a3d8c" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/71552/thumbnail" />
+    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/08eb9321be954e00a7ababfdea262187?v=d3178ddd" dam-id="Q4TfgHIUQXCnOZ-ze_Eo1A" width="3024" height="4032" alt="d54520b354604ff3b1ebe47c3a5a3d8c" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/71552/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "ab12f6b7-7fb0-4567-a9f1-078d6de3ffd8"
+  Value: "37cfa510-b415-405c-9060-f689ae9fee3f"
 Languages:
 - Language: en
   Versions:
@@ -51,14 +51,14 @@ Languages:
       Value: Book
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8d67a739-11a6-44d3-8fae-be6197dbd15a"
+      Value: "d42299e0-6835-430b-bd5f-73b1b51df3b8"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251229T130153Z
+      Value: 20260129T105953Z
     - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
       Hint: PromoTitle
       Value: Secure your seat to summer

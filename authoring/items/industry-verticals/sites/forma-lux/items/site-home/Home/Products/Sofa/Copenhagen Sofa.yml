@@ -34,7 +34,7 @@ SharedFields:
   Value: "{078D4751-D125-408A-9FF2-F5417844B877}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "62c2a7cd-3f97-4d10-ae6b-023fbcf86f95"
+  Value: "ef9a3c0e-58af-4ded-af85-e75479caf6f8"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -86,7 +86,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0a85a91b-d96d-4360-a745-5267f5900ed9"
+      Value: "ffdc558f-ada8-4699-9edf-af5befc5881e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -96,7 +96,7 @@ Languages:
       Value: Copenhagen Sofa
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260128T140844Z
+      Value: 20260129T112114Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: <p>The Copenhagen Sofa is upholstered in soft linen fabric with a solid oak base. Its minimalist design and plush cushions make it a versatile piece for modern living rooms.</p>

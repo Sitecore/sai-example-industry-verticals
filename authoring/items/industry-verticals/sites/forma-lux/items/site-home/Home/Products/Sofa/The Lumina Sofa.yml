@@ -35,7 +35,7 @@ SharedFields:
     <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/79456-LandingPageHero-2000x600?v=d12fa4b1" dam-id="JMRbUeLzRJ-bFXbryWogfQ" width="2000" height="600" alt="lumina-sofa-3.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79456/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "2fbf55fa-deb1-4105-833a-28fa4e7f1b09"
+  Value: "8e431b09-88b0-4ff7-ac94-bbdc2351fe4b"
 Languages:
 - Language: en
   Versions:
@@ -75,7 +75,7 @@ Languages:
       Value: Experience The Lumina Sofa from Forma Lux — a signature modular piece that redefines modern comfort through timeless design and sustainable craftsmanship. Handcrafted from natural materials, built to endure, and designed to evolve with your space.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c6cc5300-40d6-474b-9480-bad793e70fc3"
+      Value: "80360b70-a578-42c3-823c-ddd7b87d65e8"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -85,7 +85,7 @@ Languages:
       Value: The Lumina Sofa
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260128T140844Z
+      Value: 20260129T112114Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: |

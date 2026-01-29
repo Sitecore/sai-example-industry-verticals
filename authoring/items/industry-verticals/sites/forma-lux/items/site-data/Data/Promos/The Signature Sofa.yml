@@ -10,7 +10,7 @@ SharedFields:
     <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/4944d71554034b85b7d7287647b67230?v=121fadde" dam-id="fIGW0YgPSpyimDa20I6XCw" width="1024" height="1024" alt="TheLuminaSofa-NaturalLight.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68171/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "4da4942e-3158-4c56-8f25-6a34b352ca56"
+  Value: "ae3475d5-d345-4fc7-8396-0cbd8d8f9e46"
 Languages:
 - Language: en
   Versions:
@@ -43,14 +43,14 @@ Languages:
       Value: Rediscover Comfort
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "207008cf-b17a-450d-98be-c3c87ff3bb3d"
+      Value: "f763d958-ac55-4687-aa98-946ba2f89f41"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260128T140848Z
+      Value: 20260129T112119Z
     - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
       Hint: PromoTitle
       Value: Lumina Sofa Luxury

@@ -1,0 +1,80 @@
+﻿---
+ID: "c89a3bfd-4707-44a2-8341-a0ea2050d755"
+Parent: "9b708dad-8e4d-4efd-9ff8-a929978ce342"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: "/sitecore/content/industry-verticals/gridwell/Presentation/Partial Designs/Header"
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: header
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{D99ACBB1-6A96-44EA-A730-11C69BA12F41}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "8a4f2db0-59a9-421e-b31b-8f7042d190bf"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{1E82E8FA-6B13-464E-892C-4DD076EC949F}"
+          p:before="*"
+          s:id="{32138D34-7434-4CD1-BF7F-64DA1CEB8F33}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="headless-header" />
+        <r
+          uid="{23C4CFA1-4D0C-4FF4-95FF-8D3188A06389}"
+          p:after="r[@uid='{1E82E8FA-6B13-464E-892C-4DD076EC949F}']"
+          s:ds="81858381-34f4-444f-8106-a4f2ed543e9f"
+          s:id="{95A4BE1D-049A-40E1-A9E8-9D90AEA233E7}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="headless-header" />
+        <r
+          uid="{E84BBEC1-129F-4ED3-80CA-195CD24E31DE}"
+          p:after="r[@uid='{23C4CFA1-4D0C-4FF4-95FF-8D3188A06389}']"
+          s:id="{9F65621E-1102-461C-BBEE-3FADCE8E0509}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B9E668FBF-5136-4B9D-8D56-E4EE327E1F8A%7D&amp;Styles&amp;NavigationRoot&amp;LevelFrom=%7B1BB88840-5FB3-4353-AD8D-81136F6FF75A%7D&amp;LevelTo=%7B1BB88840-5FB3-4353-AD8D-81136F6FF75A%7D&amp;Filter=%7BD063E9D1-C7B5-4B1E-B31E-69886C9C59F5%7D&amp;Flattened&amp;AddRoot&amp;SerializerFieldNames&amp;SimpleLayout&amp;Logo=%3CImage%20src%3D%22https%3A%2F%2Fstarter-verticals-v2.sitecoresandbox.cloud%2Fapi%2Fpublic%2Fcontent%2F0628d1b761f548679707b2eb2856d81e%3Fv%3D7cd24748%22%20dam-id%3D%22p6atlvHsSxOmaBtifqTHWg%22%20width%3D%22129%22%20height%3D%2233%22%20alt%3D%22Gridwell%20logo%20png.png%22%20dam-content-type%3D%22Image%22%20thumbnailsrc%3D%22https%3A%2F%2Fstarter-verticals-v2.sitecoresandbox.cloud%2Fapi%2Fgateway%2F81396%2Fthumbnail%22%20%2F%3E&amp;RenderingIdentifier&amp;CSSStyles"
+          s:ph="/headless-header/header-nav-1" />
+        <r
+          uid="{3FFB8FA4-3B82-4EBD-9541-3B1E533E1237}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Image 1"
+          s:id="{AB2EDBA0-3960-4F12-B765-579DC231894A}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B1388532A-707A-4183-9272-BD8DCD2E0996%7D&amp;Styles=%7C%7BA2EDC410-01C3-48C3-BC3B-FC4C10B8852B%7D%7C%7BFA31E21A-EA48-4DF3-99AC-68F7E165C59C%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="/headless-header/header-left-1" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260112T110046Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7d090dbb-a58c-4cfc-988a-8c1f078938df"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260129T105849Z

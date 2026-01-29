@@ -33,15 +33,15 @@ Languages:
       Value: Shibuya Crossing
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "74c638a5-e2cd-4545-bded-8e7ce19229db"
+      Value: "b2c09ecd-012d-4510-940b-87bce04c93ae"
     - ID: "a38e449c-2d54-4b00-894c-8b84f7952a15"
       Hint: Image
       Value: |
-        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/79271-LandingPageHero-2000x600?v=e7aeb1c2" dam-id="CHRrah5tTzq2o1HhVXaLwQ" width="2000" height="600" alt="ShibuyaCrossing.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79271/thumbnail" />
+        <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/79271-LandingPageHero-2000x600?v=e7aeb1c2" dam-id="CHRrah5tTzq2o1HhVXaLwQ" width="2000" height="600" alt="ShibuyaCrossing.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/79271/thumbnail" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251222T122601Z
+      Value: 20260129T105953Z

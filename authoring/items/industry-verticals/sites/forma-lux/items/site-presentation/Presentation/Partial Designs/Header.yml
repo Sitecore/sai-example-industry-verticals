@@ -13,7 +13,7 @@ SharedFields:
     <image mediaid="{1C2BA88C-07EA-4753-9123-23AAD9527B7D}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "1bddfc74-ba27-44fe-915f-858979e6362f"
+  Value: "dbd0b695-8b00-4ccd-babe-a8eddda5651c"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -93,14 +93,14 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "022b81e6-cf30-48a1-8ed0-4687eda40352"
+      Value: "7d48bcfd-aeb6-4f55-a554-c27b14ea7190"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260128T140848Z
+      Value: 20260129T112119Z
 - Language: "es-ES"
   Versions:
   - Version: 1
@@ -141,7 +141,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1dc3769d-e170-4428-a4b6-7fbcb117f410"
+      Value: "f319a970-1000-4853-bf25-ca3a4d4c242e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -151,7 +151,7 @@ Languages:
       Value: 20251219T104232Z
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260128T140842Z
+      Value: 20260129T112112Z
 - Language: "fr-CA"
   Versions:
   - Version: 1
@@ -194,11 +194,11 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "086f3768-cf0b-4419-87c0-bbf49f8da499"
+      Value: "acea9aa8-4494-4068-8690-590966a6ce4a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260128T140842Z
+      Value: 20260129T112112Z

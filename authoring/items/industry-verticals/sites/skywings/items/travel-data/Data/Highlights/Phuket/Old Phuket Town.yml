@@ -33,15 +33,15 @@ Languages:
       Value: Old Phuket Town
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f0559410-4986-41d0-a753-c8dab2d988f6"
+      Value: "4373ead4-78b2-473b-b3a6-f21733b1ab72"
     - ID: "a38e449c-2d54-4b00-894c-8b84f7952a15"
       Hint: Image
       Value: |
-        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/80221-HomepagePromoCTAs-1100x740?v=bf84a811" dam-id="vnYpFYLRSOKvhH49nbPNKw" width="1100" height="740" alt="Phuket-Tour-Company-01.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/80221/thumbnail" />
+        <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/80221-HomepagePromoCTAs-1100x740?v=bf84a811" dam-id="vnYpFYLRSOKvhH49nbPNKw" width="1100" height="740" alt="Phuket-Tour-Company-01.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/80221/thumbnail" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251226T162519Z
+      Value: 20260129T105952Z

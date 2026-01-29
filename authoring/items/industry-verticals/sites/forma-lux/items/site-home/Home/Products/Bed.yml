@@ -17,7 +17,7 @@ SharedFields:
     <image mediaid="{D7EFEC39-0118-4288-9D44-84ACBC6DFD2E}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "f06b9fc3-19eb-4717-b16b-4d4f83a6767b"
+  Value: "2f68944b-3cda-4af3-b715-2ee925880170"
 Languages:
 - Language: en
   Versions:
@@ -54,7 +54,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "90618bcb-432d-4821-9ba0-adfd3d09ac19"
+      Value: "34d78a5c-0c9a-456a-89b0-42509ffef569"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -64,7 +64,7 @@ Languages:
       Value: Explore modern beds crafted with natural materials and refined design. Each piece brings balance, serenity, and enduring comfort to the contemporary bedroom.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260128T140843Z
+      Value: 20260129T112112Z
     - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
       Hint: CategoryName
       Value: Bed

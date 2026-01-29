@@ -13,7 +13,7 @@ SharedFields:
   Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "2b533d80-44c2-4abd-a2f8-04f1a6ed11ec"
+  Value: "6f42cdab-da2f-4ee8-837b-1312169e6044"
 Languages:
 - Language: en
   Versions:
@@ -39,7 +39,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "671f94e1-ae41-453b-9080-a23357cfecc6"
+      Value: "81488ae2-741f-4560-8cd8-602102c2f474"
     - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
       Hint: Title
       Value: Discover Design That Speaks to You
@@ -49,7 +49,7 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260128T140847Z
+      Value: 20260129T112119Z
     - ID: "e3c72e5d-cbf1-4af8-8a73-dc4d3c8590f3"
       Hint: CtaLink
       Value: |

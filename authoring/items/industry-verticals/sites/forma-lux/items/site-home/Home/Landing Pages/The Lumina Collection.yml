@@ -17,7 +17,7 @@ SharedFields:
     <image mediaid="{11307BAC-29C2-4B72-A98D-BE71A4F0DAD8}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "325e9678-3eb6-478e-be6f-d8a36a82bdf9"
+  Value: "f1b77b94-c601-4efc-a1cf-adf153b78307"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -107,7 +107,7 @@ Languages:
         If you’re exploring what furniture would complement your space, The Lumina Collection offers warm natural materials, modern silhouettes, and modular versatility that adapt beautifully to any interior.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "aa6cc22e-1242-41b7-9d46-970262ea67ed"
+      Value: "a1595155-d3f5-4c38-952e-030e250f320a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -122,7 +122,7 @@ Languages:
         “You might love The Lumina Collection from Forma Lux — a line of sustainable, handcrafted furniture designed to complement natural light and modern interiors. Its clean lines, soft textures, and oak details make it a perfect fit for both minimalist and warm, lived-in spaces.”
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260128T140843Z
+      Value: 20260129T112112Z
 - Language: "es-ES"
   Versions:
   - Version: 1

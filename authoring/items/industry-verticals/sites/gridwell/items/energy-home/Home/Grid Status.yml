@@ -1,0 +1,88 @@
+﻿---
+ID: "b13e8079-034f-48a5-9b12-9b28f64e1224"
+Parent: "a3a58074-c4b7-478b-b0b4-386243e7e48e"
+Template: "98e60957-0783-4a9a-85cc-77dad30e9711"
+Path: "/sitecore/content/industry-verticals/gridwell/Home/Grid Status"
+SharedFields:
+- ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/25b86deaf55545f69924b1e88e85e5c5?v=718830b0" dam-id="PhsMcke5SbOjnMFdI43xAw" width="350" height="350" alt="healthcare-analytics-dashboard-with-charts-and-dat-E6wpr4DIy8E8KMuInJkxGGM7op5dpf.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/74522/thumbnail" />
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{C41D1468-D9EE-45E7-A2F4-3484FB2BA27D}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "091158af-4424-493a-8176-15865910fb0e"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{0C849E92-802A-435B-812D-2DB4BE3A8D9B}"
+          p:before="*"
+          s:id="{C604C3E4-A23D-47D3-A375-58D541DBE801}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{F28ADA70-6DFC-4956-9158-AA0F22146A45}"
+          p:after="r[@uid='{0C849E92-802A-435B-812D-2DB4BE3A8D9B}']"
+          s:ds="3619760d-54cc-4427-9233-e7c27a31c319"
+          s:id="{33A73E35-492C-4A60-A24C-1DE2024A6007}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BD48766E1-F994-4D20-B841-FAE0027E5471%7D&amp;Styles=%7C%7B1234809A-9DFF-4584-A8AB-AACCD2CE44A1%7D&amp;CurvedTop&amp;CurvedBottom&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="headless-main" />
+        <r
+          uid="{16F37146-9536-4A6D-BD85-CDA7E9ED5B68}"
+          p:after="*[1=2]"
+          s:ds="35ccfef4-99af-43b2-8d7d-878ae09e6c42"
+          s:id="{33A73E35-492C-4A60-A24C-1DE2024A6007}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B780378CF-4A9D-4B52-83F7-603331BA1955%7D&amp;Styles=%7C%7B0D692526-9403-44D4-A9F8-47562B56B952%7D&amp;CurvedTop&amp;CurvedBottom&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
+      Hint: metadataKeywords
+      Value: grid status, power grid conditions, electricity demand, grid reliability, Texas grid, Gridwell dashboard
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260112T111314Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: Current Grid Status & Conditions | Gridwell
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Grid Status
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: Grid Status
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: "View the current status of the Texas power grid, including demand levels, supply conditions, and reliability indicators. Gridwell provides real-time visibility into grid conditions so Texans can stay informed and take action when needed."
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e6324261-cad7-4ade-9265-92d2fc9e4cfa"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: "The Grid Status page provides real-time insight into electricity demand, supply, and overall system conditions. By offering clear, up-to-date information, Gridwell helps Texans understand grid health and respond appropriately during periods of high demand."
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260129T105847Z

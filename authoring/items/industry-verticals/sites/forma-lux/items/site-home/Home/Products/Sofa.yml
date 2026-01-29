@@ -17,7 +17,7 @@ SharedFields:
     <image mediaid="{514861C4-F46A-4937-B8F5-0882C7AEB5C7}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "2fb0708f-d556-4ce7-84b6-0afceb33f088"
+  Value: "4bdbbb22-ab2a-452e-90ea-826b98f8e16d"
 Languages:
 - Language: en
   Versions:
@@ -54,7 +54,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3699caf1-f214-4e84-81fb-2d691a1292ad"
+      Value: "a999278e-fa46-46a8-b303-64372816973c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -64,7 +64,7 @@ Languages:
       Value: Explore modern sofas crafted for comfort and longevity. Modular designs, soft textures, and refined silhouettes bring elegance and relaxation to contemporary interiors.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260128T140844Z
+      Value: 20260129T112114Z
     - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
       Hint: CategoryName
       Value: Sofa

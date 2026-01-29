@@ -68,18 +68,18 @@ Languages:
       Value: Angelina Serzila
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9fc502c1-7a4d-4779-96c8-0895080fe874"
+      Value: "20931123-d257-4593-bae7-089cfda36f03"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260121T162131Z
+      Value: 20260129T105918Z
     - ID: "ea706e77-5d62-426e-bbb3-68805298e75c"
       Hint: Photo
       Value: |
-        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/78913-HomePageHero-2000x800?v=399382b9" dam-id="Kk4UUTmIRqS50Qhlz2_R9g" width="2000" height="800" alt="AngelinaSerzila.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/78913/thumbnail" />
+        <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78913-HomePageHero-2000x800?v=399382b9" dam-id="Kk4UUTmIRqS50Qhlz2_R9g" width="2000" height="800" alt="AngelinaSerzila.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78913/thumbnail" />
     - ID: "fb359b0f-3087-41f2-aae3-2dd492eb2c60"
       Hint: Title
       Value: Angelina Serzila

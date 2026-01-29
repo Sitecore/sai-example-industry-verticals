@@ -1,0 +1,76 @@
+﻿---
+ID: "e4d5ac25-276c-494a-9e46-c34f075e71cc"
+Parent: "08737f6e-6ae0-4044-a550-05b98b9ccf69"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/gridwell/Home/Articles/Carbon Neutral by 2030 Our Promise to the Planet"
+SharedFields:
+- ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
+  Hint: Author
+  Value: "{DBD12DCB-8BAA-481E-8D68-0572098FC421}"
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20251207T000000Z
+- ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/8e93bc241aba4e0681016385954d3a23?v=92e01931" dam-id="FczZZT2ETVCgOaa142v0cw" width="350" height="350" alt="federico-beccari-ahi73ZN5P0Y-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/70020/thumbnail" />
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/26883bf12de9417381f9d97356d030ec?v=51a62579" dam-id="FczZZT2ETVCgOaa142v0cw" width="1024" height="683" alt="federico-beccari-ahi73ZN5P0Y-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/70020/thumbnail" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{A9626C57-3639-45D1-8A62-D45563C1D745}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "1e4357fa-74ac-437e-9d0a-f505b647cb03"
+- ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+  Hint: Category
+  Value: "{472CC8CC-D9D7-48EE-848F-D4DB2B52C33B}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: "Gridwell is working toward carbon neutrality by 2030 through a combination of renewable energy generation, energy-efficient operations, and partnerships focused on sustainability. This article explains how Gridwell is reducing emissions, investing in clean technology, and leading the transition toward a more sustainable and reliable power grid for future generations."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260126T095309Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Carbon Neutral by 2030 Our Promise to the Planet
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>At Gridwell, we’re not waiting for change—we’re making it happen. Our goal is to achieve full carbon neutrality by 2030 through a combination of renewable energy generation, carbon capture innovation, and energy-efficient operations.</p><p>This commitment is more than a target; it’s a reflection of our values. We’re partnering with local suppliers who share our vision, investing in next-generation clean tech, and helping customers reduce emissions through smarter energy use. Every milestone brings us closer to a world powered entirely by sustainable energy—and we’re proud to lead that journey.</p></div>
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Gridwell unveils its strategic plan to achieve carbon neutrality by 2030, emphasizing pivotal initiatives, investments in renewable resources, and enduring commitments to environmental sustainability.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: "Gridwell is committed to achieving carbon neutrality by 2030 through renewable energy innovation, smart grid operations, and sustainable partnerships. This article outlines Gridwell’s long-term vision, the technologies driving change, and how operational excellence supports a cleaner, more resilient energy future."
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "01b9ab8d-e542-4216-b387-c21773b252e5"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: Carbon Neutral by 2030 Our Promise to the Planet
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260129T105846Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: Gridwell’s Path to Carbon Neutrality by 2030
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: Gridwell sustainability, carbon neutral grid, renewable energy innovation, clean energy operations, carbon reduction, sustainable energy, grid modernization

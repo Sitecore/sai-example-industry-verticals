@@ -1,0 +1,76 @@
+﻿---
+ID: "f0facc54-c454-4885-b682-7ce0239dc657"
+Parent: "08737f6e-6ae0-4044-a550-05b98b9ccf69"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/gridwell/Home/Articles/Small Changes Big Impact Everyday Ways to Live More Sustainably"
+SharedFields:
+- ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
+  Hint: Author
+  Value: "{D18B7AF2-9C5B-4953-A583-BFC670C22624}"
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20250825T000000Z
+- ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/69665-HomepagePromoCTAs-1100x740?v=19e076ce" dam-id="CjznTsFbQiuDuq0tEATaqQ" width="1100" height="740" alt="thomas-reaubourg-JRUVbgJJTBM-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/69665/thumbnail" />
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/6e1d2d4f5089492bbb85e19d279ff8cf?v=55ba2c2c" dam-id="CjznTsFbQiuDuq0tEATaqQ" width="1920" height="1080" alt="thomas-reaubourg-JRUVbgJJTBM-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/69665/thumbnail" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{6D2246DF-50EC-4915-A723-C24A352D7FBC}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "5a224646-3693-4fc8-88d2-61f06baa4cb4"
+- ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+  Hint: Category
+  Value: "{0EFFD00D-3DD8-4966-81C3-2C0FFCA87130}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: Discover simple, everyday steps to live more sustainably. Gridwell shares easy ways to save energy, cut waste, and make greener choices at home.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260126T095457Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Small Changes Big Impact Everyday Ways to Live More Sustainably
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p data-start="2832" data-end="2925">You don’t have to change everything to make a difference—just start somewhere.</p><p data-start="2832" data-end="2925">At Gridwell, we believe sustainability starts at home. Every small change adds up, whether it’s switching to LED lights, reducing single-use plastics, or unplugging devices that waste energy.</p><p data-start="3139" data-end="3514">Our team is passionate about helping individuals and families make meaningful choices that protect the planet without sacrificing comfort. Try participating in Gridwell’s Green Challenge—each month, we share simple steps for greener living and reward participants for their progress. Together, we can build habits that last a lifetime and make sustainability second nature.</p></div>
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Sustainable living doesn’t require drastic changes. Learn how small daily habits can collectively make a meaningful impact on the environment.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: Discover simple, everyday steps to live more sustainably. Gridwell shares easy ways to save energy, cut waste, and make greener choices at home.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e19da45a-fd8e-401c-b211-25bd7933d81e"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "Small Changes, Big Impact: Everyday Ways to Live More Sustainably"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260129T105846Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: "Small Changes, Big Impact: Everyday Ways to Live More Sustainably"
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: "sustainable living tips, how to save energy at home, eco-friendly lifestyle, reduce carbon footprint"

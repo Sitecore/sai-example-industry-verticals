@@ -33,15 +33,15 @@ Languages:
       Value: Island Hopping
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "62ab8193-0e21-4633-abdb-04287eba1a5e"
+      Value: "75b952c4-401b-460d-a88b-0744e19061b4"
     - ID: "a38e449c-2d54-4b00-894c-8b84f7952a15"
       Hint: Image
       Value: |
-        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/80220-HomepagePromoCTAs-1100x740?v=9a7c13af" dam-id="SrOuP0W2RjO18ANlLjL_Pg" width="1100" height="740" alt="Island Hopping.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/80220/thumbnail" />
+        <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/80220-HomepagePromoCTAs-1100x740?v=9a7c13af" dam-id="SrOuP0W2RjO18ANlLjL_Pg" width="1100" height="740" alt="Island Hopping.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/80220/thumbnail" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251226T162359Z
+      Value: 20260129T105952Z
