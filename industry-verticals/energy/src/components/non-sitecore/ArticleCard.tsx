@@ -28,7 +28,7 @@ const ArticleCard = ({ fields, id, url }: ArticlesProps) => {
       </div>
 
       <div className="flex grow flex-col p-6 pt-8">
-        <div className="mb-4 flex items-center justify-between">
+        <div className="mb-4 flex flex-wrap items-center justify-between gap-4">
           {fields.Category.fields.Category?.value && (
             <span className="bg-background-muted text-foreground-muted rounded-md border px-2 py-1 text-xs font-semibold">
               <ContentSdkText field={fields.Category.fields.Category} />
