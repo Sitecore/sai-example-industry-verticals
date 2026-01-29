@@ -60,7 +60,9 @@
           "Project.Essentials-Content",
           "Project.Essentials-Media",
           "Project.Travel-Media",
-          "Project.Travel-Content"
+          "Project.Travel-Content",
+          "Project.Energy-Media",
+          "Project.Energy-Content"
         ]
       },
       "warmUpCm": {
