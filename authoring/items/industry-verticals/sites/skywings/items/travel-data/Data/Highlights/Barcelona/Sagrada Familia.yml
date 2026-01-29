@@ -33,7 +33,7 @@ Languages:
       Value: Sagrada Família
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7048ea6d-8adc-484f-af59-3c58c91d810f"
+      Value: "5ee11371-b2ab-464a-b48b-5c7ca15f61c1"
     - ID: "a38e449c-2d54-4b00-894c-8b84f7952a15"
       Hint: Image
       Value: |
@@ -44,4 +44,4 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105951Z
+      Value: 20260129T145212Z

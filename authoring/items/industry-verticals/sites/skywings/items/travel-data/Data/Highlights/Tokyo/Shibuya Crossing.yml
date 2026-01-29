@@ -33,7 +33,7 @@ Languages:
       Value: Shibuya Crossing
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b2c09ecd-012d-4510-940b-87bce04c93ae"
+      Value: "90352bff-4508-4343-98d7-50b8e88b41cb"
     - ID: "a38e449c-2d54-4b00-894c-8b84f7952a15"
       Hint: Image
       Value: |
@@ -44,4 +44,4 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105953Z
+      Value: 20260129T145213Z

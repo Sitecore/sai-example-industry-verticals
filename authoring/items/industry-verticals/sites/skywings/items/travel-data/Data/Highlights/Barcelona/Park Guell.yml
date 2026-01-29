@@ -33,7 +33,7 @@ Languages:
       Value: Park Güell
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "916e4318-98c9-44a4-801e-4fb7d962d79f"
+      Value: "eb0a95c1-e948-4cb1-8ddb-92115f95952d"
     - ID: "a38e449c-2d54-4b00-894c-8b84f7952a15"
       Hint: Image
       Value: |
@@ -44,4 +44,4 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105951Z
+      Value: 20260129T145212Z

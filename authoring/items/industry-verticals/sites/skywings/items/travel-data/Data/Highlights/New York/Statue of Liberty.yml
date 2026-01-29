@@ -33,7 +33,7 @@ Languages:
       Value: Statue of Liberty
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8350c994-4bb0-4a18-9f55-0515c1a5a3b0"
+      Value: "4b2dcab7-5ded-48f0-b0c3-8a58c73aa46e"
     - ID: "a38e449c-2d54-4b00-894c-8b84f7952a15"
       Hint: Image
       Value: |
@@ -44,4 +44,4 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105952Z
+      Value: 20260129T145212Z

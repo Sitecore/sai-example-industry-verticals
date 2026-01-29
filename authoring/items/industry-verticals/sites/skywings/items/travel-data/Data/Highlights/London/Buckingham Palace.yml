@@ -33,7 +33,7 @@ Languages:
       Value: Buckingham Palace
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c98ad7df-b4c3-44e8-8e7b-489156fb1a57"
+      Value: "a11dc4a5-cc9a-4447-bbd7-10ba3e6ba161"
     - ID: "a38e449c-2d54-4b00-894c-8b84f7952a15"
       Hint: Image
       Value: |
@@ -44,4 +44,4 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105951Z
+      Value: 20260129T145212Z

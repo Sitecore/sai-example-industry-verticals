@@ -33,7 +33,7 @@ Languages:
       Value: "Sensō-ji Temple"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "31a69867-9aaf-4e1a-abb6-f50caed28d1c"
+      Value: "dc1f939f-cf6e-4f28-a9ae-ab746d1ab533"
     - ID: "a38e449c-2d54-4b00-894c-8b84f7952a15"
       Hint: Image
       Value: |
@@ -44,4 +44,4 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105953Z
+      Value: 20260129T145213Z

@@ -33,7 +33,7 @@ Languages:
       Value: Marina Bay Sands
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3bc3e998-ff82-49ed-9f27-9656eaac4f67"
+      Value: "632c30f0-8bcd-4113-8d24-3f2727c53ee8"
     - ID: "a38e449c-2d54-4b00-894c-8b84f7952a15"
       Hint: Image
       Value: |
@@ -44,4 +44,4 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105952Z
+      Value: 20260129T145213Z
