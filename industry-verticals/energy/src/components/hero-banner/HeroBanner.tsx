@@ -28,6 +28,8 @@ export const Default = ({ params, fields }: HeroBannerProps) => {
   const { styles, RenderingIdentifier: id } = params;
   const isPageEditing = page.mode.isEditing;
 
+  const hasMedia = fields?.Video?.value?.src || fields?.Image?.value?.src;
+
   if (!fields) {
     return isPageEditing ? (
       <div className={`component hero-banner ${styles}`} id={id}>
@@ -39,9 +41,9 @@ export const Default = ({ params, fields }: HeroBannerProps) => {
   }
 
   return (
-    <div className={`component hero-banner ${styles} relative flex items-center`} id={id}>
+    <div className={`component hero-banner relative flex items-center py-24 ${styles}`} id={id}>
       {/* Background Media */}
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-1">
         {!isPageEditing && fields?.Video?.value?.src ? (
           <video
             className="h-full w-full object-cover"
@@ -56,33 +58,31 @@ export const Default = ({ params, fields }: HeroBannerProps) => {
         ) : (
           <ContentSdkImage field={fields.Image} className="h-full w-full object-cover" priority />
         )}
-        {/* Gradient Overlay using primary color */}
-        <div className="to-accent/20 absolute inset-0 bg-linear-to-b from-transparent" />
       </div>
+      {/* Gradient Overlay using primary color */}
+      <div className="from-accent-dark to-accent absolute inset-0 z-0 bg-linear-to-r"></div>
 
       {/* Content Container */}
-      <div className="relative z-10 w-full">
-        <div className="container mx-auto flex flex-col items-center justify-center px-4 py-24">
-          {/* Title - styled in accent/primary color */}
-          <h1 className="text-accent text-center">
-            <ContentSdkText field={fields.Title} />
-          </h1>
+      <div className="relative z-3 container mx-auto flex flex-col items-center justify-center">
+        {/* Title - styled in accent/primary color */}
+        <h1 className={`${hasMedia ? 'text-accent' : 'text-background'} text-center`}>
+          <ContentSdkText field={fields.Title} />
+        </h1>
 
-          {/* Description/Tagline - white text */}
-          <div className="**:text-background mt-4 max-w-7/12 text-xl **:text-center">
-            <ContentSdkRichText field={fields.Description} />
-          </div>
-
-          {/* CTA Buttons */}
-          {(fields?.CtaLink || fields?.SecondaryCtaLink) && (
-            <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center">
-              {fields?.CtaLink && <Link field={fields.CtaLink} className="main-btn" />}
-              {fields?.SecondaryCtaLink && (
-                <Link field={fields.SecondaryCtaLink} className="secondary-btn" />
-              )}
-            </div>
-          )}
+        {/* Description/Tagline - white text */}
+        <div className="**:text-background mt-4 max-w-7/12 text-xl **:text-center">
+          <ContentSdkRichText field={fields.Description} />
         </div>
+
+        {/* CTA Buttons */}
+        {(fields?.CtaLink || fields?.SecondaryCtaLink) && (
+          <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center">
+            {fields?.CtaLink && <Link field={fields.CtaLink} className="main-btn" />}
+            {fields?.SecondaryCtaLink && (
+              <Link field={fields.SecondaryCtaLink} className="secondary-btn" />
+            )}
+          </div>
+        )}
       </div>
     </div>
   );
