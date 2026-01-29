@@ -37,7 +37,7 @@ SharedFields:
   Value: "{8DD59D14-31A7-4B85-A547-77B03C68AC32}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "cc34aa4e-c836-48d0-8541-5dd4b2cdb99b"
+  Value: "1ade8b3e-e330-4348-84f2-ff3ef72642f2"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -89,17 +89,17 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d873d8f4-1dc8-44e6-9d8b-4a87e06fe20d"
+      Value: "4fe4a285-54c9-46f2-80b3-0d70fb6184bb"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Verona Dining Chair
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251229T055542Z
+      Value: 20260128T140845Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: "<p>The Verona Dining Chair is designed for both comfort and sophistication. Its curved backrest provides excellent lumbar support, while the cushioned seat ensures long-lasting comfort during meals. The walnut finish adds warmth to any dining room.</p>"

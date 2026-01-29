@@ -23,7 +23,7 @@ SharedFields:
     <image mediaid="{072CD27A-6AC9-457E-9649-37051EFC336C}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "f56c1067-733b-40df-a78e-c3427c43239e"
+  Value: "91308c24-1a6f-44c9-8919-ff0c14994924"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -74,7 +74,7 @@ Languages:
       Value: Explore Forma Lux’s full range of sustainable furniture collections — timeless sofas, chairs, and tables crafted with precision, natural materials, and enduring elegance. Designed to bring warmth, balance, and sophistication to every space.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2ecb72ae-6619-4284-beaf-43d6a268b9d5"
+      Value: "380f33cf-2e68-47f6-bb89-b8bcf0e0c399"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -84,7 +84,7 @@ Languages:
       Value: Forma Lux offers a curated selection of sustainable luxury furniture designed to elevate modern living. Each collection — from modular sofas to sculptural tables — reflects a commitment to craftsmanship, quality, and intentional design. Every piece is made to endure, bringing refined simplicity and lasting beauty to the spaces people call home.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251223T145809Z
+      Value: 20260128T140843Z
 - Language: "es-ES"
   Versions:
   - Version: 1

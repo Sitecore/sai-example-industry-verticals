@@ -35,7 +35,7 @@ SharedFields:
   Value: "{8DD59D14-31A7-4B85-A547-77B03C68AC32}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "21a8999c-2af7-4feb-ad08-fb74b97bc4a3"
+  Value: "6db8bcd8-ac0f-47eb-a97f-969c4e349a6a"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -90,17 +90,17 @@ Languages:
       Value: The Havana Rocking Chair by Forma Lux blends classic craftsmanship with contemporary style. Made from solid teak wood and featuring plush cushions, it offers comfort and elegance in any room.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "935b00cd-e8c5-4d01-b686-31e7ac17afff"
+      Value: "c333fa77-6206-43c4-85cf-56fa0796e8c5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Havana Rocking Chair
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251229T055359Z
+      Value: 20260128T140845Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: <p>The Havana Rocking Chair is crafted from solid teak wood with a smooth rocking motion. Its cushioned seat and backrest provide comfort, while its timeless design makes it a versatile addition to nurseries, living rooms, or porches.</p>

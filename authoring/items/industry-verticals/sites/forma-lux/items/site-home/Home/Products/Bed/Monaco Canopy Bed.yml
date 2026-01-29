@@ -38,7 +38,7 @@ SharedFields:
   Value: "{16807766-6013-4944-9550-EBC3216AD248}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "946a6b75-d519-4661-9456-35418f49c4d6"
+  Value: "1e30b978-5b85-4f53-931d-c536afc06b1e"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -93,17 +93,17 @@ Languages:
       Value: The Monaco Canopy Bed by Forma Lux combines sleek metal design with timeless romance. Flowing drapes and refined proportions create a luxurious, intimate bedroom centerpiece.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5c16aaf6-f0fd-4efc-b77e-e7286c7da402"
+      Value: "d35c94fc-c8b8-498b-b9a3-0044f7a047dc"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Monaco Canopy Bed
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251226T150910Z
+      Value: 20260128T140843Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: <p>The Monaco Canopy Bed brings elegance and charm to your bedroom. Its slim metal frame supports flowing drapes, creating a cozy and intimate atmosphere. Perfect for those who love a touch of drama in their interiors.</p>

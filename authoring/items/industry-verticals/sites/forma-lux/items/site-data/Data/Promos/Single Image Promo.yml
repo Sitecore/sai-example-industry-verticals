@@ -18,7 +18,7 @@ SharedFields:
     <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/9a6bf9db267d4064a703ef689b7b3d93?v=5fd517cc" dam-id="r4u8bbZ3SMqqTv3mrEKT-g" width="4000" height="3000" alt="Rectangle 1451.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/67133/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "fdbaac77-e155-4b7e-89e9-fb59bdfd67ca"
+  Value: "d00c9ca3-820c-4ef5-add8-8b2afc7ed4fd"
 Languages:
 - Language: en
   Versions:
@@ -51,14 +51,14 @@ Languages:
       Value: 
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0691b621-f54d-42cc-ba52-dfbe84044f41"
+      Value: "cf292d6a-2aa9-4814-9b4a-8d63342d4d25"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251223T145811Z
+      Value: 20260128T140848Z
     - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
       Hint: PromoTitle
       Value: We provide you  the best experience

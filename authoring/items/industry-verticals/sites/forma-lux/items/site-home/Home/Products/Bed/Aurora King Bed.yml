@@ -38,7 +38,7 @@ SharedFields:
   Value: "{16807766-6013-4944-9550-EBC3216AD248}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "af2f0a41-8ef2-4a39-a7b2-6ef18db05cb1"
+  Value: "09abcf03-e90b-417c-b186-921c62d2565e"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -96,17 +96,17 @@ Languages:
       Value: Sleep in style with the Aurora King Bed by Forma Lux. A tall tufted headboard, premium velvet upholstery, and a solid wooden frame bring refined comfort and timeless elegance to your bedroom.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6851bbc2-9267-4eb4-afce-9a5922e296b6"
+      Value: "6435735d-deec-4931-9a1a-be547c5a0084"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Aurora King Bed
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251226T150610Z
+      Value: 20260128T140843Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: <p>The Aurora King Bed is designed for ultimate comfort and elegance. Its tall, tufted headboard adds a touch of grandeur, while the sturdy wooden frame ensures durability. Upholstered in premium velvet, it transforms any bedroom into a sanctuary.</p>

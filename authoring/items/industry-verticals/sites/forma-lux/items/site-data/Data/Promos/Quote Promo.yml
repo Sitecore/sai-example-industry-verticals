@@ -10,7 +10,7 @@ SharedFields:
     <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/b9ad97bc9113472392213db20cb1a1b4?v=0012b3f5" dam-id="HUbd21YRQEiNhH83NJPKdg" width="3000" height="1345" alt="c74d5209246457bee0c97ad95e3401e271748d60.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79419/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "cf2a5a2d-6b61-4307-a93c-6108aeebdcf2"
+  Value: "27aedff5-1a4e-4bf7-9642-791e8e1f8482"
 Languages:
 - Language: en
   Versions:
@@ -39,14 +39,14 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5a3a0b10-b819-46b4-9aef-8bc43fd8cdc2"
+      Value: "9d7090e8-4e17-4b45-9e89-f9abef88a8f1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251226T104242Z
+      Value: 20260128T140848Z
     - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
       Hint: PromoTitle
       Value: Our Promise To You

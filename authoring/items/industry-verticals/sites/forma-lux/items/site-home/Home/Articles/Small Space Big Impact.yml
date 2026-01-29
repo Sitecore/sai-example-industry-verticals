@@ -18,7 +18,7 @@ SharedFields:
     <image mediaid="{C629B8C2-73E2-46C7-AEF7-5067351697A8}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "c3bd4464-0aef-4dc2-99e7-f25a4306f82f"
+  Value: "7926870c-3643-4d11-ae21-62fc7affbfa4"
 Languages:
 - Language: en
   Fields:
@@ -60,17 +60,17 @@ Languages:
       Value: Live large in a small space. Explore clever, modern furniture ideas that maximize every inch — from hidden storage to sleek, multifunctional designs.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1564e906-7992-4818-bac6-01165d4baa7d"
+      Value: "32043868-d87e-4449-8ada-20d44382f758"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "Small Space, Big Impact: Smart Furniture Choices for Compact Homes"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251226T113655Z
+      Value: 20260128T140846Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: "Small Space, Big Impact: Smart Furniture Choices for Compact Homes"

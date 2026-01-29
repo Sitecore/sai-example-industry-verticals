@@ -35,7 +35,7 @@ SharedFields:
   Value: "{078D4751-D125-408A-9FF2-F5417844B877}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "4c00a28c-470b-4ee1-a786-76ddad883ac7"
+  Value: "c936ad28-cd1d-4e79-bc41-1cdae79ad5a4"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -87,17 +87,17 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7eced053-00a8-47d5-bc1a-ce17de358cc2"
+      Value: "a2d9e500-f61b-474c-a5d7-228265411d33"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Brooklyn Sleeper Sofa
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251226T153000Z
+      Value: 20260128T140844Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: "<p>The Brooklyn Sleeper Sofa is perfect for small spaces. With a simple pull-out mechanism, it transforms into a comfortable bed. Upholstered in durable fabric, it’s ideal for overnight guests.</p>"

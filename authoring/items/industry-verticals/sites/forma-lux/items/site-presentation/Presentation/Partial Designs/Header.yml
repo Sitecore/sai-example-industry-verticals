@@ -13,7 +13,7 @@ SharedFields:
     <image mediaid="{1C2BA88C-07EA-4753-9123-23AAD9527B7D}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "2bd9458b-d7a6-4337-ac6b-07ec947f63e9"
+  Value: "1bddfc74-ba27-44fe-915f-858979e6362f"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -93,14 +93,14 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "915eec09-1169-4038-b9bf-694912327aed"
+      Value: "022b81e6-cf30-48a1-8ed0-4687eda40352"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251230T091317Z
+      Value: 20260128T140848Z
 - Language: "es-ES"
   Versions:
   - Version: 1
@@ -141,17 +141,17 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8b1f0340-fec7-4725-bae2-8558513c540b"
+      Value: "1dc3769d-e170-4428-a4b6-7fbcb117f410"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
       Hint: __Valid from
       Value: 20251219T104232Z
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251226T105039Z
+      Value: 20260128T140842Z
 - Language: "fr-CA"
   Versions:
   - Version: 1
@@ -194,11 +194,11 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "71a5243f-972c-478d-9e1f-50538cdef77b"
+      Value: "086f3768-cf0b-4419-87c0-bbf49f8da499"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251226T105039Z
+      Value: 20260128T140842Z

@@ -18,7 +18,7 @@ SharedFields:
     <image mediaid="{DBB74AEE-2793-4122-AE15-A6A5E0A23B74}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "a2b93d6a-6995-471f-9eb0-978452d2bf97"
+  Value: "8578e203-efef-44bb-b97a-f0a0d7ca6c79"
 Languages:
 - Language: en
   Fields:
@@ -65,17 +65,17 @@ Languages:
       Value: Minimal doesn’t mean flat. Discover how mixing textures—wood, wool, metal, and glass—creates depth, warmth, and personality in modern furniture design.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "805bb447-943a-4cef-86a5-6d71171f3146"
+      Value: "0fee0f3e-d0e0-4b5b-be8d-528df9008646"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "Play With Texture: Why Material Mixes Make Modern Furniture Pop"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251226T113452Z
+      Value: 20260128T140846Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: "Play With Texture: Material Mixes That Elevate Modern Design"

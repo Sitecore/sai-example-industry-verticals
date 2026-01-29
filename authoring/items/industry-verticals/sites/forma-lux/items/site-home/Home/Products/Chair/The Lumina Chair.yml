@@ -29,7 +29,7 @@ SharedFields:
   Value: "{1F4F7164-0F0C-4CAB-8F44-7B7C85AD9C1A}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "bb3e9133-f2cd-42d1-b135-04fffa44c399"
+  Value: "edc110e9-33a3-400d-b5b8-e3d6119e71db"
 Languages:
 - Language: en
   Versions:
@@ -69,7 +69,7 @@ Languages:
       Value: Limina Chair, Forma Lux, luxury furniture, modern design, European craftsmanship, minimalist style, elegant seating, sustainable materials, timeless elegance, artful elegance, mindful living, architectural design, tranquil spaces, soul and substance, aesthetic excellence, Urban Visionary, Conscious Minimalist, Elevated Homemaker, Modern Collector, premium experiences, quiet design, art of living beautifully
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e5f36dc4-fce2-4b73-90ae-bd17826fe89f"
+      Value: "a1fd7635-6f71-4e37-8553-805de748b04c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -79,7 +79,7 @@ Languages:
       Value: The Lumina Chair
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251223T145810Z
+      Value: 20260128T140845Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: |

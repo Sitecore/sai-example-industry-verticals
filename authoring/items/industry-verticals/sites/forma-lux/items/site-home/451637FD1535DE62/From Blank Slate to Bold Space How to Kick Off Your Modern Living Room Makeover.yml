@@ -18,7 +18,7 @@ SharedFields:
     <image mediaid="{F4B3408A-B7DF-42A0-9923-748A90067F37}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "48424016-caec-4438-8763-bbcecee7d561"
+  Value: "9ec7a525-80b9-4102-869e-42afe2835ff6"
 Languages:
 - Language: en
   Fields:
@@ -65,17 +65,17 @@ Languages:
       Value: "So you’ve got a living room that works—but doesn’t inspire. That changes today. Start by choosing one standout piece—maybe a sleek sectional in a bold color or an architectural coffee table with clean lines. Let that piece drive your palette. Then layer in contrast: soft textiles, sculptural accessories, a geometric rug. Balance is key: pair warm wood tones with cool metal finishes; mix high gloss with matte surfaces. And don’t forget scale—large furniture invites comfort, but open space keeps things airy. Finally, personalize: add a meaningful object, an unusual art piece, or a plant with character. The result? A living space that reflects your style and makes you feel modern."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "cfa7e9f4-001a-4a87-9bf6-d43eeee871e9"
+      Value: "bfcb0c83-ef15-48ee-b534-6b127b888099"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "From Blank Slate to Bold Space: How to Kick-Off Your Modern Living Room Makeover"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251226T113304Z
+      Value: 20260128T140846Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: "From Blank Slate to Bold Space: How to Kick-Off Your Modern Living Room Makeover"

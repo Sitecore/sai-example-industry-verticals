@@ -35,7 +35,7 @@ SharedFields:
   Value: "{8DD59D14-31A7-4B85-A547-77B03C68AC32}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "d3223b3d-4df0-4c79-8462-754b4e46e7e7"
+  Value: "df34d90e-230e-4555-ba2d-e5bd9972ddc0"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -90,17 +90,17 @@ Languages:
       Value: The Oslo Lounge Chair by Forma Lux combines Nordic simplicity with premium comfort. Featuring a solid oak frame and plush linen cushions, it’s a timeless addition to modern interiors.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f6551c23-037a-4340-9890-2572e52e65a1"
+      Value: "91a6ed37-4751-48a6-8445-e7fed35eb81d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Oslo Lounge Chair
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251229T055612Z
+      Value: 20260128T140845Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: <p>The Oslo Lounge Chair blends minimalist Nordic design with modern comfort. Crafted from solid oak and upholstered in premium linen, it offers a timeless silhouette that fits seamlessly into any living space. Its ergonomic backrest and deep seat make it perfect for long hours of relaxation.</p>

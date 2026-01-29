@@ -20,7 +20,7 @@ SharedFields:
   Value: "{6EB2E9EB-0CAE-4B98-9A9B-7A960A0DBE1A}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "0a8fd8af-6180-4aa6-b24c-9e68077f039b"
+  Value: "dc1cddf4-c770-45cd-89c1-d63b7f925f20"
 Languages:
 - Language: en
   Versions:
@@ -57,17 +57,17 @@ Languages:
       Value: Discover The Lumina Tables from Forma Lux — a pair of handcrafted nesting tables designed with timeless simplicity and sustainable materials. Elegant proportions, natural oak, and enduring craftsmanship define this modern living essential.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "23c03783-29b7-4ea6-a3b3-2010f1228b26"
+      Value: "3a0e9b38-31b2-49b3-85d5-42e0eda11c3f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: The Lumina Tables
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251229T055739Z
+      Value: 20260128T140845Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: |

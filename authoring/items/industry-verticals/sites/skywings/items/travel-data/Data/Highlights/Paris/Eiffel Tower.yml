@@ -33,15 +33,15 @@ Languages:
       Value: Eiffel Tower
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "33a9305e-5bac-4f5a-b297-e5c368882f28"
+      Value: "d3c80631-ff76-4600-9843-61e9db8cd60a"
     - ID: "a38e449c-2d54-4b00-894c-8b84f7952a15"
       Hint: Image
       Value: |
-        <image mediaid="389a6cf3-0244-4812-b72e-c76472c164af" />
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/83386-HomepagePromoCTAs-1100x740?v=098cfd84" dam-id="Q13p6eUiThS_ff6qI6L-og" width="1100" height="740" alt="Eiffel-Tower.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/83386/thumbnail" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260105T094534Z
+      Value: 20260129T063715Z
