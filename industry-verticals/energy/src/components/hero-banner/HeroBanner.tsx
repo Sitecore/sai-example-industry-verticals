@@ -70,13 +70,13 @@ export const Default = ({ params, fields }: HeroBannerProps) => {
         </h1>
 
         {/* Description/Tagline - white text */}
-        <div className="**:text-background mt-4 max-w-7/12 text-xl **:text-center">
+        <div className="**:text-background mt-4 max-w-2xl text-xl **:text-center">
           <ContentSdkRichText field={fields.Description} />
         </div>
 
         {/* CTA Buttons */}
         {(fields?.CtaLink || fields?.SecondaryCtaLink) && (
-          <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center">
+          <div className="mt-8 flex flex-wrap justify-center gap-4">
             {fields?.CtaLink && <Link field={fields.CtaLink} className="main-btn" />}
             {fields?.SecondaryCtaLink && (
               <Link field={fields.SecondaryCtaLink} className="secondary-btn" />
