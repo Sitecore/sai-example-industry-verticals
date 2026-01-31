@@ -1,8 +1,8 @@
-# Retail - Demo Site (NextJS) - nextjsstarter
+# Financial Services
 
 ## Overview
 
-This template is built for easy scaffolding of new Vertical sites
+Prospera Bank is a demo website created to showcase a modern banking and financial services experience. The site is designed to demonstrate how a financial institution can deliver a seamless and trustworthy digital experience to its customers.
 
 ## Developer Expectations
 
@@ -18,13 +18,13 @@ This template is built for easy scaffolding of new Vertical sites
 1. Clone the repository (if not yet done)
    `git clone https://github.com/Sitecore/Sitecore.Demo.XMCloud.IndustryVerticals.SiteTemplates`
 2. Starting from the root of the repository navigate to site app folder
-   `cd industry-verticals\$site`
+   `cd industry-verticals\financial-services`
 3. Copy the environment file `.env.remote.example`
 4. Rename the copied file to `.env.local`
 5. Edit `.env.local` and provide a value for `SITECORE_EDGE_CONTEXT_ID`, `NEXT_PUBLIC_DEFAULT_SITE_NAME`, `NEXT_PUBLIC_SITECORE_EDGE_CONTEXT_ID`, `SITECORE_EDITING_SECRET`. (More info: [Environment variables in XM Cloud](https://doc.sitecore.com/xmc/en/developers/xm-cloud/get-the-environment-variables-for-a-site.html))
 
 6. Install dependencies:
-   from `industry-verticals\$site` run `npm install`
+   from `industry-verticals\financial-services` run `npm install`
 7. Run the site locally:
    `npm run dev`
 8. Access the site:
@@ -39,7 +39,7 @@ If you have not enabled the split deployment feature your edting hosts are autom
 3. Select Project that has been deployed
 4. Switch to tab "Editing Hosts"
 5. Click "Add editing host"
-6. Provide Editing host name `nextjsstarter` as per xmcloud.build.json
+6. Provide Editing host name `financial-services` as per xmcloud.build.json
 7. Check if the link to authoring environment is set correctly (should be by default)
 8. Check if the source code provider is set correctly (should be by default)
 9. Check if the GitHub Account is set correctly (should be by default)
