@@ -1,0 +1,38 @@
+@theme {
+  --color-foreground: #333;
+  --color-foreground-light: color-mix(in srgb, #333, white 35%);
+  --color-foreground-muted: color-mix(in srgb, #333, white 55%);
+
+  --color-accent: #034c81;
+  --color-accent-secondary: #c03021;
+  --color-accent-secondary-dark: #a82a39;
+
+  --color-background: #ffffff;
+  --color-background-surface: #f0f5f7;
+  --color-background-muted: var(--color-background-surface);
+  --color-background-muted-light: #c5e4f3;
+  --color-background-muted-dark: #333; 
+  --color-background-accent: var(--color-accent); 
+
+  --color-border: #f0f5f7;
+  --color-success: #0d9488;
+  --color-danger: var(--color-accent-secondary);
+
+  --font-heading: "Source Sans 3", Helvetica, Arial, sans-serif;
+  --font-body: "Source Sans 3", Helvetica, Arial, sans-serif;
+
+  --radius-base: 0.5rem;
+
+  /*
+  This does not show in the theme editor
+  but is used to override the defaults based on the user's selection for radius-base
+  */
+  --radius-xs: calc(var(--radius-base) * 0.25);
+  --radius-sm: calc(var(--radius-base) * 0.5);
+  --radius-md: var(--radius-base);
+  --radius-lg: calc(var(--radius-base) * 1.5);
+  --radius-xl: calc(var(--radius-base) * 2);
+  --radius-2xl: calc(var(--radius-base) * 3);
+  --radius-3xl: calc(var(--radius-base) * 4);
+  --radius-4xl: calc(var(--radius-base) * 5);
+}
