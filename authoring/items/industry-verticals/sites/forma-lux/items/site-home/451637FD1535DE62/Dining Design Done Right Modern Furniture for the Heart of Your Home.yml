@@ -7,18 +7,18 @@ SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/76488-LandingPageHero-2000x600?v=3bce7b27" dam-id="ngNXiZDpRI2taEiS-sNRPA" width="2000" height="600" alt="Dinning design.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76488/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/76488-LandingPageHero-2000x600?v=3bce7b27" dam-id="ngNXiZDpRI2taEiS-sNRPA" width="2000" height="600" alt="Dinning design.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/76488/thumbnail" />
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/living-room?v=aad40696" dam-id="dm0wrujJQ1e_uSKLhI8s8w" width="1024" height="683" alt="zac-gudakov-nhfggqH6J6A-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/69210/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/living-room?v=aad40696" dam-id="dm0wrujJQ1e_uSKLhI8s8w" width="1024" height="683" alt="zac-gudakov-nhfggqH6J6A-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/69210/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{EDEC4492-23DB-491F-B4DB-300DFAEA81F3}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "c4246bd1-b79f-4def-aa0b-68162681a575"
+  Value: "013ce8b3-7616-4298-af58-a4e28d264d42"
 Languages:
 - Language: en
   Fields:
@@ -65,7 +65,7 @@ Languages:
       Value: "Dining is more than meals—it’s shaping memories. Start with a table that suits your space: clean lines, durable material, room for expansion. Pair with chairs that are comfortable but defined—slim profiles, quality upholstery or shell material. Lighting should hover at 30-36” above the table for optimal ambiance. Add a rug to anchor the area and soften acoustics. For accessories: keep it minimal—a sculptural bowl, a simple runner, a piece of art—but meaningful. The goal: a modern dining space that says “come together” whether it’s family pizza night or dinner for six with friends."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "44ea81bd-38e7-47f6-bdb1-a84d75bd29ea"
+      Value: "5bdd12a0-a8cc-4419-bc05-11a1e3e80d08"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "Dining Design Done Right: Modern Furniture for the Heart of Your Home"
@@ -75,7 +75,7 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T112116Z
+      Value: 20260203T082512Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: Dining Design Done Right Modern Furniture for the Heart of Your Home

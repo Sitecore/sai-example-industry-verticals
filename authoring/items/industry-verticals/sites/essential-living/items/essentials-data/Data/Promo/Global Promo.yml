@@ -7,10 +7,10 @@ SharedFields:
 - ID: "b441a09f-ddb2-41a8-84cc-2533686541f4"
   Hint: PromoImageOne
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78645-HomepagePromoCTAs-1100x740?v=197a5415" dam-id="MZ0weyqdT_-Zn_U75ag1IA" width="1100" height="740" alt="Promo Image.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78645/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78645-HomepagePromoCTAs-1100x740?v=197a5415" dam-id="MZ0weyqdT_-Zn_U75ag1IA" width="1100" height="740" alt="Promo Image.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78645/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "f23c672b-73fb-463f-a03a-75fc57640830"
+  Value: "62abc063-ba83-4cc3-a169-1b60d5193ab3"
 Languages:
 - Language: en
   Versions:
@@ -39,14 +39,14 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4dd64b29-1208-4ff8-bfe7-2fbef8f195fe"
+      Value: "e64c7968-6b83-4e29-9d18-4001635adc7d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105820Z
+      Value: 20260205T092912Z
     - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
       Hint: PromoTitle
       Value: Introducing the essence of nordic comfort

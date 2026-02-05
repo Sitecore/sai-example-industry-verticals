@@ -7,7 +7,7 @@ SharedFields:
 - ID: "01ea8292-a476-44b5-b883-8841134989ba"
   Hint: Image5
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/80862-HomePageHero-2000x800?v=bcf77fce" dam-id="hFWei3QfRC-7ePSp5vBv8Q" width="2000" height="800" alt="Sofa_B_6.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/80862/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/80862-HomePageHero-2000x800?v=bcf77fce" dam-id="hFWei3QfRC-7ePSp5vBv8Q" width="2000" height="800" alt="Sofa_B_6.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/80862/thumbnail" />
 - ID: "2cfb917c-9876-4edb-82c0-1c9acd6965d4"
   Hint: Reviews
   Value: "{612EB8E4-ED53-43B5-976D-625BA8AA5506}"
@@ -25,7 +25,7 @@ SharedFields:
 - ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
   Hint: Image2
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/80871-HomePageHero-2000x800?v=6dfd6370" dam-id="j3BTOOs4RTyGtW1IQhB8uQ" width="2000" height="800" alt="Sofa_B_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/80871/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/80871-HomePageHero-2000x800?v=6dfd6370" dam-id="j3BTOOs4RTyGtW1IQhB8uQ" width="2000" height="800" alt="Sofa_B_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/80871/thumbnail" />
 - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
   Hint: Size
   Value: |
@@ -35,11 +35,11 @@ SharedFields:
 - ID: "9a62ea92-04df-49e2-ab37-00d251d0cc22"
   Hint: Image4
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/80864-LandingPageHero-2000x600?v=ec777944" dam-id="-9yR-FvdTQy8CJ7U3TGRQQ" width="2000" height="600" alt="Sofa_B_5.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/80864/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/80864-LandingPageHero-2000x600?v=ec777944" dam-id="-9yR-FvdTQy8CJ7U3TGRQQ" width="2000" height="600" alt="Sofa_B_5.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/80864/thumbnail" />
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/80870-HomePageHero-2000x800?v=f5f22d08" dam-id="vg9S_WYbT2q5IJPuE48X1Q" width="2000" height="800" alt="Sofa_B_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/80870/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/80870-HomePageHero-2000x800?v=f5f22d08" dam-id="vg9S_WYbT2q5IJPuE48X1Q" width="2000" height="800" alt="Sofa_B_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/80870/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -50,10 +50,10 @@ SharedFields:
 - ID: "d9c8ae87-80fc-460b-9140-3db7358b1c8e"
   Hint: Image3
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/80863-HomepagePromoCTAs-1100x740?v=8e408cf9" dam-id="t8SFc0ADQ8irPDH9kEPzkg" width="1100" height="740" alt="Sofa_B_4.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/80863/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/80863-HomepagePromoCTAs-1100x740?v=8e408cf9" dam-id="t8SFc0ADQ8irPDH9kEPzkg" width="1100" height="740" alt="Sofa_B_4.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/80863/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "515e48db-64d9-4531-9b17-09553659cc40"
+  Value: "ecc87c6c-e3e3-4bc4-9481-e660aacba085"
 Languages:
 - Language: en
   Versions:
@@ -76,7 +76,7 @@ Languages:
       Value: Nimbus Modular Sofa
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6e991058-9e84-4975-947f-4e327b5712c3"
+      Value: "730c2339-83b5-44ae-a952-7753abc6e743"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -86,4 +86,4 @@ Languages:
       Value: Nimbus Modular Sofa
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105818Z
+      Value: 20260205T092910Z

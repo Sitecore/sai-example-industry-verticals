@@ -33,15 +33,15 @@ Languages:
       Value: Stanley Park
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1880d34c-2295-432c-af28-98996536db23"
+      Value: "1493c40e-8037-4cbc-8164-14f5d7d7d822"
     - ID: "a38e449c-2d54-4b00-894c-8b84f7952a15"
       Hint: Image
       Value: |
-        <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/80642-LandingPageHero-2000x600?v=4eb592f0" dam-id="63GyUAEjTPCMKY7dPEJ48g" width="2000" height="600" alt="Stanley Park.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/80642/thumbnail" />
+        <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/80642-LandingPageHero-2000x600?v=4eb592f0" dam-id="63GyUAEjTPCMKY7dPEJ48g" width="2000" height="600" alt="Stanley Park.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/80642/thumbnail" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105953Z
+      Value: 20260205T093047Z

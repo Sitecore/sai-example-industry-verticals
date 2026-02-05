@@ -6,11 +6,11 @@ Path: "/sitecore/content/industry-verticals/gridwell/Data/Article Categories/Mar
 SharedFields:
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "dd5f49cb-c9f1-4478-8553-5cb13f922208"
+  Value: "38db1920-b47d-433f-a55a-b92fc78a6037"
 - ID: "f258fdef-13ab-4614-93ff-ac8487d0e8ab"
   Hint: CategoryIcon
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/82128-HomepagePromoCTAs-1100x740?v=46d5e87e" dam-id="PlJO_XUjTGOnksxM3Vcy9A" width="1100" height="740" alt="chart-column.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/82128/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/82128-HomepagePromoCTAs-1100x740?v=46d5e87e" dam-id="PlJO_XUjTGOnksxM3Vcy9A" width="1100" height="740" alt="chart-column.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/82128/thumbnail" />
 Languages:
 - Language: en
   Versions:
@@ -32,14 +32,14 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "208f60cb-0ccb-45b2-a760-8386af69463a"
+      Value: "1654b3ba-fd25-4bdc-a5ac-b21c78cb66f9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105847Z
+      Value: 20260205T090608Z
     - ID: "f9fd853f-2691-40b4-81d1-00ccf1a6cc06"
       Hint: Category
       Value: Market Analysis

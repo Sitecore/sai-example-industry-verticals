@@ -8,13 +8,13 @@ SharedFields:
 - ID: "83bc80ee-e97a-474b-8c05-a2559394eebe"
   Hint: FeatureImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78722-HomepagePromoCTAs-1100x740?v=faba6913" dam-id="KJJ1GmdgR-aJVAjmI0aWHw" width="1100" height="740" alt="Feature_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78722/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78722-HomepagePromoCTAs-1100x740?v=faba6913" dam-id="KJJ1GmdgR-aJVAjmI0aWHw" width="1100" height="740" alt="Feature_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78722/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 0
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "598754ba-5a5c-4c56-bbd5-a1b4b4ecc7ee"
+  Value: "fe7db487-ecde-4276-ab77-cfb321f53aca"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{FC2A5072-99B8-4D58-B5E0-B96C40680096}"
@@ -49,11 +49,11 @@ Languages:
         <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{63ABF4A1-D28B-4ABC-956E-6640B058ABFE}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0d277865-bdfd-48c6-9cdd-7b445947331d"
+      Value: "afaed0a9-13c0-43e4-821d-4f538fcadd78"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105819Z
+      Value: 20260205T092911Z

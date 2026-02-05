@@ -1,26 +1,36 @@
 ﻿---
-ID: "d093fa6f-ccad-4d20-86c4-90feae949303"
+ID: "0c8b8807-bb93-41ed-b450-6adb6b02b5d9"
 Parent: "75634ba5-e3f5-4582-a99a-913a05fcba63"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: "/sitecore/templates/Project/industry-verticals/Components/Energy Grid/Grid Demand/Rendering Parameters/GridDemand Parameters/Visual Accents/CurvedBottom"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Energy Grid/Grid Demand/Rendering Parameters/GridDemand Parameters/Data Generation/UseDynamicallyGeneratedData"
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: Checkbox
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 200
+  Value: 100
+- ID: "be351a73-fcb0-4213-93fa-c302d8ab4f51"
+  Hint: Shared
+  Value: 1
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "e8506da1-229d-4322-86d6-45112a4f96f5"
+  Value: "2b0dbe5e-e76a-4de7-b25a-a5d260ad607f"
 Languages:
 - Language: en
+  Fields:
+  - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
+    Hint: Title
+    Value: Use Dynamically Generated Data
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "0954d157-af9b-4c4f-85a8-3eb5db24e6d5"
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20251117T123343Z
+      Value: 20251117T123342Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -31,11 +41,11 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "cb8f7472-fef1-40ab-a92d-7a22d6f8dd66"
+      Value: "6128514b-bf08-44a8-b8ce-03f80dcf5538"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\neli.kostadinova@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251117T131944Z
+      Value: 20260204T094326Z

@@ -7,10 +7,10 @@ SharedFields:
 - ID: "3a9eb316-2f45-4f95-bae8-0c9b1e0aa8f1"
   Hint: Avatar
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/972d9e055c6a4b98be7f2af111a95851?v=2b386212" dam-id="mKTxOWP4ROmbGJZhOnVMDg" width="1024" height="650" alt="Moments that Take Flight.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/69596/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/972d9e055c6a4b98be7f2af111a95851?v=2b386212" dam-id="mKTxOWP4ROmbGJZhOnVMDg" width="1024" height="650" alt="Moments that Take Flight.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/69596/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "3bf20823-2006-455c-8ec2-2453cd91fcc3"
+  Value: "5ca77a8a-13e2-4e48-99ef-a0b251975612"
 Languages:
 - Language: en
   Versions:
@@ -38,11 +38,11 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "55174aa0-c686-4094-810a-2217d9e6d280"
+      Value: "4178d1a5-1725-4f54-954b-71785b581e91"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105949Z
+      Value: 20260205T093043Z

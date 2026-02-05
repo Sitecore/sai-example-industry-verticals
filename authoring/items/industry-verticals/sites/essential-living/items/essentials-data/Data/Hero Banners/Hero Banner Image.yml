@@ -7,13 +7,13 @@ SharedFields:
 - ID: "00b71f70-411d-4ea1-a423-74ed20b60157"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78688-HomepagePromoCTAs-1100x740?v=fc04ae76" dam-id="8zMxA5rETTy0nHgxAffhHg" width="1100" height="740" alt="Hero_Banner_1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78688/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78688-HomepagePromoCTAs-1100x740?v=fc04ae76" dam-id="8zMxA5rETTy0nHgxAffhHg" width="1100" height="740" alt="Hero_Banner_1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78688/thumbnail" />
 - ID: "d74790ee-7289-4a66-b921-71da75df6cde"
   Hint: Video
   Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "b576b725-de98-4201-ad71-1612adbef79c"
+  Value: "9d289f5c-94d9-4c73-ad6b-483d0a60d562"
 Languages:
 - Language: en
   Versions:
@@ -39,7 +39,7 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8f946766-4c8a-4bdd-acb9-fc569811cadd"
+      Value: "de2722ce-d3d6-4949-bc33-99018ad82ec9"
     - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
       Hint: Title
       Value: New Collection
@@ -49,4 +49,4 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105819Z
+      Value: 20260205T092912Z

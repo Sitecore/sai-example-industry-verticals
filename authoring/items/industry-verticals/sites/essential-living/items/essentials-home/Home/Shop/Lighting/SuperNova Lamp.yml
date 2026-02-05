@@ -26,11 +26,11 @@ SharedFields:
 - ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
   Hint: Image2
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78340-LandingPageHero-2000x600?v=513a2600" dam-id="GkHF_pNySZ-Ph7u0iYFkbw" width="2000" height="600" alt="lamp 2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78340/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78340-LandingPageHero-2000x600?v=513a2600" dam-id="GkHF_pNySZ-Ph7u0iYFkbw" width="2000" height="600" alt="lamp 2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78340/thumbnail" />
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78334-HomepagePromoCTAs-1100x740?v=2afc6bd6" dam-id="tsCy14AiSTCbIWTmkDCvRA" width="1100" height="740" alt="lamp 1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78334/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78334-HomepagePromoCTAs-1100x740?v=2afc6bd6" dam-id="tsCy14AiSTCbIWTmkDCvRA" width="1100" height="740" alt="lamp 1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78334/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -40,7 +40,7 @@ SharedFields:
   Value: "{2A70488E-95C7-4BCB-AACF-C72B73B4DDD6}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "d78048d2-6711-45e1-8d2d-f7d828fad5f0"
+  Value: "bf7ee8e1-8c30-426f-95e9-869e252d0387"
 Languages:
 - Language: en
   Versions:
@@ -71,7 +71,7 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "dfd25e5d-ee32-4969-8f21-704df53693b0"
+      Value: "e700a8ec-d877-4ea5-9ca7-7299c8c7463d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -81,4 +81,4 @@ Languages:
       Value: SuperNova Lamp
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105819Z
+      Value: 20260205T092911Z

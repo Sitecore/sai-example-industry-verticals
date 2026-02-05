@@ -7,13 +7,13 @@ SharedFields:
 - ID: "83bc80ee-e97a-474b-8c05-a2559394eebe"
   Hint: FeatureImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/79135-LandingPageHero-2000x600?v=839492b1" dam-id="2w2LQTH2SaONqvqtTv5zIQ" width="2000" height="600" alt="Winter Sun Campaign At Risk.jpeg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/79135/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/79135-LandingPageHero-2000x600?v=839492b1" dam-id="2w2LQTH2SaONqvqtTv5zIQ" width="2000" height="600" alt="Winter Sun Campaign At Risk.jpeg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79135/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 0
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "77c18d22-6ed6-47c2-b1ab-843b3643dd79"
+  Value: "a0434c57-0d47-405c-b9d2-06537db1e7b6"
 Languages:
 - Language: en
   Versions:
@@ -46,11 +46,11 @@ Languages:
       Value: Business Class
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "49b2afec-1bba-4aa0-ba61-344661c145a7"
+      Value: "c55bcf29-1ca7-4502-9cfb-20b15d95a23f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105950Z
+      Value: 20260205T093044Z

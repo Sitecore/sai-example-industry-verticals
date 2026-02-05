@@ -22,14 +22,14 @@ SharedFields:
 - ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
   Hint: Image2
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78488-HomepagePromoCTAs-1100x740?v=1427c56e" dam-id="tUxRo5ncQIWoBkzyoMR6JQ" width="1100" height="740" alt="lamp 2_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78488/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78488-HomepagePromoCTAs-1100x740?v=1427c56e" dam-id="tUxRo5ncQIWoBkzyoMR6JQ" width="1100" height="740" alt="lamp 2_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78488/thumbnail" />
 - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
   Hint: Size
   Value: "{3C6B2483-0CE5-425B-BBD7-DE4C5A9B32D6}"
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78480-HomePageHero-2000x800?v=5d2f0ce9" dam-id="0Rcie5qxQJW8POnN4_nK0g" width="2000" height="800" alt="lamp 2_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78480/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78480-HomePageHero-2000x800?v=5d2f0ce9" dam-id="0Rcie5qxQJW8POnN4_nK0g" width="2000" height="800" alt="lamp 2_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78480/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -39,7 +39,7 @@ SharedFields:
   Value: "{7AE747F4-C10E-4F62-832F-60175CD742FD}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "61e2e781-b52c-4e9e-9417-d360bb1871f6"
+  Value: "01ba6eeb-d190-4538-9954-1e91bde6d082"
 Languages:
 - Language: en
   Versions:
@@ -70,7 +70,7 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e942a08b-890d-417f-bb69-d0d65fc5e25b"
+      Value: "7a4f0b18-9e80-452e-bcc9-e1ab568dae8b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -80,4 +80,4 @@ Languages:
       Value: Seraphina Glow
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105819Z
+      Value: 20260205T092911Z

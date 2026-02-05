@@ -25,7 +25,7 @@ SharedFields:
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c6156eff779d403d920bfaccc7b28c92?v=defd6b05" dam-id="Fe_iCLzrSXeYaCOjwYDrIQ" width="768" height="768" alt="brooklyn-sleeper-sofa.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79375/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/c6156eff779d403d920bfaccc7b28c92?v=defd6b05" dam-id="Fe_iCLzrSXeYaCOjwYDrIQ" width="768" height="768" alt="brooklyn-sleeper-sofa.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79375/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -35,7 +35,7 @@ SharedFields:
   Value: "{078D4751-D125-408A-9FF2-F5417844B877}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "6dcaf287-a42f-417d-9e35-83248917dbdc"
+  Value: "cdf2196d-7903-424c-a298-b9fc1de65140"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -87,7 +87,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "58792d96-c4c6-496f-93e9-39d7609a9ff1"
+      Value: "c2444bb7-3192-404f-9f1f-517b1eecc8a2"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -97,7 +97,7 @@ Languages:
       Value: Brooklyn Sleeper Sofa
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T112114Z
+      Value: 20260203T082510Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: "<p>The Brooklyn Sleeper Sofa is perfect for small spaces. With a simple pull-out mechanism, it transforms into a comfortable bed. Upholstered in durable fabric, it’s ideal for overnight guests.</p>"

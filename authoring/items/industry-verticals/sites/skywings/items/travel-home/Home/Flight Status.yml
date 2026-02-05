@@ -7,7 +7,7 @@ SharedFields:
 - ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/79121-HomepagePromoCTAs-1100x740?v=60d63c82" dam-id="QH5I5F5pRzC0ay8T4cw9Vg" width="1100" height="740" alt="aircraft-exterior.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/79121/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/79121-HomepagePromoCTAs-1100x740?v=60d63c82" dam-id="QH5I5F5pRzC0ay8T4cw9Vg" width="1100" height="740" alt="aircraft-exterior.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79121/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 612
@@ -17,7 +17,7 @@ SharedFields:
     <image mediaid="{FF24CFD3-576D-455F-A0D3-63BF2EF97AC4}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "bf10b859-b4b5-4d42-86b4-a5868c505cc4"
+  Value: "98f60551-1dd8-4612-a5d3-fa74631b6a49"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: 
@@ -49,7 +49,7 @@ Languages:
       Value: "Check real-time flight status and travel updates for Skywings flights. View departure and arrival times, gate information, and schedule changes quickly and easily."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "23ddc0e6-9219-4ba1-baff-dd418b1f15d1"
+      Value: "8bb4c888-dbec-44c9-87e8-40506f8694e9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -59,4 +59,4 @@ Languages:
       Value: "The Flight Status page provides real-time updates on Skywings flights, including departure and arrival times, gate details, and schedule changes. Travelers can easily stay informed and prepared throughout their journey."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105947Z
+      Value: 20260205T093040Z

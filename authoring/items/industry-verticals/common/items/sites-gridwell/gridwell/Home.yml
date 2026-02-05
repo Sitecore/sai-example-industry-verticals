@@ -8,7 +8,7 @@ SharedFields:
 - ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/97db38d49a62459f83191e735886ae2a?v=9fe039a8" dam-id="ZqjOxS9TRFaV-4ngXBArtg" width="200" height="200" alt="Screenshot 2025-10-28 140143.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/70010/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/97db38d49a62459f83191e735886ae2a?v=9fe039a8" dam-id="ZqjOxS9TRFaV-4ngXBArtg" width="200" height="200" alt="Screenshot 2025-10-28 140143.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/70010/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 0
@@ -18,7 +18,7 @@ SharedFields:
     <image mediaid="{A5FFD910-03DE-4685-9245-43F7088A3B29}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "59516bd3-b983-4c80-bea9-fa6d059f8e56"
+  Value: "dfbe02db-ac06-4309-b9ef-b38cc30886b0"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -105,7 +105,7 @@ Languages:
       Value: "Gridwell ensures the reliable flow of electricity across Texas through real-time grid coordination, clear public communication, and innovative energy solutions. By combining advanced technology with transparency and preparedness, Gridwell empowers residents, businesses, and market participants to stay informed, conserve energy during critical periods, and trust the systems that keep their communities powered."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c342b741-84e7-402a-903a-1f50264cee10"
+      Value: "34bd2f97-cb2e-4026-896e-9462afaa81a7"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -115,4 +115,4 @@ Languages:
       Value: Gridwell is the trusted operator of Texas’s power grid, responsible for balancing electricity supply and demand, maintaining system reliability, and communicating clearly with the public during normal operations and grid emergencies. Through timely alerts, energy conservation guidance, and transparent data, Gridwell helps Texans understand grid conditions, take informed action during extreme weather, and stay confident in the reliability of their energy system.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105846Z
+      Value: 20260131T041921Z
