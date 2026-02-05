@@ -7,7 +7,7 @@ SharedFields:
 - ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/57c8beee21c74353b3765deb3e6af57b?v=076fa685" dam-id="7QwqPTjUQQqf6f3AKLGbkg" width="1100" height="619" alt="GettyImages-1332002332.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/40885/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/57c8beee21c74353b3765deb3e6af57b?v=076fa685" dam-id="7QwqPTjUQQqf6f3AKLGbkg" width="1100" height="619" alt="GettyImages-1332002332.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/40885/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 600
@@ -17,7 +17,7 @@ SharedFields:
     <image mediaid="{AFE6D970-EF8E-4696-AF4B-CAE97455877D}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "7d4362a2-b37a-4155-9480-bedb7c77358b"
+  Value: "4a1689bf-1306-41ef-83df-ebb73fc043e7"
 Languages:
 - Language: en
   Versions:
@@ -46,7 +46,7 @@ Languages:
       Value: View and manage your upcoming and past trips with Skywings. Access travel details, itineraries, booking information, and personalized journey recommendations.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fe6625d1-e68b-498f-b930-8463956d959b"
+      Value: "c59ebfdc-1547-4dbc-8eba-aa6d73aa208d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -56,4 +56,4 @@ Languages:
       Value: The “My Trips” page allows travelers to view, organize, and manage their upcoming and completed journeys. From itinerary details to travel updates, this page provides an easy way to stay connected to every step of the Skywings travel experience.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105947Z
+      Value: 20260205T093040Z

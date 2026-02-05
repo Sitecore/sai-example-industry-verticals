@@ -13,15 +13,15 @@ SharedFields:
 - ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
   Hint: Image2
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/79707-LandingPageHero-2000x600?v=a9e4bdfb" dam-id="lnnNNBOhS3WUQRIDZGFrIA" width="2000" height="600" alt="lumina_sofa.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79707/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/79707-LandingPageHero-2000x600?v=a9e4bdfb" dam-id="lnnNNBOhS3WUQRIDZGFrIA" width="2000" height="600" alt="lumina_sofa.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79707/thumbnail" />
 - ID: "9a62ea92-04df-49e2-ab37-00d251d0cc22"
   Hint: Image4
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/834dbb491f324eb8aa5b3a2bb9e808ad?v=e3bb1bd6" dam-id="6j9rvqKQR4ig63SxxYr-Mg" width="992" height="910" alt="LuminaSofa-Linen.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68168/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/834dbb491f324eb8aa5b3a2bb9e808ad?v=e3bb1bd6" dam-id="6j9rvqKQR4ig63SxxYr-Mg" width="992" height="910" alt="LuminaSofa-Linen.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/68168/thumbnail" />
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/79446-HomePageHero-2000x800?v=c7b66d04" dam-id="jJ6xeuQiTP6kqIiPAAx1WA" width="2000" height="800" alt="lumina-sofa-1.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79446/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/79446-HomePageHero-2000x800?v=c7b66d04" dam-id="jJ6xeuQiTP6kqIiPAAx1WA" width="2000" height="800" alt="lumina-sofa-1.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79446/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -32,10 +32,10 @@ SharedFields:
 - ID: "d9c8ae87-80fc-460b-9140-3db7358b1c8e"
   Hint: Image3
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/79456-LandingPageHero-2000x600?v=d12fa4b1" dam-id="JMRbUeLzRJ-bFXbryWogfQ" width="2000" height="600" alt="lumina-sofa-3.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79456/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/79456-LandingPageHero-2000x600?v=d12fa4b1" dam-id="JMRbUeLzRJ-bFXbryWogfQ" width="2000" height="600" alt="lumina-sofa-3.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79456/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "8e431b09-88b0-4ff7-ac94-bbdc2351fe4b"
+  Value: "e3170d54-38aa-4846-ad2f-d977c61c8336"
 Languages:
 - Language: en
   Versions:
@@ -75,7 +75,7 @@ Languages:
       Value: Experience The Lumina Sofa from Forma Lux — a signature modular piece that redefines modern comfort through timeless design and sustainable craftsmanship. Handcrafted from natural materials, built to endure, and designed to evolve with your space.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "80360b70-a578-42c3-823c-ddd7b87d65e8"
+      Value: "47a273fc-e042-4361-8eb9-3dd7be82820a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -85,7 +85,7 @@ Languages:
       Value: The Lumina Sofa
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T112114Z
+      Value: 20260203T082510Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: |

@@ -19,7 +19,7 @@ SharedFields:
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/a40cc117f6bc43b584576379e57d5352?v=0831c28d" dam-id="_6HhKmO1SFWVcvVHiNnphg" width="1024" height="1024" alt="TheLuminaChair.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68204/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/a40cc117f6bc43b584576379e57d5352?v=0831c28d" dam-id="_6HhKmO1SFWVcvVHiNnphg" width="1024" height="1024" alt="TheLuminaChair.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/68204/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -29,7 +29,7 @@ SharedFields:
   Value: "{1F4F7164-0F0C-4CAB-8F44-7B7C85AD9C1A}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "644e6815-c971-48f3-964a-f339c60d11bf"
+  Value: "ac452b4b-a151-40d6-9026-4cf804588daa"
 Languages:
 - Language: en
   Versions:
@@ -69,7 +69,7 @@ Languages:
       Value: Limina Chair, Forma Lux, luxury furniture, modern design, European craftsmanship, minimalist style, elegant seating, sustainable materials, timeless elegance, artful elegance, mindful living, architectural design, tranquil spaces, soul and substance, aesthetic excellence, Urban Visionary, Conscious Minimalist, Elevated Homemaker, Modern Collector, premium experiences, quiet design, art of living beautifully
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "dddb7745-5b56-42a4-9a56-c4997e7faec3"
+      Value: "8b651fe9-fcd3-4828-876c-c461ce4d8fb8"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -79,7 +79,7 @@ Languages:
       Value: The Lumina Chair
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T112116Z
+      Value: 20260203T082511Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: |

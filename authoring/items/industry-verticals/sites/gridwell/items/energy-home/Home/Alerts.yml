@@ -7,7 +7,7 @@ SharedFields:
 - ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/d04b406b31ed40b782100946ff7140d7?v=6fd674b2" dam-id="sE2dHZIUQi6w3SNaLpIHfA" width="200" height="200" alt="gridwell-engineer-with-bill.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/70163/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/d04b406b31ed40b782100946ff7140d7?v=6fd674b2" dam-id="sE2dHZIUQi6w3SNaLpIHfA" width="200" height="200" alt="gridwell-engineer-with-bill.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/70163/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 262
@@ -17,7 +17,7 @@ SharedFields:
     <image mediaid="{8220B107-B540-4E90-8E03-7F547119CBB3}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "8085f8bf-e196-4565-8db5-72dcdf6b0a54"
+  Value: "0c53e8c9-171b-4f56-b869-a91b270b47bf"
 Languages:
 - Language: en
   Versions:
@@ -46,7 +46,7 @@ Languages:
       Value: Gridwell provides timely energy alerts and notifications to help Texans stay informed during periods of grid stress, extreme weather, and system emergencies. This page explains the different types of alerts available, how they work, and how residents can subscribe to receive accurate, official updates directly from Gridwell.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "95f29c77-807b-4a71-bdcf-a97a056a6939"
+      Value: "1380484d-a7f0-4cfc-970c-b79f4de3c573"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -56,4 +56,4 @@ Languages:
       Value: The Gridwell Alerts page explains how Texans can stay informed about grid conditions through official notifications. Visitors can learn about advisory alerts, emergency alerts, and how proactive communication helps reduce uncertainty, improve conservation efforts, and support grid reliability during critical events.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105847Z
+      Value: 20260205T090607Z

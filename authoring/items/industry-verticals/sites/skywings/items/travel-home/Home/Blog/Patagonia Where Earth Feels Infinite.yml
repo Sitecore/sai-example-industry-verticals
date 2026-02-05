@@ -13,11 +13,11 @@ SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/be83b1860b1443b8b9add0625d378eac?v=1890b9c4" dam-id="tfJxGXytQ1qXZ_Pw2EZwsA" width="1800" height="1111" alt="shutterstock_2239225875_conversion1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/48444/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/be83b1860b1443b8b9add0625d378eac?v=1890b9c4" dam-id="tfJxGXytQ1qXZ_Pw2EZwsA" width="1800" height="1111" alt="shutterstock_2239225875_conversion1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/48444/thumbnail" />
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/be83b1860b1443b8b9add0625d378eac?v=1890b9c4" dam-id="tfJxGXytQ1qXZ_Pw2EZwsA" width="1800" height="1111" alt="shutterstock_2239225875_conversion1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/48444/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/be83b1860b1443b8b9add0625d378eac?v=1890b9c4" dam-id="tfJxGXytQ1qXZ_Pw2EZwsA" width="1800" height="1111" alt="shutterstock_2239225875_conversion1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/48444/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 1100
@@ -27,7 +27,7 @@ SharedFields:
     <image mediaid="{BA747E07-0EDA-4F8E-B422-CB2FEE761D87}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "eb6a90b1-1a98-48ab-a30f-5e44a740fd25"
+  Value: "513a61de-87b2-40e6-bb82-c7a53c008447"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -93,7 +93,7 @@ Languages:
       Value: 3 min
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "30903591-68cc-4b46-8714-a97ec2624123"
+      Value: "d702e7bb-375d-4460-97fd-3555ccb95360"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "Patagonia: Where Earth Feels Infinite"
@@ -106,7 +106,7 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105949Z
+      Value: 20260205T093043Z
     - ID: "de1b043b-cddd-48a7-b9c4-98251e188b30"
       Hint: Likes
       Value: 12

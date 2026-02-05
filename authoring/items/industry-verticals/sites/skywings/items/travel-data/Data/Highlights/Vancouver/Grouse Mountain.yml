@@ -33,15 +33,15 @@ Languages:
       Value: Grouse Mountain
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "068ed98b-dd01-40e2-b67e-8301ffb33b39"
+      Value: "1089f9ec-1d23-487b-9e6b-ce3b8abac1b4"
     - ID: "a38e449c-2d54-4b00-894c-8b84f7952a15"
       Hint: Image
       Value: |
-        <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/80640-HomepagePromoCTAs-1100x740?v=39da804b" dam-id="1qkmNSrbQLG1XgFUiVwhaA" width="1100" height="740" alt="Grouse Mountain.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/80640/thumbnail" />
+        <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/80640-HomepagePromoCTAs-1100x740?v=39da804b" dam-id="1qkmNSrbQLG1XgFUiVwhaA" width="1100" height="740" alt="Grouse Mountain.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/80640/thumbnail" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105953Z
+      Value: 20260205T093047Z

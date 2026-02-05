@@ -33,15 +33,15 @@ Languages:
       Value: Uluwatu Temple
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "228b1397-579e-4932-ac88-3edf8efbe602"
+      Value: "31541afc-adb6-436e-9566-641038d10a0a"
     - ID: "a38e449c-2d54-4b00-894c-8b84f7952a15"
       Hint: Image
       Value: |
-        <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/ee0fbc0bbe1f43cf9ed07cb1fcfc8c23?v=e2e8dc28" dam-id="BAOE8tA8T_WmTkqGhaLxQQ" width="3456" height="3456" alt="Uluwatu Temple.jpeg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/80727/thumbnail" />
+        <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/ee0fbc0bbe1f43cf9ed07cb1fcfc8c23?v=e2e8dc28" dam-id="BAOE8tA8T_WmTkqGhaLxQQ" width="3456" height="3456" alt="Uluwatu Temple.jpeg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/80727/thumbnail" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105951Z
+      Value: 20260205T093045Z

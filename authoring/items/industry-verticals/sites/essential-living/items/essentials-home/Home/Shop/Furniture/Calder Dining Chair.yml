@@ -29,11 +29,11 @@ SharedFields:
 - ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
   Hint: Image2
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78229-HomePageHero-2000x800?v=c2615af0" dam-id="IVhr3_B4RAqih4r_KnM0_w" width="2000" height="800" alt="chair_wood (3).jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78229/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78229-HomePageHero-2000x800?v=c2615af0" dam-id="IVhr3_B4RAqih4r_KnM0_w" width="2000" height="800" alt="chair_wood (3).jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78229/thumbnail" />
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78221-HomePageHero-2000x800?v=3ff1f478" dam-id="lCiWA729RIqP-4NoJ5ypoQ" width="2000" height="800" alt="chair_wood (1).jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78221/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78221-HomePageHero-2000x800?v=3ff1f478" dam-id="lCiWA729RIqP-4NoJ5ypoQ" width="2000" height="800" alt="chair_wood (1).jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78221/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -44,10 +44,10 @@ SharedFields:
 - ID: "d9c8ae87-80fc-460b-9140-3db7358b1c8e"
   Hint: Image3
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78222-HomePageHero-2000x800?v=bc2d6711" dam-id="oxCmRgERRDizTvuI_0K7jA" width="2000" height="800" alt="chair_wood (2).jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78222/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78222-HomePageHero-2000x800?v=bc2d6711" dam-id="oxCmRgERRDizTvuI_0K7jA" width="2000" height="800" alt="chair_wood (2).jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78222/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "6bed4455-7b11-4b5b-bf12-c28c66532e52"
+  Value: "bc984221-7e49-4480-af7c-1700eba98e99"
 Languages:
 - Language: en
   Versions:
@@ -70,7 +70,7 @@ Languages:
       Value: Calder Dining Chair
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "afc1e5c5-82d6-474c-9d45-b808142f77e0"
+      Value: "75976109-44cb-430f-9e68-603bd71775d8"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -80,4 +80,4 @@ Languages:
       Value: Calder Dining Chair
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105818Z
+      Value: 20260205T092909Z

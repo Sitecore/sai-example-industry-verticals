@@ -7,7 +7,7 @@ SharedFields:
 - ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/b5b0f7c4f8614442af69dcfb823c47cb?v=075e748a" dam-id="LCQLyZBxRzK86Aj7vGphnw" width="1536" height="1024" alt="Image 2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/68281/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/b5b0f7c4f8614442af69dcfb823c47cb?v=075e748a" dam-id="LCQLyZBxRzK86Aj7vGphnw" width="1536" height="1024" alt="Image 2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/68281/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 200
@@ -17,7 +17,7 @@ SharedFields:
     <image mediaid="{F5C5B111-A09A-4452-BA98-70098E48D175}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "e2182c4e-8f9a-4ef5-a0a8-8503d71b0cf4"
+  Value: "5405ca84-0226-44bc-b87b-2bac328e8fd6"
 Languages:
 - Language: en
   Versions:
@@ -46,7 +46,7 @@ Languages:
       Value: Check in for your Skywings flight online. Choose your seat, confirm travel details, and access or download your boarding pass quickly and securely.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "97e758ca-6d11-4cea-a7ff-5c22730c5df7"
+      Value: "1388cc5c-66b1-4604-8f41-9e9cf7cfb5cd"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -56,4 +56,4 @@ Languages:
       Value: "The Check-In page allows travelers to complete flight check-in, select seats, and access boarding passes before arriving at the airport. This makes travel smoother and ensures passengers are prepared for their journey with Skywings."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105946Z
+      Value: 20260205T093040Z

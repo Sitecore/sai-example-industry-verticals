@@ -14,7 +14,7 @@ SharedFields:
 - ID: "29db1d43-1ca3-4936-8add-f0ae3546faa5"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/f982b46b409c4854b7e6d6a1963eba33?v=3618b311" dam-id="tCqC8XHbQUuSonHvLojRIA" width="800" height="600" alt="london.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/68797/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/f982b46b409c4854b7e6d6a1963eba33?v=3618b311" dam-id="tCqC8XHbQUuSonHvLojRIA" width="800" height="600" alt="london.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/68797/thumbnail" />
 - ID: "3e3bc290-3383-41c1-b7a6-e969010b0209"
   Hint: NumberOfReviews
   Value: 34
@@ -27,7 +27,7 @@ SharedFields:
 - ID: "7eb8d23c-80de-448b-9793-a330f5702fae"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/f982b46b409c4854b7e6d6a1963eba33?v=3618b311" dam-id="tCqC8XHbQUuSonHvLojRIA" width="800" height="600" alt="london.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/68797/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/f982b46b409c4854b7e6d6a1963eba33?v=3618b311" dam-id="tCqC8XHbQUuSonHvLojRIA" width="800" height="600" alt="london.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/68797/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 188
@@ -50,7 +50,7 @@ SharedFields:
     {DACFF542-7FC0-48D3-AAA5-6CF6C0DC7BB3}
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "ddfb5ef0-4572-459b-a11b-5e19d2a8141e"
+  Value: "ff4a6ccb-e4cf-4e5d-b140-02c90a131373"
 - ID: "e2414def-999b-439a-b071-ff6a86838924"
   Hint: Highlights
   Value: |
@@ -125,7 +125,7 @@ Languages:
       Value: City
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "cc22f6b0-7589-441c-bf24-f3a8461982c6"
+      Value: "73ab58aa-68d6-4857-9e77-9bdd9343dfc7"
     - ID: "8dd6625c-72c1-4780-8c4a-caca6e16c39a"
       Hint: TripDuration
       Value: "4-7 days"
@@ -147,7 +147,7 @@ Languages:
       Value: No
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105947Z
+      Value: 20260205T093041Z
     - ID: "df3123e3-ca29-48e7-a4eb-ceeba8226574"
       Hint: Language
       Value: English 

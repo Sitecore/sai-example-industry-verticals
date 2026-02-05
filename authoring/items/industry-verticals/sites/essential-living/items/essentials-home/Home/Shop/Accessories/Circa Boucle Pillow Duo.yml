@@ -17,14 +17,14 @@ SharedFields:
 - ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
   Hint: Image2
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/77884-HomePageHero-2000x800?v=8919c50f" dam-id="yIUbadVcTZ-qKL4L_YmHTg" width="2000" height="800" alt="round-pillows-1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/77884/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/77884-HomePageHero-2000x800?v=8919c50f" dam-id="yIUbadVcTZ-qKL4L_YmHTg" width="2000" height="800" alt="round-pillows-1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/77884/thumbnail" />
 - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
   Hint: Size
   Value: "{695F20C6-97B1-4C86-A62D-03C880B038B3}"
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/77885-HomePageHero-2000x800?v=6116f2a2" dam-id="YZ9mJ44yQZ2aXoOguVVdfA" width="2000" height="800" alt="round-pillows-2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/77885/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/77885-HomePageHero-2000x800?v=6116f2a2" dam-id="YZ9mJ44yQZ2aXoOguVVdfA" width="2000" height="800" alt="round-pillows-2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/77885/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -35,10 +35,10 @@ SharedFields:
 - ID: "d9c8ae87-80fc-460b-9140-3db7358b1c8e"
   Hint: Image3
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/77888-HomePageHero-2000x800?v=878497d4" dam-id="9XJzoBDCRgW-1tRWjkuGuw" width="2000" height="800" alt="round-pillows-3.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/77888/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/77888-HomePageHero-2000x800?v=878497d4" dam-id="9XJzoBDCRgW-1tRWjkuGuw" width="2000" height="800" alt="round-pillows-3.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/77888/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "132305f3-c22b-4f2b-82c5-0ec4fa952b91"
+  Value: "1a2bb9df-ea08-4aa5-b3ee-6ac8677648b2"
 Languages:
 - Language: en
   Versions:
@@ -61,7 +61,7 @@ Languages:
       Value: Circa Boucle Pillow Duo
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9dc2e07f-ac2e-4434-a15c-92b121af0c36"
+      Value: "74d0ace1-65ed-4479-8576-3b6bfbd7ffc5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -71,4 +71,4 @@ Languages:
       Value: Circa Bouclé Pillow Duo
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105817Z
+      Value: 20260205T092909Z

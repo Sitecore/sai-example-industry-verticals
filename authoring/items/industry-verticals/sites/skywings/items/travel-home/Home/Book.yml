@@ -7,7 +7,7 @@ SharedFields:
 - ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/79121-HomePageHero-2000x800?v=d1abb534" dam-id="QH5I5F5pRzC0ay8T4cw9Vg" width="2000" height="800" alt="aircraft-exterior.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/79121/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/79121-HomePageHero-2000x800?v=d1abb534" dam-id="QH5I5F5pRzC0ay8T4cw9Vg" width="2000" height="800" alt="aircraft-exterior.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79121/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 100
@@ -17,7 +17,7 @@ SharedFields:
     <image mediaid="{D63B6CD3-1E75-467B-97B7-ACBD68CACC52}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "4a5e1322-5763-4f3e-b550-266b3e750c09"
+  Value: "b9bb8f5b-9cf1-40b9-a17b-7ec2918c417b"
 Languages:
 - Language: en
   Versions:
@@ -46,7 +46,7 @@ Languages:
       Value: Search and book flights with Skywings. Find the best routes, compare fares, select travel dates, and complete your booking with ease and confidence.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bd862ac9-061a-4bdc-b8b9-85bf28e26caa"
+      Value: "30a822fe-6577-4d65-85c5-ccbe628ef732"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -56,4 +56,4 @@ Languages:
       Value: The Booking page enables travelers to search for flights, compare fare options, and complete reservations with Skywings. It provides a streamlined experience for planning and confirming travel arrangements.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105946Z
+      Value: 20260205T093040Z

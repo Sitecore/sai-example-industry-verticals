@@ -33,15 +33,15 @@ Languages:
       Value: Sagrada Família
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7048ea6d-8adc-484f-af59-3c58c91d810f"
+      Value: "95d5c212-af59-41b2-9a16-8ee1ad16bf6a"
     - ID: "a38e449c-2d54-4b00-894c-8b84f7952a15"
       Hint: Image
       Value: |
-        <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/80530-LandingPageHero-2000x600?v=27d645f5" dam-id="Ap12Amm5SJ-SqgxXFyF9rQ" width="2000" height="600" alt="Sagrada Família.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/80530/thumbnail" />
+        <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/80530-LandingPageHero-2000x600?v=27d645f5" dam-id="Ap12Amm5SJ-SqgxXFyF9rQ" width="2000" height="600" alt="Sagrada Família.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/80530/thumbnail" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105951Z
+      Value: 20260205T093045Z

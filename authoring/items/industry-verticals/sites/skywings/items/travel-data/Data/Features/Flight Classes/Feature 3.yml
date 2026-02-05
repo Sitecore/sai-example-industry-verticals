@@ -7,13 +7,13 @@ SharedFields:
 - ID: "83bc80ee-e97a-474b-8c05-a2559394eebe"
   Hint: FeatureImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/79122-HomePageHero-2000x800?v=8740ea68" dam-id="Gzr78QfWT4unNUBBSVimng" width="2000" height="800" alt="imgi_18_800_shot30yclafricanfamilyifelandscape-20221026-ekrefreshb777-sh01yclife-004812.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/79122/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/79122-HomePageHero-2000x800?v=8740ea68" dam-id="Gzr78QfWT4unNUBBSVimng" width="2000" height="800" alt="imgi_18_800_shot30yclafricanfamilyifelandscape-20221026-ekrefreshb777-sh01yclife-004812.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79122/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 75
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "4ccbce91-e02d-4d21-ab88-f7038b04225a"
+  Value: "8f603c6a-966c-47e4-9b6a-1d85d0c8116e"
 Languages:
 - Language: en
   Versions:
@@ -46,11 +46,11 @@ Languages:
       Value: Economy Class
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "11afdea4-5e04-409d-89e5-e91786429bc9"
+      Value: "19792501-4e58-4874-ab0f-7777a8b161ee"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105950Z
+      Value: 20260205T093044Z

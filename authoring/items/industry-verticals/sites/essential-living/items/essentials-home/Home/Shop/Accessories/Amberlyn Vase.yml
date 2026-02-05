@@ -18,11 +18,11 @@ SharedFields:
 - ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
   Hint: Image2
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78079-HomepagePromoCTAs-1100x740?v=caacdec9" dam-id="zEBUqw96QWWWK4IO1msAqA" width="1100" height="740" alt="Vase_4_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78079/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78079-HomepagePromoCTAs-1100x740?v=caacdec9" dam-id="zEBUqw96QWWWK4IO1msAqA" width="1100" height="740" alt="Vase_4_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78079/thumbnail" />
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78080-HomepagePromoCTAs-1100x740?v=bbf90db1" dam-id="awSQtRSARPCoCHLO7hMPsA" width="1100" height="740" alt="Vase_4_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78080/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78080-HomepagePromoCTAs-1100x740?v=bbf90db1" dam-id="awSQtRSARPCoCHLO7hMPsA" width="1100" height="740" alt="Vase_4_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78080/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -32,7 +32,7 @@ SharedFields:
   Value: "{887FB994-F608-4229-8C2A-3CC886C799FA}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "2ba3d4fc-8734-4279-b092-5ca1c0e2736e"
+  Value: "92e0276a-5e2f-4566-8269-649344e759ce"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -70,7 +70,7 @@ Languages:
       Value: Amberlyn Vase
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "99281546-233d-4414-9573-738edcc04a49"
+      Value: "171047f1-bbf0-40e8-ab43-b308bea8cb18"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -80,4 +80,4 @@ Languages:
       Value: Amberlyn Vase
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105817Z
+      Value: 20260205T092908Z

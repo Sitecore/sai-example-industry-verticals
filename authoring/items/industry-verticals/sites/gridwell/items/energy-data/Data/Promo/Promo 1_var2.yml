@@ -7,10 +7,10 @@ SharedFields:
 - ID: "b441a09f-ddb2-41a8-84cc-2533686541f4"
   Hint: PromoImageOne
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/ceffbd4a69ba4ea0a1bf042d07f5598f?v=bd5e80a3" dam-id="4qJd-qX7SjStyCY7b6b28Q" width="1024" height="1024" alt="smartphone-showing-txans-alert-notification-interf.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/76850/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/ceffbd4a69ba4ea0a1bf042d07f5598f?v=bd5e80a3" dam-id="4qJd-qX7SjStyCY7b6b28Q" width="1024" height="1024" alt="smartphone-showing-txans-alert-notification-interf.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/76850/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "6fa13914-afd7-4f72-b4d3-0cd398b01096"
+  Value: "e1d839ee-9543-4a8d-b31f-ddf21e0e51d6"
 Languages:
 - Language: en
   Versions:
@@ -43,14 +43,14 @@ Languages:
       Value: Stay One Step Ahead of the Heat
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f26b2880-382d-44e5-aaf6-a663e89f79a4"
+      Value: "1bd44d6a-a9ba-430d-87e1-5ef060302145"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105849Z
+      Value: 20260205T090609Z
     - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
       Hint: PromoTitle
       Value: "Heatwave Advisory: What You Can Do Now"

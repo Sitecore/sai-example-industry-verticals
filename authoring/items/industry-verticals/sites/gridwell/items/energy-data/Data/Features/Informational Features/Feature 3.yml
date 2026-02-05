@@ -7,10 +7,10 @@ SharedFields:
 - ID: "83bc80ee-e97a-474b-8c05-a2559394eebe"
   Hint: FeatureImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/81818-HomepagePromoCTAs-1100x740?v=66dbfe25" dam-id="fElXPKKNRwKQ0ic_TN0u7A" width="1100" height="740" alt="Bulb-Icon.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/81818/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/81818-HomepagePromoCTAs-1100x740?v=66dbfe25" dam-id="fElXPKKNRwKQ0ic_TN0u7A" width="1100" height="740" alt="Bulb-Icon.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/81818/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "82144d13-45aa-43cb-a486-f7b99d5a09c9"
+  Value: "93251d47-ad8e-469f-83c3-9b06abce8383"
 Languages:
 - Language: en
   Versions:
@@ -38,11 +38,11 @@ Languages:
       Value: Use LED Lighting
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a0aee026-24a0-4076-ac5a-d010ed6b0b2c"
+      Value: "0b7e674e-2788-473d-80ed-ad06d2cba0c7"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105848Z
+      Value: 20260205T090609Z

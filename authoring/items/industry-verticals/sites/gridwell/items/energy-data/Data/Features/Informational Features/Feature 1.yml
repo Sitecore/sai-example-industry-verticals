@@ -7,10 +7,10 @@ SharedFields:
 - ID: "83bc80ee-e97a-474b-8c05-a2559394eebe"
   Hint: FeatureImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/81820-HomepagePromoCTAs-1100x740?v=73b6b8ad" dam-id="VylMCwBaTROCIyDADZJ_Ow" width="1100" height="740" alt="Snow Flakes Icon.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/81820/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/81820-HomepagePromoCTAs-1100x740?v=73b6b8ad" dam-id="VylMCwBaTROCIyDADZJ_Ow" width="1100" height="740" alt="Snow Flakes Icon.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/81820/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "2ca42bc5-914b-47c7-bf27-185717bc5b7d"
+  Value: "580c1e88-9481-49a4-af66-2a0e5042e0fd"
 Languages:
 - Language: en
   Versions:
@@ -38,11 +38,11 @@ Languages:
       Value: Adjust Your Thermostat
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "29f79c9a-d290-432b-a0f9-3b39f1334113"
+      Value: "0a1460ce-8e5e-417a-9006-f39a4b1fed8b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105848Z
+      Value: 20260205T090608Z

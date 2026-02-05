@@ -16,11 +16,11 @@ SharedFields:
 - ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
   Hint: Image2
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/77858-HomePageHero-2000x800?v=b9536553" dam-id="N10AcWnARMaRlKmWg0W3BA" width="2000" height="800" alt="neutrail-pillows-3.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/77858/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/77858-HomePageHero-2000x800?v=b9536553" dam-id="N10AcWnARMaRlKmWg0W3BA" width="2000" height="800" alt="neutrail-pillows-3.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/77858/thumbnail" />
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/77860-HomePageHero-2000x800?v=2b603062" dam-id="Ga6DJ9dSTrWlsM6nVg5PbA" width="2000" height="800" alt="neutrail-pillows-1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/77860/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/77860-HomePageHero-2000x800?v=2b603062" dam-id="Ga6DJ9dSTrWlsM6nVg5PbA" width="2000" height="800" alt="neutrail-pillows-1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/77860/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -31,10 +31,10 @@ SharedFields:
 - ID: "d9c8ae87-80fc-460b-9140-3db7358b1c8e"
   Hint: Image3
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/77859-HomepagePromoCTAs-1100x740?v=cd46aa9c" dam-id="6qPbHgAQTuafC4TlGQA4Bg" width="1100" height="740" alt="neutrail-pillows-2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/77859/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/77859-HomepagePromoCTAs-1100x740?v=cd46aa9c" dam-id="6qPbHgAQTuafC4TlGQA4Bg" width="1100" height="740" alt="neutrail-pillows-2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/77859/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "cbb21e19-8600-4c53-8856-6786fbd98cb0"
+  Value: "3e0fda96-e0cd-40b0-b285-0dd476dceddd"
 Languages:
 - Language: en
   Versions:
@@ -57,7 +57,7 @@ Languages:
       Value: Calma Pillow Set
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "dd8c55d0-25d1-4060-9a64-84ebd0fd1cca"
+      Value: "87c13ae7-3185-4464-a116-8627aacd8ad4"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -67,4 +67,4 @@ Languages:
       Value: Calma Pillow Set
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105817Z
+      Value: 20260205T092909Z

@@ -24,11 +24,11 @@ SharedFields:
 - ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
   Hint: Image2
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78177-HomepagePromoCTAs-1100x740?v=49c090f4" dam-id="y_QhOA8bTaiD79e0WzetFg" width="1100" height="740" alt="white_armchair_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78177/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78177-HomepagePromoCTAs-1100x740?v=49c090f4" dam-id="y_QhOA8bTaiD79e0WzetFg" width="1100" height="740" alt="white_armchair_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78177/thumbnail" />
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78175-HomepagePromoCTAs-1100x740?v=62d1c443" dam-id="1SiI4VdLSDu68sjTxLhMTA" width="1100" height="740" alt="white_armchair_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78175/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78175-HomepagePromoCTAs-1100x740?v=62d1c443" dam-id="1SiI4VdLSDu68sjTxLhMTA" width="1100" height="740" alt="white_armchair_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78175/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -38,7 +38,7 @@ SharedFields:
   Value: "{30D02D41-0A02-43EE-B98A-06B5383AC5CB}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "02e3b1e6-b0a6-4962-a797-ab0adf2241e6"
+  Value: "5cf3e084-0810-4c00-bde1-f19115555eb1"
 Languages:
 - Language: en
   Versions:
@@ -61,7 +61,7 @@ Languages:
       Value: Cocoon Armchair
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "84cceca4-4909-40f0-a1a5-405fc20136a0"
+      Value: "47a031a2-7981-467c-b4b5-c68cfe20971e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -71,4 +71,4 @@ Languages:
       Value: Cocoon Armchair
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105818Z
+      Value: 20260205T092909Z

@@ -7,7 +7,7 @@ SharedFields:
 - ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/25b86deaf55545f69924b1e88e85e5c5?v=718830b0" dam-id="PhsMcke5SbOjnMFdI43xAw" width="350" height="350" alt="healthcare-analytics-dashboard-with-charts-and-dat-E6wpr4DIy8E8KMuInJkxGGM7op5dpf.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/74522/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/25b86deaf55545f69924b1e88e85e5c5?v=718830b0" dam-id="PhsMcke5SbOjnMFdI43xAw" width="350" height="350" alt="healthcare-analytics-dashboard-with-charts-and-dat-E6wpr4DIy8E8KMuInJkxGGM7op5dpf.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/74522/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 300
@@ -17,7 +17,7 @@ SharedFields:
     <image mediaid="{C41D1468-D9EE-45E7-A2F4-3484FB2BA27D}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "091158af-4424-493a-8176-15865910fb0e"
+  Value: "45325c05-abb6-4709-af42-5acb9a1d655b"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -36,14 +36,14 @@ SharedFields:
           p:after="r[@uid='{0C849E92-802A-435B-812D-2DB4BE3A8D9B}']"
           s:ds="3619760d-54cc-4427-9233-e7c27a31c319"
           s:id="{33A73E35-492C-4A60-A24C-1DE2024A6007}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BD48766E1-F994-4D20-B841-FAE0027E5471%7D&amp;Styles=%7C%7B1234809A-9DFF-4584-A8AB-AACCD2CE44A1%7D&amp;CurvedTop&amp;CurvedBottom&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BD48766E1-F994-4D20-B841-FAE0027E5471%7D&amp;Styles=%7C%7B1234809A-9DFF-4584-A8AB-AACCD2CE44A1%7D&amp;CurvedTop&amp;CurvedBottom&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2&amp;UseDynamicallyGeneratedData"
           s:ph="headless-main" />
         <r
           uid="{16F37146-9536-4A6D-BD85-CDA7E9ED5B68}"
           p:after="*[1=2]"
           s:ds="35ccfef4-99af-43b2-8d7d-878ae09e6c42"
           s:id="{33A73E35-492C-4A60-A24C-1DE2024A6007}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B780378CF-4A9D-4B52-83F7-603331BA1955%7D&amp;Styles=%7C%7B0D692526-9403-44D4-A9F8-47562B56B952%7D&amp;CurvedTop&amp;CurvedBottom&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B780378CF-4A9D-4B52-83F7-603331BA1955%7D&amp;Styles=%7C%7B0D692526-9403-44D4-A9F8-47562B56B952%7D&amp;CurvedTop&amp;CurvedBottom&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3&amp;UseDynamicallyGeneratedData"
           s:ph="headless-main" />
       </d>
     </r>
@@ -75,7 +75,7 @@ Languages:
       Value: "View the current status of the Texas power grid, including demand levels, supply conditions, and reliability indicators. Gridwell provides real-time visibility into grid conditions so Texans can stay informed and take action when needed."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e6324261-cad7-4ade-9265-92d2fc9e4cfa"
+      Value: "4b4063dd-a191-469f-83d3-87fbaf893425"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -85,4 +85,4 @@ Languages:
       Value: "The Grid Status page provides real-time insight into electricity demand, supply, and overall system conditions. By offering clear, up-to-date information, Gridwell helps Texans understand grid health and respond appropriately during periods of high demand."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105847Z
+      Value: 20260205T090607Z
