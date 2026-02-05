@@ -9,6 +9,7 @@ This directory contains AI coding agent guidance files to help maintain consiste
 - **`code-style.mdc`** - Vibe-coding principles, TypeScript standards, and quality guidelines
 - **`project-context.mdc`** - Repository-specific context and multi-starter architecture
 - **`safety.mdc`** - Safety rules to prevent editing compiled artifacts and generated files
+- **`linting-formatting.mdc`** - Mandatory ESLint and Prettier enforcement for all JavaScript, TypeScript, and React file edits
 
 ### Scoped Rules (Applied to Specific Files)
 - **`javascript.mdc`** - JavaScript/TypeScript naming conventions, performance, JSDoc standards
@@ -32,6 +33,7 @@ This repository contains multiple starter applications:
 - **FormaLux** - Retail focused site template for a furniture brand with products and articles
 - **starter** - Simple Next.js starter with basic components
 - **Skywings** - Travel focused site template with articles and destinations
+- **Gridwell** - Energy focused site template with articles 
 
 Each starter follows the same patterns and conventions defined in these rules while maintaining their unique functionality and design.
 
