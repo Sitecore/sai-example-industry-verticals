@@ -7,10 +7,10 @@ SharedFields:
 - ID: "b441a09f-ddb2-41a8-84cc-2533686541f4"
   Hint: PromoImageOne
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/76184-HomepagePromoCTAs-1100x740?v=69e6a1f5" dam-id="v4FI2YswQyS94YqDnYtqDA" width="1100" height="740" alt="doctors-hospital@2x.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/76184/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/76184-HomepagePromoCTAs-1100x740?v=69e6a1f5" dam-id="v4FI2YswQyS94YqDnYtqDA" width="1100" height="740" alt="doctors-hospital@2x.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/76184/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "40c9ca0f-3558-4671-aa51-497a686e07ee"
+  Value: "25713fd4-788a-4d12-ab8d-11de6546afaa"
 Languages:
 - Language: en
   Versions:
@@ -32,14 +32,14 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "11351d82-0c1a-41fd-a9cc-7e3bd99371e6"
+      Value: "09cbef61-5ab9-46cc-9ec2-4c073d047e40"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105919Z
+      Value: 20260205T092444Z
     - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
       Hint: PromoTitle
       Value: Why Choose Us

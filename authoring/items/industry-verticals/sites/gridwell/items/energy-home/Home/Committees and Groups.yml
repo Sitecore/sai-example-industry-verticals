@@ -7,7 +7,7 @@ SharedFields:
 - ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/a383d42c0afa4d8e9ac95014784e4629?v=5c482b4d" dam-id="BVS_XkbsQXKx5KbiG0TWFw" width="200" height="200" alt="lineworker-bucket-truck.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/70186/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/a383d42c0afa4d8e9ac95014784e4629?v=5c482b4d" dam-id="BVS_XkbsQXKx5KbiG0TWFw" width="200" height="200" alt="lineworker-bucket-truck.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/70186/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 200
@@ -17,7 +17,7 @@ SharedFields:
     <image mediaid="{8B3F8FAB-F480-4E86-A4A2-33FC6D8B84FD}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "6bd4ac72-6e43-496a-89e3-0036bf957c70"
+  Value: "dd28bceb-ca8e-4ef8-8bbf-15199d4606df"
 Languages:
 - Language: en
   Fields:
@@ -53,7 +53,7 @@ Languages:
       Value: "Gridwell’s committees and working groups support transparent decision-making, collaboration, and oversight across grid operations and market activities. This page provides information on committee roles, participation, and governance responsibilities."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7a6551da-a1d7-4b81-a9f3-27e9c42d4fea"
+      Value: "1b5d368e-124d-4694-a000-38c1512ecf1b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -63,4 +63,4 @@ Languages:
       Value: This page outlines the committees and working groups that help guide Gridwell’s operations and governance. It highlights how collaboration and stakeholder input contribute to transparency, accountability, and reliable grid management.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105847Z
+      Value: 20260205T090607Z

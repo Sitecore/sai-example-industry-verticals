@@ -6,11 +6,11 @@ Path: "/sitecore/content/industry-verticals/gridwell/Data/Article Categories/Pol
 SharedFields:
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "1327a582-21d7-415f-b481-a8994e92b26c"
+  Value: "fddf978b-c262-466d-9abc-f8d5cc028ccc"
 - ID: "f258fdef-13ab-4614-93ff-ac8487d0e8ab"
   Hint: CategoryIcon
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/82145-HomePageHero-2000x800?v=9bf6422d" dam-id="Em8GJ4agQ6Cl5jxKcFZM2w" width="2000" height="800" alt="file-text.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/82145/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/82145-HomePageHero-2000x800?v=9bf6422d" dam-id="Em8GJ4agQ6Cl5jxKcFZM2w" width="2000" height="800" alt="file-text.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/82145/thumbnail" />
 Languages:
 - Language: en
   Versions:
@@ -32,14 +32,14 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3d24a4e6-62d8-456a-882e-7a6d94997d15"
+      Value: "8dc62620-ac65-4060-a0f2-67ba9c828e15"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105848Z
+      Value: 20260205T090608Z
     - ID: "f9fd853f-2691-40b4-81d1-00ccf1a6cc06"
       Hint: Category
       Value: Policy Updates

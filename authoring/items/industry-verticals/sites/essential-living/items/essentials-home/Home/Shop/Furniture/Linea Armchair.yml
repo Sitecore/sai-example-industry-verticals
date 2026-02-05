@@ -23,11 +23,11 @@ SharedFields:
 - ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
   Hint: Image2
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78154-HomePageHero-2000x800?v=472ef616" dam-id="Z4dAzmmjTWK3Bv5esplwnA" width="2000" height="800" alt="gray_armchair_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78154/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78154-HomePageHero-2000x800?v=472ef616" dam-id="Z4dAzmmjTWK3Bv5esplwnA" width="2000" height="800" alt="gray_armchair_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78154/thumbnail" />
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78153-HomePageHero-2000x800?v=48f64b23" dam-id="TGnzMV_fT3agxtXZ5TF7cQ" width="2000" height="800" alt="gray_armchair_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78153/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78153-HomePageHero-2000x800?v=48f64b23" dam-id="TGnzMV_fT3agxtXZ5TF7cQ" width="2000" height="800" alt="gray_armchair_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78153/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -37,7 +37,7 @@ SharedFields:
   Value: "{30D02D41-0A02-43EE-B98A-06B5383AC5CB}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "dff0fa56-c1ba-4ff8-9198-8f4affc6957a"
+  Value: "da5d8f45-72e7-4276-b034-32d0520a5069"
 Languages:
 - Language: en
   Versions:
@@ -60,7 +60,7 @@ Languages:
       Value: Linea Armchair
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "299db78b-6c55-4558-b1fc-16052c2f554f"
+      Value: "4b6e4efb-2894-4f25-a214-48e7f6dcd771"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -70,4 +70,4 @@ Languages:
       Value: Linea Armchair
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105818Z
+      Value: 20260205T092910Z

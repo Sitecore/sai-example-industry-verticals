@@ -22,11 +22,11 @@ SharedFields:
 - ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
   Hint: Image2
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78547-HomepagePromoCTAs-1100x740?v=ec06e46b" dam-id="3qD7srESSau6qQhSeZtDSg" width="1100" height="740" alt="lamp 3_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78547/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78547-HomepagePromoCTAs-1100x740?v=ec06e46b" dam-id="3qD7srESSau6qQhSeZtDSg" width="1100" height="740" alt="lamp 3_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78547/thumbnail" />
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78546-HomePageHero-2000x800?v=f0541cae" dam-id="6B_RTK0pRyOU63FppXB8Mg" width="2000" height="800" alt="lamp 3_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78546/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78546-HomePageHero-2000x800?v=f0541cae" dam-id="6B_RTK0pRyOU63FppXB8Mg" width="2000" height="800" alt="lamp 3_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78546/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -36,7 +36,7 @@ SharedFields:
   Value: "{7AE747F4-C10E-4F62-832F-60175CD742FD}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "0fc5d970-51f1-4983-8d88-d3660f91f5a1"
+  Value: "15840bfd-545f-4439-a9f1-d2d69cb98277"
 Languages:
 - Language: en
   Versions:
@@ -67,7 +67,7 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "33fb9981-bec8-4174-aef3-d868e358efb7"
+      Value: "e641272b-212c-49fa-b2e5-c51f9761ddf1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -77,4 +77,4 @@ Languages:
       Value: AstraLux
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105819Z
+      Value: 20260205T092911Z

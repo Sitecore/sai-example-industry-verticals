@@ -7,42 +7,42 @@ SharedFields:
 - ID: "2aacd5cd-fc77-4b96-9bc0-ae4991115ca6"
   Hint: Image9
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/77684-HomePageHero-2000x800?v=0afdb137" dam-id="4OaaxHvBSSm6xNedV6P9SA" width="2000" height="800" alt="Accessory 7.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/77684/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/77684-HomePageHero-2000x800?v=0afdb137" dam-id="4OaaxHvBSSm6xNedV6P9SA" width="2000" height="800" alt="Accessory 7.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/77684/thumbnail" />
 - ID: "41d4803f-ca8f-47db-835d-5e947e1ed558"
   Hint: Image2
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78675-HomepagePromoCTAs-1100x740?v=9ce69e50" dam-id="SIpwhbh0ThOjfBdFk35pHQ" width="1100" height="740" alt="Social_Feed_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78675/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78675-HomepagePromoCTAs-1100x740?v=9ce69e50" dam-id="SIpwhbh0ThOjfBdFk35pHQ" width="1100" height="740" alt="Social_Feed_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78675/thumbnail" />
 - ID: "5e0aa7e5-78d0-4ead-88fe-bebe282b9005"
   Hint: Image8
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/77490-LandingPageHero-2000x600?v=19f56f88" dam-id="2Y3IZXF9Rqe2kNl_D5D2mQ" width="2000" height="600" alt="Sofa_5.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/77490/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/77490-LandingPageHero-2000x600?v=19f56f88" dam-id="2Y3IZXF9Rqe2kNl_D5D2mQ" width="2000" height="600" alt="Sofa_5.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/77490/thumbnail" />
 - ID: "825b569b-b2c0-4bd6-8677-12b0f36e470f"
   Hint: Image4
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78585-HomepagePromoCTAs-1100x740?v=3b5a45e9" dam-id="tNVLEpeuTz2-11NFjSgoWg" width="1100" height="740" alt="lamp 7_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78585/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78585-HomepagePromoCTAs-1100x740?v=3b5a45e9" dam-id="tNVLEpeuTz2-11NFjSgoWg" width="1100" height="740" alt="lamp 7_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78585/thumbnail" />
 - ID: "9477b449-c25a-4228-98d8-ae3435ab19b1"
   Hint: Image7
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78554-HomepagePromoCTAs-1100x740?v=07d4a5e0" dam-id="FYd5O4RQSnWA2Rk1oKv8NA" width="1100" height="740" alt="lamp 4_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78554/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78554-HomepagePromoCTAs-1100x740?v=07d4a5e0" dam-id="FYd5O4RQSnWA2Rk1oKv8NA" width="1100" height="740" alt="lamp 4_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78554/thumbnail" />
 - ID: "9c11a6a4-e9b5-4f36-9a65-65fad7daf14b"
   Hint: Image6
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78312-HomepagePromoCTAs-1100x740?v=17d945a5" dam-id="aSE6xxJURlWBdWHpR0m8hA" width="1100" height="740" alt="Inspire 2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78312/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78312-HomepagePromoCTAs-1100x740?v=17d945a5" dam-id="aSE6xxJURlWBdWHpR0m8hA" width="1100" height="740" alt="Inspire 2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78312/thumbnail" />
 - ID: "b6adc497-e361-47ce-a977-88c6531ad798"
   Hint: Image3
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78682-HomepagePromoCTAs-1100x740?v=f392ab9b" dam-id="PFgUaQQGSLeunwDwoamksQ" width="1100" height="740" alt="Social_Feed_3.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78682/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78682-HomepagePromoCTAs-1100x740?v=f392ab9b" dam-id="PFgUaQQGSLeunwDwoamksQ" width="1100" height="740" alt="Social_Feed_3.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78682/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "8b17c7c8-5dd0-4097-bdae-d25ce3259ea4"
+  Value: "504d47a1-abb5-42e9-beff-8847acb9140c"
 - ID: "f63f1078-d0c6-45f6-a237-c3a588f495bd"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78679-HomepagePromoCTAs-1100x740?v=9b9e8ec4" dam-id="TYdJfIM0Svy8gaXh4iYw0w" width="1100" height="740" alt="Social_Feed_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78679/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78679-HomepagePromoCTAs-1100x740?v=9b9e8ec4" dam-id="TYdJfIM0Svy8gaXh4iYw0w" width="1100" height="740" alt="Social_Feed_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78679/thumbnail" />
 - ID: "f771cbc7-e4db-4232-ba17-4400c11a1625"
   Hint: Image5
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78338-HomePageHero-2000x800?v=9661c310" dam-id="V977N7dETM2VXwMtsUh4Zg" width="2000" height="800" alt="lamp 3.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78338/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78338-HomePageHero-2000x800?v=9661c310" dam-id="V977N7dETM2VXwMtsUh4Zg" width="2000" height="800" alt="lamp 3.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78338/thumbnail" />
 Languages:
 - Language: en
   Versions:
@@ -79,7 +79,7 @@ Languages:
       Value: @dylan
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "80172f70-303c-481a-90dc-36090a567955"
+      Value: "d8a46191-18c1-47a7-be0a-75100b01dc8b"
     - ID: "a652162f-5821-4fe0-b373-2c7a03ab362d"
       Hint: Eyebrow
       Value: Find us on Instagram @essentialliving
@@ -95,7 +95,7 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105820Z
+      Value: 20260205T092912Z
     - ID: "e8a72d8a-5be9-4dca-bb6d-cfe90726e847"
       Hint: Caption7
       Value: @josh

@@ -7,14 +7,14 @@ SharedFields:
 - ID: "c17f3d69-c947-45a0-b4f5-cbcdf58e805c"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/a0e8c9878de24b899f0aad1571f2c922?v=837a054b" dam-id="FTJoHg4MStO29dvZqnn-ZA" width="2816" height="2257" alt="sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (30).png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/67322/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/a0e8c9878de24b899f0aad1571f2c922?v=837a054b" dam-id="FTJoHg4MStO29dvZqnn-ZA" width="2816" height="2257" alt="sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (30).png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/67322/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{389827BE-A450-4F40-803F-E0E9ACD39074}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "f1fcb87a-0506-40ae-ad32-9a3e0bd383e3"
+  Value: "4f8a7fb3-4161-4154-aaec-c61e2b1d12c4"
 Languages:
 - Language: en
   Versions:
@@ -51,7 +51,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "26cb28e0-95c5-4b6c-ad90-198efcfaa423"
+      Value: "09f345a4-9752-4c03-b537-4c9073486bb7"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -61,7 +61,7 @@ Languages:
       Value: Explore modern lamps that bring warmth, balance, and atmosphere to any space. Thoughtfully designed for beauty and function, each piece enhances the art of living through light.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T112113Z
+      Value: 20260203T082509Z
     - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
       Hint: CategoryName
       Value: Lamp
