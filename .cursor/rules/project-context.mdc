@@ -24,6 +24,7 @@ Available Sites:
 - `retail` - **FormaLux** - Retail focused site template for a furniture brand with products and articles
 - `starter` - **starter** - Simple Next.js starter with basic components
 - `travel` - **Skywings** - Travel focused site template with articles and destinations
+- `energy` - **Gridwell** - Energy focused site template with grid condition/status and articles
 
 Each site demonstrates:
 - Tailwind-based styling with Shadcn/ui components
