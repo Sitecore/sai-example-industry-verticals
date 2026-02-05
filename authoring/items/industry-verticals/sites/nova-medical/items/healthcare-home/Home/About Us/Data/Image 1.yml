@@ -21,18 +21,18 @@ Languages:
     - ID: "57caf172-ce57-4e48-b3a1-46f8aea71c08"
       Hint: Image
       Value: |
-        <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/75820-HomePageHero-2000x800?v=ffcff7ec" dam-id="Cxx7tpE8Sj2C2FYPmtIFKg" width="2000" height="800" alt="NCN10.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/75820/thumbnail" />
+        <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/75820-HomePageHero-2000x800?v=ffcff7ec" dam-id="Cxx7tpE8Sj2C2FYPmtIFKg" width="2000" height="800" alt="NCN10.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/75820/thumbnail" />
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "375b51fa-3bff-46f0-9b38-7f560c30ca70"
+      Value: "a91d83ab-bfb2-4493-b89c-1c8793481c78"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105918Z
+      Value: 20260205T092443Z

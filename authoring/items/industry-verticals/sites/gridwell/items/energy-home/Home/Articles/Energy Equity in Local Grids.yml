@@ -13,18 +13,18 @@ SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/f1bb42ab000d4d6a924db67d462adf15?v=964ad77d" dam-id="ekt6MJjqRICj5fUp9DtcdQ" width="200" height="200" alt="bill-reynolds-at-substation.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/70156/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/f1bb42ab000d4d6a924db67d462adf15?v=964ad77d" dam-id="ekt6MJjqRICj5fUp9DtcdQ" width="200" height="200" alt="bill-reynolds-at-substation.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/70156/thumbnail" />
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/cc85c07252e04159b9550d10bc84cb91?v=2d1903da" dam-id="ekt6MJjqRICj5fUp9DtcdQ" width="1536" height="1024" alt="bill-reynolds-at-substation.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/70156/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/cc85c07252e04159b9550d10bc84cb91?v=2d1903da" dam-id="ekt6MJjqRICj5fUp9DtcdQ" width="1536" height="1024" alt="bill-reynolds-at-substation.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/70156/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{00315804-7BF1-4DCA-B9FD-0CAD13B0F6BD}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "213e5c4a-a7c7-427a-a41f-bfbb7736bc60"
+  Value: "bd442db7-39ee-42d0-8dec-1e77f2bf131a"
 - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
   Hint: Category
   Value: "{A54E7D2F-0354-43B1-A899-C69218BBF623}"
@@ -57,7 +57,7 @@ Languages:
       Value: Energy Equity in Local Grids
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f2aa15b6-fe7e-4a0f-92aa-c3081e694b86"
+      Value: "2bee2118-5ff6-4ab3-bb9c-affa40d93dd8"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: Energy Equity in Local Grids
@@ -67,7 +67,7 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105846Z
+      Value: 20260205T090606Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: Energy Equity in Local Grids

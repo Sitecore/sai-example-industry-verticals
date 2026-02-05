@@ -12,7 +12,7 @@ SharedFields:
 - ID: "29db1d43-1ca3-4936-8add-f0ae3546faa5"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/79154-HomepagePromoCTAs-1100x740?v=dd8b5a42" dam-id="cdQ9mZRxS_iwxkVczlHQSw" width="1100" height="740" alt="chris-karidis-nnzkZNYWHaU-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/79154/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/79154-HomepagePromoCTAs-1100x740?v=dd8b5a42" dam-id="cdQ9mZRxS_iwxkVczlHQSw" width="1100" height="740" alt="chris-karidis-nnzkZNYWHaU-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79154/thumbnail" />
 - ID: "3e3bc290-3383-41c1-b7a6-e969010b0209"
   Hint: NumberOfReviews
   Value: 34
@@ -24,7 +24,7 @@ SharedFields:
 - ID: "7eb8d23c-80de-448b-9793-a330f5702fae"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/799524361ad641c892613c6fa6f7996d?v=d767dc0b" dam-id="WuLvY57HS3eSVeCurvl1lw" width="1024" height="1024" alt="paris.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/68758/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/799524361ad641c892613c6fa6f7996d?v=d767dc0b" dam-id="WuLvY57HS3eSVeCurvl1lw" width="1024" height="1024" alt="paris.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/68758/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 100
@@ -44,7 +44,7 @@ SharedFields:
     {18C5CEFB-3901-40E0-9409-E41B6C141020}
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "9added1f-44db-4968-91cb-62cdb7ed74a2"
+  Value: "2ab03327-4705-4c64-9ea6-f46112decde3"
 - ID: "e2414def-999b-439a-b071-ff6a86838924"
   Hint: Highlights
   Value: |
@@ -108,7 +108,7 @@ Languages:
       Value: Romantic Escape
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "aaab0d5b-388b-419d-9993-c8f942374571"
+      Value: "a87ba22b-5e95-48ca-955b-d8c0c49cc0ad"
     - ID: "8dd6625c-72c1-4780-8c4a-caca6e16c39a"
       Hint: TripDuration
       Value: "4-7 Days"
@@ -130,7 +130,7 @@ Languages:
       Value: No
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105947Z
+      Value: 20260205T093041Z
     - ID: "df3123e3-ca29-48e7-a4eb-ceeba8226574"
       Hint: Language
       Value: French

@@ -26,7 +26,7 @@ SharedFields:
 - ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
   Hint: Image2
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/80838-HomepagePromoCTAs-1100x740?v=a4b3ca05" dam-id="vaQUyFLiQ2yMj9eT42RlsA" width="1100" height="740" alt="Sofa_A_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/80838/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/80838-HomepagePromoCTAs-1100x740?v=a4b3ca05" dam-id="vaQUyFLiQ2yMj9eT42RlsA" width="1100" height="740" alt="Sofa_A_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/80838/thumbnail" />
 - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
   Hint: Size
   Value: |
@@ -35,7 +35,7 @@ SharedFields:
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/80839-HomepagePromoCTAs-1100x740?v=e243d0e7" dam-id="iE6pIB1XQTOvpoy3vo2ocA" width="1100" height="740" alt="Sofa_A_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/80839/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/80839-HomepagePromoCTAs-1100x740?v=e243d0e7" dam-id="iE6pIB1XQTOvpoy3vo2ocA" width="1100" height="740" alt="Sofa_A_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/80839/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -45,7 +45,7 @@ SharedFields:
   Value: "{D0446F4B-F9A9-4701-A3EB-989D5A0A42F6}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "aac893c1-ce0d-472a-8429-f8a0d439df1e"
+  Value: "ac3402ab-5823-40ae-9045-9cc4c0ba74e2"
 Languages:
 - Language: en
   Versions:
@@ -68,7 +68,7 @@ Languages:
       Value: Lumiere Sofa
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c596d04c-1a74-4e9a-a7ec-7ff2392e17f1"
+      Value: "522763d2-1a8e-445d-964b-8310b5640e02"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -78,4 +78,4 @@ Languages:
       Value: Lumière Sofa
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105818Z
+      Value: 20260205T092910Z

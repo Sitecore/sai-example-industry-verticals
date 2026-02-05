@@ -30,7 +30,7 @@ SharedFields:
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/87b5cec2af9b486cbb80806784647324?v=31eb32ae" dam-id="nPgzhq_5QmKoqxrehJ-rvw" width="357" height="200" alt="madrid-sectional-sofa-1.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79471/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/87b5cec2af9b486cbb80806784647324?v=31eb32ae" dam-id="nPgzhq_5QmKoqxrehJ-rvw" width="357" height="200" alt="madrid-sectional-sofa-1.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79471/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -40,7 +40,7 @@ SharedFields:
   Value: "{078D4751-D125-408A-9FF2-F5417844B877}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "adbc8247-19c8-43ae-b108-de50e583bead"
+  Value: "5d19516e-c952-48c1-8de4-41221e4518c5"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -95,7 +95,7 @@ Languages:
       Value: "The Madrid Sectional Sofa by Forma Lux combines generous seating with refined design. Its L-shaped form and chaise lounge create the perfect balance of comfort, versatility, and modern style."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "02f928a3-68e7-41a7-a75c-ad54d3d0fe00"
+      Value: "49f82fea-89ab-4d9c-9503-b0e6995df95e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -105,7 +105,7 @@ Languages:
       Value: Madrid Sectional Sofa
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T112115Z
+      Value: 20260203T082511Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: "<p>The Madrid Sectional Sofa offers ample seating with its L-shaped design. Upholstered in durable polyester, it’s perfect for family gatherings and movie nights. The chaise lounge adds extra comfort.</p>"

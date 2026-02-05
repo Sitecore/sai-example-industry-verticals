@@ -13,11 +13,11 @@ SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/79256-HomePageHero-2000x800?v=53bffefe" dam-id="i77GXIfoT9q1AbUNDNs3cw" width="2000" height="800" alt="tokyo.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/79256/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/79256-HomePageHero-2000x800?v=53bffefe" dam-id="i77GXIfoT9q1AbUNDNs3cw" width="2000" height="800" alt="tokyo.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79256/thumbnail" />
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/79256-HomePageHero-2000x800?v=53bffefe" dam-id="i77GXIfoT9q1AbUNDNs3cw" width="2000" height="800" alt="tokyo.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/79256/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/79256-HomePageHero-2000x800?v=53bffefe" dam-id="i77GXIfoT9q1AbUNDNs3cw" width="2000" height="800" alt="tokyo.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79256/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 1800
@@ -27,7 +27,7 @@ SharedFields:
     <image mediaid="{5955BC45-3041-440C-94B9-0CA4B9DE57FD}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "a4616665-b766-4e3d-b214-c80351274a9b"
+  Value: "a84f30a2-e050-499e-a169-0a9020aa2469"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -94,7 +94,7 @@ Languages:
       Value: 5 min
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f9ed2574-f6da-42f6-960c-3a0c4cf60f1f"
+      Value: "81b80634-7913-41d7-9bcc-e33f26fea632"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "Tokyo After Dark: A Food Lover's Guide to Night Markets"
@@ -107,7 +107,7 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105949Z
+      Value: 20260205T093043Z
     - ID: "de1b043b-cddd-48a7-b9c4-98251e188b30"
       Hint: Likes
       Value: 12

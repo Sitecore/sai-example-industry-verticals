@@ -7,10 +7,10 @@ SharedFields:
 - ID: "2895a16e-c1b8-4e79-959a-802d5bc81a5a"
   Hint: Logo
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/6dd78aa2fc7b4dfa8f0ec3699b4e32a9?v=f36ae7dd" dam-id="jCMds1N0Q8WFy1I6YZgwUg" width="88" height="22" alt="Gridwell Logo.svg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/81368/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/6dd78aa2fc7b4dfa8f0ec3699b4e32a9?v=f36ae7dd" dam-id="jCMds1N0Q8WFy1I6YZgwUg" width="88" height="22" alt="Gridwell Logo.svg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/81368/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "093281ec-b57a-463d-a567-508ed6abf987"
+  Value: "831d0c46-51b3-467a-bb05-c51cf4f34c8f"
 Languages:
 - Language: en
   Versions:
@@ -49,7 +49,7 @@ Languages:
       Value: © 2026 Gridwell. All rights reserved.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2f196b43-6878-4a34-ac88-a640a272b430"
+      Value: "11069a94-bdf9-42c6-b559-f5786f53b784"
     - ID: "9f2b5ebe-6b3a-4128-b6e9-6b7adf4e86da"
       Hint: PolicyText
       Value: |
@@ -63,7 +63,7 @@ Languages:
       Value: Contact Us
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105849Z
+      Value: 20260205T090609Z
     - ID: "ec567a2a-8549-4add-93c2-d26ed076e45b"
       Hint: ContactText
       Value: |

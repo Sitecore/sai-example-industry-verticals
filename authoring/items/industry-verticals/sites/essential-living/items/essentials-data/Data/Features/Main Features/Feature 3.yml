@@ -7,13 +7,13 @@ SharedFields:
 - ID: "83bc80ee-e97a-474b-8c05-a2559394eebe"
   Hint: FeatureImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78723-HomepagePromoCTAs-1100x740?v=f13cf719" dam-id="7SOQj53QTEq55lxRSRGaNA" width="1100" height="740" alt="Feature_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78723/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78723-HomepagePromoCTAs-1100x740?v=f13cf719" dam-id="7SOQj53QTEq55lxRSRGaNA" width="1100" height="740" alt="Feature_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78723/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 75
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "22a0500e-b639-4f99-85fd-74bff59c408c"
+  Value: "3549905c-115f-4184-a7a2-c1f1835e2493"
 Languages:
 - Language: en
   Versions:
@@ -45,11 +45,11 @@ Languages:
         <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{40D7C2D4-FE6B-4FE7-A493-8C3A2C4EBC0A}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4b3bb1eb-2afa-4a86-b38c-91cf56019561"
+      Value: "3ccaeb97-1e01-4096-931e-7b77266d5f22"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105819Z
+      Value: 20260205T092911Z

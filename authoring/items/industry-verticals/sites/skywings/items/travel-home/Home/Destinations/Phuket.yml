@@ -12,7 +12,7 @@ SharedFields:
 - ID: "29db1d43-1ca3-4936-8add-f0ae3546faa5"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/4e6a1e03f37b484eb6320b431c737fde?v=242aaaa3" dam-id="cyLLx0ysSqOCSs0ZET0bfw" width="1344" height="768" alt="Phuket.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/79304/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/4e6a1e03f37b484eb6320b431c737fde?v=242aaaa3" dam-id="cyLLx0ysSqOCSs0ZET0bfw" width="1344" height="768" alt="Phuket.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79304/thumbnail" />
 - ID: "3e3bc290-3383-41c1-b7a6-e969010b0209"
   Hint: NumberOfReviews
   Value: 10
@@ -24,7 +24,7 @@ SharedFields:
 - ID: "7eb8d23c-80de-448b-9793-a330f5702fae"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/4e6a1e03f37b484eb6320b431c737fde?v=242aaaa3" dam-id="cyLLx0ysSqOCSs0ZET0bfw" width="1344" height="768" alt="Phuket.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/79304/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/4e6a1e03f37b484eb6320b431c737fde?v=242aaaa3" dam-id="cyLLx0ysSqOCSs0ZET0bfw" width="1344" height="768" alt="Phuket.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79304/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 200
@@ -44,7 +44,7 @@ SharedFields:
     {F3C9B922-4E69-4966-85EE-D0D4CFE857E1}
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "8989531a-8daf-4bac-a889-03d08430a3c7"
+  Value: "dc8321f5-dcf5-4d2a-9d57-a4b8d3d88311"
 - ID: "e2414def-999b-439a-b071-ff6a86838924"
   Hint: Highlights
   Value: |
@@ -124,7 +124,7 @@ Languages:
       Value: Beach
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "71048add-f0b0-4211-a10e-e677d1ebf265"
+      Value: "b558dab7-72b8-4a6d-980f-d905ee0a5f19"
     - ID: "8dd6625c-72c1-4780-8c4a-caca6e16c39a"
       Hint: TripDuration
       Value: 5 –7 days
@@ -146,7 +146,7 @@ Languages:
       Value: "Mostly 30 days visa-free (varies by nationality)"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105947Z
+      Value: 20260205T093041Z
     - ID: "df3123e3-ca29-48e7-a4eb-ceeba8226574"
       Hint: Language
       Value: Thai

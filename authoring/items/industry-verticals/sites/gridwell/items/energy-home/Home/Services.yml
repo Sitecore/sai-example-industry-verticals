@@ -10,7 +10,7 @@ SharedFields:
 - ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/31e7d51faa8f4c49be79a5d041f8a857?v=eca564cd" dam-id="kROJ4I3eTbGS_yxwxaHktg" width="200" height="200" alt="lineworker-on-pole.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/70196/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/31e7d51faa8f4c49be79a5d041f8a857?v=eca564cd" dam-id="kROJ4I3eTbGS_yxwxaHktg" width="200" height="200" alt="lineworker-on-pole.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/70196/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 225
@@ -20,7 +20,7 @@ SharedFields:
     <image mediaid="{D12F0232-8249-4DC0-804E-C0B734A5DED8}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "9f21452c-addd-44bd-b242-9591c5f74e7f"
+  Value: "0e03f724-8091-46fd-bbed-22d7fdab4ccc"
 Languages:
 - Language: en
   Versions:
@@ -49,7 +49,7 @@ Languages:
       Value: Gridwell provides critical services that ensure reliable grid operations, transparent market coordination, and clear public communication. These services support households, businesses, and energy partners across Texas.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e87ca851-639e-4415-81ff-88f341c59408"
+      Value: "89d84d44-b54a-4dc7-9d37-0b946663e73d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -59,4 +59,4 @@ Languages:
       Value: Gridwell’s services support the safe and reliable operation of the power grid through system coordination, market oversight, and public communication. This page outlines how Gridwell works with communities and partners to maintain grid stability and trust.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105847Z
+      Value: 20260205T090607Z
