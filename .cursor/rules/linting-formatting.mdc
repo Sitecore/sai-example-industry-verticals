@@ -1,0 +1,37 @@
+---
+description: Run lint and Prettier after every React/TypeScript update
+alwaysApply: false
+globs:
+'**/*.tsx'
+'**/*.ts'
+'**/*.jsx'
+'**/*.js'
+---
+
+# React Quality Checks
+
+## Mandatory Post-Edit Verification
+
+Whenever you update **React**, **TypeScript**, or **JavaScript** files, you **must** run and fix any issues before completing the task.
+
+The following checks are mandatory:
+
+- **ESLint**  
+  Run the project linter and resolve all reported issues.
+
+- **Prettier**  
+  Ensure code formatting passes. Use `--write` for any files that were edited.
+
+These steps must be performed **automatically after every edit**.  
+Do not wait for the user or reviewer to remind you.
+
+---
+
+## Required Commands (industry-verticals)
+
+From the project root:
+
+```bash
+cd industry-verticals/luxury-retail
+npm run lint
+npx prettier --write "path/to/edited/files"
