@@ -23,7 +23,7 @@ Languages:
     - ID: "508bd818-cabf-44dc-aca8-edcffacc3dcc"
       Hint: Image
       Value: |
-        <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/b3db082cfe5a4131af8045b548366a4c?v=9a1d97f0" dam-id="Jqaf1T5PStiDSTUjulVVxg" width="512" height="512" alt="sun.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/80246/thumbnail" />
+        <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/b3db082cfe5a4131af8045b548366a4c?v=9a1d97f0" dam-id="Jqaf1T5PStiDSTUjulVVxg" width="512" height="512" alt="sun.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/80246/thumbnail" />
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -34,7 +34,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8ffd2c0a-0c0c-4538-a55a-af38c92fb8ea"
+      Value: "f13b9bdd-da43-407d-ae3a-d26d98b76882"
     - ID: "95f330aa-700a-466a-97ba-b2c18b0b24e1"
       Hint: Temperature
       Value: 15–23°C
@@ -47,4 +47,4 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105954Z
+      Value: 20260205T093048Z

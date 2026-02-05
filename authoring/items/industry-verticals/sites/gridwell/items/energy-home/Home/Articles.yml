@@ -10,7 +10,7 @@ SharedFields:
 - ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/040d8df067394821b06a0f164b9651cb?v=9ca7ea03" dam-id="OOtx41rpRA6_5tSlbA7GCg" width="200" height="200" alt="knowledge center banner.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/76845/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/040d8df067394821b06a0f164b9651cb?v=9ca7ea03" dam-id="OOtx41rpRA6_5tSlbA7GCg" width="200" height="200" alt="knowledge center banner.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/76845/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 150
@@ -20,7 +20,7 @@ SharedFields:
     <image mediaid="{1A61BB56-2D71-4684-927B-21934B4C7632}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "a72d52a6-f32b-4031-af5a-a6cfc89cd87f"
+  Value: "5fa5b034-ebba-4f40-ac10-4085828510f3"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -71,7 +71,7 @@ Languages:
       Value: Explore Gridwell’s collection of articles covering energy conservation, grid operations, emergency preparedness, and market analysis. These insights are designed to help Texans better understand the grid and make informed energy decisions.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "afcf96ae-af23-4d05-9a9f-2b2f537bcc58"
+      Value: "bc7990cb-f277-44ba-bce5-5e9cec7d0580"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -81,4 +81,4 @@ Languages:
       Value: The Gridwell Articles page brings together educational content on energy reliability, conservation, alerts, and market trends. Visitors can explore expert insights and practical guidance that explain how the grid works and how individual actions support system stability.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105846Z
+      Value: 20260205T090606Z

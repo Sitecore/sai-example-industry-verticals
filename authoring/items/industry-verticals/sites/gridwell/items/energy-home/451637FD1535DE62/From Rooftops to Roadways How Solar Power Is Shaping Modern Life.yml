@@ -16,18 +16,18 @@ SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/70052-HomepagePromoCTAs-1100x740?v=ae78cc95" dam-id="YU7r-h9bSjS6Yt2YlRdn2Q" width="1100" height="740" alt="markus-spiske-rNn_TU8dvoY-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/70052/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/70052-HomepagePromoCTAs-1100x740?v=ae78cc95" dam-id="YU7r-h9bSjS6Yt2YlRdn2Q" width="1100" height="740" alt="markus-spiske-rNn_TU8dvoY-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/70052/thumbnail" />
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/0f3b43ffe5ee41309a0a8b522a3358e7?v=0ec373f4" dam-id="YU7r-h9bSjS6Yt2YlRdn2Q" width="1920" height="1281" alt="markus-spiske-rNn_TU8dvoY-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/70052/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/70052-HomepagePromoCTAs-1100x740?v=ae78cc95" dam-id="YU7r-h9bSjS6Yt2YlRdn2Q" width="1100" height="740" alt="markus-spiske-rNn_TU8dvoY-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/70052/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{C1B22C5E-EBCE-4395-A526-493BE2481DD0}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "0f11f950-2185-49e4-a5c3-3ecca5e7fa4b"
+  Value: "16dd8076-9d72-4510-9487-41a003b56dc4"
 - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
   Hint: Category
   Value: "{13A31CB9-F14D-4DC4-9BA4-7AAADA59025D}"
@@ -60,7 +60,7 @@ Languages:
       Value: Learn how Gridwell is harnessing solar technology—from rooftops to roadways—to bring affordable, renewable power to homes and communities.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b4dc99d4-fea9-4fef-a565-14103a9989cc"
+      Value: "21a6a098-110c-466c-b0ac-0a2d28c79cec"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "From Rooftops to Roadways: How Solar Power Is Shaping Modern Life"
@@ -70,7 +70,7 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105846Z
+      Value: 20260205T092005Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: The Power of Solar Energy | Gridwell Innovations in Renewable Tech

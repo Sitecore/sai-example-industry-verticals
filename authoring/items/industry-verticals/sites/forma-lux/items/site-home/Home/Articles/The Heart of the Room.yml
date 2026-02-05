@@ -18,11 +18,11 @@ SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/76684-HomePageHero-2000x800?v=531cee18" dam-id="RVpmO47SRf23V15z6NE3YQ" width="2000" height="800" alt="beds-meta.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76684/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/76684-HomePageHero-2000x800?v=531cee18" dam-id="RVpmO47SRf23V15z6NE3YQ" width="2000" height="800" alt="beds-meta.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/76684/thumbnail" />
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/33ab96058b1945838e241b49d43d6702?v=97e5fae5" dam-id="y9eaS3oRSLCy7JKBixa3jw" width="1880" height="1253" alt="Rectangle 43.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66998/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/33ab96058b1945838e241b49d43d6702?v=97e5fae5" dam-id="y9eaS3oRSLCy7JKBixa3jw" width="1880" height="1253" alt="Rectangle 43.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/66998/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: "-50"
@@ -32,7 +32,7 @@ SharedFields:
     <image mediaid="{DDA99E04-29F7-49E3-BA48-57BD813A3D7B}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "f522af16-7d24-4960-9aaa-4aae6c398344"
+  Value: "5251e621-258d-4785-8c42-ffdbb440eb84"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -99,7 +99,7 @@ Languages:
         
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9d1a4217-5272-4839-93fc-764c21e7cd39"
+      Value: "01829705-022b-46e2-9a2c-7128923d73bb"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "The Heart of the Room: Fireplace"
@@ -109,7 +109,7 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T112116Z
+      Value: 20260203T082512Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: "The Heart of the Room: Fireplace & Lounge | Forma Lux Journal – Handmade Design with Warmth & Craft"

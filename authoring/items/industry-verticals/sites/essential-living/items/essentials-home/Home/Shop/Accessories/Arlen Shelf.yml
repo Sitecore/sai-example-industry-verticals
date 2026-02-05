@@ -15,11 +15,11 @@ SharedFields:
 - ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
   Hint: Image2
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/77923-HomePageHero-2000x800?v=8a4039ea" dam-id="Ssz_82PvQh2Z-QK9c-Lq8g" width="2000" height="800" alt="Shelf_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/77923/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/77923-HomePageHero-2000x800?v=8a4039ea" dam-id="Ssz_82PvQh2Z-QK9c-Lq8g" width="2000" height="800" alt="Shelf_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/77923/thumbnail" />
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/77921-HomePageHero-2000x800?v=825ce535" dam-id="Roo9XvDFTlSIsYlDjnGvFA" width="2000" height="800" alt="Shelf_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/77921/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/77921-HomePageHero-2000x800?v=825ce535" dam-id="Roo9XvDFTlSIsYlDjnGvFA" width="2000" height="800" alt="Shelf_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/77921/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -29,7 +29,7 @@ SharedFields:
   Value: "{22276428-A93A-480A-937C-6E6A2DCA9F0F}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "d5bbec63-30b0-457c-91ff-d49dab158811"
+  Value: "b2dd2745-8c45-443c-b464-3f5e9face3e9"
 Languages:
 - Language: en
   Versions:
@@ -52,7 +52,7 @@ Languages:
       Value: Arlen Shelf
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f4bef701-ac94-4e69-bb6f-600edeed9633"
+      Value: "28e2485e-0c0a-44a8-9991-c2074f68a5c8"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -62,4 +62,4 @@ Languages:
       Value: Arlen Shelf
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105817Z
+      Value: 20260205T092908Z

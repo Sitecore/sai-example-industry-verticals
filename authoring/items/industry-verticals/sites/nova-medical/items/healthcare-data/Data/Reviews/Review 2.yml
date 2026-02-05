@@ -7,10 +7,10 @@ SharedFields:
 - ID: "9f389762-fc1e-4bb1-9fc9-5ae25a3e1f38"
   Hint: Avatar
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/62174-HomepagePromoCTAs-1100x740?v=1055df0e" dam-id="N_JUx9YbTpGmHo02nRIX2g" width="1100" height="740" alt="Tarik Beltran.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/62174/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/62174-HomepagePromoCTAs-1100x740?v=1055df0e" dam-id="N_JUx9YbTpGmHo02nRIX2g" width="1100" height="740" alt="Tarik Beltran.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/62174/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "22d33d48-cf3b-4014-b50d-05cb1244a012"
+  Value: "9737f481-6815-4231-811f-565eef0dd290"
 Languages:
 - Language: en
   Versions:
@@ -35,7 +35,7 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "423966e7-c255-4be1-b733-77af7d369b97"
+      Value: "322658af-7c53-4f0e-a9db-2bcc9fce9f7e"
     - ID: "997e5f9c-d7b6-4704-9add-8e2ffcd15c2c"
       Hint: ReviewerName
       Value: James L.
@@ -45,4 +45,4 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105919Z
+      Value: 20260205T092444Z

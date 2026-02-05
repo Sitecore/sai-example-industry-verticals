@@ -13,18 +13,18 @@ SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/50bee663abec4ad6bab5318b8ad9e84d?v=39f4ccb7" dam-id="9kvntgm5SYCwdMGUycIzgQ" width="200" height="200" alt="gridwell-line-worker-big-transformer.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/70165/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/50bee663abec4ad6bab5318b8ad9e84d?v=39f4ccb7" dam-id="9kvntgm5SYCwdMGUycIzgQ" width="200" height="200" alt="gridwell-line-worker-big-transformer.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/70165/thumbnail" />
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/18a0c7804ffa4fbcb58e0c6c2ec41e1b?v=075678ec" dam-id="9kvntgm5SYCwdMGUycIzgQ" width="1536" height="1024" alt="gridwell-line-worker-big-transformer.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/70165/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/18a0c7804ffa4fbcb58e0c6c2ec41e1b?v=075678ec" dam-id="9kvntgm5SYCwdMGUycIzgQ" width="1536" height="1024" alt="gridwell-line-worker-big-transformer.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/70165/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{69504A3B-8F31-414E-869C-E82B0C2650E8}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "1e831d02-c77d-4211-bf38-80d2d3c75f2c"
+  Value: "32bdf240-76e5-45cd-a1bd-d5578ab18d21"
 - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
   Hint: Category
   Value: "{0EFFD00D-3DD8-4966-81C3-2C0FFCA87130}"
@@ -57,7 +57,7 @@ Languages:
       Value: Five Easy Ways to Conserve Energy During a Heatwave
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "215e1b52-7988-473d-9bea-ac47403020c7"
+      Value: "3fe43aeb-40e9-4471-8e82-3e009be3f02f"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: Five Easy Ways to Conserve Energy During a Heatwave
@@ -67,7 +67,7 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105846Z
+      Value: 20260205T090606Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: Five Easy Ways to Conserve Energy During a Heatwave

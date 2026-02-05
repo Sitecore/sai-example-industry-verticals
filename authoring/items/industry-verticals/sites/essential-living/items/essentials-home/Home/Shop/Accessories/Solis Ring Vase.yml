@@ -23,11 +23,11 @@ SharedFields:
 - ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
   Hint: Image2
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78102-HomepagePromoCTAs-1100x740?v=304786bc" dam-id="zjikPCE8RW-Pn5eLwRhz5Q" width="1100" height="740" alt="Vase_5_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78102/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78102-HomepagePromoCTAs-1100x740?v=304786bc" dam-id="zjikPCE8RW-Pn5eLwRhz5Q" width="1100" height="740" alt="Vase_5_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78102/thumbnail" />
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78103-LandingPageHero-2000x600?v=1a22d659" dam-id="TuTmhDkKTXmYWt1mO90Nkw" width="2000" height="600" alt="Vase_5_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78103/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78103-LandingPageHero-2000x600?v=1a22d659" dam-id="TuTmhDkKTXmYWt1mO90Nkw" width="2000" height="600" alt="Vase_5_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78103/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -37,7 +37,7 @@ SharedFields:
   Value: "{887FB994-F608-4229-8C2A-3CC886C799FA}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "098fb066-c85d-4ef0-a364-14aeee72f62e"
+  Value: "5c2b48e9-f406-4a57-a3cf-6e92ca60a7dd"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -75,7 +75,7 @@ Languages:
       Value: Solis Ring Vase
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "424fe6d9-f410-46d0-a01c-e7024d7749b5"
+      Value: "b6b7c5fd-1dee-49b1-a257-f7a0a02a976c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -85,4 +85,4 @@ Languages:
       Value: Solis Ring Vase
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105818Z
+      Value: 20260205T092909Z

@@ -12,7 +12,7 @@ SharedFields:
 - ID: "29db1d43-1ca3-4936-8add-f0ae3546faa5"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/eacf0b890ccb46a49990c3790f1face1?v=8ddf9959" dam-id="90MKs57rQ92tpcpYl7b8ww" width="6000" height="4000" alt="DistandtCouplePool.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/49433/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/eacf0b890ccb46a49990c3790f1face1?v=8ddf9959" dam-id="90MKs57rQ92tpcpYl7b8ww" width="6000" height="4000" alt="DistandtCouplePool.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/49433/thumbnail" />
 - ID: "3e3bc290-3383-41c1-b7a6-e969010b0209"
   Hint: NumberOfReviews
   Value: 33
@@ -26,7 +26,7 @@ SharedFields:
 - ID: "7eb8d23c-80de-448b-9793-a330f5702fae"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/bc4450e5add447338453888b75c4a036?v=bb40f9c8" dam-id="90MKs57rQ92tpcpYl7b8ww" width="2000" height="1333" alt="DistandtCouplePool.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/49433/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/bc4450e5add447338453888b75c4a036?v=bb40f9c8" dam-id="90MKs57rQ92tpcpYl7b8ww" width="2000" height="1333" alt="DistandtCouplePool.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/49433/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 194
@@ -49,7 +49,7 @@ SharedFields:
     {F5AC5B1D-3CF5-4B5E-AC70-07255696A9A4}
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "27a31989-3c15-43ba-956d-1ca8bac7a51b"
+  Value: "cd16fa55-f174-40a4-8a45-710c5d85bbb5"
 - ID: "e2414def-999b-439a-b071-ff6a86838924"
   Hint: Highlights
   Value: |
@@ -123,7 +123,7 @@ Languages:
       Value: Beach
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "81c6983b-fe36-4f1d-8565-3cbd7f3f32fb"
+      Value: "661128c7-dc96-493d-9e34-d114c76067b3"
     - ID: "8dd6625c-72c1-4780-8c4a-caca6e16c39a"
       Hint: TripDuration
       Value: "5-10 days"
@@ -145,7 +145,7 @@ Languages:
       Value: No (30 days for most countries)
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105947Z
+      Value: 20260205T093041Z
     - ID: "df3123e3-ca29-48e7-a4eb-ceeba8226574"
       Hint: Language
       Value:  Indonesian (Bahasa Indonesia)

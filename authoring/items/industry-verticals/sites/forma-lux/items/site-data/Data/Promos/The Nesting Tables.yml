@@ -7,10 +7,10 @@ SharedFields:
 - ID: "b441a09f-ddb2-41a8-84cc-2533686541f4"
   Hint: PromoImageOne
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c2533f15792f4de5993d1e885880afb3?v=4c8343c5" dam-id="LWoIqxe9QSqPH0hhbIYzbw" width="804" height="570" alt="Tables.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68216/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/c2533f15792f4de5993d1e885880afb3?v=4c8343c5" dam-id="LWoIqxe9QSqPH0hhbIYzbw" width="804" height="570" alt="Tables.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/68216/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "441e58eb-40a9-4570-b68d-043be9b4cf48"
+  Value: "c8b6918c-3e72-430f-adc5-e57bb9f9bdfd"
 Languages:
 - Language: en
   Versions:
@@ -43,14 +43,14 @@ Languages:
       Value: Attention to Elegance
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f64cf8a8-f6e8-47b7-b9b1-868f246fdd4a"
+      Value: "5234d367-7762-4737-a2f7-7aef858f68b5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T112119Z
+      Value: 20260203T082515Z
     - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
       Hint: PromoTitle
       Value: Nesting Tables Perfection

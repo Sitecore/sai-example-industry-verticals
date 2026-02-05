@@ -6,11 +6,11 @@ Path: "/sitecore/content/industry-verticals/gridwell/Data/Article Categories/Gri
 SharedFields:
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "0320295d-8d64-4ffd-92fd-7651fe88be80"
+  Value: "f79402cb-30dd-466c-bc33-a2c2bec8f9b1"
 - ID: "f258fdef-13ab-4614-93ff-ac8487d0e8ab"
   Hint: CategoryIcon
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/82153-HomePageHero-2000x800?v=006e632d" dam-id="rCg_Nqv3S_ayBcdYD5mG1w" width="2000" height="800" alt="zap.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/82153/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/82153-HomePageHero-2000x800?v=006e632d" dam-id="rCg_Nqv3S_ayBcdYD5mG1w" width="2000" height="800" alt="zap.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/82153/thumbnail" />
 Languages:
 - Language: en
   Versions:
@@ -32,14 +32,14 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1c727a7b-4506-45ae-88a5-8ba79b7859d9"
+      Value: "19d6a5d0-259e-45d0-b6fa-0688a3b7ea92"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105847Z
+      Value: 20260205T090608Z
     - ID: "f9fd853f-2691-40b4-81d1-00ccf1a6cc06"
       Hint: Category
       Value: Grid Operations
