@@ -24,11 +24,11 @@ SharedFields:
 - ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
   Hint: Image2
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78569-HomepagePromoCTAs-1100x740?v=dba17a87" dam-id="vdW0X2mvTRmS_09jyo0Org" width="1100" height="740" alt="lamp 6_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78569/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78569-HomepagePromoCTAs-1100x740?v=dba17a87" dam-id="vdW0X2mvTRmS_09jyo0Org" width="1100" height="740" alt="lamp 6_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78569/thumbnail" />
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78570-HomePageHero-2000x800?v=a503efd9" dam-id="h13_92r8Qe2GZFdAhUaWyg" width="2000" height="800" alt="lamp 6_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78570/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78570-HomePageHero-2000x800?v=a503efd9" dam-id="h13_92r8Qe2GZFdAhUaWyg" width="2000" height="800" alt="lamp 6_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78570/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -39,10 +39,10 @@ SharedFields:
 - ID: "d9c8ae87-80fc-460b-9140-3db7358b1c8e"
   Hint: Image3
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78572-HomepagePromoCTAs-1100x740?v=74178879" dam-id="6G_g7EQBSLiNXpr5Rc8k8Q" width="1100" height="740" alt="lamp 6_3.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78572/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78572-HomepagePromoCTAs-1100x740?v=74178879" dam-id="6G_g7EQBSLiNXpr5Rc8k8Q" width="1100" height="740" alt="lamp 6_3.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78572/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "8f9a0a78-e81f-4b17-a7e8-7ed1bb66d196"
+  Value: "969e8d13-1316-4f96-bd35-bd1341734ff4"
 Languages:
 - Language: en
   Versions:
@@ -73,7 +73,7 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "324f640d-2e06-4bfc-a8ab-dae2bdb1f40d"
+      Value: "c3e0882d-23bd-4684-a25c-9fd673ff9331"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -83,4 +83,4 @@ Languages:
       Value: ArcLumina
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105819Z
+      Value: 20260205T092911Z

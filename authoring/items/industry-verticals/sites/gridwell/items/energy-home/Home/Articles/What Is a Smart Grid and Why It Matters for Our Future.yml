@@ -13,18 +13,18 @@ SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/c909ec8d9ce64939b48efe7834896bb6?v=0693ec67" dam-id="ELkvWp28Q4iDw5TccBFzlg" width="350" height="350" alt="dominik-ferl-8A8D6I3OQS4-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/70029/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/c909ec8d9ce64939b48efe7834896bb6?v=0693ec67" dam-id="ELkvWp28Q4iDw5TccBFzlg" width="350" height="350" alt="dominik-ferl-8A8D6I3OQS4-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/70029/thumbnail" />
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/66fd5ffa3c264c9a9d30dd892c6b2e96?v=d08ff4f6" dam-id="ELkvWp28Q4iDw5TccBFzlg" width="1920" height="1281" alt="dominik-ferl-8A8D6I3OQS4-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/70029/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/70029-HomepagePromoCTAs-1100x740?v=074ccd1e" dam-id="ELkvWp28Q4iDw5TccBFzlg" width="1100" height="740" alt="dominik-ferl-8A8D6I3OQS4-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/70029/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{8F6FC512-9B7F-455A-AA43-33FAEABF483A}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "ce9fba18-cab7-4000-9feb-832b687961e9"
+  Value: "c5fccf5c-19b8-44f4-a377-62c8e9623a40"
 - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
   Hint: Category
   Value: "{13A31CB9-F14D-4DC4-9BA4-7AAADA59025D}"
@@ -57,7 +57,7 @@ Languages:
       Value: Find out how Gridwell’s smart grid technology is reshaping energy delivery—making power cleaner, more reliable, and more efficient than ever.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d07ad447-d886-4c24-821f-e8fe2468ab4b"
+      Value: "d4d26504-103f-456b-a827-eaf41cc83d45"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: What Is a Smart Grid and Why It Matters for Our Future
@@ -67,7 +67,7 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105847Z
+      Value: 20260205T092037Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: Understanding Smart Grids | Gridwell’s Vision for Clean Energy Infrastructure

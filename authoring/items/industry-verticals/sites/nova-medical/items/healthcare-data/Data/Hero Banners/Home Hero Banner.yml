@@ -7,10 +7,10 @@ SharedFields:
 - ID: "00b71f70-411d-4ea1-a423-74ed20b60157"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/79005-HomepagePromoCTAs-1100x740?v=f5a7d3cf" dam-id="il_LbIDdTtOBB-oGB_4dDA" width="1100" height="740" alt="hero-banner-img.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/79005/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/79005-HomepagePromoCTAs-1100x740?v=f5a7d3cf" dam-id="il_LbIDdTtOBB-oGB_4dDA" width="1100" height="740" alt="hero-banner-img.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79005/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "b1b1253b-9fae-473b-873f-5be0bf6900fe"
+  Value: "ad7a75fe-a6c7-4e89-8d08-52d33b049b3d"
 Languages:
 - Language: en
   Versions:
@@ -32,11 +32,11 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6e06069e-81f8-479e-b6a8-faaeda734f2d"
+      Value: "b97b997d-c1f1-4fa0-a683-107b7ffa0833"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105918Z
+      Value: 20260205T092443Z

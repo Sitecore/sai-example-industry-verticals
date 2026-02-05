@@ -21,18 +21,18 @@ SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/ae7e2a37ee8e4afa9740148c2da2f09a?v=fe93b1f8" dam-id="cSCIPYbASGGlGp7t14XuUA" width="350" height="350" alt="ehmitrich-ZGY5Pp8Xxaw-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/70032/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/ae7e2a37ee8e4afa9740148c2da2f09a?v=fe93b1f8" dam-id="cSCIPYbASGGlGp7t14XuUA" width="350" height="350" alt="ehmitrich-ZGY5Pp8Xxaw-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/70032/thumbnail" />
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/24d5f5ee49814f4c813b04747fd8cb0d?v=c6100ecf" dam-id="cSCIPYbASGGlGp7t14XuUA" width="1920" height="1280" alt="ehmitrich-ZGY5Pp8Xxaw-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/70032/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/24d5f5ee49814f4c813b04747fd8cb0d?v=c6100ecf" dam-id="cSCIPYbASGGlGp7t14XuUA" width="1920" height="1280" alt="ehmitrich-ZGY5Pp8Xxaw-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/70032/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{F0D06C73-8559-4845-8F03-9647CCD19BDE}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "13e73351-f9e9-4d1c-a91b-2017e5993a2f"
+  Value: "043438e3-6634-412c-be13-c431f6b67da3"
 - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
   Hint: Category
   Value: "{6B32BA4F-A136-4EE0-8081-A454CEDB7555}"
@@ -65,7 +65,7 @@ Languages:
       Value: An Energy Emergency Alert (EEA) is issued when the power grid is under critical stress and immediate conservation is required. This article explains what an EEA means, how it differs from advisory alerts, and the specific steps Texans should take to help stabilize the grid and prevent outages.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6cea0991-a969-4750-a19f-4460a584fd73"
+      Value: "85f9a9f5-929a-42ee-804a-65f8452b09fd"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: What to Do When an Energy Emergency Alert Is Issued
@@ -75,7 +75,7 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105847Z
+      Value: 20260205T090607Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: What to Do When an Energy Emergency Alert Is Issued

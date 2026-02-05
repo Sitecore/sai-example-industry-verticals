@@ -7,10 +7,10 @@ SharedFields:
 - ID: "2895a16e-c1b8-4e79-959a-802d5bc81a5a"
   Hint: Logo
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/1dbdbae6f3a84d6bb0e79f06e3bc5b07?v=b7c23d52" dam-id="zo7O6fWATemhG9p3qkf1nQ" width="934" height="184" alt="SkyWings Logo.svg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/68278/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/1dbdbae6f3a84d6bb0e79f06e3bc5b07?v=b7c23d52" dam-id="zo7O6fWATemhG9p3qkf1nQ" width="934" height="184" alt="SkyWings Logo.svg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/68278/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "2889460f-d976-4357-9231-e827c2f0a6b2"
+  Value: "3e227351-eaca-430d-8f91-2bcb4d93e056"
 Languages:
 - Language: en
   Versions:
@@ -49,7 +49,7 @@ Languages:
       Value: © 2025 SkyWings Airlines. All rights reserved.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b101b9c1-2234-4098-8a48-366f1ebfda95"
+      Value: "5075af7e-1bac-4f1c-9a45-81a531b42ab6"
     - ID: "9f2b5ebe-6b3a-4128-b6e9-6b7adf4e86da"
       Hint: PolicyText
       Value: |
@@ -63,7 +63,7 @@ Languages:
       Value: Support
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105950Z
+      Value: 20260205T093044Z
     - ID: "ff56e380-2171-49bf-a693-84ee1bc9413b"
       Hint: TermsText
       Value: |

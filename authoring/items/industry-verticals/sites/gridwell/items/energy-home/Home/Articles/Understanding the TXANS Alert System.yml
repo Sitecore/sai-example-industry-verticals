@@ -13,18 +13,18 @@ SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/beb7b5afb3ba443b9d12dda52da6b61e?v=332c9c9b" dam-id="CoMfys3tSj6uIuPAsg6tAw" width="350" height="350" alt="smartphone-showing-txans-alert-notification.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/76851/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/beb7b5afb3ba443b9d12dda52da6b61e?v=332c9c9b" dam-id="CoMfys3tSj6uIuPAsg6tAw" width="350" height="350" alt="smartphone-showing-txans-alert-notification.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/76851/thumbnail" />
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/f9642ac28fc54dfd81184769545e9435?v=6a4550b9" dam-id="iDugleSpQ2CwYJIsmlerzQ" width="1024" height="683" alt="gridwell-transmission-lines-dawn.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/70183/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/f9642ac28fc54dfd81184769545e9435?v=6a4550b9" dam-id="iDugleSpQ2CwYJIsmlerzQ" width="1024" height="683" alt="gridwell-transmission-lines-dawn.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/70183/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{C9C1BD24-A549-4A40-8983-818FF91E7D8F}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "9429b096-584d-4e59-83d0-837a42722586"
+  Value: "1d3df443-d180-485f-b317-0855fab7aa57"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -72,7 +72,7 @@ Languages:
       Value: The Texas Advisory Notification System (TXANS) helps Texans prepare for potential grid stress before an emergency occurs. This article explains how TXANS works, how it differs from Energy Emergency Alerts, and why early awareness and voluntary conservation play a critical role in grid reliability.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e0eee3ef-3ca1-4c96-924d-9f6c54d10ab8"
+      Value: "9a573c70-34fd-4fa5-999d-f52e919891f5"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: Understanding the TXANS Alert System
@@ -82,7 +82,7 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105847Z
+      Value: 20260205T090607Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: Understanding the TXANS Alert System

@@ -10,14 +10,14 @@ SharedFields:
 - ID: "c17f3d69-c947-45a0-b4f5-cbcdf58e805c"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/76658-HomepagePromoCTAs-1100x740?v=9210bb63" dam-id="hTWQgT3RSbmgYszzmJFPmg" width="1100" height="740" alt="chairs-meta.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76658/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/76658-HomepagePromoCTAs-1100x740?v=9210bb63" dam-id="hTWQgT3RSbmgYszzmJFPmg" width="1100" height="740" alt="chairs-meta.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/76658/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{C71493A5-69AE-423E-8D6F-F38B1CA2A335}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "fd67e065-4410-4dd6-a77b-f1f98feee70f"
+  Value: "434ae539-20bd-4b08-84b6-0420e35a88b5"
 Languages:
 - Language: en
   Versions:
@@ -54,7 +54,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c51feccd-a055-4878-8ad7-f934c9d5b49e"
+      Value: "03e21659-49d6-4841-a9c9-30ebdd3aa1f6"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -64,7 +64,7 @@ Languages:
       Value: Discover chairs that combine sculptural form and ergonomic comfort. Designed with refined proportions and natural materials, each piece complements modern interiors beautifully.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T112115Z
+      Value: 20260203T082511Z
     - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
       Hint: CategoryName
       Value: Chair

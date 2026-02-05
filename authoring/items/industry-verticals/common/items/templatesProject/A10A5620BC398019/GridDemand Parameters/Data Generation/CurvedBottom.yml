@@ -2,7 +2,7 @@
 ID: "d093fa6f-ccad-4d20-86c4-90feae949303"
 Parent: "75634ba5-e3f5-4582-a99a-913a05fcba63"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: "/sitecore/templates/Project/industry-verticals/Components/Energy Grid/Grid Demand/Rendering Parameters/GridDemand Parameters/Visual Accents/CurvedBottom"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Energy Grid/Grid Demand/Rendering Parameters/GridDemand Parameters/Data Generation/CurvedBottom"
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type

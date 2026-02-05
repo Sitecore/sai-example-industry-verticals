@@ -12,7 +12,7 @@ SharedFields:
 - ID: "29db1d43-1ca3-4936-8add-f0ae3546faa5"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/79256-LandingPageHero-2000x600?v=d6543f25" dam-id="i77GXIfoT9q1AbUNDNs3cw" width="2000" height="600" alt="tokyo.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/79256/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/79256-LandingPageHero-2000x600?v=d6543f25" dam-id="i77GXIfoT9q1AbUNDNs3cw" width="2000" height="600" alt="tokyo.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79256/thumbnail" />
 - ID: "3e3bc290-3383-41c1-b7a6-e969010b0209"
   Hint: NumberOfReviews
   Value: 10
@@ -24,7 +24,7 @@ SharedFields:
 - ID: "7eb8d23c-80de-448b-9793-a330f5702fae"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/79256-HomepagePromoCTAs-1100x740?v=548da97a" dam-id="i77GXIfoT9q1AbUNDNs3cw" width="1100" height="740" alt="tokyo.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/79256/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/79256-HomepagePromoCTAs-1100x740?v=548da97a" dam-id="i77GXIfoT9q1AbUNDNs3cw" width="1100" height="740" alt="tokyo.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79256/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 150
@@ -44,7 +44,7 @@ SharedFields:
     {BEFC89F3-C66D-4747-9771-73CD2B600341}
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "1d2e111c-a979-4838-a9c9-38f470fef1b3"
+  Value: "a24ee6b7-e751-4c64-bc34-0ed902df743d"
 - ID: "e2414def-999b-439a-b071-ff6a86838924"
   Hint: Highlights
   Value: |
@@ -114,7 +114,7 @@ Languages:
       Value: Modern Tradition
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "cb8b44a0-6860-4abd-ade5-4132cd6cd83f"
+      Value: "40fea31d-c194-40ca-8b7f-ea8dce5c0e35"
     - ID: "8dd6625c-72c1-4780-8c4a-caca6e16c39a"
       Hint: TripDuration
       Value: "5-10 days"
@@ -136,7 +136,7 @@ Languages:
       Value: Yes (30, 60 or 90 days)
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105947Z
+      Value: 20260205T093041Z
     - ID: "df3123e3-ca29-48e7-a4eb-ceeba8226574"
       Hint: Language
       Value: Japanese, English

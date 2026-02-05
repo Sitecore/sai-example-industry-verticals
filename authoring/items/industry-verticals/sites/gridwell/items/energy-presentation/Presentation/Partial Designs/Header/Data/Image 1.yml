@@ -21,7 +21,7 @@ Languages:
     - ID: "57caf172-ce57-4e48-b3a1-46f8aea71c08"
       Hint: Image
       Value: |
-        <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/0628d1b761f548679707b2eb2856d81e?v=7cd24748" dam-id="p6atlvHsSxOmaBtifqTHWg" width="129" height="33" alt="Gridwell logo png.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/81396/thumbnail" />
+        <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/0628d1b761f548679707b2eb2856d81e?v=7cd24748" dam-id="p6atlvHsSxOmaBtifqTHWg" width="129" height="33" alt="Gridwell logo png.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/81396/thumbnail" />
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -32,11 +32,11 @@ Languages:
         <link linktype="internal" id="a3a58074-c4b7-478b-b0b4-386243e7e48e" anchor="" querystring="" target="" class="" text="" title=""/>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6562cb45-6efd-4e7d-b0a6-adf36783abea"
+      Value: "837088f4-c547-44a8-ae78-4af0eaa6adca"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105849Z
+      Value: 20260205T090610Z

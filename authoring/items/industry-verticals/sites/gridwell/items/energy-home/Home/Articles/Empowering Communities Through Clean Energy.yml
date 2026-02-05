@@ -13,18 +13,18 @@ SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/70023-HomepagePromoCTAs-1100x740?v=08a2db2a" dam-id="MCJg4Xj3RymfZocagYoA-A" width="1100" height="740" alt="andreas-gucklhorn-Ilpf2eUPpUE-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/70023/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/70023-HomepagePromoCTAs-1100x740?v=08a2db2a" dam-id="MCJg4Xj3RymfZocagYoA-A" width="1100" height="740" alt="andreas-gucklhorn-Ilpf2eUPpUE-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/70023/thumbnail" />
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/aad77838b2c7441e94351589eb249e05?v=e2afce27" dam-id="MCJg4Xj3RymfZocagYoA-A" width="1920" height="1439" alt="andreas-gucklhorn-Ilpf2eUPpUE-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/70023/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/aad77838b2c7441e94351589eb249e05?v=e2afce27" dam-id="MCJg4Xj3RymfZocagYoA-A" width="1920" height="1439" alt="andreas-gucklhorn-Ilpf2eUPpUE-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/70023/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{61B3E5F5-77B9-4494-A1CA-294FD08FE561}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "6e8c5f56-bca6-4239-8a4a-5c46388e9b5f"
+  Value: "93d6936f-7a48-4149-9a50-2ab47b03f739"
 - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
   Hint: Category
   Value: "{13A31CB9-F14D-4DC4-9BA4-7AAADA59025D}"
@@ -57,7 +57,7 @@ Languages:
       Value: Gridwell partners with local organizations to expand access to renewable power, creating sustainable, inclusive energy solutions for all.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "39fcac98-a2c7-4a00-9f5f-7edcb14ecd06"
+      Value: "47ee12d9-e6f8-40c1-a3a8-2e9315173873"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: Empowering Communities Through Clean Energy
@@ -67,7 +67,7 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105846Z
+      Value: 20260205T090606Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: Empowering Communities Through Clean Energy

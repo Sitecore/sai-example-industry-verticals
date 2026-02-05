@@ -7,10 +7,10 @@ SharedFields:
 - ID: "00b71f70-411d-4ea1-a423-74ed20b60157"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/4dba4dd883d543ada4760b70f80b9f8f?v=ad8e0649" dam-id="OOtx41rpRA6_5tSlbA7GCg" width="751" height="260" alt="knowledge center banner.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/76845/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/4dba4dd883d543ada4760b70f80b9f8f?v=ad8e0649" dam-id="OOtx41rpRA6_5tSlbA7GCg" width="751" height="260" alt="knowledge center banner.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/76845/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "8cf92d09-25d8-423a-98a4-180b147f0dce"
+  Value: "38516c4c-16e3-4571-b05e-aa7ce7ff3676"
 Languages:
 - Language: en
   Versions:
@@ -36,7 +36,7 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2b303a87-42b9-4f6a-8278-d75f870ad139"
+      Value: "d83362ab-5c65-442c-8487-ec8bf4ca3a2e"
     - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
       Hint: Title
       Value: Knowledge Center
@@ -46,4 +46,4 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105849Z
+      Value: 20260205T090609Z

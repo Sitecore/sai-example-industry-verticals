@@ -13,18 +13,18 @@ SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/c510ffa1fc1740649a17f29da81eb03a?v=e9ed9575" dam-id="mH_gzRwqTwugnt2b_x2URg" width="350" height="350" alt="andre-taissin-5OUMf1Mr5pU-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/49674/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/c510ffa1fc1740649a17f29da81eb03a?v=e9ed9575" dam-id="mH_gzRwqTwugnt2b_x2URg" width="350" height="350" alt="andre-taissin-5OUMf1Mr5pU-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/49674/thumbnail" />
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/d4ee17b2f96844158de3f19cd292db65?v=137907fe" dam-id="mH_gzRwqTwugnt2b_x2URg" width="1920" height="1280" alt="andre-taissin-5OUMf1Mr5pU-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/49674/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/d4ee17b2f96844158de3f19cd292db65?v=137907fe" dam-id="mH_gzRwqTwugnt2b_x2URg" width="1920" height="1280" alt="andre-taissin-5OUMf1Mr5pU-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/49674/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{DF88BD5F-F227-4E7B-ADCC-013831359156}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "b3207b07-ff0c-4f34-8964-c4abb5ed0c58"
+  Value: "7691001a-6b13-4f99-900c-2991b99a7090"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -72,7 +72,7 @@ Languages:
       Value: "Laundry appliances are among the most energy-intensive in the home, but small changes can make a big difference. This article shares practical, easy-to-follow laundry tips from Gridwell to help Texans reduce energy use, save money, and support grid reliability."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d7342675-4d45-41d9-a75f-6afcd5b4c4d9"
+      Value: "3cdec171-8209-4d69-bc8d-8a77e6849a51"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: Smarter Laundry Energy Tips
@@ -82,7 +82,7 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105846Z
+      Value: 20260205T090607Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: Smarter Laundry Energy Tips

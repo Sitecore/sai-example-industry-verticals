@@ -13,18 +13,18 @@ SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/27304b13670845499c1888745a073fc8?v=39a80033" dam-id="cvySfhkVSwyeaRzZAWPdaw" width="1100" height="619" alt="sebastian-pena-lambarri-U_i6h9Y50wQ-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/68827/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/27304b13670845499c1888745a073fc8?v=39a80033" dam-id="cvySfhkVSwyeaRzZAWPdaw" width="1100" height="619" alt="sebastian-pena-lambarri-U_i6h9Y50wQ-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/68827/thumbnail" />
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/27304b13670845499c1888745a073fc8?v=39a80033" dam-id="cvySfhkVSwyeaRzZAWPdaw" width="1100" height="619" alt="sebastian-pena-lambarri-U_i6h9Y50wQ-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/68827/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/27304b13670845499c1888745a073fc8?v=39a80033" dam-id="cvySfhkVSwyeaRzZAWPdaw" width="1100" height="619" alt="sebastian-pena-lambarri-U_i6h9Y50wQ-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/68827/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{E07B98C2-7AFC-43CD-9786-FDE6B1D81265}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "e4034570-4896-4787-89f8-9705a94f07e3"
+  Value: "1f3a9c1c-6d10-4b94-8080-074c07cc407d"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -90,7 +90,7 @@ Languages:
       Value: 10 min
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4a40139f-30f5-4df4-b58f-1e25ca8e37c5"
+      Value: "bce4b96e-8ed1-4a92-99f3-33aa61fcdc9f"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "The Art of Island Time: Bali Beyond the Beaches"
@@ -103,7 +103,7 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105948Z
+      Value: 20260205T093042Z
     - ID: "de1b043b-cddd-48a7-b9c4-98251e188b30"
       Hint: Likes
       Value: 17

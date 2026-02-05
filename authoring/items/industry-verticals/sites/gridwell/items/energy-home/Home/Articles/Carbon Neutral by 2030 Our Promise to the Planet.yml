@@ -13,18 +13,18 @@ SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/8e93bc241aba4e0681016385954d3a23?v=92e01931" dam-id="FczZZT2ETVCgOaa142v0cw" width="350" height="350" alt="federico-beccari-ahi73ZN5P0Y-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/70020/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/8e93bc241aba4e0681016385954d3a23?v=92e01931" dam-id="FczZZT2ETVCgOaa142v0cw" width="350" height="350" alt="federico-beccari-ahi73ZN5P0Y-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/70020/thumbnail" />
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/26883bf12de9417381f9d97356d030ec?v=51a62579" dam-id="FczZZT2ETVCgOaa142v0cw" width="1024" height="683" alt="federico-beccari-ahi73ZN5P0Y-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/70020/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/26883bf12de9417381f9d97356d030ec?v=51a62579" dam-id="FczZZT2ETVCgOaa142v0cw" width="1024" height="683" alt="federico-beccari-ahi73ZN5P0Y-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/70020/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{A9626C57-3639-45D1-8A62-D45563C1D745}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "1e4357fa-74ac-437e-9d0a-f505b647cb03"
+  Value: "fcf1a629-c93f-415d-b946-17529613245b"
 - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
   Hint: Category
   Value: "{472CC8CC-D9D7-48EE-848F-D4DB2B52C33B}"
@@ -57,7 +57,7 @@ Languages:
       Value: "Gridwell is committed to achieving carbon neutrality by 2030 through renewable energy innovation, smart grid operations, and sustainable partnerships. This article outlines Gridwell’s long-term vision, the technologies driving change, and how operational excellence supports a cleaner, more resilient energy future."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "01b9ab8d-e542-4216-b387-c21773b252e5"
+      Value: "10a06c77-fb79-4aa0-a24b-53c0b8f3e1df"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: Carbon Neutral by 2030 Our Promise to the Planet
@@ -67,7 +67,7 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105846Z
+      Value: 20260205T090606Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: Gridwell’s Path to Carbon Neutrality by 2030

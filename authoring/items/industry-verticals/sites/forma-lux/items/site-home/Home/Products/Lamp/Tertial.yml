@@ -21,7 +21,7 @@ SharedFields:
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/05be23d5f9704fb880f65cd08f229d66?v=fc705a03" dam-id="xiY93g87T3yfAzoFxc8bBA" width="2816" height="2257" alt="tertial-1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/79561/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/05be23d5f9704fb880f65cd08f229d66?v=fc705a03" dam-id="xiY93g87T3yfAzoFxc8bBA" width="2816" height="2257" alt="tertial-1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79561/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -31,7 +31,7 @@ SharedFields:
   Value: "{260CF295-7D6B-4E12-805C-2596FFD1C3D7}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "dc323a7c-f6b0-4567-8e9f-0c83895c967b"
+  Value: "8f16064e-8a5b-4ad5-a9c5-1061693f99f6"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -86,7 +86,7 @@ Languages:
       Value: Discover the Tertial Lamp by Forma Lux — a modern adjustable lamp with a sleek silhouette, designed for precision lighting and timeless style in any room.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c58138d1-9bfb-4fe3-8843-f5b37697a35f"
+      Value: "ff7bdac0-3ee5-4246-9699-1d0e0a33b79e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -96,7 +96,7 @@ Languages:
       Value: Tertial
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T112114Z
+      Value: 20260203T082510Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: |

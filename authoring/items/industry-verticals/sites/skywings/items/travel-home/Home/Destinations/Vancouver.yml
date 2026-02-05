@@ -14,7 +14,7 @@ SharedFields:
 - ID: "29db1d43-1ca3-4936-8add-f0ae3546faa5"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/ce13f57470b24f739a169f7ffabb3591?v=7a825e2e" dam-id="a9UlYcj3Q4KbvrRm1H95Qg" width="1344" height="768" alt="vancouver.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/71378/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/ce13f57470b24f739a169f7ffabb3591?v=7a825e2e" dam-id="a9UlYcj3Q4KbvrRm1H95Qg" width="1344" height="768" alt="vancouver.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/71378/thumbnail" />
 - ID: "3e3bc290-3383-41c1-b7a6-e969010b0209"
   Hint: NumberOfReviews
   Value: 27
@@ -28,7 +28,7 @@ SharedFields:
 - ID: "7eb8d23c-80de-448b-9793-a330f5702fae"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/ce13f57470b24f739a169f7ffabb3591?v=7a825e2e" dam-id="a9UlYcj3Q4KbvrRm1H95Qg" width="1344" height="768" alt="vancouver.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/71378/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/ce13f57470b24f739a169f7ffabb3591?v=7a825e2e" dam-id="a9UlYcj3Q4KbvrRm1H95Qg" width="1344" height="768" alt="vancouver.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/71378/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 800
@@ -51,7 +51,7 @@ SharedFields:
     {7EFC035F-9F14-4769-B187-79EB7D78C6E7}
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "bd6ed169-ca86-473d-8a7e-2d48906a7f88"
+  Value: "cbccee0f-1925-4129-8794-6b9c0427fc45"
 - ID: "e2414def-999b-439a-b071-ff6a86838924"
   Hint: Highlights
   Value: |
@@ -125,7 +125,7 @@ Languages:
       Value: City
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9caf5120-5efa-41a2-b4e7-6d3590cfe472"
+      Value: "86a2c300-4191-4ed5-a14a-37eadf873637"
     - ID: "8dd6625c-72c1-4780-8c4a-caca6e16c39a"
       Hint: TripDuration
       Value: 5
@@ -147,7 +147,7 @@ Languages:
       Value: No
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105948Z
+      Value: 20260205T093041Z
     - ID: "df3123e3-ca29-48e7-a4eb-ceeba8226574"
       Hint: Language
       Value: English, French
