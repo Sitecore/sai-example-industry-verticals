@@ -19,11 +19,11 @@ SharedFields:
 - ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
   Hint: Image2
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/80929-HomepagePromoCTAs-1100x740?v=6ea00bab" dam-id="TiWOfkyBR_ieI5iQrwucpA" width="1100" height="740" alt="Sofa_C_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/80929/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/80929-HomepagePromoCTAs-1100x740?v=6ea00bab" dam-id="TiWOfkyBR_ieI5iQrwucpA" width="1100" height="740" alt="Sofa_C_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/80929/thumbnail" />
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/80927-HomepagePromoCTAs-1100x740?v=a470f946" dam-id="039lhHaBQOSxKme34Nr7VA" width="1100" height="740" alt="Sofa_C_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/80927/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/80927-HomepagePromoCTAs-1100x740?v=a470f946" dam-id="039lhHaBQOSxKme34Nr7VA" width="1100" height="740" alt="Sofa_C_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/80927/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -33,7 +33,7 @@ SharedFields:
   Value: "{F9B0CE9C-60A5-4DBF-8D93-A18881A16098}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "6feffa77-cc9a-433a-bceb-254bc8be0525"
+  Value: "263734d4-79a7-4f38-944c-3fafaca624bd"
 Languages:
 - Language: en
   Versions:
@@ -56,7 +56,7 @@ Languages:
       Value: Sora Daybed
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4770573f-922d-4320-a287-40d0ba1c90c2"
+      Value: "d24dbea8-faba-4aa6-ae96-c88f82c78060"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -66,4 +66,4 @@ Languages:
       Value: Sora Daybed
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105818Z
+      Value: 20260205T092910Z

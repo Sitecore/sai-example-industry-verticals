@@ -33,15 +33,15 @@ Languages:
       Value: The Metropolitan Museum of Art
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "58042e17-e2e6-47fa-9286-7b1150893cc2"
+      Value: "7edcab2d-bb89-4ae3-af96-08e6b45326c0"
     - ID: "a38e449c-2d54-4b00-894c-8b84f7952a15"
       Hint: Image
       Value: |
-        <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/80095-LandingPageHero-2000x600?v=948fdd35" dam-id="KxYqpdshSiuGs0aupJKQ_Q" width="2000" height="600" alt="metropolitan-museuem-of-art-new-york.jpeg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/80095/thumbnail" />
+        <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/80095-LandingPageHero-2000x600?v=948fdd35" dam-id="KxYqpdshSiuGs0aupJKQ_Q" width="2000" height="600" alt="metropolitan-museuem-of-art-new-york.jpeg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/80095/thumbnail" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105952Z
+      Value: 20260205T093046Z

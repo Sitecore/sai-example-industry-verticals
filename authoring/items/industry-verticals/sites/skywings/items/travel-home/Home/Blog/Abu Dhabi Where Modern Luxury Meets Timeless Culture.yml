@@ -13,18 +13,18 @@ SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/c350a4ef879f4c3c9295a2b532fd22aa?v=db960d16" dam-id="vNVEM63SQ3i1yjRrsZfb6g" width="2560" height="1707" alt="david-rodrigo-kZ1zThg6G40-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/69497/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/c350a4ef879f4c3c9295a2b532fd22aa?v=db960d16" dam-id="vNVEM63SQ3i1yjRrsZfb6g" width="2560" height="1707" alt="david-rodrigo-kZ1zThg6G40-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/69497/thumbnail" />
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/c350a4ef879f4c3c9295a2b532fd22aa?v=db960d16" dam-id="vNVEM63SQ3i1yjRrsZfb6g" width="2560" height="1707" alt="david-rodrigo-kZ1zThg6G40-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/69497/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/c350a4ef879f4c3c9295a2b532fd22aa?v=db960d16" dam-id="vNVEM63SQ3i1yjRrsZfb6g" width="2560" height="1707" alt="david-rodrigo-kZ1zThg6G40-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/69497/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{6D198482-CD52-48C7-B565-A1D1882D5047}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "017117f6-d043-43f2-97bb-b31f7b9e5d49"
+  Value: "c81148e1-56e5-4ece-afae-46515fcb597e"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -90,7 +90,7 @@ Languages:
       Value: 4 min
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ebf6e160-793f-491f-bc46-a5f86e5490aa"
+      Value: "42e0db94-7007-40c4-8d18-ed1e837082fd"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: Abu Dhabi Where Modern Luxury Meets Timeless Culture
@@ -103,7 +103,7 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105948Z
+      Value: 20260205T093042Z
     - ID: "de1b043b-cddd-48a7-b9c4-98251e188b30"
       Hint: Likes
       Value: 12

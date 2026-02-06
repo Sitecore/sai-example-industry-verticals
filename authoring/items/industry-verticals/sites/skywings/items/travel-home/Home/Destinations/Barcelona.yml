@@ -14,7 +14,7 @@ SharedFields:
 - ID: "29db1d43-1ca3-4936-8add-f0ae3546faa5"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/c2e364f0e0d045e2916b8462bb203ec2?v=b7bedaf4" dam-id="gIT5_e5NRkS9TVtvJ2_FIw" width="1344" height="768" alt="barcelona.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/71321/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/c2e364f0e0d045e2916b8462bb203ec2?v=b7bedaf4" dam-id="gIT5_e5NRkS9TVtvJ2_FIw" width="1344" height="768" alt="barcelona.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/71321/thumbnail" />
 - ID: "3e3bc290-3383-41c1-b7a6-e969010b0209"
   Hint: NumberOfReviews
   Value: 34
@@ -28,7 +28,7 @@ SharedFields:
 - ID: "7eb8d23c-80de-448b-9793-a330f5702fae"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/c2e364f0e0d045e2916b8462bb203ec2?v=b7bedaf4" dam-id="gIT5_e5NRkS9TVtvJ2_FIw" width="1344" height="768" alt="barcelona.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/71321/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/c2e364f0e0d045e2916b8462bb203ec2?v=b7bedaf4" dam-id="gIT5_e5NRkS9TVtvJ2_FIw" width="1344" height="768" alt="barcelona.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/71321/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 700
@@ -51,7 +51,7 @@ SharedFields:
     {BF4C931B-347A-439E-88C2-1E6EAE7EF8AC}
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "9a575a0e-d302-4978-8cbb-9231cd2679b9"
+  Value: "d7c04d06-470a-4123-bc91-acd9d064f50e"
 - ID: "e2414def-999b-439a-b071-ff6a86838924"
   Hint: Highlights
   Value: |
@@ -125,7 +125,7 @@ Languages:
       Value: City
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5e243bf9-2c7b-4767-90f0-59524cedebb6"
+      Value: "34a8f864-54a4-4b71-b047-af27759b97ef"
     - ID: "8dd6625c-72c1-4780-8c4a-caca6e16c39a"
       Hint: TripDuration
       Value: 5
@@ -147,7 +147,7 @@ Languages:
       Value: up to 90 days
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105947Z
+      Value: 20260205T093041Z
     - ID: "df3123e3-ca29-48e7-a4eb-ceeba8226574"
       Hint: Language
       Value: Spanish, Catalan

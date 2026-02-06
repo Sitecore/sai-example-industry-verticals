@@ -21,18 +21,18 @@ SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/43a2e3838bb04bbdbffcfca55d10f043?v=2c35bf2d" dam-id="8p-5gob6Toi7hKmpyxDyaA" width="350" height="350" alt="revenue-cycle-management-dashboard-vCjksdb8x5fsvsaEsPRC6h83RhOpZp.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/74528/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/43a2e3838bb04bbdbffcfca55d10f043?v=2c35bf2d" dam-id="8p-5gob6Toi7hKmpyxDyaA" width="350" height="350" alt="revenue-cycle-management-dashboard-vCjksdb8x5fsvsaEsPRC6h83RhOpZp.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/74528/thumbnail" />
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/057441ed854040538a6707800e1549ee?v=24605f6f" dam-id="8p-5gob6Toi7hKmpyxDyaA" width="1024" height="1024" alt="revenue-cycle-management-dashboard-vCjksdb8x5fsvsaEsPRC6h83RhOpZp.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/74528/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/057441ed854040538a6707800e1549ee?v=24605f6f" dam-id="8p-5gob6Toi7hKmpyxDyaA" width="1024" height="1024" alt="revenue-cycle-management-dashboard-vCjksdb8x5fsvsaEsPRC6h83RhOpZp.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/74528/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{866675AF-1B8D-4CB8-8508-D1EF7DB6EA2D}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "60004bde-bb4d-4dbe-8d03-57a81095acc5"
+  Value: "f061b41c-4254-4907-be85-0c2a26f74218"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -80,7 +80,7 @@ Languages:
       Value: "Gridwell continuously balances electricity supply and demand to keep the power grid stable and reliable. Using advanced forecasting, real-time monitoring, and expert operators, Gridwell ensures that generation resources match demand every second—integrating renewables while preventing outages across Texas."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0258c26e-18cc-4d7d-84a7-78b1c000edc6"
+      Value: "0049b2ff-56ca-4ef9-b023-9459c94807aa"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "Behind the Scenes: How Gridwell Balances Supply and Demand"
@@ -90,7 +90,7 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105846Z
+      Value: 20260205T090606Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: "Behind the Scenes: How Gridwell Balances Supply and Demand"

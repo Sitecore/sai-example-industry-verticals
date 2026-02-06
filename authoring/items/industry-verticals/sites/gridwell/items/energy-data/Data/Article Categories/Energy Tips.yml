@@ -6,11 +6,11 @@ Path: "/sitecore/content/industry-verticals/gridwell/Data/Article Categories/Ene
 SharedFields:
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "0c551735-8860-4705-9ceb-7c60de1bd21e"
+  Value: "9938ad43-2f06-452a-8f77-3e8d157cc317"
 - ID: "f258fdef-13ab-4614-93ff-ac8487d0e8ab"
   Hint: CategoryIcon
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/82118-LandingPageHero-2000x600?v=166a31f2" dam-id="BHyga6M0R4-O3CxKzbGRDw" width="2000" height="600" alt="lightbulb.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/82118/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/82118-LandingPageHero-2000x600?v=166a31f2" dam-id="BHyga6M0R4-O3CxKzbGRDw" width="2000" height="600" alt="lightbulb.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/82118/thumbnail" />
 Languages:
 - Language: en
   Versions:
@@ -32,14 +32,14 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fb7706de-3030-4e52-ab00-c118f9a2f84f"
+      Value: "25d20eda-d6c7-49dc-ac8e-407ef82ed237"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105847Z
+      Value: 20260205T090608Z
     - ID: "f9fd853f-2691-40b4-81d1-00ccf1a6cc06"
       Hint: Category
       Value: Energy Tips

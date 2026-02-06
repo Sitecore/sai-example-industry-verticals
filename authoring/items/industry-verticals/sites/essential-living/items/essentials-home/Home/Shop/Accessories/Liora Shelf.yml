@@ -18,15 +18,15 @@ SharedFields:
 - ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
   Hint: Image2
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/77956-HomePageHero-2000x800?v=7170738b" dam-id="ySlxTQTDSE-zFGCRFoIcKQ" width="2000" height="800" alt="ShelfZ_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/77956/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/77956-HomePageHero-2000x800?v=7170738b" dam-id="ySlxTQTDSE-zFGCRFoIcKQ" width="2000" height="800" alt="ShelfZ_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/77956/thumbnail" />
 - ID: "9a62ea92-04df-49e2-ab37-00d251d0cc22"
   Hint: Image4
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/77957-HomePageHero-2000x800?v=0020b0cc" dam-id="ixh_kv-oRr-G4__uNMC4Cw" width="2000" height="800" alt="ShelfZ_3.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/77957/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/77957-HomePageHero-2000x800?v=0020b0cc" dam-id="ixh_kv-oRr-G4__uNMC4Cw" width="2000" height="800" alt="ShelfZ_3.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/77957/thumbnail" />
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/77955-LandingPageHero-2000x600?v=3b94a6da" dam-id="jmwK5kwhT32NoNnl-4j_0Q" width="2000" height="600" alt="ShelfZ_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/77955/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/77955-LandingPageHero-2000x600?v=3b94a6da" dam-id="jmwK5kwhT32NoNnl-4j_0Q" width="2000" height="600" alt="ShelfZ_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/77955/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -37,10 +37,10 @@ SharedFields:
 - ID: "d9c8ae87-80fc-460b-9140-3db7358b1c8e"
   Hint: Image3
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/77961-HomepagePromoCTAs-1100x740?v=29506242" dam-id="Jf1g02RWSK6NtYkP28NnFg" width="1100" height="740" alt="ShelfZ_4.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/77961/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/77961-HomepagePromoCTAs-1100x740?v=29506242" dam-id="Jf1g02RWSK6NtYkP28NnFg" width="1100" height="740" alt="ShelfZ_4.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/77961/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "f687383f-063d-4fa2-bad4-c7c9c64ba67a"
+  Value: "59d8367c-7a9d-4eb9-a0d9-bac0c4903d05"
 Languages:
 - Language: en
   Versions:
@@ -63,7 +63,7 @@ Languages:
       Value: Liora Shelf
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4e4e2d79-2825-4723-a5b5-e68fe6d0bee9"
+      Value: "cbcc3d37-5280-40a0-9a11-e46e96ae3f87"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -73,4 +73,4 @@ Languages:
       Value: Liora Shelf
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105817Z
+      Value: 20260205T092909Z

@@ -2,7 +2,7 @@
 ID: "75634ba5-e3f5-4582-a99a-913a05fcba63"
 Parent: "c4ed2903-ef83-4e44-bdc0-0559c8ba66b7"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: "/sitecore/templates/Project/industry-verticals/Components/Energy Grid/Grid Demand/Rendering Parameters/GridDemand Parameters/Visual Accents"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Energy Grid/Grid Demand/Rendering Parameters/GridDemand Parameters/Data Generation"
 Languages:
 - Language: en
   Versions:
@@ -21,11 +21,11 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1de1e8b2-8162-45cd-a92d-71f595eaf5cb"
+      Value: "06bf05b1-0637-4239-ad8e-6ef8ec00f60d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\neli.kostadinova@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251117T131944Z
+      Value: 20260204T094258Z

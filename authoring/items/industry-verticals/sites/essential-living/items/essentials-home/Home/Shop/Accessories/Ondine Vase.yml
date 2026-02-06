@@ -22,11 +22,11 @@ SharedFields:
 - ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
   Hint: Image2
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78066-HomePageHero-2000x800?v=a9924cd0" dam-id="hj9KAyPsSFCILijhZkajXw" width="2000" height="800" alt="Vase_3_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78066/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78066-HomePageHero-2000x800?v=a9924cd0" dam-id="hj9KAyPsSFCILijhZkajXw" width="2000" height="800" alt="Vase_3_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78066/thumbnail" />
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78065-HomePageHero-2000x800?v=2fa7a967" dam-id="9GsL5noCTZq3p-bezBoM1w" width="2000" height="800" alt="Vase_3_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78065/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78065-HomePageHero-2000x800?v=2fa7a967" dam-id="9GsL5noCTZq3p-bezBoM1w" width="2000" height="800" alt="Vase_3_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78065/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -36,7 +36,7 @@ SharedFields:
   Value: "{887FB994-F608-4229-8C2A-3CC886C799FA}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "91031901-f679-4653-a90d-9e15c2d07314"
+  Value: "6385d806-2bfa-4763-91d3-8499ea981de8"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -74,7 +74,7 @@ Languages:
       Value: Ondine Vase
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c82717bf-deed-4594-b599-5eb4e59b8cb1"
+      Value: "1fa684c4-bba4-4d8f-96d9-5a56544084d1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -84,4 +84,4 @@ Languages:
       Value: Ondine Vase
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105817Z
+      Value: 20260205T092909Z

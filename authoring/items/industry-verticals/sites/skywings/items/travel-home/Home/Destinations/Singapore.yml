@@ -12,7 +12,7 @@ SharedFields:
 - ID: "29db1d43-1ca3-4936-8add-f0ae3546faa5"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/79292-HomePageHero-2000x800?v=cdf03aa1" dam-id="za5Vv-aqQ2GlBMEkaS6qbg" width="2000" height="800" alt="singapore.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/79292/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/79292-HomePageHero-2000x800?v=cdf03aa1" dam-id="za5Vv-aqQ2GlBMEkaS6qbg" width="2000" height="800" alt="singapore.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79292/thumbnail" />
 - ID: "3e3bc290-3383-41c1-b7a6-e969010b0209"
   Hint: NumberOfReviews
   Value: 37
@@ -24,7 +24,7 @@ SharedFields:
 - ID: "7eb8d23c-80de-448b-9793-a330f5702fae"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/79292-HomePageHero-2000x800?v=cdf03aa1" dam-id="za5Vv-aqQ2GlBMEkaS6qbg" width="2000" height="800" alt="singapore.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/79292/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/79292-HomePageHero-2000x800?v=cdf03aa1" dam-id="za5Vv-aqQ2GlBMEkaS6qbg" width="2000" height="800" alt="singapore.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79292/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 300
@@ -44,7 +44,7 @@ SharedFields:
     {82BB0E1A-F7C5-41BD-84C4-08A717790E6C}
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "65b12ce9-9f00-4509-a643-cdd02238b5ab"
+  Value: "6afc118c-0722-47ae-aba8-51b3fc9f3027"
 - ID: "e2414def-999b-439a-b071-ff6a86838924"
   Hint: Highlights
   Value: |
@@ -124,7 +124,7 @@ Languages:
       Value: Urban Luxury
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "da389773-4c1d-4d28-bd29-164431062464"
+      Value: "f50baece-64fb-4f85-bd3a-5057eb92f46c"
     - ID: "8dd6625c-72c1-4780-8c4a-caca6e16c39a"
       Hint: TripDuration
       Value: 3–5 days
@@ -146,7 +146,7 @@ Languages:
       Value: "Most travelers receive 30–90 days visa-free"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105947Z
+      Value: 20260205T093041Z
     - ID: "df3123e3-ca29-48e7-a4eb-ceeba8226574"
       Hint: Language
       Value: English, Mandarin, Malay

@@ -33,15 +33,15 @@ Languages:
       Value: Capilano Suspension Bridge Park
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ada65dd2-ad62-41f8-94d1-0fe3846dca30"
+      Value: "a34421d4-1ca6-41e5-adf1-72e4c73c63bf"
     - ID: "a38e449c-2d54-4b00-894c-8b84f7952a15"
       Hint: Image
       Value: |
-        <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/80644-HomePageHero-2000x800?v=a07a8777" dam-id="RLOvnYq9QhOZEcEB7OB79Q" width="2000" height="800" alt="Capilano Suspension Bridge Park.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/80644/thumbnail" />
+        <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/80644-HomePageHero-2000x800?v=a07a8777" dam-id="RLOvnYq9QhOZEcEB7OB79Q" width="2000" height="800" alt="Capilano Suspension Bridge Park.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/80644/thumbnail" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105953Z
+      Value: 20260205T093047Z

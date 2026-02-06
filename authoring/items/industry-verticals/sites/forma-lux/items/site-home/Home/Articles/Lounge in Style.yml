@@ -7,18 +7,18 @@ SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/76512-HomePageHero-2000x800?v=0dacb733" dam-id="nlrOdwl9RkOdpH24S81uag" width="2000" height="800" alt="classic.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76512/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/76512-HomePageHero-2000x800?v=0dacb733" dam-id="nlrOdwl9RkOdpH24S81uag" width="2000" height="800" alt="classic.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/76512/thumbnail" />
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/76512-LandingPageHero-2000x600?v=5b04c6d0" dam-id="nlrOdwl9RkOdpH24S81uag" width="2000" height="600" alt="classic.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76512/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/76512-LandingPageHero-2000x600?v=5b04c6d0" dam-id="nlrOdwl9RkOdpH24S81uag" width="2000" height="600" alt="classic.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/76512/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{83E047CE-4388-4F9C-A397-2C25785A25E4}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "714a30a0-1f87-435a-ba3c-410628fadbf6"
+  Value: "50549dd2-99eb-477f-a74d-16b49350baaf"
 Languages:
 - Language: en
   Fields:
@@ -65,7 +65,7 @@ Languages:
       Value: Learn how to select the ideal modern sofa for your home. Explore tips on size, configuration, fabric choices, and styling with pillows, throws, and coffee tables to make your sofa the design hero.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "dcb2deb4-11f9-43d3-95b5-0c2b9cedd8d5"
+      Value: "0575b6a7-de44-4ad1-bd6d-e449547e11c9"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "Lounge in Style: Choosing the Right Modern Sofa for Your Space"
@@ -75,7 +75,7 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T112117Z
+      Value: 20260203T082513Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: "Lounge in Style: Choosing the Right Modern Sofa for Your Space"

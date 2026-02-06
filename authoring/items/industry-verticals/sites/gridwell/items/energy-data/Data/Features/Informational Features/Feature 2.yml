@@ -7,10 +7,10 @@ SharedFields:
 - ID: "83bc80ee-e97a-474b-8c05-a2559394eebe"
   Hint: FeatureImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/81850-HomepagePromoCTAs-1100x740?v=40cd5c94" dam-id="8AtkGrBESKmNlOVcc4hH3w" width="1100" height="740" alt="Time Clock Icon.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/81850/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/81850-HomepagePromoCTAs-1100x740?v=40cd5c94" dam-id="8AtkGrBESKmNlOVcc4hH3w" width="1100" height="740" alt="Time Clock Icon.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/81850/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "81827a7e-88dd-4ea4-92f1-5bfaebc37ac4"
+  Value: "9ac313e6-ea18-44c5-b8da-80fb3306deaa"
 Languages:
 - Language: en
   Versions:
@@ -38,11 +38,11 @@ Languages:
       Value: Shift Usage Times
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "37b9df34-a939-4022-9fe0-9b627ccb2c24"
+      Value: "66887f47-d00b-4237-a24f-e11d44546576"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105848Z
+      Value: 20260205T090609Z

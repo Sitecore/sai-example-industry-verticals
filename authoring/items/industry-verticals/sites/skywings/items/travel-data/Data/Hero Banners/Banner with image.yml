@@ -7,10 +7,10 @@ SharedFields:
 - ID: "00b71f70-411d-4ea1-a423-74ed20b60157"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/921360c84bdf415f8ac85a582f29fcb0?v=c7501288" dam-id="A8URSjY8QqGi4A-K66deVw" width="1536" height="1024" alt="SkyWings-A380-sunset.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/68286/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/921360c84bdf415f8ac85a582f29fcb0?v=c7501288" dam-id="A8URSjY8QqGi4A-K66deVw" width="1536" height="1024" alt="SkyWings-A380-sunset.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/68286/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "c3520310-3aa9-42a3-93c8-7a1b3d9a68b0"
+  Value: "23e51650-628d-41f4-bf10-f11e9ae4f668"
 Languages:
 - Language: en
   Versions:
@@ -36,7 +36,7 @@ Languages:
         sitecore\tharuka.bandara@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "93a91a17-6f28-41d7-b795-b16413e24aa6"
+      Value: "91f4e7c3-c4bd-445a-a391-3fa32a69f402"
     - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
       Hint: Title
       Value: Fly to Your Dreams
@@ -46,4 +46,4 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105950Z
+      Value: 20260205T093044Z

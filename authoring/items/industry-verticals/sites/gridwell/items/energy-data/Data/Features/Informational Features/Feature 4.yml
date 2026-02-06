@@ -7,10 +7,10 @@ SharedFields:
 - ID: "83bc80ee-e97a-474b-8c05-a2559394eebe"
   Hint: FeatureImage
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/81852-HomepagePromoCTAs-1100x740?v=7b0e3e55" dam-id="w3xkOyLuQG6hKEQkLkhuPA" width="1100" height="740" alt="Home Icon.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/81852/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/81852-HomepagePromoCTAs-1100x740?v=7b0e3e55" dam-id="w3xkOyLuQG6hKEQkLkhuPA" width="1100" height="740" alt="Home Icon.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/81852/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "0c4d2fb3-7888-4414-972c-ea08bc708de1"
+  Value: "2f62c229-1043-4338-b866-f962a5021b8c"
 Languages:
 - Language: en
   Versions:
@@ -38,11 +38,11 @@ Languages:
       Value: Close Blinds & Curtains
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a7e0368c-4c27-487f-8b1f-9d3849b17a8b"
+      Value: "78d10f27-4995-408c-ae57-77dc8f34a6b0"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105849Z
+      Value: 20260205T090609Z

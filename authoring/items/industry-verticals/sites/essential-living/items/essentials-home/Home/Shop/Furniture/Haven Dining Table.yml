@@ -17,11 +17,11 @@ SharedFields:
 - ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
   Hint: Image2
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78260-HomePageHero-2000x800?v=bc6e18da" dam-id="w6PHAbaxSGawemNaK6LYaA" width="2000" height="800" alt="dining_table_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78260/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78260-HomePageHero-2000x800?v=bc6e18da" dam-id="w6PHAbaxSGawemNaK6LYaA" width="2000" height="800" alt="dining_table_2.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78260/thumbnail" />
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78264-HomePageHero-2000x800?v=0d2bf19c" dam-id="7u-eKMbrRz-yxfEOcvvveg" width="2000" height="800" alt="dining_table_3.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78264/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78264-HomePageHero-2000x800?v=0d2bf19c" dam-id="7u-eKMbrRz-yxfEOcvvveg" width="2000" height="800" alt="dining_table_3.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78264/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -32,10 +32,10 @@ SharedFields:
 - ID: "d9c8ae87-80fc-460b-9140-3db7358b1c8e"
   Hint: Image3
   Value: |
-    <Image src="https://starter-verticals-v2.sitecoresandbox.cloud/api/public/content/78262-HomePageHero-2000x800?v=5b6b8cd4" dam-id="U0PyTHZdRVaDMa_QO2m6lg" width="2000" height="800" alt="dining_table_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-v2.sitecoresandbox.cloud/api/gateway/78262/thumbnail" />
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78262-HomePageHero-2000x800?v=5b6b8cd4" dam-id="U0PyTHZdRVaDMa_QO2m6lg" width="2000" height="800" alt="dining_table_1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78262/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "2d85b90e-36c5-4072-bf96-d41914402983"
+  Value: "d8f6c1c8-b2a8-48cb-95b1-7b83b53d9305"
 Languages:
 - Language: en
   Versions:
@@ -58,7 +58,7 @@ Languages:
       Value: Haven Dining Table
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5190e963-e9a1-458b-b43c-5093ba7d784f"
+      Value: "f2526a2b-e5b6-4641-94ad-9bbd815f3c6c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -68,4 +68,4 @@ Languages:
       Value: Haven Dining Table
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T105818Z
+      Value: 20260205T092910Z
