@@ -3,6 +3,15 @@ ID: "d44762d3-2ee6-4b79-a594-7528067fd8e2"
 Parent: "054eab04-7cbe-466e-a8a7-889364e15fc9"
 Template: "0cb3fc95-fea8-40eb-9560-158e7d92a3a4"
 Path: "/sitecore/content/industry-verticals/essential-living/Data/Selected Products/Most Popular Lighting"
+SharedFields:
+- ID: "c3fb8c52-2f64-45bc-9970-ea340d7271fa"
+  Hint: ProductsList
+  Value: |
+    {776A31BF-6ADA-476E-9F5C-92D8152846EA}
+    {20775BFC-50D7-4EA4-B9ED-FA330D8E1945}
+    {5D76AAB1-03F4-40CE-A886-33B0379750F6}
+    {7D66D244-F5D4-430F-8A3C-F353B8412CAE}
+    {DB37214E-E6ED-45D6-9080-D404A34DF4CF}
 Languages:
 - Language: en
   Versions:
@@ -32,14 +41,6 @@ Languages:
       Hint: __Updated by
       Value: |
         sitecore\sanduni.galagoda@sitecore.com
-    - ID: "c3fb8c52-2f64-45bc-9970-ea340d7271fa"
-      Hint: ProductsList
-      Value: |
-        {776A31BF-6ADA-476E-9F5C-92D8152846EA}
-        {20775BFC-50D7-4EA4-B9ED-FA330D8E1945}
-        {5D76AAB1-03F4-40CE-A886-33B0379750F6}
-        {7D66D244-F5D4-430F-8A3C-F353B8412CAE}
-        {DB37214E-E6ED-45D6-9080-D404A34DF4CF}
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251117T134210Z

@@ -3,6 +3,13 @@ ID: "ce5139d3-e193-4b47-9d48-aa0aeaf3eead"
 Parent: "43c085ed-2d29-4012-bc7e-fc2a60804fca"
 Template: "4aeaa1d5-0823-461d-8d2d-94286a5de0a6"
 Path: "/sitecore/content/industry-verticals/nova-medical/Data/Patients Reviews/Reviews Section"
+SharedFields:
+- ID: "4952a853-becb-4896-95db-c32559e99f99"
+  Hint: Reviews
+  Value: |
+    {BE74EDC1-DD17-4F50-A762-F2355A1CC474}
+    {20C6CCB7-64BD-4685-A3FF-DF45DBFAB252}
+    {2314FD05-DAE0-479E-81FF-F2E208FFBA8D}
 Languages:
 - Language: en
   Versions:
@@ -14,12 +21,6 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251118T101437Z
-    - ID: "4952a853-becb-4896-95db-c32559e99f99"
-      Hint: Reviews
-      Value: |
-        {BE74EDC1-DD17-4F50-A762-F2355A1CC474}
-        {20C6CCB7-64BD-4685-A3FF-DF45DBFAB252}
-        {2314FD05-DAE0-479E-81FF-F2E208FFBA8D}
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |

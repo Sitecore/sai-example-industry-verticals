@@ -2,7 +2,7 @@
 ID: "8eb52c3f-0da7-4370-97b4-6660650496c5"
 Parent: "512ce8b8-dd53-49fd-bf64-c489b7191331"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: "/sitecore/templates/Project/industry-verticals/Components/Navigation/SocialFollow/SocialFollow/Promo/LinkedinLink"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Navigation/SocialFollow/SocialFollow/Data/LinkedinLink"
 SharedFields:
 - ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
   Hint: Source

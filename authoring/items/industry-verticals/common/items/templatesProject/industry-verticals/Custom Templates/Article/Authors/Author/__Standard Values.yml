@@ -3,6 +3,13 @@ ID: "29ab004e-8264-4ffd-a61e-5b23364fd8b0"
 Parent: "ae7c9fa3-f2cb-4a02-8781-789897e12044"
 Template: "ae7c9fa3-f2cb-4a02-8781-789897e12044"
 Path: "/sitecore/templates/Project/industry-verticals/Custom Templates/Article/Authors/Author/__Standard Values"
+SharedFields:
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "595bdf9a-79c6-4d56-8005-9b6d17bf7f12"
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Value: 1
 Languages:
 - Language: en
   Versions:
@@ -24,11 +31,11 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9373aa52-e80f-4475-90e2-68895bcf3ad8"
+      Value: "4bf080bd-7755-435d-ac25-174898469062"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\neli.kostadinova@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260126T102004Z
+      Value: 20260213T062828Z

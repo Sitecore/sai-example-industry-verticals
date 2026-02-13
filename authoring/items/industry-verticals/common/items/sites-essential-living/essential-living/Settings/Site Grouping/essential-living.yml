@@ -17,9 +17,15 @@ SharedFields:
 - ID: "6dd8a774-2ce5-4c9e-be7f-1eaf65789956"
   Hint: ThumbnailsRootPath
   Value: "{8205F3BA-7037-4AF4-A5D2-3B1D5EBA7689}"
+- ID: "6e6da5b0-8d01-4514-b7dd-1940aff3e8cd"
+  Hint: FieldLanguageFallback
+  Value: 1
 - ID: "85a7501a-86d9-4243-9075-0b727c3a6db4"
   Hint: Name
   Value: Essential Living
+- ID: "8c436235-b85d-4097-89cf-d5a4fa70cc0a"
+  Hint: ItemLanguageFallback
+  Value: 1
 - ID: "8e0dd914-9afb-4d45-bf8b-7ff5d6e5337e"
   Hint: HostName
   Value: *
@@ -34,7 +40,7 @@ SharedFields:
   Value: *
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "c53f94d4-a24f-490f-b858-855acbad7643"
+  Value: "7c850be0-bc8c-4e7d-9562-3f188e998311"
 - ID: "f57099a3-526a-49f2-aebd-635453e48875"
   Hint: RenderingHost
   Value: "luxury-retail"
@@ -59,11 +65,11 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5b9e0a91-a940-445e-a4e6-2b6b8b64e93a"
+      Value: "7badeede-14ac-4732-89e6-3c6cd813be77"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\neli.kostadinova@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251111T120910Z
+      Value: 20260213T053312Z
