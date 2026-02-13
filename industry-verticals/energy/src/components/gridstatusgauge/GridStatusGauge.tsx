@@ -13,8 +13,8 @@ export const Default = (props: GridStatusGaugeProps) => {
   const bars = 10;
 
   return (
-    <div className={`p-4 md:p-6 ${styles}`} id={id}>
-      <div className="container flex flex-col items-center rounded-xl border p-10 shadow-sm">
+    <div className={`container py-10 ${styles}`} id={id}>
+      <div className="flex flex-col items-center rounded-xl border p-10 shadow-sm">
         {/* Title */}
         <h2 className="text-foreground mb-6 text-center text-3xl font-bold">
           {t('grid_conditions_status_title') || 'Grid Conditions'}
