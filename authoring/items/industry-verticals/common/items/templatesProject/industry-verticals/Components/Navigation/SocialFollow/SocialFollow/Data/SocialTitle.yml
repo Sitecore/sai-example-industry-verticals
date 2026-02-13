@@ -2,17 +2,17 @@
 ID: "24cc1760-4aac-4105-818f-4a17ffd733b7"
 Parent: "512ce8b8-dd53-49fd-bf64-c489b7191331"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: "/sitecore/templates/Project/industry-verticals/Components/Navigation/SocialFollow/SocialFollow/Promo/SocialTitle"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Navigation/SocialFollow/SocialFollow/Data/SocialTitle"
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: "Single-Line Text"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 0
+  Value: 50
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "2eaafbbb-6206-46aa-a32d-33d122b62401"
+  Value: "82a9c705-657f-4151-994c-60d33af31c22"
 Languages:
 - Language: en
   Fields:
@@ -38,11 +38,11 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "64604cef-5930-442c-a4b9-a56e8ed4a1ce"
+      Value: "c50db886-a68d-4110-8ea2-b9e3ed572d29"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\neli.kostadinova@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250901T105730Z
+      Value: 20260213T063534Z

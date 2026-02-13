@@ -3,6 +3,11 @@ ID: "14f48657-4ce8-4c34-9404-2a490e74c47b"
 Parent: "4b3afc9d-9a90-4186-bed3-73aaa5c7cecd"
 Template: "9baa006b-188e-42ef-8f5c-5f623395ed7d"
 Path: "/sitecore/content/industry-verticals/essential-living/Data/Navigation Icons/Header Navigation Icons"
+SharedFields:
+- ID: "f4d4d1d7-9afb-43e6-833e-9bb3a6a4d233"
+  Hint: CheckoutPage
+  Value: |
+    <link class="" querystring="" id="9b452219-ba6e-4b70-827f-47e41f1f6f50" anchor="" target="" title="" linktype="internal" text="Go to checkout" url="/industry-verticals/essential-living/Home/Checkout" />
 Languages:
 - Language: en
   Versions:
@@ -32,7 +37,3 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251127T103508Z
-    - ID: "f4d4d1d7-9afb-43e6-833e-9bb3a6a4d233"
-      Hint: CheckoutPage
-      Value: |
-        <link class="" querystring="" id="9b452219-ba6e-4b70-827f-47e41f1f6f50" anchor="" target="" title="" linktype="internal" text="Go to checkout" url="/industry-verticals/essential-living/Home/Checkout" />

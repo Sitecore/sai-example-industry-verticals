@@ -9,7 +9,7 @@ SharedFields:
   Value: "query:$siteMedia"
 - ID: "24cb32f0-e364-4f37-b400-0f2899097b5b"
   Hint: Enable Shared Language Fallback
-  Value: 1
+  Value: 
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: Image
@@ -21,7 +21,7 @@ SharedFields:
   Value: 1
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "6a61d3c3-18d1-4436-acd6-e133e50afe36"
+  Value: "9f829752-3091-4cd8-94dd-7336b6c7bcd2"
 Languages:
 - Language: "de-DE"
   Fields:
@@ -71,20 +71,20 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20111206T110700
+      Value: 20111206T110700Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "40eb1a64-cf27-4a31-a32a-b78992897c48"
+      Value: "329d6ec5-6941-438b-8717-71560f974e60"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\neli.kostadinova@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251124T103549Z
+      Value: 20260213T060445Z
     - ID: "fa622538-0c13-4130-a001-45984241aa00"
       Hint: Enable Language Fallback
-      Value: 1
+      Value: 
 - Language: "ja-JP"
   Fields:
   - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"

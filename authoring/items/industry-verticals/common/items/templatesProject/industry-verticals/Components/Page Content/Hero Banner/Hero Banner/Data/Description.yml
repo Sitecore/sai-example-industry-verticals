@@ -9,7 +9,7 @@ SharedFields:
   Value: "query:$xaRichTextProfile"
 - ID: "24cb32f0-e364-4f37-b400-0f2899097b5b"
   Hint: Enable Shared Language Fallback
-  Value: 1
+  Value: 
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: Rich Text
@@ -18,7 +18,7 @@ SharedFields:
   Value: 400
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "df6ecdfa-9095-48ab-a411-28638855b2f6"
+  Value: "760bdcb8-d77e-4a7a-8bb6-d9d279056daa"
 Languages:
 - Language: "de-DE"
   Fields:
@@ -68,24 +68,24 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20141106T115010
+      Value: 20141106T115010Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\adamnaj
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7c62c072-481b-4b3f-8afa-3c8550baf6c8"
+      Value: "9d3592a1-5f07-4642-b1b4-9d077b8b5721"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\tharuka.bandara@sitecore.com
+        sitecore\neli.kostadinova@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260115T093652Z
+      Value: 20260213T055631Z
     - ID: "fa622538-0c13-4130-a001-45984241aa00"
       Hint: Enable Language Fallback
-      Value: 1
+      Value: 
 - Language: "ja-JP"
   Fields:
   - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"

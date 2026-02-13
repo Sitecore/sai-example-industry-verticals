@@ -3,6 +3,13 @@ ID: "01bffb10-3c58-413d-baee-4cb248054665"
 Parent: "55f6c4e8-2c19-4a56-8fd3-66b60f1b281a"
 Template: "55f6c4e8-2c19-4a56-8fd3-66b60f1b281a"
 Path: "/sitecore/templates/Project/industry-verticals/Custom Templates/Products/Product Color/Product Color/__Standard Values"
+SharedFields:
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "3142a98c-5ca1-4b10-acd5-bc4421e6c21f"
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Value: 1
 Languages:
 - Language: en
   Versions:
@@ -24,11 +31,11 @@ Languages:
       Value: $name
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7bd028ab-8c4d-4ba8-afcb-7f8a3744ef8e"
+      Value: "f1a0cb33-1b69-4986-805b-dd59be323930"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\neli.kostadinova@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251117T112347Z
+      Value: 20260213T062729Z

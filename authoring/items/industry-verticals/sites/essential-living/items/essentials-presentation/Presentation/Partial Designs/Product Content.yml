@@ -13,7 +13,7 @@ SharedFields:
     <image mediaid="{7E0C10F0-E7DB-400F-9797-4C9E40169B98}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "f1d91b64-3b24-4cdd-866e-048738c534c0"
+  Value: "b3e0ce0c-4eb7-4440-9ef8-8b6996d4d295"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -43,6 +43,9 @@ SharedFields:
           s:ph="headless-main" />
       </d>
     </r>
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Value: 1
 Languages:
 - Language: en
   Versions:
@@ -64,11 +67,11 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9e2563b8-b587-4295-a2e5-ea9149fdbd74"
+      Value: "3f7c1e9b-4a27-41be-9fc6-a2683ecf7d0c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\neli.kostadinova@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260205T092912Z
+      Value: 20260213T054457Z

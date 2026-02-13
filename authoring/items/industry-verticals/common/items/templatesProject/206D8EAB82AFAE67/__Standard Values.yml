@@ -3,6 +3,13 @@ ID: "6c951601-d172-4bb2-bbce-824374c8bbb4"
 Parent: "5635eaab-28a6-4783-a10e-c4f9b1b99bba"
 Template: "5635eaab-28a6-4783-a10e-c4f9b1b99bba"
 Path: "/sitecore/templates/Project/industry-verticals/Custom Templates/Products/Prodcut Categories/Product Category/__Standard Values"
+SharedFields:
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "c5c118c0-ba38-4463-8858-b6d2a6043d04"
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Value: 1
 Languages:
 - Language: en
   Versions:
@@ -21,14 +28,14 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "771fb5a9-e04d-4bfc-9c27-dfb88f0b3913"
+      Value: "6511c976-10f6-4ee5-9c60-48def4ff716a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\neli.kostadinova@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251117T104822Z
+      Value: 20260213T062744Z
     - ID: "fe0c006b-d8ca-442a-943a-566a619d913c"
       Hint: CategoryName
       Value: $name

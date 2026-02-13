@@ -16,9 +16,12 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 100
+- ID: "be351a73-fcb0-4213-93fa-c302d8ab4f51"
+  Hint: Shared
+  Value: 1
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "2bd199c6-0071-4890-a7f9-2d243805b680"
+  Value: "1742b870-65b7-4fd9-90a7-92ae24314589"
 Languages:
 - Language: "de-DE"
   Fields:
@@ -71,14 +74,14 @@ Languages:
       Value: 20111213T143500
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5e1d73a5-8289-44bd-b8c3-3fa97525baec"
+      Value: "d1da3235-e9d6-4834-b7dd-1cfa11b3141a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\neli.kostadinova@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251121T104439Z
+      Value: 20260213T061819Z
     - ID: "fa622538-0c13-4130-a001-45984241aa00"
       Hint: Enable Language Fallback
       Value: 1

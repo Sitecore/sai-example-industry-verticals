@@ -3,6 +3,11 @@ ID: "0e875c09-1c1a-4b22-9cc1-33e14b2c02cd"
 Parent: "7a2bb670-2048-43bf-a4eb-a59d64f01f11"
 Template: "9baa006b-188e-42ef-8f5c-5f623395ed7d"
 Path: "/sitecore/content/industry-verticals/forma-lux/Data/Navigation Icons/Header Navigation Items"
+SharedFields:
+- ID: "f4d4d1d7-9afb-43e6-833e-9bb3a6a4d233"
+  Hint: CheckoutPage
+  Value: |
+    <link class="" id="f91dacac-c5bf-4539-94a3-6e5f2187e152" querystring="" anchor="" target="" title="" linktype="internal" text="Aller à la caisse" url="/industry-verticals/forma-lux/Home/Checkout" />
 Languages:
 - Language: en
   Versions:
@@ -32,10 +37,6 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251127T103506Z
-    - ID: "f4d4d1d7-9afb-43e6-833e-9bb3a6a4d233"
-      Hint: CheckoutPage
-      Value: |
-        <link class="" querystring="" id="f91dacac-c5bf-4539-94a3-6e5f2187e152" anchor="" target="" title="" linktype="internal" text="Go to Checkout" url="/industry-verticals/forma-lux/Home/Checkout" />
 - Language: "es-ES"
   Versions:
   - Version: 1
@@ -67,10 +68,6 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251219T104340Z
-    - ID: "f4d4d1d7-9afb-43e6-833e-9bb3a6a4d233"
-      Hint: CheckoutPage
-      Value: |
-        <link class="" id="f91dacac-c5bf-4539-94a3-6e5f2187e152" querystring="" anchor="" target="" title="" linktype="internal" text="Ir a la caja" url="/industry-verticals/forma-lux/Home/Checkout" />
 - Language: "fr-CA"
   Versions:
   - Version: 1
@@ -102,10 +99,6 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251217T110149Z
-    - ID: "f4d4d1d7-9afb-43e6-833e-9bb3a6a4d233"
-      Hint: CheckoutPage
-      Value: |
-        <link class="" id="f91dacac-c5bf-4539-94a3-6e5f2187e152" querystring="" anchor="" target="" title="" linktype="internal" text="Aller à la caisse" url="/industry-verticals/forma-lux/Home/Checkout" />
 - Language: "fr-FR"
   Versions:
   - Version: 1
@@ -137,7 +130,3 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251217T104030Z
-    - ID: "f4d4d1d7-9afb-43e6-833e-9bb3a6a4d233"
-      Hint: CheckoutPage
-      Value: |
-        <link class="" id="f91dacac-c5bf-4539-94a3-6e5f2187e152" querystring="" anchor="" target="" title="" linktype="internal" text="Aller à la caisse" url="/industry-verticals/forma-lux/Home/Checkout" />

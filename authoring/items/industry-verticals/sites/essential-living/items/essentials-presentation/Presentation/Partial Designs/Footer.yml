@@ -13,7 +13,7 @@ SharedFields:
     <image mediaid="{A2DF9FE6-28CA-4B9E-A884-F876DA3F5C04}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "c2b2f842-b49f-49d2-86a6-6d7a71b2060a"
+  Value: "679971e5-646a-41e1-9bb3-90239639f0e7"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -65,6 +65,9 @@ SharedFields:
           s:ph="/headless-footer/footer-list-fifth-1" />
       </d>
     </r>
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Value: 1
 Languages:
 - Language: en
   Versions:
@@ -86,11 +89,11 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "710340f8-72d9-4618-bf8d-79fe34d25c42"
+      Value: "f9628dcb-1880-4f81-94f2-f807e9974682"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\neli.kostadinova@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251201T131808Z
+      Value: 20260213T054446Z

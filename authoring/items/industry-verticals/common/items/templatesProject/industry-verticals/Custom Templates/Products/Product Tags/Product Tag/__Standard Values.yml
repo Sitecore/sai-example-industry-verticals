@@ -3,6 +3,13 @@ ID: "f702b07b-85ec-4f48-8daa-8b1547db6331"
 Parent: "d96c025a-1d48-464b-9a72-327c8cc413bb"
 Template: "d96c025a-1d48-464b-9a72-327c8cc413bb"
 Path: "/sitecore/templates/Project/industry-verticals/Custom Templates/Products/Product Tags/Product Tag/__Standard Values"
+SharedFields:
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "e04a9b8f-eb51-42b7-88de-f499267e99db"
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Value: 1
 Languages:
 - Language: en
   Versions:
@@ -21,7 +28,7 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1d69c803-135a-433e-b883-0b125496a498"
+      Value: "23df6daa-1f25-41a2-b22c-63a334fca20a"
     - ID: "9ce1cd5e-556b-491f-87a9-4027294b99f8"
       Hint: Tag
       Value: $name
@@ -31,4 +38,4 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251117T112153Z
+      Value: 20260213T062105Z

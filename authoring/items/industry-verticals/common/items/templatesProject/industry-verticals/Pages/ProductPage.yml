@@ -20,10 +20,13 @@ SharedFields:
   Value: 0
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "c24b817f-96d2-4069-a887-1e19abf1a848"
+  Value: "402e2c04-1b1a-475c-8702-400de22cd3fd"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
   Value: "{BD568E58-11F9-473B-AF9A-F209EB93B082}"
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Value: 1
 Languages:
 - Language: en
   Versions:
@@ -42,11 +45,11 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "094ffa83-1d8c-4e3d-a0e7-fc7b672d4644"
+      Value: "3189b295-6f68-40ad-a633-b49908260741"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\neli.kostadinova@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251008T122221Z
+      Value: 20260213T064438Z

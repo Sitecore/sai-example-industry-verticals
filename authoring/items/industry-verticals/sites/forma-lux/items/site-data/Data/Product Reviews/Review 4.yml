@@ -4,6 +4,9 @@ Parent: "5e91146f-47cf-441c-afa3-2524d1b1bdd2"
 Template: "58a32680-fc59-49bc-890c-fd69f7a9cf1a"
 Path: "/sitecore/content/industry-verticals/forma-lux/Data/Product Reviews/Review 4"
 SharedFields:
+- ID: "43cdbc7e-aa68-4d04-a13b-2d027ef29368"
+  Hint: Rating
+  Value: 3
 - ID: "63ff7a9b-580a-4df9-8135-6cc1fc25a489"
   Hint: ReviewImage
   Value: |
@@ -23,9 +26,6 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251121T110205Z
-    - ID: "43cdbc7e-aa68-4d04-a13b-2d027ef29368"
-      Hint: Rating
-      Value: 3
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -60,9 +60,6 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251121T110205Z
-    - ID: "43cdbc7e-aa68-4d04-a13b-2d027ef29368"
-      Hint: Rating
-      Value: 3
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -100,9 +97,6 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251121T110205Z
-    - ID: "43cdbc7e-aa68-4d04-a13b-2d027ef29368"
-      Hint: Rating
-      Value: 3
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -140,9 +134,6 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251121T110205Z
-    - ID: "43cdbc7e-aa68-4d04-a13b-2d027ef29368"
-      Hint: Rating
-      Value: 3
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
