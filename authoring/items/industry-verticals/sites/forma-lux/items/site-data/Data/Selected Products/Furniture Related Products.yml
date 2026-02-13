@@ -3,6 +3,15 @@ ID: "35d36685-ceb3-4cbd-b3e4-d43a5ca33d8f"
 Parent: "41bdb3b9-a500-498c-a95c-5d4c6e24b313"
 Template: "0cb3fc95-fea8-40eb-9560-158e7d92a3a4"
 Path: "/sitecore/content/industry-verticals/forma-lux/Data/Selected Products/Furniture Related Products"
+SharedFields:
+- ID: "c3fb8c52-2f64-45bc-9970-ea340d7271fa"
+  Hint: ProductsList
+  Value: |
+    {683A4C94-17A8-4C36-93AE-CDD2C60B1FB2}
+    {DC635359-2002-438A-81C9-605141AA1CE3}
+    {76F9B02F-ADCD-4C45-A5DA-5047CF157D5E}
+    {4D01F6A1-9FBE-4D57-8C03-08CADA0704EA}
+    {79317D2A-7BB5-4B53-808E-7E4E465399FD}
 Languages:
 - Language: en
   Versions:
@@ -36,14 +45,6 @@ Languages:
       Hint: __Updated by
       Value: |
         sitecore\isuru.bandara@sitecore.com
-    - ID: "c3fb8c52-2f64-45bc-9970-ea340d7271fa"
-      Hint: ProductsList
-      Value: |
-        {683A4C94-17A8-4C36-93AE-CDD2C60B1FB2}
-        {DC635359-2002-438A-81C9-605141AA1CE3}
-        {76F9B02F-ADCD-4C45-A5DA-5047CF157D5E}
-        {4D01F6A1-9FBE-4D57-8C03-08CADA0704EA}
-        {79317D2A-7BB5-4B53-808E-7E4E465399FD}
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251201T113826Z
@@ -82,14 +83,6 @@ Languages:
       Hint: __Updated by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
-    - ID: "c3fb8c52-2f64-45bc-9970-ea340d7271fa"
-      Hint: ProductsList
-      Value: |
-        {683A4C94-17A8-4C36-93AE-CDD2C60B1FB2}
-        {DC635359-2002-438A-81C9-605141AA1CE3}
-        {76F9B02F-ADCD-4C45-A5DA-5047CF157D5E}
-        {4D01F6A1-9FBE-4D57-8C03-08CADA0704EA}
-        {79317D2A-7BB5-4B53-808E-7E4E465399FD}
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251219T104352Z
@@ -128,14 +121,6 @@ Languages:
       Hint: __Updated by
       Value: |
         sitecore\isuru.bandara@sitecore.com
-    - ID: "c3fb8c52-2f64-45bc-9970-ea340d7271fa"
-      Hint: ProductsList
-      Value: |
-        {683A4C94-17A8-4C36-93AE-CDD2C60B1FB2}
-        {DC635359-2002-438A-81C9-605141AA1CE3}
-        {76F9B02F-ADCD-4C45-A5DA-5047CF157D5E}
-        {4D01F6A1-9FBE-4D57-8C03-08CADA0704EA}
-        {79317D2A-7BB5-4B53-808E-7E4E465399FD}
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251217T110201Z
@@ -174,14 +159,6 @@ Languages:
       Hint: __Updated by
       Value: |
         sitecore\isuru.bandara@sitecore.com
-    - ID: "c3fb8c52-2f64-45bc-9970-ea340d7271fa"
-      Hint: ProductsList
-      Value: |
-        {683A4C94-17A8-4C36-93AE-CDD2C60B1FB2}
-        {DC635359-2002-438A-81C9-605141AA1CE3}
-        {76F9B02F-ADCD-4C45-A5DA-5047CF157D5E}
-        {4D01F6A1-9FBE-4D57-8C03-08CADA0704EA}
-        {79317D2A-7BB5-4B53-808E-7E4E465399FD}
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251217T104041Z

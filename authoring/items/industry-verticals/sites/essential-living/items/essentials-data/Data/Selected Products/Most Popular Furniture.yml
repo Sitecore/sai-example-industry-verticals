@@ -3,6 +3,17 @@ ID: "bb10a2a1-5d84-4e91-a517-76d6af518063"
 Parent: "054eab04-7cbe-466e-a8a7-889364e15fc9"
 Template: "0cb3fc95-fea8-40eb-9560-158e7d92a3a4"
 Path: "/sitecore/content/industry-verticals/essential-living/Data/Selected Products/Most Popular Furniture"
+SharedFields:
+- ID: "c3fb8c52-2f64-45bc-9970-ea340d7271fa"
+  Hint: ProductsList
+  Value: |
+    {98C1FCAD-FE74-4ED4-8F01-111693116A33}
+    {12FE9994-88B7-4254-B391-49E9DB6C24EF}
+    {8A15E69A-ABA2-4B97-BCE4-BF2FFF72AA43}
+    {AC52067A-3096-4CAC-890C-C754F96E6798}
+    {5706BF81-99ED-4BE1-B04C-816ACAF56D8B}
+    {B6EF5D55-27BA-4332-B939-46A314E83471}
+    {2E56E9CB-8A54-4AC6-ACEC-87D8151A4321}
 Languages:
 - Language: en
   Versions:
@@ -32,16 +43,6 @@ Languages:
       Hint: __Updated by
       Value: |
         sitecore\sanduni.galagoda@sitecore.com
-    - ID: "c3fb8c52-2f64-45bc-9970-ea340d7271fa"
-      Hint: ProductsList
-      Value: |
-        {98C1FCAD-FE74-4ED4-8F01-111693116A33}
-        {12FE9994-88B7-4254-B391-49E9DB6C24EF}
-        {8A15E69A-ABA2-4B97-BCE4-BF2FFF72AA43}
-        {AC52067A-3096-4CAC-890C-C754F96E6798}
-        {5706BF81-99ED-4BE1-B04C-816ACAF56D8B}
-        {B6EF5D55-27BA-4332-B939-46A314E83471}
-        {2E56E9CB-8A54-4AC6-ACEC-87D8151A4321}
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251117T134430Z

@@ -3,6 +3,13 @@ ID: "56a1d516-1b59-4db3-be21-5f9ed7b8d456"
 Parent: "3dd5dfcc-0769-4306-9877-71df72ff22c5"
 Template: "3dd5dfcc-0769-4306-9877-71df72ff22c5"
 Path: "/sitecore/templates/Project/industry-verticals/Custom Templates/Products/Product Sizes/Product Size/__Standard Values"
+SharedFields:
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "fdd0cb42-23b3-4584-b74c-fa39bc110bb9"
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Value: 1
 Languages:
 - Language: en
   Versions:
@@ -21,7 +28,7 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "69d6c5a5-48c5-4a57-9b5e-24db9f072c08"
+      Value: "edc078cf-a64e-4f55-8ca2-7d9cf4e5e799"
     - ID: "91a5f0ce-60e5-494d-ac50-9308b916b490"
       Hint: ProductSize
       Value: $name
@@ -31,4 +38,4 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251117T111726Z
+      Value: 20260213T062054Z

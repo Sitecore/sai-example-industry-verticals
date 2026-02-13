@@ -3,6 +3,14 @@ ID: "381203f0-6ee1-4675-b043-c8d4ddbd6b86"
 Parent: "41bdb3b9-a500-498c-a95c-5d4c6e24b313"
 Template: "0cb3fc95-fea8-40eb-9560-158e7d92a3a4"
 Path: "/sitecore/content/industry-verticals/forma-lux/Data/Selected Products/Common Related Products"
+SharedFields:
+- ID: "c3fb8c52-2f64-45bc-9970-ea340d7271fa"
+  Hint: ProductsList
+  Value: |
+    {683A4C94-17A8-4C36-93AE-CDD2C60B1FB2}
+    {DC635359-2002-438A-81C9-605141AA1CE3}
+    {861E20CD-4A19-416F-9818-E9DDF8E985D9}
+    {76F9B02F-ADCD-4C45-A5DA-5047CF157D5E}
 Languages:
 - Language: en
   Versions:
@@ -36,13 +44,6 @@ Languages:
       Hint: __Updated by
       Value: |
         sitecore\ranula.gamage@sitecore.com
-    - ID: "c3fb8c52-2f64-45bc-9970-ea340d7271fa"
-      Hint: ProductsList
-      Value: |
-        {683A4C94-17A8-4C36-93AE-CDD2C60B1FB2}
-        {DC635359-2002-438A-81C9-605141AA1CE3}
-        {861E20CD-4A19-416F-9818-E9DDF8E985D9}
-        {76F9B02F-ADCD-4C45-A5DA-5047CF157D5E}
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251127T103505Z
@@ -81,13 +82,6 @@ Languages:
       Hint: __Updated by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
-    - ID: "c3fb8c52-2f64-45bc-9970-ea340d7271fa"
-      Hint: ProductsList
-      Value: |
-        {683A4C94-17A8-4C36-93AE-CDD2C60B1FB2}
-        {DC635359-2002-438A-81C9-605141AA1CE3}
-        {861E20CD-4A19-416F-9818-E9DDF8E985D9}
-        {76F9B02F-ADCD-4C45-A5DA-5047CF157D5E}
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251219T104352Z
@@ -126,13 +120,6 @@ Languages:
       Hint: __Updated by
       Value: |
         sitecore\isuru.bandara@sitecore.com
-    - ID: "c3fb8c52-2f64-45bc-9970-ea340d7271fa"
-      Hint: ProductsList
-      Value: |
-        {683A4C94-17A8-4C36-93AE-CDD2C60B1FB2}
-        {DC635359-2002-438A-81C9-605141AA1CE3}
-        {861E20CD-4A19-416F-9818-E9DDF8E985D9}
-        {76F9B02F-ADCD-4C45-A5DA-5047CF157D5E}
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251217T110201Z
@@ -171,13 +158,6 @@ Languages:
       Hint: __Updated by
       Value: |
         sitecore\isuru.bandara@sitecore.com
-    - ID: "c3fb8c52-2f64-45bc-9970-ea340d7271fa"
-      Hint: ProductsList
-      Value: |
-        {683A4C94-17A8-4C36-93AE-CDD2C60B1FB2}
-        {DC635359-2002-438A-81C9-605141AA1CE3}
-        {861E20CD-4A19-416F-9818-E9DDF8E985D9}
-        {76F9B02F-ADCD-4C45-A5DA-5047CF157D5E}
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251217T104041Z

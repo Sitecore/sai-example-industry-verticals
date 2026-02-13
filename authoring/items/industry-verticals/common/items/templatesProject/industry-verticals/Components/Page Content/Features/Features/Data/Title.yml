@@ -6,7 +6,7 @@ Path: "/sitecore/templates/Project/industry-verticals/Components/Page Content/Fe
 SharedFields:
 - ID: "24cb32f0-e364-4f37-b400-0f2899097b5b"
   Hint: Enable Shared Language Fallback
-  Value: 1
+  Value: 
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: "Single-Line Text"
@@ -15,7 +15,7 @@ SharedFields:
   Value: 100
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "df6ecdfa-9095-48ab-a411-28638855b2f6"
+  Value: "f85dd34a-55e3-4cd1-8194-af74a91f0acc"
 Languages:
 - Language: "de-DE"
   Fields:
@@ -65,17 +65,17 @@ Languages:
       Value: 20160516T075921Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "23f85bd1-596f-444d-a5b8-56a81597b68e"
+      Value: "2d751166-5bbb-4740-a377-6c7fe8a5e732"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\neli.kostadinova@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251111T120249Z
+      Value: 20260213T060400Z
     - ID: "fa622538-0c13-4130-a001-45984241aa00"
       Hint: Enable Language Fallback
-      Value: 1
+      Value: 
 - Language: "ja-JP"
   Fields:
   - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"

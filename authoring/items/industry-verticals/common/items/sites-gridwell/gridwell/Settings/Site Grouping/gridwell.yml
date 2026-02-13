@@ -17,9 +17,15 @@ SharedFields:
 - ID: "6dd8a774-2ce5-4c9e-be7f-1eaf65789956"
   Hint: ThumbnailsRootPath
   Value: "{25DA0015-281A-4455-9197-1C1B0F52998E}"
+- ID: "6e6da5b0-8d01-4514-b7dd-1940aff3e8cd"
+  Hint: FieldLanguageFallback
+  Value: 1
 - ID: "85a7501a-86d9-4243-9075-0b727c3a6db4"
   Hint: Name
   Value: Gridwell
+- ID: "8c436235-b85d-4097-89cf-d5a4fa70cc0a"
+  Hint: ItemLanguageFallback
+  Value: 1
 - ID: "8e0dd914-9afb-4d45-bf8b-7ff5d6e5337e"
   Hint: HostName
   Value: *
@@ -34,7 +40,7 @@ SharedFields:
   Value: *
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "5caaf04f-a0bd-40c1-bbb9-7cd0f47beb6a"
+  Value: "f441e2c5-c70f-4adf-baed-3d061222db28"
 - ID: "f57099a3-526a-49f2-aebd-635453e48875"
   Hint: RenderingHost
   Value: energy
@@ -59,11 +65,11 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "075aadef-1c7b-44f6-8ad0-65f06a832d47"
+      Value: "65ad4921-01ae-42ec-bd90-7a30a8d2e6cd"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\neli.kostadinova@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260113T142015Z
+      Value: 20260213T053324Z

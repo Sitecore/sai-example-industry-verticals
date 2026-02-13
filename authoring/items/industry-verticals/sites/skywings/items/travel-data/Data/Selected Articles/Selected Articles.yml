@@ -3,6 +3,18 @@ ID: "d0d4a3ba-72ab-440f-9e94-a4457816f2d4"
 Parent: "4540ded5-d0ef-409a-b0d8-925cd01e4742"
 Template: "30a718e4-b5b1-49df-aea6-ad761528b5c5"
 Path: "/sitecore/content/industry-verticals/skywings/Data/Selected Articles/Selected Articles"
+SharedFields:
+- ID: "9097fa39-7bba-4e25-92f0-0b25d187509d"
+  Hint: ExploreLink
+  Value: |
+    <link linktype="internal" id="{4205BA63-338E-4A96-9163-036C9BCC6573}" anchor="" querystring="" target="_blank" class="" text="View All Articles" title=""/>
+- ID: "a6a4a7d3-4017-4996-9264-27b1d3030273"
+  Hint: Articles
+  Value: |
+    {3BE10761-43DC-427B-A322-832D1C3BC50D}
+    {1B1DD551-5E43-4103-8B94-C86661479DA9}
+    {5A985162-028D-432B-AD70-68747CC23E0D}
+    {9B105A20-062F-45DE-919A-E66706561D65}
 Languages:
 - Language: en
   Versions:
@@ -32,17 +44,6 @@ Languages:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "b6ffd6dd-394b-4def-b659-85f660986772"
-    - ID: "9097fa39-7bba-4e25-92f0-0b25d187509d"
-      Hint: ExploreLink
-      Value: |
-        <link linktype="internal" id="{4205BA63-338E-4A96-9163-036C9BCC6573}" anchor="" querystring="" target="_blank" class="" text="View All Articles" title=""/>
-    - ID: "a6a4a7d3-4017-4996-9264-27b1d3030273"
-      Hint: Articles
-      Value: |
-        {3BE10761-43DC-427B-A322-832D1C3BC50D}
-        {1B1DD551-5E43-4103-8B94-C86661479DA9}
-        {5A985162-028D-432B-AD70-68747CC23E0D}
-        {9B105A20-062F-45DE-919A-E66706561D65}
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |

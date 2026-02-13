@@ -3,6 +3,14 @@ ID: "166bebfe-3d4f-43be-91c4-be69e3300085"
 Parent: "24f7962d-e4af-4451-971e-96fec0ca588e"
 Template: "e0d630c5-41d5-4356-aeb0-be35b8d41ab9"
 Path: "/sitecore/content/industry-verticals/skywings/Data/Selected Destinations/Get Inspired"
+SharedFields:
+- ID: "5bae3343-b99c-47b8-a315-fd829e369d21"
+  Hint: Destinations
+  Value: |
+    {BE403F78-3BC6-4979-885C-CF28D4B4B387}
+    {AF3B2B85-D5CB-4241-BCEB-213CBEEF84C7}
+    {9F75E149-9659-487E-A3E8-D403341FE40A}
+    {E19CD770-8F55-411F-BF67-02BF32B5A013}
 Languages:
 - Language: en
   Versions:
@@ -18,13 +26,6 @@ Languages:
       Hint: __Owner
       Value: |
         sitecore\sanduni.galagoda@sitecore.com
-    - ID: "5bae3343-b99c-47b8-a315-fd829e369d21"
-      Hint: Destinations
-      Value: |
-        {BE403F78-3BC6-4979-885C-CF28D4B4B387}
-        {AF3B2B85-D5CB-4241-BCEB-213CBEEF84C7}
-        {9F75E149-9659-487E-A3E8-D403341FE40A}
-        {E19CD770-8F55-411F-BF67-02BF32B5A013}
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

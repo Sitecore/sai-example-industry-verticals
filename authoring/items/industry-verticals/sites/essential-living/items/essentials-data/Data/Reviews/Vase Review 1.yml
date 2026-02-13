@@ -3,6 +3,10 @@ ID: "f8b50942-5287-436c-b4a9-86c5d36aecea"
 Parent: "31417c4d-f55b-4764-994e-47b6e865d93b"
 Template: "58a32680-fc59-49bc-890c-fd69f7a9cf1a"
 Path: "/sitecore/content/industry-verticals/essential-living/Data/Reviews/Vase Review 1"
+SharedFields:
+- ID: "43cdbc7e-aa68-4d04-a13b-2d027ef29368"
+  Hint: Rating
+  Value: 5
 Languages:
 - Language: en
   Versions:
@@ -11,9 +15,6 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251124T103612Z
-    - ID: "43cdbc7e-aa68-4d04-a13b-2d027ef29368"
-      Hint: Rating
-      Value: 5
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |

@@ -4,6 +4,9 @@ Parent: "4439770c-a248-4a54-b9c0-f76f23fb818e"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: "/sitecore/templates/Project/industry-verticals/Components/Page Content/Section Wrapper/Section Wrapper/Data/Description"
 SharedFields:
+- ID: "24cb32f0-e364-4f37-b400-0f2899097b5b"
+  Hint: Enable Shared Language Fallback
+  Value: 
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: "Single-Line Text"
@@ -12,7 +15,7 @@ SharedFields:
   Value: 900
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "093f558e-9d1f-4078-8cc6-a0e771c00302"
+  Value: "fdea9e50-8490-4e3e-adda-2beb70e0ba34"
 Languages:
 - Language: en
   Versions:
@@ -31,11 +34,14 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ba89f75b-15a2-4c00-a9ff-c05e542b479d"
+      Value: "910aad91-ff70-455d-b08c-f79ff6bfd162"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\neli.kostadinova@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251110T105931Z
+      Value: 20260213T061509Z
+    - ID: "fa622538-0c13-4130-a001-45984241aa00"
+      Hint: Enable Language Fallback
+      Value: 
