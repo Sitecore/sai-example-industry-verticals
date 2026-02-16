@@ -99,14 +99,14 @@ Languages:
       Value: Get in touch with Forma Lux for design consultations, custom furniture solutions or to explore our collections and dealers.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6db40c0f-1bb9-4698-95e4-a1945cbca8c1"
+      Value: "d1809a33-45ef-4a6a-887b-c1117ddebafc"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\jeffrey.isham@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082513Z
+      Value: 20260210T163811Z
 - Language: "es-ES"
   Versions:
   - Version: 1

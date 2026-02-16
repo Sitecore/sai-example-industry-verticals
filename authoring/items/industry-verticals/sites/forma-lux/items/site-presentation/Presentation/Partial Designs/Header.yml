@@ -93,14 +93,14 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "46f5eb3a-751a-4ad5-8858-56de29290fd9"
+      Value: "9191f297-4a78-4e67-967f-78496457abb9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\neli.kostadinova@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082515Z
+      Value: 20260213T053924Z
 - Language: "es-ES"
   Versions:
   - Version: 1
@@ -141,17 +141,17 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b842ba65-09b3-4410-a7ad-b368248cb3cf"
+      Value: "a9982ba1-fa01-4c25-879e-06a96ed2085e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\INIwVuCCf0fzziGGBdz0UepKJ8K6him7
+        sitecore\neli.kostadinova@sitecore.com
     - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
       Hint: __Valid from
       Value: 20251219T104232Z
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260202T104046Z
+      Value: 20260213T053925Z
 - Language: "fr-CA"
   Versions:
   - Version: 1
@@ -194,11 +194,11 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6a82c736-050a-48ec-89e6-631aca7a23df"
+      Value: "f9898bc1-7b82-4a0c-a103-930784763a97"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\INIwVuCCf0fzziGGBdz0UepKJ8K6him7
+        sitecore\neli.kostadinova@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260202T104047Z
+      Value: 20260213T053925Z

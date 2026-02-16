@@ -78,14 +78,14 @@ Languages:
         sitecore\adamnaj
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1a52e60f-c600-409e-a7da-f114be488f16"
+      Value: "29ac1e55-7ab3-4040-88e2-450b1510abbf"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\neli.kostadinova@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251110T142708Z
+      Value: 20260213T061638Z
     - ID: "fa622538-0c13-4130-a001-45984241aa00"
       Hint: Enable Language Fallback
       Value: 1

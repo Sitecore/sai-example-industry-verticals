@@ -71,14 +71,14 @@ Languages:
       Value: 20111213T143500
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "301fbd1d-d708-4016-b705-b26458839cec"
+      Value: "fc082fea-c4bb-446b-8365-a53a11869060"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\neli.kostadinova@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251121T104439Z
+      Value: 20260213T061820Z
     - ID: "fa622538-0c13-4130-a001-45984241aa00"
       Hint: Enable Language Fallback
       Value: 1
